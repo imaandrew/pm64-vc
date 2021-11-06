@@ -1,0 +1,19 @@
+# Compiler binaries
+mwcc_compiler/
+
+# Tool artifacts
+__pycache__/
+tools/elf2dol
+
+# Build artifacts
+tools/asm_processor/tmp/
+build/
+*.o
+*.obj
+*.elf
+*.map
+*.app
+*.exe
+
+# IDE artifacts
+.vscode/

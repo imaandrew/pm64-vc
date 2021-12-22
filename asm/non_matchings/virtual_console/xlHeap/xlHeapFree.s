@@ -3,7 +3,7 @@ glabel xlHeapFree
 /* 800861B8 000816D8  7C 08 02 A6 */	mflr r0
 /* 800861BC 000816DC  90 01 00 24 */	stw r0, 0x24(r1)
 /* 800861C0 000816E0  39 61 00 20 */	addi r11, r1, 0x20
-/* 800861C4 000816E4  48 0D 67 81 */	bl func_8015C944
+/* 800861C4 000816E4  48 0D 67 81 */	bl __save_registersr27
 /* 800861C8 000816E8  80 C3 00 00 */	lwz r6, 0(r3)
 /* 800861CC 000816EC  38 8D 88 F8 */	addi r4, r13, gpHeapBlockFirst-_SDA_BASE_
 /* 800861D0 000816F0  80 0D 88 F8 */	lwz r0, gpHeapBlockFirst-_SDA_BASE_(r13)
@@ -89,7 +89,7 @@ lbl_800862B0:
 /* 800862E8 00081808  90 1D 00 00 */	stw r0, 0(r29)
 lbl_800862EC:
 /* 800862EC 0008180C  39 61 00 20 */	addi r11, r1, 0x20
-/* 800862F0 00081810  48 0D 66 A1 */	bl func_8015C990
+/* 800862F0 00081810  48 0D 66 A1 */	bl __restore_registersr27
 /* 800862F4 00081814  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800862F8 00081818  7C 08 03 A6 */	mtlr r0
 /* 800862FC 0008181C  38 21 00 20 */	addi r1, r1, 0x20

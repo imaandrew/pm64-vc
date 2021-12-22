@@ -24,7 +24,9 @@ SECTIONS {
     extabindex_ : { *(extabindex_) }
 
     .text : { 
-        text.o(.text)
+        code_800070C0.o(.text)
+        xlHeap.o(.text)
+        code_80086EBC.o(.text)
         *(.text) 
     }
 

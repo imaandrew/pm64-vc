@@ -4,9 +4,8 @@
 
 .balign 0x20
 
-.global lbl_802486C0
-lbl_802486C0:
+glabel lbl_802486C0
 	.skip 0x8
-.global lbl_802486C8
-lbl_802486C8:
+
+glabel lbl_802486C8
 	.skip 0x8

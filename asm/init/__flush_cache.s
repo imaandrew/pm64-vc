@@ -2,8 +2,7 @@
 
 .section .text, "ax"
 
-.global __flush_cache
-__flush_cache:
+glabel __flush_cache
 /* 80004304 00000404  3C A0 FF FF */	lis r5, 0xFFFFFFF1@h
 /* 80004308 00000408  60 A5 FF F1 */	ori r5, r5, 0xFFFFFFF1@l
 /* 8000430C 0000040C  7C A5 18 38 */	and r5, r5, r3

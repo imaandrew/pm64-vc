@@ -25,6 +25,8 @@ SECTIONS {
 
     .text : { 
         code_800070C0.o(.text)
+        tree.o(.text)
+        code_80040474.o(.text)
         xlHeap.o(.text)
         code_80086EBC.o(.text)
         *(.text) 

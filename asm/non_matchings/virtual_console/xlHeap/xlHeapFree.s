@@ -5,11 +5,11 @@ glabel xlHeapFree
 /* 800861C0 000816E0  39 61 00 20 */	addi r11, r1, 0x20
 /* 800861C4 000816E4  48 0D 67 81 */	bl __save_registersr27
 /* 800861C8 000816E8  80 C3 00 00 */	lwz r6, 0(r3)
-/* 800861CC 000816EC  38 8D 88 F8 */	addi r4, r13, gpHeapBlockFirst-_SDA_BASE_
-/* 800861D0 000816F0  80 0D 88 F8 */	lwz r0, gpHeapBlockFirst-_SDA_BASE_(r13)
+/* 800861CC 000816EC  38 8D 88 F8 */	addi r4, r13, gpHeapBlockFirst@sda21
+/* 800861D0 000816F0  80 0D 88 F8 */	lwz r0, gpHeapBlockFirst@sda21(r13)
 /* 800861D4 000816F4  7C 7D 1B 78 */	mr r29, r3
 /* 800861D8 000816F8  3B E0 00 00 */	li r31, 0
-/* 800861DC 000816FC  38 AD 88 F0 */	addi r5, r13, gpHeapBlockLast-_SDA_BASE_
+/* 800861DC 000816FC  38 AD 88 F0 */	addi r5, r13, gpHeapBlockLast@sda21
 /* 800861E0 00081700  7C 00 30 40 */	cmplw r0, r6
 /* 800861E4 00081704  41 81 00 10 */	bgt lbl_800861F4
 /* 800861E8 00081708  80 05 00 00 */	lwz r0, 0(r5)
@@ -80,7 +80,7 @@ lbl_800862B0:
 /* 800862C4 000817E4  7F E3 FB 78 */	mr r3, r31
 /* 800862C8 000817E8  4B FF F7 49 */	bl xlHeapBlockCacheAdd
 /* 800862CC 000817EC  57 E6 10 3A */	slwi r6, r31, 2
-/* 800862D0 000817F0  38 AD 88 E0 */	addi r5, r13, lbl_80246D60-_SDA_BASE_
+/* 800862D0 000817F0  38 AD 88 E0 */	addi r5, r13, lbl_80246D60@sda21
 /* 800862D4 000817F4  7C 85 30 2E */	lwzx r4, r5, r6
 /* 800862D8 000817F8  38 00 00 00 */	li r0, 0
 /* 800862DC 000817FC  38 60 00 01 */	li r3, 1

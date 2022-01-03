@@ -112,8 +112,8 @@ lbl_80086C90:
 /* 80086CBC 000821DC  48 00 00 6C */	b lbl_80086D28
 lbl_80086CC0:
 /* 80086CC0 000821E0  57 C0 10 3A */	slwi r0, r30, 2
-/* 80086CC4 000821E4  38 8D 88 F8 */	addi r4, r13, gpHeapBlockFirst-_SDA_BASE_
-/* 80086CC8 000821E8  38 6D 88 F0 */	addi r3, r13, gpHeapBlockLast-_SDA_BASE_
+/* 80086CC4 000821E4  38 8D 88 F8 */	addi r4, r13, gpHeapBlockFirst@sda21
+/* 80086CC8 000821E8  38 6D 88 F0 */	addi r3, r13, gpHeapBlockLast@sda21
 /* 80086CCC 000821EC  7C C4 00 2E */	lwzx r6, r4, r0
 /* 80086CD0 000821F0  7C 83 00 2E */	lwzx r4, r3, r0
 /* 80086CD4 000821F4  38 A0 00 00 */	li r5, 0

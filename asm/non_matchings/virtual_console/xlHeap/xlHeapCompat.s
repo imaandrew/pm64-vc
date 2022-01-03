@@ -1,7 +1,7 @@
 glabel xlHeapCompat
 /* 80085E10 00081330  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 80085E14 00081334  7C 08 02 A6 */	mflr r0
-/* 80085E18 00081338  38 8D 88 F8 */	addi r4, r13, gpHeapBlockFirst-_SDA_BASE_
+/* 80085E18 00081338  38 8D 88 F8 */	addi r4, r13, gpHeapBlockFirst@sda21
 /* 80085E1C 0008133C  90 01 00 14 */	stw r0, 0x14(r1)
 /* 80085E20 00081340  54 60 10 3A */	slwi r0, r3, 2
 /* 80085E24 00081344  93 E1 00 0C */	stw r31, 0xc(r1)

@@ -1,4 +1,4 @@
-glabel func_800869CC
+glabel xlHeapFill
 /* 800869CC 00081EEC  2C 04 00 10 */	cmpwi r4, 0x10
 /* 800869D0 00081EF0  38 E4 FF FF */	addi r7, r4, -1
 /* 800869D4 00081EF4  54 E7 E1 3E */	srwi r7, r7, 4

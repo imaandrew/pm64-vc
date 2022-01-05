@@ -20,7 +20,7 @@ GLOBAL_ASM("asm/non_matchings/virtual_console/xlHeap/xlHeapFree.s")
 
 GLOBAL_ASM("asm/non_matchings/virtual_console/xlHeap/xlHeapCopy.s")
 
-GLOBAL_ASM("asm/non_matchings/virtual_console/xlHeap/func_800869CC.s")
+GLOBAL_ASM("asm/non_matchings/virtual_console/xlHeap/xlHeapFill.s")
 
 GLOBAL_ASM("asm/non_matchings/virtual_console/xlHeap/xlHeapFill32.s")
 

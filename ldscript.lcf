@@ -29,6 +29,8 @@ SECTIONS {
         code_80040474.o(.text)
         ram.o(.text)
         code_80041A3C.o(.text)
+        rom.o(.text)
+        code_800438B0.o(.text)
         xlHeap.o(.text)
         code_80086EBC.o(.text)
         *(.text) 

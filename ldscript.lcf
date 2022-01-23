@@ -25,14 +25,20 @@ SECTIONS {
 
     .text : { 
         code_800070C0.o(.text)
+        cpu.o(.text)
         tree.o(.text)
         code_80040474.o(.text)
         ram.o(.text)
         code_80041A3C.o(.text)
         rom.o(.text)
         code_800438B0.o(.text)
+        xlFile.o(.text)
+        xlText.o(.text)
+        xlList.o(.text)
         xlHeap.o(.text)
         code_80086EBC.o(.text)
+        xlObject.o(.text)
+        code_800873F8.o(.text)
         *(.text) 
     }
 

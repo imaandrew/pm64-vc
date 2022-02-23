@@ -28,6 +28,6 @@ for func in funcs:
         f.write(func)
 
     with open(f"{args.cfile}", "a") as f:
-        f.write(f'GLOBAL_ASM("{asm_dir}/{name}.s")\n\n')
+        f.write(f'#pragma GLOBAL_ASM("{asm_dir}/{name}.s")\n\n')
 
 print(f"You can now delete {args.asmfile}")

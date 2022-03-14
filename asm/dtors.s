@@ -5,4 +5,13 @@
 .balign 0x20
 
 glabel lbl_80174260
-	.incbin "00000001.app", 0x170360, 0x20
+	# ROM: 0x170360
+	.4byte 0x8015C0E0  ;# ptr
+	.4byte 0x8015D140  ;# ptr
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+

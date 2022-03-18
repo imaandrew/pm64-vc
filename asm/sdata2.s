@@ -1175,7 +1175,8 @@ glabel lbl_80247BD0
 	.asciz "__shl2i"
 	.asciz "abort"
 	.balign 4
-	.4byte 0x61627300
+	.asciz "abs"
+	.balign 4
 	.asciz "acos"
 	.balign 4
 	.asciz "asin"
@@ -1187,17 +1188,18 @@ glabel lbl_80247BD0
 	.asciz "atoi"
 	.balign 4
 	.asciz "atol"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "bsearch"
 	.asciz "ceil"
 	.balign 4
 	.asciz "clock"
 	.balign 4
-	.4byte 0x636F7300
+	.asciz "cos"
+	.balign 4
 	.asciz "exit"
 	.balign 4
-	.4byte 0x65787000
+	.asciz "exp"
+	.balign 4
 	.asciz "floor"
 	.balign 4
 	.asciz "fmod"
@@ -1209,8 +1211,8 @@ glabel lbl_80247BD0
 	.balign 4
 	.asciz "labs"
 	.balign 4
-	.4byte 0x6C6F6700
-	.4byte 0
+	.asciz "log"
+	.balign 8
 	.asciz "longjmp"
 	.asciz "memchr"
 	.balign 4
@@ -1223,14 +1225,15 @@ glabel lbl_80247BD0
 	.balign 4
 	.asciz "mktime"
 	.balign 4
-	.4byte 0x706F7700
+	.asciz "pow"
+	.balign 4
 	.asciz "printf"
 	.balign 4
 	.asciz "qsort"
 	.balign 4
 	.asciz "rand"
 	.balign 4
-	.4byte 0x73696E00
+	.asciz "sin"
 	.asciz "sprintf"
 	.asciz "sqrt"
 	.balign 4
@@ -1262,11 +1265,10 @@ glabel lbl_80247BD0
 	.asciz "strtol"
 	.balign 4
 	.asciz "strtoul"
-	.4byte 0x74616E00
-	.4byte 0
+	.asciz "tan"
+	.balign 8
 	.asciz "vprintf"
-	.4byte 0
-	.4byte 0
+	.balign 16
 
 
 glabel lbl_80247DD0
@@ -2202,12 +2204,12 @@ glabel lbl_802480C8
 	# ROM: 0x1AB068
 	.4byte 0x43300000
 	.4byte 0x80000000
-	.4byte 0x2E000000
-	.4byte 0
+	.asciz "."
+	.balign 8
 	.asciz "AM|PM"
 	.balign 4
-	.4byte 0x25540000
-	.4byte 0
+	.asciz "%T"
+	.balign 8
 
 
 glabel lbl_802480E8

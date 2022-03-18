@@ -65,8 +65,7 @@ glabel lbl_80179740
 	.asciz "vc64_RVL.c"
 	.balign 4
 	.asciz "       Please reduce memory-size to 24MB (using 'setsmemsize 0x1800000')\n\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801798C0
@@ -1561,7 +1560,7 @@ glabel lbl_8017AE64
 	.4byte 0x8000E4C8  ;# ptr
 	.asciz "CALLED: ceil_w single (%p)\n"
 	.asciz "CALLED: ceil_w double (%p)\n"
-	.4byte 0
+	.balign 8
 	.asciz "ERROR: CVT_S_D\n"
 	.asciz "ERROR: ADD_W\n"
 	.balign 4
@@ -1584,8 +1583,7 @@ glabel lbl_8017AE64
 	.asciz "ERROR: TRUNC_W_W\n"
 	.balign 4
 	.asciz "ERROR: CEIL_W_W\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "ERROR: CVT_W_W\n"
 	.asciz "ERROR: C.F_W\n"
 	.balign 4
@@ -1601,8 +1599,7 @@ glabel lbl_8017AE64
 	.asciz "ERROR: C.SF_W\n"
 	.balign 4
 	.asciz "ERROR: C.NGLE_W\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "ERROR: C.SEQ_W\n"
 	.asciz "ERROR: C.NGL_W\n"
 	.asciz "ERROR: C.LT_W\n"
@@ -1632,8 +1629,7 @@ glabel lbl_8017AE64
 	.asciz "ERROR: TRUNC_W_L\n"
 	.balign 4
 	.asciz "ERROR: CEIL_W_L\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "ERROR: CVT_W_L\n"
 	.asciz "ERROR: C.F_L\n"
 	.balign 4
@@ -1649,8 +1645,7 @@ glabel lbl_8017AE64
 	.asciz "ERROR: C.SF_L\n"
 	.balign 4
 	.asciz "ERROR: C.NGLE_L\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "ERROR: C.SEQ_L\n"
 	.asciz "ERROR: C.NGL_L\n"
 	.asciz "ERROR: C.LT_L\n"
@@ -2743,8 +2738,7 @@ glabel lbl_8017C164
 	.asciz "1 function overlapped for %p - %p ???\n"
 	.balign 4
 	.asciz "2 function overlapped for %p - %p ???\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.4byte 0x80246518  ;# ptr
 	.4byte 0x0000000C
 	.4byte 0
@@ -5626,8 +5620,8 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0x0000002C
-	.asciz "8M,7"
-	.byte 0x00, 0x00, 0x2B
+	.4byte 0x384D2C37
+	.4byte 0x0000002B
 	.4byte 0x3954FA00
 	.4byte 0
 	.4byte 0
@@ -5892,8 +5886,8 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0x8005BE1C  ;# ptr
 	.4byte 0x000000C8
-	.asciz "Lw#H"
-	.byte 0x00, 0x00, 0xBC
+	.4byte 0x4C772348
+	.4byte 0x000000BC
 	.4byte 0xEA1B798E
 	.4byte 0x000000CA
 	.4byte 0xEECDE8D5
@@ -6960,8 +6954,8 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0x8005C130  ;# ptr
 	.4byte 0x00000022
-	.asciz "]DqC"
-	.byte 0x00, 0x00, 0x33
+	.4byte 0x5D447143
+	.4byte 0x00000033
 	.4byte 0xBFD9B964
 	.4byte 0x00000082
 	.4byte 0x110CA1BB
@@ -7001,8 +6995,7 @@ glabel lbl_8018036C
 	.asciz "/tmp/HBMSE.brsar"
 	.balign 4
 	.asciz "/tmp/opera.arc"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "Huf8_HomeButtonSe.brsar"
 	.asciz "Opera.arc"
 	.balign 4
@@ -7017,8 +7010,7 @@ glabel lbl_8018036C
 	.asciz "home.csv"
 	.balign 4
 	.asciz "config.txt"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80180430
@@ -7564,9 +7556,7 @@ glabel lbl_80180C78
 glabel lbl_80180C88
 	# ROM: 0x17CD88
 	.asciz "banner.bin"
-	.balign 4
-	.4byte 0
-
+	.balign 8
 
 glabel lbl_80180C98
 	# ROM: 0x17CD98
@@ -8200,8 +8190,8 @@ glabel lbl_801814E0
 	.4byte 0x1E6B2953
 	.4byte 0x48330A79
 	.4byte 0x3E602216
-	.asciz ",lQF6"
-	.byte 0x0C, 0x74
+	.4byte 0x2C6C5146
+	.4byte 0x36000C74
 	.4byte 0x20642A58
 	.4byte 0x1740344C
 	.4byte 0x7A6F0510
@@ -8911,222 +8901,136 @@ glabel lbl_801816C0
 	.4byte 0x00000002
 	.4byte 0x0FA7C7C4
 	.asciz "memcpy"
-	.byte 0x6D
-	.asciz "emset"
-	.byte 0x73, 0x74
-	.asciz "rlen"
-	.byte 0x5F, 0x5F, 0x76
-	.asciz "a_arg"
-	.byte 0x5F, 0x5F
-	.asciz "register_global_object"
-	.byte 0x5F
-	.asciz "_construct_new_array"
-	.byte 0x5F, 0x5F, 0x63
-	.asciz "onstruct_array"
-	.byte 0x5F
-	.asciz "_destroy_arr"
-	.byte 0x5F, 0x5F, 0x70
-	.asciz "tmf_scall"
-	.byte 0x5F, 0x5F
-	.asciz "cvt_fp2unsigned"
+	.asciz "memset"
+	.asciz "strlen"
+	.asciz "__va_arg"
+	.asciz "__register_global_object"
+	.asciz "__construct_new_array"
+	.asciz "__construct_array"
+	.asciz "__destroy_arr"
+	.asciz "__ptmf_scall"
+	.asciz "__cvt_fp2unsigned"
 	.asciz "__div2i"
 	.asciz "__mod2i"
 	.asciz "__shl2i"
 	.asciz "__cvt_sll_dbl"
-	.byte 0x5F, 0x5F
-	.asciz "setjmp"
-	.byte 0x6C
-	.asciz "ongjmp"
-	.byte 0x5F
-	.asciz "_files"
-	.byte 0x61
-	.4byte 0x6273006C
-	.4byte 0x61627300
+	.asciz "__setjmp"
+	.asciz "longjmp"
+	.asciz "__files"
+	.asciz "abs"
+	.asciz "labs"
 	.asciz "bsearch"
 	.asciz "_current_locale"
 	.asciz "memmove"
 	.asciz "memchr"
-	.byte 0x6D
-	.asciz "emcmp"
-	.byte 0x70, 0x72
-	.asciz "intf"
-	.byte 0x66, 0x70, 0x72
-	.asciz "intf"
-	.byte 0x76, 0x70, 0x72
-	.asciz "intf"
-	.byte 0x76, 0x73, 0x6E
+	.asciz "memcmp"
 	.asciz "printf"
-	.byte 0x76
-	.asciz "sprintf"
+	.asciz "fprintf"
+	.asciz "vprintf"
+	.asciz "vsnprintf"
+	.asciz "vsprintf"
 	.asciz "snprintf"
-	.byte 0x73, 0x70, 0x72
-	.asciz "intf"
-	.byte 0x71, 0x73, 0x6F
-	.4byte 0x72740072
-	.4byte 0x616E6400
+	.asciz "sprintf"
+	.asciz "qsort"
+	.asciz "rand"
 	.asciz "srand"
-	.byte 0x73, 0x73
-	.asciz "canf"
-	.byte 0x73, 0x74, 0x72
-	.4byte 0x63707900
+	.asciz "sscanf"
+	.asciz "strcpy"
 	.asciz "strncpy"
 	.asciz "strcat"
-	.byte 0x73
-	.asciz "trncat"
-	.byte 0x73
-	.asciz "trcmp"
-	.byte 0x73, 0x74
-	.asciz "rncmp"
-	.byte 0x73, 0x74
-	.asciz "rchr"
-	.byte 0x73, 0x74, 0x72
-	.asciz "rchr"
-	.byte 0x73, 0x74, 0x72
-	.asciz "pbrk"
-	.byte 0x73, 0x74, 0x72
-	.4byte 0x73706E00
+	.asciz "strncat"
+	.asciz "strcmp"
+	.asciz "strncmp"
+	.asciz "strchr"
+	.asciz "strrchr"
+	.asciz "strpbrk"
+	.asciz "strspn"
 	.asciz "strcspn"
 	.asciz "strstr"
-	.byte 0x73
-	.asciz "trtoul"
-	.byte 0x73
-	.asciz "trtol"
-	.byte 0x61, 0x74
-	.4byte 0x6F690061
-	.4byte 0x746F6C00
+	.asciz "strtoul"
+	.asciz "strtol"
+	.asciz "atoi"
+	.asciz "atol"
 	.asciz "clock"
-	.byte 0x6D, 0x6B
-	.asciz "time"
-	.byte 0x6C, 0x6F, 0x63
-	.asciz "altime"
-	.byte 0x73
-	.asciz "trftime"
+	.asciz "mktime"
+	.asciz "localtime"
+	.asciz "strftime"
 	.asciz "__double_huge"
-	.byte 0x67, 0x65
-	.asciz "tenv"
-	.byte 0x61, 0x62, 0x6F
-	.4byte 0x72740073
-	.asciz "tricmp"
-	.byte 0x73
-	.asciz "trnicmp"
+	.asciz "getenv"
+	.asciz "abort"
+	.asciz "stricmp"
+	.asciz "strnicmp"
 	.asciz "itoa"
-	.byte 0x61, 0x74, 0x61
-	.4byte 0x6E006365
-	.4byte 0x696C0063
-	.4byte 0x6F730066
-	.asciz "loor"
-	.byte 0x73, 0x69, 0x6E
-	.4byte 0x0074616E
-	.4byte 0x0061636F
-	.4byte 0x73006173
-	.4byte 0x696E0061
-	.asciz "tan2"
-	.byte 0x65, 0x78, 0x70
-	.4byte 0x00666D6F
-	.4byte 0x64006C6F
-	.4byte 0x6700706F
-	.4byte 0x77007371
-	.4byte 0x7274004E
-	.asciz "ETGetUniversalCalendar"
-	.byte 0x57
-	.asciz "WW_FONT_FILE_DATA_TABLE__"
-	.byte 0x41, 0x52
-	.asciz "CInitHandle"
+	.asciz "atan"
+	.asciz "ceil"
+	.asciz "cos"
+	.asciz "floor"
+	.asciz "sin"
+	.asciz "tan"
+	.asciz "acos"
+	.asciz "asin"
+	.asciz "atan2"
+	.asciz "exp"
+	.asciz "fmod"
+	.asciz "log"
+	.asciz "pow"
+	.asciz "sqrt"
+	.asciz "NETGetUniversalCalendar"
+	.asciz "WWW_FONT_FILE_DATA_TABLE__"
+	.asciz "ARCInitHandle"
 	.asciz "ARCOpen"
 	.asciz "ARCConvertPathToEntrynum"
-	.byte 0x41, 0x52, 0x43
-	.asciz "FastOpen"
-	.byte 0x41, 0x52, 0x43
-	.asciz "EntrynumIsDir"
-	.byte 0x41, 0x52
-	.asciz "CGetStartAddrInMem"
-	.byte 0x41
-	.asciz "RCGetStartOffset"
-	.byte 0x41, 0x52, 0x43
-	.asciz "GetLength"
-	.byte 0x41, 0x52
-	.asciz "CClose"
-	.byte 0x41
-	.asciz "RCReadDir"
-	.byte 0x53, 0x43
-	.asciz "GetLanguage"
+	.asciz "ARCFastOpen"
+	.asciz "ARCEntrynumIsDir"
+	.asciz "ARCGetStartAddrInMem"
+	.asciz "ARCGetStartOffset"
+	.asciz "ARCGetLength"
+	.asciz "ARCClose"
+	.asciz "ARCReadDir"
+	.asciz "SCGetLanguage"
 	.asciz "DVDConvertPathToEntrynum"
-	.byte 0x44, 0x56, 0x44
-	.asciz "EntrynumIsDir"
-	.byte 0x44, 0x56
-	.asciz "DFastOpen"
-	.byte 0x44, 0x56
-	.asciz "DClose"
-	.byte 0x44
-	.asciz "VDReadPrio"
-	.byte 0x44
-	.asciz "VDOpenDir"
-	.byte 0x44, 0x56
-	.asciz "DReadDir"
-	.byte 0x44, 0x56, 0x44
-	.asciz "CloseDir"
-	.byte 0x4F, 0x53, 0x52
-	.asciz "egisterVersion"
-	.byte 0x4F
-	.asciz "SReport"
+	.asciz "DVDEntrynumIsDir"
+	.asciz "DVDFastOpen"
+	.asciz "DVDClose"
+	.asciz "DVDReadPrio"
+	.asciz "DVDOpenDir"
+	.asciz "DVDReadDir"
+	.asciz "DVDCloseDir"
+	.asciz "OSRegisterVersion"
+	.asciz "OSReport"
 	.asciz "OSPanic"
 	.asciz "OSYieldThread"
-	.byte 0x4F, 0x53
-	.asciz "GetTime"
+	.asciz "OSGetTime"
 	.asciz "__OSGetSystemTime"
-	.byte 0x4F, 0x53
-	.asciz "CalendarTimeToTicks"
+	.asciz "OSCalendarTimeToTicks"
 	.asciz "exit"
-	.byte 0x63, 0x6F, 0x6E
-	.asciz "tentInitHandleNAND"
-	.byte 0x63
-	.asciz "ontentFastOpenNAND"
-	.byte 0x63
-	.asciz "ontentConvertPathToEntrynumNAND"
+	.asciz "contentInitHandleNAND"
+	.asciz "contentFastOpenNAND"
+	.asciz "contentConvertPathToEntrynumNAND"
 	.asciz "contentGetLengthNAND"
-	.byte 0x63, 0x6F, 0x6E
-	.asciz "tentSeekNAND"
-	.byte 0x63, 0x6F, 0x6E
-	.asciz "tentReadNAND"
-	.byte 0x63, 0x6F, 0x6E
-	.asciz "tentCloseNAND"
-	.byte 0x63, 0x6F
-	.asciz "ntentReleaseHandleNAND"
-	.byte 0x63
-	.asciz "ontentOpenDirNAND"
-	.byte 0x4E, 0x41
-	.asciz "NDCreate"
-	.byte 0x4E, 0x41, 0x4E
-	.asciz "DDelete"
+	.asciz "contentSeekNAND"
+	.asciz "contentReadNAND"
+	.asciz "contentCloseNAND"
+	.asciz "contentReleaseHandleNAND"
+	.asciz "contentOpenDirNAND"
+	.asciz "NANDCreate"
+	.asciz "NANDDelete"
 	.asciz "NANDRead"
-	.byte 0x4E, 0x41, 0x4E
-	.asciz "DWrite"
-	.byte 0x4E
-	.asciz "ANDSeek"
+	.asciz "NANDWrite"
+	.asciz "NANDSeek"
 	.asciz "NANDReadDir"
 	.asciz "NANDCreateDir"
-	.byte 0x4E, 0x41
-	.asciz "NDGetLength"
+	.asciz "NANDGetLength"
 	.asciz "NANDGetStatus"
-	.byte 0x4E, 0x41
-	.asciz "NDOpen"
-	.byte 0x4E
-	.asciz "ANDClose"
-	.byte 0x4E, 0x41, 0x4E
-	.asciz "DSafeOpen"
-	.byte 0x4E, 0x41
-	.asciz "NDSafeClose"
+	.asciz "NANDOpen"
+	.asciz "NANDClose"
+	.asciz "NANDSafeOpen"
+	.asciz "NANDSafeClose"
 	.asciz "NANDGetCurrentDir"
-	.byte 0x4E, 0x41
-	.asciz "NDGetType"
-	.byte 0x5F, 0x53
-	.asciz "DA_BASE_"
-	.byte 0x5F, 0x53, 0x44
-	.asciz "A2_BASE_"
-	.balign 4
-	.4byte 0
-	.4byte 0
-	.4byte 0
+	.asciz "NANDGetType"
+	.asciz "_SDA_BASE_"
+	.asciz "_SDA2_BASE_"
+	.balign 32
 
 
 glabel lbl_801825C0
@@ -9446,8 +9350,7 @@ glabel lbl_80182B78
 	.4byte 0x8008F3F4  ;# ptr
 	.asciz "OS ERROR: boot program is not for RVL target. Please use correct boot program.\n"
 	.asciz "Failed to run app"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "OS ERROR: apploader[D].img is not for RVL target. Please use correct apploader[D].img.\n"
 	.4byte 0x00000100
 	.4byte 0x00000200
@@ -9471,8 +9374,7 @@ glabel lbl_80182B78
 	.asciz ">>> OSINIT: exception %d vectored to debugger\n"
 	.balign 4
 	.asciz "Exceptions initialized...\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80182D78
@@ -9522,12 +9424,10 @@ glabel lbl_80182D88
 glabel lbl_80182E08
 	# ROM: 0x17EF08
 	.asciz ">>> L2 INVALIDATE : SHOULD NEVER HAPPEN\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "Machine check received\n"
 	.asciz "HID2 = 0x%x   SRR1 = 0x%x\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "Machine check was not DMA/locked cache related\n"
 	.asciz "DMAErrorHandler(): An error occurred while processing DMA.\n"
 	.asciz "The following errors have been detected and cleared :\n"
@@ -9547,14 +9447,13 @@ glabel lbl_80182E08
 	.asciz "L2 cache initialized\n"
 	.balign 4
 	.asciz "Locked cache machine check handler installed\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80183040
 	# ROM: 0x17F140
 	.asciz "------------------------- Context 0x%08x -------------------------\n"
-	.4byte 0
+	.balign 8
 	.asciz "r%-2d  = 0x%08x (%14d)  r%-2d  = 0x%08x (%14d)\n"
 	.asciz "LR   = 0x%08x                   CR   = 0x%08x\n"
 	.balign 4
@@ -9580,8 +9479,7 @@ glabel lbl_80183040
 glabel lbl_801831F8
 	# ROM: 0x17F2F8
 	.asciz "FPU-unavailable handler installed\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80183220
@@ -10407,8 +10305,7 @@ glabel lbl_801840FC
 glabel lbl_80184130
 	# ROM: 0x180230
 	.asciz "OSResetSystem() is obsoleted. It doesn't work any longer.\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80184170
@@ -22730,15 +22627,13 @@ glabel lbl_80190264
 glabel lbl_80190298
 	# ROM: 0x18C398
 	.asciz "/dev/net/kd/time"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801902B0
 	# ROM: 0x18C3B0
 	.asciz "/shared2/sys/NANDBOOTINFO"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "<< RVL_SDK - EXI \trelease build: Nov 30 2006 03:26:56 (0x4199_60831) >>"
 	.asciz "<< RVL_SDK - SI \trelease build: Nov 30 2006 03:31:44 (0x4199_60831) >>"
 	.balign 4
@@ -22789,8 +22684,7 @@ glabel lbl_80190388
 	.4byte 0x00680300
 	.4byte 0x009C0200
 	.asciz "SISetSamplingRate: unknown TV format. Use default."
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80190420
@@ -24136,8 +24030,7 @@ glabel lbl_80191A10
 glabel lbl_80191A2C
 	# ROM: 0x18DB2C
 	.asciz "/shared2/test2"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.4byte 0x0A0A0A83
 	.4byte 0x47838981
 	.4byte 0x5B82AA94
@@ -24265,7 +24158,7 @@ glabel lbl_80191A2C
 	.4byte 0x0A0A0A53
 	.4byte 0x6920E820
 	.asciz "verificato un errore.\nPremi il pulsante EJECT, estrai il disco\ndi gioco e spegni la console. Per maggiori\ninformazioni consulta il manuale di\nistruzioni della console Wii."
-	.4byte 0
+	.balign 8
 	.asciz "\n\n\nEr is een fout opgetreden.\nDruk op de ejectknop, verwijder de\nspeldisk en zet het systeem uit. Lees\nde Wii-handleiding voor meer informatie."
 
 
@@ -24289,19 +24182,17 @@ glabel lbl_80191EF0
 	.asciz "(DVDLowInit) Error: IOS_Open failed - connection limit has been reached\n"
 	.balign 4
 	.asciz "(DVDLowInit) IOS_Open failed, errorcode = %d\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "(newContext) ERROR: freeDvdContext.inUse (#%d) is true\n"
 	.asciz "(newContext) Now spinning in infinite loop\n"
-	.4byte 0
+	.balign 8
 	.asciz "(newContext) Something overwrote the context magic - spinning \n"
 	.asciz "@@@@@@ WARNING - Calling DVDLowReadDiskId with NULL ptr\n"
 	.balign 4
 	.asciz "@@@ (DVDLowReadDiskID) IOS_IoctlAsync returned error: %d\n"
 	.balign 4
 	.asciz "(DVDLowOpenPartition) eTicket memory is unaligned\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "(DVDLowOpenPartition) certificates memory is unaligned\n"
 	.asciz "@@@ (DVDLowOpenPartition) IOS_IoctlvAsync returned error: %d\n"
 	.balign 4
@@ -28378,8 +28269,7 @@ glabel lbl_80196A10
 	.asciz "__DSP_boot_task()  : Start Vector  : 0x%08X\n"
 	.balign 4
 	.asciz "__DSP_add_task() : Added task    : 0x%08X\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80196B50
@@ -28403,8 +28293,7 @@ glabel lbl_80196B68
 glabel lbl_80196B80
 	# ROM: 0x192C80
 	.asciz "<< RVL_SDK - NAND \trelease build: Nov 30 2006 03:32:57 (0x4199_60831) >>"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -28452,8 +28341,7 @@ glabel lbl_80196C48
 	.asciz "CAUTION!  Unexpected error code [%d] was found.\n"
 	.balign 4
 	.asciz "Failed to set home directory.\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "/title/00010000"
 	.asciz "/title/00010001"
 	.asciz "/title/00010003"
@@ -28614,15 +28502,13 @@ glabel lbl_80196F68
 glabel lbl_80196F8C
 	# ROM: 0x19308C
 	.asciz "Warning: ARCOpen(): file '%s' was not found under %s in the archive.\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80196FD8
 	# ROM: 0x1930D8
 	.asciz "APP ERROR: Not enough IPC arena\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "<< RVL_SDK - PAD \trelease build: Nov 30 2006 03:31:43 (0x4199_60831) >>"
 
 
@@ -28654,8 +28540,7 @@ glabel lbl_801970C0
 glabel lbl_801970DC
 	# ROM: 0x1931DC
 	.asciz "Deregister allocators because of fatal error.\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80197110
@@ -28694,12 +28579,10 @@ glabel lbl_801971A4
 	.asciz "connection is opened\n"
 	.balign 4
 	.asciz "connection is closed\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "clean up command queue\n"
 	.asciz "WARNING: disconnection for device handle not assigned to channel.\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80197248
@@ -28801,7 +28684,7 @@ glabel lbl_801973C0
 	.4byte 0xFFFFFFFF
 	.4byte 0xFF000000
 	.asciz "Dpd Setting is ok.\n"
-	.4byte 0
+	.balign 8
 	.asciz "Dpd Setting is broken.\n"
 	.asciz "Old Firmware uses default values because it has no Dpd Setting.\n"
 	.balign 4
@@ -28864,8 +28747,7 @@ glabel lbl_8019765C
 	.asciz "ack error --> report ID = %d, error code = %d\n"
 	.balign 4
 	.asciz "invalid ack!\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801977A0
@@ -30090,7 +29972,7 @@ glabel lbl_80198B20
 	.asciz "_intrBlkCtrlCb: nclean = %d\n"
 	.balign 4
 	.asciz "__intBlkCtrlCb: got invalid nclean\n"
-	.4byte 0
+	.balign 8
 	.asciz "Freeing clean[%d] = %x\n"
 	.asciz "iosFree(%d, 0x%x) failed: %d\n"
 	.balign 4
@@ -30146,14 +30028,12 @@ glabel lbl_80198B20
 	.balign 4
 	.asciz "GetStr - _GetStrCb\n"
 	.asciz " GetAsciiStrAsync: Not enough memory\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "__CtrlMsgInt failed %d\n"
 	.asciz "GetDescrCb returned: %d\n"
 	.balign 4
 	.asciz "GetDevDescr\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "GetDevDescr: Not enough memory\n"
 	.asciz "GetDevDescr: %d\n"
 	.balign 4
@@ -30272,8 +30152,7 @@ glabel lbl_801992D0
 	.asciz "write stored link key\n"
 	.balign 4
 	.asciz "addr : %02x:%02x:%02x:%02x:%02x:%02x\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "key  : %02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x\n"
 	.asciz "Cancel searching because 4 connections exist.\n"
 	.balign 4
@@ -30357,8 +30236,7 @@ glabel lbl_801995A4
 	.asciz "WUDStopSyncSimple()\n"
 	.balign 4
 	.asciz "WUDStartClearDevice()\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801995D8
@@ -30465,8 +30343,7 @@ glabel lbl_80199700
 glabel lbl_8019975C
 	# ROM: 0x19585C
 	.asciz "start WUDiInitSub()\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "WUDiAutoSync()\n"
 	.asciz "WUDiCancelSync()\n"
 	.balign 4
@@ -30500,8 +30377,7 @@ glabel lbl_801998AC
 	.asciz "WARNING: USB_CLOSE_FAILURE!\n"
 	.balign 4
 	.asciz "WUDSecurityCallback: "
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "BTA_ENABLE_EVT\n"
 	.asciz "host : %02x:%02x:%02x:%02x:%02x:%02x\n"
 	.balign 4
@@ -30611,8 +30487,7 @@ glabel lbl_80199CE4
 	.asciz "_WUDDeleteStoreDevice()\n"
 	.balign 4
 	.asciz "dev number = %d\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80199FA8
@@ -30732,8 +30607,7 @@ glabel lbl_8019A314
 glabel lbl_8019A358
 	# ROM: 0x196458
 	.asciz "Deleting bad pool"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "HCIS: Unable to allocate buffer for incoming HCI message."
 	.balign 4
 
@@ -30741,8 +30615,7 @@ glabel lbl_8019A358
 glabel lbl_8019A3AC
 	# ROM: 0x1964AC
 	.asciz "HCIS: Invalid length for incoming HCI message."
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019A3E0
@@ -30778,14 +30651,12 @@ glabel lbl_8019A3E0
 	.asciz "HCISU_LOG: uusb_WriteCtrlDataCB called with err = %d\n"
 	.balign 4
 	.asciz "HCISU_ERR: uusb_WriteCtrlDataCB(): Got error (%d)\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "HCISU_ERR: uusb_WriteCtrlDataCB(): error - unable to write data packet\n"
 	.asciz "HCISU_LOG: uusb_WriteBulkDataCB called with err = %d\n"
 	.balign 4
 	.asciz "HCISU_ERR: uusb_WriteBulkDataCB(): Got error (%d)\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "HCISU_ERR: uusb_WriteBulkDataCB(): error - unable to write data packet\n"
 
 
@@ -30804,8 +30675,7 @@ glabel lbl_8019AA10
 	.asciz "HCISU_ERR: UUSB_Register: ERROR - failed IUSB_OpenLib\n"
 	.balign 4
 	.asciz "HCISU_ERR: UUSB_Register: Error returned from get_devId()\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "HCISU_LOG: UUSB_Register: uusb_get_dev_id returned with usb.devId = %d\n"
 	.asciz "HCISU_LOG: UUSB_Register: Unable to create memory pools\n"
 	.balign 4
@@ -30813,8 +30683,7 @@ glabel lbl_8019AA10
 	.asciz "HCISU_LOG: UUSB_Open: USB is not in registered state, unable to open\n"
 	.balign 4
 	.asciz "HCISU_LOG: UUSB_Open: USB Buffer Pool's Invalid\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "HCISU_LOG: UUSB_Open: hci_cmd_usb_pool_id = %d\n"
 	.asciz "HCISU_LOG: UUSB_Open: hci_acl_usb_pool_id = %d\n"
 	.asciz "HCISU_ERR: UUSB_Write: usb_state != UUSB_PPC_OPENED_ST\n"
@@ -30898,8 +30767,7 @@ glabel lbl_8019B224
 glabel lbl_8019B260
 	# ROM: 0x197360
 	.asciz "bta_dm_compress_cback close app_id %d, BTA id %d, state %d"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019B2A0
@@ -30911,8 +30779,7 @@ glabel lbl_8019B2A0
 glabel lbl_8019B2CC
 	# ROM: 0x1973CC
 	.asciz "bta_dm_act no more pm timers"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019B2F0
@@ -30959,7 +30826,7 @@ glabel lbl_8019B434
 	.balign 4
 	.asciz "BTA_HH_GET_IDLE_EVT"
 	.asciz "BTA_HH_SET_IDLE_EVT"
-	.4byte 0
+	.balign 8
 	.asciz "BTA_HH_OPEN_EVT"
 	.asciz "Unknown event"
 	.balign 4
@@ -31188,8 +31055,7 @@ glabel lbl_8019BB7C
 	.asciz "subclass = 0x%2x"
 	.balign 4
 	.asciz "bta_hh_parse_keybd_rpt:  (report=%p, report_len=%d) called"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "Alt key pressed"
 	.asciz "Alt key not pressed"
 	.asciz "this_char = %02x"
@@ -31207,9 +31073,7 @@ glabel lbl_8019BB7C
 	.asciz "\t\t\t attr_mask[%04x] state [%d] sub_class[%02x] index = %d"
 	.balign 4
 	.asciz "*********************************************************"
-	.balign 4
-	.4byte 0
-
+	.balign 8
 
 glabel lbl_8019BDB8
 	# ROM: 0x197EB8
@@ -31231,8 +31095,7 @@ glabel lbl_8019BE18
 	.balign 4
 	.asciz "BTM_SetLinkPolicy hold not supported (settings: 0x%04x)"
 	.asciz "BTM_SetLinkPolicy sniff not supported (settings: 0x%04x)"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "BTM_SetLinkPolicy park not supported (settings: 0x%04x)"
 	.asciz "BTM_ReadLinkPolicy: RemBdAddr: %02x%02x%02x%02x%02x%02x"
 
@@ -31317,7 +31180,7 @@ glabel lbl_8019C2B4
 glabel lbl_8019C2F8
 	# ROM: 0x1983F8
 	.asciz "BTM Event: Received a vendor specific event from controller"
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019C338
@@ -31343,8 +31206,7 @@ glabel lbl_8019C3D4
 glabel lbl_8019C400
 	# ROM: 0x198500
 	.asciz "BTM: BTM_DeleteStoredLinkKey: delete_all_flag: %s"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019C438
@@ -31398,8 +31260,7 @@ glabel lbl_8019C5D0
 glabel lbl_8019C60C
 	# ROM: 0x19870C
 	.asciz "BTM Inq Compl Callback: status 0x%02x, num results %d"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019C648
@@ -31429,8 +31290,7 @@ glabel lbl_8019C7B4
 	.asciz "BTM_SetEScoMode -> mode SCO (eSCO not supported)"
 	.balign 4
 	.asciz "    txbw 0x%08x, rxbw 0x%08x, max_lat 0x%04x, voice 0x%04x, pkt 0x%04x, rtx effort 0x%02x"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "BTM_ReadEScoLinkParms -> sco_inx 0x%04x"
 	.asciz "BTM_ChangeEScoLinkParms -> SCO Link for handle 0x%04x, pkt 0x%04x"
 	.balign 4
@@ -31441,8 +31301,7 @@ glabel lbl_8019C7B4
 glabel lbl_8019C94C
 	# ROM: 0x198A4C
 	.asciz "btm_esco_proc_conn_chg -> handle 0x%04x, status 0x%02x"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019C988
@@ -31463,8 +31322,7 @@ glabel lbl_8019CA20
 	.asciz "               : sec: 0x%x, service name [%s] (up to %d chars saved)"
 	.balign 4
 	.asciz "BTM_SEC_REG: Out of Service Records (%d)"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019CB28
@@ -31497,8 +31355,7 @@ glabel lbl_8019CC84
 	.asciz "Security Manager: BTM_SetEncryption already encrypted"
 	.balign 4
 	.asciz "Security Manager: BTM_SetEncryption busy"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "Security Manager: BTM_SetEncryption Handle:%d State:%d Flags:0x%x Required:0x%x"
 	.asciz "Security Manager: l2cap_access_req PSM:%d no resources"
 	.balign 4
@@ -31646,8 +31503,7 @@ glabel lbl_8019D498
 glabel lbl_8019D4C0
 	# ROM: 0x1995C0
 	.asciz "GAP_CONN - Rcvd L2CAP Is Congested (%d), CID: 0x%x"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019D4F8
@@ -31772,8 +31628,7 @@ glabel lbl_8019D800
 glabel lbl_8019D818
 	# ROM: 0x199918
 	.asciz "hidd_proc_repage_timeout"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019D838
@@ -31794,8 +31649,7 @@ glabel lbl_8019D838
 	.asciz "Security Registration 5 failed"
 	.balign 4
 	.asciz "Security Registration 6 failed"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019D950
@@ -31827,8 +31681,7 @@ glabel lbl_8019D994
 glabel lbl_8019DAB4
 	# ROM: 0x199BB4
 	.asciz "HID - Originate failed"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "HID - Originator security pass."
 	.asciz "HID - INTR Originate failed"
 	.asciz "HID - Rcvd unexpected conn cnf, CID 0x%x "
@@ -31887,8 +31740,7 @@ glabel lbl_8019DCD0
 glabel lbl_8019DD08
 	# ROM: 0x199E08
 	.asciz "HID - Rcvd L2CAP data, unknown CID: 0x%x"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019DD38
@@ -31995,8 +31847,7 @@ glabel lbl_8019E1A8
 	.asciz "L2CAP - no LCB for L2CA_ping"
 	.balign 4
 	.asciz "L2CAP - rejected second L2CA_ping"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "L2CAP - L2CA_ping rejected - link disconnecting"
 
 
@@ -32014,8 +31865,7 @@ glabel lbl_8019E308
 	.asciz "L2CA_GetNumQueuedBufs()  CID: 0x%04x  abmormally returning 0"
 	.balign 4
 	.asciz "L2CA_GetNumQueuedBufs()  CID: 0x%04x  returning %d"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019E4C8
@@ -32391,8 +32241,7 @@ glabel lbl_8019ED00
 glabel lbl_8019ED20
 	# ROM: 0x19AE20
 	.asciz "L2CAP got conn_req while connected"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019ED48
@@ -32420,8 +32269,7 @@ glabel lbl_8019EDCC
 	.asciz "L2CAP - Calling CongestionStatus_Cb(), CID: 0x%04x, Congested"
 	.balign 4
 	.asciz "!!! L2CAP - buffer dropped"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "L2CAP - Calling CongestionStatus_Cb(), CID: 0x%04x, Uncongested"
 	.asciz "LCB %d Priority:%d XmitWindow:%d Congestion Start:%d End:%d Discard:%d"
 	.balign 4
@@ -32441,16 +32289,14 @@ glabel lbl_8019EF18
 glabel lbl_8019EF38
 	# ROM: 0x19B038
 	.asciz "L2CAP - rcvd segment complete, unknown handle: %d"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019EF70
 	# ROM: 0x19B070
 	.asciz "L2CAP - expected pkt start, got: %d"
 	.asciz "L2CAP - holding ACL for unknown handle:%d ls:%d cid:%d opcode:%d cur count:%d"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "L2CAP - unknown CID: %d"
 	.asciz "L2CAP - got incorrect hci header"
 	.balign 4
@@ -32497,8 +32343,7 @@ glabel lbl_8019F244
 glabel lbl_8019F258
 	# ROM: 0x19B358
 	.asciz "L2CAP HOLD TIMEOUT"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019F270
@@ -32660,8 +32505,7 @@ glabel lbl_8019F62C
 glabel lbl_8019F658
 	# ROM: 0x19B758
 	.asciz "port_rfc_closed state:%d sending events:%x"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019F688
@@ -32670,7 +32514,7 @@ glabel lbl_8019F688
 	.asciz "port_select_mtu selected %d based on connection speed"
 	.balign 4
 	.asciz "port_select_mtu selected %d based on l2cap PDU size"
-	.4byte 0
+	.balign 8
 	.asciz "port_select_mtu application selected %d"
 	.asciz "port_select_mtu credit_rx_max %d, credit_rx_low %d, rx_buf_critical %d"
 	.balign 4
@@ -32704,8 +32548,7 @@ glabel lbl_8019F7D0
 	.asciz "RFCOMM_CongestionStatusInd dropped LCID:0x%x"
 	.balign 4
 	.asciz "RFCOMM_CongestionStatusInd LCID:0x%x"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_8019F910
@@ -32934,8 +32777,7 @@ glabel lbl_8019FD20
 	.4byte 0x800FEF40  ;# ptr
 	.4byte 0x800FEEB4  ;# ptr
 	.asciz "Port error state Orig Wait Sec event Data"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "Port state orig_wait_sec_check Event ignored %d"
 
 
@@ -33069,8 +32911,7 @@ glabel lbl_801A001C
 glabel lbl_801A0040
 	# ROM: 0x19C140
 	.asciz "rfc_inc_credit:%d"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A0058
@@ -33095,8 +32936,7 @@ glabel lbl_801A00E4
 glabel lbl_801A0140
 	# ROM: 0x19C240
 	.asciz "SDP - Unexp. PDU: %d in state: %d"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A0168
@@ -33215,8 +33055,7 @@ glabel lbl_801A05A8
 glabel lbl_801A05D0
 	# ROM: 0x19C6D0
 	.asciz "SDP - CCB timeout in state: %d  CID: 0x%x"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A0600
@@ -33298,8 +33137,7 @@ glabel lbl_801A0718
 glabel lbl_801A0738
 	# ROM: 0x19C838
 	.asciz "CAUTION!  Unexpected error code [%d] was found.\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A0770
@@ -33500,8 +33338,7 @@ glabel lbl_801A0A98
 glabel lbl_801A0B00
 	# ROM: 0x19CC00
 	.asciz "invalid version number for texture palette"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A0B30
@@ -33519,8 +33356,7 @@ glabel lbl_801A0B7C
 	.4byte 0x80228858  ;# ptr
 	.asciz "HBMBase.cpp"
 	.asciz "NW4HBM:Failed assertion mpMemorySoundArchive"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "Cannot setup MemorySoundArchive"
 	.asciz "P1_Def.brlyt"
 	.balign 4
@@ -33549,8 +33385,7 @@ glabel lbl_801A0B7C
 	.asciz "B_btnL_10"
 	.balign 4
 	.asciz "B_btnL_11"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A0C88
@@ -33711,16 +33546,14 @@ glabel lbl_801A0C88
 	.asciz "_vb_btn_ylw_ylw.brlan"
 	.balign 4
 	.asciz "_btry_wink.brlan"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "_btry_gry.brlan"
 	.asciz "_btry_wht.brlan"
 	.asciz "_btry_wink_gry.brlan"
 	.balign 4
 	.asciz "_close_bar_in.brlan"
 	.asciz "_close_bar_out.brlan"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "_btry_red.brlan"
 	.4byte 0x801A1034  ;# ptr
 	.4byte 0x801A1048  ;# ptr
@@ -33774,8 +33607,7 @@ glabel lbl_801A0C88
 	.asciz "optnBtn_20_psh"
 	.balign 4
 	.asciz "optnBtn_10_cntrl"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "msgBtn_00_inOut"
 	.asciz "msgBtn_01_inOut"
 	.asciz "msgBtn_00_psh"
@@ -33974,8 +33806,7 @@ glabel lbl_801A16E8
 	.asciz "NW4HBM:Failed assertion mpLayoutName"
 	.balign 4
 	.asciz "NW4HBM:Failed assertion mpAnmName"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "back_00"
 	.asciz "back_02"
 
@@ -34226,8 +34057,9 @@ glabel lbl_801A1D78
 	.asciz "Address:   BackChain   LR save\n"
 	.asciz "%08X:  %08X    %08X "
 	.balign 4
-	.4byte 0x25730A00
-	.4byte 0x0A000000
+	.asciz "%s\n"
+	.asciz "\n"
+	.balign 4
 	.asciz "%s:%d Panic:"
 	.balign 4
 
@@ -34264,10 +34096,11 @@ glabel lbl_801A1E40
 	.balign 4
 	.asciz "NW4HBM:Alignment Error(0x%x)\nbuffer must be aligned to 4 bytes boundary."
 	.balign 4
-	.4byte 0x25730A00
+	.asciz "%s\n"
 	.asciz "NW4HBM:Pointer must not be NULL (str)"
 	.balign 4
-	.4byte 0x25730000
+	.asciz "%s"
+	.balign 4
 
 
 glabel lbl_801A1F58
@@ -34328,8 +34161,7 @@ glabel lbl_801A2140
 	.asciz "NW4HBM:Pointer must not be NULL (strBuf)"
 	.balign 4
 	.asciz "NW4HBM:Failed assertion strBufSize > 0"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A2218
@@ -34355,8 +34187,7 @@ glabel lbl_801A2218
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (pAnimList)"
 	.asciz "NW4HBM:Pointer must not be NULL (pAnimTrans)"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A2528
@@ -34410,23 +34241,23 @@ glabel lbl_801A25BC
 	.asciz "NW4HBM:Failed assertion texSRTIdx < mGXMemNum.indSRT"
 	.balign 4
 	.asciz "material.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A2690
 	# ROM: 0x19E790
-	.4byte 0x2E000000
+	.asciz "."
+	.balign 4
 	.asciz "lyt_arcResourceAccessor.cpp"
 	.asciz "NW4HBM:Failed assertion bSuccess"
 	.balign 4
-	.4byte 0x2E2E0000
+	.asciz ".."
+	.balign 4
 	.asciz "NW4HBM:Failed assertion std::strlen(name) < FONTNAMEBUF_MAX"
 	.asciz "NW4HBM:Failed assertion ! IsAttached()"
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (archiveStart)"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Pointer must not be NULL (resourceRootDirectory)"
 	.asciz "NW4HBM:Failed assertion IsAttached()"
 	.balign 4
@@ -34519,7 +34350,7 @@ glabel lbl_801A2988
 glabel lbl_801A29B8
 	# ROM: 0x19EAB8
 	.asciz "NW4HBM:Failed assertion texCoordNum <= mCap"
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A29E8
@@ -34573,8 +34404,7 @@ glabel lbl_801A2A88
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A2AF8
@@ -34628,8 +34458,7 @@ glabel lbl_801A2C38
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A2D60
@@ -34661,8 +34490,7 @@ glabel lbl_801A2D60
 	.asciz "NW4HBM:Failed assertion indStageNum <= GX_MAX_INDTEXSTAGE"
 	.balign 4
 	.asciz "NW4HBM:Failed assertion indSRTNum <= IndTexMtxMax"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Failed assertion num <= mGXMemCap.texMap"
 	.asciz "NW4HBM:Pointer must not be NULL (mpGXMem)"
 	.balign 4
@@ -34698,8 +34526,7 @@ glabel lbl_801A31B8
 	.4byte 0x00000012
 	.asciz "NW4HBM:Failed assertion texCoordGens[i].GetTexGenType() != GX_TG_MTX3x4"
 	.asciz "NW4HBM:Failed assertion texMtx == GX_IDENTITY || GetTexMtxIdx(texMtx) < mGXMemNum.texSRT"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A32D8
@@ -34737,13 +34564,11 @@ glabel lbl_801A3360
 	.asciz "NW4HBM:Pointer must not be NULL (pChild)"
 	.balign 4
 	.asciz "NW4HBM:Failed assertion pChild->mpParent == 0"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Pointer must not be NULL (pNext)"
 	.asciz "NW4HBM:Failed assertion pNext->mpParent == this"
 	.asciz "NW4HBM:Failed assertion pChild->mpParent == this"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A3460
@@ -34824,8 +34649,7 @@ glabel lbl_801A3620
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A36F0
@@ -34913,8 +34737,7 @@ glabel lbl_801A38D4
 glabel lbl_801A3908
 	# ROM: 0x19FA08
 	.asciz "material.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A3918
@@ -34943,8 +34766,7 @@ glabel lbl_801A3940
 glabel lbl_801A3950
 	# ROM: 0x19FA50
 	.asciz "NW4HBM:Pointer must not be NULL (mpFont)"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Pointer must not be NULL (resBlockSet.pFontList)"
 	.asciz "NW4HBM:Failed assertion pBlock->fontIdx < resBlockSet.pFontList->fontNum"
 	.balign 4
@@ -34965,9 +34787,12 @@ glabel lbl_801A3A88
 	.balign 4
 	.asciz "NW4HBM:Pointer Error\npTextWriter(=%p) is not valid pointer."
 	.asciz "NW4HBM:Pointer Error\nstr(=%p) is not valid pointer."
-	.4byte 0
+	.balign 8
 	.asciz "length is out of bounds(%d)\n%d <= length not satisfied."
-	.4byte 0x000A0000
+	.balign 4
+	.byte 0
+	.asciz "\n"
+	.balign 4
 	.asciz "NW4HBM:Pointer Error\npRect(=%p) is not valid pointer."
 	.balign 4
 	.asciz "NW4HBM:Pointer Error\nfont(=%p) is not valid pointer."
@@ -36325,8 +36150,7 @@ glabel lbl_801A5328
 glabel lbl_801A5354
 	# ROM: 0x1A1454
 	.asciz "Util.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A5360
@@ -36349,8 +36173,7 @@ glabel lbl_801A538C
 glabel lbl_801A53A8
 	# ROM: 0x1A14A8
 	.asciz "Voice Acquisition failed!\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A53C8
@@ -36429,7 +36252,7 @@ glabel lbl_801A5540
 glabel lbl_801A5578
 	# ROM: 0x1A1678
 	.asciz "AxManager.h"
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A5588
@@ -36463,8 +36286,7 @@ glabel lbl_801A579C
 	.asciz "priority is out of bounds(%d)\n%d <= priority <= %d not satisfied."
 	.balign 4
 	.asciz "NW4HBM:Failed assertion channelIndex < CHANNEL_MAX"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A5818
@@ -36564,8 +36386,7 @@ glabel lbl_801A5B58
 glabel lbl_801A5B84
 	# ROM: 0x1A1C84
 	.asciz "Util.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A5B90
@@ -36885,8 +36706,7 @@ glabel lbl_801A6458
 glabel lbl_801A6470
 	# ROM: 0x1A2570
 	.asciz "NW4HBM:Pointer must not be NULL (buffer)"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A64A0
@@ -36911,8 +36731,7 @@ glabel lbl_801A64E8
 glabel lbl_801A64F8
 	# ROM: 0x1A25F8
 	.asciz "snd_MmlParser.cpp"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Pointer must not be NULL (track)"
 	.asciz "NW4HBM:Pointer must not be NULL (player)"
 	.balign 4
@@ -36921,9 +36740,10 @@ glabel lbl_801A64F8
 	.asciz "nw4hbm::snd::MmlParser: too large prg No. %d"
 	.balign 4
 	.asciz "varNo is out of bounds(%d)\n%d <= varNo <= %d not satisfied."
-	.4byte 0x54000000
-	.4byte 0x47000000
-	.4byte 0
+	.asciz "T"
+	.balign 4
+	.asciz "G"
+	.balign 8
 	.asciz "#%08x[%d]: printvar %sVAR_%d(%d) = %d\n"
 	.balign 4
 	.asciz "nw4hbm::snd::MmlParser: opentrack for not allocated track"
@@ -37128,8 +36948,7 @@ glabel lbl_801A6A84
 	.asciz "NW4HBM:Failed assertion i < FILE_PATH_MAX"
 	.balign 4
 	.asciz "NW4HBM:Failed assertion mOpen"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NandSoundArchive::LoadHeader cannot seek file.\n"
 	.asciz "NandSoundArchive::LoadHeader cannot read file.\n"
 	.asciz "SoundArchive::LoadHeader buffer size is too small.\n"
@@ -37248,8 +37067,7 @@ glabel lbl_801A6F10
 glabel lbl_801A7048
 	# ROM: 0x1A3148
 	.asciz "NW4HBM:Pointer must not be NULL (mHeader)"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A7078
@@ -37299,8 +37117,7 @@ glabel lbl_801A720C
 	.asciz "prio is out of bounds(%d)\n%d <= prio <= %d not satisfied."
 	.balign 4
 	.asciz "varNo is out of bounds(%d)\n%d <= varNo < %d not satisfied."
-	.balign 4
-	.4byte 0
+	.balign 8
 	.4byte 0xFFFFFFFF
 	.4byte 0x80136168  ;# ptr
 	.4byte 0
@@ -37355,8 +37172,7 @@ glabel lbl_801A732C
 glabel lbl_801A73B4
 	# ROM: 0x1A34B4
 	.asciz "NW4HBM:Failed assertion sPlayerList.IsEmpty()"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A73E8
@@ -37610,7 +37426,7 @@ glabel lbl_801A7A84
 glabel lbl_801A7B08
 	# ROM: 0x1A3C08
 	.asciz "varNo is out of bounds(%d)\n%d <= varNo <= %d not satisfied."
-	.4byte 0
+	.balign 8
 	.asciz "key is out of bounds(%d)\n%d <= key <= %d not satisfied."
 	.asciz "velocity is out of bounds(%d)\n%d <= velocity <= %d not satisfied."
 	.balign 4
@@ -37630,8 +37446,7 @@ glabel lbl_801A7B08
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
 	.asciz "Channel.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A7D30
@@ -37649,8 +37464,7 @@ glabel lbl_801A7D48
 glabel lbl_801A7D78
 	# ROM: 0x1A3E78
 	.asciz "Too long file path \"%s/%s\""
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A7D98
@@ -37681,8 +37495,7 @@ glabel lbl_801A7DE8
 	.asciz "sound archive file is not supported version.\n  please reconvert file using new version tools.\n"
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (stringChunk)"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Failed assertion symbolBlock->blockHeader.kind == SoundArchiveFile::SIGNATURE_SYMB_BLOCK"
 	.asciz "NW4HBM:Pointer must not be NULL (infoChunk)"
 	.asciz "NW4HBM:Failed assertion infoBlock->blockHeader.kind == SoundArchiveFile::SIGNATURE_INFO_BLOCK"
@@ -37916,8 +37729,7 @@ glabel lbl_801A8428
 glabel lbl_801A8454
 	# ROM: 0x1A4554
 	.asciz "Util.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A8460
@@ -37962,8 +37774,7 @@ glabel lbl_801A84C4
 glabel lbl_801A86E8
 	# ROM: 0x1A47E8
 	.asciz "playerId is out of bounds(%d)\n%d <= playerId < %d not satisfied."
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A8730
@@ -37997,8 +37808,7 @@ glabel lbl_801A8954
 	.asciz "NW4HBM:Failed assertion detail::TaskManager::GetInstance().GetTaskBufferSize() >= sizeof(StrmHeaderLoadTask)"
 	.balign 4
 	.asciz "NW4HBM:Failed assertion detail::TaskManager::GetInstance().GetTaskBufferSize() >= sizeof(StrmDataLoadTask)"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A8B40
@@ -38013,8 +37823,7 @@ glabel lbl_801A8B40
 glabel lbl_801A8C44
 	# ROM: 0x1A4D44
 	.asciz "failed to load stream\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A8C60
@@ -38345,8 +38154,7 @@ glabel lbl_801A91A8
 glabel lbl_801A91D4
 	# ROM: 0x1A52D4
 	.asciz "Bank.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A91E0
@@ -38363,7 +38171,7 @@ glabel lbl_801A9210
 glabel lbl_801A9228
 	# ROM: 0x1A5328
 	.asciz "snd_SoundHandle.cpp"
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A9240
@@ -38409,8 +38217,7 @@ glabel lbl_801A9370
 glabel lbl_801A9394
 	# ROM: 0x1A5494
 	.asciz "NW4HBM:Pointer must not be NULL (heap)"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A93C0
@@ -38598,8 +38405,7 @@ glabel lbl_801A98E0
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
 	.asciz "LinkList.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A99E0
@@ -38632,8 +38438,7 @@ glabel lbl_801A9AB0
 	.asciz "NW4HBM:Failed assertion result != 0"
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A9B08
@@ -38644,8 +38449,7 @@ glabel lbl_801A9B08
 glabel lbl_801A9B1C
 	# ROM: 0x1A5C1C
 	.asciz "Too large stream buffer size."
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A9B40
@@ -38715,8 +38519,7 @@ glabel lbl_801A9D78
 glabel lbl_801A9DA4
 	# ROM: 0x1A5EA4
 	.asciz "Util.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801A9DB0
@@ -38778,12 +38581,10 @@ glabel lbl_801A9F74
 glabel lbl_801A9FE8
 	# ROM: 0x1A60E8
 	.asciz "NW4HBM:Pointer must not be NULL (player)"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Failed assertion player->mVoice == voice"
 	.asciz "Unknown AxVoice callback status %d"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801AA070
@@ -38975,8 +38776,7 @@ glabel lbl_801AA348
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801AA410
@@ -38993,7 +38793,7 @@ glabel lbl_801AA438
 glabel lbl_801AA450
 	# ROM: 0x1A6550
 	.asciz "snd_TaskManager.cpp"
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801AA468
@@ -39057,8 +38857,7 @@ glabel lbl_801AA5EC
 glabel lbl_801AA610
 	# ROM: 0x1A6710
 	.asciz "LinkList.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801AA620
@@ -39092,8 +38891,7 @@ glabel lbl_801AA66C
 glabel lbl_801AA688
 	# ROM: 0x1A6788
 	.asciz "snd_WavePlayer.cpp"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "setupParam.channelCount is out of bounds(%d)\n%d <= setupParam.channelCount <= %d not satisfied."
 	.asciz "setupParam.voiceCount is out of bounds(%d)\n%d <= setupParam.voiceCount <= %d not satisfied."
 	.asciz "NW4HBM:Failed assertion false"
@@ -39222,15 +39020,13 @@ glabel lbl_801AAB08
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801AAB48
 	# ROM: 0x1A6C48
 	.asciz "snd_WaveSound.cpp"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Pointer must not be NULL (waveSoundBase)"
 	.asciz "NW4HBM:Pointer must not be NULL (callback)"
 	.balign 4
@@ -39516,8 +39312,7 @@ glabel lbl_801AB320
 glabel lbl_801AB334
 	# ROM: 0x1A7434
 	.asciz "NW4HBM:Pointer must not be NULL (mWsdPlayer)"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "release is out of bounds(%d)\n%d <= release <= %d not satisfied."
 	.asciz "NW4HBM:Pointer must not be NULL (dropChannel)"
 	.balign 4
@@ -39590,16 +39385,14 @@ glabel lbl_801AB7F4
 	.asciz "NW4HBM:Pointer Error\nmFont(=%p) is not valid pointer."
 	.balign 4
 	.asciz "mFont->GetWidth() is out of bounds(%d)\n%d <= mFont->GetWidth() not satisfied."
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "mFont->GetHeight() is out of bounds(%d)\n%d <= mFont->GetHeight() not satisfied."
 	.asciz "NW4HBM:Failed assertion code != Font::INVALID_CHARACTER_CODE"
 	.balign 4
 	.asciz "NW4HBM:Pointer Error\n& glyph(=%p) is not valid pointer."
 	.asciz "glyph.texWidth is out of bounds(%d)\n%d <= glyph.texWidth not satisfied."
 	.asciz "glyph.texHeight is out of bounds(%d)\n%d <= glyph.texHeight not satisfied."
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801ABAC0
@@ -39661,8 +39454,7 @@ glabel lbl_801ABBA8
 	.4byte 0x80146E3C  ;# ptr
 	.asciz "ut_Font.cpp"
 	.asciz "NW4HBM:Pointer Error\nthis(=%p) is not valid pointer."
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801ABC20
@@ -39684,8 +39476,7 @@ glabel lbl_801ABC54
 glabel lbl_801ABC7C
 	# ROM: 0x1A7D7C
 	.asciz "Stream don't support WRITE function\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.4byte 0
 	.4byte 0
 	.4byte 0x8014BEF0  ;# ptr
@@ -39711,8 +39502,7 @@ glabel lbl_801ABCE8
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "NW4HBM:Failed assertion p!=&mNode"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Pointer must not be NULL (pNext)"
 	.asciz "NW4HBM:Pointer must not be NULL (pPrev)"
 	.asciz "NW4HBM:Failed assertion it.mPointer!=&mNode"
@@ -39858,8 +39648,7 @@ glabel lbl_801AC0A0
 	.asciz "NW4HBM:Failed assertion (map->mappingMethod == FONT_MAPMETHOD_DIRECT) || (map->mappingMethod == FONT_MAPMETHOD_TABLE) || (map->mappingMethod == FONT_MAPMETHOD_SCAN)"
 	.balign 4
 	.asciz "NW4HBM:Pointer Error\nmap->pNext(=%p) is not valid pointer."
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "The font has unknown block('%c%c%c%c')."
 
 
@@ -39975,8 +39764,7 @@ glabel lbl_801ACC70
 	# ROM: 0x1A8D70
 	.asciz "ut_TagProcessorBase.cpp"
 	.asciz "NW4HBM:Failed assertion code < ' '"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "NW4HBM:Pointer Error\ncontext(=%p) is not valid pointer."
 	.asciz "NW4HBM:Pointer Error\npRect(=%p) is not valid pointer."
 	.balign 4
@@ -40033,7 +39821,7 @@ glabel lbl_801ACD90
 	.asciz "NW4HBM:Pointer Error\npRect(=%p) is not valid pointer."
 	.balign 4
 	.asciz "NW4HBM:Pointer Error\nstr(=%p) is not valid pointer."
-	.4byte 0
+	.balign 8
 	.asciz "length is out of bounds(%d)\n%d <= length not satisfied."
 	.asciz "NW4HBM:Pointer Error\nbuffer(=%p) is not valid pointer."
 	.balign 4
@@ -40202,8 +39990,7 @@ glabel lbl_801AD448
 glabel lbl_801AD464
 	# ROM: 0x1A9564
 	.asciz "bad_exception"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801AD478

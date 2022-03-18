@@ -17,19 +17,18 @@ glabel lbl_80246488
 
 glabel lbl_8024648C
 	# ROM: 0x1AA0CC
-	.4byte 0x53573000
+	.asciz "SW0"
 
 
 glabel lbl_80246490
 	# ROM: 0x1AA0D0
-	.4byte 0x53573100
+	.asciz "SW1"
 
 
 glabel lbl_80246494
 	# ROM: 0x1AA0D4
 	.asciz "CART"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_802464A0
@@ -39,37 +38,43 @@ glabel lbl_802464A0
 
 glabel lbl_802464A8
 	# ROM: 0x1AA0E8
-	.4byte 0x52444200
+	.asciz "RDB"
 
 
 glabel lbl_802464AC
 	# ROM: 0x1AA0EC
-	.4byte 0x53500000
+	.asciz "SP"
+	.balign 4
 
 
 glabel lbl_802464B0
 	# ROM: 0x1AA0F0
-	.4byte 0x53490000
+	.asciz "SI"
+	.balign 4
 
 
 glabel lbl_802464B4
 	# ROM: 0x1AA0F4
-	.4byte 0x41490000
+	.asciz "AI"
+	.balign 4
 
 
 glabel lbl_802464B8
 	# ROM: 0x1AA0F8
-	.4byte 0x56490000
+	.asciz "VI"
+	.balign 4
 
 
 glabel lbl_802464BC
 	# ROM: 0x1AA0FC
-	.4byte 0x50490000
+	.asciz "PI"
+	.balign 4
 
 
 glabel lbl_802464C0
 	# ROM: 0x1AA100
-	.4byte 0x44500000
+	.asciz "DP"
+	.balign 4
 
 
 glabel lbl_802464C4
@@ -83,38 +88,37 @@ glabel lbl_802464CC
 	.asciz "PRENMI"
 	.balign 4
 	.asciz "SYSTEM"
-	.balign 4
-	.4byte 0
-	.4byte 0x41490000
-	.4byte 0
-	.4byte 0x56490000
-	.4byte 0
-	.4byte 0x53490000
-	.4byte 0
-	.4byte 0x50490000
-	.4byte 0
-	.4byte 0x4D490000
-	.4byte 0
-	.4byte 0x44440000
-	.4byte 0
-	.4byte 0x43505500
-	.4byte 0
-	.4byte 0x50494600
-	.4byte 0
-	.4byte 0x52414D00
-	.4byte 0
-	.4byte 0x524F4D00
-	.4byte 0
-	.4byte 0x52444200
-	.4byte 0
+	.balign 8
+	.asciz "AI"
+	.balign 8
+	.asciz "VI"
+	.balign 8
+	.asciz "SI"
+	.balign 8
+	.asciz "PI"
+	.balign 8
+	.asciz "MI"
+	.balign 8
+	.asciz "DD"
+	.balign 8
+	.asciz "CPU"
+	.balign 8
+	.asciz "PIF"
+	.balign 8
+	.asciz "RAM"
+	.balign 8
+	.asciz "ROM"
+	.balign 8
+	.asciz "RDB"
+	.balign 8
 
 
 glabel lbl_80246538
 	# ROM: 0x1AA178
-	.4byte 0x52414D00
-	.asciz "SRAM"
+	.asciz "RAM"
 	.balign 4
-	.4byte 0
+	.asciz "SRAM"
+	.balign 8
 
 
 glabel lbl_80246548
@@ -127,10 +131,10 @@ glabel lbl_80246548
 
 glabel lbl_80246558
 	# ROM: 0x1AA198
-	.4byte 0x45455000
-	.asciz "FLASH"
+	.asciz "EEP"
 	.balign 4
-	.4byte 0
+	.asciz "FLASH"
+	.balign 8
 
 
 glabel lbl_80246568
@@ -143,7 +147,8 @@ glabel lbl_80246568
 
 glabel lbl_80246578
 	# ROM: 0x1AA1B8
-	.4byte 0x2E000000
+	.asciz "."
+	.balign 4
 
 
 glabel lbl_8024657C
@@ -229,7 +234,8 @@ glabel lbl_802465D0
 
 glabel lbl_802465F0
 	# ROM: 0x1AA230
-	.4byte 0x0A000000
+	.asciz "\n"
+	.balign 4
 
 
 glabel lbl_802465F4
@@ -294,10 +300,10 @@ glabel lbl_80246628
 	# ROM: 0x1AA268
 	.4byte 0x02000100
 	.4byte 0x00800040
-	.4byte 0x52535000
-	.4byte 0
-	.4byte 0x52445000
-	.4byte 0
+	.asciz "RSP"
+	.balign 8
+	.asciz "RDP"
+	.balign 8
 
 
 glabel lbl_80246640
@@ -391,7 +397,8 @@ glabel lbl_80246694
 
 glabel lbl_8024669C
 	# ROM: 0x1AA2DC
-	.4byte 0x25730A00
+	.asciz "%s\n"
+	.balign 4
 
 
 glabel lbl_802466A0
@@ -441,14 +448,14 @@ glabel lbl_802466D0
 
 glabel lbl_802466D8
 	# ROM: 0x1AA318
-	.4byte 0x25640000
-	.4byte 0
+	.asciz "%d"
+	.balign 8
 
 
 glabel lbl_802466E0
 	# ROM: 0x1AA320
-	.4byte 0x25730A00
-	.4byte 0
+	.asciz "%s\n"
+	.balign 8
 
 
 glabel lbl_802466E8
@@ -780,7 +787,8 @@ glabel lbl_80246828
 
 glabel lbl_8024682C
 	# ROM: 0x1AA46C
-	.4byte 0x2F000000
+	.asciz "/"
+	.balign 4
 
 
 glabel lbl_80246830
@@ -790,17 +798,20 @@ glabel lbl_80246830
 
 glabel lbl_80246834
 	# ROM: 0x1AA474
-	.4byte 0x2E000000
+	.asciz "."
+	.balign 4
 
 
 glabel lbl_80246838
 	# ROM: 0x1AA478
-	.4byte 0x2E2E0000
+	.asciz ".."
+	.balign 4
 
 
 glabel lbl_8024683C
 	# ROM: 0x1AA47C
-	.4byte 0x2F257300
+	.asciz "/%s"
+	.balign 4
 
 
 glabel lbl_80246840
@@ -833,8 +844,7 @@ glabel lbl_80246868
 	.asciz "IPL.CB"
 	.balign 4
 	.asciz "IPL.AR"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "IPL.ARN"
 	.asciz "IPL.CD"
 	.balign 4
@@ -950,12 +960,14 @@ glabel lbl_802469A4
 
 glabel lbl_802469A8
 	# ROM: 0x1AA5E8
-	.4byte 0x41000000
+	.asciz "A"
+	.balign 4
 
 
 glabel lbl_802469AC
 	# ROM: 0x1AA5EC
-	.4byte 0x42000000
+	.asciz "B"
+	.balign 4
 
 
 glabel lbl_802469B0
@@ -985,7 +997,7 @@ glabel lbl_802469BA
 
 glabel lbl_802469BC
 	# ROM: 0x1AA5FC
-	.4byte 0x322E3000
+	.asciz "2.0"
 
 
 glabel lbl_802469C0
@@ -1132,8 +1144,7 @@ glabel lbl_80246A30
 glabel lbl_80246A34
 	# ROM: 0x1AA674
 	.asciz "USB: "
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80246A40
@@ -1160,18 +1171,20 @@ glabel lbl_80246A50
 
 glabel lbl_80246A58
 	# ROM: 0x1AA698
-	.4byte 0x0A000000
+	.asciz "\n"
+	.balign 4
 
 
 glabel lbl_80246A5C
 	# ROM: 0x1AA69C
-	.4byte 0x6F683000
+	.asciz "oh0"
+	.balign 4
 
 
 glabel lbl_80246A60
 	# ROM: 0x1AA6A0
-	.4byte 0x6F683100
-	.4byte 0
+	.asciz "oh1"
+	.balign 8
 
 
 glabel lbl_80246A68
@@ -1216,8 +1229,8 @@ glabel lbl_80246A90
 
 glabel lbl_80246A98
 	# ROM: 0x1AA6D8
-	.4byte 0x25730A00
-	.4byte 0
+	.asciz "%s\n"
+	.balign 8
 
 
 glabel lbl_80246AA0
@@ -1256,8 +1269,7 @@ glabel lbl_80246ABC
 glabel lbl_80246AC4
 	# ROM: 0x1AA704
 	.asciz "FALSE"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80246AD0

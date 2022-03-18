@@ -27,18 +27,13 @@ glabel lbl_80174280
 glabel lbl_801742C0
 	# ROM: 0x1703C0
 	.asciz "HomeButton3/"
-	.balign 4
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
+	.balign 32
 
 
 glabel lbl_801742E0
 	# ROM: 0x1703E0
 	.asciz "arc/timg/defcursor_final"
-	.balign 4
-	.4byte 0
+	.balign 16
 	.4byte 0
 	.4byte 0
 
@@ -46,8 +41,7 @@ glabel lbl_801742E0
 glabel lbl_80174308
 	# ROM: 0x170408
 	.asciz "64_a.tpl"
-	.byte 0x5F, 0x70, 0x31
-	.asciz ".tpl"
+	.asciz "_p1.tpl"
 	.balign 4
 	.4byte 0
 	.4byte 0
@@ -59,17 +53,12 @@ glabel lbl_80174308
 glabel lbl_80174330
 	# ROM: 0x170430
 	.asciz "!!WWW OUT OF MEMORY!!\n"
-	.byte 0x47
-	.asciz "OGI Previous Page"
-	.byte 0x47, 0x4F
-	.asciz "GI Next Page"
-	.byte 0x61, 0x72, 0x63
-	.4byte 0x00746578
-	.asciz "t/html"
-	.byte 0x4E
-	.asciz "O MEMORY\n"
-	.balign 4
-	.4byte 0
+	.asciz "GOGI Previous Page"
+	.asciz "GOGI Next Page"
+	.asciz "arc"
+	.asciz "text/html"
+	.asciz "NO MEMORY\n"
+	.balign 8
 	.asciz "vcJavaScriptExt"
 
 
@@ -77,42 +66,31 @@ glabel lbl_80174398
 	# ROM: 0x170498
 	.asciz "vcJavaScriptExt.dll"
 	.asciz "vcJavaScriptExt"
-	.4byte 0x00466164
-	.4byte 0x65496E00
+	.byte 0
+	.asciz "FadeIn"
 	.asciz "FocusSound"
-	.byte 0x4C
-	.asciz "eftScroll"
-	.byte 0x52, 0x69
-	.asciz "ghtScroll"
-	.byte 0x53, 0x65
-	.asciz "lectSound"
-	.byte 0x57, 0x72
-	.asciz "iteFlag"
+	.asciz "LeftScroll"
+	.asciz "RightScroll"
+	.asciz "SelectSound"
+	.asciz "WriteFlag"
 	.asciz "bNIMSGUI"
-	.byte 0x62, 0x53, 0x4D
-	.asciz "SGUI"
+	.asciz "bSMSGUI"
 	.balign 4
 
 
 glabel lbl_80174410
 	# ROM: 0x170510
 	.asciz "AllocIfNecessary size=%p failed\n "
-	.byte 0x76, 0x63
-	.asciz "mv_main.cpp"
+	.asciz "vcmv_main.cpp"
 	.asciz "Failed to initialize WWW"
-	.byte 0x46, 0x61, 0x69
-	.asciz "led to init flush callback for WWW"
-	.byte 0x57
-	.asciz "ii NTLG PGothic"
+	.asciz "Failed to init flush callback for WWW"
+	.asciz "Wii NTLG PGothic"
 	.asciz "/flash/tmp/opera.arc/opera"
-	.byte 0x46
-	.asciz "ailed to init Opera: %d, %s\n"
-	.byte 0x4F, 0x4F, 0x4D
-	.4byte 0x00466169
-	.asciz "lure"
-	.byte 0x61, 0x72, 0x63
-	.4byte 0
-	.4byte 0
+	.asciz "Failed to init Opera: %d, %s\n"
+	.asciz "OOM"
+	.asciz "Failure"
+	.asciz "arc"
+	.balign 8
 	.asciz "WWWSurfaceInit"
 	.balign 4
 	.asciz "WWWSurfaceNewScreen"
@@ -149,8 +127,7 @@ glabel lbl_80174410
 	.asciz "WWWCloseBrowserWindow"
 	.balign 4
 	.asciz "WWWSetBrowserWindowTransparent"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "WWWGetBrowserWindowRect"
 	.asciz "WWWSetBrowserWindowRect"
 	.asciz "WWWRaiseBrowserWindow"
@@ -187,8 +164,7 @@ glabel lbl_80174410
 	.asciz "WWWLoseFocus"
 	.balign 4
 	.asciz "WWWHistory"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "WWWClearHistory"
 	.asciz "WWWGetTrueZoom"
 	.balign 4
@@ -206,7 +182,7 @@ glabel lbl_80174410
 	.balign 4
 	.asciz "WWWSetRenderingMode"
 	.asciz "WWWGetRenderingMode"
-	.4byte 0
+	.balign 8
 	.asciz "WWWSetImageMode"
 	.asciz "WWWCreateCertificateManager"
 	.asciz "WWWCloseCertificateManager"
@@ -249,8 +225,7 @@ glabel lbl_80174410
 	.asciz "WWWResetNavigation"
 	.balign 4
 	.asciz "WWWClearHighlight"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "WWWSetHighlight"
 	.asciz "WWWGetActiveLinkType"
 	.balign 4
@@ -268,8 +243,7 @@ glabel lbl_80174410
 	.asciz "WWWHTTPInitSession"
 	.balign 4
 	.asciz "WWWHTTPDeleteSession"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "WWWHTTPSetSessionHeader"
 	.asciz "WWWHTTPRemoveSessionHeader"
 	.balign 4
@@ -278,8 +252,7 @@ glabel lbl_80174410
 	.asciz "WWWHTTPCreateRequest"
 	.balign 4
 	.asciz "WWWHTTPDeleteRequest"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "WWWHTTPSetRequestHeader"
 	.asciz "WWWHTTPGetRequestHeader"
 	.asciz "WWWHTTPRemoveRequestHeader"
@@ -291,8 +264,7 @@ glabel lbl_80174410
 	.asciz "WWWHTTPGetResponseHeaders"
 	.balign 4
 	.asciz "WWWHTTPIssue"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "WWWHTTPNbActiveRequests"
 	.asciz "WWWHTTPPostBodyData"
 	.asciz "WWWHTTPSetAuthCredentials"
@@ -325,12 +297,9 @@ glabel lbl_80174410
 glabel lbl_80174E58
 	# ROM: 0x170F58
 	.asciz "\nError: call www unlinked function.\n"
-	.byte 0x41, 0x6C, 0x6C
-	.asciz "ocIfNecessary(%d)\n"
-	.byte 0x77
-	.asciz "wwlib-rvl.lz7"
-	.balign 4
-	.4byte 0
+	.asciz "AllocIfNecessary(%d)\n"
+	.asciz "wwwlib-rvl.lz7"
+	.balign 8
 	.asciz "ARCClose"
 	.balign 4
 	.asciz "ARCConvertPathToEntrynum"
@@ -417,8 +386,7 @@ glabel lbl_80174E58
 	.balign 4
 	.asciz "contentReadNAND"
 	.asciz "contentReleaseHandleNAND"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "contentSeekNAND"
 	.asciz "__OSGetSystemTime"
 	.balign 4
@@ -442,8 +410,7 @@ glabel lbl_80174E58
 	.asciz "__setjmp"
 	.balign 4
 	.asciz "__va_arg"
-	.balign 4
-	.4byte 0
+	.balign 8
 	.asciz "_current_locale"
 	.asciz "localtime"
 	.balign 4
@@ -726,15 +693,12 @@ glabel lbl_80175318
 glabel lbl_80175728
 	# ROM: 0x171828
 	.asciz "!!!!!Prolog!!!!!\n"
-	.byte 0x52, 0x53
-	.asciz "O Module : call constructor (%08x)\n"
+	.asciz "RSO Module : call constructor (%08x)\n"
 	.asciz "!!!!!Epilog!!!!!\n"
-	.byte 0x52, 0x53
-	.asciz "O Module : call destructor (%08x)\n"
-	.byte 0x0A
-	.asciz "[Error]: Unlinked function was called.\n"
+	.asciz "RSO Module : call destructor (%08x)\n"
+	.asciz "\n[Error]: Unlinked function was called.\n"
 	.asciz "RSOLinkInit ERROR!\n"
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801757D8
@@ -1531,8 +1495,10 @@ glabel lbl_80176210
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF
 	.4byte 0xFF296465
-	.asciz "f+gh%&i*j',k"
-	.byte 0x01, 0x02, 0x03
+	.4byte 0x662B6768
+	.4byte 0x2526692A
+	.4byte 0x6A272C6B
+	.4byte 0x00010203
 	.4byte 0x04050607
 	.4byte 0x0809246C
 	.4byte 0x6D6E6F28
@@ -3991,19 +3957,15 @@ glabel lbl_80178360
 glabel lbl_8017838C
 	# ROM: 0x17448C
 	.asciz "!bad_exception!!"
-	.byte 0x21, 0x73, 0x74
-	.asciz "d::exception!!std::bad_exception!!"
-	.byte 0x21
-	.asciz "std::bad_exception!!"
-	.balign 4
-	.4byte 0
+	.asciz "!std::exception!!std::bad_exception!!"
+	.asciz "!std::bad_exception!!"
+	.balign 8
 
 
 glabel lbl_801783E0
 	# ROM: 0x1744E0
 	.asciz "GCN_Mem_Alloc.c : InitDefaultHeap. No Heap Available\n"
-	.byte 0x4D, 0x65
-	.asciz "trowerks CW runtime library initializing default heap\n"
+	.asciz "Metrowerks CW runtime library initializing default heap\n"
 	.balign 4
 
 
@@ -4020,28 +3982,26 @@ glabel lbl_80178450
 glabel lbl_80178468
 	# ROM: 0x174568
 	.asciz "542101086242752217003726400434970855712890625"
-	.byte 0x31, 0x31
-	.asciz "102230246251565404236316680908203125"
-	.byte 0x32, 0x33, 0x32
-	.asciz "83064365386962890625"
-	.byte 0x31, 0x35, 0x32
-	.asciz "587890625"
-	.byte 0x33, 0x39
-	.asciz "0625"
-	.byte 0x37, 0x38, 0x31
-	.4byte 0x32350031
-	.asciz "5625"
-	.byte 0x33, 0x31, 0x32
-	.4byte 0x35003632
-	.4byte 0x35003132
-	.4byte 0x35003235
-	.4byte 0x00350031
-	.4byte 0x00320034
-	.4byte 0x00380031
-	.4byte 0x36003332
-	.4byte 0x00363400
-	.4byte 0x31323800
-	.4byte 0x32353600
+	.asciz "11102230246251565404236316680908203125"
+	.asciz "23283064365386962890625"
+	.asciz "152587890625"
+	.asciz "390625"
+	.asciz "78125"
+	.asciz "15625"
+	.asciz "3125"
+	.asciz "625"
+	.asciz "125"
+	.asciz "25"
+	.asciz "5"
+	.asciz "1"
+	.asciz "2"
+	.asciz "4"
+	.asciz "8"
+	.asciz "16"
+	.asciz "32"
+	.asciz "64"
+	.asciz "128"
+	.asciz "256"
 	.asciz "179769313486231580793728714053034151"
 	.balign 4
 	.4byte 0x00040004
@@ -4318,17 +4278,15 @@ glabel lbl_801786B4
 glabel lbl_80178A50
 	# ROM: 0x174B50
 	.asciz "0x0p0"
-	.byte 0x2D, 0x49
-	.4byte 0x4E46002D
-	.4byte 0x696E6600
-	.4byte 0x494E4600
-	.4byte 0x696E6600
+	.asciz "-INF"
+	.asciz "-inf"
+	.asciz "INF"
+	.asciz "inf"
 	.asciz "-NAN"
-	.byte 0x2D, 0x6E, 0x61
-	.4byte 0x6E004E41
-	.4byte 0x4E006E61
-	.4byte 0x6E000000
-	.4byte 0
+	.asciz "-nan"
+	.asciz "NAN"
+	.asciz "nan"
+	.align 4
 	.4byte 0
 	.4byte 0x7FFFFFFF
 	.4byte 0
@@ -4344,8 +4302,7 @@ glabel lbl_80178A50
 glabel lbl_80178AA8
 	# ROM: 0x174BA8
 	.asciz "INFINITY"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_80178AB8
@@ -4385,32 +4342,26 @@ glabel lbl_80178AEC
 glabel lbl_80178B20
 	# ROM: 0x174C20
 	.asciz "xxx xxx xx xx:xx:xx xxxx\n"
-	.byte 0x25, 0x73
-	.asciz " %s%3d %.2d:%.2d:%.2d %d\n"
-	.byte 0x25, 0x2E
-	.asciz "3s %.3s %2d %.2d:%.2d:%.2d %4d\n"
-	.4byte 0x25730025
-	.4byte 0x2E337300
+	.asciz "%s %s%3d %.2d:%.2d:%.2d %d\n"
+	.asciz "%.3s %.3s %2d %.2d:%.2d:%.2d %4d\n"
+	.asciz "%s"
+	.asciz "%.3s"
 	.asciz "%.2d"
-	.byte 0x25, 0x6D, 0x2F
-	.asciz "%d/%y"
-	.byte 0x25, 0x32
-	.4byte 0x6400252E
-	.asciz "4d-%.2d-%.2d"
-	.byte 0x25, 0x2E, 0x34
-	.4byte 0x6400252E
-	.4byte 0x3364000A
-	.4byte 0x0025483A
-	.4byte 0x254D0009
-	.4byte 0x0025483A
-	.asciz "%M:%S"
-	.byte 0x37, 0x00
+	.asciz "%m/%d/%y"
+	.asciz "%2d"
+	.asciz "%.4d-%.2d-%.2d"
+	.asciz "%.4d"
+	.asciz "%.3d"
+	.asciz "\n"
+	.asciz "%H:%M"
+	.asciz "\t"
+	.asciz "%H:%M:%S"
+	.asciz "7"
 	.asciz "%.1d"
-	.byte 0x30, 0x30, 0x30
-	.4byte 0x3000252B
-	.asciz "03.0f%02.0f"
-	.4byte 0x25250025
-	.4byte 0x25256300
+	.asciz "0000"
+	.asciz "%+03.0f%02.0f"
+	.asciz "%%"
+	.asciz "%%%c"
 	.4byte 0x00040004
 	.4byte 0x00040004
 	.4byte 0x00040004
@@ -4951,16 +4902,16 @@ glabel lbl_801793D8
 	.4byte 0x00000006
 	.4byte 0x3FF921FB
 	.4byte 0x40000000
-	.asciz ">tD-"
-	.balign 4
+	.4byte 0x3E74442D
+	.4byte 0
 	.4byte 0x3CF84698
 	.4byte 0x80000000
 	.4byte 0x3B78CC51
 	.4byte 0x60000000
 	.4byte 0x39F01B83
 	.4byte 0x80000000
-	.asciz "8z% @"
-	.balign 4
+	.4byte 0x387A2520
+	.4byte 0x40000000
 	.4byte 0x36E38222
 	.4byte 0x80000000
 	.4byte 0x3569F31D
@@ -5057,8 +5008,7 @@ glabel lbl_80179568
 	.balign 4
 	.asciz "Enable\n"
 	.asciz "Disable\n"
-	.balign 4
-	.4byte 0
+	.balign 8
 
 
 glabel lbl_801795A0
@@ -5109,12 +5059,14 @@ glabel lbl_80179600
 
 glabel lbl_80179628
 	# ROM: 0x175728
-	.4byte 0x00454E44
+	.byte 0
+	.ascii "END"
 
 
 glabel lbl_8017962C
 	# ROM: 0x17572C
-	.4byte 0x25730A00
+	.asciz "%s\n"
+	.balign 4
 	.asciz "Devkit set to : %ld\n"
 	.balign 4
 	.asciz "MetroTRK : Sizeof Reply - %ld bytes\n"

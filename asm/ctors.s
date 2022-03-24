@@ -6,27 +6,27 @@
 
 glabel lbl_80174200
 	# ROM: 0x170300
-	.4byte 0x8015D104  ;# ptr
-	.4byte 0x8008B54C  ;# ptr
-	.4byte 0x8011947C  ;# ptr
-	.4byte 0x801203B8  ;# ptr
-	.4byte 0x80120AEC  ;# ptr
-	.4byte 0x801239E8  ;# ptr
-	.4byte 0x80126340  ;# ptr
-	.4byte 0x8012DC8C  ;# ptr
-	.4byte 0x8012EEEC  ;# ptr
-	.4byte 0x80134C98  ;# ptr
-	.4byte 0x801353A0  ;# ptr
-	.4byte 0x80141F8C  ;# ptr
-	.4byte 0x8014241C  ;# ptr
-	.4byte 0x80143FB8  ;# ptr
-	.4byte 0x801444C4  ;# ptr
-	.4byte 0x80145AB4  ;# ptr
-	.4byte 0x8014B858  ;# ptr
-	.4byte 0x8014BAF0  ;# ptr
-	.4byte 0x8014BEFC  ;# ptr
-	.4byte 0x8014D810  ;# ptr
-	.4byte 0x8015BF40  ;# ptr
+	.4byte lbl_8015D104
+	.4byte lbl_8008B54C
+	.4byte lbl_8011947C
+	.4byte lbl_801203B8
+	.4byte lbl_80120AEC
+	.4byte lbl_801239E8
+	.4byte lbl_80126340
+	.4byte lbl_8012DC8C
+	.4byte lbl_8012EEEC
+	.4byte lbl_80134C98
+	.4byte lbl_801353A0
+	.4byte lbl_80141F8C
+	.4byte lbl_8014241C
+	.4byte lbl_80143FB8
+	.4byte lbl_801444C4
+	.4byte lbl_80145AB4
+	.4byte lbl_8014B858
+	.4byte lbl_8014BAF0
+	.4byte lbl_8014BEFC
+	.4byte lbl_8014D810
+	.4byte lbl_8015BF40
 	.4byte 0
 	.4byte 0
 	.4byte 0

@@ -23,12 +23,10 @@ glabel lbl_80174280
 	.4byte 0x44200000
 	.4byte 0x44040000
 
-
 glabel lbl_801742C0
 	# ROM: 0x1703C0
 	.asciz "HomeButton3/"
 	.balign 32
-
 
 glabel lbl_801742E0
 	# ROM: 0x1703E0
@@ -36,7 +34,6 @@ glabel lbl_801742E0
 	.balign 16
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80174308
 	# ROM: 0x170408
@@ -49,7 +46,6 @@ glabel lbl_80174308
 	.4byte 0
 	.4byte 0x000001C8
 
-
 glabel lbl_80174330
 	# ROM: 0x170430
 	.asciz "!!WWW OUT OF MEMORY!!\n"
@@ -59,8 +55,9 @@ glabel lbl_80174330
 	.asciz "text/html"
 	.asciz "NO MEMORY\n"
 	.balign 8
-	.asciz "vcJavaScriptExt"
 
+glabel lbl_80174388
+	.asciz "vcJavaScriptExt"
 
 glabel lbl_80174398
 	# ROM: 0x170498
@@ -77,7 +74,6 @@ glabel lbl_80174398
 	.asciz "bSMSGUI"
 	.balign 4
 
-
 glabel lbl_80174410
 	# ROM: 0x170510
 	.asciz "AllocIfNecessary size=%p failed\n "
@@ -91,208 +87,433 @@ glabel lbl_80174410
 	.asciz "Failure"
 	.asciz "arc"
 	.balign 8
+
+glabel lbl_801744E0
 	.asciz "WWWSurfaceInit"
 	.balign 4
+
+glabel lbl_801744F0
 	.asciz "WWWSurfaceNewScreen"
+
+glabel lbl_80174504
 	.asciz "WWWSurfaceDeleteScreen"
 	.balign 4
+
+glabel lbl_8017451C
 	.asciz "WWWSurfaceResize"
 	.balign 4
+
+glabel lbl_80174530
 	.asciz "WWWSurfaceShutdown"
 	.balign 4
+
+glabel lbl_80174544
 	.asciz "WWWSurfaceSetFlushCallback"
 	.balign 4
+
+glabel lbl_80174560
 	.asciz "WWWSurfaceInvalidate"
 	.balign 4
+
+glabel lbl_80174578
 	.asciz "WWWSurfaceUpdateScreen"
 	.balign 4
+
+glabel lbl_80174590
 	.asciz "WWWSurfaceLockArea"
 	.balign 4
+
+glabel lbl_801745A4
 	.asciz "WWWSurfaceUnlockArea"
 	.balign 4
+
+glabel lbl_801745BC
 	.asciz "WWWSurfaceMouseEvt"
 	.balign 4
+
+glabel lbl_801745D0
 	.asciz "WWWSurfaceWheelEvt"
 	.balign 4
+
+glabel lbl_801745E4
 	.asciz "WWWSurfaceKeyboardEvt"
 	.balign 4
+
+glabel lbl_801745FC
 	.asciz "WWWSurfaceAddFont"
 	.balign 4
+
+glabel lbl_80174610
 	.asciz "WWWCreateBrowser"
 	.balign 4
+
+glabel lbl_80174624
 	.asciz "WWWTerminateBrowser"
+
+glabel lbl_80174638
 	.asciz "WWWRunSlice"
+
+glabel lbl_80174644
 	.asciz "WWWCreateBrowserWindow"
 	.balign 4
+
+glabel lbl_8017465C
 	.asciz "WWWCloseBrowserWindow"
 	.balign 4
+
+glabel lbl_80174674
 	.asciz "WWWSetBrowserWindowTransparent"
 	.balign 8
+
+glabel lbl_80174698
 	.asciz "WWWGetBrowserWindowRect"
+
+glabel lbl_801746B0
 	.asciz "WWWSetBrowserWindowRect"
+
+glabel lbl_801746C8
 	.asciz "WWWRaiseBrowserWindow"
 	.balign 4
+
+glabel lbl_801746E0
 	.asciz "WWWLowerBrowserWindow"
 	.balign 4
+
+glabel lbl_801746F8
 	.asciz "WWWShowBrowserWindow"
 	.balign 4
+
+glabel lbl_80174710
 	.asciz "WWWHideBrowserWindow"
 	.balign 4
+
+glabel lbl_80174728
 	.asciz "WWWCommitIme"
 	.balign 4
+
+glabel lbl_80174738
 	.asciz "WWWUpdateIme"
 	.balign 4
+
+glabel lbl_80174748
 	.asciz "WWWPostUrl"
 	.balign 4
+
+glabel lbl_80174754
 	.asciz "WWWOpenUrl"
 	.balign 4
+
+glabel lbl_80174760
 	.asciz "WWWGetHistoryCount"
 	.balign 4
+
+glabel lbl_80174774
 	.asciz "WWWNextPage"
+
+glabel lbl_80174780
 	.asciz "WWWPrevPage"
+
+glabel lbl_8017478C
 	.asciz "WWWMoveInHistory"
 	.balign 4
+
+glabel lbl_801747A0
 	.asciz "WWWReload"
 	.balign 4
+
+glabel lbl_801747AC
 	.asciz "WWWReflow"
 	.balign 4
+
+glabel lbl_801747B8
 	.asciz "WWWSearch"
 	.balign 4
+
+glabel lbl_801747C4
 	.asciz "WWWResetSearch"
 	.balign 4
+
+glabel lbl_801747D4
 	.asciz "WWWSetFocus"
+
+glabel lbl_801747E0
 	.asciz "WWWLoseFocus"
 	.balign 4
+
+glabel lbl_801747F0
 	.asciz "WWWHistory"
 	.balign 8
+
+glabel lbl_80174800
 	.asciz "WWWClearHistory"
+
+glabel lbl_80174810
 	.asciz "WWWGetTrueZoom"
 	.balign 4
+
+glabel lbl_80174820
 	.asciz "WWWSetTrueZoom"
 	.balign 4
+
+glabel lbl_80174830
 	.asciz "WWWGetZoom"
 	.balign 4
+
+glabel lbl_8017483C
 	.asciz "WWWSetZoom"
 	.balign 4
+
+glabel lbl_80174848
 	.asciz "WWWGetSecurityMode"
 	.balign 4
+
+glabel lbl_8017485C
 	.asciz "WWWGetScroll"
 	.balign 4
+
+glabel lbl_8017486C
 	.asciz "WWWSetScroll"
 	.balign 4
+
+glabel lbl_8017487C
 	.asciz "WWWSetRenderingMode"
+
+glabel lbl_80174890
 	.asciz "WWWGetRenderingMode"
 	.balign 8
+
+glabel lbl_801748A8
 	.asciz "WWWSetImageMode"
+
+glabel lbl_801748B8
 	.asciz "WWWCreateCertificateManager"
+
+glabel lbl_801748D4
 	.asciz "WWWCloseCertificateManager"
 	.balign 4
+
+glabel lbl_801748F0
 	.asciz "WWWGetNumberOfCertificates"
 	.balign 4
+
+glabel lbl_8017490C
 	.asciz "WWWSetLanguageEncoding"
 	.balign 4
+
+glabel lbl_80174924
 	.asciz "WWWGetDocumentIcon"
 	.balign 4
+
+glabel lbl_80174938
 	.asciz "WWWGetDocumentIconUrl"
 	.balign 4
+
+glabel lbl_80174950
 	.asciz "WWWClearCookies"
+
+glabel lbl_80174960
 	.asciz "WWWGetDocumentSize"
 	.balign 4
+
+glabel lbl_80174974
 	.asciz "WWWSetIntPref"
 	.balign 4
+
+glabel lbl_80174984
 	.asciz "WWWGetIntPref"
 	.balign 4
+
+glabel lbl_80174994
 	.asciz "WWWSetStringPref"
 	.balign 4
+
+glabel lbl_801749A8
 	.asciz "WWWGetStringPref"
 	.balign 4
+
+glabel lbl_801749BC
 	.asciz "WWWCommitPrefs"
 	.balign 4
+
+glabel lbl_801749CC
 	.asciz "WWWSetFocusColors"
 	.balign 4
+
+glabel lbl_801749E0
 	.asciz "WWWSetScrollbarColors"
 	.balign 4
+
+glabel lbl_801749F8
 	.asciz "WWWSetScrollbarSize"
+
+glabel lbl_80174A0C
 	.asciz "WWWSetWidgetColors"
 	.balign 4
+
+glabel lbl_80174A20
 	.asciz "WWWSetDisabledWidgetColors"
 	.balign 4
+
+glabel lbl_80174A3C
 	.asciz "WWWSetButtonWidgetColors"
 	.balign 4
+
+glabel lbl_80174A58
 	.asciz "WWWSetUastringExtension"
+
+glabel lbl_80174A70
 	.asciz "WWWMarkNextItemInDirection"
 	.balign 4
+
+glabel lbl_80174A8C
 	.asciz "WWWResetNavigation"
 	.balign 4
+
+glabel lbl_80174AA0
 	.asciz "WWWClearHighlight"
 	.balign 8
+
+glabel lbl_80174AB8
 	.asciz "WWWSetHighlight"
+
+glabel lbl_80174AC8
 	.asciz "WWWGetActiveLinkType"
 	.balign 4
+
+glabel lbl_80174AE0
 	.asciz "WWWGetBrowserAllocationFunctions"
 	.balign 4
+
+glabel lbl_80174B04
 	.asciz "WWWShutdownBrowserAllocationFunctions"
 	.balign 4
+
+glabel lbl_80174B2C
 	.asciz "WWWSetAllocationFunctions"
 	.balign 4
+
+glabel lbl_80174B48
 	.asciz "WWWHTTPCreateHttpLib"
 	.balign 4
+
+glabel lbl_80174B60
 	.asciz "WWWHTTPTerminateHttpLib"
+
+glabel lbl_80174B78
 	.asciz "WWWHTTPSessionRunSlice"
 	.balign 4
+
+glabel lbl_80174B90
 	.asciz "WWWHTTPInitSession"
 	.balign 4
+
+glabel lbl_80174BA4
 	.asciz "WWWHTTPDeleteSession"
 	.balign 8
+
+glabel lbl_80174BC0
 	.asciz "WWWHTTPSetSessionHeader"
+
+glabel lbl_80174BD8
 	.asciz "WWWHTTPRemoveSessionHeader"
 	.balign 4
+
+glabel lbl_80174BF4
 	.asciz "WWWHTTPRemoveAllSessionHeaders"
 	.balign 4
+
+glabel lbl_80174C14
 	.asciz "WWWHTTPCreateRequest"
 	.balign 4
+
+glabel lbl_80174C2C
 	.asciz "WWWHTTPDeleteRequest"
 	.balign 8
+
+glabel lbl_80174C48
 	.asciz "WWWHTTPSetRequestHeader"
+
+glabel lbl_80174C60
 	.asciz "WWWHTTPGetRequestHeader"
+
+glabel lbl_80174C78
 	.asciz "WWWHTTPRemoveRequestHeader"
 	.balign 4
+
+glabel lbl_80174C94
 	.asciz "WWWHTTPRemoveAllRequestHeaders"
 	.balign 4
+
+glabel lbl_80174CB4
 	.asciz "WWWHTTPGetResponseHeader"
 	.balign 4
+
+glabel lbl_80174CD0
 	.asciz "WWWHTTPGetResponseHeaders"
 	.balign 4
+
+glabel lbl_80174CEC
 	.asciz "WWWHTTPIssue"
 	.balign 8
+
+glabel lbl_80174D00
 	.asciz "WWWHTTPNbActiveRequests"
+
+glabel lbl_80174D18
 	.asciz "WWWHTTPPostBodyData"
+
+glabel lbl_80174D2C
 	.asciz "WWWHTTPSetAuthCredentials"
 	.balign 4
+
+glabel lbl_80174D48
 	.asciz "WWWHTTPRemoveAuthCredentials"
 	.balign 4
+
+glabel lbl_80174D68
 	.asciz "WWWHTTPSetProxy"
+
+glabel lbl_80174D78
 	.asciz "WWWHTTPRemoveProxy"
 	.balign 4
+
+glabel lbl_80174D8C
 	.asciz "WWWHTTPEndLoading"
 	.balign 4
+
+glabel lbl_80174DA0
 	.asciz "WWWAddJSPlugin"
 	.balign 4
+
+glabel lbl_80174DB0
 	.asciz "WWWAddNSPlugin"
 	.balign 4
+
+glabel lbl_80174DC0
 	.asciz "WWWProtocolWrite"
 	.balign 4
+
+glabel lbl_80174DD4
 	.asciz "WWWProtocolSetMimeType"
 	.balign 4
+
+glabel lbl_80174DEC
 	.asciz "WWWProtocolFinished"
+
+glabel lbl_80174E00
 	.asciz "WWWProtocolFailed"
 	.balign 4
+
+glabel lbl_80174E14
 	.asciz "WWWAddProtocol"
 	.balign 4
+
+glabel lbl_80174E24
 	.asciz "WiiNTLG-Regular.ttc"
+
+glabel lbl_80174E38
 	.asciz "/shared2/menu/vc/settings.sav"
 	.balign 4
-
 
 glabel lbl_80174E58
 	# ROM: 0x170F58
@@ -300,395 +521,529 @@ glabel lbl_80174E58
 	.asciz "AllocIfNecessary(%d)\n"
 	.asciz "wwwlib-rvl.lz7"
 	.balign 8
+
+glabel lbl_80174EA8
 	.asciz "ARCClose"
 	.balign 4
+
+glabel lbl_80174EB4
 	.asciz "ARCConvertPathToEntrynum"
 	.balign 4
+
+glabel lbl_80174ED0
 	.asciz "ARCEntrynumIsDir"
 	.balign 4
+
+glabel lbl_80174EE4
 	.asciz "ARCFastOpen"
+
+glabel lbl_80174EF0
 	.asciz "ARCGetLength"
 	.balign 4
+
+glabel lbl_80174F00
 	.asciz "ARCGetStartAddrInMem"
 	.balign 4
+
+glabel lbl_80174F18
 	.asciz "ARCGetStartOffset"
 	.balign 4
+
+glabel lbl_80174F2C
 	.asciz "ARCInitHandle"
 	.balign 4
+
+glabel lbl_80174F3C
 	.asciz "ARCReadDir"
 	.balign 4
+
+glabel lbl_80174F48
 	.asciz "DVDClose"
 	.balign 4
+
+glabel lbl_80174F54
 	.asciz "DVDCloseDir"
+
+glabel lbl_80174F60
 	.asciz "DVDConvertPathToEntrynum"
 	.balign 4
+
+glabel lbl_80174F7C
 	.asciz "DVDEntrynumIsDir"
 	.balign 4
+
+glabel lbl_80174F90
 	.asciz "DVDFastOpen"
+
+glabel lbl_80174F9C
 	.asciz "DVDOpenDir"
 	.balign 4
+
+glabel lbl_80174FA8
 	.asciz "DVDReadDir"
 	.balign 4
+
+glabel lbl_80174FB4
 	.asciz "DVDReadPrio"
+
+glabel lbl_80174FC0
 	.asciz "NANDClose"
 	.balign 4
+
+glabel lbl_80174FCC
 	.asciz "NANDCreate"
 	.balign 4
+
+glabel lbl_80174FD8
 	.asciz "NANDCreateDir"
 	.balign 4
+
+glabel lbl_80174FE8
 	.asciz "NANDDelete"
 	.balign 4
+
+glabel lbl_80174FF4
 	.asciz "NANDGetCurrentDir"
 	.balign 4
+
+glabel lbl_80175008
 	.asciz "NANDGetLength"
 	.balign 4
+
+glabel lbl_80175018
 	.asciz "NANDGetStatus"
 	.balign 4
+
+glabel lbl_80175028
 	.asciz "NANDGetType"
+
+glabel lbl_80175034
 	.asciz "NANDOpen"
 	.balign 4
+
+glabel lbl_80175040
 	.asciz "NANDRead"
 	.balign 4
+
+glabel lbl_8017504C
 	.asciz "NANDReadDir"
+
+glabel lbl_80175058
 	.asciz "NANDSafeClose"
 	.balign 4
+
+glabel lbl_80175068
 	.asciz "NANDSafeOpen"
 	.balign 4
+
+glabel lbl_80175078
 	.asciz "NANDSeek"
 	.balign 4
+
+glabel lbl_80175084
 	.asciz "NANDWrite"
 	.balign 4
+
+glabel lbl_80175090
 	.asciz "NETGetUniversalCalendar"
+
+glabel lbl_801750A8
 	.asciz "OSCalendarTimeToTicks"
 	.balign 4
+
+glabel lbl_801750C0
 	.asciz "OSGetTime"
 	.balign 4
+
+glabel lbl_801750CC
 	.asciz "OSRegisterVersion"
 	.balign 4
+
+glabel lbl_801750E0
 	.asciz "OSReport"
 	.balign 4
+
+glabel lbl_801750EC
 	.asciz "OSYieldThread"
 	.balign 4
+
+glabel lbl_801750FC
 	.asciz "SCGetLanguage"
 	.balign 4
+
+glabel lbl_8017510C
 	.asciz "WWW_FONT_FILE_DATA_TABLE__"
 	.balign 4
+
+glabel lbl_80175128
 	.asciz "contentCloseNAND"
 	.balign 4
+
+glabel lbl_8017513C
 	.asciz "contentConvertPathToEntrynumNAND"
 	.balign 4
+
+glabel lbl_80175160
 	.asciz "contentFastOpenNAND"
+
+glabel lbl_80175174
 	.asciz "contentGetLengthNAND"
 	.balign 4
+
+glabel lbl_8017518C
 	.asciz "contentInitHandleNAND"
 	.balign 4
+
+glabel lbl_801751A4
 	.asciz "contentOpenDirNAND"
 	.balign 4
+
+glabel lbl_801751B8
 	.asciz "contentReadNAND"
+
+glabel lbl_801751C8
 	.asciz "contentReleaseHandleNAND"
 	.balign 8
+
+glabel lbl_801751E8
 	.asciz "contentSeekNAND"
+
+glabel lbl_801751F8
 	.asciz "__OSGetSystemTime"
 	.balign 4
+
+glabel lbl_8017520C
 	.asciz "_SDA2_BASE_"
+
+glabel lbl_80175218
 	.asciz "_SDA_BASE_"
 	.balign 4
+
+glabel lbl_80175224
 	.asciz "__construct_array"
 	.balign 4
+
+glabel lbl_80175238
 	.asciz "__construct_new_array"
 	.balign 4
+
+glabel lbl_80175250
 	.asciz "__cvt_fp2unsigned"
 	.balign 4
+
+glabel lbl_80175264
 	.asciz "__cvt_sll_dbl"
 	.balign 4
+
+glabel lbl_80175274
 	.asciz "__destroy_arr"
 	.balign 4
+
+glabel lbl_80175284
 	.asciz "__double_huge"
 	.balign 4
+
+glabel lbl_80175294
 	.asciz "__ptmf_scall"
 	.balign 4
+
+glabel lbl_801752A4
 	.asciz "__setjmp"
 	.balign 4
+
+glabel lbl_801752B0
 	.asciz "__va_arg"
 	.balign 8
+
+glabel lbl_801752C0
 	.asciz "_current_locale"
+
+glabel lbl_801752D0
 	.asciz "localtime"
 	.balign 4
+
+glabel lbl_801752DC
 	.asciz "snprintf"
 	.balign 4
+
+glabel lbl_801752E8
 	.asciz "strftime"
 	.balign 4
+
+glabel lbl_801752F4
 	.asciz "strnicmp"
 	.balign 4
+
+glabel lbl_80175300
 	.asciz "vsnprintf"
 	.balign 4
+
+glabel lbl_8017530C
 	.asciz "vsprintf"
 	.balign 4
 
-
 glabel lbl_80175318
 	# ROM: 0x171418
-	.4byte 0x80174EA8  ;# ptr
-	.4byte 0x800BEC50  ;# ptr
-	.4byte 0x80174EB4  ;# ptr
-	.4byte 0x800BE7E0  ;# ptr
-	.4byte 0x80174ED0  ;# ptr
-	.4byte 0x800BEA44  ;# ptr
-	.4byte 0x80174EE4  ;# ptr
-	.4byte 0x800BE790  ;# ptr
-	.4byte 0x80174EF0  ;# ptr
-	.4byte 0x800BEC48  ;# ptr
-	.4byte 0x80174F00  ;# ptr
-	.4byte 0x800BEC2C  ;# ptr
-	.4byte 0x80174F18  ;# ptr
-	.4byte 0x800BEC40  ;# ptr
-	.4byte 0x80174F2C  ;# ptr
-	.4byte 0x800BE44C  ;# ptr
-	.4byte 0x80247BF0  ;# ptr
-	.4byte 0x800BE4EC  ;# ptr
-	.4byte 0x80174F3C  ;# ptr
-	.4byte 0x800BED2C  ;# ptr
-	.4byte 0x80174F48  ;# ptr
-	.4byte 0x800AA7B0  ;# ptr
-	.4byte 0x80174F54  ;# ptr
-	.4byte 0x800AAED0  ;# ptr
-	.4byte 0x80174F60  ;# ptr
-	.4byte 0x800AA420  ;# ptr
-	.4byte 0x80174F7C  ;# ptr
-	.4byte 0x800AA728  ;# ptr
-	.4byte 0x80174F90  ;# ptr
-	.4byte 0x800AA748  ;# ptr
-	.4byte 0x80174F9C  ;# ptr
-	.4byte 0x800AABAC  ;# ptr
-	.4byte 0x80174FA8  ;# ptr
-	.4byte 0x800AAE44  ;# ptr
-	.4byte 0x80174FB4  ;# ptr
-	.4byte 0x800AAA7C  ;# ptr
-	.4byte 0x80174FC0  ;# ptr
-	.4byte 0x800BA2C8  ;# ptr
-	.4byte 0x80174FCC  ;# ptr
-	.4byte 0x800B91D0  ;# ptr
-	.4byte 0x80174FD8  ;# ptr
-	.4byte 0x800B99AC  ;# ptr
-	.4byte 0x80174FE8  ;# ptr
-	.4byte 0x800B9330  ;# ptr
-	.4byte 0x80174FF4  ;# ptr
-	.4byte 0x800BB71C  ;# ptr
-	.4byte 0x80175008  ;# ptr
-	.4byte 0x800B9B0C  ;# ptr
-	.4byte 0x80175018  ;# ptr
-	.4byte 0x800B9E3C  ;# ptr
-	.4byte 0x80175028  ;# ptr
-	.4byte 0x800BBBAC  ;# ptr
-	.4byte 0x80175034  ;# ptr
-	.4byte 0x800BA048  ;# ptr
-	.4byte 0x80175040  ;# ptr
-	.4byte 0x800B94A0  ;# ptr
-	.4byte 0x8017504C  ;# ptr
-	.4byte 0x800B97B0  ;# ptr
-	.4byte 0x80175058  ;# ptr
-	.4byte 0x800BA6F0  ;# ptr
-	.4byte 0x80175068  ;# ptr
-	.4byte 0x800BA3BC  ;# ptr
-	.4byte 0x80175078  ;# ptr
-	.4byte 0x800B9660  ;# ptr
-	.4byte 0x80175084  ;# ptr
-	.4byte 0x800B9580  ;# ptr
-	.4byte 0x80175090  ;# ptr
-	.4byte 0x8008DA7C  ;# ptr
-	.4byte 0x801750A8  ;# ptr
-	.4byte 0x800991DC  ;# ptr
-	.4byte 0x801750C0  ;# ptr
-	.4byte 0x80098DC8  ;# ptr
-	.4byte 0x80247BF8  ;# ptr
-	.4byte 0x8009193C  ;# ptr
-	.4byte 0x801750CC  ;# ptr
-	.4byte 0x8008FDA0  ;# ptr
-	.4byte 0x801750E0  ;# ptr
-	.4byte 0x800918AC  ;# ptr
-	.4byte 0x801750EC  ;# ptr
-	.4byte 0x80098118  ;# ptr
-	.4byte 0x801750FC  ;# ptr
-	.4byte 0x800BDC40  ;# ptr
-	.4byte 0x8017510C  ;# ptr
-	.4byte 0x801B3CE0  ;# ptr
-	.4byte 0x80175128  ;# ptr
-	.4byte 0x80107CD4  ;# ptr
-	.4byte 0x8017513C  ;# ptr
-	.4byte 0x80107B38  ;# ptr
-	.4byte 0x80175160  ;# ptr
-	.4byte 0x80107ACC  ;# ptr
-	.4byte 0x80175174  ;# ptr
-	.4byte 0x80107B3C  ;# ptr
-	.4byte 0x8017518C  ;# ptr
-	.4byte 0x80107664  ;# ptr
-	.4byte 0x801751A4  ;# ptr
-	.4byte 0x80107DF8  ;# ptr
-	.4byte 0x801751B8  ;# ptr
-	.4byte 0x80107BAC  ;# ptr
-	.4byte 0x801751C8  ;# ptr
-	.4byte 0x80107CDC  ;# ptr
-	.4byte 0x801751E8  ;# ptr
-	.4byte 0x80107B44  ;# ptr
-	.4byte 0x801751F8  ;# ptr
-	.4byte 0x80098DE8  ;# ptr
-	.4byte 0x8017520C  ;# ptr
-	.4byte 0x8024F800  ;# ptr
-	.4byte 0x80175218  ;# ptr
-	.4byte 0x8024E480  ;# ptr
-	.4byte 0x80175224  ;# ptr
-	.4byte 0x8015C648  ;# ptr
-	.4byte 0x80175238  ;# ptr
-	.4byte 0x8015C488  ;# ptr
-	.4byte 0x80175250  ;# ptr
-	.4byte 0x8015C81C  ;# ptr
-	.4byte 0x80175264  ;# ptr
-	.4byte 0x8015CE2C  ;# ptr
-	.4byte 0x80175274  ;# ptr
-	.4byte 0x8015C740  ;# ptr
-	.4byte 0x80247C00  ;# ptr
-	.4byte 0x8015CA94  ;# ptr
-	.4byte 0x80175284  ;# ptr
-	.4byte 0x80246B50  ;# ptr
-	.4byte 0x80247C08  ;# ptr
-	.4byte 0x801AD478  ;# ptr
-	.4byte 0x80247C10  ;# ptr
-	.4byte 0x8015CCB0  ;# ptr
-	.4byte 0x80175294  ;# ptr
-	.4byte 0x8015C7F4  ;# ptr
-	.4byte 0x801752A4  ;# ptr
-	.4byte 0x8015D174  ;# ptr
-	.4byte 0x80247C18  ;# ptr
-	.4byte 0x8015CDBC  ;# ptr
-	.4byte 0x801752B0  ;# ptr
-	.4byte 0x8015C000  ;# ptr
-	.4byte 0x801752C0  ;# ptr
-	.4byte 0x801AD8D0  ;# ptr
-	.4byte 0x80247C20  ;# ptr
-	.4byte 0x8016A60C  ;# ptr
-	.4byte 0x80247C28  ;# ptr
-	.4byte 0x8008E8E4  ;# ptr
-	.4byte 0x80247C2C  ;# ptr
-	.4byte 0x8016E844  ;# ptr
-	.4byte 0x80247C34  ;# ptr
-	.4byte 0x8016E848  ;# ptr
-	.4byte 0x80247C3C  ;# ptr
-	.4byte 0x8016DF3C  ;# ptr
-	.4byte 0x80247C44  ;# ptr
-	.4byte 0x8016E84C  ;# ptr
-	.4byte 0x80247C4C  ;# ptr
-	.4byte 0x8016895C  ;# ptr
-	.4byte 0x80247C54  ;# ptr
-	.4byte 0x80168A20  ;# ptr
-	.4byte 0x80247C60  ;# ptr
-	.4byte 0x80161724  ;# ptr
-	.4byte 0x80247C68  ;# ptr
-	.4byte 0x8016E17C  ;# ptr
-	.4byte 0x80247C70  ;# ptr
-	.4byte 0x80168FE0  ;# ptr
-	.4byte 0x80247C78  ;# ptr
-	.4byte 0x8016E2E8  ;# ptr
-	.4byte 0x80247C7C  ;# ptr
-	.4byte 0x8009AF68  ;# ptr
-	.4byte 0x80247C84  ;# ptr
-	.4byte 0x8016E850  ;# ptr
-	.4byte 0x80247C88  ;# ptr
-	.4byte 0x8016E3BC  ;# ptr
-	.4byte 0x80247C90  ;# ptr
-	.4byte 0x8016E854  ;# ptr
-	.4byte 0x80247C98  ;# ptr
-	.4byte 0x80164998  ;# ptr
-	.4byte 0x80247CA0  ;# ptr
-	.4byte 0x8016A52C  ;# ptr
-	.4byte 0x80247CA8  ;# ptr
-	.4byte 0x8016A72C  ;# ptr
-	.4byte 0x80247CB0  ;# ptr
-	.4byte 0x801614C0  ;# ptr
-	.4byte 0x801752D0  ;# ptr
-	.4byte 0x801690BC  ;# ptr
-	.4byte 0x80247CB8  ;# ptr
-	.4byte 0x8016E858  ;# ptr
-	.4byte 0x80247CC0  ;# ptr
-	.4byte 0x8015D278  ;# ptr
-	.4byte 0x80247CC8  ;# ptr
-	.4byte 0x80162410  ;# ptr
-	.4byte 0x80247CD0  ;# ptr
-	.4byte 0x80162468  ;# ptr
-	.4byte 0x80247CD8  ;# ptr
-	.4byte 0x80004338  ;# ptr
-	.4byte 0x80247CE0  ;# ptr
-	.4byte 0x80162344  ;# ptr
-	.4byte 0x80247CE8  ;# ptr
-	.4byte 0x8000443C  ;# ptr
-	.4byte 0x80247CF0  ;# ptr
-	.4byte 0x80168FE4  ;# ptr
-	.4byte 0x80247CF8  ;# ptr
-	.4byte 0x8016E860  ;# ptr
-	.4byte 0x80247CFC  ;# ptr
-	.4byte 0x801648D0  ;# ptr
-	.4byte 0x80247D04  ;# ptr
-	.4byte 0x80164D80  ;# ptr
-	.4byte 0x80247D0C  ;# ptr
-	.4byte 0x80164EF0  ;# ptr
-	.4byte 0x80247D14  ;# ptr
-	.4byte 0x8016E6F4  ;# ptr
-	.4byte 0x801752DC  ;# ptr
-	.4byte 0x80164BD8  ;# ptr
-	.4byte 0x80247D18  ;# ptr
-	.4byte 0x80164CB0  ;# ptr
-	.4byte 0x80247D20  ;# ptr
-	.4byte 0x8016EAB0  ;# ptr
-	.4byte 0x80247D28  ;# ptr
-	.4byte 0x80164F10  ;# ptr
-	.4byte 0x80247D30  ;# ptr
-	.4byte 0x801663BC  ;# ptr
-	.4byte 0x80247D38  ;# ptr
-	.4byte 0x80166638  ;# ptr
-	.4byte 0x80247D40  ;# ptr
-	.4byte 0x8016680C  ;# ptr
-	.4byte 0x80247D48  ;# ptr
-	.4byte 0x801666B0  ;# ptr
-	.4byte 0x80247D50  ;# ptr
-	.4byte 0x80166534  ;# ptr
-	.4byte 0x80247D58  ;# ptr
-	.4byte 0x801669D0  ;# ptr
-	.4byte 0x801752E8  ;# ptr
-	.4byte 0x801695C8  ;# ptr
-	.4byte 0x80247D60  ;# ptr
-	.4byte 0x8016A680  ;# ptr
-	.4byte 0x80247D68  ;# ptr
-	.4byte 0x8015BFE4  ;# ptr
-	.4byte 0x80247D70  ;# ptr
-	.4byte 0x80166664  ;# ptr
-	.4byte 0x80247D78  ;# ptr
-	.4byte 0x801667CC  ;# ptr
-	.4byte 0x80247D80  ;# ptr
-	.4byte 0x801665F4  ;# ptr
-	.4byte 0x801752F4  ;# ptr
-	.4byte 0x8016A728  ;# ptr
-	.4byte 0x80247D88  ;# ptr
-	.4byte 0x80166884  ;# ptr
-	.4byte 0x80247D90  ;# ptr
-	.4byte 0x8016683C  ;# ptr
-	.4byte 0x80247D98  ;# ptr
-	.4byte 0x8016692C  ;# ptr
-	.4byte 0x80247DA0  ;# ptr
-	.4byte 0x80166A74  ;# ptr
-	.4byte 0x80247DA8  ;# ptr
-	.4byte 0x80168870  ;# ptr
-	.4byte 0x80247DB0  ;# ptr
-	.4byte 0x801687C8  ;# ptr
-	.4byte 0x80247DB8  ;# ptr
-	.4byte 0x8016E7CC  ;# ptr
-	.4byte 0x80247DC0  ;# ptr
-	.4byte 0x80164A5C  ;# ptr
-	.4byte 0x80175300  ;# ptr
-	.4byte 0x80164AD4  ;# ptr
-	.4byte 0x8017530C  ;# ptr
-	.4byte 0x80164B58  ;# ptr
-	.4byte 0x80247DC8  ;# ptr
+	.4byte lbl_80174EA8
+	.4byte ARCConvertPathToEntrynum
+	.4byte lbl_80174EB4
+	.4byte ARCGetFileIdx
+	.4byte lbl_80174ED0
+	.4byte lbl_800BEA44
+	.4byte lbl_80174EE4
+	.4byte ARCFastOpen
+	.4byte lbl_80174EF0
+	.4byte ARCGetLength
+	.4byte lbl_80174F00
+	.4byte ARCGetStartAddrInMenu
+	.4byte lbl_80174F18
+	.4byte lbl_800BEC40
+	.4byte lbl_80174F2C
+	.4byte ARCInitHandle
+	.4byte lbl_80247BF0
+	.4byte ARCOpen
+	.4byte lbl_80174F3C
+	.4byte ARCReadDir
+	.4byte lbl_80174F48
+	.4byte DVDClose
+	.4byte lbl_80174F54
+	.4byte lbl_800AAED0
+	.4byte lbl_80174F60
+	.4byte DVDConvertPathToEntrynum
+	.4byte lbl_80174F7C
+	.4byte lbl_800AA728
+	.4byte lbl_80174F90
+	.4byte DVDFastOpen
+	.4byte lbl_80174F9C
+	.4byte lbl_800AABAC
+	.4byte lbl_80174FA8
+	.4byte lbl_800AAE44
+	.4byte lbl_80174FB4
+	.4byte lbl_800AAA7C
+	.4byte lbl_80174FC0
+	.4byte NANDClose
+	.4byte lbl_80174FCC
+	.4byte NANDCreate
+	.4byte lbl_80174FD8
+	.4byte lbl_800B99AC
+	.4byte lbl_80174FE8
+	.4byte NANDDelete
+	.4byte lbl_80174FF4
+	.4byte NANDGetCurrentDir
+	.4byte lbl_80175008
+	.4byte NANDGetLength
+	.4byte lbl_80175018
+	.4byte lbl_800B9E3C
+	.4byte lbl_80175028
+	.4byte lbl_800BBBAC
+	.4byte lbl_80175034
+	.4byte NANDOpen
+	.4byte lbl_80175040
+	.4byte NANDRead
+	.4byte lbl_8017504C
+	.4byte lbl_800B97B0
+	.4byte lbl_80175058
+	.4byte NANDSafeClose
+	.4byte lbl_80175068
+	.4byte NANDSafeOpen
+	.4byte lbl_80175078
+	.4byte NANDSeek
+	.4byte lbl_80175084
+	.4byte NANDWrite
+	.4byte lbl_80175090
+	.4byte lbl_8008DA7C
+	.4byte lbl_801750A8
+	.4byte lbl_800991DC
+	.4byte lbl_801750C0
+	.4byte OSGetTime
+	.4byte lbl_80247BF8
+	.4byte OSPanic
+	.4byte lbl_801750CC
+	.4byte OSRegisterVersion
+	.4byte lbl_801750E0
+	.4byte OSReport
+	.4byte lbl_801750EC
+	.4byte lbl_80098118
+	.4byte lbl_801750FC
+	.4byte SCGetLanguage
+	.4byte lbl_8017510C
+	.4byte lbl_801B3CE0
+	.4byte lbl_80175128
+	.4byte contentCloseNAND
+	.4byte lbl_8017513C
+	.4byte contentConvertPathToEntrynumNAND
+	.4byte lbl_80175160
+	.4byte contentFastOpenNAND
+	.4byte lbl_80175174
+	.4byte contentGetLengthNAND
+	.4byte lbl_8017518C
+	.4byte contentInitHandleNAND
+	.4byte lbl_801751A4
+	.4byte contentOpenDirNAND
+	.4byte lbl_801751B8
+	.4byte contentReadNAND
+	.4byte lbl_801751C8
+	.4byte contentReleaseHandleNAND
+	.4byte lbl_801751E8
+	.4byte lbl_80107B44
+	.4byte lbl_801751F8
+	.4byte __OSGetSystemTime
+	.4byte lbl_8017520C
+	.4byte 0x8024F800
+	.4byte lbl_80175218
+	.4byte 0x8024E480
+	.4byte lbl_80175224
+	.4byte func_8015C648
+	.4byte lbl_80175238
+	.4byte lbl_8015C488
+	.4byte lbl_80175250
+	.4byte __cvt_fp2unsigned
+	.4byte lbl_80175264
+	.4byte __cvt_sll_dbl
+	.4byte lbl_80175274
+	.4byte __destroy_arr
+	.4byte lbl_80247C00
+	.4byte __div2i
+	.4byte lbl_80175284
+	.4byte lbl_80246B50
+	.4byte lbl_80247C08
+	.4byte lbl_801AD478
+	.4byte lbl_80247C10
+	.4byte __mod2i
+	.4byte lbl_80175294
+	.4byte func_8015C7F4
+	.4byte lbl_801752A4
+	.4byte lbl_8015D174
+	.4byte lbl_80247C18
+	.4byte __shl2i
+	.4byte lbl_801752B0
+	.4byte __va_arg
+	.4byte lbl_801752C0
+	.4byte lbl_801AD8D0
+	.4byte lbl_80247C20
+	.4byte abort
+	.4byte lbl_80247C28
+	.4byte lbl_8008E8E4
+	.4byte lbl_80247C2C
+	.4byte lbl_8016E844
+	.4byte lbl_80247C34
+	.4byte lbl_8016E848
+	.4byte lbl_80247C3C
+	.4byte atan
+	.4byte lbl_80247C44
+	.4byte lbl_8016E84C
+	.4byte lbl_80247C4C
+	.4byte atoi
+	.4byte lbl_80247C54
+	.4byte lbl_80168A20
+	.4byte lbl_80247C60
+	.4byte lbl_80161724
+	.4byte lbl_80247C68
+	.4byte ceil
+	.4byte lbl_80247C70
+	.4byte lbl_80168FE0
+	.4byte lbl_80247C78
+	.4byte sin
+	.4byte lbl_80247C7C
+	.4byte exit
+	.4byte lbl_80247C84
+	.4byte lbl_8016E850
+	.4byte lbl_80247C88
+	.4byte floor
+	.4byte lbl_80247C90
+	.4byte lbl_8016E854
+	.4byte lbl_80247C98
+	.4byte lbl_80164998
+	.4byte lbl_80247CA0
+	.4byte lbl_8016A52C
+	.4byte lbl_80247CA8
+	.4byte lbl_8016A72C
+	.4byte lbl_80247CB0
+	.4byte labs
+	.4byte lbl_801752D0
+	.4byte lbl_801690BC
+	.4byte lbl_80247CB8
+	.4byte lbl_8016E858
+	.4byte lbl_80247CC0
+	.4byte lbl_8015D278
+	.4byte lbl_80247CC8
+	.4byte memchr
+	.4byte lbl_80247CD0
+	.4byte memcmp
+	.4byte lbl_80247CD8
+	.4byte memcpy
+	.4byte lbl_80247CE0
+	.4byte memmove
+	.4byte lbl_80247CE8
+	.4byte memset
+	.4byte lbl_80247CF0
+	.4byte lbl_80168FE4
+	.4byte lbl_80247CF8
+	.4byte pow
+	.4byte lbl_80247CFC
+	.4byte lbl_801648D0
+	.4byte lbl_80247D04
+	.4byte lbl_80164D80
+	.4byte lbl_80247D0C
+	.4byte rand
+	.4byte lbl_80247D14
+	.4byte other_sin
+	.4byte lbl_801752DC
+	.4byte snprintf
+	.4byte lbl_80247D18
+	.4byte sprintf
+	.4byte lbl_80247D20
+	.4byte sqrt
+	.4byte lbl_80247D28
+	.4byte lbl_80164F10
+	.4byte lbl_80247D30
+	.4byte lbl_801663BC
+	.4byte lbl_80247D38
+	.4byte strcat
+	.4byte lbl_80247D40
+	.4byte strchr
+	.4byte lbl_80247D48
+	.4byte strcmp
+	.4byte lbl_80247D50
+	.4byte strcpy
+	.4byte lbl_80247D58
+	.4byte lbl_801669D0
+	.4byte lbl_801752E8
+	.4byte strftime
+	.4byte lbl_80247D60
+	.4byte stricmp
+	.4byte lbl_80247D68
+	.4byte strlen
+	.4byte lbl_80247D70
+	.4byte strncat
+	.4byte lbl_80247D78
+	.4byte strncmp
+	.4byte lbl_80247D80
+	.4byte strncpy
+	.4byte lbl_801752F4
+	.4byte lbl_8016A728
+	.4byte lbl_80247D88
+	.4byte lbl_80166884
+	.4byte lbl_80247D90
+	.4byte lbl_8016683C
+	.4byte lbl_80247D98
+	.4byte lbl_8016692C
+	.4byte lbl_80247DA0
+	.4byte strstr
+	.4byte lbl_80247DA8
+	.4byte lbl_80168870
+	.4byte lbl_80247DB0
+	.4byte lbl_801687C8
+	.4byte lbl_80247DB8
+	.4byte lbl_8016E7CC
+	.4byte lbl_80247DC0
+	.4byte other_vprintf
+	.4byte lbl_80175300
+	.4byte vsnprintf
+	.4byte lbl_8017530C
+	.4byte vsprintf
+	.4byte lbl_80247DC8
 	.4byte 0
-
 
 glabel lbl_80175728
 	# ROM: 0x171828
@@ -700,18 +1055,16 @@ glabel lbl_80175728
 	.asciz "RSOLinkInit ERROR!\n"
 	.balign 8
 
-
 glabel lbl_801757D8
 	# ROM: 0x1718D8
-	.4byte 0x80191A40  ;# ptr
-	.4byte 0x80191AD0  ;# ptr
-	.4byte 0x80191B6C  ;# ptr
-	.4byte 0x80191C38  ;# ptr
-	.4byte 0x80191CFC  ;# ptr
-	.4byte 0x80191DA8  ;# ptr
-	.4byte 0x80191E60  ;# ptr
+	.4byte lbl_80191A40
+	.4byte lbl_80191AD0
+	.4byte lbl_80191B6C
+	.4byte lbl_80191C38
+	.4byte lbl_80191CFC
+	.4byte lbl_80191DA8
+	.4byte lbl_80191E60
 	.4byte 0
-
 
 glabel lbl_801757F8
 	# ROM: 0x1718F8
@@ -796,18 +1149,15 @@ glabel lbl_801757F8
 	.4byte 0xFFFFFFE9
 	.4byte 0xFFFFFFC0
 
-
 glabel lbl_80175938
 	# ROM: 0x171A38
 	.asciz "/shared2/sys"
 	.balign 4
 
-
 glabel lbl_80175948
 	# ROM: 0x171A48
 	.asciz "/shared2/sys/SYSCONF"
 	.balign 4
-
 
 glabel lbl_80175960
 	# ROM: 0x171A60
@@ -831,7 +1181,6 @@ glabel lbl_80175960
 	.4byte 0x40033000
 	.4byte 0
 
-
 glabel lbl_801759D0
 	# ROM: 0x171AD0
 	.4byte 0x02000071
@@ -847,7 +1196,6 @@ glabel lbl_801759D0
 	.4byte 0x01007200
 	.4byte 0x20000000
 
-
 glabel lbl_80175A00
 	# ROM: 0x171B00
 	.4byte 0xFD05B304
@@ -855,30 +1203,34 @@ glabel lbl_80175A00
 	.4byte 0x1F030000
 	.4byte 0
 
-
 glabel lbl_80175A10
 	# ROM: 0x171B10
-	.4byte 0x800DB93C  ;# ptr
-	.4byte 0x800DB968  ;# ptr
-	.4byte 0x800DB9D0  ;# ptr
-	.4byte 0x800DBA04  ;# ptr
-	.4byte 0x800DBA34  ;# ptr
+	.4byte lbl_800DB93C
+	.4byte lbl_800DB968
+	.4byte lbl_800DB9D0
+	.4byte lbl_800DBA04
+	.4byte lbl_800DBA34
 	.4byte 0
-
 
 glabel lbl_80175A28
 	# ROM: 0x171B28
 	.4byte 0x40020400
 	.4byte 0x000F2000
 	.4byte 0x13880000
+
+glabel lbl_80175A34
 	.4byte 0x0002010E
 	.4byte 0x01020E02
 	.4byte 0x0212FF01
+
+glabel lbl_80175A40
 	.4byte 0x0005000A
 	.4byte 0xFF0108FF
 	.4byte 0x0106FF01
 	.4byte 0x07FF0112
 	.4byte 0xFF020000
+
+glabel lbl_80175A54
 	.4byte 0x03000200
 	.4byte 0x13880000
 	.4byte 0x00001000
@@ -898,17 +1250,20 @@ glabel lbl_80175A28
 	.4byte 0x00000800
 	.4byte 0x13880000
 	.4byte 0
+
+glabel lbl_80175AA0
 	.4byte 0x019000C8
 	.4byte 0x00040004
 	.4byte 0x02000320
 	.4byte 0x01900000
 	.4byte 0x00000300
 	.4byte 0
+
+glabel lbl_80175AB8
 	.4byte 0x04000000
-	.4byte 0x80246A80  ;# ptr
+	.4byte lbl_80246A80
 	.4byte 0x04000000
 	.4byte 0
-
 
 glabel lbl_80175AC8
 	# ROM: 0x171BC8
@@ -924,7 +1279,6 @@ glabel lbl_80175AC8
 	.4byte 0x110B110E
 	.4byte 0x11241304
 	.4byte 0x112F0000
-
 
 glabel lbl_80175AF8
 	# ROM: 0x171BF8
@@ -953,33 +1307,30 @@ glabel lbl_80175AF8
 	.4byte 0x0000002C
 	.4byte 0
 
-
 glabel lbl_80175B58
 	# ROM: 0x171C58
-	.4byte 0x800DF3D4  ;# ptr
-	.4byte 0x800DF55C  ;# ptr
-	.4byte 0x800DF694  ;# ptr
-	.4byte 0x800DF68C  ;# ptr
-	.4byte 0x800DF730  ;# ptr
+	.4byte lbl_800DF3D4
+	.4byte lbl_800DF55C
+	.4byte lbl_800DF694
+	.4byte lbl_800DF68C
+	.4byte lbl_800DF730
 	.4byte 0
-
 
 glabel lbl_80175B70
 	# ROM: 0x171C70
-	.4byte 0x800DDECC  ;# ptr
-	.4byte 0x800DDFDC  ;# ptr
-	.4byte 0x800DE148  ;# ptr
-	.4byte 0x800DE150  ;# ptr
-	.4byte 0x800DE198  ;# ptr
-	.4byte 0x800DE208  ;# ptr
-	.4byte 0x800DE2A4  ;# ptr
-	.4byte 0x800DF7DC  ;# ptr
-	.4byte 0x800DF97C  ;# ptr
-	.4byte 0x800E10C4  ;# ptr
-	.4byte 0x800E11E4  ;# ptr
-	.4byte 0x800E0114  ;# ptr
-	.4byte 0x800E01B8  ;# ptr
-
+	.4byte lbl_800DDECC
+	.4byte lbl_800DDFDC
+	.4byte lbl_800DE148
+	.4byte lbl_800DE150
+	.4byte lbl_800DE198
+	.4byte lbl_800DE208
+	.4byte lbl_800DE2A4
+	.4byte lbl_800DF7DC
+	.4byte lbl_800DF97C
+	.4byte lbl_800E10C4
+	.4byte lbl_800E11E4
+	.4byte lbl_800E0114
+	.4byte lbl_800E01B8
 
 glabel lbl_80175BA4
 	# ROM: 0x171CA4
@@ -995,27 +1346,27 @@ glabel lbl_80175BA4
 	.4byte 0x0C0D0000
 	.4byte 0
 
-
 glabel lbl_80175BD0
 	# ROM: 0x171CD0
-	.4byte 0x800DE378  ;# ptr
-	.4byte 0x800DE3D8  ;# ptr
-	.4byte 0x800DE45C  ;# ptr
-	.4byte 0x800DE570  ;# ptr
-	.4byte 0x800DE794  ;# ptr
-	.4byte 0x800DE964  ;# ptr
-	.4byte 0x800DEBCC  ;# ptr
-	.4byte 0x800DED08  ;# ptr
-	.4byte 0x800DEBE4  ;# ptr
-	.4byte 0x800DEC34  ;# ptr
-	.4byte 0x800DED4C  ;# ptr
-	.4byte 0x800DED94  ;# ptr
-	.4byte 0x800DEDDC  ;# ptr
-	.4byte 0x800DEE20  ;# ptr
-	.4byte 0x800DEEC0  ;# ptr
-	.4byte 0x800DEE64  ;# ptr
-	.4byte 0x800DE900  ;# ptr
-	.4byte 0x800DF3D0  ;# ptr
+	.4byte lbl_800DE378
+	.4byte lbl_800DE3D8
+	.4byte lbl_800DE45C
+	.4byte lbl_800DE570
+	.4byte lbl_800DE794
+	.4byte lbl_800DE964
+	.4byte lbl_800DEBCC
+	.4byte lbl_800DED08
+	.4byte lbl_800DEBE4
+	.4byte lbl_800DEC34
+	.4byte lbl_800DED4C
+	.4byte lbl_800DED94
+	.4byte lbl_800DEDDC
+	.4byte lbl_800DEE20
+	.4byte lbl_800DEEC0
+	.4byte lbl_800DEE64
+	.4byte lbl_800DE900
+	.4byte lbl_800DF3D0
+lbl_80175C18:
 	.4byte 0x0012010E
 	.4byte 0x12000212
 	.4byte 0x03121200
@@ -1023,6 +1374,7 @@ glabel lbl_80175BD0
 	.4byte 0x12000712
 	.4byte 0x00121200
 	.4byte 0x12120000
+lbl_80175C34:
 	.4byte 0x12120101
 	.4byte 0x12021212
 	.4byte 0x01031201
@@ -1030,6 +1382,7 @@ glabel lbl_80175BD0
 	.4byte 0x12010512
 	.4byte 0x01061200
 	.4byte 0x09120100
+lbl_80175C50:
 	.4byte 0x0A12020C
 	.4byte 0x0E020B12
 	.4byte 0x020D1200
@@ -1037,6 +1390,7 @@ glabel lbl_80175BD0
 	.4byte 0x12020F0D
 	.4byte 0x000D1200
 	.4byte 0x0D120000
+lbl_80175C6C:
 	.4byte 0x1212030E
 	.4byte 0x12031212
 	.4byte 0x03121203
@@ -1045,41 +1399,42 @@ glabel lbl_80175BD0
 	.4byte 0x03121200
 	.4byte 0x08120300
 
-
 glabel lbl_80175C88
 	# ROM: 0x171D88
-	.4byte 0x80175C18  ;# ptr
-	.4byte 0x80175C34  ;# ptr
-	.4byte 0x80175C50  ;# ptr
-	.4byte 0x80175C6C  ;# ptr
-
+	.4byte lbl_80175C18
+	.4byte lbl_80175C34
+	.4byte lbl_80175C50
+	.4byte lbl_80175C6C
 
 glabel lbl_80175C98
 	# ROM: 0x171D98
-	.4byte 0x800E193C  ;# ptr
-	.4byte 0x800E1ACC  ;# ptr
-	.4byte 0x800E203C  ;# ptr
-	.4byte 0x800E1B84  ;# ptr
-	.4byte 0x800E1E44  ;# ptr
-	.4byte 0x800E1BDC  ;# ptr
-	.4byte 0x800E1640  ;# ptr
-	.4byte 0x800E17D4  ;# ptr
-	.4byte 0x800E24D8  ;# ptr
-	.4byte 0x800E223C  ;# ptr
-	.4byte 0x800E2258  ;# ptr
-	.4byte 0x800E19A4  ;# ptr
+	.4byte lbl_800E193C
+	.4byte lbl_800E1ACC
+	.4byte lbl_800E203C
+	.4byte lbl_800E1B84
+	.4byte lbl_800E1E44
+	.4byte lbl_800E1BDC
+	.4byte func_800E1640
+	.4byte lbl_800E17D4
+	.4byte lbl_800E24D8
+	.4byte lbl_800E223C
+	.4byte lbl_800E2258
+	.4byte lbl_800E19A4
+lbl_80175CC8:
 	.4byte 0x06020C01
 	.4byte 0x01020201
 	.4byte 0x0C010C01
 	.4byte 0x0C010C01
 	.4byte 0x0C010C01
 	.4byte 0x0A010C01
+lbl_80175CE0:
 	.4byte 0x0C020C01
 	.4byte 0x01020201
 	.4byte 0x0C020C02
 	.4byte 0x0C020702
 	.4byte 0x0C020C02
 	.4byte 0x0A010B03
+lbl_80175CF8:
 	.4byte 0x0C030003
 	.4byte 0x01030201
 	.4byte 0x03030403
@@ -1087,14 +1442,12 @@ glabel lbl_80175C98
 	.4byte 0x08030903
 	.4byte 0x0A030C03
 
-
 glabel lbl_80175D10
 	# ROM: 0x171E10
-	.4byte 0x80175CC8  ;# ptr
-	.4byte 0x80175CE0  ;# ptr
-	.4byte 0x80175CF8  ;# ptr
+	.4byte lbl_80175CC8
+	.4byte lbl_80175CE0
+	.4byte lbl_80175CF8
 	.4byte 0
-
 
 glabel lbl_80175D20
 	# ROM: 0x171E20
@@ -1107,7 +1460,6 @@ glabel lbl_80175D20
 	.4byte 0x000A0060
 	.4byte 0x003F0100
 
-
 glabel lbl_80175D40
 	# ROM: 0x171E40
 	.4byte 0xFFFFFFFF
@@ -1115,20 +1467,18 @@ glabel lbl_80175D40
 	.4byte 0xFF7F0000
 	.4byte 0
 
-
 glabel lbl_80175D50
 	# ROM: 0x171E50
-	.4byte 0x800F3CF8  ;# ptr
-	.4byte 0x800F42B0  ;# ptr
+	.4byte lbl_800F3CF8
+	.4byte lbl_800F42B0
 	.4byte 0
-	.4byte 0x800F45F8  ;# ptr
-	.4byte 0x800F48A0  ;# ptr
-	.4byte 0x800F4BAC  ;# ptr
-	.4byte 0x800F4E70  ;# ptr
+	.4byte lbl_800F45F8
+	.4byte lbl_800F48A0
+	.4byte lbl_800F4BAC
+	.4byte lbl_800F4E70
 	.4byte 0
-	.4byte 0x800F52B0  ;# ptr
-	.4byte 0x800F50B8  ;# ptr
-
+	.4byte lbl_800F52B0
+	.4byte lbl_800F50B8
 
 glabel lbl_80175D78
 	# ROM: 0x171E78
@@ -1197,7 +1547,6 @@ glabel lbl_80175D78
 	.4byte 0xBA2B59C8
 	.4byte 0xBD2C5ECF
 
-
 glabel lbl_80175E78
 	# ROM: 0x171F78
 	.4byte 0
@@ -1205,26 +1554,21 @@ glabel lbl_80175E78
 	.4byte 0x80000080
 	.4byte 0x5F9B34FB
 
-
 glabel lbl_80175E88
 	# ROM: 0x171F88
 	.4byte 0x000000FF
-
 
 glabel lbl_80175E8C
 	# ROM: 0x171F8C
 	.4byte 0xC47A0000
 
-
 glabel lbl_80175E90
 	# ROM: 0x171F90
 	.4byte 0x447A0000
 
-
 glabel lbl_80175E94
 	# ROM: 0x171F94
 	.4byte 0x47000000
-
 
 glabel lbl_80175E98
 	# ROM: 0x171F98
@@ -1252,7 +1596,6 @@ glabel lbl_80175E98
 	.4byte 0x00000002
 	.4byte 0x00000007
 	.4byte 0x00000001
-
 
 glabel lbl_80175EF8
 	# ROM: 0x171FF8
@@ -1416,7 +1759,6 @@ glabel lbl_80175EF8
 	.4byte 0x3F99999A
 	.4byte 0
 
-
 glabel lbl_80176174
 	# ROM: 0x172274
 	.4byte 0x3F800000
@@ -1430,7 +1772,6 @@ glabel lbl_80176174
 	.4byte 0x3DA14285
 	.4byte 0x41200000
 	.4byte 0
-
 
 glabel lbl_801761A0
 	# ROM: 0x1722A0
@@ -1453,12 +1794,10 @@ glabel lbl_801761A0
 	.4byte 0x00000004
 	.4byte 0x00000003
 
-
 glabel lbl_801761E8
 	# ROM: 0x1722E8
 	.4byte 0x3F800000
 	.4byte 0
-
 
 glabel lbl_801761F0
 	# ROM: 0x1722F0
@@ -1467,22 +1806,18 @@ glabel lbl_801761F0
 	.4byte 0x3F000000
 	.4byte 0x3F800000
 
-
 glabel lbl_80176200
 	# ROM: 0x172300
 	.4byte 0x3F800000
-
 
 glabel lbl_80176204
 	# ROM: 0x172304
 	.4byte 0xC61C4000
 
-
 glabel lbl_80176208
 	# ROM: 0x172308
 	.4byte 0x41200000
 	.4byte 0
-
 
 glabel lbl_80176210
 	# ROM: 0x172310
@@ -1518,7 +1853,6 @@ glabel lbl_80176210
 	.4byte 0x90919293
 	.4byte 0x94959676
 	.4byte 0x7778797A
-
 
 glabel lbl_80176290
 	# ROM: 0x172390
@@ -1576,7 +1910,7 @@ glabel lbl_80176290
 	.4byte 0x10840400
 	.4byte 0x20040470
 	.4byte 0x40840400
-	.4byte 0x80020800  ;# ptr
+	.4byte lbl_80020800
 	.4byte 0xF8011000
 	.4byte 0x70800000
 	.4byte 0x88822200
@@ -1586,7 +1920,6 @@ glabel lbl_80176290
 	.4byte 0x00022200
 	.4byte 0x20800020
 	.4byte 0
-
 
 glabel lbl_80176390
 	# ROM: 0x172490
@@ -1652,7 +1985,7 @@ glabel lbl_80176390
 	.4byte 0x8A28A0F8
 	.4byte 0x8A281C20
 	.4byte 0xF1E80220
-	.4byte 0x80283C38  ;# ptr
+	.4byte 0x80283C38
 	.4byte 0
 	.4byte 0
 	.4byte 0x8A28B688
@@ -1669,11 +2002,9 @@ glabel lbl_80176390
 	.4byte 0xF8000000
 	.4byte 0
 
-
 glabel lbl_801764C8
 	# ROM: 0x1725C8
 	.4byte 0xBA83126F
-
 
 glabel lbl_801764CC
 	# ROM: 0x1725CC
@@ -1683,52 +2014,42 @@ glabel lbl_801764CC
 	.4byte 0x40400000
 	.4byte 0xC0000000
 
-
 glabel lbl_801764E0
 	# ROM: 0x1725E0
 	.4byte 0
-
 
 glabel lbl_801764E4
 	# ROM: 0x1725E4
 	.4byte 0x3F000000
 
-
 glabel lbl_801764E8
 	# ROM: 0x1725E8
 	.4byte 0
 
-
 glabel lbl_801764EC
 	# ROM: 0x1725EC
 	.4byte 0x3F800000
-
 
 glabel lbl_801764F0
 	# ROM: 0x1725F0
 	.4byte 0x43300000
 	.4byte 0
 
-
 glabel lbl_801764F8
 	# ROM: 0x1725F8
 	.4byte 0
-
 
 glabel lbl_801764FC
 	# ROM: 0x1725FC
 	.4byte 0x3F800000
 
-
 glabel lbl_80176500
 	# ROM: 0x172600
 	.4byte 0
 
-
 glabel lbl_80176504
 	# ROM: 0x172604
 	.4byte 0x3F000000
-
 
 glabel lbl_80176508
 	# ROM: 0x172608
@@ -1738,16 +2059,13 @@ glabel lbl_80176508
 	.4byte 0x00FF00FF
 	.4byte 0x3F000000
 
-
 glabel lbl_8017651C
 	# ROM: 0x17261C
 	.4byte 0x3F360B61
 
-
 glabel lbl_80176520
 	# ROM: 0x172620
 	.4byte 0
-
 
 glabel lbl_80176524
 	# ROM: 0x172624
@@ -1755,12 +2073,10 @@ glabel lbl_80176524
 	.4byte 0x40000000
 	.4byte 0
 
-
 glabel lbl_80176530
 	# ROM: 0x172630
 	.4byte 0x43300000
 	.4byte 0
-
 
 glabel lbl_80176538
 	# ROM: 0x172638
@@ -1771,24 +2087,20 @@ glabel lbl_80176538
 	.4byte 0x43300000
 	.4byte 0
 
-
 glabel lbl_80176550
 	# ROM: 0x172650
 	.4byte 0x3F000000
 	.4byte 0x3B808081
-
 
 glabel lbl_80176558
 	# ROM: 0x172658
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80176560
 	# ROM: 0x172660
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80176568
 	# ROM: 0x172668
@@ -1797,29 +2109,24 @@ glabel lbl_80176568
 	.4byte 0x3F000000
 	.4byte 0x3F800000
 
-
 glabel lbl_80176578
 	# ROM: 0x172678
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80176580
 	# ROM: 0x172680
 	.4byte 0x43300000
 	.4byte 0
 
-
 glabel lbl_80176588
 	# ROM: 0x172688
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-
 glabel lbl_80176590
 	# ROM: 0x172690
 	.4byte 0x47800000
-
 
 glabel lbl_80176594
 	# ROM: 0x172694
@@ -1833,16 +2140,13 @@ glabel lbl_80176594
 	.4byte 0xC3000000
 	.4byte 0
 
-
 glabel lbl_801765B8
 	# ROM: 0x1726B8
 	.4byte 0
 
-
 glabel lbl_801765BC
 	# ROM: 0x1726BC
 	.4byte 0x3F800000
-
 
 glabel lbl_801765C0
 	# ROM: 0x1726C0
@@ -1850,7 +2154,6 @@ glabel lbl_801765C0
 	.4byte 0x80000000
 	.4byte 0x47000000
 	.4byte 0x46FA0000
-
 
 glabel lbl_801765D0
 	# ROM: 0x1726D0
@@ -1868,11 +2171,9 @@ glabel lbl_801765D0
 	.4byte 0
 	.4byte 0x3F800000
 
-
 glabel lbl_80176604
 	# ROM: 0x172704
 	.4byte 0x3F800000
-
 
 glabel lbl_80176608
 	# ROM: 0x172708
@@ -1883,11 +2184,9 @@ glabel lbl_80176608
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-
 glabel lbl_80176620
 	# ROM: 0x172720
 	.4byte 0xBF800000
-
 
 glabel lbl_80176624
 	# ROM: 0x172724
@@ -1909,7 +2208,6 @@ glabel lbl_80176624
 	.4byte 0x3EB33334
 	.4byte 0
 
-
 glabel lbl_80176668
 	# ROM: 0x172768
 	.4byte 0x42FE0000
@@ -1921,33 +2219,27 @@ glabel lbl_80176668
 	.4byte 0x43300000
 	.4byte 0
 
-
 glabel lbl_80176688
 	# ROM: 0x172788
 	.4byte 0x3F800000
 	.4byte 0
 
-
 glabel lbl_80176690
 	# ROM: 0x172790
 	.4byte 0
 
-
 glabel lbl_80176694
 	# ROM: 0x172794
 	.4byte 0x3F800000
-
 
 glabel lbl_80176698
 	# ROM: 0x172798
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-
 glabel lbl_801766A0
 	# ROM: 0x1727A0
 	.4byte 0
-
 
 glabel lbl_801766A4
 	# ROM: 0x1727A4
@@ -1960,7 +2252,6 @@ glabel lbl_801766A4
 	.4byte 0
 	.4byte 0x43300000
 	.4byte 0x80000000
-
 
 glabel lbl_801766C8
 	# ROM: 0x1727C8
@@ -2029,21 +2320,17 @@ glabel lbl_801766C8
 	.4byte 0xFFFCFFFD
 	.4byte 0xFFFF0000
 
-
 glabel lbl_801767C8
 	# ROM: 0x1728C8
 	.4byte 0x477FFF00
-
 
 glabel lbl_801767CC
 	# ROM: 0x1728CC
 	.4byte 0xC4620000
 
-
 glabel lbl_801767D0
 	# ROM: 0x1728D0
 	.4byte 0
-
 
 glabel lbl_801767D4
 	# ROM: 0x1728D4
@@ -2052,7 +2339,6 @@ glabel lbl_801767D4
 	.4byte 0
 	.4byte 0x43300000
 	.4byte 0x80000000
-
 
 glabel lbl_801767E8
 	# ROM: 0x1728E8
@@ -2189,22 +2475,18 @@ glabel lbl_801767E8
 	.4byte 0x40A00000
 	.4byte 0x42700000
 
-
 glabel lbl_801769F8
 	# ROM: 0x172AF8
 	.4byte 0
-
 
 glabel lbl_801769FC
 	# ROM: 0x172AFC
 	.4byte 0x40C80000
 
-
 glabel lbl_80176A00
 	# ROM: 0x172B00
 	.4byte 0x447A0000
 	.4byte 0
-
 
 glabel lbl_80176A08
 	# ROM: 0x172B08
@@ -2216,7 +2498,6 @@ glabel lbl_80176A08
 	.4byte 0
 	.4byte 0x43300000
 	.4byte 0
-
 
 glabel lbl_80176A28
 	# ROM: 0x172B28
@@ -2231,7 +2512,6 @@ glabel lbl_80176A28
 	.4byte 0x7F000000
 	.4byte 0
 
-
 glabel lbl_80176A50
 	# ROM: 0x172B50
 	.4byte 0x3C000000
@@ -2243,27 +2523,22 @@ glabel lbl_80176A50
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-
 glabel lbl_80176A70
 	# ROM: 0x172B70
 	.4byte 0x3F800000
 
-
 glabel lbl_80176A74
 	# ROM: 0x172B74
 	.4byte 0
-
 
 glabel lbl_80176A78
 	# ROM: 0x172B78
 	.4byte 0x43300000
 	.4byte 0
 
-
 glabel lbl_80176A80
 	# ROM: 0x172B80
 	.4byte 0x3F800000
-
 
 glabel lbl_80176A84
 	# ROM: 0x172B84
@@ -2285,42 +2560,35 @@ glabel lbl_80176A84
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013601C  ;# ptr
+	.4byte lbl_8013601C
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80176AD8
 	# ROM: 0x172BD8
 	.4byte 0x42FE0000
 	.4byte 0
 
-
 glabel lbl_80176AE0
 	# ROM: 0x172BE0
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-
 glabel lbl_80176AE8
 	# ROM: 0x172BE8
 	.4byte 0x3F800000
-
 
 glabel lbl_80176AEC
 	# ROM: 0x172BEC
 	.4byte 0
 
-
 glabel lbl_80176AF0
 	# ROM: 0x172BF0
 	.4byte 0x3F800000
 
-
 glabel lbl_80176AF4
 	# ROM: 0x172BF4
 	.4byte 0
-
 
 glabel lbl_80176AF8
 	# ROM: 0x172BF8
@@ -3476,7 +3744,6 @@ glabel lbl_80176AF8
 	.4byte 0x3F4471CD
 	.4byte 0x3F46B822
 
-
 glabel lbl_80177CF4
 	# ROM: 0x173DF4
 	.4byte 0x3F490534
@@ -3495,7 +3762,6 @@ glabel lbl_80177CF4
 	.4byte 0x3F69798B
 	.4byte 0x3F6C2DA4
 	.4byte 0x3F6EE9C1
-
 
 glabel lbl_80177D34
 	# ROM: 0x173E34
@@ -3841,28 +4107,23 @@ glabel lbl_80177D34
 	.4byte 0x3FF00000
 	.4byte 0
 
-
 glabel lbl_80178288
 	# ROM: 0x174388
 	.4byte 0x3F800000
 	.4byte 0
-
 
 glabel lbl_80178290
 	# ROM: 0x174390
 	.4byte 0x3F800000
 	.4byte 0
 
-
 glabel lbl_80178298
 	# ROM: 0x174398
 	.4byte 0x3F800000
 
-
 glabel lbl_8017829C
 	# ROM: 0x17439C
 	.4byte 0
-
 
 glabel lbl_801782A0
 	# ROM: 0x1743A0
@@ -3877,70 +4138,65 @@ glabel lbl_801782A0
 	.4byte 0x43300000
 	.4byte 0
 
-
 glabel lbl_801782C8
 	# ROM: 0x1743C8
 	.4byte 0
 
-
 glabel lbl_801782CC
 	# ROM: 0x1743CC
 	.4byte 0x3F800000
-
 
 glabel lbl_801782D0
 	# ROM: 0x1743D0
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-
 glabel lbl_801782D8
 	# ROM: 0x1743D8
 	.4byte 0x3F000000
 	.4byte 0
-
 
 glabel lbl_801782E0
 	# ROM: 0x1743E0
 	.4byte 0x43300000
 	.4byte 0
 
-
 glabel lbl_801782E8
 	# ROM: 0x1743E8
 	.4byte 0x43300000
 	.4byte 0x80000000
-
 
 glabel lbl_801782F0
 	# ROM: 0x1743F0
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_801782F8
 	# ROM: 0x1743F8
 	.4byte 0x43300000
 	.4byte 0x80000000
 
-
 glabel lbl_80178300
 	# ROM: 0x174400
 	.4byte 0x3F000000
 	.4byte 0
+
+glabel lbl_80178308
 	.asciz "!std::bad_alloc!"
 	.balign 4
+
+glabel lbl_8017831C
 	.asciz "std::bad_alloc"
 	.balign 4
+
+glabel lbl_8017832C
 	.asciz "std::exception"
 	.balign 4
-
 
 glabel lbl_8017833C
 	# ROM: 0x17443C
 	.asciz "!std::exception!!std::bad_alloc!!"
 	.balign 4
-
 
 glabel lbl_80178360
 	# ROM: 0x174460
@@ -3950,9 +4206,10 @@ glabel lbl_80178360
 	.4byte 0
 	.4byte 0x41E00000
 	.4byte 0
+
+glabel lbl_80178378
 	.asciz "std::bad_exception"
 	.balign 4
-
 
 glabel lbl_8017838C
 	# ROM: 0x17448C
@@ -3961,13 +4218,11 @@ glabel lbl_8017838C
 	.asciz "!std::bad_exception!!"
 	.balign 8
 
-
 glabel lbl_801783E0
 	# ROM: 0x1744E0
 	.asciz "GCN_Mem_Alloc.c : InitDefaultHeap. No Heap Available\n"
 	.asciz "Metrowerks CW runtime library initializing default heap\n"
 	.balign 4
-
 
 glabel lbl_80178450
 	# ROM: 0x174550
@@ -3977,7 +4232,6 @@ glabel lbl_80178450
 	.4byte 0x00000024
 	.4byte 0x00000034
 	.4byte 0x00000044
-
 
 glabel lbl_80178468
 	# ROM: 0x174568
@@ -4004,6 +4258,8 @@ glabel lbl_80178468
 	.asciz "256"
 	.asciz "179769313486231580793728714053034151"
 	.balign 4
+
+glabel lbl_80178548
 	.4byte 0x00040004
 	.4byte 0x00040004
 	.4byte 0x00040004
@@ -4096,7 +4352,6 @@ glabel lbl_80178468
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_801786B4
 	# ROM: 0x1747B4
 	.4byte 0
@@ -4136,6 +4391,8 @@ glabel lbl_801786B4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+
+glabel lbl_80178748
 	.4byte 0x00010203
 	.4byte 0x04050607
 	.4byte 0x08090A0B
@@ -4200,6 +4457,8 @@ glabel lbl_801786B4
 	.4byte 0xF4F5F6F7
 	.4byte 0xF8F9FAFB
 	.4byte 0xFCFDFEFF
+
+glabel lbl_80178848
 	.4byte 0x00010203
 	.4byte 0x04050607
 	.4byte 0x08090A0B
@@ -4264,16 +4523,25 @@ glabel lbl_801786B4
 	.4byte 0xF4F5F6F7
 	.4byte 0xF8F9FAFB
 	.4byte 0xFCFDFEFF
+
+glabel lbl_80178948
 	.asciz "%a %b %e %T %Y"
 	.balign 4
+
+glabel lbl_80178958
 	.asciz "%I:%M:%S %p"
+
+glabel lbl_80178964
 	.asciz "%m/%d/%y"
 	.balign 4
+
+glabel lbl_80178970
 	.asciz "Sun|Sunday|Mon|Monday|Tue|Tuesday|Wed|Wednesday|Thu|Thursday|Fri|Friday|Sat|Saturday"
 	.balign 4
+
+glabel lbl_801789C8
 	.asciz "Jan|January|Feb|February|Mar|March|Apr|April|May|May|Jun|June|Jul|July|Aug|August|Sep|September|Oct|October|Nov|November|Dec|December"
 	.balign 4
-
 
 glabel lbl_80178A50
 	# ROM: 0x174B50
@@ -4298,12 +4566,10 @@ glabel lbl_80178A50
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80178AA8
 	# ROM: 0x174BA8
 	.asciz "INFINITY"
 	.balign 8
-
 
 glabel lbl_80178AB8
 	# ROM: 0x174BB8
@@ -4321,7 +4587,6 @@ glabel lbl_80178AB8
 	.4byte 0x01120131
 	.4byte 0x014F016E
 
-
 glabel lbl_80178AEC
 	# ROM: 0x174BEC
 	.4byte 0x00020003
@@ -4337,7 +4602,6 @@ glabel lbl_80178AEC
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0xFFFFFFFF
-
 
 glabel lbl_80178B20
 	# ROM: 0x174C20
@@ -4362,6 +4626,8 @@ glabel lbl_80178B20
 	.asciz "%+03.0f%02.0f"
 	.asciz "%%"
 	.asciz "%%%c"
+
+glabel lbl_80178BE0
 	.4byte 0x00040004
 	.4byte 0x00040004
 	.4byte 0x00040004
@@ -4490,6 +4756,8 @@ glabel lbl_80178B20
 	.4byte 0
 	.4byte 0
 	.4byte 0
+
+glabel lbl_80178DE0
 	.4byte 0x00000001
 	.4byte 0x00020003
 	.4byte 0x00040005
@@ -4618,6 +4886,8 @@ glabel lbl_80178B20
 	.4byte 0x00FA00FB
 	.4byte 0x00FC00FD
 	.4byte 0x00FE00FF
+
+glabel lbl_80178FE0
 	.4byte 0x00000001
 	.4byte 0x00020003
 	.4byte 0x00040005
@@ -4747,7 +5017,6 @@ glabel lbl_80178B20
 	.4byte 0x00FC00FD
 	.4byte 0x00FE00FF
 
-
 glabel lbl_801791E0
 	# ROM: 0x1752E0
 	.4byte 0x3FE00000
@@ -4763,14 +5032,12 @@ glabel lbl_801791E0
 	.4byte 0xBDEA39EF
 	.4byte 0x35793C76
 
-
 glabel lbl_80179210
 	# ROM: 0x175310
 	.4byte 0
 	.4byte 0
 	.4byte 0x80000000
 	.4byte 0
-
 
 glabel lbl_80179220
 	# ROM: 0x175320
@@ -4786,7 +5053,6 @@ glabel lbl_80179220
 	.4byte 0
 	.4byte 0x3E4CFDEB
 	.4byte 0x43CFD006
-
 
 glabel lbl_80179250
 	# ROM: 0x175350
@@ -4857,7 +5123,6 @@ glabel lbl_80179250
 	.4byte 0x0060E27B
 	.4byte 0x00C08C6B
 
-
 glabel lbl_80179358
 	# ROM: 0x175458
 	.4byte 0x3FF921FB
@@ -4893,7 +5158,6 @@ glabel lbl_80179358
 	.4byte 0x404858EB
 	.4byte 0x404921FB
 
-
 glabel lbl_801793D8
 	# ROM: 0x1754D8
 	.4byte 0x00000002
@@ -4916,7 +5180,6 @@ glabel lbl_801793D8
 	.4byte 0x80000000
 	.4byte 0x3569F31D
 	.4byte 0
-
 
 glabel lbl_80179428
 	# ROM: 0x175528
@@ -4946,7 +5209,6 @@ glabel lbl_80179428
 	.4byte 0xDB605373
 	.4byte 0x3EFB2A70
 	.4byte 0x74BF7AD4
-
 
 glabel lbl_80179490
 	# ROM: 0x175590
@@ -4989,18 +5251,15 @@ glabel lbl_80179490
 	.4byte 0x3F90AD3A
 	.4byte 0xE322DA11
 
-
 glabel lbl_80179528
 	# ROM: 0x175628
 	.asciz "MetroTRK for Revolution v0.1"
 	.balign 4
 
-
 glabel lbl_80179548
 	# ROM: 0x175648
 	.asciz "ERROR : No buffer available\n"
 	.balign 4
-
 
 glabel lbl_80179568
 	# ROM: 0x175668
@@ -5010,14 +5269,12 @@ glabel lbl_80179568
 	.asciz "Disable\n"
 	.balign 8
 
-
 glabel lbl_801795A0
 	# ROM: 0x1756A0
 	.4byte 0
 	.4byte 0xFFFFFFFF
 	.4byte 0x00000001
 	.4byte 0x00000001
-
 
 glabel lbl_801795B0
 	# ROM: 0x1756B0
@@ -5042,7 +5299,6 @@ glabel lbl_801795B0
 	.4byte 0x60000000
 	.4byte 0x60000000
 
-
 glabel lbl_80179600
 	# ROM: 0x175700
 	.4byte 0x60000000
@@ -5056,12 +5312,10 @@ glabel lbl_80179600
 	.4byte 0x60000000
 	.4byte 0x60000000
 
-
 glabel lbl_80179628
 	# ROM: 0x175728
 	.byte 0
 	.ascii "END"
-
 
 glabel lbl_8017962C
 	# ROM: 0x17572C

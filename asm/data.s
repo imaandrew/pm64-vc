@@ -6,67 +6,66 @@
 
 glabel lbl_80179740
 	# ROM: 0x175840
-	.4byte 0x800072CC  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072C0  ;# ptr
-	.4byte 0x80007290  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x80007284  ;# ptr
-	.4byte 0x800072D8  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072B4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072A8  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x8000729C  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072E4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072CC  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072C0  ;# ptr
-	.4byte 0x80007290  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x80007284  ;# ptr
-	.4byte 0x800072D8  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072B4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072A8  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x8000729C  ;# ptr
-	.4byte 0x800072F4  ;# ptr
-	.4byte 0x800072E4  ;# ptr
+	.4byte lbl_800072CC
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072C0
+	.4byte lbl_80007290
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_80007284
+	.4byte lbl_800072D8
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072B4
+	.4byte lbl_800072F4
+	.4byte lbl_800072A8
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_8000729C
+	.4byte lbl_800072F4
+	.4byte lbl_800072E4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072CC
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072C0
+	.4byte lbl_80007290
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_80007284
+	.4byte lbl_800072D8
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072B4
+	.4byte lbl_800072F4
+	.4byte lbl_800072A8
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_800072F4
+	.4byte lbl_8000729C
+	.4byte lbl_800072F4
+	.4byte lbl_800072E4
 	.asciz "\n\nERROR: This program MUST be run on a system with 24MB (or less) memory!\n"
 	.balign 4
 	.asciz "vc64_RVL.c"
 	.balign 4
 	.asciz "       Please reduce memory-size to 24MB (using 'setsmemsize 0x1800000')\n\n"
 	.balign 8
-
 
 glabel lbl_801798C0
 	# ROM: 0x1759C0
@@ -313,11 +312,10 @@ glabel lbl_801798C0
 	.4byte 0x00010000
 	.4byte 0
 
-
 glabel lbl_80179C88
 	# ROM: 0x175D88
 	.4byte 0x00000011
-	.4byte 0x80180478  ;# ptr
+	.4byte lbl_80180478
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -329,7 +327,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000013
-	.4byte 0x8017E8C0  ;# ptr
+	.4byte lbl_8017E8C0
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -341,7 +339,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000012
-	.4byte 0x80180340  ;# ptr
+	.4byte lbl_80180340
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -353,7 +351,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000010
-	.4byte 0x80180350  ;# ptr
+	.4byte lbl_80180350
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -365,7 +363,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000014
-	.4byte 0x80180488  ;# ptr
+	.4byte lbl_80180488
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -377,7 +375,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000015
-	.4byte 0x80180498  ;# ptr
+	.4byte lbl_80180498
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -389,7 +387,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000016
-	.4byte 0x80180520  ;# ptr
+	.4byte lbl_80180520
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -401,7 +399,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8017C0F0  ;# ptr
+	.4byte lbl_8017C0F0
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0
@@ -413,7 +411,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000002
-	.4byte 0x8017C4B8  ;# ptr
+	.4byte lbl_8017C4B8
 	.4byte 0x00000003
 	.4byte 0x00000100
 	.4byte 0
@@ -425,7 +423,7 @@ glabel lbl_80179C88
 	.4byte 0x04700000
 	.4byte 0x047FFFFF
 	.4byte 0x00000005
-	.4byte 0x80181428  ;# ptr
+	.4byte lbl_80181428
 	.4byte 0x00000002
 	.4byte 0
 	.4byte 0x04100000
@@ -437,7 +435,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000004
-	.4byte 0x801811A8  ;# ptr
+	.4byte lbl_801811A8
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0x04000000
@@ -449,7 +447,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000006
-	.4byte 0x8017A978  ;# ptr
+	.4byte lbl_8017A978
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0x04300000
@@ -461,7 +459,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000009
-	.4byte 0x8017A690  ;# ptr
+	.4byte lbl_8017A690
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0x04400000
@@ -473,7 +471,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000008
-	.4byte 0x8017A4D8  ;# ptr
+	.4byte lbl_8017A4D8
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0x04500000
@@ -485,7 +483,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x0000000B
-	.4byte 0x8017A900  ;# ptr
+	.4byte lbl_8017A900
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0x04600000
@@ -497,7 +495,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x0000000A
-	.4byte 0x8017A768  ;# ptr
+	.4byte lbl_8017A768
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0x04800000
@@ -509,7 +507,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x0000000C
-	.4byte 0x8017C538  ;# ptr
+	.4byte lbl_8017C538
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0x04900000
@@ -521,7 +519,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000007
-	.4byte 0x8017A988  ;# ptr
+	.4byte lbl_8017A988
 	.4byte 0x00000002
 	.4byte 0
 	.4byte 0x05000000
@@ -533,7 +531,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000003
-	.4byte 0x8017C4C8  ;# ptr
+	.4byte lbl_8017C4C8
 	.4byte 0x00000002
 	.4byte 0
 	.4byte 0x10000000
@@ -545,7 +543,7 @@ glabel lbl_80179C88
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000001
-	.4byte 0x8017C298  ;# ptr
+	.4byte lbl_8017C298
 	.4byte 0x00000001
 	.4byte 0
 	.4byte 0x1FC00000
@@ -761,445 +759,437 @@ glabel lbl_80179C88
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF
 
-
 glabel lbl_8017A378
 	# ROM: 0x176478
-	.4byte 0x800095A8  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095A8  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095A8  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095A8  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095B0  ;# ptr
-	.4byte 0x800095A8  ;# ptr
+	.4byte lbl_800095A8
+	.4byte lbl_800095B0
+	.4byte lbl_800095A8
+	.4byte lbl_800095B0
+	.4byte lbl_800095B0
+	.4byte lbl_800095A8
+	.4byte lbl_800095B0
+	.4byte lbl_800095B0
+	.4byte lbl_800095B0
+	.4byte lbl_800095B0
+	.4byte lbl_800095B0
+	.4byte lbl_800095B0
+	.4byte lbl_800095A8
+	.4byte lbl_800095B0
+	.4byte lbl_800095B0
+	.4byte lbl_800095A8
 	.asciz "BREAK (CPU)"
 	.asciz "BREAK (SP)"
 	.balign 4
 	.asciz "THREADSTATUS"
 	.balign 4
 
-
 glabel lbl_8017A3E0
 	# ROM: 0x1764E0
-	.4byte 0x80009F54  ;# ptr
-	.4byte 0x80009F6C  ;# ptr
-	.4byte 0x80009F84  ;# ptr
-	.4byte 0x80009F9C  ;# ptr
-	.4byte 0x80009FB4  ;# ptr
-	.4byte 0x80009FCC  ;# ptr
-	.4byte 0x80009FE8  ;# ptr
-	.4byte 0x8000A008  ;# ptr
-	.4byte 0x8000A028  ;# ptr
-	.4byte 0x8000A048  ;# ptr
-	.4byte 0x8000A064  ;# ptr
-	.4byte 0x8000A084  ;# ptr
-	.4byte 0x8000A098  ;# ptr
-	.4byte 0x8000A0B0  ;# ptr
-	.4byte 0x8000A0BC  ;# ptr
-	.4byte 0x8000A0C8  ;# ptr
-
+	.4byte lbl_80009F54
+	.4byte lbl_80009F6C
+	.4byte lbl_80009F84
+	.4byte lbl_80009F9C
+	.4byte lbl_80009FB4
+	.4byte lbl_80009FCC
+	.4byte lbl_80009FE8
+	.4byte lbl_8000A008
+	.4byte lbl_8000A028
+	.4byte lbl_8000A048
+	.4byte lbl_8000A064
+	.4byte lbl_8000A084
+	.4byte lbl_8000A098
+	.4byte lbl_8000A0B0
+	.4byte lbl_8000A0BC
+	.4byte lbl_8000A0C8
 
 glabel lbl_8017A420
 	# ROM: 0x176520
-	.4byte 0x802464D4  ;# ptr
+	.4byte lbl_802464D4
 	.4byte 0x000000E0
 	.4byte 0
-	.4byte 0x8000AD04  ;# ptr
-
+	.4byte lbl_8000AD04
 
 glabel lbl_8017A430
 	# ROM: 0x176530
-	.4byte 0x8000AFE0  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B034  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B068  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B078  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B08C  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0C4  ;# ptr
-	.4byte 0x8000B0B4  ;# ptr
-
+	.4byte lbl_8000AFE0
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B034
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B068
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B078
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B08C
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0C4
+	.4byte lbl_8000B0B4
 
 glabel lbl_8017A484
 	# ROM: 0x176584
-	.4byte 0x8000B140  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B14C  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B15C  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B168  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1A8  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1C0  ;# ptr
-	.4byte 0x8000B1B4  ;# ptr
-	.4byte 0x802464E0  ;# ptr
+	.4byte lbl_8000B140
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B14C
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B15C
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B168
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1A8
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1C0
+	.4byte lbl_8000B1B4
+lbl_8017A4D8:
+	.4byte lbl_802464E0
 	.4byte 0x0000001C
 	.4byte 0
-	.4byte 0x8000B238  ;# ptr
-
+	.4byte lbl_8000B238
 
 glabel lbl_8017A4E8
 	# ROM: 0x1765E8
-	.4byte 0x8000B3A4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B3B4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B544  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B554  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B564  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B580  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B58C  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B59C  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B5AC  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B5BC  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B600  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B614  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B628  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B6F4  ;# ptr
-	.4byte 0x8000B670  ;# ptr
-
+	.4byte lbl_8000B3A4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B3B4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B544
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B554
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B564
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B580
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B58C
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B59C
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B5AC
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B5BC
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B600
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B614
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B628
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B6F4
+	.4byte lbl_8000B670
 
 glabel lbl_8017A5BC
 	# ROM: 0x1766BC
-	.4byte 0x8000B770  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B77C  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B788  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B794  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B7A4  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B7B8  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B7C4  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B7D0  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B7DC  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B7E8  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B7F4  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B800  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B80C  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B824  ;# ptr
-	.4byte 0x8000B818  ;# ptr
-	.4byte 0x802464E8  ;# ptr
+	.4byte lbl_8000B770
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B77C
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B788
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B794
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B7A4
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B7B8
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B7C4
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B7D0
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B7DC
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B7E8
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B7F4
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B800
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B80C
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B824
+	.4byte lbl_8000B818
+lbl_8017A690:
+	.4byte lbl_802464E8
 	.4byte 0x0000003C
 	.4byte 0
-	.4byte 0x8000B89C  ;# ptr
-
+	.4byte lbl_8000B89C
 
 glabel lbl_8017A6A0
 	# ROM: 0x1767A0
-	.4byte 0x8000BA30  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BA40  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BAA4  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB1C  ;# ptr
-	.4byte 0x8000BB08  ;# ptr
-
+	.4byte lbl_8000BA30
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BA40
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BAA4
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB1C
+	.4byte lbl_8000BB08
 
 glabel lbl_8017A704
 	# ROM: 0x176804
-	.4byte 0x8000BB88  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BB94  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBA0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBD0  ;# ptr
-	.4byte 0x8000BBAC  ;# ptr
-	.4byte 0x802464F0  ;# ptr
+	.4byte lbl_8000BB88
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BB94
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBA0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBD0
+	.4byte lbl_8000BBAC
+lbl_8017A768:
+	.4byte lbl_802464F0
 	.4byte 0x00000004
 	.4byte 0
-	.4byte 0x8000BBF8  ;# ptr
-
+	.4byte lbl_8000BBF8
 
 glabel lbl_8017A778
 	# ROM: 0x176878
-	.4byte 0x8000BDCC  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BDDC  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BDEC  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BEA0  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BF54  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BF88  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BF98  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BFA8  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BFB8  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BFC8  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BFD8  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BFE8  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000C008  ;# ptr
-	.4byte 0x8000BFF8  ;# ptr
-
+	.4byte lbl_8000BDCC
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BDDC
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BDEC
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BEA0
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BF54
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BF88
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BF98
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BFA8
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BFB8
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BFC8
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BFD8
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BFE8
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000C008
+	.4byte lbl_8000BFF8
 
 glabel lbl_8017A83C
 	# ROM: 0x17693C
-	.4byte 0x8000C060  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C06C  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C078  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C084  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C090  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C0A0  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C0B0  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C0C0  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C0D0  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C0E0  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C0F0  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C100  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C120  ;# ptr
-	.4byte 0x8000C110  ;# ptr
-	.4byte 0x802464F8  ;# ptr
+	.4byte lbl_8000C060
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C06C
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C078
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C084
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C090
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C0A0
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C0B0
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C0C0
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C0D0
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C0E0
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C0F0
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C100
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C120
+	.4byte lbl_8000C110
+lbl_8017A900:
+	.4byte lbl_802464F8
 	.4byte 0x00000088
 	.4byte 0
-	.4byte 0x8000C138  ;# ptr
-
+	.4byte lbl_8000C138
 
 glabel lbl_8017A910
 	# ROM: 0x176A10
-	.4byte 0x8000C418  ;# ptr
-	.4byte 0x8000C5BC  ;# ptr
-	.4byte 0x8000C5BC  ;# ptr
-	.4byte 0x8000C5BC  ;# ptr
-	.4byte 0x8000C5C4  ;# ptr
-	.4byte 0x8000C5BC  ;# ptr
-	.4byte 0x8000C5BC  ;# ptr
-	.4byte 0x8000C5BC  ;# ptr
-	.4byte 0x8000C5C4  ;# ptr
-	.4byte 0x8000C5BC  ;# ptr
-	.4byte 0x8000C5BC  ;# ptr
-	.4byte 0x8000C5BC  ;# ptr
-	.4byte 0x8000C4C0  ;# ptr
-
+	.4byte lbl_8000C418
+	.4byte lbl_8000C5BC
+	.4byte lbl_8000C5BC
+	.4byte lbl_8000C5BC
+	.4byte lbl_8000C5C4
+	.4byte lbl_8000C5BC
+	.4byte lbl_8000C5BC
+	.4byte lbl_8000C5BC
+	.4byte lbl_8000C5C4
+	.4byte lbl_8000C5BC
+	.4byte lbl_8000C5BC
+	.4byte lbl_8000C5BC
+	.4byte lbl_8000C4C0
 
 glabel lbl_8017A944
 	# ROM: 0x176A44
-	.4byte 0x8000C61C  ;# ptr
-	.4byte 0x8000C650  ;# ptr
-	.4byte 0x8000C650  ;# ptr
-	.4byte 0x8000C650  ;# ptr
-	.4byte 0x8000C628  ;# ptr
-	.4byte 0x8000C650  ;# ptr
-	.4byte 0x8000C650  ;# ptr
-	.4byte 0x8000C650  ;# ptr
-	.4byte 0x8000C638  ;# ptr
-	.4byte 0x8000C650  ;# ptr
-	.4byte 0x8000C650  ;# ptr
-	.4byte 0x8000C650  ;# ptr
-	.4byte 0x8000C644  ;# ptr
-	.4byte 0x80246500  ;# ptr
+	.4byte lbl_8000C61C
+	.4byte lbl_8000C650
+	.4byte lbl_8000C650
+	.4byte lbl_8000C650
+	.4byte lbl_8000C628
+	.4byte lbl_8000C650
+	.4byte lbl_8000C650
+	.4byte lbl_8000C650
+	.4byte lbl_8000C638
+	.4byte lbl_8000C650
+	.4byte lbl_8000C650
+	.4byte lbl_8000C650
+	.4byte lbl_8000C644
+lbl_8017A978:
+	.4byte lbl_80246500
 	.4byte 0x0000000C
 	.4byte 0
-	.4byte 0x8000C668  ;# ptr
-	.4byte 0x80246508  ;# ptr
+	.4byte lbl_8000C668
+lbl_8017A988:
+	.4byte lbl_80246508
 	.4byte 0x00000004
 	.4byte 0
-	.4byte 0x8000C8BC  ;# ptr
-
+	.4byte lbl_8000C8BC
 
 glabel lbl_8017A998
 	# ROM: 0x176A98
@@ -1267,7 +1257,6 @@ glabel lbl_8017A998
 	.4byte 0xFFFFFFFF
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_8017AA98
 	# ROM: 0x176B98
@@ -1394,78 +1383,75 @@ glabel lbl_8017AA98
 	.4byte 0x8F5B012C
 	.4byte 0x44DBF800
 
-
 glabel lbl_8017AC80
 	# ROM: 0x176D80
-	.4byte 0x8000DF90  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000DFC4  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000DFCC  ;# ptr
-	.4byte 0x8000E028  ;# ptr
-	.4byte 0x8000E04C  ;# ptr
-	.4byte 0x8000E094  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000E09C  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0BC  ;# ptr
-	.4byte 0x8000E0C0  ;# ptr
-
+	.4byte lbl_8000DF90
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000DFC4
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000DFCC
+	.4byte lbl_8000E028
+	.4byte lbl_8000E04C
+	.4byte lbl_8000E094
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000E09C
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0C0
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0BC
+	.4byte lbl_8000E0C0
 
 glabel lbl_8017AD00
 	# ROM: 0x176E00
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E134  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E1FC  ;# ptr
-	.4byte 0x8000E20C  ;# ptr
-	.4byte 0x8000E1E4  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E1EC  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E1F4  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E214  ;# ptr
-	.4byte 0x8000E224  ;# ptr
-	.4byte 0x8000E234  ;# ptr
-	.4byte 0x8000E244  ;# ptr
-	.4byte 0x8000E254  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E274  ;# ptr
-	.4byte 0x8000E264  ;# ptr
-
+	.4byte lbl_8000E274
+	.4byte lbl_8000E134
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E1FC
+	.4byte lbl_8000E20C
+	.4byte lbl_8000E1E4
+	.4byte lbl_8000E274
+	.4byte lbl_8000E1EC
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E1F4
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E214
+	.4byte lbl_8000E224
+	.4byte lbl_8000E234
+	.4byte lbl_8000E244
+	.4byte lbl_8000E254
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E274
+	.4byte lbl_8000E264
 
 glabel lbl_8017AD80
 	# ROM: 0x176E80
@@ -1502,62 +1488,60 @@ glabel lbl_8017AD80
 	.4byte 0x0000011E
 	.4byte 0x0000011F
 
-
 glabel lbl_8017AE00
 	# ROM: 0x176F00
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E45C  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E45C
+	.4byte lbl_8000E4CC
 
 glabel lbl_8017AE64
 	# ROM: 0x176F64
-	.4byte 0x8000E3DC  ;# ptr
-	.4byte 0x8000E408  ;# ptr
-	.4byte 0x8000E4B8  ;# ptr
-	.4byte 0x8000E4C0  ;# ptr
-	.4byte 0x8000E4C8  ;# ptr
-	.4byte 0x8000E4C8  ;# ptr
-	.4byte 0x8000E4C8  ;# ptr
-	.4byte 0x8000E4C8  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E438  ;# ptr
-	.4byte 0x8000E48C  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4CC  ;# ptr
-	.4byte 0x8000E4C8  ;# ptr
-	.4byte 0x8000E4C8  ;# ptr
-	.4byte 0x8000E4C8  ;# ptr
-	.4byte 0x8000E4C8  ;# ptr
+	.4byte lbl_8000E3DC
+	.4byte lbl_8000E408
+	.4byte lbl_8000E4B8
+	.4byte lbl_8000E4C0
+	.4byte lbl_8000E4C8
+	.4byte lbl_8000E4C8
+	.4byte lbl_8000E4C8
+	.4byte lbl_8000E4C8
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E438
+	.4byte lbl_8000E48C
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4CC
+	.4byte lbl_8000E4C8
+	.4byte lbl_8000E4C8
+	.4byte lbl_8000E4C8
+	.4byte lbl_8000E4C8
 	.asciz "CALLED: ceil_w single (%p)\n"
 	.asciz "CALLED: ceil_w double (%p)\n"
 	.balign 8
@@ -1655,1082 +1639,1058 @@ glabel lbl_8017AE64
 	.balign 4
 	.asciz "ERROR: C.NGT_L\n"
 
-
 glabel lbl_8017B2C0
 	# ROM: 0x1773C0
-	.4byte 0x8002585C  ;# ptr
-	.4byte 0x8002588C  ;# ptr
-	.4byte 0x800258BC  ;# ptr
-	.4byte 0x800258EC  ;# ptr
-	.4byte 0x8002591C  ;# ptr
-	.4byte 0x80025934  ;# ptr
-	.4byte 0x80025964  ;# ptr
-	.4byte 0x8002597C  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x800259AC  ;# ptr
-	.4byte 0x800259C4  ;# ptr
-	.4byte 0x800259DC  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x800259F4  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025B18  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025C98  ;# ptr
-	.4byte 0x80025B30  ;# ptr
-	.4byte 0x80025B40  ;# ptr
-	.4byte 0x80025B50  ;# ptr
-	.4byte 0x80025B68  ;# ptr
-	.4byte 0x80025B80  ;# ptr
-	.4byte 0x80025B98  ;# ptr
-	.4byte 0x80025BB0  ;# ptr
-	.4byte 0x80025BC8  ;# ptr
-	.4byte 0x80025BE0  ;# ptr
-	.4byte 0x80025BF0  ;# ptr
-	.4byte 0x80025C08  ;# ptr
-	.4byte 0x80025C20  ;# ptr
-	.4byte 0x80025C38  ;# ptr
-	.4byte 0x80025C50  ;# ptr
-	.4byte 0x80025C68  ;# ptr
-	.4byte 0x80025C80  ;# ptr
-
+	.4byte lbl_8002585C
+	.4byte lbl_8002588C
+	.4byte lbl_800258BC
+	.4byte lbl_800258EC
+	.4byte lbl_8002591C
+	.4byte lbl_80025934
+	.4byte lbl_80025964
+	.4byte lbl_8002597C
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_800259AC
+	.4byte lbl_800259C4
+	.4byte lbl_800259DC
+	.4byte lbl_80031740
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80031740
+	.4byte lbl_800259F4
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025B18
+	.4byte lbl_80031740
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025C98
+	.4byte lbl_80025B30
+	.4byte lbl_80025B40
+	.4byte lbl_80025B50
+	.4byte lbl_80025B68
+	.4byte lbl_80025B80
+	.4byte lbl_80025B98
+	.4byte lbl_80025BB0
+	.4byte lbl_80025BC8
+	.4byte lbl_80025BE0
+	.4byte lbl_80025BF0
+	.4byte lbl_80025C08
+	.4byte lbl_80025C20
+	.4byte lbl_80025C38
+	.4byte lbl_80025C50
+	.4byte lbl_80025C68
+	.4byte lbl_80025C80
 
 glabel lbl_8017B3C0
 	# ROM: 0x1774C0
-	.4byte 0x80025434  ;# ptr
-	.4byte 0x80025464  ;# ptr
-	.4byte 0x80025494  ;# ptr
-	.4byte 0x800254C4  ;# ptr
-	.4byte 0x800254F4  ;# ptr
-	.4byte 0x8002550C  ;# ptr
-	.4byte 0x8002553C  ;# ptr
-	.4byte 0x80025554  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80025584  ;# ptr
-	.4byte 0x8002559C  ;# ptr
-	.4byte 0x800255B4  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x800255CC  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x800256B0  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x80025830  ;# ptr
-	.4byte 0x800256C8  ;# ptr
-	.4byte 0x800256D8  ;# ptr
-	.4byte 0x800256E8  ;# ptr
-	.4byte 0x80025700  ;# ptr
-	.4byte 0x80025718  ;# ptr
-	.4byte 0x80025730  ;# ptr
-	.4byte 0x80025748  ;# ptr
-	.4byte 0x80025760  ;# ptr
-	.4byte 0x80025778  ;# ptr
-	.4byte 0x80025788  ;# ptr
-	.4byte 0x800257A0  ;# ptr
-	.4byte 0x800257B8  ;# ptr
-	.4byte 0x800257D0  ;# ptr
-	.4byte 0x800257E8  ;# ptr
-	.4byte 0x80025800  ;# ptr
-	.4byte 0x80025818  ;# ptr
-
+	.4byte lbl_80025434
+	.4byte lbl_80025464
+	.4byte lbl_80025494
+	.4byte lbl_800254C4
+	.4byte lbl_800254F4
+	.4byte lbl_8002550C
+	.4byte lbl_8002553C
+	.4byte lbl_80025554
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80025584
+	.4byte lbl_8002559C
+	.4byte lbl_800255B4
+	.4byte lbl_80031740
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80031740
+	.4byte lbl_800255CC
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_800256B0
+	.4byte lbl_80031740
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_80025830
+	.4byte lbl_800256C8
+	.4byte lbl_800256D8
+	.4byte lbl_800256E8
+	.4byte lbl_80025700
+	.4byte lbl_80025718
+	.4byte lbl_80025730
+	.4byte lbl_80025748
+	.4byte lbl_80025760
+	.4byte lbl_80025778
+	.4byte lbl_80025788
+	.4byte lbl_800257A0
+	.4byte lbl_800257B8
+	.4byte lbl_800257D0
+	.4byte lbl_800257E8
+	.4byte lbl_80025800
+	.4byte lbl_80025818
 
 glabel lbl_8017B4C0
 	# ROM: 0x1775C0
-	.4byte 0x80021B40  ;# ptr
-	.4byte 0x80021D44  ;# ptr
-	.4byte 0x80021F40  ;# ptr
-	.4byte 0x80022144  ;# ptr
-	.4byte 0x80022340  ;# ptr
-	.4byte 0x80022474  ;# ptr
-	.4byte 0x800225CC  ;# ptr
-	.4byte 0x80022660  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x800227B8  ;# ptr
-	.4byte 0x800228F0  ;# ptr
-	.4byte 0x80022A28  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80022B70  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80022B88  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80025408  ;# ptr
-	.4byte 0x80022CC0  ;# ptr
-	.4byte 0x80022D68  ;# ptr
-	.4byte 0x80022E10  ;# ptr
-	.4byte 0x800230D8  ;# ptr
-	.4byte 0x800233A0  ;# ptr
-	.4byte 0x8002366C  ;# ptr
-	.4byte 0x80023938  ;# ptr
-	.4byte 0x80023C38  ;# ptr
-	.4byte 0x80023F38  ;# ptr
-	.4byte 0x80023FE0  ;# ptr
-	.4byte 0x800242E0  ;# ptr
-	.4byte 0x800245A8  ;# ptr
-	.4byte 0x80024870  ;# ptr
-	.4byte 0x80024B3C  ;# ptr
-	.4byte 0x80024E08  ;# ptr
-	.4byte 0x80025108  ;# ptr
-
+	.4byte lbl_80021B40
+	.4byte lbl_80021D44
+	.4byte lbl_80021F40
+	.4byte lbl_80022144
+	.4byte lbl_80022340
+	.4byte lbl_80022474
+	.4byte lbl_800225CC
+	.4byte lbl_80022660
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_800227B8
+	.4byte lbl_800228F0
+	.4byte lbl_80022A28
+	.4byte lbl_80031740
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80031740
+	.4byte lbl_80022B70
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80022B88
+	.4byte lbl_80031740
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80025408
+	.4byte lbl_80022CC0
+	.4byte lbl_80022D68
+	.4byte lbl_80022E10
+	.4byte lbl_800230D8
+	.4byte lbl_800233A0
+	.4byte lbl_8002366C
+	.4byte lbl_80023938
+	.4byte lbl_80023C38
+	.4byte lbl_80023F38
+	.4byte lbl_80023FE0
+	.4byte lbl_800242E0
+	.4byte lbl_800245A8
+	.4byte lbl_80024870
+	.4byte lbl_80024B3C
+	.4byte lbl_80024E08
+	.4byte lbl_80025108
 
 glabel lbl_8017B5C0
 	# ROM: 0x1776C0
-	.4byte 0x8001E104  ;# ptr
-	.4byte 0x8001E314  ;# ptr
-	.4byte 0x8001E51C  ;# ptr
-	.4byte 0x8001E72C  ;# ptr
-	.4byte 0x8001E934  ;# ptr
-	.4byte 0x8001EA70  ;# ptr
-	.4byte 0x8001EBD0  ;# ptr
-	.4byte 0x8001EC6C  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8001EDCC  ;# ptr
-	.4byte 0x8001EF08  ;# ptr
-	.4byte 0x8001F044  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8001F190  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x8001F228  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x80021B14  ;# ptr
-	.4byte 0x8001F364  ;# ptr
-	.4byte 0x8001F40C  ;# ptr
-	.4byte 0x8001F4B4  ;# ptr
-	.4byte 0x8001F784  ;# ptr
-	.4byte 0x8001FA54  ;# ptr
-	.4byte 0x8001FD28  ;# ptr
-	.4byte 0x8001FFFC  ;# ptr
-	.4byte 0x80020304  ;# ptr
-	.4byte 0x8002060C  ;# ptr
-	.4byte 0x800206B4  ;# ptr
-	.4byte 0x800209BC  ;# ptr
-	.4byte 0x80020C8C  ;# ptr
-	.4byte 0x80020F5C  ;# ptr
-	.4byte 0x80021230  ;# ptr
-	.4byte 0x80021504  ;# ptr
-	.4byte 0x8002180C  ;# ptr
-
+	.4byte lbl_8001E104
+	.4byte lbl_8001E314
+	.4byte lbl_8001E51C
+	.4byte lbl_8001E72C
+	.4byte lbl_8001E934
+	.4byte lbl_8001EA70
+	.4byte lbl_8001EBD0
+	.4byte lbl_8001EC6C
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_8001EDCC
+	.4byte lbl_8001EF08
+	.4byte lbl_8001F044
+	.4byte lbl_80031740
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80031740
+	.4byte lbl_8001F190
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_8001F228
+	.4byte lbl_80031740
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_80021B14
+	.4byte lbl_8001F364
+	.4byte lbl_8001F40C
+	.4byte lbl_8001F4B4
+	.4byte lbl_8001F784
+	.4byte lbl_8001FA54
+	.4byte lbl_8001FD28
+	.4byte lbl_8001FFFC
+	.4byte lbl_80020304
+	.4byte lbl_8002060C
+	.4byte lbl_800206B4
+	.4byte lbl_800209BC
+	.4byte lbl_80020C8C
+	.4byte lbl_80020F5C
+	.4byte lbl_80021230
+	.4byte lbl_80021504
+	.4byte lbl_8002180C
 
 glabel lbl_8017B6C0
 	# ROM: 0x1777C0
-	.4byte 0x8001D140  ;# ptr
-	.4byte 0x8001D2C4  ;# ptr
-	.4byte 0x8001D458  ;# ptr
-	.4byte 0x8001D994  ;# ptr
-	.4byte 0x8001D56C  ;# ptr
-	.4byte 0x8001D734  ;# ptr
-	.4byte 0x8001D8BC  ;# ptr
-
+	.4byte lbl_8001D140
+	.4byte lbl_8001D2C4
+	.4byte lbl_8001D458
+	.4byte lbl_8001D994
+	.4byte lbl_8001D56C
+	.4byte lbl_8001D734
+	.4byte lbl_8001D8BC
 
 glabel lbl_8017B6DC
 	# ROM: 0x1777DC
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x8001D064  ;# ptr
-	.4byte 0x80031740  ;# ptr
-
+	.4byte lbl_8001D064
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_80031740
+	.4byte lbl_8001D064
+	.4byte lbl_80031740
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_8001D064
+	.4byte lbl_80031740
 
 glabel lbl_8017B740
 	# ROM: 0x177840
-	.4byte 0x80018AE4  ;# ptr
-	.4byte 0x80018CF4  ;# ptr
-	.4byte 0x80018F04  ;# ptr
-	.4byte 0x80019140  ;# ptr
-	.4byte 0x8001A3A4  ;# ptr
-	.4byte 0x8001A3A4  ;# ptr
-	.4byte 0x8001A3A4  ;# ptr
-	.4byte 0x8001A3A4  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8001A3A4  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8001A3A4  ;# ptr
-	.4byte 0x8001937C  ;# ptr
-	.4byte 0x80019770  ;# ptr
-	.4byte 0x80019B64  ;# ptr
-	.4byte 0x80019F84  ;# ptr
-
+	.4byte lbl_80018AE4
+	.4byte lbl_80018CF4
+	.4byte lbl_80018F04
+	.4byte lbl_80019140
+	.4byte lbl_8001A3A4
+	.4byte lbl_8001A3A4
+	.4byte lbl_8001A3A4
+	.4byte lbl_8001A3A4
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_8001A3A4
+	.4byte lbl_80031740
+	.4byte lbl_8001A3A4
+	.4byte lbl_8001937C
+	.4byte lbl_80019770
+	.4byte lbl_80019B64
+	.4byte lbl_80019F84
 
 glabel lbl_8017B790
 	# ROM: 0x177890
-	.4byte 0x8000EEA0  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x8000F0F4  ;# ptr
-	.4byte 0x8000F30C  ;# ptr
-	.4byte 0x8000F4F4  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x8000F7EC  ;# ptr
-	.4byte 0x8000FAE4  ;# ptr
-	.4byte 0x8000FDDC  ;# ptr
-	.4byte 0x80010028  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8001066C  ;# ptr
-	.4byte 0x80010878  ;# ptr
-	.4byte 0x80010A68  ;# ptr
-	.4byte 0x80010C74  ;# ptr
-	.4byte 0x80010E64  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x8001114C  ;# ptr
-	.4byte 0x80011434  ;# ptr
-	.4byte 0x8001171C  ;# ptr
-	.4byte 0x80011900  ;# ptr
-	.4byte 0x80011AE4  ;# ptr
-	.4byte 0x80011D1C  ;# ptr
-	.4byte 0x80011F54  ;# ptr
-	.4byte 0x80012534  ;# ptr
-	.4byte 0x800129C4  ;# ptr
-	.4byte 0x80012FA4  ;# ptr
-	.4byte 0x80013434  ;# ptr
-	.4byte 0x80013E30  ;# ptr
-	.4byte 0x8001482C  ;# ptr
-	.4byte 0x80014B3C  ;# ptr
-	.4byte 0x80014E4C  ;# ptr
-	.4byte 0x8001515C  ;# ptr
-	.4byte 0x80015B58  ;# ptr
-	.4byte 0x80015E68  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x80016178  ;# ptr
-	.4byte 0x800164FC  ;# ptr
-	.4byte 0x80016884  ;# ptr
-	.4byte 0x80016CD4  ;# ptr
-	.4byte 0x80017124  ;# ptr
-	.4byte 0x80017574  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x800179C4  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x80017C80  ;# ptr
-	.4byte 0x80017F44  ;# ptr
-	.4byte 0x800181FC  ;# ptr
-	.4byte 0x80018AB8  ;# ptr
-	.4byte 0x800184E4  ;# ptr
-	.4byte 0x800187D4  ;# ptr
-
+	.4byte lbl_8000EEA0
+	.4byte lbl_80018AB8
+	.4byte lbl_8000F0F4
+	.4byte lbl_8000F30C
+	.4byte lbl_8000F4F4
+	.4byte lbl_80018AB8
+	.4byte lbl_8000F7EC
+	.4byte lbl_8000FAE4
+	.4byte lbl_8000FDDC
+	.4byte lbl_80010028
+	.4byte lbl_80018AB8
+	.4byte lbl_80018AB8
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80018AB8
+	.4byte lbl_80031740
+	.4byte lbl_8001066C
+	.4byte lbl_80010878
+	.4byte lbl_80010A68
+	.4byte lbl_80010C74
+	.4byte lbl_80010E64
+	.4byte lbl_80018AB8
+	.4byte lbl_8001114C
+	.4byte lbl_80011434
+	.4byte lbl_8001171C
+	.4byte lbl_80011900
+	.4byte lbl_80011AE4
+	.4byte lbl_80011D1C
+	.4byte lbl_80011F54
+	.4byte lbl_80012534
+	.4byte lbl_800129C4
+	.4byte lbl_80012FA4
+	.4byte lbl_80013434
+	.4byte lbl_80013E30
+	.4byte lbl_8001482C
+	.4byte lbl_80014B3C
+	.4byte lbl_80014E4C
+	.4byte lbl_8001515C
+	.4byte lbl_80015B58
+	.4byte lbl_80015E68
+	.4byte lbl_80018AB8
+	.4byte lbl_80018AB8
+	.4byte lbl_80016178
+	.4byte lbl_800164FC
+	.4byte lbl_80016884
+	.4byte lbl_80016CD4
+	.4byte lbl_80017124
+	.4byte lbl_80017574
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_80018AB8
+	.4byte lbl_80031740
+	.4byte lbl_80018AB8
+	.4byte lbl_800179C4
+	.4byte lbl_80018AB8
+	.4byte lbl_80017C80
+	.4byte lbl_80017F44
+	.4byte lbl_800181FC
+	.4byte lbl_80018AB8
+	.4byte lbl_800184E4
+	.4byte lbl_800187D4
 
 glabel lbl_8017B890
 	# ROM: 0x177990
-	.4byte 0x8000EE78  ;# ptr
-	.4byte 0x80018AC0  ;# ptr
-	.4byte 0x8001A3AC  ;# ptr
-	.4byte 0x8001A61C  ;# ptr
-	.4byte 0x8001ABAC  ;# ptr
-	.4byte 0x8001AFF8  ;# ptr
-	.4byte 0x8001B2E4  ;# ptr
-	.4byte 0x8001B4F4  ;# ptr
-	.4byte 0x8001B704  ;# ptr
-	.4byte 0x8001BCF0  ;# ptr
-	.4byte 0x8001C2FC  ;# ptr
-	.4byte 0x8001C5A8  ;# ptr
-	.4byte 0x8001C898  ;# ptr
-	.4byte 0x8001CA74  ;# ptr
-	.4byte 0x8001CCB0  ;# ptr
-	.4byte 0x8001CEC8  ;# ptr
-	.4byte 0x8001D040  ;# ptr
-	.4byte 0x8001D108  ;# ptr
-	.4byte 0x80025CA0  ;# ptr
-	.4byte 0x80025CA8  ;# ptr
-	.4byte 0x80025CB0  ;# ptr
-	.4byte 0x80026088  ;# ptr
-	.4byte 0x800263A0  ;# ptr
-	.4byte 0x800265DC  ;# ptr
-	.4byte 0x80026818  ;# ptr
-	.4byte 0x80026CE4  ;# ptr
-	.4byte 0x800271E8  ;# ptr
-	.4byte 0x80027208  ;# ptr
-	.4byte 0x8003173C  ;# ptr
-	.4byte 0x8003173C  ;# ptr
-	.4byte 0x8003173C  ;# ptr
-	.4byte 0x800271B0  ;# ptr
-	.4byte 0x80027248  ;# ptr
-	.4byte 0x80027C70  ;# ptr
-	.4byte 0x80028698  ;# ptr
-	.4byte 0x80028A98  ;# ptr
-	.4byte 0x8002950C  ;# ptr
-	.4byte 0x80029EEC  ;# ptr
-	.4byte 0x8002A8CC  ;# ptr
-	.4byte 0x80027228  ;# ptr
-	.4byte 0x8002ACCC  ;# ptr
-	.4byte 0x8002B7BC  ;# ptr
-	.4byte 0x8002C2AC  ;# ptr
-	.4byte 0x8002C5EC  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8002D2EC  ;# ptr
-	.4byte 0x8002D628  ;# ptr
-	.4byte 0x8002D65C  ;# ptr
-	.4byte 0x8002D67C  ;# ptr
-	.4byte 0x8003173C  ;# ptr
-	.4byte 0x8003173C  ;# ptr
-	.4byte 0x8002E450  ;# ptr
-	.4byte 0x8002E470  ;# ptr
-	.4byte 0x8003173C  ;# ptr
-	.4byte 0x8002F154  ;# ptr
-	.4byte 0x80031740  ;# ptr
-	.4byte 0x8002F5F8  ;# ptr
-	.4byte 0x8003173C  ;# ptr
-	.4byte 0x8003173C  ;# ptr
-	.4byte 0x80030468  ;# ptr
-	.4byte 0x80030488  ;# ptr
-	.4byte 0x8003173C  ;# ptr
-	.4byte 0x800312A4  ;# ptr
-
+	.4byte lbl_8000EE78
+	.4byte lbl_80018AC0
+	.4byte lbl_8001A3AC
+	.4byte lbl_8001A61C
+	.4byte lbl_8001ABAC
+	.4byte lbl_8001AFF8
+	.4byte lbl_8001B2E4
+	.4byte lbl_8001B4F4
+	.4byte lbl_8001B704
+	.4byte lbl_8001BCF0
+	.4byte lbl_8001C2FC
+	.4byte lbl_8001C5A8
+	.4byte lbl_8001C898
+	.4byte lbl_8001CA74
+	.4byte lbl_8001CCB0
+	.4byte lbl_8001CEC8
+	.4byte lbl_8001D040
+	.4byte lbl_8001D108
+	.4byte lbl_80025CA0
+	.4byte lbl_80025CA8
+	.4byte lbl_80025CB0
+	.4byte lbl_80026088
+	.4byte lbl_800263A0
+	.4byte lbl_800265DC
+	.4byte lbl_80026818
+	.4byte lbl_80026CE4
+	.4byte lbl_800271E8
+	.4byte lbl_80027208
+	.4byte lbl_8003173C
+	.4byte lbl_8003173C
+	.4byte lbl_8003173C
+	.4byte lbl_800271B0
+	.4byte lbl_80027248
+	.4byte lbl_80027C70
+	.4byte lbl_80028698
+	.4byte lbl_80028A98
+	.4byte lbl_8002950C
+	.4byte lbl_80029EEC
+	.4byte lbl_8002A8CC
+	.4byte lbl_80027228
+	.4byte lbl_8002ACCC
+	.4byte lbl_8002B7BC
+	.4byte lbl_8002C2AC
+	.4byte lbl_8002C5EC
+	.4byte lbl_80031740
+	.4byte lbl_80031740
+	.4byte lbl_8002D2EC
+	.4byte lbl_8002D628
+	.4byte lbl_8002D65C
+	.4byte lbl_8002D67C
+	.4byte lbl_8003173C
+	.4byte lbl_8003173C
+	.4byte lbl_8002E450
+	.4byte lbl_8002E470
+	.4byte lbl_8003173C
+	.4byte lbl_8002F154
+	.4byte lbl_80031740
+	.4byte lbl_8002F5F8
+	.4byte lbl_8003173C
+	.4byte lbl_8003173C
+	.4byte lbl_80030468
+	.4byte lbl_80030488
+	.4byte lbl_8003173C
+	.4byte lbl_800312A4
 
 glabel lbl_8017B990
 	# ROM: 0x177A90
-	.4byte 0x800384B4  ;# ptr
-	.4byte 0x800384F0  ;# ptr
-	.4byte 0x8003852C  ;# ptr
-	.4byte 0x80038578  ;# ptr
-	.4byte 0x800385B0  ;# ptr
-	.4byte 0x800385E0  ;# ptr
-	.4byte 0x80038610  ;# ptr
-	.4byte 0x80038634  ;# ptr
-	.4byte 0x80038660  ;# ptr
-	.4byte 0x80038684  ;# ptr
-	.4byte 0x800386A8  ;# ptr
-	.4byte 0x800386D8  ;# ptr
-	.4byte 0x80038708  ;# ptr
-	.4byte 0x80038724  ;# ptr
-	.4byte 0x80038740  ;# ptr
-	.4byte 0x80038774  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800387A8  ;# ptr
-	.4byte 0x800387CC  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800387F0  ;# ptr
-	.4byte 0x8003880C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80038830  ;# ptr
-	.4byte 0x80038840  ;# ptr
-	.4byte 0x80038850  ;# ptr
-	.4byte 0x800388A0  ;# ptr
-	.4byte 0x800388F0  ;# ptr
-	.4byte 0x8003894C  ;# ptr
-	.4byte 0x800389A8  ;# ptr
-	.4byte 0x80038A04  ;# ptr
-	.4byte 0x80038A60  ;# ptr
-	.4byte 0x80038A70  ;# ptr
-	.4byte 0x80038ACC  ;# ptr
-	.4byte 0x80038B1C  ;# ptr
-	.4byte 0x80038B6C  ;# ptr
-	.4byte 0x80038BC8  ;# ptr
-	.4byte 0x80038C24  ;# ptr
-	.4byte 0x80038C80  ;# ptr
-
+	.4byte lbl_800384B4
+	.4byte lbl_800384F0
+	.4byte lbl_8003852C
+	.4byte lbl_80038578
+	.4byte lbl_800385B0
+	.4byte lbl_800385E0
+	.4byte lbl_80038610
+	.4byte lbl_80038634
+	.4byte lbl_80038660
+	.4byte lbl_80038684
+	.4byte lbl_800386A8
+	.4byte lbl_800386D8
+	.4byte lbl_80038708
+	.4byte lbl_80038724
+	.4byte lbl_80038740
+	.4byte lbl_80038774
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800387A8
+	.4byte lbl_800387CC
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800387F0
+	.4byte lbl_8003880C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80038830
+	.4byte lbl_80038840
+	.4byte lbl_80038850
+	.4byte lbl_800388A0
+	.4byte lbl_800388F0
+	.4byte lbl_8003894C
+	.4byte lbl_800389A8
+	.4byte lbl_80038A04
+	.4byte lbl_80038A60
+	.4byte lbl_80038A70
+	.4byte lbl_80038ACC
+	.4byte lbl_80038B1C
+	.4byte lbl_80038B6C
+	.4byte lbl_80038BC8
+	.4byte lbl_80038C24
+	.4byte lbl_80038C80
 
 glabel lbl_8017BA90
 	# ROM: 0x177B90
-	.4byte 0x80037D9C  ;# ptr
-	.4byte 0x80037DC8  ;# ptr
-	.4byte 0x80037DF4  ;# ptr
-	.4byte 0x80037E20  ;# ptr
-	.4byte 0x80037E4C  ;# ptr
-	.4byte 0x80037E8C  ;# ptr
-	.4byte 0x80037ECC  ;# ptr
-	.4byte 0x80037EE8  ;# ptr
-	.4byte 0x80037F08  ;# ptr
-	.4byte 0x80037F2C  ;# ptr
-	.4byte 0x80037F50  ;# ptr
-	.4byte 0x80037F8C  ;# ptr
-	.4byte 0x80037FC8  ;# ptr
-	.4byte 0x80037FE4  ;# ptr
-	.4byte 0x80038000  ;# ptr
-	.4byte 0x80038040  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80038080  ;# ptr
-	.4byte 0x800380B0  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800380E0  ;# ptr
-	.4byte 0x800380FC  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80038120  ;# ptr
-	.4byte 0x80038130  ;# ptr
-	.4byte 0x80038140  ;# ptr
-	.4byte 0x80038180  ;# ptr
-	.4byte 0x800381C0  ;# ptr
-	.4byte 0x80038200  ;# ptr
-	.4byte 0x80038240  ;# ptr
-	.4byte 0x80038280  ;# ptr
-	.4byte 0x800382C0  ;# ptr
-	.4byte 0x800382D0  ;# ptr
-	.4byte 0x80038310  ;# ptr
-	.4byte 0x80038350  ;# ptr
-	.4byte 0x80038390  ;# ptr
-	.4byte 0x800383D0  ;# ptr
-	.4byte 0x80038410  ;# ptr
-	.4byte 0x80038450  ;# ptr
-
+	.4byte lbl_80037D9C
+	.4byte lbl_80037DC8
+	.4byte lbl_80037DF4
+	.4byte lbl_80037E20
+	.4byte lbl_80037E4C
+	.4byte lbl_80037E8C
+	.4byte lbl_80037ECC
+	.4byte lbl_80037EE8
+	.4byte lbl_80037F08
+	.4byte lbl_80037F2C
+	.4byte lbl_80037F50
+	.4byte lbl_80037F8C
+	.4byte lbl_80037FC8
+	.4byte lbl_80037FE4
+	.4byte lbl_80038000
+	.4byte lbl_80038040
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80038080
+	.4byte lbl_800380B0
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800380E0
+	.4byte lbl_800380FC
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80038120
+	.4byte lbl_80038130
+	.4byte lbl_80038140
+	.4byte lbl_80038180
+	.4byte lbl_800381C0
+	.4byte lbl_80038200
+	.4byte lbl_80038240
+	.4byte lbl_80038280
+	.4byte lbl_800382C0
+	.4byte lbl_800382D0
+	.4byte lbl_80038310
+	.4byte lbl_80038350
+	.4byte lbl_80038390
+	.4byte lbl_800383D0
+	.4byte lbl_80038410
+	.4byte lbl_80038450
 
 glabel lbl_8017BB90
 	# ROM: 0x177C90
-	.4byte 0x800376F0  ;# ptr
-	.4byte 0x8003771C  ;# ptr
-	.4byte 0x80037748  ;# ptr
-	.4byte 0x80037774  ;# ptr
-	.4byte 0x800377A0  ;# ptr
-	.4byte 0x800377C0  ;# ptr
-	.4byte 0x800377E0  ;# ptr
-	.4byte 0x800377FC  ;# ptr
-	.4byte 0x8003781C  ;# ptr
-	.4byte 0x80037848  ;# ptr
-	.4byte 0x8003786C  ;# ptr
-	.4byte 0x80037894  ;# ptr
-	.4byte 0x800378BC  ;# ptr
-	.4byte 0x800378EC  ;# ptr
-	.4byte 0x80037914  ;# ptr
-	.4byte 0x80037940  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x8003796C  ;# ptr
-	.4byte 0x8003798C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800379A8  ;# ptr
-	.4byte 0x800379D0  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800379F4  ;# ptr
-	.4byte 0x80037A04  ;# ptr
-	.4byte 0x80037A14  ;# ptr
-	.4byte 0x80037A54  ;# ptr
-	.4byte 0x80037A94  ;# ptr
-	.4byte 0x80037AD4  ;# ptr
-	.4byte 0x80037B14  ;# ptr
-	.4byte 0x80037B58  ;# ptr
-	.4byte 0x80037B9C  ;# ptr
-	.4byte 0x80037BAC  ;# ptr
-	.4byte 0x80037BF0  ;# ptr
-	.4byte 0x80037C30  ;# ptr
-	.4byte 0x80037C70  ;# ptr
-	.4byte 0x80037CB0  ;# ptr
-	.4byte 0x80037CF0  ;# ptr
-	.4byte 0x80037D34  ;# ptr
-
+	.4byte lbl_800376F0
+	.4byte lbl_8003771C
+	.4byte lbl_80037748
+	.4byte lbl_80037774
+	.4byte lbl_800377A0
+	.4byte lbl_800377C0
+	.4byte lbl_800377E0
+	.4byte lbl_800377FC
+	.4byte lbl_8003781C
+	.4byte lbl_80037848
+	.4byte lbl_8003786C
+	.4byte lbl_80037894
+	.4byte lbl_800378BC
+	.4byte lbl_800378EC
+	.4byte lbl_80037914
+	.4byte lbl_80037940
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_8003796C
+	.4byte lbl_8003798C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800379A8
+	.4byte lbl_800379D0
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800379F4
+	.4byte lbl_80037A04
+	.4byte lbl_80037A14
+	.4byte lbl_80037A54
+	.4byte lbl_80037A94
+	.4byte lbl_80037AD4
+	.4byte lbl_80037B14
+	.4byte lbl_80037B58
+	.4byte lbl_80037B9C
+	.4byte lbl_80037BAC
+	.4byte lbl_80037BF0
+	.4byte lbl_80037C30
+	.4byte lbl_80037C70
+	.4byte lbl_80037CB0
+	.4byte lbl_80037CF0
+	.4byte lbl_80037D34
 
 glabel lbl_8017BC90
 	# ROM: 0x177D90
-	.4byte 0x80037040  ;# ptr
-	.4byte 0x8003706C  ;# ptr
-	.4byte 0x80037098  ;# ptr
-	.4byte 0x800370C4  ;# ptr
-	.4byte 0x800370F0  ;# ptr
-	.4byte 0x80037114  ;# ptr
-	.4byte 0x80037138  ;# ptr
-	.4byte 0x80037154  ;# ptr
-	.4byte 0x80037174  ;# ptr
-	.4byte 0x800371A0  ;# ptr
-	.4byte 0x800371C4  ;# ptr
-	.4byte 0x800371EC  ;# ptr
-	.4byte 0x80037214  ;# ptr
-	.4byte 0x80037244  ;# ptr
-	.4byte 0x8003726C  ;# ptr
-	.4byte 0x80037298  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800372C4  ;# ptr
-	.4byte 0x800372E0  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800372FC  ;# ptr
-	.4byte 0x80037324  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80037348  ;# ptr
-	.4byte 0x80037358  ;# ptr
-	.4byte 0x80037368  ;# ptr
-	.4byte 0x800373A8  ;# ptr
-	.4byte 0x800373E8  ;# ptr
-	.4byte 0x80037428  ;# ptr
-	.4byte 0x80037468  ;# ptr
-	.4byte 0x800374AC  ;# ptr
-	.4byte 0x800374F0  ;# ptr
-	.4byte 0x80037500  ;# ptr
-	.4byte 0x80037544  ;# ptr
-	.4byte 0x80037584  ;# ptr
-	.4byte 0x800375C4  ;# ptr
-	.4byte 0x80037604  ;# ptr
-	.4byte 0x80037644  ;# ptr
-	.4byte 0x80037688  ;# ptr
-
+	.4byte lbl_80037040
+	.4byte lbl_8003706C
+	.4byte lbl_80037098
+	.4byte lbl_800370C4
+	.4byte lbl_800370F0
+	.4byte lbl_80037114
+	.4byte lbl_80037138
+	.4byte lbl_80037154
+	.4byte lbl_80037174
+	.4byte lbl_800371A0
+	.4byte lbl_800371C4
+	.4byte lbl_800371EC
+	.4byte lbl_80037214
+	.4byte lbl_80037244
+	.4byte lbl_8003726C
+	.4byte lbl_80037298
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800372C4
+	.4byte lbl_800372E0
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800372FC
+	.4byte lbl_80037324
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80037348
+	.4byte lbl_80037358
+	.4byte lbl_80037368
+	.4byte lbl_800373A8
+	.4byte lbl_800373E8
+	.4byte lbl_80037428
+	.4byte lbl_80037468
+	.4byte lbl_800374AC
+	.4byte lbl_800374F0
+	.4byte lbl_80037500
+	.4byte lbl_80037544
+	.4byte lbl_80037584
+	.4byte lbl_800375C4
+	.4byte lbl_80037604
+	.4byte lbl_80037644
+	.4byte lbl_80037688
 
 glabel lbl_8017BD90
 	# ROM: 0x177E90
-	.4byte 0x80036DA8  ;# ptr
-	.4byte 0x80036DF4  ;# ptr
-	.4byte 0x80036E18  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80036E34  ;# ptr
-	.4byte 0x80036E9C  ;# ptr
-	.4byte 0x80036EC0  ;# ptr
-
+	.4byte lbl_80036DA8
+	.4byte lbl_80036DF4
+	.4byte lbl_80036E18
+	.4byte lbl_80039B0C
+	.4byte lbl_80036E34
+	.4byte lbl_80036E9C
+	.4byte lbl_80036EC0
 
 glabel lbl_8017BDAC
 	# ROM: 0x177EAC
-	.4byte 0x80036CC4  ;# ptr
-	.4byte 0x80036D00  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80036D34  ;# ptr
-	.4byte 0x80036D54  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-
+	.4byte lbl_80036CC4
+	.4byte lbl_80036D00
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80036D34
+	.4byte lbl_80036D54
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
 
 glabel lbl_8017BDD0
 	# ROM: 0x177ED0
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x800369F0  ;# ptr
-	.4byte 0x80036A44  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036A58  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036B10  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036CA0  ;# ptr
-	.4byte 0x80036C3C  ;# ptr
-
+	.4byte lbl_80036CA0
+	.4byte lbl_800369F0
+	.4byte lbl_80036A44
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036A58
+	.4byte lbl_80036CA0
+	.4byte lbl_80036B10
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036CA0
+	.4byte lbl_80036C3C
 
 glabel lbl_8017BE34
 	# ROM: 0x177F34
-	.4byte 0x800363A8  ;# ptr
-	.4byte 0x800363D8  ;# ptr
-	.4byte 0x80036408  ;# ptr
-	.4byte 0x80036454  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800364A0  ;# ptr
-	.4byte 0x800364D0  ;# ptr
-	.4byte 0x80036500  ;# ptr
-	.4byte 0x80036530  ;# ptr
-	.4byte 0x80036560  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80036590  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800365C0  ;# ptr
-	.4byte 0x800365FC  ;# ptr
-	.4byte 0x80036638  ;# ptr
-	.4byte 0x8003668C  ;# ptr
-
+	.4byte lbl_800363A8
+	.4byte lbl_800363D8
+	.4byte lbl_80036408
+	.4byte lbl_80036454
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800364A0
+	.4byte lbl_800364D0
+	.4byte lbl_80036500
+	.4byte lbl_80036530
+	.4byte lbl_80036560
+	.4byte lbl_80039B0C
+	.4byte lbl_80036590
+	.4byte lbl_80039B0C
+	.4byte lbl_800365C0
+	.4byte lbl_800365FC
+	.4byte lbl_80036638
+	.4byte lbl_8003668C
 
 glabel lbl_8017BE84
 	# ROM: 0x177F84
-	.4byte 0x8003591C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80035940  ;# ptr
-	.4byte 0x80035964  ;# ptr
-	.4byte 0x80035988  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800359B8  ;# ptr
-	.4byte 0x800359E8  ;# ptr
-	.4byte 0x80035A18  ;# ptr
-	.4byte 0x80035A2C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80035A5C  ;# ptr
-	.4byte 0x80035A70  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80035A84  ;# ptr
-	.4byte 0x80035AA0  ;# ptr
-	.4byte 0x80035ABC  ;# ptr
-	.4byte 0x80035AD8  ;# ptr
-	.4byte 0x80035AF4  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80035B2C  ;# ptr
-	.4byte 0x80035B64  ;# ptr
-	.4byte 0x80035B9C  ;# ptr
-	.4byte 0x80035BF0  ;# ptr
-	.4byte 0x80035C44  ;# ptr
-	.4byte 0x80035C98  ;# ptr
-	.4byte 0x80035CEC  ;# ptr
-	.4byte 0x80035D5C  ;# ptr
-	.4byte 0x80035DCC  ;# ptr
-	.4byte 0x80035E20  ;# ptr
-	.4byte 0x80035E74  ;# ptr
-	.4byte 0x80035EA0  ;# ptr
-	.4byte 0x80035ECC  ;# ptr
-	.4byte 0x80035EF8  ;# ptr
-	.4byte 0x80035F24  ;# ptr
-	.4byte 0x80035F50  ;# ptr
-	.4byte 0x80035F7C  ;# ptr
-	.4byte 0x80035FA8  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80035FD4  ;# ptr
-	.4byte 0x80036010  ;# ptr
-	.4byte 0x80036048  ;# ptr
-	.4byte 0x80036084  ;# ptr
-	.4byte 0x800360C0  ;# ptr
-	.4byte 0x800360FC  ;# ptr
-	.4byte 0x80036138  ;# ptr
-	.4byte 0x8003616C  ;# ptr
-	.4byte 0x800361A0  ;# ptr
-	.4byte 0x800361D4  ;# ptr
-	.4byte 0x80036208  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x8003623C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80036270  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x8003629C  ;# ptr
-	.4byte 0x800362C8  ;# ptr
-	.4byte 0x800362F4  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80036324  ;# ptr
-	.4byte 0x80036354  ;# ptr
-
+	.4byte lbl_8003591C
+	.4byte lbl_80039B0C
+	.4byte lbl_80035940
+	.4byte lbl_80035964
+	.4byte lbl_80035988
+	.4byte lbl_80039B0C
+	.4byte lbl_800359B8
+	.4byte lbl_800359E8
+	.4byte lbl_80035A18
+	.4byte lbl_80035A2C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80035A5C
+	.4byte lbl_80035A70
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80035A84
+	.4byte lbl_80035AA0
+	.4byte lbl_80035ABC
+	.4byte lbl_80035AD8
+	.4byte lbl_80035AF4
+	.4byte lbl_80039B0C
+	.4byte lbl_80035B2C
+	.4byte lbl_80035B64
+	.4byte lbl_80035B9C
+	.4byte lbl_80035BF0
+	.4byte lbl_80035C44
+	.4byte lbl_80035C98
+	.4byte lbl_80035CEC
+	.4byte lbl_80035D5C
+	.4byte lbl_80035DCC
+	.4byte lbl_80035E20
+	.4byte lbl_80035E74
+	.4byte lbl_80035EA0
+	.4byte lbl_80035ECC
+	.4byte lbl_80035EF8
+	.4byte lbl_80035F24
+	.4byte lbl_80035F50
+	.4byte lbl_80035F7C
+	.4byte lbl_80035FA8
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80035FD4
+	.4byte lbl_80036010
+	.4byte lbl_80036048
+	.4byte lbl_80036084
+	.4byte lbl_800360C0
+	.4byte lbl_800360FC
+	.4byte lbl_80036138
+	.4byte lbl_8003616C
+	.4byte lbl_800361A0
+	.4byte lbl_800361D4
+	.4byte lbl_80036208
+	.4byte lbl_80039B0C
+	.4byte lbl_8003623C
+	.4byte lbl_80039B0C
+	.4byte lbl_80036270
+	.4byte lbl_80039B0C
+	.4byte lbl_8003629C
+	.4byte lbl_800362C8
+	.4byte lbl_800362F4
+	.4byte lbl_80039B0C
+	.4byte lbl_80036324
+	.4byte lbl_80036354
 
 glabel lbl_8017BF84
 	# ROM: 0x178084
-	.4byte 0x800358F8  ;# ptr
-	.4byte 0x80036384  ;# ptr
-	.4byte 0x800366E0  ;# ptr
-	.4byte 0x8003673C  ;# ptr
-	.4byte 0x80036768  ;# ptr
-	.4byte 0x800367F4  ;# ptr
-	.4byte 0x80036830  ;# ptr
-	.4byte 0x80036860  ;# ptr
-	.4byte 0x80036890  ;# ptr
-	.4byte 0x800368B8  ;# ptr
-	.4byte 0x800368E0  ;# ptr
-	.4byte 0x80036918  ;# ptr
-	.4byte 0x8003694C  ;# ptr
-	.4byte 0x80036970  ;# ptr
-	.4byte 0x80036994  ;# ptr
-	.4byte 0x800369B8  ;# ptr
-	.4byte 0x800369CC  ;# ptr
-	.4byte 0x80036D74  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80038CDC  ;# ptr
-	.4byte 0x80038D34  ;# ptr
-	.4byte 0x80038D8C  ;# ptr
-	.4byte 0x80038DD8  ;# ptr
-	.4byte 0x80038E24  ;# ptr
-	.4byte 0x80038E5C  ;# ptr
-	.4byte 0x80038EBC  ;# ptr
-	.4byte 0x80038F84  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80038E94  ;# ptr
-	.4byte 0x800390B8  ;# ptr
-	.4byte 0x8003911C  ;# ptr
-	.4byte 0x8003917C  ;# ptr
-	.4byte 0x8003920C  ;# ptr
-	.4byte 0x8003926C  ;# ptr
-	.4byte 0x800392CC  ;# ptr
-	.4byte 0x8003935C  ;# ptr
-	.4byte 0x8003904C  ;# ptr
-	.4byte 0x800393EC  ;# ptr
-	.4byte 0x8003943C  ;# ptr
-	.4byte 0x8003948C  ;# ptr
-	.4byte 0x800394FC  ;# ptr
-	.4byte 0x8003954C  ;# ptr
-	.4byte 0x800395C8  ;# ptr
-	.4byte 0x80039640  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800396B0  ;# ptr
-	.4byte 0x80039710  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800397B4  ;# ptr
-	.4byte 0x80039820  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039888  ;# ptr
-	.4byte 0x800398F0  ;# ptr
-	.4byte 0x80039958  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x800399D4  ;# ptr
-	.4byte 0x80039A50  ;# ptr
-	.4byte 0x80039B0C  ;# ptr
-	.4byte 0x80039AB0  ;# ptr
-
+	.4byte lbl_800358F8
+	.4byte lbl_80036384
+	.4byte lbl_800366E0
+	.4byte lbl_8003673C
+	.4byte lbl_80036768
+	.4byte lbl_800367F4
+	.4byte lbl_80036830
+	.4byte lbl_80036860
+	.4byte lbl_80036890
+	.4byte lbl_800368B8
+	.4byte lbl_800368E0
+	.4byte lbl_80036918
+	.4byte lbl_8003694C
+	.4byte lbl_80036970
+	.4byte lbl_80036994
+	.4byte lbl_800369B8
+	.4byte lbl_800369CC
+	.4byte lbl_80036D74
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80038CDC
+	.4byte lbl_80038D34
+	.4byte lbl_80038D8C
+	.4byte lbl_80038DD8
+	.4byte lbl_80038E24
+	.4byte lbl_80038E5C
+	.4byte lbl_80038EBC
+	.4byte lbl_80038F84
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_80038E94
+	.4byte lbl_800390B8
+	.4byte lbl_8003911C
+	.4byte lbl_8003917C
+	.4byte lbl_8003920C
+	.4byte lbl_8003926C
+	.4byte lbl_800392CC
+	.4byte lbl_8003935C
+	.4byte lbl_8003904C
+	.4byte lbl_800393EC
+	.4byte lbl_8003943C
+	.4byte lbl_8003948C
+	.4byte lbl_800394FC
+	.4byte lbl_8003954C
+	.4byte lbl_800395C8
+	.4byte lbl_80039640
+	.4byte lbl_80039B0C
+	.4byte lbl_800396B0
+	.4byte lbl_80039710
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800397B4
+	.4byte lbl_80039820
+	.4byte lbl_80039B0C
+	.4byte lbl_80039888
+	.4byte lbl_800398F0
+	.4byte lbl_80039958
+	.4byte lbl_80039B0C
+	.4byte lbl_80039B0C
+	.4byte lbl_800399D4
+	.4byte lbl_80039A50
+	.4byte lbl_80039B0C
+	.4byte lbl_80039AB0
 
 glabel lbl_8017C084
 	# ROM: 0x178184
-	.4byte 0x8003A018  ;# ptr
-	.4byte 0x8003A2CC  ;# ptr
-	.4byte 0x8003AA80  ;# ptr
-	.4byte 0x8003A580  ;# ptr
-	.4byte 0x8003A180  ;# ptr
-	.4byte 0x8003A434  ;# ptr
-	.4byte 0x8003AA80  ;# ptr
-	.4byte 0x8003AA80  ;# ptr
-	.4byte 0x8003A6CC  ;# ptr
-	.4byte 0x8003A808  ;# ptr
-	.4byte 0x8003AA80  ;# ptr
-	.4byte 0x8003A944  ;# ptr
-
+	.4byte lbl_8003A018
+	.4byte lbl_8003A2CC
+	.4byte lbl_8003AA80
+	.4byte lbl_8003A580
+	.4byte lbl_8003A180
+	.4byte lbl_8003A434
+	.4byte lbl_8003AA80
+	.4byte lbl_8003AA80
+	.4byte lbl_8003A6CC
+	.4byte lbl_8003A808
+	.4byte lbl_8003AA80
+	.4byte lbl_8003A944
 
 glabel lbl_8017C0B4
 	# ROM: 0x1781B4
-	.4byte 0x8003AE18  ;# ptr
-	.4byte 0x8003B554  ;# ptr
-	.4byte 0x8003B554  ;# ptr
-	.4byte 0x8003B554  ;# ptr
-	.4byte 0x8003B05C  ;# ptr
-	.4byte 0x8003B554  ;# ptr
-	.4byte 0x8003B25C  ;# ptr
-	.4byte 0x8003B554  ;# ptr
-	.4byte 0x8003AF48  ;# ptr
-	.4byte 0x8003B554  ;# ptr
-	.4byte 0x8003B554  ;# ptr
-	.4byte 0x8003B554  ;# ptr
-	.4byte 0x8003B15C  ;# ptr
-	.4byte 0x8003B554  ;# ptr
-	.4byte 0x8003B3D8  ;# ptr
-
+	.4byte lbl_8003AE18
+	.4byte lbl_8003B554
+	.4byte lbl_8003B554
+	.4byte lbl_8003B554
+	.4byte lbl_8003B05C
+	.4byte lbl_8003B554
+	.4byte lbl_8003B25C
+	.4byte lbl_8003B554
+	.4byte lbl_8003AF48
+	.4byte lbl_8003B554
+	.4byte lbl_8003B554
+	.4byte lbl_8003B554
+	.4byte lbl_8003B15C
+	.4byte lbl_8003B554
+	.4byte lbl_8003B3D8
 
 glabel lbl_8017C0F0
 	# ROM: 0x1781F0
-	.4byte 0x80246510  ;# ptr
+	.4byte lbl_80246510
 	.4byte 0x001024D0
 	.4byte 0
-	.4byte 0x8003CFE4  ;# ptr
-
+	.4byte cpuEvent
 
 glabel lbl_8017C100
 	# ROM: 0x178200
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E2D8  ;# ptr
-	.4byte 0x8003E2D8  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E2D8  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E2D8  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E090  ;# ptr
-	.4byte 0x8003E064  ;# ptr
-
+	.4byte lbl_8003E090
+	.4byte lbl_8003E2D8
+	.4byte lbl_8003E2D8
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E2D8
+	.4byte lbl_8003E090
+	.4byte lbl_8003E2D8
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E090
+	.4byte lbl_8003E064
 
 glabel lbl_8017C164
 	# ROM: 0x178264
-	.4byte 0x8003DD58  ;# ptr
-	.4byte 0x8003DE18  ;# ptr
-	.4byte 0x8003DDDC  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003DEB4  ;# ptr
-	.4byte 0x8003DFD8  ;# ptr
-	.4byte 0x8003DFD8  ;# ptr
-	.4byte 0x8003DFD8  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E040  ;# ptr
-	.4byte 0x8003E120  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003DEB4  ;# ptr
-	.4byte 0x8003DFD8  ;# ptr
-	.4byte 0x8003DFD8  ;# ptr
-	.4byte 0x8003DFD8  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E1C0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E2D0  ;# ptr
-	.4byte 0x8003E1AC  ;# ptr
+	.4byte lbl_8003DD58
+	.4byte lbl_8003DE18
+	.4byte lbl_8003DDDC
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003DEB4
+	.4byte lbl_8003DFD8
+	.4byte lbl_8003DFD8
+	.4byte lbl_8003DFD8
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E040
+	.4byte lbl_8003E120
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003DEB4
+	.4byte lbl_8003DFD8
+	.4byte lbl_8003DFD8
+	.4byte lbl_8003DFD8
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E1C0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E2D0
+	.4byte lbl_8003E1AC
 	.4byte 0
 	.asciz "function overlapped for %p ???\n"
 	.asciz "\t %p - %p\n"
@@ -2739,227 +2699,220 @@ glabel lbl_8017C164
 	.balign 4
 	.asciz "2 function overlapped for %p - %p ???\n"
 	.balign 8
-	.4byte 0x80246518  ;# ptr
+lbl_8017C298:
+	.4byte lbl_80246518
 	.4byte 0x0000000C
 	.4byte 0
-	.4byte 0x800410C4  ;# ptr
-
+	.4byte lbl_800410C4
 
 glabel lbl_8017C2A8
 	# ROM: 0x1783A8
-	.4byte 0x80041244  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x80041250  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x8004125C  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x80041268  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x80041274  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x80041280  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x8004128C  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x80041298  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412A4  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412BC  ;# ptr
-	.4byte 0x800412B0  ;# ptr
-
+	.4byte lbl_80041244
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_80041250
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_8004125C
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_80041268
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_80041274
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_80041280
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_8004128C
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_80041298
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412A4
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412BC
+	.4byte lbl_800412B0
 
 glabel lbl_8017C33C
 	# ROM: 0x17843C
-	.4byte 0x80041310  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x8004131C  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041328  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041334  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041340  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x8004134C  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041358  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041364  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041370  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x80041388  ;# ptr
-	.4byte 0x8004137C  ;# ptr
-
+	.4byte lbl_80041310
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_8004131C
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041328
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041334
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041340
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_8004134C
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041358
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041364
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041370
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_80041388
+	.4byte lbl_8004137C
 
 glabel lbl_8017C3D0
 	# ROM: 0x1784D0
-	.4byte 0x800413D4  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x800413E4  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041428  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x800413F4  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041404  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041410  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041428  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041420  ;# ptr
-	.4byte 0x80041428  ;# ptr
-
+	.4byte lbl_800413D4
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_800413E4
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041428
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_800413F4
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041404
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041410
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041428
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041420
+	.4byte lbl_80041428
 
 glabel lbl_8017C444
 	# ROM: 0x178544
-	.4byte 0x8004146C  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x8004147C  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414CC  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x8004148C  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x8004149C  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414A8  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414B8  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414C4  ;# ptr
-	.4byte 0x800414CC  ;# ptr
-
+	.4byte lbl_8004146C
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_8004147C
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414CC
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_8004148C
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_8004149C
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414A8
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414B8
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414C4
+	.4byte lbl_800414CC
 
 glabel lbl_8017C4B8
 	# ROM: 0x1785B8
-	.4byte 0x80246520  ;# ptr
+	.4byte lbl_80246520
 	.4byte 0x00000048
 	.4byte 0
-	.4byte 0x800417DC  ;# ptr
-	.4byte 0x80246528  ;# ptr
+	.4byte ramEvent
+lbl_8017C4C8:
+	.4byte lbl_80246528
 	.4byte 0x00019B00
 	.4byte 0
-	.4byte 0x80043678  ;# ptr
-
+	.4byte romEvent
 
 glabel lbl_8017C4D8
 	# ROM: 0x1785D8
-	.4byte 0x80043920  ;# ptr
-	.4byte 0x80043928  ;# ptr
-	.4byte 0x80043C48  ;# ptr
-	.4byte 0x80043C50  ;# ptr
-	.4byte 0x80043C58  ;# ptr
-	.4byte 0x80043C60  ;# ptr
-	.4byte 0x80043C68  ;# ptr
-	.4byte 0x80043C70  ;# ptr
-	.4byte 0x80043C78  ;# ptr
-	.4byte 0x80043C80  ;# ptr
-	.4byte 0x80043C88  ;# ptr
-	.4byte 0x80043C90  ;# ptr
-	.4byte 0x80043C98  ;# ptr
-	.4byte 0x80043CA8  ;# ptr
-	.4byte 0x80043CB0  ;# ptr
-	.4byte 0x80043CB8  ;# ptr
-	.4byte 0x80043CC0  ;# ptr
-	.4byte 0x80043CC8  ;# ptr
-	.4byte 0x80043CD0  ;# ptr
-	.4byte 0x80043CD8  ;# ptr
-	.4byte 0x80043CE0  ;# ptr
-	.4byte 0x80043CE8  ;# ptr
-	.4byte 0x80043CA0  ;# ptr
+	.4byte lbl_80043920
+	.4byte lbl_80043928
+	.4byte lbl_80043C48
+	.4byte lbl_80043C50
+	.4byte lbl_80043C58
+	.4byte lbl_80043C60
+	.4byte lbl_80043C68
+	.4byte lbl_80043C70
+	.4byte lbl_80043C78
+	.4byte lbl_80043C80
+	.4byte lbl_80043C88
+	.4byte lbl_80043C90
+	.4byte lbl_80043C98
+	.4byte lbl_80043CA8
+	.4byte lbl_80043CB0
+	.4byte lbl_80043CB8
+	.4byte lbl_80043CC0
+	.4byte lbl_80043CC8
+	.4byte lbl_80043CD0
+	.4byte lbl_80043CD8
+	.4byte lbl_80043CE0
+	.4byte lbl_80043CE8
+	.4byte lbl_80043CA0
 	.4byte 0
-	.4byte 0x80246530  ;# ptr
+lbl_8017C538:
+	.4byte lbl_80246530
 	.4byte 0x0000010C
 	.4byte 0
-	.4byte 0x80043D7C  ;# ptr
-
+	.4byte lbl_80043D7C
 
 glabel lbl_8017C548
 	# ROM: 0x178648
-	.4byte 0x8024653C  ;# ptr
+	.4byte lbl_8024653C
 	.4byte 0x0000000C
 	.4byte 0
-	.4byte 0x80044230  ;# ptr
-
+	.4byte lbl_80044230
 
 glabel lbl_8017C558
 	# ROM: 0x178658
-	.4byte 0x80246550  ;# ptr
+	.4byte lbl_80246550
 	.4byte 0x00000008
 	.4byte 0
-	.4byte 0x8004443C  ;# ptr
-
+	.4byte lbl_8004443C
 
 glabel lbl_8017C568
 	# ROM: 0x178668
-	.4byte 0x8024655C  ;# ptr
+	.4byte lbl_8024655C
 	.4byte 0x0000001C
 	.4byte 0
-	.4byte 0x8004499C  ;# ptr
-
+	.4byte lbl_8004499C
 
 glabel lbl_8017C578
 	# ROM: 0x178678
@@ -2981,7 +2934,6 @@ glabel lbl_8017C578
 	.4byte 0x0000000F
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_8017C5C0
 	# ROM: 0x1786C0
@@ -3011,7 +2963,6 @@ glabel lbl_8017C5C0
 	.4byte 0x00000007
 	.4byte 0
 	.4byte 0x00000001
-
 
 glabel lbl_8017C628
 	# ROM: 0x178728
@@ -5229,11 +5180,11 @@ glabel lbl_8017C628
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80246570  ;# ptr
+lbl_8017E8C0:
+	.4byte lbl_80246570
 	.4byte 0x0003F5D0
 	.4byte 0
-	.4byte 0x80055978  ;# ptr
-
+	.4byte lbl_80055978
 
 glabel lbl_8017E8D0
 	# ROM: 0x17A9D0
@@ -5246,7 +5197,6 @@ glabel lbl_8017E8D0
 	.4byte 0x00000030
 	.4byte 0x00000033
 
-
 glabel lbl_8017E8F0
 	# ROM: 0x17A9F0
 	.4byte 0
@@ -5257,7 +5207,6 @@ glabel lbl_8017E8F0
 	.4byte 0x00000005
 	.4byte 0x00000006
 	.4byte 0x00000007
-
 
 glabel lbl_8017E910
 	# ROM: 0x17AA10
@@ -5274,70 +5223,69 @@ glabel lbl_8017E910
 	.4byte 0xE7000000
 	.4byte 0
 
-
 glabel lbl_8017E940
 	# ROM: 0x17AA40
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B254  ;# ptr
-	.4byte 0x8004B260  ;# ptr
-	.4byte 0x8004B26C  ;# ptr
-	.4byte 0x8004B278  ;# ptr
-	.4byte 0x8004B284  ;# ptr
-	.4byte 0x8004B290  ;# ptr
-	.4byte 0x8004B29C  ;# ptr
-	.4byte 0x8004B2A8  ;# ptr
-	.4byte 0x8004B2B4  ;# ptr
-	.4byte 0x8004B2C0  ;# ptr
-	.4byte 0x8004B2CC  ;# ptr
-	.4byte 0x8004B2D8  ;# ptr
-	.4byte 0x8004B2E4  ;# ptr
-	.4byte 0x8004B2F0  ;# ptr
-	.4byte 0x8004B2FC  ;# ptr
-	.4byte 0x8004B308  ;# ptr
-	.4byte 0x8004B314  ;# ptr
-	.4byte 0x8004B320  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B404  ;# ptr
-	.4byte 0x8004B32C  ;# ptr
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B254
+	.4byte lbl_8004B260
+	.4byte lbl_8004B26C
+	.4byte lbl_8004B278
+	.4byte lbl_8004B284
+	.4byte lbl_8004B290
+	.4byte lbl_8004B29C
+	.4byte lbl_8004B2A8
+	.4byte lbl_8004B2B4
+	.4byte lbl_8004B2C0
+	.4byte lbl_8004B2CC
+	.4byte lbl_8004B2D8
+	.4byte lbl_8004B2E4
+	.4byte lbl_8004B2F0
+	.4byte lbl_8004B2FC
+	.4byte lbl_8004B308
+	.4byte lbl_8004B314
+	.4byte lbl_8004B320
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B404
+	.4byte lbl_8004B32C
 	.4byte 0
 	.4byte 0x0003F800
 	.4byte 0
@@ -5356,7 +5304,6 @@ glabel lbl_8017E940
 	.4byte 0
 	.4byte 0x00000006
 
-
 glabel lbl_8017EA78
 	# ROM: 0x17AB78
 	.4byte 0
@@ -5367,7 +5314,6 @@ glabel lbl_8017EA78
 	.4byte 0x00000005
 	.4byte 0x00000006
 	.4byte 0x00000007
-
 
 glabel lbl_8017EA98
 	# ROM: 0x17AB98
@@ -5380,17 +5326,16 @@ glabel lbl_8017EA98
 	.4byte 0x00000006
 	.4byte 0x00000007
 
-
 glabel lbl_8017EAB8
 	# ROM: 0x17ABB8
-	.4byte 0x8004F220  ;# ptr
-	.4byte 0x8004F340  ;# ptr
+	.4byte lbl_8004F220
+	.4byte lbl_8004F340
 	.4byte 0
-	.4byte 0x8004F550  ;# ptr
-	.4byte 0x8004F7F8  ;# ptr
-	.4byte 0x8004F96C  ;# ptr
+	.4byte lbl_8004F550
+	.4byte lbl_8004F7F8
+	.4byte lbl_8004F96C
 	.4byte 0
-	.4byte 0x80050788  ;# ptr
+	.4byte lbl_80050788
 	.4byte 0x0C184F50
 	.4byte 0x00182CF0
 	.4byte 0x03010305
@@ -5398,40 +5343,37 @@ glabel lbl_8017EAB8
 	.4byte 0x07040701
 	.4byte 0x07030700
 
-
 glabel lbl_8017EAF0
 	# ROM: 0x17ABF0
-	.4byte 0x80050C28  ;# ptr
-	.4byte 0x80050D8C  ;# ptr
-	.4byte 0x80050F54  ;# ptr
-	.4byte 0x8005111C  ;# ptr
-	.4byte 0x800512C4  ;# ptr
-	.4byte 0x800514D0  ;# ptr
-
+	.4byte lbl_80050C28
+	.4byte lbl_80050D8C
+	.4byte lbl_80050F54
+	.4byte lbl_8005111C
+	.4byte lbl_800512C4
+	.4byte lbl_800514D0
 
 glabel lbl_8017EB08
 	# ROM: 0x17AC08
-	.4byte 0x800574C4  ;# ptr
-	.4byte 0x8005752C  ;# ptr
-	.4byte 0x80057560  ;# ptr
-	.4byte 0x80057570  ;# ptr
-	.4byte 0x80057580  ;# ptr
-	.4byte 0x800575BC  ;# ptr
-	.4byte 0x800575CC  ;# ptr
-	.4byte 0x800575CC  ;# ptr
-	.4byte 0x800575CC  ;# ptr
-	.4byte 0x800575CC  ;# ptr
-	.4byte 0x8005A6A8  ;# ptr
-	.4byte 0x8005A26C  ;# ptr
-	.4byte 0x8005A2B4  ;# ptr
-	.4byte 0x8005A2FC  ;# ptr
-	.4byte 0x8005A520  ;# ptr
-	.4byte 0x8005A538  ;# ptr
-	.4byte 0x8005A54C  ;# ptr
-	.4byte 0x8005A554  ;# ptr
-	.4byte 0x8005A55C  ;# ptr
+	.4byte lbl_800574C4
+	.4byte lbl_8005752C
+	.4byte lbl_80057560
+	.4byte lbl_80057570
+	.4byte lbl_80057580
+	.4byte lbl_800575BC
+	.4byte lbl_800575CC
+	.4byte lbl_800575CC
+	.4byte lbl_800575CC
+	.4byte lbl_800575CC
+	.4byte lbl_8005A6A8
+	.4byte lbl_8005A26C
+	.4byte lbl_8005A2B4
+	.4byte lbl_8005A2FC
+	.4byte lbl_8005A520
+	.4byte lbl_8005A538
+	.4byte lbl_8005A54C
+	.4byte lbl_8005A554
+	.4byte lbl_8005A55C
 	.4byte 0
-
 
 glabel lbl_8017EB58
 	# ROM: 0x17AC58
@@ -5500,11 +5442,10 @@ glabel lbl_8017EB58
 	.4byte 0x00000AA9
 	.4byte 0x00000AAA
 
-
 glabel lbl_8017EC58
 	# ROM: 0x17AD58
 	.4byte 0
-	.4byte 0x8005A824  ;# ptr
+	.4byte func_8005A824
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -5523,7 +5464,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005AB94  ;# ptr
+	.4byte lbl_8005AB94
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -5542,7 +5483,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005AE34  ;# ptr
+	.4byte func_8005AE34
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -5561,7 +5502,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005B054  ;# ptr
+	.4byte lbl_8005B054
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -5580,7 +5521,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005B128  ;# ptr
+	.4byte func_8005B128
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -5599,7 +5540,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005B5E0  ;# ptr
+	.4byte lbl_8005B5E0
 	.4byte 0x00000045
 	.4byte 0xE82F9DC4
 	.4byte 0
@@ -5637,7 +5578,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005B634  ;# ptr
+	.4byte osInvalICache
 	.4byte 0x0000001D
 	.4byte 0x376979EF
 	.4byte 0x0000001D
@@ -5694,7 +5635,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005B6D8  ;# ptr
+	.4byte lbl_8005B6D8
 	.4byte 0x00000020
 	.4byte 0x3F5B05D4
 	.4byte 0x00000022
@@ -5713,7 +5654,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005B764  ;# ptr
+	.4byte lbl_8005B764
 	.4byte 0x00000007
 	.4byte 0x10000400
 	.4byte 0
@@ -5732,7 +5673,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005B860  ;# ptr
+	.4byte lbl_8005B860
 	.4byte 0x00000046
 	.4byte 0x88F8FC90
 	.4byte 0x00000058
@@ -5751,7 +5692,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005B990  ;# ptr
+	.4byte lbl_8005B990
 	.4byte 0x00000025
 	.4byte 0x5ACF0804
 	.4byte 0x0000002A
@@ -5770,7 +5711,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BA98  ;# ptr
+	.4byte lbl_8005BA98
 	.4byte 0x000000A8
 	.4byte 0x8FBCE3BC
 	.4byte 0x00000089
@@ -5789,7 +5730,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BB84  ;# ptr
+	.4byte lbl_8005BB84
 	.4byte 0x00000066
 	.4byte 0x380B07CA
 	.4byte 0x000000A5
@@ -5808,7 +5749,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BC00  ;# ptr
+	.4byte lbl_8005BC00
 	.4byte 0x0000005A
 	.4byte 0x5FCCA978
 	.4byte 0x00000080
@@ -5827,7 +5768,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BC7C  ;# ptr
+	.4byte lbl_8005BC7C
 	.4byte 0x0000001C
 	.4byte 0x63BA7FE0
 	.4byte 0x0000002E
@@ -5846,7 +5787,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BD34  ;# ptr
+	.4byte lbl_8005BD34
 	.4byte 0x00000039
 	.4byte 0xED7A2E0B
 	.4byte 0x00000044
@@ -5865,7 +5806,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BE0C  ;# ptr
+	.4byte lbl_8005BE0C
 	.4byte 0x00000035
 	.4byte 0xF3081756
 	.4byte 0x00000035
@@ -5884,7 +5825,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BE1C  ;# ptr
+	.4byte lbl_8005BE1C
 	.4byte 0x000000C8
 	.4byte 0x4C772348
 	.4byte 0x000000BC
@@ -5903,7 +5844,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BE2C  ;# ptr
+	.4byte lbl_8005BE2C
 	.4byte 0x00000083
 	.4byte 0x7F8667AA
 	.4byte 0x0000006E
@@ -5922,7 +5863,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BE34  ;# ptr
+	.4byte lbl_8005BE34
 	.4byte 0x0000009C
 	.4byte 0x3AC7018A
 	.4byte 0x00000089
@@ -5941,7 +5882,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BE44  ;# ptr
+	.4byte lbl_8005BE44
 	.4byte 0x00000026
 	.4byte 0x158C0203
 	.4byte 0
@@ -5960,7 +5901,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFA0  ;# ptr
+	.4byte lbl_8005BFA0
 	.4byte 0x00000039
 	.4byte 0xEC894F9D
 	.4byte 0
@@ -5979,7 +5920,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFA8  ;# ptr
+	.4byte lbl_8005BFA8
 	.4byte 0x00000030
 	.4byte 0xE88BF13B
 	.4byte 0
@@ -5998,7 +5939,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFB0  ;# ptr
+	.4byte lbl_8005BFB0
 	.4byte 0x00000005
 	.4byte 0x09A69029
 	.4byte 0
@@ -6017,7 +5958,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFB8  ;# ptr
+	.4byte lbl_8005BFB8
 	.4byte 0x0000007A
 	.4byte 0x78CA30D4
 	.4byte 0
@@ -6036,7 +5977,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFC0  ;# ptr
+	.4byte lbl_8005BFC0
 	.4byte 0x00000066
 	.4byte 0x217F834C
 	.4byte 0
@@ -6055,7 +5996,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFC8  ;# ptr
+	.4byte lbl_8005BFC8
 	.4byte 0x00000042
 	.4byte 0x082895D5
 	.4byte 0x0000001D
@@ -6074,7 +6015,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFD0  ;# ptr
+	.4byte lbl_8005BFD0
 	.4byte 0x00000114
 	.4byte 0x42D3943A
 	.4byte 0
@@ -6093,7 +6034,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFD8  ;# ptr
+	.4byte lbl_8005BFD8
 	.4byte 0x000000BE
 	.4byte 0x20689644
 	.4byte 0
@@ -6112,7 +6053,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFE0  ;# ptr
+	.4byte lbl_8005BFE0
 	.4byte 0x00000A3B
 	.4byte 0xAC09CF16
 	.4byte 0x00000A0E
@@ -6131,7 +6072,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFE8  ;# ptr
+	.4byte lbl_8005BFE8
 	.4byte 0x00000513
 	.4byte 0xD240BD17
 	.4byte 0x00000534
@@ -6150,7 +6091,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFF0  ;# ptr
+	.4byte lbl_8005BFF0
 	.4byte 0x0000087E
 	.4byte 0x2C750086
 	.4byte 0x000008BE
@@ -6169,7 +6110,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005BFF8  ;# ptr
+	.4byte lbl_8005BFF8
 	.4byte 0x00000030
 	.4byte 0x72AD19D2
 	.4byte 0x00000030
@@ -6188,7 +6129,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C000  ;# ptr
+	.4byte lbl_8005C000
 	.4byte 0x000000A4
 	.4byte 0x01A91C1D
 	.4byte 0x000000B8
@@ -6207,7 +6148,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C008  ;# ptr
+	.4byte lbl_8005C008
 	.4byte 0x00000FDE
 	.4byte 0xB10EF8EC
 	.4byte 0x000010E7
@@ -6226,7 +6167,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C010  ;# ptr
+	.4byte lbl_8005C010
 	.4byte 0x0000007A
 	.4byte 0x688ED492
 	.4byte 0x00000086
@@ -6245,7 +6186,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C018  ;# ptr
+	.4byte lbl_8005C018
 	.4byte 0x000002C4
 	.4byte 0xAA1A905C
 	.4byte 0x000002CA
@@ -6264,7 +6205,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C020  ;# ptr
+	.4byte lbl_8005C020
 	.4byte 0x00000531
 	.4byte 0x98DBD3AC
 	.4byte 0x00000547
@@ -6283,7 +6224,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C028  ;# ptr
+	.4byte lbl_8005C028
 	.4byte 0x0000004D
 	.4byte 0x25D8C8DD
 	.4byte 0x00000050
@@ -6302,7 +6243,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C030  ;# ptr
+	.4byte lbl_8005C030
 	.4byte 0x00000211
 	.4byte 0x747A41B8
 	.4byte 0x00000226
@@ -6321,7 +6262,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C038  ;# ptr
+	.4byte lbl_8005C038
 	.4byte 0x0000001F
 	.4byte 0x5D850A41
 	.4byte 0x0000001F
@@ -6340,7 +6281,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C040  ;# ptr
+	.4byte lbl_8005C040
 	.4byte 0x0000002E
 	.4byte 0xF10F3435
 	.4byte 0x0000002E
@@ -6359,7 +6300,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C048  ;# ptr
+	.4byte lbl_8005C048
 	.4byte 0x00000062
 	.4byte 0xDEC15D6D
 	.4byte 0x00000069
@@ -6378,7 +6319,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C050  ;# ptr
+	.4byte lbl_8005C050
 	.4byte 0x00000099
 	.4byte 0x1FFEA038
 	.4byte 0x000000A2
@@ -6397,7 +6338,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C058  ;# ptr
+	.4byte lbl_8005C058
 	.4byte 0x00000087
 	.4byte 0xCB2A67F6
 	.4byte 0x00000089
@@ -6416,7 +6357,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C060  ;# ptr
+	.4byte lbl_8005C060
 	.4byte 0x00000031
 	.4byte 0x7A9874BB
 	.4byte 0x00000030
@@ -6435,7 +6376,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C068  ;# ptr
+	.4byte lbl_8005C068
 	.4byte 0x0000007B
 	.4byte 0xC7C29D94
 	.4byte 0x0000007E
@@ -6454,7 +6395,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C070  ;# ptr
+	.4byte lbl_8005C070
 	.4byte 0x00000033
 	.4byte 0xE07EBB3D
 	.4byte 0x00000035
@@ -6473,7 +6414,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C078  ;# ptr
+	.4byte lbl_8005C078
 	.4byte 0x000000D7
 	.4byte 0x0D1399E3
 	.4byte 0x000000DD
@@ -6492,7 +6433,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C080  ;# ptr
+	.4byte lbl_8005C080
 	.4byte 0x00000057
 	.4byte 0x060B7211
 	.4byte 0
@@ -6511,7 +6452,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C088  ;# ptr
+	.4byte lbl_8005C088
 	.4byte 0x000005BD
 	.4byte 0xF3F13BE7
 	.4byte 0x000005DD
@@ -6530,7 +6471,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C090  ;# ptr
+	.4byte lbl_8005C090
 	.4byte 0x00000044
 	.4byte 0x58C88C71
 	.4byte 0x00000043
@@ -6549,7 +6490,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C098  ;# ptr
+	.4byte lbl_8005C098
 	.4byte 0x00000039
 	.4byte 0xF0BC9765
 	.4byte 0x00000038
@@ -6568,7 +6509,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0A0  ;# ptr
+	.4byte lbl_8005C0A0
 	.4byte 0x000002F9
 	.4byte 0x9DD503A1
 	.4byte 0x00000308
@@ -6587,7 +6528,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0A8  ;# ptr
+	.4byte lbl_8005C0A8
 	.4byte 0x000004AE
 	.4byte 0x874E34A2
 	.4byte 0x000004BF
@@ -6606,7 +6547,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0B0  ;# ptr
+	.4byte lbl_8005C0B0
 	.4byte 0x00000037
 	.4byte 0x5E5C181B
 	.4byte 0x00000036
@@ -6625,7 +6566,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0B8  ;# ptr
+	.4byte lbl_8005C0B8
 	.4byte 0x00000BCF
 	.4byte 0x09D82CCB
 	.4byte 0x00000BF0
@@ -6644,7 +6585,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0C0  ;# ptr
+	.4byte lbl_8005C0C0
 	.4byte 0x00000428
 	.4byte 0xF2C7005F
 	.4byte 0x0000042B
@@ -6663,7 +6604,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0C8  ;# ptr
+	.4byte lbl_8005C0C8
 	.4byte 0x0000006C
 	.4byte 0xDBEB7136
 	.4byte 0x0000006C
@@ -6682,7 +6623,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0D0  ;# ptr
+	.4byte lbl_8005C0D0
 	.4byte 0x0000051C
 	.4byte 0xB7C15FA8
 	.4byte 0x00000524
@@ -6701,7 +6642,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0D8  ;# ptr
+	.4byte lbl_8005C0D8
 	.4byte 0x000003A1
 	.4byte 0x3025720B
 	.4byte 0x000003B2
@@ -6720,7 +6661,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0E0  ;# ptr
+	.4byte lbl_8005C0E0
 	.4byte 0x00000048
 	.4byte 0x5217C444
 	.4byte 0x00000048
@@ -6739,7 +6680,7 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0E8  ;# ptr
+	.4byte lbl_8005C0E8
 	.4byte 0x000000CF
 	.4byte 0xD0BFFE65
 	.4byte 0x000000D7
@@ -6758,11 +6699,10 @@ glabel lbl_8017EC58
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0F0  ;# ptr
+	.4byte lbl_8005C0F0
 	.4byte 0x0000007C
 	.4byte 0x6AE8EBD2
 	.4byte 0x0000007F
-
 
 glabel lbl_80180004
 	# ROM: 0x17C104
@@ -6781,7 +6721,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C0F8  ;# ptr
+	.4byte lbl_8005C0F8
 	.4byte 0x00000473
 	.4byte 0x8435191A
 	.4byte 0x00000489
@@ -6800,7 +6740,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C100  ;# ptr
+	.4byte lbl_8005C100
 	.4byte 0x00000248
 	.4byte 0x1B02CC97
 	.4byte 0x0000024F
@@ -6819,7 +6759,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C108  ;# ptr
+	.4byte lbl_8005C108
 	.4byte 0x00000031
 	.4byte 0x1DD4E9D3
 	.4byte 0x000000CA
@@ -6838,7 +6778,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C110  ;# ptr
+	.4byte lbl_8005C110
 	.4byte 0x00000014
 	.4byte 0x351B0209
 	.4byte 0x0000001B
@@ -6857,7 +6797,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C118  ;# ptr
+	.4byte lbl_8005C118
 	.4byte 0x00000643
 	.4byte 0x76FDB50A
 	.4byte 0x00000696
@@ -6876,7 +6816,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C120  ;# ptr
+	.4byte lbl_8005C120
 	.4byte 0x00000056
 	.4byte 0x11222F8D
 	.4byte 0x0000005B
@@ -6895,7 +6835,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C128  ;# ptr
+	.4byte lbl_8005C128
 	.4byte 0x00000029
 	.asciz "DI\\v"
 	.balign 4
@@ -6914,7 +6854,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C130  ;# ptr
+	.4byte lbl_8005C130
 	.4byte 0x00000057
 	.4byte 0x426B0B1F
 	.4byte 0x00000067
@@ -6933,7 +6873,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C130  ;# ptr
+	.4byte lbl_8005C130
 	.4byte 0x0000008B
 	.4byte 0x9804924C
 	.4byte 0
@@ -6952,7 +6892,7 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8005C130  ;# ptr
+	.4byte lbl_8005C130
 	.4byte 0x00000022
 	.4byte 0x5D447143
 	.4byte 0x00000033
@@ -6970,23 +6910,25 @@ glabel lbl_80180004
 	.4byte 0
 	.4byte 0
 	.4byte 0
+
+glabel lbl_80180334
 	.asciz "OS-LIBRARY"
 	.balign 4
-	.4byte 0x80180334  ;# ptr
+lbl_80180340:
+	.4byte lbl_80180334
 	.4byte 0x00000064
 	.4byte 0
-	.4byte 0x8005ECDC  ;# ptr
-	.4byte 0x802465B8  ;# ptr
+	.4byte lbl_8005ECDC
+lbl_80180350:
+	.4byte lbl_802465B8
 	.4byte 0x00000004
 	.4byte 0
-	.4byte 0x8005F87C  ;# ptr
-
+	.4byte lbl_8005F87C
 
 glabel lbl_80180360
 	# ROM: 0x17C460
 	.asciz "html.arc"
 	.balign 4
-
 
 glabel lbl_8018036C
 	# ROM: 0x17C46C
@@ -7012,44 +6954,46 @@ glabel lbl_8018036C
 	.asciz "config.txt"
 	.balign 8
 
-
 glabel lbl_80180430
 	# ROM: 0x17C530
 	.asciz "homeBtnIcon.tpl"
-	.4byte 0x800614A8  ;# ptr
-	.4byte 0x80061770  ;# ptr
-	.4byte 0x800614B0  ;# ptr
-	.4byte 0x800614F0  ;# ptr
-	.4byte 0x80061540  ;# ptr
-	.4byte 0x800616E8  ;# ptr
-	.4byte 0x80061770  ;# ptr
-	.4byte 0x80061770  ;# ptr
-	.4byte 0x800614A0  ;# ptr
-	.4byte 0x80061710  ;# ptr
-	.4byte 0x8006174C  ;# ptr
+	.4byte lbl_800614A8
+	.4byte lbl_80061770
+	.4byte lbl_800614B0
+	.4byte lbl_800614F0
+	.4byte lbl_80061540
+	.4byte lbl_800616E8
+	.4byte lbl_80061770
+	.4byte lbl_80061770
+	.4byte lbl_800614A0
+	.4byte lbl_80061710
+	.4byte lbl_8006174C
+
+glabel lbl_8018046C
 	.asciz "HelpMenu"
 	.balign 4
-	.4byte 0x8018046C  ;# ptr
+lbl_80180478:
+	.4byte lbl_8018046C
 	.4byte 0x00000044
 	.4byte 0
-	.4byte 0x80061C88  ;# ptr
-	.4byte 0x802465D8  ;# ptr
+	.4byte lbl_80061C88
+lbl_80180488:
+	.4byte lbl_802465D8
 	.4byte 0x0000055C
 	.4byte 0
-	.4byte 0x8006255C  ;# ptr
-	.4byte 0x802465E0  ;# ptr
+	.4byte lbl_8006255C
+lbl_80180498:
+	.4byte lbl_802465E0
 	.4byte 0x00000004
 	.4byte 0
-	.4byte 0x800627E8  ;# ptr
-
+	.4byte lbl_800627E8
 
 glabel lbl_801804A8
 	# ROM: 0x17C5A8
-	.4byte 0x802465E8  ;# ptr
+	.4byte lbl_802465E8
 	.4byte 0x00000178
 	.4byte 0
-	.4byte 0x80063044  ;# ptr
-
+	.4byte lbl_80063044
 
 glabel lbl_801804B8
 	# ROM: 0x17C5B8
@@ -7076,13 +7020,15 @@ glabel lbl_801804B8
 	.4byte 0
 	.4byte 0
 	.4byte 0
+
+glabel lbl_80180514
 	.asciz "Controller"
 	.balign 4
-	.4byte 0x80180514  ;# ptr
+lbl_80180520:
+	.4byte lbl_80180514
 	.4byte 0x00000310
 	.4byte 0
-	.4byte 0x80064540  ;# ptr
-
+	.4byte lbl_80064540
 
 glabel lbl_80180530
 	# ROM: 0x17C630
@@ -7091,107 +7037,98 @@ glabel lbl_80180530
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80180544:
 	.4byte 0x92FBDC3E
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80180558:
 	.4byte 0xBB628DD1
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018056C:
 	.4byte 0xE136B8C3
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80180580:
 	.4byte 0x57D16861
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80180594:
 	.4byte 0x14A5B6E2
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_801805A8:
 	.4byte 0xC0192EA3
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.asciz "]:y["
-	.balign 4
+lbl_801805BC:
+	.4byte 0x5D3A795B
 	.4byte 0
 	.4byte 0
 	.4byte 0
+	.4byte 0
+lbl_801805D0:
 	.4byte 0x1786067E
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_801805E4:
 	.4byte 0x2F8DCDD7
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_801805F8:
 	.4byte 0x80E449BF
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018060C:
 	.4byte 0xB35ABA8B
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80180620:
 	.4byte 0xA4E943CC
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80180634:
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+
+glabel lbl_80180648
 	.asciz "gameReloadingAnimation.tpl"
 	.balign 4
 
-
 glabel lbl_80180664
 	# ROM: 0x17C764
-	.4byte 0x80180530  ;# ptr
+	.4byte lbl_80180530
 	.4byte 0
 	.4byte 0
-	.4byte 0x80180558  ;# ptr
+	.4byte lbl_80180558
 	.4byte 0
 	.4byte 0
-	.4byte 0x80064B5C  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x00000001
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x80180544  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0x80180558  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0x80064B5C  ;# ptr
+	.4byte lbl_80064B5C
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -7208,59 +7145,13 @@ glabel lbl_80180664
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8018056C  ;# ptr
+	.4byte lbl_80180544
 	.4byte 0
 	.4byte 0
-	.4byte 0x80180558  ;# ptr
+	.4byte lbl_80180558
 	.4byte 0
 	.4byte 0
-	.4byte 0x80064B5C  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x00000001
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x80180580  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x80180594  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0x80180558  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0x80064B5C  ;# ptr
+	.4byte lbl_80064B5C
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -7277,15 +7168,18 @@ glabel lbl_80180664
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801805A8  ;# ptr
+	.4byte lbl_8018056C
 	.4byte 0
 	.4byte 0
+	.4byte lbl_80180558
 	.4byte 0
 	.4byte 0
+	.4byte lbl_80064B5C
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+	.4byte 0x00000001
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -7297,10 +7191,10 @@ glabel lbl_80180664
 	.4byte 0
 	.4byte 0
 	.4byte 0
+	.4byte lbl_80180580
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801805BC  ;# ptr
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -7320,15 +7214,18 @@ glabel lbl_80180664
 	.4byte 0
 	.4byte 0
 	.4byte 0
+	.4byte lbl_80180594
 	.4byte 0
 	.4byte 0
+	.4byte lbl_80180558
 	.4byte 0
-	.4byte 0x80180580  ;# ptr
 	.4byte 0
+	.4byte lbl_80064B5C
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+	.4byte 0x00000001
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -7340,25 +7237,88 @@ glabel lbl_80180664
 	.4byte 0
 	.4byte 0
 	.4byte 0
+	.4byte lbl_801805A8
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801805D0  ;# ptr
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte lbl_801805BC
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte lbl_80180580
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte lbl_801805D0
 	.4byte 0x00020000
 	.4byte 0
-	.4byte 0x80180634  ;# ptr
+	.4byte lbl_80180634
 	.4byte 0
 	.4byte 0
-	.4byte 0x800649B4  ;# ptr
+	.4byte lbl_800649B4
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80042818  ;# ptr
+	.4byte lbl_80042818
 	.4byte 0x00780000
 	.4byte 0
 	.4byte 0
@@ -7369,19 +7329,19 @@ glabel lbl_80180664
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801805D0  ;# ptr
+	.4byte lbl_801805D0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801805E4  ;# ptr
+	.4byte lbl_801805E4
 	.4byte 0x00030000
 	.4byte 0
-	.4byte 0x800649B4  ;# ptr
+	.4byte lbl_800649B4
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000001
-	.4byte 0x80063264  ;# ptr
+	.4byte lbl_80063264
 	.4byte 0x00780000
 	.4byte 0
 	.4byte 0
@@ -7392,42 +7352,19 @@ glabel lbl_80180664
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801805F8  ;# ptr
+	.4byte lbl_801805F8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80180634  ;# ptr
+	.4byte lbl_80180634
 	.4byte 0
 	.4byte 0
-	.4byte 0x800649B4  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x00000001
-	.4byte 0x80063264  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x8018060C  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0x80180634  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0x800649B4  ;# ptr
+	.4byte lbl_800649B4
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0x00000001
-	.4byte 0x80063264  ;# ptr
+	.4byte lbl_80063264
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -7438,30 +7375,52 @@ glabel lbl_80180664
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80180620  ;# ptr
+	.4byte lbl_8018060C
+	.4byte 0
+	.4byte 0
+	.4byte lbl_80180634
+	.4byte 0
+	.4byte 0
+	.4byte lbl_800649B4
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0x00000001
+	.4byte lbl_80063264
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte lbl_80180620
 	.4byte 0x00020000
 	.4byte 0
-	.4byte 0x80180634  ;# ptr
+	.4byte lbl_80180634
 	.4byte 0
 	.4byte 0
-	.4byte 0x800649B4  ;# ptr
+	.4byte lbl_800649B4
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80042818  ;# ptr
+	.4byte lbl_80042818
 	.4byte 0x00780000
 	.4byte 0
 	.4byte 0
-	.4byte 0x80180648  ;# ptr
+	.4byte lbl_80180648
 	.4byte 0x00000021
 	.4byte 0x014000D8
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80180B10
 	# ROM: 0x17CC10
@@ -7499,59 +7458,60 @@ glabel lbl_80180B10
 	.4byte 0x00000007
 	.4byte 0
 	.4byte 0x0000000D
+
+glabel lbl_80180B98
 	.asciz "Errors_VC64ErrorStrings_jp.bin"
 	.balign 4
+
+glabel lbl_80180BB8
 	.asciz "saveComments_saveComments_jp.bin"
 	.balign 4
 	.4byte 0
 	.4byte 0
-	.4byte 0x80180B98  ;# ptr
-	.4byte 0x80180BB8  ;# ptr
+	.4byte lbl_80180B98
+	.4byte lbl_80180BB8
 	.4byte 0xFFFFFFFF
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80180BF8
 	# ROM: 0x17CCF8
-	.4byte 0x8006546C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x80065474  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006546C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x8006547C  ;# ptr
-	.4byte 0x800654C8  ;# ptr
-	.4byte 0x800657DC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657E4  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657DC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x800657EC  ;# ptr
-	.4byte 0x80065834  ;# ptr
-
+	.4byte lbl_8006546C
+	.4byte lbl_8006547C
+	.4byte lbl_8006547C
+	.4byte lbl_80065474
+	.4byte lbl_8006547C
+	.4byte lbl_8006547C
+	.4byte lbl_8006547C
+	.4byte lbl_8006547C
+	.4byte lbl_8006547C
+	.4byte lbl_8006547C
+	.4byte lbl_8006546C
+	.4byte lbl_8006547C
+	.4byte lbl_8006547C
+	.4byte lbl_8006547C
+	.4byte lbl_8006547C
+	.4byte lbl_800654C8
+	.4byte lbl_800657DC
+	.4byte lbl_800657EC
+	.4byte lbl_800657EC
+	.4byte lbl_800657E4
+	.4byte lbl_800657EC
+	.4byte lbl_800657EC
+	.4byte lbl_800657EC
+	.4byte lbl_800657EC
+	.4byte lbl_800657EC
+	.4byte lbl_800657EC
+	.4byte lbl_800657DC
+	.4byte lbl_800657EC
+	.4byte lbl_800657EC
+	.4byte lbl_800657EC
+	.4byte lbl_800657EC
+	.4byte lbl_80065834
 
 glabel lbl_80180C78
 	# ROM: 0x17CD78
 	.asciz "save_banner.tpl"
-
 
 glabel lbl_80180C88
 	# ROM: 0x17CD88
@@ -7560,19 +7520,18 @@ glabel lbl_80180C88
 
 glabel lbl_80180C98
 	# ROM: 0x17CD98
-	.4byte 0x80066CB8  ;# ptr
-	.4byte 0x80066CD8  ;# ptr
-	.4byte 0x80066CB8  ;# ptr
-	.4byte 0x80066CC8  ;# ptr
-	.4byte 0x80066CB8  ;# ptr
-	.4byte 0x80066CB8  ;# ptr
-	.4byte 0x80066CC8  ;# ptr
-	.4byte 0x80066CD8  ;# ptr
-	.4byte 0x80066CD8  ;# ptr
-	.4byte 0x80066CB8  ;# ptr
-	.4byte 0x80066CB8  ;# ptr
+	.4byte lbl_80066CB8
+	.4byte lbl_80066CD8
+	.4byte lbl_80066CB8
+	.4byte lbl_80066CC8
+	.4byte lbl_80066CB8
+	.4byte lbl_80066CB8
+	.4byte lbl_80066CC8
+	.4byte lbl_80066CD8
+	.4byte lbl_80066CD8
+	.4byte lbl_80066CB8
+	.4byte lbl_80066CB8
 	.4byte 0
-
 
 glabel lbl_80180CC8
 	# ROM: 0x17CDC8
@@ -7585,7 +7544,6 @@ glabel lbl_80180CC8
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80180CE8
 	# ROM: 0x17CDE8
 	.4byte 0
@@ -7596,100 +7554,99 @@ glabel lbl_80180CE8
 	.4byte 0x00000007
 	.4byte 0x00000007
 	.4byte 0x00000007
-	.4byte 0x8006B9A8  ;# ptr
-	.4byte 0x8006B5FC  ;# ptr
-	.4byte 0x8006B608  ;# ptr
-	.4byte 0x8006B970  ;# ptr
-	.4byte 0x8006B630  ;# ptr
-	.4byte 0x8006B97C  ;# ptr
-	.4byte 0x8006B680  ;# ptr
-	.4byte 0x8006B6DC  ;# ptr
-	.4byte 0x8006B6F0  ;# ptr
-	.4byte 0x8006B988  ;# ptr
-	.4byte 0x8006B6FC  ;# ptr
-	.4byte 0x8006B738  ;# ptr
-	.4byte 0x8006B8B4  ;# ptr
-	.4byte 0x8006B8C0  ;# ptr
-	.4byte 0x8006B994  ;# ptr
-	.4byte 0x8006B954  ;# ptr
-	.4byte 0x8006F394  ;# ptr
-	.4byte 0x8006EC2C  ;# ptr
-	.4byte 0x8006EC54  ;# ptr
-	.4byte 0x8006EC70  ;# ptr
-	.4byte 0x8006EC80  ;# ptr
-	.4byte 0x8006EC90  ;# ptr
-	.4byte 0x8006ECA0  ;# ptr
-	.4byte 0x8006EE34  ;# ptr
-	.4byte 0x8006EE44  ;# ptr
-	.4byte 0x8006EE74  ;# ptr
-	.4byte 0x8006EEAC  ;# ptr
-	.4byte 0x8006EECC  ;# ptr
-	.4byte 0x8006F044  ;# ptr
-	.4byte 0x8006F054  ;# ptr
-	.4byte 0x8006F064  ;# ptr
-	.4byte 0x8006F074  ;# ptr
-	.4byte 0x8006F090  ;# ptr
-	.4byte 0x8006F0C8  ;# ptr
-	.4byte 0x8006F258  ;# ptr
-	.4byte 0x8006F2A0  ;# ptr
-	.4byte 0x8006F2B0  ;# ptr
-	.4byte 0x8006F2FC  ;# ptr
-	.4byte 0x8006F348  ;# ptr
-	.4byte 0x8006F37C  ;# ptr
-	.4byte 0x80070D68  ;# ptr
-	.4byte 0x80070784  ;# ptr
-	.4byte 0x80070794  ;# ptr
-	.4byte 0x80070D60  ;# ptr
-	.4byte 0x80070D60  ;# ptr
-	.4byte 0x80070828  ;# ptr
-	.4byte 0x80070D60  ;# ptr
-	.4byte 0x80070894  ;# ptr
-	.4byte 0x800708A8  ;# ptr
-	.4byte 0x80070D60  ;# ptr
-	.4byte 0x800708B8  ;# ptr
-	.4byte 0x800708F4  ;# ptr
-	.4byte 0x80070A6C  ;# ptr
-	.4byte 0x80070A7C  ;# ptr
-	.4byte 0x80070B10  ;# ptr
-	.4byte 0x80070B20  ;# ptr
-	.4byte 0x80070B3C  ;# ptr
-	.4byte 0x80070B7C  ;# ptr
-	.4byte 0x80070D1C  ;# ptr
-	.4byte 0x800707BC  ;# ptr
-	.4byte 0x800707CC  ;# ptr
-	.4byte 0x80070838  ;# ptr
-	.4byte 0x80070D50  ;# ptr
+	.4byte lbl_8006B9A8
+	.4byte lbl_8006B5FC
+	.4byte lbl_8006B608
+	.4byte lbl_8006B970
+	.4byte lbl_8006B630
+	.4byte lbl_8006B97C
+	.4byte lbl_8006B680
+	.4byte lbl_8006B6DC
+	.4byte lbl_8006B6F0
+	.4byte lbl_8006B988
+	.4byte lbl_8006B6FC
+	.4byte lbl_8006B738
+	.4byte lbl_8006B8B4
+	.4byte lbl_8006B8C0
+	.4byte lbl_8006B994
+	.4byte lbl_8006B954
+	.4byte lbl_8006F394
+	.4byte lbl_8006EC2C
+	.4byte lbl_8006EC54
+	.4byte lbl_8006EC70
+	.4byte lbl_8006EC80
+	.4byte lbl_8006EC90
+	.4byte lbl_8006ECA0
+	.4byte lbl_8006EE34
+	.4byte lbl_8006EE44
+	.4byte lbl_8006EE74
+	.4byte lbl_8006EEAC
+	.4byte lbl_8006EECC
+	.4byte lbl_8006F044
+	.4byte lbl_8006F054
+	.4byte lbl_8006F064
+	.4byte lbl_8006F074
+	.4byte lbl_8006F090
+	.4byte lbl_8006F0C8
+	.4byte lbl_8006F258
+	.4byte lbl_8006F2A0
+	.4byte lbl_8006F2B0
+	.4byte lbl_8006F2FC
+	.4byte lbl_8006F348
+	.4byte lbl_8006F37C
+	.4byte lbl_80070D68
+	.4byte lbl_80070784
+	.4byte lbl_80070794
+	.4byte lbl_80070D60
+	.4byte lbl_80070D60
+	.4byte lbl_80070828
+	.4byte lbl_80070D60
+	.4byte lbl_80070894
+	.4byte lbl_800708A8
+	.4byte lbl_80070D60
+	.4byte lbl_800708B8
+	.4byte lbl_800708F4
+	.4byte lbl_80070A6C
+	.4byte lbl_80070A7C
+	.4byte lbl_80070B10
+	.4byte lbl_80070B20
+	.4byte lbl_80070B3C
+	.4byte lbl_80070B7C
+	.4byte lbl_80070D1C
+	.4byte lbl_800707BC
+	.4byte lbl_800707CC
+	.4byte lbl_80070838
+	.4byte lbl_80070D50
 	.asciz "unknown command!"
 	.balign 4
-	.4byte 0x80072950  ;# ptr
-	.4byte 0x800721FC  ;# ptr
-	.4byte 0x8007220C  ;# ptr
-	.4byte 0x80072944  ;# ptr
-	.4byte 0x80072228  ;# ptr
-	.4byte 0x80072238  ;# ptr
-	.4byte 0x80072248  ;# ptr
-	.4byte 0x80072944  ;# ptr
-	.4byte 0x800723DC  ;# ptr
-	.4byte 0x80072944  ;# ptr
-	.4byte 0x8007240C  ;# ptr
-	.4byte 0x8007242C  ;# ptr
-	.4byte 0x800725A4  ;# ptr
-	.4byte 0x800725B4  ;# ptr
-	.4byte 0x800725C4  ;# ptr
-	.4byte 0x800725D4  ;# ptr
-	.4byte 0x800725F0  ;# ptr
-	.4byte 0x80072628  ;# ptr
-	.4byte 0x800727B8  ;# ptr
-	.4byte 0x80072800  ;# ptr
-	.4byte 0x80072810  ;# ptr
-	.4byte 0x8007285C  ;# ptr
-	.4byte 0x800728A8  ;# ptr
-	.4byte 0x800728DC  ;# ptr
-	.4byte 0x800728EC  ;# ptr
-	.4byte 0x80072950  ;# ptr
-	.4byte 0x800728FC  ;# ptr
-	.4byte 0x80072934  ;# ptr
-
+	.4byte lbl_80072950
+	.4byte lbl_800721FC
+	.4byte lbl_8007220C
+	.4byte lbl_80072944
+	.4byte lbl_80072228
+	.4byte lbl_80072238
+	.4byte lbl_80072248
+	.4byte lbl_80072944
+	.4byte lbl_800723DC
+	.4byte lbl_80072944
+	.4byte lbl_8007240C
+	.4byte lbl_8007242C
+	.4byte lbl_800725A4
+	.4byte lbl_800725B4
+	.4byte lbl_800725C4
+	.4byte lbl_800725D4
+	.4byte lbl_800725F0
+	.4byte lbl_80072628
+	.4byte lbl_800727B8
+	.4byte lbl_80072800
+	.4byte lbl_80072810
+	.4byte lbl_8007285C
+	.4byte lbl_800728A8
+	.4byte lbl_800728DC
+	.4byte lbl_800728EC
+	.4byte lbl_80072950
+	.4byte lbl_800728FC
+	.4byte lbl_80072934
 
 glabel lbl_80180E88
 	# ROM: 0x17CF88
@@ -7697,23 +7654,22 @@ glabel lbl_80180E88
 	.4byte 0x60008000
 	.4byte 0xA000C000
 	.4byte 0xE000FFFF
-	.4byte 0x80073E40  ;# ptr
-	.4byte 0x8007392C  ;# ptr
-	.4byte 0x80073954  ;# ptr
-	.4byte 0x8007397C  ;# ptr
-	.4byte 0x800739D8  ;# ptr
-	.4byte 0x80073A74  ;# ptr
-	.4byte 0x80073AC0  ;# ptr
-	.4byte 0x80073E40  ;# ptr
-	.4byte 0x80073E40  ;# ptr
-	.4byte 0x80073B68  ;# ptr
-	.4byte 0x80073B7C  ;# ptr
-	.4byte 0x80073BB8  ;# ptr
-	.4byte 0x80073D34  ;# ptr
-	.4byte 0x80073D50  ;# ptr
-	.4byte 0x80073DEC  ;# ptr
-	.4byte 0x80073E28  ;# ptr
-
+	.4byte lbl_80073E40
+	.4byte lbl_8007392C
+	.4byte lbl_80073954
+	.4byte lbl_8007397C
+	.4byte lbl_800739D8
+	.4byte lbl_80073A74
+	.4byte lbl_80073AC0
+	.4byte lbl_80073E40
+	.4byte lbl_80073E40
+	.4byte lbl_80073B68
+	.4byte lbl_80073B7C
+	.4byte lbl_80073BB8
+	.4byte lbl_80073D34
+	.4byte lbl_80073D50
+	.4byte lbl_80073DEC
+	.4byte lbl_80073E28
 
 glabel lbl_80180ED8
 	# ROM: 0x17CFD8
@@ -7721,222 +7677,214 @@ glabel lbl_80180ED8
 	.4byte 0x01000200
 	.4byte 0x02000000
 
-
 glabel lbl_80180EE4
 	# ROM: 0x17CFE4
-	.4byte 0x8007E7B8  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007E7E0  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-
+	.4byte lbl_8007E7B8
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007E7E0
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007EB3C
 
 glabel lbl_80180F18
 	# ROM: 0x17D018
-	.4byte 0x8007E0D0  ;# ptr
-	.4byte 0x8007E2EC  ;# ptr
-	.4byte 0x8007E1D0  ;# ptr
-	.4byte 0x8007E2EC  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007E2EC  ;# ptr
-	.4byte 0x8007E224  ;# ptr
-	.4byte 0x8007E2EC  ;# ptr
-	.4byte 0x8007E234  ;# ptr
-	.4byte 0x8007E2EC  ;# ptr
-	.4byte 0x8007E290  ;# ptr
-	.4byte 0x8007E2EC  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007E2EC  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-
+	.4byte lbl_8007E0D0
+	.4byte lbl_8007E2EC
+	.4byte lbl_8007E1D0
+	.4byte lbl_8007E2EC
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007E2EC
+	.4byte lbl_8007E224
+	.4byte lbl_8007E2EC
+	.4byte lbl_8007E234
+	.4byte lbl_8007E2EC
+	.4byte lbl_8007E290
+	.4byte lbl_8007E2EC
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007E2EC
+	.4byte lbl_8007EB3C
 
 glabel lbl_80180F54
 	# ROM: 0x17D054
-	.4byte 0x8007DA84  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DAD8  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DB30  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DB88  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DB88  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DB88  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DB88  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DB88  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DB88  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DB88  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DB88  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007EB3C  ;# ptr
-	.4byte 0x8007DC44  ;# ptr
-	.4byte 0x8007DBE8  ;# ptr
-
+	.4byte lbl_8007DA84
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DAD8
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DB30
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DB88
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DB88
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DB88
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DB88
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DB88
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DB88
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DB88
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DB88
+	.4byte lbl_8007DC44
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007DC44
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007DC44
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007DC44
+	.4byte lbl_8007EB3C
+	.4byte lbl_8007DC44
+	.4byte lbl_8007DBE8
 
 glabel lbl_80180FD0
 	# ROM: 0x17D0D0
-	.4byte 0x8007FD70  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x8007FD98  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x8007FE20  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x80080778  ;# ptr
-
+	.4byte lbl_8007FD70
+	.4byte lbl_80080778
+	.4byte lbl_80080778
+	.4byte lbl_80080778
+	.4byte lbl_8007FD98
+	.4byte lbl_80080778
+	.4byte lbl_80080778
+	.4byte lbl_80080778
+	.4byte lbl_8007FE20
+	.4byte lbl_80080778
+	.4byte lbl_80080778
+	.4byte lbl_80080778
+	.4byte lbl_80080778
 
 glabel lbl_80181004
 	# ROM: 0x17D104
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x8007F83C  ;# ptr
-	.4byte 0x8007F72C  ;# ptr
-	.4byte 0x8007F83C  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x8007F83C  ;# ptr
-	.4byte 0x8007F758  ;# ptr
-	.4byte 0x8007F83C  ;# ptr
-	.4byte 0x8007F76C  ;# ptr
-	.4byte 0x8007F83C  ;# ptr
-	.4byte 0x8007F7C8  ;# ptr
-	.4byte 0x8007F83C  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x8007F83C  ;# ptr
-	.4byte 0x80080778  ;# ptr
-
+	.4byte lbl_80080778
+	.4byte lbl_8007F83C
+	.4byte lbl_8007F72C
+	.4byte lbl_8007F83C
+	.4byte lbl_80080778
+	.4byte lbl_8007F83C
+	.4byte lbl_8007F758
+	.4byte lbl_8007F83C
+	.4byte lbl_8007F76C
+	.4byte lbl_8007F83C
+	.4byte lbl_8007F7C8
+	.4byte lbl_8007F83C
+	.4byte lbl_80080778
+	.4byte lbl_8007F83C
+	.4byte lbl_80080778
 
 glabel lbl_80181040
 	# ROM: 0x17D140
-	.4byte 0x8007F234  ;# ptr
-	.4byte 0x8007F4B0  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x8007F4B0  ;# ptr
-	.4byte 0x8007F400  ;# ptr
-	.4byte 0x8007F4B0  ;# ptr
-	.4byte 0x8007F458  ;# ptr
-	.4byte 0x8007F4B0  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x8007F4B0  ;# ptr
-	.4byte 0x80080778  ;# ptr
-	.4byte 0x8007F4B0  ;# ptr
-	.4byte 0x8007F1B8  ;# ptr
-	.4byte 0x80080970  ;# ptr
-	.4byte 0x80080970  ;# ptr
-	.4byte 0x80080970  ;# ptr
-	.4byte 0x80080980  ;# ptr
-	.4byte 0x80080990  ;# ptr
-	.4byte 0x80080970  ;# ptr
-	.4byte 0x80080980  ;# ptr
-	.4byte 0x80080970  ;# ptr
-	.4byte 0x80080980  ;# ptr
-	.4byte 0x80080970  ;# ptr
-	.4byte 0x80080980  ;# ptr
-
+	.4byte lbl_8007F234
+	.4byte lbl_8007F4B0
+	.4byte lbl_80080778
+	.4byte lbl_8007F4B0
+	.4byte lbl_8007F400
+	.4byte lbl_8007F4B0
+	.4byte lbl_8007F458
+	.4byte lbl_8007F4B0
+	.4byte lbl_80080778
+	.4byte lbl_8007F4B0
+	.4byte lbl_80080778
+	.4byte lbl_8007F4B0
+	.4byte lbl_8007F1B8
+	.4byte lbl_80080970
+	.4byte lbl_80080970
+	.4byte lbl_80080970
+	.4byte lbl_80080980
+	.4byte lbl_80080990
+	.4byte lbl_80080970
+	.4byte lbl_80080980
+	.4byte lbl_80080970
+	.4byte lbl_80080980
+	.4byte lbl_80080970
+	.4byte lbl_80080980
 
 glabel lbl_801810A0
 	# ROM: 0x17D1A0
-	.4byte 0x8008116C  ;# ptr
-	.4byte 0x80080EC8  ;# ptr
-	.4byte 0x80080FD0  ;# ptr
-	.4byte 0x80081010  ;# ptr
-	.4byte 0x80081034  ;# ptr
-	.4byte 0x800810AC  ;# ptr
-	.4byte 0x80081124  ;# ptr
-	.4byte 0x80081148  ;# ptr
-
+	.4byte lbl_8008116C
+	.4byte lbl_80080EC8
+	.4byte lbl_80080FD0
+	.4byte lbl_80081010
+	.4byte lbl_80081034
+	.4byte lbl_800810AC
+	.4byte lbl_80081124
+	.4byte lbl_80081148
 
 glabel lbl_801810C0
 	# ROM: 0x17D1C0
-	.4byte 0x80080D74  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x80080D84  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x80080D94  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x80080DF8  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x80080E7C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x800813EC  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x800813EC  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x8008139C  ;# ptr
-	.4byte 0x80081390  ;# ptr
-
+	.4byte lbl_80080D74
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_80080D84
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_80080D94
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_80080DF8
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_80080E7C
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_800813EC
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_800813EC
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_8008139C
+	.4byte lbl_80081390
 
 glabel lbl_80181134
 	# ROM: 0x17D234
-	.4byte 0x80081598  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x800815A4  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x800815B0  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x800815BC  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x800815C8  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x800815D8  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x800815E8  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x8008160C  ;# ptr
-	.4byte 0x800815F8  ;# ptr
-	.4byte 0x80246630  ;# ptr
+	.4byte lbl_80081598
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_800815A4
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_800815B0
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_800815BC
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_800815C8
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_800815D8
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_800815E8
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_8008160C
+	.4byte lbl_800815F8
+lbl_801811A8:
+	.4byte lbl_80246630
 	.4byte 0x00005908
 	.4byte 0
-	.4byte 0x80081834  ;# ptr
+	.4byte lbl_80081834
 	.4byte 0xE7000000
 	.4byte 0
 	.4byte 0xBA001402
@@ -7946,203 +7894,194 @@ glabel lbl_80181134
 	.4byte 0xB900031D
 	.4byte 0x00504240
 
-
 glabel lbl_801811D8
 	# ROM: 0x17D2D8
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x80083CC0  ;# ptr
-	.4byte 0x80083CC0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x800841F0  ;# ptr
-	.4byte 0x80083C30  ;# ptr
-	.4byte 0x80083BE8  ;# ptr
-	.4byte 0x80083BC0  ;# ptr
-	.4byte 0x80083AFC  ;# ptr
-	.4byte 0x8008341C  ;# ptr
-	.4byte 0x800833CC  ;# ptr
-	.4byte 0x8008338C  ;# ptr
-	.4byte 0x80083368  ;# ptr
-	.4byte 0x800841E8  ;# ptr
-	.4byte 0x800832E4  ;# ptr
-	.4byte 0x8008323C  ;# ptr
-	.4byte 0x80083170  ;# ptr
-	.4byte 0x800830B4  ;# ptr
-	.4byte 0x800828D4  ;# ptr
-	.4byte 0x800827A0  ;# ptr
-	.4byte 0x80082730  ;# ptr
-	.4byte 0x80082710  ;# ptr
-	.4byte 0x8008217C  ;# ptr
-	.4byte 0x80082074  ;# ptr
-	.4byte 0x80081E8C  ;# ptr
-	.4byte 0x80081D3C  ;# ptr
-	.4byte 0x80081C9C  ;# ptr
-	.4byte 0x80081A84  ;# ptr
-
+	.4byte lbl_800841F0
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841F0
+	.4byte lbl_800841F0
+	.4byte lbl_800841F0
+	.4byte lbl_800841F0
+	.4byte lbl_800841F0
+	.4byte lbl_800841F0
+	.4byte lbl_800841F0
+	.4byte lbl_800841F0
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_800841E8
+	.4byte lbl_80083CC0
+	.4byte lbl_80083CC0
+	.4byte lbl_800841F0
+	.4byte lbl_800841F0
+	.4byte lbl_800841F0
+	.4byte lbl_80083C30
+	.4byte lbl_80083BE8
+	.4byte lbl_80083BC0
+	.4byte lbl_80083AFC
+	.4byte lbl_8008341C
+	.4byte lbl_800833CC
+	.4byte lbl_8008338C
+	.4byte lbl_80083368
+	.4byte lbl_800841E8
+	.4byte lbl_800832E4
+	.4byte lbl_8008323C
+	.4byte lbl_80083170
+	.4byte lbl_800830B4
+	.4byte lbl_800828D4
+	.4byte lbl_800827A0
+	.4byte lbl_80082730
+	.4byte lbl_80082710
+	.4byte lbl_8008217C
+	.4byte lbl_80082074
+	.4byte lbl_80081E8C
+	.4byte lbl_80081D3C
+	.4byte lbl_80081C9C
+	.4byte lbl_80081A84
 
 glabel lbl_801812D8
 	# ROM: 0x17D3D8
-	.4byte 0x80084240  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x80084250  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x80084304  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x80084260  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x80084304  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x80084304  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x80084304  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x800842FC  ;# ptr
-	.4byte 0x80084304  ;# ptr
-
+	.4byte lbl_80084240
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_80084250
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_80084304
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_80084260
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_80084304
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_80084304
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_80084304
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_800842FC
+	.4byte lbl_80084304
 
 glabel lbl_8018134C
 	# ROM: 0x17D44C
-	.4byte 0x80084348  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x80084354  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x80084360  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x8008436C  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x80084378  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x80084388  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x80084398  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843B8  ;# ptr
-	.4byte 0x800843A8  ;# ptr
-
+	.4byte lbl_80084348
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_80084354
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_80084360
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_8008436C
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_80084378
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_80084388
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_80084398
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_800843B8
+	.4byte lbl_800843A8
 
 glabel lbl_801813C0
 	# ROM: 0x17D4C0
-	.4byte 0x80084404  ;# ptr
-	.4byte 0x8008443C  ;# ptr
-	.4byte 0x8008443C  ;# ptr
-	.4byte 0x8008443C  ;# ptr
-	.4byte 0x80084414  ;# ptr
-	.4byte 0x8008443C  ;# ptr
-	.4byte 0x8008443C  ;# ptr
-	.4byte 0x8008443C  ;# ptr
-	.4byte 0x80084424  ;# ptr
-	.4byte 0x8008443C  ;# ptr
-	.4byte 0x8008443C  ;# ptr
-	.4byte 0x8008443C  ;# ptr
-	.4byte 0x80084434  ;# ptr
-
+	.4byte lbl_80084404
+	.4byte lbl_8008443C
+	.4byte lbl_8008443C
+	.4byte lbl_8008443C
+	.4byte lbl_80084414
+	.4byte lbl_8008443C
+	.4byte lbl_8008443C
+	.4byte lbl_8008443C
+	.4byte lbl_80084424
+	.4byte lbl_8008443C
+	.4byte lbl_8008443C
+	.4byte lbl_8008443C
+	.4byte lbl_80084434
 
 glabel lbl_801813F4
 	# ROM: 0x17D4F4
-	.4byte 0x80084480  ;# ptr
-	.4byte 0x800844BC  ;# ptr
-	.4byte 0x800844BC  ;# ptr
-	.4byte 0x800844BC  ;# ptr
-	.4byte 0x80084490  ;# ptr
-	.4byte 0x800844BC  ;# ptr
-	.4byte 0x800844BC  ;# ptr
-	.4byte 0x800844BC  ;# ptr
-	.4byte 0x800844A0  ;# ptr
-	.4byte 0x800844BC  ;# ptr
-	.4byte 0x800844BC  ;# ptr
-	.4byte 0x800844BC  ;# ptr
-	.4byte 0x800844B0  ;# ptr
-	.4byte 0x80246638  ;# ptr
+	.4byte lbl_80084480
+	.4byte lbl_800844BC
+	.4byte lbl_800844BC
+	.4byte lbl_800844BC
+	.4byte lbl_80084490
+	.4byte lbl_800844BC
+	.4byte lbl_800844BC
+	.4byte lbl_800844BC
+	.4byte lbl_800844A0
+	.4byte lbl_800844BC
+	.4byte lbl_800844BC
+	.4byte lbl_800844BC
+	.4byte lbl_800844B0
+lbl_80181428:
+	.4byte lbl_80246638
 	.4byte 0x0000002C
 	.4byte 0
-	.4byte 0x800844D4  ;# ptr
-
+	.4byte lbl_800844D4
 
 glabel lbl_80181438
 	# ROM: 0x17D538
 	.asciz "xlCoreRVL.c"
-
 
 glabel lbl_80181444
 	# ROM: 0x17D544
 	.asciz "DEMOInit: invalid TV format\n"
 	.balign 4
 
-
 glabel lbl_80181464
 	# ROM: 0x17D564
 	.asciz "CORE DONE!"
 	.balign 4
 
-
 glabel lbl_80181470
 	# ROM: 0x17D570
-	.4byte 0x80246648  ;# ptr
+	.4byte lbl_80246648
 	.4byte 0x00000038
 	.4byte 0
-	.4byte 0x80085204  ;# ptr
-
+	.4byte fileEvent
 
 glabel lbl_80181480
 	# ROM: 0x17D580
@@ -8170,7 +8109,6 @@ glabel lbl_80181480
 	.4byte 0x3F6B851F
 	.4byte 0
 	.4byte 0xFF9C00FF
-
 
 glabel lbl_801814E0
 	# ROM: 0x17D5E0
@@ -8207,102 +8145,99 @@ glabel lbl_801814E0
 	.4byte 0x0F7D723C
 	.4byte 0x185A672F
 
-
 glabel lbl_80181560
 	# ROM: 0x17D660
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x800894A0  ;# ptr
-	.4byte 0x800894A8  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x8008938C  ;# ptr
-	.4byte 0x80089368  ;# ptr
-	.4byte 0x80089418  ;# ptr
-	.4byte 0x800893FC  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089554  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x800895E4  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x8008957C  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x80089704  ;# ptr
-	.4byte 0x800896FC  ;# ptr
+	.4byte lbl_80089704
+	.4byte lbl_800894A0
+	.4byte lbl_800894A8
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_8008938C
+	.4byte lbl_80089368
+	.4byte lbl_80089418
+	.4byte lbl_800893FC
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089554
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_800895E4
+	.4byte lbl_80089704
+	.4byte lbl_8008957C
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_80089704
+	.4byte lbl_800896FC
 	.4byte 0
-
 
 glabel lbl_80181638
 	# ROM: 0x17D738
-	.4byte 0x8008B788  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008B890  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008B910  ;# ptr
-	.4byte 0x8008B990  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BA10  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BB44  ;# ptr
-	.4byte 0x8008BA90  ;# ptr
+	.4byte lbl_8008B788
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008B890
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008B910
+	.4byte lbl_8008B990
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BA10
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BB44
+	.4byte lbl_8008BA90
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_801816C0
 	# ROM: 0x17D7C0
@@ -8601,7 +8536,7 @@ glabel lbl_801816C0
 	.4byte 0x00000002
 	.4byte 0x072E5CE5
 	.4byte 0x00000576
-	.4byte 0x801B3CA0  ;# ptr
+	.4byte lbl_801B3CA0
 	.4byte 0x0000FFF1
 	.4byte 0x0730202F
 	.4byte 0x000000F4
@@ -8673,7 +8608,7 @@ glabel lbl_801816C0
 	.4byte 0x00000008
 	.4byte 0x080E9025
 	.4byte 0x00000581
-	.4byte 0x801B5080  ;# ptr
+	.4byte lbl_801B5080
 	.4byte 0x0000FFF1
 	.4byte 0x08521FEF
 	.4byte 0x00000349
@@ -9032,248 +8967,244 @@ glabel lbl_801816C0
 	.asciz "_SDA2_BASE_"
 	.balign 32
 
-
 glabel lbl_801825C0
 	# ROM: 0x17E6C0
-	.4byte 0x801744E0  ;# ptr
-	.4byte 0x80246EF8  ;# ptr
-	.4byte 0x801744F0  ;# ptr
-	.4byte 0x80246EFC  ;# ptr
-	.4byte 0x80174504  ;# ptr
-	.4byte 0x80246F00  ;# ptr
-	.4byte 0x8017451C  ;# ptr
-	.4byte 0x80246F04  ;# ptr
-	.4byte 0x80174530  ;# ptr
-	.4byte 0x80246F08  ;# ptr
-	.4byte 0x80174544  ;# ptr
-	.4byte 0x80246F0C  ;# ptr
-	.4byte 0x80174560  ;# ptr
-	.4byte 0x80246F10  ;# ptr
-	.4byte 0x80174578  ;# ptr
-	.4byte 0x80246F14  ;# ptr
-	.4byte 0x80174590  ;# ptr
-	.4byte 0x80246F18  ;# ptr
-	.4byte 0x801745A4  ;# ptr
-	.4byte 0x80246F1C  ;# ptr
-	.4byte 0x801745BC  ;# ptr
-	.4byte 0x80246F20  ;# ptr
-	.4byte 0x801745D0  ;# ptr
-	.4byte 0x80246F24  ;# ptr
-	.4byte 0x801745E4  ;# ptr
-	.4byte 0x80246F28  ;# ptr
-	.4byte 0x801745FC  ;# ptr
-	.4byte 0x80246F2C  ;# ptr
-	.4byte 0x80174610  ;# ptr
-	.4byte 0x80246F30  ;# ptr
-	.4byte 0x80174624  ;# ptr
-	.4byte 0x80246F34  ;# ptr
-	.4byte 0x80174638  ;# ptr
-	.4byte 0x80246F38  ;# ptr
-	.4byte 0x80174644  ;# ptr
-	.4byte 0x80246F3C  ;# ptr
-	.4byte 0x8017465C  ;# ptr
-	.4byte 0x80246F40  ;# ptr
-	.4byte 0x80174674  ;# ptr
-	.4byte 0x80246F44  ;# ptr
-	.4byte 0x80174698  ;# ptr
-	.4byte 0x80246F48  ;# ptr
-	.4byte 0x801746B0  ;# ptr
-	.4byte 0x80246F4C  ;# ptr
-	.4byte 0x801746C8  ;# ptr
-	.4byte 0x80246F50  ;# ptr
-	.4byte 0x801746E0  ;# ptr
-	.4byte 0x80246F54  ;# ptr
-	.4byte 0x801746F8  ;# ptr
-	.4byte 0x80246F58  ;# ptr
-	.4byte 0x80174710  ;# ptr
-	.4byte 0x80246F5C  ;# ptr
-	.4byte 0x80174728  ;# ptr
-	.4byte 0x80246F60  ;# ptr
-	.4byte 0x80174738  ;# ptr
-	.4byte 0x80246F64  ;# ptr
-	.4byte 0x80174748  ;# ptr
-	.4byte 0x80246F68  ;# ptr
-	.4byte 0x80174754  ;# ptr
-	.4byte 0x80246F6C  ;# ptr
-	.4byte 0x80174760  ;# ptr
-	.4byte 0x80246F70  ;# ptr
-	.4byte 0x80174774  ;# ptr
-	.4byte 0x80246F74  ;# ptr
-	.4byte 0x80174780  ;# ptr
-	.4byte 0x80246F78  ;# ptr
-	.4byte 0x8017478C  ;# ptr
-	.4byte 0x80246F7C  ;# ptr
-	.4byte 0x80247BD8  ;# ptr
-	.4byte 0x80246F80  ;# ptr
-	.4byte 0x801747A0  ;# ptr
-	.4byte 0x80246F84  ;# ptr
-	.4byte 0x801747AC  ;# ptr
-	.4byte 0x80246F88  ;# ptr
-	.4byte 0x801747B8  ;# ptr
-	.4byte 0x80246F8C  ;# ptr
-	.4byte 0x801747C4  ;# ptr
-	.4byte 0x80246F90  ;# ptr
-	.4byte 0x801747D4  ;# ptr
-	.4byte 0x80246F94  ;# ptr
-	.4byte 0x801747E0  ;# ptr
-	.4byte 0x80246F98  ;# ptr
-	.4byte 0x801747F0  ;# ptr
-	.4byte 0x80246F9C  ;# ptr
-	.4byte 0x80174800  ;# ptr
-	.4byte 0x80246FA0  ;# ptr
-	.4byte 0x80174810  ;# ptr
-	.4byte 0x80246FA4  ;# ptr
-	.4byte 0x80174820  ;# ptr
-	.4byte 0x80246FA8  ;# ptr
-	.4byte 0x80174830  ;# ptr
-	.4byte 0x80246FAC  ;# ptr
-	.4byte 0x8017483C  ;# ptr
-	.4byte 0x80246FB0  ;# ptr
-	.4byte 0x80174848  ;# ptr
-	.4byte 0x80246FB4  ;# ptr
-	.4byte 0x8017485C  ;# ptr
-	.4byte 0x80246FB8  ;# ptr
-	.4byte 0x8017486C  ;# ptr
-	.4byte 0x80246FBC  ;# ptr
-	.4byte 0x8017487C  ;# ptr
-	.4byte 0x80246FC0  ;# ptr
-	.4byte 0x80174890  ;# ptr
-	.4byte 0x80246FC4  ;# ptr
-	.4byte 0x801748A8  ;# ptr
-	.4byte 0x80246FC8  ;# ptr
-	.4byte 0x801748B8  ;# ptr
-	.4byte 0x80246FCC  ;# ptr
-	.4byte 0x801748D4  ;# ptr
-	.4byte 0x80246FD0  ;# ptr
-	.4byte 0x801748F0  ;# ptr
-	.4byte 0x80246FD4  ;# ptr
-	.4byte 0x8017490C  ;# ptr
-	.4byte 0x80246FD8  ;# ptr
-	.4byte 0x80174924  ;# ptr
-	.4byte 0x80246FDC  ;# ptr
-	.4byte 0x80174938  ;# ptr
-	.4byte 0x80246FE0  ;# ptr
-	.4byte 0x80174950  ;# ptr
-	.4byte 0x80246FE4  ;# ptr
-	.4byte 0x80174960  ;# ptr
-	.4byte 0x80246FE8  ;# ptr
-	.4byte 0x80174974  ;# ptr
-	.4byte 0x80246FEC  ;# ptr
-	.4byte 0x80174984  ;# ptr
-	.4byte 0x80246FF0  ;# ptr
-	.4byte 0x80174994  ;# ptr
-	.4byte 0x80246FF4  ;# ptr
-	.4byte 0x801749A8  ;# ptr
-	.4byte 0x80246FF8  ;# ptr
-	.4byte 0x801749BC  ;# ptr
-	.4byte 0x80246FFC  ;# ptr
-	.4byte 0x801749CC  ;# ptr
-	.4byte 0x80247000  ;# ptr
-	.4byte 0x801749E0  ;# ptr
-	.4byte 0x80247004  ;# ptr
-	.4byte 0x801749F8  ;# ptr
-	.4byte 0x80247008  ;# ptr
-	.4byte 0x80174A0C  ;# ptr
-	.4byte 0x8024700C  ;# ptr
-	.4byte 0x80174A20  ;# ptr
-	.4byte 0x80247010  ;# ptr
-	.4byte 0x80174A3C  ;# ptr
-	.4byte 0x80247014  ;# ptr
-	.4byte 0x80174A58  ;# ptr
-	.4byte 0x80247018  ;# ptr
-	.4byte 0x80174A70  ;# ptr
-	.4byte 0x8024701C  ;# ptr
-	.4byte 0x80174A8C  ;# ptr
-	.4byte 0x80247020  ;# ptr
-	.4byte 0x80174AA0  ;# ptr
-	.4byte 0x80247024  ;# ptr
-	.4byte 0x80174AB8  ;# ptr
-	.4byte 0x80247028  ;# ptr
-	.4byte 0x80174AC8  ;# ptr
-	.4byte 0x8024702C  ;# ptr
-	.4byte 0x80174AE0  ;# ptr
-	.4byte 0x80247030  ;# ptr
-	.4byte 0x80174B04  ;# ptr
-	.4byte 0x80247034  ;# ptr
-	.4byte 0x80174B2C  ;# ptr
-	.4byte 0x80247038  ;# ptr
-	.4byte 0x80174B48  ;# ptr
-	.4byte 0x8024703C  ;# ptr
-	.4byte 0x80174B60  ;# ptr
-	.4byte 0x80247040  ;# ptr
-	.4byte 0x80174B78  ;# ptr
-	.4byte 0x80247044  ;# ptr
-	.4byte 0x80174B90  ;# ptr
-	.4byte 0x80247048  ;# ptr
-	.4byte 0x80174BA4  ;# ptr
-	.4byte 0x8024704C  ;# ptr
-	.4byte 0x80174BC0  ;# ptr
-	.4byte 0x80247050  ;# ptr
-	.4byte 0x80174BD8  ;# ptr
-	.4byte 0x80247054  ;# ptr
-	.4byte 0x80174BF4  ;# ptr
-	.4byte 0x80247058  ;# ptr
-	.4byte 0x80174C14  ;# ptr
-	.4byte 0x8024705C  ;# ptr
-	.4byte 0x80174C2C  ;# ptr
-	.4byte 0x80247060  ;# ptr
-	.4byte 0x80174C48  ;# ptr
-	.4byte 0x80247064  ;# ptr
-	.4byte 0x80174C60  ;# ptr
-	.4byte 0x80247068  ;# ptr
-	.4byte 0x80174C78  ;# ptr
-	.4byte 0x8024706C  ;# ptr
-	.4byte 0x80174C94  ;# ptr
-	.4byte 0x80247070  ;# ptr
-	.4byte 0x80174CB4  ;# ptr
-	.4byte 0x80247074  ;# ptr
-	.4byte 0x80174CD0  ;# ptr
-	.4byte 0x80247078  ;# ptr
-	.4byte 0x80174CEC  ;# ptr
-	.4byte 0x8024707C  ;# ptr
-	.4byte 0x80174D00  ;# ptr
-	.4byte 0x80247080  ;# ptr
-	.4byte 0x80174D18  ;# ptr
-	.4byte 0x80247084  ;# ptr
-	.4byte 0x80174D2C  ;# ptr
-	.4byte 0x80247088  ;# ptr
-	.4byte 0x80174D48  ;# ptr
-	.4byte 0x8024708C  ;# ptr
-	.4byte 0x80174D68  ;# ptr
-	.4byte 0x80247090  ;# ptr
-	.4byte 0x80174D78  ;# ptr
-	.4byte 0x80247094  ;# ptr
-	.4byte 0x80174D8C  ;# ptr
-	.4byte 0x80247098  ;# ptr
-	.4byte 0x80174DA0  ;# ptr
-	.4byte 0x8024709C  ;# ptr
-	.4byte 0x80174DB0  ;# ptr
-	.4byte 0x802470A0  ;# ptr
-	.4byte 0x80174DC0  ;# ptr
-	.4byte 0x802470A4  ;# ptr
-	.4byte 0x80174DD4  ;# ptr
-	.4byte 0x802470A8  ;# ptr
-	.4byte 0x80174DEC  ;# ptr
-	.4byte 0x802470AC  ;# ptr
-	.4byte 0x80174E00  ;# ptr
-	.4byte 0x802470B0  ;# ptr
-	.4byte 0x80174E14  ;# ptr
-	.4byte 0x802470B4  ;# ptr
-
+	.4byte lbl_801744E0
+	.4byte lbl_80246EF8
+	.4byte lbl_801744F0
+	.4byte lbl_80246EFC
+	.4byte lbl_80174504
+	.4byte lbl_80246F00
+	.4byte lbl_8017451C
+	.4byte lbl_80246F04
+	.4byte lbl_80174530
+	.4byte lbl_80246F08
+	.4byte lbl_80174544
+	.4byte lbl_80246F0C
+	.4byte lbl_80174560
+	.4byte lbl_80246F10
+	.4byte lbl_80174578
+	.4byte lbl_80246F14
+	.4byte lbl_80174590
+	.4byte lbl_80246F18
+	.4byte lbl_801745A4
+	.4byte lbl_80246F1C
+	.4byte lbl_801745BC
+	.4byte lbl_80246F20
+	.4byte lbl_801745D0
+	.4byte lbl_80246F24
+	.4byte lbl_801745E4
+	.4byte lbl_80246F28
+	.4byte lbl_801745FC
+	.4byte lbl_80246F2C
+	.4byte lbl_80174610
+	.4byte lbl_80246F30
+	.4byte lbl_80174624
+	.4byte lbl_80246F34
+	.4byte lbl_80174638
+	.4byte lbl_80246F38
+	.4byte lbl_80174644
+	.4byte lbl_80246F3C
+	.4byte lbl_8017465C
+	.4byte lbl_80246F40
+	.4byte lbl_80174674
+	.4byte lbl_80246F44
+	.4byte lbl_80174698
+	.4byte lbl_80246F48
+	.4byte lbl_801746B0
+	.4byte lbl_80246F4C
+	.4byte lbl_801746C8
+	.4byte lbl_80246F50
+	.4byte lbl_801746E0
+	.4byte lbl_80246F54
+	.4byte lbl_801746F8
+	.4byte lbl_80246F58
+	.4byte lbl_80174710
+	.4byte lbl_80246F5C
+	.4byte lbl_80174728
+	.4byte lbl_80246F60
+	.4byte lbl_80174738
+	.4byte lbl_80246F64
+	.4byte lbl_80174748
+	.4byte lbl_80246F68
+	.4byte lbl_80174754
+	.4byte lbl_80246F6C
+	.4byte lbl_80174760
+	.4byte lbl_80246F70
+	.4byte lbl_80174774
+	.4byte lbl_80246F74
+	.4byte lbl_80174780
+	.4byte lbl_80246F78
+	.4byte lbl_8017478C
+	.4byte lbl_80246F7C
+	.4byte lbl_80247BD8
+	.4byte lbl_80246F80
+	.4byte lbl_801747A0
+	.4byte lbl_80246F84
+	.4byte lbl_801747AC
+	.4byte lbl_80246F88
+	.4byte lbl_801747B8
+	.4byte lbl_80246F8C
+	.4byte lbl_801747C4
+	.4byte lbl_80246F90
+	.4byte lbl_801747D4
+	.4byte lbl_80246F94
+	.4byte lbl_801747E0
+	.4byte lbl_80246F98
+	.4byte lbl_801747F0
+	.4byte lbl_80246F9C
+	.4byte lbl_80174800
+	.4byte lbl_80246FA0
+	.4byte lbl_80174810
+	.4byte lbl_80246FA4
+	.4byte lbl_80174820
+	.4byte lbl_80246FA8
+	.4byte lbl_80174830
+	.4byte lbl_80246FAC
+	.4byte lbl_8017483C
+	.4byte lbl_80246FB0
+	.4byte lbl_80174848
+	.4byte lbl_80246FB4
+	.4byte lbl_8017485C
+	.4byte lbl_80246FB8
+	.4byte lbl_8017486C
+	.4byte lbl_80246FBC
+	.4byte lbl_8017487C
+	.4byte lbl_80246FC0
+	.4byte lbl_80174890
+	.4byte lbl_80246FC4
+	.4byte lbl_801748A8
+	.4byte lbl_80246FC8
+	.4byte lbl_801748B8
+	.4byte lbl_80246FCC
+	.4byte lbl_801748D4
+	.4byte lbl_80246FD0
+	.4byte lbl_801748F0
+	.4byte lbl_80246FD4
+	.4byte lbl_8017490C
+	.4byte lbl_80246FD8
+	.4byte lbl_80174924
+	.4byte lbl_80246FDC
+	.4byte lbl_80174938
+	.4byte lbl_80246FE0
+	.4byte lbl_80174950
+	.4byte lbl_80246FE4
+	.4byte lbl_80174960
+	.4byte lbl_80246FE8
+	.4byte lbl_80174974
+	.4byte lbl_80246FEC
+	.4byte lbl_80174984
+	.4byte lbl_80246FF0
+	.4byte lbl_80174994
+	.4byte lbl_80246FF4
+	.4byte lbl_801749A8
+	.4byte lbl_80246FF8
+	.4byte lbl_801749BC
+	.4byte lbl_80246FFC
+	.4byte lbl_801749CC
+	.4byte lbl_80247000
+	.4byte lbl_801749E0
+	.4byte lbl_80247004
+	.4byte lbl_801749F8
+	.4byte lbl_80247008
+	.4byte lbl_80174A0C
+	.4byte lbl_8024700C
+	.4byte lbl_80174A20
+	.4byte lbl_80247010
+	.4byte lbl_80174A3C
+	.4byte lbl_80247014
+	.4byte lbl_80174A58
+	.4byte lbl_80247018
+	.4byte lbl_80174A70
+	.4byte lbl_8024701C
+	.4byte lbl_80174A8C
+	.4byte lbl_80247020
+	.4byte lbl_80174AA0
+	.4byte lbl_80247024
+	.4byte lbl_80174AB8
+	.4byte lbl_80247028
+	.4byte lbl_80174AC8
+	.4byte lbl_8024702C
+	.4byte lbl_80174AE0
+	.4byte lbl_80247030
+	.4byte lbl_80174B04
+	.4byte lbl_80247034
+	.4byte lbl_80174B2C
+	.4byte lbl_80247038
+	.4byte lbl_80174B48
+	.4byte lbl_8024703C
+	.4byte lbl_80174B60
+	.4byte lbl_80247040
+	.4byte lbl_80174B78
+	.4byte lbl_80247044
+	.4byte lbl_80174B90
+	.4byte lbl_80247048
+	.4byte lbl_80174BA4
+	.4byte lbl_8024704C
+	.4byte lbl_80174BC0
+	.4byte lbl_80247050
+	.4byte lbl_80174BD8
+	.4byte lbl_80247054
+	.4byte lbl_80174BF4
+	.4byte lbl_80247058
+	.4byte lbl_80174C14
+	.4byte lbl_8024705C
+	.4byte lbl_80174C2C
+	.4byte lbl_80247060
+	.4byte lbl_80174C48
+	.4byte lbl_80247064
+	.4byte lbl_80174C60
+	.4byte lbl_80247068
+	.4byte lbl_80174C78
+	.4byte lbl_8024706C
+	.4byte lbl_80174C94
+	.4byte lbl_80247070
+	.4byte lbl_80174CB4
+	.4byte lbl_80247074
+	.4byte lbl_80174CD0
+	.4byte lbl_80247078
+	.4byte lbl_80174CEC
+	.4byte lbl_8024707C
+	.4byte lbl_80174D00
+	.4byte lbl_80247080
+	.4byte lbl_80174D18
+	.4byte lbl_80247084
+	.4byte lbl_80174D2C
+	.4byte lbl_80247088
+	.4byte lbl_80174D48
+	.4byte lbl_8024708C
+	.4byte lbl_80174D68
+	.4byte lbl_80247090
+	.4byte lbl_80174D78
+	.4byte lbl_80247094
+	.4byte lbl_80174D8C
+	.4byte lbl_80247098
+	.4byte lbl_80174DA0
+	.4byte lbl_8024709C
+	.4byte lbl_80174DB0
+	.4byte lbl_802470A0
+	.4byte lbl_80174DC0
+	.4byte lbl_802470A4
+	.4byte lbl_80174DD4
+	.4byte lbl_802470A8
+	.4byte lbl_80174DEC
+	.4byte lbl_802470AC
+	.4byte lbl_80174E00
+	.4byte lbl_802470B0
+	.4byte lbl_80174E14
+	.4byte lbl_802470B4
 
 glabel lbl_80182940
 	# ROM: 0x17EA40
-	.4byte 0x80174E38  ;# ptr
-	.4byte 0x801B3D20  ;# ptr
+	.4byte lbl_80174E38
+	.4byte lbl_801B3D20
 	.4byte 0x00000020
 	.4byte 0
-
 
 glabel lbl_80182950
 	# ROM: 0x17EA50
 	.asciz "H4A should not be cleared because of Broadway errata.\n"
 	.balign 4
-
 
 glabel lbl_80182988
 	# ROM: 0x17EA88
@@ -9319,35 +9250,34 @@ glabel lbl_80182988
 	.asciz "MEM2 Arena : 0x%x - 0x%x\n"
 	.balign 4
 
-
 glabel lbl_80182B78
 	# ROM: 0x17EC78
-	.4byte 0x8008F444  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F434  ;# ptr
-	.4byte 0x8008F424  ;# ptr
-	.4byte 0x8008F414  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F454  ;# ptr
-	.4byte 0x8008F404  ;# ptr
-	.4byte 0x8008F3F4  ;# ptr
+	.4byte lbl_8008F444
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F434
+	.4byte lbl_8008F424
+	.4byte lbl_8008F414
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F454
+	.4byte lbl_8008F404
+	.4byte lbl_8008F3F4
 	.asciz "OS ERROR: boot program is not for RVL target. Please use correct boot program.\n"
 	.asciz "Failed to run app"
 	.balign 8
@@ -9376,14 +9306,12 @@ glabel lbl_80182B78
 	.asciz "Exceptions initialized...\n"
 	.balign 8
 
-
 glabel lbl_80182D78
 	# ROM: 0x17EE78
-	.4byte 0x8009055C  ;# ptr
+	.4byte lbl_8009055C
 	.4byte 0xFFFFFFFF
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80182D88
 	# ROM: 0x17EE88
@@ -9420,7 +9348,6 @@ glabel lbl_80182D88
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80182E08
 	# ROM: 0x17EF08
 	.asciz ">>> L2 INVALIDATE : SHOULD NEVER HAPPEN\n"
@@ -9449,7 +9376,6 @@ glabel lbl_80182E08
 	.asciz "Locked cache machine check handler installed\n"
 	.balign 8
 
-
 glabel lbl_80183040
 	# ROM: 0x17F140
 	.asciz "------------------------- Context 0x%08x -------------------------\n"
@@ -9475,12 +9401,10 @@ glabel lbl_80183040
 	.balign 4
 	.asciz "0x%08x:   0x%08x    0x%08x\n"
 
-
 glabel lbl_801831F8
 	# ROM: 0x17F2F8
 	.asciz "FPU-unavailable handler installed\n"
 	.balign 8
-
 
 glabel lbl_80183220
 	# ROM: 0x17F320
@@ -9510,39 +9434,35 @@ glabel lbl_80183220
 	.asciz "\nLast interrupt (%d): SRR0 = 0x%08x  TB = 0x%016llx\n"
 	.balign 4
 
-
 glabel lbl_801834FC
 	# ROM: 0x17F5FC
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091F00  ;# ptr
-	.4byte 0x80091F18  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091F2C  ;# ptr
-	.4byte 0x80091F44  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091FA8  ;# ptr
-	.4byte 0x80091F5C  ;# ptr
+	.4byte lbl_80091FA8
+	.4byte lbl_80091FA8
+	.4byte lbl_80091F00
+	.4byte lbl_80091F18
+	.4byte lbl_80091FA8
+	.4byte lbl_80091F2C
+	.4byte lbl_80091F44
+	.4byte lbl_80091FA8
+	.4byte lbl_80091FA8
+	.4byte lbl_80091FA8
+	.4byte lbl_80091FA8
+	.4byte lbl_80091FA8
+	.4byte lbl_80091FA8
+	.4byte lbl_80091FA8
+	.4byte lbl_80091FA8
+	.4byte lbl_80091F5C
 	.4byte 0
-
 
 glabel lbl_80183540
 	# ROM: 0x17F640
 	.asciz "\nsecurity error(%d) has occurred"
 	.balign 4
 
-
 glabel lbl_80183564
 	# ROM: 0x17F664
 	.asciz "2004/02/01"
 	.balign 4
-
 
 glabel lbl_80183570
 	# ROM: 0x17F670
@@ -9642,7 +9562,6 @@ glabel lbl_80183570
 	.4byte 0x02A402A5
 	.4byte 0x02A602A7
 	.4byte 0x02A802A9
-
 
 glabel lbl_801836F0
 	# ROM: 0x17F7F0
@@ -10259,7 +10178,6 @@ glabel lbl_801836F0
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80184080
 	# ROM: 0x180180
 	.4byte 0x00000100
@@ -10275,38 +10193,32 @@ glabel lbl_80184080
 	.4byte 0x00004000
 	.4byte 0xFFFFFFFF
 
-
 glabel lbl_801840B0
 	# ROM: 0x1801B0
-	.4byte 0x80095C84  ;# ptr
+	.4byte lbl_80095C84
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_801840C0
 	# ROM: 0x1801C0
 	.asciz "OSReset.c"
 	.balign 4
 
-
 glabel lbl_801840CC
 	# ROM: 0x1801CC
 	.asciz "OSReturnToMenu(): Falied to boot system menu.\n"
 	.balign 4
-
 
 glabel lbl_801840FC
 	# ROM: 0x1801FC
 	.asciz "__OSReturnToMenu(): Falied to boot system menu.\n"
 	.balign 4
 
-
 glabel lbl_80184130
 	# ROM: 0x180230
 	.asciz "OSResetSystem() is obsoleted. It doesn't work any longer.\n"
 	.balign 8
-
 
 glabel lbl_80184170
 	# ROM: 0x180270
@@ -10323,7 +10235,6 @@ glabel lbl_80184170
 	.4byte 0x00000130
 	.4byte 0x0000014E
 
-
 glabel lbl_801841A0
 	# ROM: 0x1802A0
 	.4byte 0
@@ -10338,7 +10249,6 @@ glabel lbl_801841A0
 	.4byte 0x00000112
 	.4byte 0x00000131
 	.4byte 0x0000014F
-
 
 glabel lbl_801841D0
 	# ROM: 0x1802D0
@@ -10358,6 +10268,7 @@ glabel lbl_801841D0
 	.4byte 0x0161203A
 	.4byte 0x01530000
 	.4byte 0x017E0178
+lbl_80184210:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -10486,6 +10397,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80184410:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -10614,6 +10526,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80184610:
 	.4byte 0x00008446
 	.4byte 0
 	.4byte 0
@@ -10742,6 +10655,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80184810:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -10870,6 +10784,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80184A10:
 	.4byte 0
 	.4byte 0x0000818E
 	.4byte 0
@@ -10998,6 +10913,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80184C10:
 	.4byte 0x81CD0000
 	.4byte 0x81DD81CE
 	.4byte 0
@@ -11126,6 +11042,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80184E10:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -11254,6 +11171,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80185010:
 	.4byte 0x849F84AA
 	.4byte 0x84A084AB
 	.4byte 0
@@ -11382,6 +11300,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80185210:
 	.4byte 0
 	.4byte 0
 	.4byte 0x0000819A
@@ -11510,6 +11429,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80185410:
 	.4byte 0x81408141
 	.4byte 0x81428156
 	.4byte 0x00008158
@@ -11638,6 +11558,7 @@ glabel lbl_801841D0
 	.4byte 0x00008145
 	.4byte 0x815B8152
 	.4byte 0x81530000
+lbl_80185610:
 	.4byte 0x88EA929A
 	.4byte 0x00008EB5
 	.4byte 0
@@ -11766,6 +11687,7 @@ glabel lbl_801841D0
 	.4byte 0x00009443
 	.4byte 0
 	.4byte 0
+lbl_80185810:
 	.4byte 0x00008AE9
 	.4byte 0
 	.4byte 0
@@ -11894,6 +11816,7 @@ glabel lbl_801841D0
 	.4byte 0x89B40000
 	.4byte 0
 	.4byte 0x98EA0000
+lbl_80185A10:
 	.4byte 0
 	.4byte 0
 	.4byte 0x000098E4
@@ -12022,6 +11945,7 @@ glabel lbl_801841D0
 	.4byte 0x000095C6
 	.4byte 0
 	.4byte 0
+lbl_80185C10:
 	.4byte 0x8B56994D
 	.4byte 0x994E0000
 	.4byte 0x89AD0000
@@ -12150,6 +12074,7 @@ glabel lbl_801841D0
 	.4byte 0x8F6F0000
 	.4byte 0x0000949F
 	.4byte 0x99820000
+lbl_80185E10:
 	.4byte 0x93810000
 	.4byte 0x0000906E
 	.4byte 0x99830000
@@ -12278,6 +12203,7 @@ glabel lbl_801841D0
 	.4byte 0x8ED90000
 	.4byte 0
 	.4byte 0x8CF996DC
+lbl_80186010:
 	.4byte 0x000096E6
 	.4byte 0x93F50000
 	.4byte 0x000095EF
@@ -12406,6 +12332,7 @@ glabel lbl_801841D0
 	.4byte 0x99DB0000
 	.4byte 0
 	.4byte 0
+lbl_80186210:
 	.4byte 0x000099DC
 	.4byte 0x00008B68
 	.4byte 0x8A650000
@@ -12534,6 +12461,7 @@ glabel lbl_801841D0
 	.4byte 0x9A4D0000
 	.4byte 0x00009A4A
 	.4byte 0
+lbl_80186410:
 	.4byte 0
 	.4byte 0
 	.4byte 0x89530000
@@ -12662,6 +12590,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0x00009A75
 	.4byte 0x9A740000
+lbl_80186610:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -12790,6 +12719,7 @@ glabel lbl_801841D0
 	.4byte 0x8CC50000
 	.4byte 0x00008D91
 	.4byte 0x00009A9C
+lbl_80186810:
 	.4byte 0x9A9B0000
 	.4byte 0x000095DE
 	.4byte 0x9A9D0000
@@ -12918,6 +12848,7 @@ glabel lbl_801841D0
 	.4byte 0x8AEE0000
 	.4byte 0x8DE90000
 	.4byte 0
+lbl_80186A10:
 	.4byte 0x96780000
 	.4byte 0x93B00000
 	.4byte 0x00008C98
@@ -13046,6 +12977,7 @@ glabel lbl_801841D0
 	.4byte 0x9AE29AE4
 	.4byte 0x9AE59AE6
 	.4byte 0
+lbl_80186C10:
 	.4byte 0
 	.4byte 0x9AE70000
 	.4byte 0
@@ -13174,6 +13106,7 @@ glabel lbl_801841D0
 	.4byte 0x000088F7
 	.4byte 0
 	.4byte 0x00008E70
+lbl_80186E10:
 	.4byte 0x000088D0
 	.4byte 0x000088A1
 	.4byte 0
@@ -13302,6 +13235,7 @@ glabel lbl_801841D0
 	.4byte 0x9B659B66
 	.4byte 0
 	.4byte 0
+lbl_80187010:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -13430,6 +13364,7 @@ glabel lbl_801841D0
 	.4byte 0x8E9B0000
 	.4byte 0
 	.4byte 0x91CE8EF5
+lbl_80187210:
 	.4byte 0x00009595
 	.4byte 0x90EA0000
 	.4byte 0x8ECB9B91
@@ -13558,6 +13493,7 @@ glabel lbl_801841D0
 	.4byte 0x9BB68F73
 	.4byte 0x00009BB5
 	.4byte 0
+lbl_80187410:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -13686,6 +13622,7 @@ glabel lbl_801841D0
 	.4byte 0x00008AAA
 	.4byte 0x00009246
 	.4byte 0x8BD00000
+lbl_80187610:
 	.4byte 0
 	.4byte 0x8E73957A
 	.4byte 0
@@ -13814,6 +13751,7 @@ glabel lbl_801841D0
 	.4byte 0x8C9A89F4
 	.4byte 0x94550000
 	.4byte 0x9C4F93F9
+lbl_80187810:
 	.4byte 0x000095D9
 	.4byte 0x00009C50
 	.4byte 0x984D0000
@@ -13942,6 +13880,7 @@ glabel lbl_801841D0
 	.4byte 0x00009C76
 	.4byte 0x00008D9A
 	.4byte 0x00009C7C
+lbl_80187A10:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -14070,6 +14009,7 @@ glabel lbl_801841D0
 	.4byte 0x9CB79CBA
 	.4byte 0
 	.4byte 0
+lbl_80187C10:
 	.4byte 0x9CB58F44
 	.4byte 0x00009CB8
 	.4byte 0
@@ -14198,6 +14138,7 @@ glabel lbl_801841D0
 	.4byte 0x9CF00000
 	.4byte 0x9CF49CF3
 	.4byte 0x9CF59CF2
+lbl_80187E10:
 	.4byte 0x9CF60000
 	.4byte 0
 	.4byte 0
@@ -14326,6 +14267,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0
 	.4byte 0x8F459D5C
+lbl_80188010:
 	.4byte 0x00008E9D
 	.4byte 0x9D6B0000
 	.4byte 0
@@ -14454,6 +14396,7 @@ glabel lbl_801841D0
 	.4byte 0x97680000
 	.4byte 0
 	.4byte 0
+lbl_80188210:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -14582,6 +14525,7 @@ glabel lbl_801841D0
 	.4byte 0x9DB20000
 	.4byte 0x00009DB4
 	.4byte 0x8FEF0000
+lbl_80188410:
 	.4byte 0x9DB30000
 	.4byte 0
 	.4byte 0x00009DB7
@@ -14710,6 +14654,7 @@ glabel lbl_801841D0
 	.4byte 0x89A09DDF
 	.4byte 0
 	.4byte 0
+lbl_80188610:
 	.4byte 0
 	.4byte 0x8D569DDE
 	.4byte 0
@@ -14838,6 +14783,7 @@ glabel lbl_801841D0
 	.4byte 0
 	.4byte 0x99D6915D
 	.4byte 0x915C91D6
+lbl_80188810:
 	.4byte 0x8DC50000
 	.4byte 0x000098F0
 	.4byte 0
@@ -14895,7 +14841,6 @@ glabel lbl_801841D0
 	.4byte 0x00008D59
 	.4byte 0x00009474
 	.4byte 0x9E5E938C
-
 
 glabel lbl_801888F4
 	# ROM: 0x1849F4
@@ -14970,6 +14915,7 @@ glabel lbl_801888F4
 	.4byte 0x00008DB8
 	.4byte 0
 	.4byte 0x968F8A60
+lbl_80188A10:
 	.4byte 0
 	.4byte 0x92CC93C8
 	.4byte 0x89680000
@@ -15098,6 +15044,7 @@ glabel lbl_801888F4
 	.4byte 0x8ABB0000
 	.4byte 0
 	.4byte 0
+lbl_80188C10:
 	.4byte 0x986F9E96
 	.4byte 0
 	.4byte 0x9EA488D6
@@ -15226,6 +15173,7 @@ glabel lbl_801888F4
 	.4byte 0x000092CE
 	.4byte 0x00009185
 	.4byte 0x00009EDB
+lbl_80188E10:
 	.4byte 0
 	.4byte 0x9ED90000
 	.4byte 0x00009EE0
@@ -15354,6 +15302,7 @@ glabel lbl_801888F4
 	.4byte 0x9F519F4E
 	.4byte 0
 	.4byte 0
+lbl_80189010:
 	.4byte 0
 	.4byte 0
 	.4byte 0x97939F4F
@@ -15482,6 +15431,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80189210:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -15610,6 +15560,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_80189410:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -15738,6 +15689,7 @@ glabel lbl_801888F4
 	.4byte 0x9FC79359
 	.4byte 0
 	.4byte 0
+lbl_80189610:
 	.4byte 0
 	.4byte 0
 	.4byte 0x000090B4
@@ -15866,6 +15818,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0
 	.4byte 0x9FF69FDE
+lbl_80189810:
 	.4byte 0x00008B99
 	.4byte 0x95590000
 	.4byte 0
@@ -15994,6 +15947,7 @@ glabel lbl_801888F4
 	.4byte 0xE0640000
 	.4byte 0
 	.4byte 0xE0680000
+lbl_80189A10:
 	.4byte 0x0000E066
 	.4byte 0
 	.4byte 0
@@ -16122,6 +16076,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0x0000E082
 	.4byte 0
+lbl_80189C10:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -16250,6 +16205,7 @@ glabel lbl_801888F4
 	.4byte 0x0000E08E
 	.4byte 0xE09E0000
 	.4byte 0x0000E0A0
+lbl_80189E10:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -16378,6 +16334,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0x98549482
 	.4byte 0
+lbl_8018A010:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -16506,6 +16463,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0
 	.4byte 0x8CBB0000
+lbl_8018A210:
 	.4byte 0
 	.4byte 0x00008B85
 	.4byte 0x0000E0E4
@@ -16634,6 +16592,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018A410:
 	.4byte 0
 	.4byte 0x0000E14B
 	.4byte 0xE14AE14C
@@ -16762,6 +16721,7 @@ glabel lbl_801888F4
 	.4byte 0xE1830000
 	.4byte 0xE1800000
 	.4byte 0xE17DE17E
+lbl_8018A610:
 	.4byte 0x0000E181
 	.4byte 0
 	.4byte 0
@@ -16890,6 +16850,7 @@ glabel lbl_801888F4
 	.4byte 0x0000E1BB
 	.4byte 0
 	.4byte 0x8F820000
+lbl_8018A810:
 	.4byte 0x00008FC8
 	.4byte 0
 	.4byte 0xE1BE0000
@@ -17018,6 +16979,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0xE1E30000
 	.4byte 0
+lbl_8018AA10:
 	.4byte 0
 	.4byte 0x8DBB0000
 	.4byte 0
@@ -17146,6 +17108,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0x0000E242
 	.4byte 0
+lbl_8018AC10:
 	.4byte 0x00008FCA
 	.4byte 0
 	.4byte 0
@@ -17274,6 +17237,7 @@ glabel lbl_801888F4
 	.4byte 0x000088DA
 	.4byte 0
 	.4byte 0
+lbl_8018AE10:
 	.4byte 0x8B480000
 	.4byte 0
 	.4byte 0
@@ -17402,6 +17366,7 @@ glabel lbl_801888F4
 	.4byte 0x8EB10000
 	.4byte 0
 	.4byte 0x00008AC6
+lbl_8018B010:
 	.4byte 0
 	.4byte 0xE2930000
 	.4byte 0xE2A00000
@@ -17530,6 +17495,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018B210:
 	.4byte 0xE2C50000
 	.4byte 0
 	.4byte 0
@@ -17658,6 +17624,7 @@ glabel lbl_801888F4
 	.4byte 0xE2FB8C6E
 	.4byte 0
 	.4byte 0x8B8A0000
+lbl_8018B410:
 	.4byte 0x8B490000
 	.4byte 0xE3400000
 	.4byte 0x96F18D67
@@ -17786,6 +17753,7 @@ glabel lbl_801888F4
 	.4byte 0x0000E36B
 	.4byte 0
 	.4byte 0
+lbl_8018B610:
 	.4byte 0x0000898F
 	.4byte 0
 	.4byte 0x93EAE36E
@@ -17914,6 +17882,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018B810:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -18042,6 +18011,7 @@ glabel lbl_801888F4
 	.4byte 0x0000967C
 	.4byte 0x97830000
 	.4byte 0
+lbl_8018BA10:
 	.4byte 0x97739856
 	.4byte 0x00008D6C
 	.4byte 0xE3CC8ED2
@@ -18170,6 +18140,7 @@ glabel lbl_801888F4
 	.4byte 0
 	.4byte 0xE445945C
 	.4byte 0
+lbl_8018BC10:
 	.4byte 0
 	.4byte 0x8E890000
 	.4byte 0x00008BBA
@@ -18298,6 +18269,7 @@ glabel lbl_801888F4
 	.4byte 0xE469E46A
 	.4byte 0x89500000
 	.4byte 0xE46B0000
+lbl_8018BE10:
 	.4byte 0x0000E46C
 	.4byte 0xE46D0000
 	.4byte 0x0000E46E
@@ -18426,6 +18398,7 @@ glabel lbl_801888F4
 	.4byte 0xE495E498
 	.4byte 0
 	.4byte 0
+lbl_8018C010:
 	.4byte 0
 	.4byte 0x96CEE497
 	.4byte 0x89D68A9D
@@ -18554,6 +18527,7 @@ glabel lbl_801888F4
 	.4byte 0x0000E4D0
 	.4byte 0x0000E4C1
 	.4byte 0
+lbl_8018C210:
 	.4byte 0
 	.4byte 0x0000E4C2
 	.4byte 0x93B80000
@@ -18676,7 +18650,6 @@ glabel lbl_801888F4
 	.4byte 0x98400000
 	.4byte 0
 
-
 glabel lbl_8018C3F4
 	# ROM: 0x1884F4
 	.4byte 0
@@ -18686,6 +18659,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0xE4F80000
 	.4byte 0x0000E4F0
+lbl_8018C410:
 	.4byte 0x8EC10000
 	.4byte 0
 	.4byte 0
@@ -18814,6 +18788,7 @@ glabel lbl_8018C3F4
 	.4byte 0xE5619194
 	.4byte 0
 	.4byte 0xE5600000
+lbl_8018C610:
 	.4byte 0
 	.4byte 0xE5410000
 	.4byte 0
@@ -18942,6 +18917,7 @@ glabel lbl_8018C3F4
 	.4byte 0x0000E588
 	.4byte 0
 	.4byte 0x89E90000
+lbl_8018C810:
 	.4byte 0xE5860000
 	.4byte 0x9649E587
 	.4byte 0
@@ -19070,6 +19046,7 @@ glabel lbl_8018C3F4
 	.4byte 0x00008B61
 	.4byte 0
 	.4byte 0xE5B70000
+lbl_8018CA10:
 	.4byte 0
 	.4byte 0
 	.4byte 0x0000E5A2
@@ -19198,6 +19175,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0xE5E790BB
 	.4byte 0x909E0000
+lbl_8018CC10:
 	.4byte 0
 	.4byte 0xE5E60000
 	.4byte 0xE5EB0000
@@ -19326,6 +19304,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018CE10:
 	.4byte 0x8CBE0000
 	.4byte 0x92F9E65D
 	.4byte 0
@@ -19454,6 +19433,7 @@ glabel lbl_8018C3F4
 	.4byte 0x8CBF0000
 	.4byte 0
 	.4byte 0x91F80000
+lbl_8018D010:
 	.4byte 0x96648979
 	.4byte 0x88E00000
 	.4byte 0x93A30000
@@ -19582,6 +19562,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018D210:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -19710,6 +19691,7 @@ glabel lbl_8018C3F4
 	.4byte 0xE6CFE6D0
 	.4byte 0x8D77E6CE
 	.4byte 0
+lbl_8018D410:
 	.4byte 0
 	.4byte 0
 	.4byte 0xE6D1E6D2
@@ -19838,6 +19820,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0xE6F00000
 	.4byte 0x0000E6F3
+lbl_8018D610:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -19966,6 +19949,7 @@ glabel lbl_8018C3F4
 	.4byte 0x0000E765
 	.4byte 0xE7648C79
 	.4byte 0xE7670000
+lbl_8018D810:
 	.4byte 0
 	.4byte 0x00008A72
 	.4byte 0x0000E769
@@ -20094,6 +20078,7 @@ glabel lbl_8018C3F4
 	.4byte 0xE7920000
 	.4byte 0x000092C7
 	.4byte 0
+lbl_8018DA10:
 	.4byte 0x91DE9197
 	.4byte 0x000093A6
 	.4byte 0x0000E790
@@ -20222,6 +20207,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0x00009373
 	.4byte 0
+lbl_8018DC10:
 	.4byte 0
 	.4byte 0xE7BD0000
 	.4byte 0
@@ -20350,6 +20336,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0xE7DD0000
 	.4byte 0x0000E7E1
+lbl_8018DE10:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -20478,6 +20465,7 @@ glabel lbl_8018C3F4
 	.4byte 0xE7FA0000
 	.4byte 0x8D7C0000
 	.4byte 0
+lbl_8018E010:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -20606,6 +20594,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018E210:
 	.4byte 0
 	.4byte 0x0000E85E
 	.4byte 0
@@ -20734,6 +20723,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018E410:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -20862,6 +20852,7 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018E610:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -20990,6 +20981,7 @@ glabel lbl_8018C3F4
 	.4byte 0x00009364
 	.4byte 0
 	.4byte 0
+lbl_8018E810:
 	.4byte 0x8EF90000
 	.4byte 0
 	.4byte 0xE8BA0000
@@ -21118,6 +21110,7 @@ glabel lbl_8018C3F4
 	.4byte 0x00008943
 	.4byte 0
 	.4byte 0x00008BBF
+lbl_8018EA10:
 	.4byte 0x000095C5
 	.4byte 0x92B88DA0
 	.4byte 0x00008D80
@@ -21187,7 +21180,6 @@ glabel lbl_8018C3F4
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_8018EB20
 	# ROM: 0x18AC20
 	.4byte 0
@@ -21250,6 +21242,7 @@ glabel lbl_8018EB20
 	.4byte 0
 	.4byte 0x8E94964F
 	.4byte 0x8FFC0000
+lbl_8018EC10:
 	.4byte 0
 	.4byte 0x0000E94C
 	.4byte 0x000096DD
@@ -21378,6 +21371,7 @@ glabel lbl_8018EB20
 	.4byte 0x0000E972
 	.4byte 0
 	.4byte 0x00008F78
+lbl_8018EE10:
 	.4byte 0x0000E974
 	.4byte 0
 	.4byte 0x0000E976
@@ -21506,6 +21500,7 @@ glabel lbl_8018EB20
 	.4byte 0x0000E99F
 	.4byte 0
 	.4byte 0
+lbl_8018F010:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -21634,6 +21629,7 @@ glabel lbl_8018EB20
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018F210:
 	.4byte 0
 	.4byte 0
 	.4byte 0xE9D80000
@@ -21762,6 +21758,7 @@ glabel lbl_8018EB20
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018F410:
 	.4byte 0
 	.4byte 0x0000E9EE
 	.4byte 0
@@ -21890,6 +21887,7 @@ glabel lbl_8018EB20
 	.4byte 0x8DEB0000
 	.4byte 0x0000EA5E
 	.4byte 0
+lbl_8018F610:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -22018,6 +22016,7 @@ glabel lbl_8018EB20
 	.4byte 0x0000EA84
 	.4byte 0xEA85EA86
 	.4byte 0
+lbl_8018F810:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -22146,6 +22145,7 @@ glabel lbl_8018EB20
 	.4byte 0
 	.4byte 0
 	.4byte 0
+lbl_8018FA10:
 	.4byte 0x00008149
 	.4byte 0x00008194
 	.4byte 0x81908193
@@ -22275,14 +22275,13 @@ glabel lbl_8018EB20
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_8018FC10
 	# ROM: 0x18BD10
-	.4byte 0x80184210  ;# ptr
+	.4byte lbl_80184210
 	.4byte 0
 	.4byte 0
-	.4byte 0x80184410  ;# ptr
-	.4byte 0x80184610  ;# ptr
+	.4byte lbl_80184410
+	.4byte lbl_80184610
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -22310,13 +22309,13 @@ glabel lbl_8018FC10
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80184810  ;# ptr
-	.4byte 0x80184A10  ;# ptr
-	.4byte 0x80184C10  ;# ptr
-	.4byte 0x80184E10  ;# ptr
+	.4byte lbl_80184810
+	.4byte lbl_80184A10
+	.4byte lbl_80184C10
+	.4byte lbl_80184E10
 	.4byte 0
-	.4byte 0x80185010  ;# ptr
-	.4byte 0x80185210  ;# ptr
+	.4byte lbl_80185010
+	.4byte lbl_80185210
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -22326,7 +22325,7 @@ glabel lbl_8018FC10
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80185410  ;# ptr
+	.4byte lbl_80185410
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -22356,88 +22355,88 @@ glabel lbl_8018FC10
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80185610  ;# ptr
-	.4byte 0x80185810  ;# ptr
-	.4byte 0x80185A10  ;# ptr
-	.4byte 0x80185C10  ;# ptr
-	.4byte 0x80185E10  ;# ptr
-	.4byte 0x80186010  ;# ptr
-	.4byte 0x80186210  ;# ptr
-	.4byte 0x80186410  ;# ptr
-	.4byte 0x80186610  ;# ptr
-	.4byte 0x80186810  ;# ptr
-	.4byte 0x80186A10  ;# ptr
-	.4byte 0x80186C10  ;# ptr
-	.4byte 0x80186E10  ;# ptr
-	.4byte 0x80187010  ;# ptr
-	.4byte 0x80187210  ;# ptr
-	.4byte 0x80187410  ;# ptr
-	.4byte 0x80187610  ;# ptr
-	.4byte 0x80187810  ;# ptr
-	.4byte 0x80187A10  ;# ptr
-	.4byte 0x80187C10  ;# ptr
-	.4byte 0x80187E10  ;# ptr
-	.4byte 0x80188010  ;# ptr
-	.4byte 0x80188210  ;# ptr
-	.4byte 0x80188410  ;# ptr
-	.4byte 0x80188610  ;# ptr
-	.4byte 0x80188810  ;# ptr
-	.4byte 0x80188A10  ;# ptr
-	.4byte 0x80188C10  ;# ptr
-	.4byte 0x80188E10  ;# ptr
-	.4byte 0x80189010  ;# ptr
-	.4byte 0x80189210  ;# ptr
-	.4byte 0x80189410  ;# ptr
-	.4byte 0x80189610  ;# ptr
-	.4byte 0x80189810  ;# ptr
-	.4byte 0x80189A10  ;# ptr
-	.4byte 0x80189C10  ;# ptr
-	.4byte 0x80189E10  ;# ptr
-	.4byte 0x8018A010  ;# ptr
-	.4byte 0x8018A210  ;# ptr
-	.4byte 0x8018A410  ;# ptr
-	.4byte 0x8018A610  ;# ptr
-	.4byte 0x8018A810  ;# ptr
-	.4byte 0x8018AA10  ;# ptr
-	.4byte 0x8018AC10  ;# ptr
-	.4byte 0x8018AE10  ;# ptr
-	.4byte 0x8018B010  ;# ptr
-	.4byte 0x8018B210  ;# ptr
-	.4byte 0x8018B410  ;# ptr
-	.4byte 0x8018B610  ;# ptr
-	.4byte 0x8018B810  ;# ptr
-	.4byte 0x8018BA10  ;# ptr
-	.4byte 0x8018BC10  ;# ptr
-	.4byte 0x8018BE10  ;# ptr
-	.4byte 0x8018C010  ;# ptr
-	.4byte 0x8018C210  ;# ptr
-	.4byte 0x8018C410  ;# ptr
-	.4byte 0x8018C610  ;# ptr
-	.4byte 0x8018C810  ;# ptr
-	.4byte 0x8018CA10  ;# ptr
-	.4byte 0x8018CC10  ;# ptr
-	.4byte 0x8018CE10  ;# ptr
-	.4byte 0x8018D010  ;# ptr
-	.4byte 0x8018D210  ;# ptr
-	.4byte 0x8018D410  ;# ptr
-	.4byte 0x8018D610  ;# ptr
-	.4byte 0x8018D810  ;# ptr
-	.4byte 0x8018DA10  ;# ptr
-	.4byte 0x8018DC10  ;# ptr
-	.4byte 0x8018DE10  ;# ptr
-	.4byte 0x8018E010  ;# ptr
-	.4byte 0x8018E210  ;# ptr
-	.4byte 0x8018E410  ;# ptr
-	.4byte 0x8018E610  ;# ptr
-	.4byte 0x8018E810  ;# ptr
-	.4byte 0x8018EA10  ;# ptr
-	.4byte 0x8018EC10  ;# ptr
-	.4byte 0x8018EE10  ;# ptr
-	.4byte 0x8018F010  ;# ptr
-	.4byte 0x8018F210  ;# ptr
-	.4byte 0x8018F410  ;# ptr
-	.4byte 0x8018F610  ;# ptr
-	.4byte 0x8018F810  ;# ptr
+	.4byte lbl_80185610
+	.4byte lbl_80185810
+	.4byte lbl_80185A10
+	.4byte lbl_80185C10
+	.4byte lbl_80185E10
+	.4byte lbl_80186010
+	.4byte lbl_80186210
+	.4byte lbl_80186410
+	.4byte lbl_80186610
+	.4byte lbl_80186810
+	.4byte lbl_80186A10
+	.4byte lbl_80186C10
+	.4byte lbl_80186E10
+	.4byte lbl_80187010
+	.4byte lbl_80187210
+	.4byte lbl_80187410
+	.4byte lbl_80187610
+	.4byte lbl_80187810
+	.4byte lbl_80187A10
+	.4byte lbl_80187C10
+	.4byte lbl_80187E10
+	.4byte lbl_80188010
+	.4byte lbl_80188210
+	.4byte lbl_80188410
+	.4byte lbl_80188610
+	.4byte lbl_80188810
+	.4byte lbl_80188A10
+	.4byte lbl_80188C10
+	.4byte lbl_80188E10
+	.4byte lbl_80189010
+	.4byte lbl_80189210
+	.4byte lbl_80189410
+	.4byte lbl_80189610
+	.4byte lbl_80189810
+	.4byte lbl_80189A10
+	.4byte lbl_80189C10
+	.4byte lbl_80189E10
+	.4byte lbl_8018A010
+	.4byte lbl_8018A210
+	.4byte lbl_8018A410
+	.4byte lbl_8018A610
+	.4byte lbl_8018A810
+	.4byte lbl_8018AA10
+	.4byte lbl_8018AC10
+	.4byte lbl_8018AE10
+	.4byte lbl_8018B010
+	.4byte lbl_8018B210
+	.4byte lbl_8018B410
+	.4byte lbl_8018B610
+	.4byte lbl_8018B810
+	.4byte lbl_8018BA10
+	.4byte lbl_8018BC10
+	.4byte lbl_8018BE10
+	.4byte lbl_8018C010
+	.4byte lbl_8018C210
+	.4byte lbl_8018C410
+	.4byte lbl_8018C610
+	.4byte lbl_8018C810
+	.4byte lbl_8018CA10
+	.4byte lbl_8018CC10
+	.4byte lbl_8018CE10
+	.4byte lbl_8018D010
+	.4byte lbl_8018D210
+	.4byte lbl_8018D410
+	.4byte lbl_8018D610
+	.4byte lbl_8018D810
+	.4byte lbl_8018DA10
+	.4byte lbl_8018DC10
+	.4byte lbl_8018DE10
+	.4byte lbl_8018E010
+	.4byte lbl_8018E210
+	.4byte lbl_8018E410
+	.4byte lbl_8018E610
+	.4byte lbl_8018E810
+	.4byte lbl_8018EA10
+	.4byte lbl_8018EC10
+	.4byte lbl_8018EE10
+	.4byte lbl_8018F010
+	.4byte lbl_8018F210
+	.4byte lbl_8018F410
+	.4byte lbl_8018F610
+	.4byte lbl_8018F810
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -22533,65 +22532,55 @@ glabel lbl_8018FC10
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8018FA10  ;# ptr
-
+	.4byte lbl_8018FA10
 
 glabel lbl_80190010
 	# ROM: 0x18C110
 	.asciz "/dev/stm/immediate"
 	.balign 4
 
-
 glabel lbl_80190024
 	# ROM: 0x18C124
 	.asciz "/dev/stm/eventhook"
 	.balign 4
 
-
 glabel lbl_80190038
 	# ROM: 0x18C138
 	.asciz "OSStateTM.c"
-
 
 glabel lbl_80190044
 	# ROM: 0x18C144
 	.asciz "Error: The firmware doesn't support shutdown feature.\n"
 	.balign 4
 
-
 glabel lbl_8019007C
 	# ROM: 0x18C17C
 	.asciz "Error: The firmware doesn't support reboot feature.\n"
 	.balign 4
-
 
 glabel lbl_801900B4
 	# ROM: 0x18C1B4
 	.asciz "Error on STM state event handler\n"
 	.balign 4
 
-
 glabel lbl_801900D8
 	# ROM: 0x18C1D8
 	.asciz "/title/00000001/00000002/data/play_rec.dat"
 	.balign 4
 
-
 glabel lbl_80190104
 	# ROM: 0x18C204
-	.4byte 0x80099DF4  ;# ptr
-	.4byte 0x80099E00  ;# ptr
-	.4byte 0x80099E7C  ;# ptr
-	.4byte 0x80099EC0  ;# ptr
-	.4byte 0x80099EE8  ;# ptr
-	.4byte 0x80099EF4  ;# ptr
-	.4byte 0x80099F7C  ;# ptr
-
+	.4byte lbl_80099DF4
+	.4byte lbl_80099E00
+	.4byte lbl_80099E7C
+	.4byte lbl_80099EC0
+	.4byte lbl_80099EE8
+	.4byte lbl_80099EF4
+	.4byte lbl_80099F7C
 
 glabel lbl_80190120
 	# ROM: 0x18C220
 	.asciz "/title/00000001/00000002/data/state.dat"
-
 
 glabel lbl_80190148
 	# ROM: 0x18C248
@@ -22604,7 +22593,6 @@ glabel lbl_80190148
 	.asciz "NWC24iPrepareShutdown"
 	.balign 4
 
-
 glabel lbl_80190208
 	# ROM: 0x18C308
 	.asciz "/dev/net/kd/request"
@@ -22615,7 +22603,6 @@ glabel lbl_80190208
 	.asciz "NWC24iRequestShutdown"
 	.balign 4
 
-
 glabel lbl_80190264
 	# ROM: 0x18C364
 	.asciz "NWC24Shutdown_: Give up!\n"
@@ -22623,21 +22610,22 @@ glabel lbl_80190264
 	.asciz "NWC24iSetRtcCounter_"
 	.balign 4
 
-
 glabel lbl_80190298
 	# ROM: 0x18C398
 	.asciz "/dev/net/kd/time"
 	.balign 8
 
-
 glabel lbl_801902B0
 	# ROM: 0x18C3B0
 	.asciz "/shared2/sys/NANDBOOTINFO"
 	.balign 8
+
+glabel lbl_801902D0
 	.asciz "<< RVL_SDK - EXI \trelease build: Nov 30 2006 03:26:56 (0x4199_60831) >>"
+
+glabel lbl_80190318
 	.asciz "<< RVL_SDK - SI \trelease build: Nov 30 2006 03:31:44 (0x4199_60831) >>"
 	.balign 4
-
 
 glabel lbl_80190360
 	# ROM: 0x18C460
@@ -22648,14 +22636,12 @@ glabel lbl_80190360
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80190378
 	# ROM: 0x18C478
 	.4byte 0x00000008
 	.4byte 0x00000008
 	.4byte 0x00000008
 	.4byte 0x00000008
-
 
 glabel lbl_80190388
 	# ROM: 0x18C488
@@ -22686,17 +22672,14 @@ glabel lbl_80190388
 	.asciz "SISetSamplingRate: unknown TV format. Use default."
 	.balign 8
 
-
 glabel lbl_80190420
 	# ROM: 0x18C520
 	.asciz "DBExceptionDestination\n"
-
 
 glabel lbl_80190438
 	# ROM: 0x18C538
 	.asciz "<< RVL_SDK - VI \trelease build: Nov 30 2006 03:31:49 (0x4199_60831) >>"
 	.balign 4
-
 
 glabel lbl_80190480
 	# ROM: 0x18C580
@@ -22806,7 +22789,6 @@ glabel lbl_80190480
 	.4byte 0x017C7A00
 	.4byte 0x019C0000
 
-
 glabel lbl_80190624
 	# ROM: 0x18C724
 	.4byte 0x01F001DC
@@ -22823,72 +22805,68 @@ glabel lbl_80190624
 	.4byte 0x000C0008
 	.4byte 0x00010000
 
-
 glabel lbl_80190658
 	# ROM: 0x18C758
-	.4byte 0x8009E440  ;# ptr
+	.4byte lbl_8009E440
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80190668
 	# ROM: 0x18C768
-	.4byte 0x8009E91C  ;# ptr
-	.4byte 0x8009E924  ;# ptr
-	.4byte 0x8009E92C  ;# ptr
-	.4byte 0x8009E91C  ;# ptr
-	.4byte 0x8009E924  ;# ptr
-	.4byte 0x8009E92C  ;# ptr
-	.4byte 0x8009E91C  ;# ptr
-	.4byte 0x8009E91C  ;# ptr
-
+	.4byte lbl_8009E91C
+	.4byte lbl_8009E924
+	.4byte lbl_8009E92C
+	.4byte lbl_8009E91C
+	.4byte lbl_8009E924
+	.4byte lbl_8009E92C
+	.4byte lbl_8009E91C
+	.4byte lbl_8009E91C
 
 glabel lbl_80190688
 	# ROM: 0x18C788
-	.4byte 0x8009EE8C  ;# ptr
-	.4byte 0x8009EE98  ;# ptr
-	.4byte 0x8009EF04  ;# ptr
-	.4byte 0x8009EF14  ;# ptr
-	.4byte 0x8009EEA8  ;# ptr
-	.4byte 0x8009EEB8  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EEE4  ;# ptr
-	.4byte 0x8009EEF4  ;# ptr
-	.4byte 0x8009EF04  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF24  ;# ptr
-	.4byte 0x8009EF34  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EEC8  ;# ptr
-	.4byte 0x8009EED4  ;# ptr
-	.4byte 0x8009EF04  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF44  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF54  ;# ptr
-	.4byte 0x8009EF6C  ;# ptr
-	.4byte 0x8009EF64  ;# ptr
-	.4byte 0x8009EF64  ;# ptr
-	.4byte 0x8009EF64  ;# ptr
-
+	.4byte lbl_8009EE8C
+	.4byte lbl_8009EE98
+	.4byte lbl_8009EF04
+	.4byte lbl_8009EF14
+	.4byte lbl_8009EEA8
+	.4byte lbl_8009EEB8
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EEE4
+	.4byte lbl_8009EEF4
+	.4byte lbl_8009EF04
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF24
+	.4byte lbl_8009EF34
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EEC8
+	.4byte lbl_8009EED4
+	.4byte lbl_8009EF04
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF44
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF54
+	.4byte lbl_8009EF6C
+	.4byte lbl_8009EF64
+	.4byte lbl_8009EF64
+	.4byte lbl_8009EF64
 
 glabel lbl_80190704
 	# ROM: 0x18C804
-	.4byte 0x8009F614  ;# ptr
-	.4byte 0x8009F61C  ;# ptr
-	.4byte 0x8009F624  ;# ptr
-	.4byte 0x8009F614  ;# ptr
-	.4byte 0x8009F61C  ;# ptr
-	.4byte 0x8009F624  ;# ptr
-	.4byte 0x8009F614  ;# ptr
-	.4byte 0x8009F614  ;# ptr
+	.4byte lbl_8009F614
+	.4byte lbl_8009F61C
+	.4byte lbl_8009F624
+	.4byte lbl_8009F614
+	.4byte lbl_8009F61C
+	.4byte lbl_8009F624
+	.4byte lbl_8009F614
+	.4byte lbl_8009F614
 	.asciz "***************************************\n"
 	.balign 4
 	.asciz " ! ! ! C A U T I O N ! ! !             \n"
@@ -22904,30 +22882,27 @@ glabel lbl_80190704
 	.asciz "VIConfigure(): Tried to change mode from (%d) to (%d), which is forbidden\n"
 	.balign 4
 
-
 glabel lbl_80190878
 	# ROM: 0x18C978
-	.4byte 0x800A09BC  ;# ptr
-	.4byte 0x800A09C4  ;# ptr
-	.4byte 0x800A09C8  ;# ptr
-	.4byte 0x800A09BC  ;# ptr
-	.4byte 0x800A09C4  ;# ptr
-	.4byte 0x800A09C8  ;# ptr
-	.4byte 0x800A09BC  ;# ptr
-	.4byte 0x800A09BC  ;# ptr
-
+	.4byte lbl_800A09BC
+	.4byte lbl_800A09C4
+	.4byte lbl_800A09C8
+	.4byte lbl_800A09BC
+	.4byte lbl_800A09C4
+	.4byte lbl_800A09C8
+	.4byte lbl_800A09BC
+	.4byte lbl_800A09BC
 
 glabel lbl_80190898
 	# ROM: 0x18C998
-	.4byte 0x800A0C98  ;# ptr
-	.4byte 0x800A0CA0  ;# ptr
-	.4byte 0x800A0CA4  ;# ptr
-	.4byte 0x800A0C98  ;# ptr
-	.4byte 0x800A0CA0  ;# ptr
-	.4byte 0x800A0CA4  ;# ptr
-	.4byte 0x800A0C98  ;# ptr
-	.4byte 0x800A0C98  ;# ptr
-
+	.4byte lbl_800A0C98
+	.4byte lbl_800A0CA0
+	.4byte lbl_800A0CA4
+	.4byte lbl_800A0C98
+	.4byte lbl_800A0CA0
+	.4byte lbl_800A0CA4
+	.4byte lbl_800A0C98
+	.4byte lbl_800A0C98
 
 glabel lbl_801908B8
 	# ROM: 0x18C9B8
@@ -23023,7 +22998,7 @@ glabel lbl_801908B8
 	.4byte 0x80A0EB00
 	.4byte 0x10002000
 	.4byte 0x40006000
-	.4byte 0x8000A000  ;# ptr
+	.4byte lbl_8000A000
 	.4byte 0xEB0014EC
 	.4byte 0x11C21078
 	.4byte 0x0FB60F2F
@@ -23294,7 +23269,6 @@ glabel lbl_801908B8
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80190E60
 	# ROM: 0x18CF60
 	.asciz "<< RVL_SDK - GX \trelease build: Nov 30 2006 03:30:39 (0x4199_60831) >>"
@@ -23374,7 +23348,6 @@ glabel lbl_80190E60
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80190FD0
 	# ROM: 0x18D0D0
 	.4byte 0
@@ -23426,130 +23399,122 @@ glabel lbl_80190FD0
 	.4byte 0x000A0000
 	.4byte 0x00070000
 
-
 glabel lbl_80191090
 	# ROM: 0x18D190
-	.4byte 0x800A3644  ;# ptr
+	.4byte lbl_800A3644
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_801910A0
 	# ROM: 0x18D1A0
 	.asciz "CPUFifo: %08X - %08X\n"
 	.balign 4
 
-
 glabel lbl_801910B8
 	# ROM: 0x18D1B8
 	.asciz "GP Fifo: %08X - %08X\n"
 	.balign 4
 
-
 glabel lbl_801910D0
 	# ROM: 0x18D1D0
-	.4byte 0x800A50D0  ;# ptr
-	.4byte 0x800A50E4  ;# ptr
-	.4byte 0x800A50F8  ;# ptr
-	.4byte 0x800A510C  ;# ptr
-	.4byte 0x800A5120  ;# ptr
-	.4byte 0x800A5134  ;# ptr
-	.4byte 0x800A5148  ;# ptr
-	.4byte 0x800A515C  ;# ptr
-	.4byte 0x800A5170  ;# ptr
-	.4byte 0x800A5184  ;# ptr
-	.4byte 0x800A5198  ;# ptr
-	.4byte 0x800A5200  ;# ptr
-	.4byte 0x800A5214  ;# ptr
-	.4byte 0x800A5228  ;# ptr
-	.4byte 0x800A523C  ;# ptr
-	.4byte 0x800A5250  ;# ptr
-	.4byte 0x800A5264  ;# ptr
-	.4byte 0x800A5278  ;# ptr
-	.4byte 0x800A528C  ;# ptr
-	.4byte 0x800A52A0  ;# ptr
-	.4byte 0x800A52B4  ;# ptr
-	.4byte 0x800A52C4  ;# ptr
-	.4byte 0x800A52C4  ;# ptr
-	.4byte 0x800A52C4  ;# ptr
-	.4byte 0x800A52C4  ;# ptr
-	.4byte 0x800A51CC  ;# ptr
-
+	.4byte lbl_800A50D0
+	.4byte lbl_800A50E4
+	.4byte lbl_800A50F8
+	.4byte lbl_800A510C
+	.4byte lbl_800A5120
+	.4byte lbl_800A5134
+	.4byte lbl_800A5148
+	.4byte lbl_800A515C
+	.4byte lbl_800A5170
+	.4byte lbl_800A5184
+	.4byte lbl_800A5198
+	.4byte lbl_800A5200
+	.4byte lbl_800A5214
+	.4byte lbl_800A5228
+	.4byte lbl_800A523C
+	.4byte lbl_800A5250
+	.4byte lbl_800A5264
+	.4byte lbl_800A5278
+	.4byte lbl_800A528C
+	.4byte lbl_800A52A0
+	.4byte lbl_800A52B4
+	.4byte lbl_800A52C4
+	.4byte lbl_800A52C4
+	.4byte lbl_800A52C4
+	.4byte lbl_800A52C4
+	.4byte lbl_800A51CC
 
 glabel lbl_80191138
 	# ROM: 0x18D238
-	.4byte 0x800A5554  ;# ptr
-	.4byte 0x800A556C  ;# ptr
-	.4byte 0x800A55A8  ;# ptr
-	.4byte 0x800A55BC  ;# ptr
-	.4byte 0x800A55D0  ;# ptr
-	.4byte 0x800A55E8  ;# ptr
-	.4byte 0x800A5600  ;# ptr
-	.4byte 0x800A5618  ;# ptr
-	.4byte 0x800A5630  ;# ptr
-	.4byte 0x800A5650  ;# ptr
-	.4byte 0x800A5668  ;# ptr
-	.4byte 0x800A5680  ;# ptr
-	.4byte 0x800A5694  ;# ptr
-	.4byte 0x800A5694  ;# ptr
-	.4byte 0x800A5694  ;# ptr
-	.4byte 0x800A5694  ;# ptr
-	.4byte 0x800A556C  ;# ptr
-	.4byte 0x800A5708  ;# ptr
-	.4byte 0x800A5720  ;# ptr
-	.4byte 0x800A575C  ;# ptr
-	.4byte 0x800A5770  ;# ptr
-	.4byte 0x800A5784  ;# ptr
-	.4byte 0x800A579C  ;# ptr
-	.4byte 0x800A57B4  ;# ptr
-	.4byte 0x800A57CC  ;# ptr
-	.4byte 0x800A57E4  ;# ptr
-	.4byte 0x800A5804  ;# ptr
-	.4byte 0x800A581C  ;# ptr
-	.4byte 0x800A5834  ;# ptr
-	.4byte 0x800A5848  ;# ptr
-	.4byte 0x800A5848  ;# ptr
-	.4byte 0x800A5848  ;# ptr
-	.4byte 0x800A5848  ;# ptr
-	.4byte 0x800A5720  ;# ptr
-
+	.4byte lbl_800A5554
+	.4byte lbl_800A556C
+	.4byte lbl_800A55A8
+	.4byte lbl_800A55BC
+	.4byte lbl_800A55D0
+	.4byte lbl_800A55E8
+	.4byte lbl_800A5600
+	.4byte lbl_800A5618
+	.4byte lbl_800A5630
+	.4byte lbl_800A5650
+	.4byte lbl_800A5668
+	.4byte lbl_800A5680
+	.4byte lbl_800A5694
+	.4byte lbl_800A5694
+	.4byte lbl_800A5694
+	.4byte lbl_800A5694
+	.4byte lbl_800A556C
+	.4byte lbl_800A5708
+	.4byte lbl_800A5720
+	.4byte lbl_800A575C
+	.4byte lbl_800A5770
+	.4byte lbl_800A5784
+	.4byte lbl_800A579C
+	.4byte lbl_800A57B4
+	.4byte lbl_800A57CC
+	.4byte lbl_800A57E4
+	.4byte lbl_800A5804
+	.4byte lbl_800A581C
+	.4byte lbl_800A5834
+	.4byte lbl_800A5848
+	.4byte lbl_800A5848
+	.4byte lbl_800A5848
+	.4byte lbl_800A5848
+	.4byte lbl_800A5720
 
 glabel lbl_801911C0
 	# ROM: 0x18D2C0
-	.4byte 0x800A5AF4  ;# ptr
-	.4byte 0x800A5B04  ;# ptr
-	.4byte 0x800A5B14  ;# ptr
-	.4byte 0x800A5B24  ;# ptr
-	.4byte 0x800A5B34  ;# ptr
-	.4byte 0x800A5B44  ;# ptr
-	.4byte 0x800A5B54  ;# ptr
-
+	.4byte lbl_800A5AF4
+	.4byte lbl_800A5B04
+	.4byte lbl_800A5B14
+	.4byte lbl_800A5B24
+	.4byte lbl_800A5B34
+	.4byte lbl_800A5B44
+	.4byte lbl_800A5B54
 
 glabel lbl_801911DC
 	# ROM: 0x18D2DC
-	.4byte 0x800A5984  ;# ptr
-	.4byte 0x800A5990  ;# ptr
-	.4byte 0x800A599C  ;# ptr
-	.4byte 0x800A59A8  ;# ptr
-	.4byte 0x800A59C4  ;# ptr
-	.4byte 0x800A59CC  ;# ptr
-	.4byte 0x800A59D4  ;# ptr
-	.4byte 0x800A59DC  ;# ptr
-	.4byte 0x800A59E4  ;# ptr
-	.4byte 0x800A59EC  ;# ptr
-	.4byte 0x800A59F4  ;# ptr
-	.4byte 0x800A59FC  ;# ptr
-	.4byte 0x800A5A00  ;# ptr
-	.4byte 0x800A5A00  ;# ptr
-	.4byte 0x800A5A00  ;# ptr
-	.4byte 0x800A5A00  ;# ptr
-	.4byte 0x800A5A00  ;# ptr
-	.4byte 0x800A5A00  ;# ptr
-	.4byte 0x800A5A00  ;# ptr
-	.4byte 0x800A59B4  ;# ptr
-	.4byte 0x800A59BC  ;# ptr
-
+	.4byte lbl_800A5984
+	.4byte lbl_800A5990
+	.4byte lbl_800A599C
+	.4byte lbl_800A59A8
+	.4byte lbl_800A59C4
+	.4byte lbl_800A59CC
+	.4byte lbl_800A59D4
+	.4byte lbl_800A59DC
+	.4byte lbl_800A59E4
+	.4byte lbl_800A59EC
+	.4byte lbl_800A59F4
+	.4byte lbl_800A59FC
+	.4byte lbl_800A5A00
+	.4byte lbl_800A5A00
+	.4byte lbl_800A5A00
+	.4byte lbl_800A5A00
+	.4byte lbl_800A5A00
+	.4byte lbl_800A5A00
+	.4byte lbl_800A5A00
+	.4byte lbl_800A59B4
+	.4byte lbl_800A59BC
 
 glabel lbl_80191230
 	# ROM: 0x18D330
@@ -23569,7 +23534,6 @@ glabel lbl_80191230
 	.4byte 0x0A0C0A08
 	.4byte 0x08000000
 
-
 glabel lbl_8019126C
 	# ROM: 0x18D36C
 	.4byte 0x00000002
@@ -23587,7 +23551,6 @@ glabel lbl_8019126C
 	.4byte 0x06060000
 	.4byte 0x15161500
 	.4byte 0
-
 
 glabel lbl_801912A8
 	# ROM: 0x18D3A8
@@ -23607,7 +23570,6 @@ glabel lbl_801912A8
 	.4byte 0x0A0C0A08
 	.4byte 0x08000000
 
-
 glabel lbl_801912E4
 	# ROM: 0x18D3E4
 	.4byte 0x00000004
@@ -23625,7 +23587,6 @@ glabel lbl_801912E4
 	.4byte 0x06060808
 	.4byte 0x0A0C0A08
 	.4byte 0x08000000
-
 
 glabel lbl_80191320
 	# ROM: 0x18D420
@@ -23646,90 +23607,87 @@ glabel lbl_80191320
 	.4byte 0x08000000
 	.4byte 0
 
-
 glabel lbl_80191360
 	# ROM: 0x18D460
-	.4byte 0x800A7834  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7834  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7834  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7834  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7834  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A7840  ;# ptr
-	.4byte 0x800A7858  ;# ptr
-	.4byte 0x800A784C  ;# ptr
-
+	.4byte lbl_800A7834
+	.4byte lbl_800A7840
+	.4byte lbl_800A7840
+	.4byte lbl_800A784C
+	.4byte lbl_800A784C
+	.4byte lbl_800A784C
+	.4byte lbl_800A784C
+	.4byte lbl_800A7858
+	.4byte lbl_800A7834
+	.4byte lbl_800A7840
+	.4byte lbl_800A784C
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7834
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7840
+	.4byte lbl_800A7858
+	.4byte lbl_800A784C
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A784C
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7834
+	.4byte lbl_800A7858
+	.4byte lbl_800A7840
+	.4byte lbl_800A784C
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7840
+	.4byte lbl_800A7840
+	.4byte lbl_800A7840
+	.4byte lbl_800A7840
+	.4byte lbl_800A784C
+	.4byte lbl_800A784C
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7834
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7858
+	.4byte lbl_800A7840
+	.4byte lbl_800A7840
+	.4byte lbl_800A7858
+	.4byte lbl_800A784C
 
 glabel lbl_80191454
 	# ROM: 0x18D554
-	.4byte 0x800A7A18  ;# ptr
-	.4byte 0x800A7A2C  ;# ptr
-	.4byte 0x800A7A2C  ;# ptr
-	.4byte 0x800A7A40  ;# ptr
-	.4byte 0x800A7A40  ;# ptr
-	.4byte 0x800A7A40  ;# ptr
-	.4byte 0x800A7A54  ;# ptr
-	.4byte 0x800A7A7C  ;# ptr
-	.4byte 0x800A7A18  ;# ptr
-	.4byte 0x800A7A2C  ;# ptr
-	.4byte 0x800A7A40  ;# ptr
-	.4byte 0x800A7A7C  ;# ptr
-	.4byte 0x800A7A7C  ;# ptr
-	.4byte 0x800A7A7C  ;# ptr
-	.4byte 0x800A7A68  ;# ptr
-
+	.4byte lbl_800A7A18
+	.4byte lbl_800A7A2C
+	.4byte lbl_800A7A2C
+	.4byte lbl_800A7A40
+	.4byte lbl_800A7A40
+	.4byte lbl_800A7A40
+	.4byte lbl_800A7A54
+	.4byte lbl_800A7A7C
+	.4byte lbl_800A7A18
+	.4byte lbl_800A7A2C
+	.4byte lbl_800A7A40
+	.4byte lbl_800A7A7C
+	.4byte lbl_800A7A7C
+	.4byte lbl_800A7A7C
+	.4byte lbl_800A7A68
 
 glabel lbl_80191490
 	# ROM: 0x18D590
@@ -23754,7 +23712,6 @@ glabel lbl_80191490
 	.4byte 0xC108FFC0
 	.4byte 0xC108FF80
 
-
 glabel lbl_801914E0
 	# ROM: 0x18D5E0
 	.4byte 0
@@ -23768,7 +23725,6 @@ glabel lbl_801914E0
 	.4byte 0x00000006
 	.4byte 0
 
-
 glabel lbl_80191508
 	# ROM: 0x18D608
 	.4byte 0
@@ -23780,257 +23736,249 @@ glabel lbl_80191508
 	.4byte 0x00000004
 	.4byte 0x00000005
 
-
 glabel lbl_80191528
 	# ROM: 0x18D628
-	.4byte 0x800AA104  ;# ptr
-	.4byte 0x800AA120  ;# ptr
-	.4byte 0x800AA13C  ;# ptr
-	.4byte 0x800AA158  ;# ptr
-	.4byte 0x800AA1AC  ;# ptr
-	.4byte 0x800AA1C8  ;# ptr
-	.4byte 0x800AA1E4  ;# ptr
-	.4byte 0x800AA200  ;# ptr
-	.4byte 0x800AA174  ;# ptr
-	.4byte 0x800AA21C  ;# ptr
-	.4byte 0x800AA24C  ;# ptr
-	.4byte 0x800AA27C  ;# ptr
-	.4byte 0x800AA2AC  ;# ptr
-	.4byte 0x800AA2DC  ;# ptr
-	.4byte 0x800AA30C  ;# ptr
-	.4byte 0x800AA33C  ;# ptr
-	.4byte 0x800AA36C  ;# ptr
-	.4byte 0x800AA398  ;# ptr
-	.4byte 0x800AA3A8  ;# ptr
-	.4byte 0x800AA3B8  ;# ptr
-	.4byte 0x800AA3C8  ;# ptr
-	.4byte 0x800AA190  ;# ptr
-	.4byte 0x800AA3D4  ;# ptr
-
+	.4byte lbl_800AA104
+	.4byte lbl_800AA120
+	.4byte lbl_800AA13C
+	.4byte lbl_800AA158
+	.4byte lbl_800AA1AC
+	.4byte lbl_800AA1C8
+	.4byte lbl_800AA1E4
+	.4byte lbl_800AA200
+	.4byte lbl_800AA174
+	.4byte lbl_800AA21C
+	.4byte lbl_800AA24C
+	.4byte lbl_800AA27C
+	.4byte lbl_800AA2AC
+	.4byte lbl_800AA2DC
+	.4byte lbl_800AA30C
+	.4byte lbl_800AA33C
+	.4byte lbl_800AA36C
+	.4byte lbl_800AA398
+	.4byte lbl_800AA3A8
+	.4byte lbl_800AA3B8
+	.4byte lbl_800AA3C8
+	.4byte lbl_800AA190
+	.4byte lbl_800AA3D4
 
 glabel lbl_80191584
 	# ROM: 0x18D684
-	.4byte 0x800A9CE0  ;# ptr
-	.4byte 0x800A9D00  ;# ptr
-	.4byte 0x800A9D20  ;# ptr
-	.4byte 0x800A9D40  ;# ptr
-	.4byte 0x800A9D60  ;# ptr
-	.4byte 0x800A9D80  ;# ptr
-	.4byte 0x800A9DA0  ;# ptr
-	.4byte 0x800A9DC0  ;# ptr
-	.4byte 0x800A9DE0  ;# ptr
-	.4byte 0x800A9E00  ;# ptr
-	.4byte 0x800A9E40  ;# ptr
-	.4byte 0x800A9E60  ;# ptr
-	.4byte 0x800A9E7C  ;# ptr
-	.4byte 0x800A9E98  ;# ptr
-	.4byte 0x800A9EB4  ;# ptr
-	.4byte 0x800A9ED0  ;# ptr
-	.4byte 0x800A9EEC  ;# ptr
-	.4byte 0x800A9F08  ;# ptr
-	.4byte 0x800A9F24  ;# ptr
-	.4byte 0x800A9F40  ;# ptr
-	.4byte 0x800A9F5C  ;# ptr
-	.4byte 0x800A9F78  ;# ptr
-	.4byte 0x800A9F94  ;# ptr
-	.4byte 0x800A9FB0  ;# ptr
-	.4byte 0x800A9FCC  ;# ptr
-	.4byte 0x800A9FE8  ;# ptr
-	.4byte 0x800AA004  ;# ptr
-	.4byte 0x800AA020  ;# ptr
-	.4byte 0x800AA03C  ;# ptr
-	.4byte 0x800AA058  ;# ptr
-	.4byte 0x800AA074  ;# ptr
-	.4byte 0x800AA090  ;# ptr
-	.4byte 0x800AA0AC  ;# ptr
-	.4byte 0x800AA0C8  ;# ptr
-	.4byte 0x800A9E20  ;# ptr
-	.4byte 0x800AA0E0  ;# ptr
+	.4byte lbl_800A9CE0
+	.4byte lbl_800A9D00
+	.4byte lbl_800A9D20
+	.4byte lbl_800A9D40
+	.4byte lbl_800A9D60
+	.4byte lbl_800A9D80
+	.4byte lbl_800A9DA0
+	.4byte lbl_800A9DC0
+	.4byte lbl_800A9DE0
+	.4byte lbl_800A9E00
+	.4byte lbl_800A9E40
+	.4byte lbl_800A9E60
+	.4byte lbl_800A9E7C
+	.4byte lbl_800A9E98
+	.4byte lbl_800A9EB4
+	.4byte lbl_800A9ED0
+	.4byte lbl_800A9EEC
+	.4byte lbl_800A9F08
+	.4byte lbl_800A9F24
+	.4byte lbl_800A9F40
+	.4byte lbl_800A9F5C
+	.4byte lbl_800A9F78
+	.4byte lbl_800A9F94
+	.4byte lbl_800A9FB0
+	.4byte lbl_800A9FCC
+	.4byte lbl_800A9FE8
+	.4byte lbl_800AA004
+	.4byte lbl_800AA020
+	.4byte lbl_800AA03C
+	.4byte lbl_800AA058
+	.4byte lbl_800AA074
+	.4byte lbl_800AA090
+	.4byte lbl_800AA0AC
+	.4byte lbl_800AA0C8
+	.4byte lbl_800A9E20
+	.4byte lbl_800AA0E0
 	.4byte 0
 	.asciz "DVDConvertEntrynumToPath(possibly DVDOpen or DVDChangeDir or DVDOpenDir): specified directory or file (%s) doesn't match standard 8.3 format. This is a temporary restriction and will be removed soon\n"
-
 
 glabel lbl_801916E0
 	# ROM: 0x18D7E0
 	.asciz "DVDReadAsync(): specified area is out of the file  "
-
 
 glabel lbl_80191714
 	# ROM: 0x18D814
 	.asciz "DVDRead(): specified area is out of the file  "
 	.balign 4
 
-
 glabel lbl_80191744
 	# ROM: 0x18D844
 	.asciz "Warning: DVDOpenDir(): file '%s' was not found under %s.\n"
 	.balign 4
-	.asciz "<< RVL_SDK - DVD \trelease build: Apr 24 2007 11:44:29 (0x4199_60831) >>"
 
+glabel lbl_80191780
+	.asciz "<< RVL_SDK - DVD \trelease build: Apr 24 2007 11:44:29 (0x4199_60831) >>"
 
 glabel lbl_801917C8
 	# ROM: 0x18D8C8
 	.asciz "DVDChangeDisk(): FST in the new disc is too big.   "
 
-
 glabel lbl_801917FC
 	# ROM: 0x18D8FC
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFE4  ;# ptr
-	.4byte 0x800ACFE4  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACF90  ;# ptr
-	.4byte 0x800ACF90  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACF90  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACF90  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFF0  ;# ptr
-	.4byte 0x800ACFC4  ;# ptr
-	.4byte 0x800ACF90  ;# ptr
-	.4byte 0x800ACF90  ;# ptr
-	.4byte 0x800ACFCC  ;# ptr
-	.4byte 0x800ACFCC  ;# ptr
-	.4byte 0x800ACF90  ;# ptr
-	.4byte 0x800ACFCC  ;# ptr
-
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFE4
+	.4byte lbl_800ACFE4
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACF90
+	.4byte lbl_800ACF90
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACF90
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACF90
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFF0
+	.4byte lbl_800ACFC4
+	.4byte lbl_800ACF90
+	.4byte lbl_800ACF90
+	.4byte lbl_800ACFCC
+	.4byte lbl_800ACFCC
+	.4byte lbl_800ACF90
+	.4byte lbl_800ACFCC
 
 glabel lbl_80191898
 	# ROM: 0x18D998
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800ADCC4  ;# ptr
-	.4byte 0x800ADDEC  ;# ptr
-	.4byte 0x800ADE08  ;# ptr
-	.4byte 0x800ADCC4  ;# ptr
-	.4byte 0x800ADCA0  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800ADE38  ;# ptr
-	.4byte 0x800ADE58  ;# ptr
-	.4byte 0x800ADE20  ;# ptr
-	.4byte 0x800ADE7C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800AE05C  ;# ptr
-	.4byte 0x800ADE9C  ;# ptr
-	.4byte 0x800ADEB4  ;# ptr
-	.4byte 0x800ADFDC  ;# ptr
-	.4byte 0x800AE008  ;# ptr
-	.4byte 0x800AE030  ;# ptr
-	.4byte 0x800AE040  ;# ptr
-	.4byte 0x800AE020  ;# ptr
+	.4byte lbl_800AE05C
+	.4byte lbl_800ADCC4
+	.4byte lbl_800ADDEC
+	.4byte lbl_800ADE08
+	.4byte lbl_800ADCC4
+	.4byte lbl_800ADCA0
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800ADE38
+	.4byte lbl_800ADE58
+	.4byte lbl_800ADE20
+	.4byte lbl_800ADE7C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800AE05C
+	.4byte lbl_800ADE9C
+	.4byte lbl_800ADEB4
+	.4byte lbl_800ADFDC
+	.4byte lbl_800AE008
+	.4byte lbl_800AE030
+	.4byte lbl_800AE040
+	.4byte lbl_800AE020
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF
-
 
 glabel lbl_80191940
 	# ROM: 0x18DA40
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AED94  ;# ptr
-	.4byte 0x800AED94  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AED74  ;# ptr
-	.4byte 0x800AED74  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AED74  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AED74  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AED74  ;# ptr
-	.4byte 0x800AED74  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AEDF4  ;# ptr
-	.4byte 0x800AED74  ;# ptr
-
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AED94
+	.4byte lbl_800AED94
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AED74
+	.4byte lbl_800AED74
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AED74
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AED74
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AED74
+	.4byte lbl_800AED74
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AEDF4
+	.4byte lbl_800AED74
 
 glabel lbl_801919D8
 	# ROM: 0x18DAD8
-	.4byte 0x800AEC90  ;# ptr
-	.4byte 0x800AEC90  ;# ptr
-	.4byte 0x800AECB0  ;# ptr
-	.4byte 0x800AED04  ;# ptr
-	.4byte 0x800AED50  ;# ptr
-	.4byte 0x800AEE20  ;# ptr
-	.4byte 0x800AEE20  ;# ptr
-	.4byte 0x800AEE20  ;# ptr
-	.4byte 0x800AEE20  ;# ptr
-	.4byte 0x800AEF6C  ;# ptr
-	.4byte 0x800AEF6C  ;# ptr
-	.4byte 0x800AEC90  ;# ptr
-	.4byte 0x800AEE20  ;# ptr
-	.4byte 0x800AEF1C  ;# ptr
-
+	.4byte lbl_800AEC90
+	.4byte lbl_800AEC90
+	.4byte lbl_800AECB0
+	.4byte lbl_800AED04
+	.4byte lbl_800AED50
+	.4byte lbl_800AEE20
+	.4byte lbl_800AEE20
+	.4byte lbl_800AEE20
+	.4byte lbl_800AEE20
+	.4byte lbl_800AEF6C
+	.4byte lbl_800AEF6C
+	.4byte lbl_800AEC90
+	.4byte lbl_800AEE20
+	.4byte lbl_800AEF1C
 
 glabel lbl_80191A10
 	# ROM: 0x18DB10
 	.asciz "/shared2/test2/dvderror.dat"
 
-
 glabel lbl_80191A2C
 	# ROM: 0x18DB2C
 	.asciz "/shared2/test2"
 	.balign 8
+
+glabel lbl_80191A40
 	.4byte 0x0A0A0A83
 	.4byte 0x47838981
 	.4byte 0x5B82AA94
@@ -24067,7 +24015,11 @@ glabel lbl_80191A2C
 	.4byte 0x82AD82BE
 	.4byte 0x82B382A2
 	.4byte 0x81420000
+
+glabel lbl_80191AD0
 	.asciz "\n\n\nAn error has occurred.\nPress the Eject Button, remove the\nGame Disc, and turn the power off.\nPlease read the Wii operations manual\nfor more information."
+
+glabel lbl_80191B6C
 	.4byte 0x0A0A0A45
 	.4byte 0x696E2046
 	.4byte 0x65686C65
@@ -24079,6 +24031,8 @@ glabel lbl_80191A2C
 	.4byte 0x72FC636B
 	.asciz "e den Ausgabeknopf, entnimm die\nGame Disc und schalte die Wii-Konsole\naus. Bitte lies die Bedienungsanleitung der\nWii-Konsole, um weitere Informationen zu\nerhalten."
 	.balign 4
+
+glabel lbl_80191C38
 	.4byte 0x0A0A0A55
 	.4byte 0x6E652065
 	.4byte 0x72726575
@@ -24112,6 +24066,8 @@ glabel lbl_80191A2C
 	.4byte 0x72E966E9
 	.asciz "rer au mode d'emploi\nde la console pour de plus amples\ninformations."
 	.balign 4
+
+glabel lbl_80191CFC
 	.4byte 0x0A0A0A53
 	.4byte 0x65206861
 	.4byte 0x2070726F
@@ -24155,12 +24111,15 @@ glabel lbl_80191A2C
 	.4byte 0x726D6163
 	.4byte 0x69F36E2E
 	.4byte 0
+
+glabel lbl_80191DA8
 	.4byte 0x0A0A0A53
 	.4byte 0x6920E820
 	.asciz "verificato un errore.\nPremi il pulsante EJECT, estrai il disco\ndi gioco e spegni la console. Per maggiori\ninformazioni consulta il manuale di\nistruzioni della console Wii."
 	.balign 8
-	.asciz "\n\n\nEr is een fout opgetreden.\nDruk op de ejectknop, verwijder de\nspeldisk en zet het systeem uit. Lees\nde Wii-handleiding voor meer informatie."
 
+glabel lbl_80191E60
+	.asciz "\n\n\nEr is een fout opgetreden.\nDruk op de ejectknop, verwijder de\nspeldisk en zet het systeem uit. Lees\nde Wii-handleiding voor meer informatie."
 
 glabel lbl_80191EF0
 	# ROM: 0x18DFF0
@@ -24258,7 +24217,6 @@ glabel lbl_80191EF0
 	.asciz "@@@ (DVDLowEnableDvdVideo) IOS_IoctlAsync returned error: %d\n"
 	.balign 4
 
-
 glabel lbl_80192AE8
 	# ROM: 0x18EBE8
 	.asciz "DEMOPuts.c"
@@ -24270,11 +24228,14 @@ glabel lbl_80192AE8
 	.balign 4
 	.asciz "\nwidth %d\n"
 	.balign 4
+
+glabel lbl_80192B70
 	.asciz "<< RVL_SDK - AI \trelease build: Nov 30 2006 03:26:11 (0x4199_60831) >>"
 	.balign 4
+
+glabel lbl_80192BB8
 	.asciz "<< RVL_SDK - AX \trelease build: Dec 18 2006 15:43:48 (0x4199_60831) >>"
 	.balign 4
-
 
 glabel lbl_80192C00
 	# ROM: 0x18ED00
@@ -24311,7 +24272,6 @@ glabel lbl_80192C00
 	.4byte 0x0000083F
 	.4byte 0x0000083F
 
-
 glabel lbl_80192C80
 	# ROM: 0x18ED80
 	.4byte 0x00000004
@@ -24322,7 +24282,6 @@ glabel lbl_80192C80
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80192CA0
 	# ROM: 0x18EDA0
@@ -25334,7 +25293,6 @@ glabel lbl_80192CA0
 	.4byte 0x545D5468
 	.4byte 0x5472547C
 	.4byte 0x54875491
-
 
 glabel lbl_80193C60
 	# ROM: 0x18FD60
@@ -27387,7 +27345,6 @@ glabel lbl_80193C60
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80195C60
 	# ROM: 0x191D60
 	.4byte 0x0000009D
@@ -27438,7 +27395,6 @@ glabel lbl_80195C60
 	.4byte 0xBF800000
 	.4byte 0x3F333333
 	.4byte 0x3E99999A
-
 
 glabel lbl_80195D20
 	# ROM: 0x191E20
@@ -27498,7 +27454,6 @@ glabel lbl_80195D20
 	.4byte 0x0000002F
 	.4byte 0x00000049
 	.4byte 0x00000043
-
 
 glabel lbl_80195E00
 	# ROM: 0x191F00
@@ -28243,7 +28198,6 @@ glabel lbl_80195E00
 	.4byte 0xFFF4FFF4
 	.4byte 0xFFF4FFF5
 
-
 glabel lbl_80196990
 	# ROM: 0x192A90
 	.asciz "<< RVL_SDK - DSP \trelease build: Nov 30 2006 03:26:46 (0x4199_60831) >>"
@@ -28252,7 +28206,6 @@ glabel lbl_80196990
 	.asciz "Nov 30 2006"
 	.asciz "03:26:46"
 	.balign 4
-
 
 glabel lbl_80196A10
 	# ROM: 0x192B10
@@ -28271,24 +28224,20 @@ glabel lbl_80196A10
 	.asciz "__DSP_add_task() : Added task    : 0x%08X\n"
 	.balign 8
 
-
 glabel lbl_80196B50
 	# ROM: 0x192C50
 	.asciz "/tmp/sys"
 	.balign 4
-
 
 glabel lbl_80196B5C
 	# ROM: 0x192C5C
 	.asciz "%s/%08x/%s"
 	.balign 4
 
-
 glabel lbl_80196B68
 	# ROM: 0x192C68
 	.asciz "Illegal NANDFileInfo.\n"
 	.balign 4
-
 
 glabel lbl_80196B80
 	# ROM: 0x192C80
@@ -28298,7 +28247,6 @@ glabel lbl_80196B80
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80196BE0
 	# ROM: 0x192CE0
@@ -28318,23 +28266,20 @@ glabel lbl_80196BE0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x800BB1A0  ;# ptr
+	.4byte lbl_800BB1A0
 	.4byte 0x000000FF
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80196C30
 	# ROM: 0x192D30
 	.asciz "/shared2"
 	.balign 4
 
-
 glabel lbl_80196C3C
 	# ROM: 0x192D3C
 	.asciz "/shared2/"
 	.balign 4
-
 
 glabel lbl_80196C48
 	# ROM: 0x192D48
@@ -28342,134 +28287,160 @@ glabel lbl_80196C48
 	.balign 4
 	.asciz "Failed to set home directory.\n"
 	.balign 8
+
+glabel lbl_80196CA0
 	.asciz "/title/00010000"
+
+glabel lbl_80196CB0
 	.asciz "/title/00010001"
+
+glabel lbl_80196CC0
 	.asciz "/title/00010003"
+
+glabel lbl_80196CD0
 	.asciz "/title/00010004"
+
+glabel lbl_80196CE0
 	.asciz "/title/00010005"
+
+glabel lbl_80196CF0
 	.asciz "/title/00010006"
+
+glabel lbl_80196D00
 	.asciz "/title/00010007"
+
+glabel lbl_80196D10
 	.asciz "/shared2/title"
 	.balign 4
 
-
 glabel lbl_80196D20
 	# ROM: 0x192E20
-	.4byte 0x80246858  ;# ptr
-	.4byte 0x80246860  ;# ptr
-	.4byte 0x80196CA0  ;# ptr
-	.4byte 0x80196CB0  ;# ptr
-	.4byte 0x80196CC0  ;# ptr
-	.4byte 0x80196CD0  ;# ptr
-	.4byte 0x80196CE0  ;# ptr
-	.4byte 0x80196CF0  ;# ptr
-	.4byte 0x80196D00  ;# ptr
-	.4byte 0x80196D10  ;# ptr
+	.4byte lbl_80246858
+	.4byte lbl_80246860
+	.4byte lbl_80196CA0
+	.4byte lbl_80196CB0
+	.4byte lbl_80196CC0
+	.4byte lbl_80196CD0
+	.4byte lbl_80196CE0
+	.4byte lbl_80196CF0
+	.4byte lbl_80196D00
+	.4byte lbl_80196D10
 	.4byte 0
 	.4byte 0
+
+glabel lbl_80196D50
 	.asciz "<< RVL_SDK - SC \trelease build: Nov 30 2006 03:33:00 (0x4199_60831) >>"
 	.balign 4
+
+glabel lbl_80196D98
 	.asciz "IPL.EULA"
 	.balign 4
+
+glabel lbl_80196DA4
 	.asciz "IPL.SADR"
 	.balign 4
+
+glabel lbl_80196DB0
 	.asciz "NET.CTPC"
 	.balign 4
+
+glabel lbl_80196DBC
 	.asciz "NET.PROF"
 	.balign 4
+
+glabel lbl_80196DC8
 	.asciz "NET.WCPC"
 	.balign 4
+
+glabel lbl_80196DD4
 	.asciz "NET.WCFG"
 	.balign 4
 
-
 glabel lbl_80196DE0
 	# ROM: 0x192EE0
-	.4byte 0x8024686C  ;# ptr
+	.4byte lbl_8024686C
 	.4byte 0
-	.4byte 0x80246874  ;# ptr
+	.4byte lbl_80246874
 	.4byte 0x00000001
-	.4byte 0x80246880  ;# ptr
+	.4byte lbl_80246880
 	.4byte 0x00000002
-	.4byte 0x80246888  ;# ptr
+	.4byte lbl_80246888
 	.4byte 0x00000003
-	.4byte 0x80246890  ;# ptr
+	.4byte lbl_80246890
 	.4byte 0x00000004
-	.4byte 0x80246898  ;# ptr
+	.4byte lbl_80246898
 	.4byte 0x00000005
-	.4byte 0x802468A0  ;# ptr
+	.4byte lbl_802468A0
 	.4byte 0x00000006
-	.4byte 0x80196D98  ;# ptr
+	.4byte lbl_80196D98
 	.4byte 0x00000007
-	.4byte 0x802468A8  ;# ptr
+	.4byte lbl_802468A8
 	.4byte 0x00000008
-	.4byte 0x802468B0  ;# ptr
+	.4byte lbl_802468B0
 	.4byte 0x00000009
-	.4byte 0x802468B8  ;# ptr
+	.4byte lbl_802468B8
 	.4byte 0x0000000A
-	.4byte 0x802468C0  ;# ptr
+	.4byte lbl_802468C0
 	.4byte 0x0000000B
-	.4byte 0x802468C8  ;# ptr
+	.4byte lbl_802468C8
 	.4byte 0x0000000C
-	.4byte 0x802468D0  ;# ptr
+	.4byte lbl_802468D0
 	.4byte 0x0000000D
-	.4byte 0x802468D8  ;# ptr
+	.4byte lbl_802468D8
 	.4byte 0x0000000E
-	.4byte 0x802468E0  ;# ptr
+	.4byte lbl_802468E0
 	.4byte 0x0000000F
-	.4byte 0x80196DA4  ;# ptr
+	.4byte lbl_80196DA4
 	.4byte 0x00000010
-	.4byte 0x802468E8  ;# ptr
+	.4byte lbl_802468E8
 	.4byte 0x00000011
-	.4byte 0x802468F0  ;# ptr
+	.4byte lbl_802468F0
 	.4byte 0x00000012
-	.4byte 0x802468F8  ;# ptr
+	.4byte lbl_802468F8
 	.4byte 0x00000013
-	.4byte 0x80196DB0  ;# ptr
+	.4byte lbl_80196DB0
 	.4byte 0x00000014
-	.4byte 0x80196DBC  ;# ptr
+	.4byte lbl_80196DBC
 	.4byte 0x00000015
-	.4byte 0x80196DC8  ;# ptr
+	.4byte lbl_80196DC8
 	.4byte 0x00000016
-	.4byte 0x80196DD4  ;# ptr
+	.4byte lbl_80196DD4
 	.4byte 0x00000017
-	.4byte 0x80246900  ;# ptr
+	.4byte lbl_80246900
 	.4byte 0x00000018
-	.4byte 0x80246908  ;# ptr
+	.4byte lbl_80246908
 	.4byte 0x00000019
-	.4byte 0x80246910  ;# ptr
+	.4byte lbl_80246910
 	.4byte 0x0000001A
-	.4byte 0x80246918  ;# ptr
+	.4byte lbl_80246918
 	.4byte 0x0000001B
-	.4byte 0x80246920  ;# ptr
+	.4byte lbl_80246920
 	.4byte 0x0000001C
-	.4byte 0x80246928  ;# ptr
+	.4byte lbl_80246928
 	.4byte 0x0000001D
-	.4byte 0x80246930  ;# ptr
+	.4byte lbl_80246930
 	.4byte 0x0000001E
-	.4byte 0x80246938  ;# ptr
+	.4byte lbl_80246938
 	.4byte 0x0000001F
-	.4byte 0x80246940  ;# ptr
+	.4byte lbl_80246940
 	.4byte 0x00000020
-	.4byte 0x80246948  ;# ptr
+	.4byte lbl_80246948
 	.4byte 0x00000021
-	.4byte 0x80246950  ;# ptr
+	.4byte lbl_80246950
 	.4byte 0x00000022
-
 
 glabel lbl_80196EF8
 	# ROM: 0x192FF8
-	.4byte 0x800BD874  ;# ptr
-	.4byte 0x800BD8B8  ;# ptr
-	.4byte 0x800BD8F8  ;# ptr
-	.4byte 0x800BD928  ;# ptr
-	.4byte 0x800BD970  ;# ptr
-	.4byte 0x800BD9A4  ;# ptr
-	.4byte 0x800BD9D8  ;# ptr
-	.4byte 0x800BDA1C  ;# ptr
-	.4byte 0x800BDA58  ;# ptr
-	.4byte 0x800BDA60  ;# ptr
-
+	.4byte lbl_800BD874
+	.4byte lbl_800BD8B8
+	.4byte lbl_800BD8F8
+	.4byte lbl_800BD928
+	.4byte lbl_800BD970
+	.4byte lbl_800BD9A4
+	.4byte lbl_800BD9D8
+	.4byte lbl_800BDA1C
+	.4byte lbl_800BDA58
+	.4byte lbl_800BDA60
 
 glabel lbl_80196F20
 	# ROM: 0x193020
@@ -28492,85 +28463,73 @@ glabel lbl_80196F20
 	.4byte 0
 	.4byte 0
 
-
 glabel lbl_80196F68
 	# ROM: 0x193068
 	.asciz "ARCInitHandle: bad archive format"
 	.balign 4
-
 
 glabel lbl_80196F8C
 	# ROM: 0x19308C
 	.asciz "Warning: ARCOpen(): file '%s' was not found under %s in the archive.\n"
 	.balign 8
 
-
 glabel lbl_80196FD8
 	# ROM: 0x1930D8
 	.asciz "APP ERROR: Not enough IPC arena\n"
 	.balign 8
-	.asciz "<< RVL_SDK - PAD \trelease build: Nov 30 2006 03:31:43 (0x4199_60831) >>"
 
+glabel lbl_80197000
+	.asciz "<< RVL_SDK - PAD \trelease build: Nov 30 2006 03:31:43 (0x4199_60831) >>"
 
 glabel lbl_80197048
 	# ROM: 0x193148
-	.4byte 0x800C3924  ;# ptr
+	.4byte lbl_800C3924
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80197058
 	# ROM: 0x193158
 	.asciz "<< RVL_SDK - WPAD \trelease build: May 17 2007 01:52:03 (0x4199_60831) >>"
 	.balign 4
 
-
 glabel lbl_801970A4
 	# ROM: 0x1931A4
 	.asciz "No Alloc: Nothing to do!!!\n"
-
 
 glabel lbl_801970C0
 	# ROM: 0x1931C0
 	.asciz "No Free: Nothing to do!!!\n"
 	.balign 4
 
-
 glabel lbl_801970DC
 	# ROM: 0x1931DC
 	.asciz "Deregister allocators because of fatal error.\n"
 	.balign 8
 
-
 glabel lbl_80197110
 	# ROM: 0x193210
-	.4byte 0x800C3B08  ;# ptr
+	.4byte lbl_800C3B08
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_80197120
 	# ROM: 0x193220
 	.asciz "Check the update of WiFi using channel\n"
 
-
 glabel lbl_80197148
 	# ROM: 0x193248
 	.asciz "WiFi uses channel = %d\n"
-
 
 glabel lbl_80197160
 	# ROM: 0x193260
 	.asciz "WPADInit()\n"
 
-
 glabel lbl_8019716C
 	# ROM: 0x19326C
 	.asciz " ==>this error means that the firmware is for NDEV %s\n"
 	.balign 4
-
 
 glabel lbl_801971A4
 	# ROM: 0x1932A4
@@ -28584,96 +28543,86 @@ glabel lbl_801971A4
 	.asciz "WARNING: disconnection for device handle not assigned to channel.\n"
 	.balign 8
 
-
 glabel lbl_80197248
 	# ROM: 0x193348
 	.asciz "HID Parser reports: %d\n"
-
 
 glabel lbl_80197260
 	# ROM: 0x193360
 	.asciz "WPADiRecvCallback(): Unknown channel %d\n"
 	.balign 4
 
-
 glabel lbl_8019728C
 	# ROM: 0x19338C
 	.asciz "WPADSetSamplingCallback()\n"
 	.balign 4
-
 
 glabel lbl_801972A8
 	# ROM: 0x1933A8
 	.asciz "WPADSetConnectCallback()\n"
 	.balign 4
 
-
 glabel lbl_801972C4
 	# ROM: 0x1933C4
 	.asciz "WPADSetExtensionCallback()\n"
-
 
 glabel lbl_801972E0
 	# ROM: 0x1933E0
 	.asciz "WPADSetAutoSamplingBuf()\n"
 	.balign 4
 
-
 glabel lbl_801972FC
 	# ROM: 0x1933FC
 	.asciz "handle = %d, repid = %02x\n"
 	.balign 4
 
-
 glabel lbl_80197318
 	# ROM: 0x193418
-	.4byte 0x800CA920  ;# ptr
-	.4byte 0x800CA92C  ;# ptr
-	.4byte 0x800CA938  ;# ptr
-	.4byte 0x800CA944  ;# ptr
-	.4byte 0x800CA950  ;# ptr
-	.4byte 0x800CA95C  ;# ptr
-	.4byte 0x800CA968  ;# ptr
-	.4byte 0x800CA974  ;# ptr
-	.4byte 0x800CA980  ;# ptr
-	.4byte 0x800CA98C  ;# ptr
-
+	.4byte lbl_800CA920
+	.4byte lbl_800CA92C
+	.4byte lbl_800CA938
+	.4byte lbl_800CA944
+	.4byte lbl_800CA950
+	.4byte lbl_800CA95C
+	.4byte lbl_800CA968
+	.4byte lbl_800CA974
+	.4byte lbl_800CA980
+	.4byte lbl_800CA98C
 
 glabel lbl_80197340
 	# ROM: 0x193440
-	.4byte 0x800CC16C  ;# ptr
-	.4byte 0x800CC57C  ;# ptr
-	.4byte 0x800CC90C  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CCE28  ;# ptr
-	.4byte 0x800CCFE0  ;# ptr
-	.4byte 0x800CD220  ;# ptr
-	.4byte 0x800CD9D8  ;# ptr
-	.4byte 0x800CDC4C  ;# ptr
-	.4byte 0x800CDC50  ;# ptr
-	.4byte 0x800CE4BC  ;# ptr
-	.4byte 0x800CE6C8  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CFB00  ;# ptr
-	.4byte 0x800CEF24  ;# ptr
-	.4byte 0x800CEF28  ;# ptr
-	.4byte 0x800CF50C  ;# ptr
-
+	.4byte lbl_800CC16C
+	.4byte lbl_800CC57C
+	.4byte lbl_800CC90C
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CCE28
+	.4byte lbl_800CCFE0
+	.4byte lbl_800CD220
+	.4byte lbl_800CD9D8
+	.4byte lbl_800CDC4C
+	.4byte lbl_800CDC50
+	.4byte lbl_800CE4BC
+	.4byte lbl_800CE6C8
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CFB00
+	.4byte lbl_800CEF24
+	.4byte lbl_800CEF28
+	.4byte lbl_800CF50C
 
 glabel lbl_801973C0
 	# ROM: 0x1934C0
@@ -28715,12 +28664,10 @@ glabel lbl_801973C0
 	.asciz "LR:  L = %d,  R = %d\n"
 	.balign 4
 
-
 glabel lbl_80197650
 	# ROM: 0x193750
 	.asciz "type : %d\n"
 	.balign 4
-
 
 glabel lbl_8019765C
 	# ROM: 0x19375C
@@ -28748,7 +28695,6 @@ glabel lbl_8019765C
 	.balign 4
 	.asciz "invalid ack!\n"
 	.balign 8
-
 
 glabel lbl_801977A0
 	# ROM: 0x1938A0
@@ -28805,7 +28751,7 @@ glabel lbl_801977A0
 	.4byte 0xCE9FBFD3
 	.4byte 0xCB767A7E
 	.4byte 0x82018A9A
-	.4byte 0x801D0EB0  ;# ptr
+	.4byte lbl_801D0EB0
 	.4byte 0x5CD43862
 	.4byte 0xF430E08E
 	.4byte 0x53B70257
@@ -29917,7 +29863,6 @@ glabel lbl_801977A0
 	.4byte 0x3EE31CDA
 	.4byte 0x96B07238
 
-
 glabel lbl_801989D0
 	# ROM: 0x194AD0
 	.4byte 0x9F7A1BDE
@@ -29944,16 +29889,16 @@ glabel lbl_801989D0
 	.balign 4
 	.asciz "sb  : %d %d %d %d %d %d %d %d\n"
 	.balign 4
+
+glabel lbl_80198AC8
 	.asciz "<< RVL_SDK - KPAD \trelease build: May 17 2007 15:52:00 (0x4199_60831) >>"
 	.balign 4
-
 
 glabel lbl_80198B14
 	# ROM: 0x194C14
 	.4byte 0x00010302
 	.4byte 0x00040105
 	.4byte 0x00070108
-
 
 glabel lbl_80198B20
 	# ROM: 0x194C20
@@ -30050,7 +29995,6 @@ glabel lbl_80198B20
 	.asciz "Open(%s) failed\n"
 	.balign 4
 
-
 glabel lbl_80199140
 	# ROM: 0x195240
 	.4byte 0x05010905
@@ -30109,39 +30053,32 @@ glabel lbl_80199140
 	.4byte 0x09018100
 	.4byte 0xC0000000
 
-
 glabel lbl_8019921C
 	# ROM: 0x19531C
 	.asciz "App_MEMalloc\n"
 	.balign 4
-
 
 glabel lbl_8019922C
 	# ROM: 0x19532C
 	.asciz "App_MEMfree\n"
 	.balign 4
 
-
 glabel lbl_8019923C
 	# ROM: 0x19533C
 	.asciz "SyncFlushCallback() : %d, Sync: %d\n"
-
 
 glabel lbl_80199260
 	# ROM: 0x195360
 	.asciz "DeleteFlushCallback() : %d, Delete: %d\n"
 
-
 glabel lbl_80199288
 	# ROM: 0x195388
 	.asciz "ShutFlushCallback() : %d, Shutdown: %d\n"
-
 
 glabel lbl_801992B0
 	# ROM: 0x1953B0
 	.asciz "%d devices is stored into SC.\n"
 	.balign 4
-
 
 glabel lbl_801992D0
 	# ROM: 0x1953D0
@@ -30159,18 +30096,17 @@ glabel lbl_801992D0
 	.asciz "WARNING: Illigal status\n"
 	.balign 4
 
-
 glabel lbl_801993DC
 	# ROM: 0x1954DC
-	.4byte 0x800D5F00  ;# ptr
-	.4byte 0x800D5E34  ;# ptr
-	.4byte 0x800D5E4C  ;# ptr
-	.4byte 0x800D5E58  ;# ptr
-	.4byte 0x800D5F00  ;# ptr
-	.4byte 0x800D5E64  ;# ptr
-	.4byte 0x800D5F00  ;# ptr
-	.4byte 0x800D5F00  ;# ptr
-	.4byte 0x800D5EAC  ;# ptr
+	.4byte lbl_800D5F00
+	.4byte lbl_800D5E34
+	.4byte lbl_800D5E4C
+	.4byte lbl_800D5E58
+	.4byte lbl_800D5F00
+	.4byte lbl_800D5E64
+	.4byte lbl_800D5F00
+	.4byte lbl_800D5F00
+	.4byte lbl_800D5EAC
 	.asciz "hci_version   : %02x\n"
 	.balign 4
 	.asciz "hci_revision  : %04x\n"
@@ -30189,29 +30125,24 @@ glabel lbl_801993DC
 	.asciz "name : %s\n"
 	.balign 4
 
-
 glabel lbl_801994DC
 	# ROM: 0x1955DC
 	.asciz "InitCore\n"
 	.balign 4
-
 
 glabel lbl_801994E8
 	# ROM: 0x1955E8
 	.asciz "BTA_Init() is started\n"
 	.balign 4
 
-
 glabel lbl_80199500
 	# ROM: 0x195600
 	.asciz "BTA_Init() is done\n"
-
 
 glabel lbl_80199514
 	# ROM: 0x195614
 	.asciz "WUDShutdown()\n"
 	.balign 4
-
 
 glabel lbl_80199524
 	# ROM: 0x195624
@@ -30222,14 +30153,12 @@ glabel lbl_80199524
 	.asciz "WUDStartSyncDevice()\n"
 	.balign 4
 
-
 glabel lbl_80199574
 	# ROM: 0x195674
 	.asciz "WUDStartSyncSimple()\n"
 	.balign 4
 	.asciz "WUDCancelSyncDevice()\n"
 	.balign 4
-
 
 glabel lbl_801995A4
 	# ROM: 0x1956A4
@@ -30238,29 +30167,24 @@ glabel lbl_801995A4
 	.asciz "WUDStartClearDevice()\n"
 	.balign 8
 
-
 glabel lbl_801995D8
 	# ROM: 0x1956D8
 	.asciz "WUDSetDisableChannel()\n"
-
 
 glabel lbl_801995F0
 	# ROM: 0x1956F0
 	.asciz "BTM_SetAfhChannels() : %d\n"
 	.balign 4
 
-
 glabel lbl_8019960C
 	# ROM: 0x19570C
 	.asciz "WUDSetHidRecvCallback()\n"
 	.balign 4
 
-
 glabel lbl_80199628
 	# ROM: 0x195728
 	.asciz "WUDSetHidConnCallback()\n"
 	.balign 4
-
 
 glabel lbl_80199644
 	# ROM: 0x195744
@@ -30287,7 +30211,7 @@ glabel lbl_80199644
 	.4byte 0x11490B60
 	.4byte 0x1D21C903
 	.4byte 0x0B607D20
-	.4byte 0x80010138  ;# ptr
+	.4byte lbl_80010138
 	.4byte 0xFDD10E4B
 	.4byte 0x0E4A1360
 	.4byte 0x47200021
@@ -30311,7 +30235,6 @@ glabel lbl_80199644
 	.4byte 0xFF9F0000
 	.4byte 0x30FC0E00
 	.4byte 0x7FFF0000
-
 
 glabel lbl_80199700
 	# ROM: 0x195800
@@ -30339,7 +30262,6 @@ glabel lbl_80199700
 	.4byte 0x86F018FD
 	.4byte 0x214F3B60
 
-
 glabel lbl_8019975C
 	# ROM: 0x19585C
 	.asciz "start WUDiInitSub()\n"
@@ -30365,12 +30287,10 @@ glabel lbl_8019975C
 	.asciz "BTA_DmRemoveDevice(): %d\n"
 	.balign 4
 
-
 glabel lbl_80199894
 	# ROM: 0x195994
 	.asciz "new entry index is %d\n"
 	.balign 4
-
 
 glabel lbl_801998AC
 	# ROM: 0x1959AC
@@ -30414,18 +30334,17 @@ glabel lbl_801998AC
 	.asciz "BTA_DM_BUSY_LEVEL_EVT\n"
 	.balign 4
 
-
 glabel lbl_80199B28
 	# ROM: 0x195C28
-	.4byte 0x800D8278  ;# ptr
-	.4byte 0x800D8324  ;# ptr
-	.4byte 0x800D8340  ;# ptr
-	.4byte 0x800D83E0  ;# ptr
-	.4byte 0x800D84EC  ;# ptr
-	.4byte 0x800D84FC  ;# ptr
-	.4byte 0x800D85E8  ;# ptr
-	.4byte 0x800D873C  ;# ptr
-	.4byte 0x800D874C  ;# ptr
+	.4byte lbl_800D8278
+	.4byte lbl_800D8324
+	.4byte lbl_800D8340
+	.4byte lbl_800D83E0
+	.4byte lbl_800D84EC
+	.4byte lbl_800D84FC
+	.4byte lbl_800D85E8
+	.4byte lbl_800D873C
+	.4byte lbl_800D874C
 	.asciz "INQUIRY RESULT: %02x:%02x:%02x:%02x:%02x:%02x   %02x%02x%02x   %d\n"
 	.balign 4
 	.asciz "INQUIRY_COMPLETED\n"
@@ -30444,12 +30363,10 @@ glabel lbl_80199B28
 	.balign 4
 	.asciz "MODULE FATAL ERROR\n"
 
-
 glabel lbl_80199CC8
 	# ROM: 0x195DC8
 	.asciz "WUDDeviceStatusCallback\n"
 	.balign 4
-
 
 glabel lbl_80199CE4
 	# ROM: 0x195DE4
@@ -30489,7 +30406,6 @@ glabel lbl_80199CE4
 	.asciz "dev number = %d\n"
 	.balign 8
 
-
 glabel lbl_80199FA8
 	# ROM: 0x1960A8
 	.asciz "BTA_HH_ENABLE_EVT\n"
@@ -30525,50 +30441,44 @@ glabel lbl_80199FA8
 	.asciz "WARNING: link num count is modified.\n"
 	.balign 4
 
-
 glabel lbl_8019A1A8
 	# ROM: 0x1962A8
-	.4byte 0x800D9258  ;# ptr
-	.4byte 0x800D9274  ;# ptr
-	.4byte 0x800D9284  ;# ptr
-	.4byte 0x800D9470  ;# ptr
-	.4byte 0x800D954C  ;# ptr
-	.4byte 0x800D953C  ;# ptr
-	.4byte 0x800D956C  ;# ptr
-	.4byte 0x800D955C  ;# ptr
-	.4byte 0x800D958C  ;# ptr
-	.4byte 0x800D957C  ;# ptr
-	.4byte 0x800D959C  ;# ptr
-	.4byte 0x800D95AC  ;# ptr
-	.4byte 0x800D95FC  ;# ptr
-	.4byte 0x800D963C  ;# ptr
-	.4byte 0x800D96D8  ;# ptr
-	.4byte 0x800D964C  ;# ptr
-
+	.4byte lbl_800D9258
+	.4byte lbl_800D9274
+	.4byte lbl_800D9284
+	.4byte lbl_800D9470
+	.4byte lbl_800D954C
+	.4byte lbl_800D953C
+	.4byte lbl_800D956C
+	.4byte lbl_800D955C
+	.4byte lbl_800D958C
+	.4byte lbl_800D957C
+	.4byte lbl_800D959C
+	.4byte lbl_800D95AC
+	.4byte lbl_800D95FC
+	.4byte lbl_800D963C
+	.4byte lbl_800D96D8
+	.4byte lbl_800D964C
 
 glabel lbl_8019A1E8
 	# ROM: 0x1962E8
 	.asciz "Invalid app_id [%d]\n"
 	.balign 4
 
-
 glabel lbl_8019A200
 	# ROM: 0x196300
 	.asciz "bta_hh_co_open()\n"
 	.balign 4
-
 
 glabel lbl_8019A214
 	# ROM: 0x196314
 	.asciz "bta_hh_co_close()\n"
 	.balign 4
 
-
 glabel lbl_8019A228
 	# ROM: 0x196328
 	.asciz "getbuf: Size is zero"
 	.balign 4
-
 
 glabel lbl_8019A240
 	# ROM: 0x196340
@@ -30583,18 +30493,15 @@ glabel lbl_8019A240
 	.asciz "Send - buffer linked"
 	.balign 4
 
-
 glabel lbl_8019A2D8
 	# ROM: 0x1963D8
 	.asciz "Enqueue - Buffer corrupted"
 	.balign 4
 
-
 glabel lbl_8019A2F4
 	# ROM: 0x1963F4
 	.asciz "Eneueue - buf already linked"
 	.balign 4
-
 
 glabel lbl_8019A314
 	# ROM: 0x196414
@@ -30603,7 +30510,6 @@ glabel lbl_8019A314
 	.asciz "GKI_get_buf_start:: bad addr"
 	.balign 4
 
-
 glabel lbl_8019A358
 	# ROM: 0x196458
 	.asciz "Deleting bad pool"
@@ -30611,12 +30517,10 @@ glabel lbl_8019A358
 	.asciz "HCIS: Unable to allocate buffer for incoming HCI message."
 	.balign 4
 
-
 glabel lbl_8019A3AC
 	# ROM: 0x1964AC
 	.asciz "HCIS: Invalid length for incoming HCI message."
 	.balign 8
-
 
 glabel lbl_8019A3E0
 	# ROM: 0x1964E0
@@ -30659,12 +30563,10 @@ glabel lbl_8019A3E0
 	.balign 8
 	.asciz "HCISU_ERR: uusb_WriteBulkDataCB(): error - unable to write data packet\n"
 
-
 glabel lbl_8019A9B0
 	# ROM: 0x196AB0
 	.asciz "HCISU_ERR: ERROR from IUSB_OpenDeviceIds (%d) : Device (vendor 0x%x product 0x%x) not found\n"
 	.balign 4
-
 
 glabel lbl_8019AA10
 	# ROM: 0x196B10
@@ -30715,102 +30617,85 @@ glabel lbl_8019AA10
 	.asciz "HCISU_ERR: * UUSB_Write(): IUSB_WriteBlkMsgAsync error... IOS_ERROR_QFULL  (%d), writes outstanding (%d)\n"
 	.balign 4
 
-
 glabel lbl_8019B128
 	# ROM: 0x197228
 	.asciz "BTA got event 0x%x"
 	.balign 4
-
 
 glabel lbl_8019B13C
 	# ROM: 0x19723C
 	.asciz "BTA got unregistered event id %d"
 	.balign 4
 
-
 glabel lbl_8019B160
 	# ROM: 0x197260
 	.asciz " bta_dm_disable_timer_cback  "
 	.balign 4
-
 
 glabel lbl_8019B180
 	# ROM: 0x197280
 	.asciz " bta_dm_search_timer_cback  "
 	.balign 4
 
-
 glabel lbl_8019B1A0
 	# ROM: 0x1972A0
 	.asciz " bta_dm_pin_cback() -> Failed to start Remote Name Request  "
 	.balign 4
-
 
 glabel lbl_8019B1E0
 	# ROM: 0x1972E0
 	.asciz " timer stopped  "
 	.balign 4
 
-
 glabel lbl_8019B1F4
 	# ROM: 0x1972F4
 	.asciz "bta_dm_l2cap_server_compress_cback, BTA ID %d"
 	.balign 4
-
 
 glabel lbl_8019B224
 	# ROM: 0x197324
 	.asciz "bta_dm_compress_cback open app_id %d, BTA id %d, state %d"
 	.balign 4
 
-
 glabel lbl_8019B260
 	# ROM: 0x197360
 	.asciz "bta_dm_compress_cback close app_id %d, BTA id %d, state %d"
 	.balign 8
-
 
 glabel lbl_8019B2A0
 	# ROM: 0x1973A0
 	.asciz "bta_dm_act no more connected service cbs"
 	.balign 4
 
-
 glabel lbl_8019B2CC
 	# ROM: 0x1973CC
 	.asciz "bta_dm_act no more pm timers"
 	.balign 8
-
 
 glabel lbl_8019B2F0
 	# ROM: 0x1973F0
 	.asciz "bta_hh_sdp_cback: p_cb: %d result 0x%02x,                             attr_mask 0x%02x"
 	.balign 4
 
-
 glabel lbl_8019B348
 	# ROM: 0x197448
 	.asciz "bta_hh_start_sdp:: skip SDP for known devices"
 	.balign 4
-
 
 glabel lbl_8019B378
 	# ROM: 0x197478
 	.asciz "bta_hh_start_sdp:  HID_HostGetSDPRecord failed:                 Status 0x%2X"
 	.balign 4
 
-
 glabel lbl_8019B3C8
 	# ROM: 0x1974C8
 	.asciz "bta_hh_sdp_cmpl:  status 0x%2X"
 	.balign 4
 
-
 glabel lbl_8019B3E8
 	# ROM: 0x1974E8
 	.asciz "bta_hh_sdp_cmpl:  HID_HostOpenDev failed:                     Status 0x%2X"
 	.balign 4
-
 
 glabel lbl_8019B434
 	# ROM: 0x197534
@@ -30834,78 +30719,71 @@ glabel lbl_8019B434
 	.asciz "unknown transaction type"
 	.balign 4
 
-
 glabel lbl_8019B548
 	# ROM: 0x197648
-	.4byte 0x800E1E00  ;# ptr
-	.4byte 0x800E1E00  ;# ptr
-	.4byte 0x800E1D94  ;# ptr
-	.4byte 0x800E1E00  ;# ptr
-	.4byte 0x800E1CA4  ;# ptr
-	.4byte 0x800E1D24  ;# ptr
-	.4byte 0x800E1CA4  ;# ptr
-	.4byte 0x800E1D24  ;# ptr
-	.4byte 0x800E1CA4  ;# ptr
-	.4byte 0x800E1D24  ;# ptr
-
+	.4byte lbl_800E1E00
+	.4byte lbl_800E1E00
+	.4byte lbl_800E1D94
+	.4byte lbl_800E1E00
+	.4byte lbl_800E1CA4
+	.4byte lbl_800E1D24
+	.4byte lbl_800E1CA4
+	.4byte lbl_800E1D24
+	.4byte lbl_800E1CA4
+	.4byte lbl_800E1D24
 
 glabel lbl_8019B570
 	# ROM: 0x197670
-	.4byte 0x800E1C6C  ;# ptr
-	.4byte 0x800E1C6C  ;# ptr
-	.4byte 0x800E1C64  ;# ptr
-	.4byte 0x800E1C6C  ;# ptr
-	.4byte 0x800E1C34  ;# ptr
-	.4byte 0x800E1C3C  ;# ptr
-	.4byte 0x800E1C44  ;# ptr
-	.4byte 0x800E1C4C  ;# ptr
-	.4byte 0x800E1C54  ;# ptr
-	.4byte 0x800E1C5C  ;# ptr
+	.4byte lbl_800E1C6C
+	.4byte lbl_800E1C6C
+	.4byte lbl_800E1C64
+	.4byte lbl_800E1C6C
+	.4byte lbl_800E1C34
+	.4byte lbl_800E1C3C
+	.4byte lbl_800E1C44
+	.4byte lbl_800E1C4C
+	.4byte lbl_800E1C54
+	.4byte lbl_800E1C5C
 	.asciz "Ctrl DATA received w4: event[%s]"
 	.balign 4
 	.asciz "invalid  transaction type for DATA payload: 4_evt[%s]"
 	.balign 4
 
-
 glabel lbl_8019B5F4
 	# ROM: 0x1976F4
-	.4byte 0x800E1FC4  ;# ptr
-	.4byte 0x800E1FC4  ;# ptr
-	.4byte 0x800E1FBC  ;# ptr
-	.4byte 0x800E1FC4  ;# ptr
-	.4byte 0x800E1F8C  ;# ptr
-	.4byte 0x800E1F94  ;# ptr
-	.4byte 0x800E1F9C  ;# ptr
-	.4byte 0x800E1FA4  ;# ptr
-	.4byte 0x800E1FAC  ;# ptr
-	.4byte 0x800E1FB4  ;# ptr
-
+	.4byte lbl_800E1FC4
+	.4byte lbl_800E1FC4
+	.4byte lbl_800E1FBC
+	.4byte lbl_800E1FC4
+	.4byte lbl_800E1F8C
+	.4byte lbl_800E1F94
+	.4byte lbl_800E1F9C
+	.4byte lbl_800E1FA4
+	.4byte lbl_800E1FAC
+	.4byte lbl_800E1FB4
 
 glabel lbl_8019B61C
 	# ROM: 0x19771C
-	.4byte 0x800E1EE0  ;# ptr
-	.4byte 0x800E1EE0  ;# ptr
-	.4byte 0x800E1ED8  ;# ptr
-	.4byte 0x800E1EE0  ;# ptr
-	.4byte 0x800E1EA8  ;# ptr
-	.4byte 0x800E1EB0  ;# ptr
-	.4byte 0x800E1EB8  ;# ptr
-	.4byte 0x800E1EC0  ;# ptr
-	.4byte 0x800E1EC8  ;# ptr
-	.4byte 0x800E1ED0  ;# ptr
+	.4byte lbl_800E1EE0
+	.4byte lbl_800E1EE0
+	.4byte lbl_800E1ED8
+	.4byte lbl_800E1EE0
+	.4byte lbl_800E1EA8
+	.4byte lbl_800E1EB0
+	.4byte lbl_800E1EB8
+	.4byte lbl_800E1EC0
+	.4byte lbl_800E1EC8
+	.4byte lbl_800E1ED0
 	.4byte 0
-
 
 glabel lbl_8019B648
 	# ROM: 0x197748
 	.asciz "invalid command"
 
-
 glabel lbl_8019B658
 	# ROM: 0x197758
 	.asciz "HID_HostWriteDev Error %d"
 	.balign 4
-
 
 glabel lbl_8019B674
 	# ROM: 0x197774
@@ -30934,38 +30812,34 @@ glabel lbl_8019B674
 	.asciz "bta_hh_cback::HID_event [%s]"
 	.balign 4
 
-
 glabel lbl_8019B7A0
 	# ROM: 0x1978A0
-	.4byte 0x800E277C  ;# ptr
-	.4byte 0x800E2784  ;# ptr
-	.4byte 0x800E28E8  ;# ptr
-	.4byte 0x800E278C  ;# ptr
-	.4byte 0x800E27A4  ;# ptr
-	.4byte 0x800E279C  ;# ptr
-	.4byte 0x800E27A4  ;# ptr
-	.4byte 0x800E2794  ;# ptr
-	.4byte 0x800E27B0  ;# ptr
-
+	.4byte lbl_800E277C
+	.4byte lbl_800E2784
+	.4byte lbl_800E28E8
+	.4byte lbl_800E278C
+	.4byte lbl_800E27A4
+	.4byte lbl_800E279C
+	.4byte lbl_800E27A4
+	.4byte lbl_800E2794
+	.4byte lbl_800E27B0
 
 glabel lbl_8019B7C4
 	# ROM: 0x1978C4
-	.4byte 0x800E2704  ;# ptr
-	.4byte 0x800E270C  ;# ptr
-	.4byte 0x800E2714  ;# ptr
-	.4byte 0x800E271C  ;# ptr
-	.4byte 0x800E2724  ;# ptr
-	.4byte 0x800E272C  ;# ptr
-	.4byte 0x800E2734  ;# ptr
-	.4byte 0x800E273C  ;# ptr
-	.4byte 0x800E2744  ;# ptr
-
+	.4byte lbl_800E2704
+	.4byte lbl_800E270C
+	.4byte lbl_800E2714
+	.4byte lbl_800E271C
+	.4byte lbl_800E2724
+	.4byte lbl_800E272C
+	.4byte lbl_800E2734
+	.4byte lbl_800E273C
+	.4byte lbl_800E2744
 
 glabel lbl_8019B7E8
 	# ROM: 0x1978E8
 	.asciz "No resource to send HID host Connect request."
 	.balign 4
-
 
 glabel lbl_8019B818
 	# ROM: 0x197918
@@ -30985,7 +30859,6 @@ glabel lbl_8019B818
 	.balign 4
 	.asciz "HH State Change: [%s] -> [%s] after Event [%s]"
 	.balign 4
-
 
 glabel lbl_8019B8F4
 	# ROM: 0x1979F4
@@ -31020,26 +30893,24 @@ glabel lbl_8019B8F4
 	.balign 4
 	.asciz "unknown HID Host event code"
 
-
 glabel lbl_8019BAB8
 	# ROM: 0x197BB8
-	.4byte 0x800E31E4  ;# ptr
-	.4byte 0x800E31EC  ;# ptr
-	.4byte 0x800E31F4  ;# ptr
-	.4byte 0x800E31FC  ;# ptr
-	.4byte 0x800E320C  ;# ptr
-	.4byte 0x800E3214  ;# ptr
-	.4byte 0x800E3204  ;# ptr
-	.4byte 0x800E3224  ;# ptr
-	.4byte 0x800E321C  ;# ptr
-	.4byte 0x800E323C  ;# ptr
-	.4byte 0x800E3234  ;# ptr
-	.4byte 0x800E3244  ;# ptr
-	.4byte 0x800E31DC  ;# ptr
-	.4byte 0x800E31D4  ;# ptr
-	.4byte 0x800E324C  ;# ptr
-	.4byte 0x800E322C  ;# ptr
-
+	.4byte lbl_800E31E4
+	.4byte lbl_800E31EC
+	.4byte lbl_800E31F4
+	.4byte lbl_800E31FC
+	.4byte lbl_800E320C
+	.4byte lbl_800E3214
+	.4byte lbl_800E3204
+	.4byte lbl_800E3224
+	.4byte lbl_800E321C
+	.4byte lbl_800E323C
+	.4byte lbl_800E3234
+	.4byte lbl_800E3244
+	.4byte lbl_800E31DC
+	.4byte lbl_800E31D4
+	.4byte lbl_800E324C
+	.4byte lbl_800E322C
 
 glabel lbl_8019BAF8
 	# ROM: 0x197BF8
@@ -31048,7 +30919,6 @@ glabel lbl_8019BAF8
 	.asciz "in_use ? [%d] kdev[%d].hid_handle = %d state = [%d]"
 	.asciz "bta_hh_find_cb:: index = %d while max = %d"
 	.balign 4
-
 
 glabel lbl_8019BB7C
 	# ROM: 0x197C7C
@@ -31080,12 +30950,10 @@ glabel lbl_8019BDB8
 	.asciz "Duplicate btm_acl_created: RemBdAddr: %02x%02x%02x%02x%02x%02x"
 	.balign 4
 
-
 glabel lbl_8019BDF8
 	# ROM: 0x197EF8
 	.asciz "SetPacketType Mask -> 0x%04x"
 	.balign 4
-
 
 glabel lbl_8019BE18
 	# ROM: 0x197F18
@@ -31099,12 +30967,10 @@ glabel lbl_8019BE18
 	.asciz "BTM_SetLinkPolicy park not supported (settings: 0x%04x)"
 	.asciz "BTM_ReadLinkPolicy: RemBdAddr: %02x%02x%02x%02x%02x%02x"
 
-
 glabel lbl_8019BF98
 	# ROM: 0x198098
 	.asciz "BTM_ReadClockOffset: RemBdAddr: %02x%02x%02x%02x%02x%02x"
 	.balign 4
-
 
 glabel lbl_8019BFD4
 	# ROM: 0x1980D4
@@ -31113,30 +30979,25 @@ glabel lbl_8019BFD4
 	.asciz "BTM_SetQoS: BdAddr: %02x%02x%02x%02x%02x%02x"
 	.balign 4
 
-
 glabel lbl_8019C03C
 	# ROM: 0x19813C
 	.asciz "BTM: p_flow->delay_variation: 0x%02x"
 	.balign 4
-
 
 glabel lbl_8019C064
 	# ROM: 0x198164
 	.asciz "BTM_ReadRSSI: RemBdAddr: %02x%02x%02x%02x%02x%02x"
 	.balign 4
 
-
 glabel lbl_8019C098
 	# ROM: 0x198198
 	.asciz "BTM_ReadLinkQuality: RemBdAddr: %02x%02x%02x%02x%02x%02x"
 	.balign 4
 
-
 glabel lbl_8019C0D4
 	# ROM: 0x1981D4
 	.asciz "BTM RSSI Complete: rssi %d, hci status 0x%02x"
 	.balign 4
-
 
 glabel lbl_8019C104
 	# ROM: 0x198204
@@ -31149,11 +31010,9 @@ glabel lbl_8019C104
 	.asciz "btm last SCO removed; hci hdl 0x%x, types 0x%02x"
 	.balign 4
 
-
 glabel lbl_8019C1D8
 	# ROM: 0x1982D8
 	.asciz "BTM_SetAfhChannels first: %d (%d) last: %d (%d)"
-
 
 glabel lbl_8019C208
 	# ROM: 0x198308
@@ -31164,24 +31023,20 @@ glabel lbl_8019C208
 	.asciz "Local supported SCO packet types: 0x%04x"
 	.balign 4
 
-
 glabel lbl_8019C274
 	# ROM: 0x198374
 	.asciz "BTM: BTM_VendorSpecificCommand: Opcode: 0x%04X, ParamLen: %i."
 	.balign 4
-
 
 glabel lbl_8019C2B4
 	# ROM: 0x1983B4
 	.asciz "BTM: Unable to send vendor specific command (controller is busy)."
 	.balign 4
 
-
 glabel lbl_8019C2F8
 	# ROM: 0x1983F8
 	.asciz "BTM Event: Received a vendor specific event from controller"
 	.balign 8
-
 
 glabel lbl_8019C338
 	# ROM: 0x198438
@@ -31190,84 +31045,70 @@ glabel lbl_8019C338
 	.balign 4
 	.asciz "BTM: BTM_EnableTestMode"
 
-
 glabel lbl_8019C3A8
 	# ROM: 0x1984A8
 	.asciz "BTM: BTM_ReadStoredLinkKey: Read_All: %s"
 	.balign 4
-
 
 glabel lbl_8019C3D4
 	# ROM: 0x1984D4
 	.asciz "BTM: BTM_WriteStoredLinkKey: num_keys: %d"
 	.balign 4
 
-
 glabel lbl_8019C400
 	# ROM: 0x198500
 	.asciz "BTM: BTM_DeleteStoredLinkKey: delete_all_flag: %s"
 	.balign 8
-
 
 glabel lbl_8019C438
 	# ROM: 0x198538
 	.asciz "BTM_SetDiscoverability: mode %d [NonDisc-0, Lim-1, Gen-2], window 0x%04x, interval 0x%04x"
 	.balign 4
 
-
 glabel lbl_8019C494
 	# ROM: 0x198594
 	.asciz "BTM_SetConnectability: mode %d [NonConn-0, Conn-1], window 0x%04x, interval 0x%04x"
 	.balign 4
-
 
 glabel lbl_8019C4E8
 	# ROM: 0x1985E8
 	.asciz "BTM_CancelInquiry called"
 	.balign 4
 
-
 glabel lbl_8019C504
 	# ROM: 0x198604
 	.asciz "BTM_StartInquiry: mode: %d, dur: %d, rsps: %d, flt: %d"
 	.balign 4
-
 
 glabel lbl_8019C53C
 	# ROM: 0x19863C
 	.asciz "BTM_ReadRemoteDeviceName: bd addr [%02x%02x%02x%02x%02x%02x]"
 	.balign 4
 
-
 glabel lbl_8019C57C
 	# ROM: 0x19867C
 	.asciz "BTM_CancelRemoteDeviceName()"
 	.balign 4
-
 
 glabel lbl_8019C59C
 	# ROM: 0x19869C
 	.asciz "BTM_InqDbRead: bd addr [%02x%02x%02x%02x%02x%02x]"
 	.balign 4
 
-
 glabel lbl_8019C5D0
 	# ROM: 0x1986D0
 	.asciz "BTM Warning: Set Event Filter Failed (HCI returned 0x%x)"
 	.balign 4
-
 
 glabel lbl_8019C60C
 	# ROM: 0x19870C
 	.asciz "BTM Inq Compl Callback: status 0x%02x, num results %d"
 	.balign 8
 
-
 glabel lbl_8019C648
 	# ROM: 0x198748
 	.asciz "btm mode change AFTER unsniffing; hci hdl 0x%x, types 0x%02x"
 	.balign 4
-
 
 glabel lbl_8019C688
 	# ROM: 0x198788
@@ -31279,7 +31120,6 @@ glabel lbl_8019C688
 	.balign 4
 	.asciz "btm_sco_chk_pend_unpark -> (e)SCO Link for ACL handle 0x%04x, Desired Type %d"
 	.balign 4
-
 
 glabel lbl_8019C7B4
 	# ROM: 0x1988B4
@@ -31297,12 +31137,10 @@ glabel lbl_8019C7B4
 	.asciz "BTM_ChangeEScoLinkParms -> eSCO Link for handle 0x%04x"
 	.balign 4
 
-
 glabel lbl_8019C94C
 	# ROM: 0x198A4C
 	.asciz "btm_esco_proc_conn_chg -> handle 0x%04x, status 0x%02x"
 	.balign 8
-
 
 glabel lbl_8019C988
 	# ROM: 0x198A88
@@ -31312,7 +31150,6 @@ glabel lbl_8019C988
 	.asciz "BTM_SetSecurityMode: Authen Enable -> FALSE"
 	.asciz "BTM_SetSecurityMode: Authen Enable -> TRUE"
 	.balign 4
-
 
 glabel lbl_8019CA20
 	# ROM: 0x198B20
@@ -31324,11 +31161,9 @@ glabel lbl_8019CA20
 	.asciz "BTM_SEC_REG: Out of Service Records (%d)"
 	.balign 8
 
-
 glabel lbl_8019CB28
 	# ROM: 0x198C28
 	.asciz "Security Manager: Attempting Authorization of Unknown Device Address [%02x%02x%02x%02x%02x%02x]"
-
 
 glabel lbl_8019CB88
 	# ROM: 0x198C88
@@ -31344,7 +31179,6 @@ glabel lbl_8019CB88
 	.balign 4
 	.asciz "BTM_SecBond: no buffer"
 	.balign 4
-
 
 glabel lbl_8019CC84
 	# ROM: 0x198D84
@@ -31366,63 +31200,52 @@ glabel lbl_8019CC84
 	.balign 4
 	.asciz "Security Manager: trusted:0x%04x%04x Flags:0x%x"
 
-
 glabel lbl_8019CEE0
 	# ROM: 0x198FE0
 	.asciz "Security Manager: MX service not found PSM:%d Proto:%d SCN:%d"
 	.balign 4
-
 
 glabel lbl_8019CF20
 	# ROM: 0x199020
 	.asciz "Security Manager: connect request from not paired device"
 	.balign 4
 
-
 glabel lbl_8019CF5C
 	# ROM: 0x19905C
 	.asciz "Security Manager: rmt_name_complete status:%d State:%d"
 	.balign 4
-
 
 glabel lbl_8019CF94
 	# ROM: 0x199094
 	.asciz "Security Manager: auth_complete status:%d State:%d"
 	.balign 4
 
-
 glabel lbl_8019CFC8
 	# ROM: 0x1990C8
 	.asciz "Security Manager: mkey comp status:%d State:%d"
 	.balign 4
 
-
 glabel lbl_8019CFF8
 	# ROM: 0x1990F8
 	.asciz "Security Manager: encrypt_change status:%d State:%d"
-
 
 glabel lbl_8019D02C
 	# ROM: 0x19912C
 	.asciz "Security Manager: btm_sec_connected handle:%d status:%d enc_mode:%d"
 
-
 glabel lbl_8019D070
 	# ROM: 0x199170
 	.asciz "btm_sec_link_key_notification()  BDA: %02x:%02x:%02x:%02x:%02x:%02x"
-
 
 glabel lbl_8019D0B4
 	# ROM: 0x1991B4
 	.asciz "                                TYPE: %d"
 	.balign 4
 
-
 glabel lbl_8019D0E0
 	# ROM: 0x1991E0
 	.asciz "btm_sec_link_key_request()  BDA: %02x:%02x:%02x:%02x:%02x:%02x"
 	.balign 4
-
 
 glabel lbl_8019D120
 	# ROM: 0x199220
@@ -31453,58 +31276,48 @@ glabel lbl_8019D120
 	.asciz "Security Manager: access granted"
 	.balign 4
 
-
 glabel lbl_8019D37C
 	# ROM: 0x19947C
 	.asciz "btm_sec_collision_timeout()"
-
 
 glabel lbl_8019D398
 	# ROM: 0x199498
 	.asciz "Ctlr H/w error event"
 	.balign 4
 
-
 glabel lbl_8019D3B0
 	# ROM: 0x1994B0
 	.asciz "Event mismatch opcode=%X cmd opcode=%X"
 	.balign 4
-
 
 glabel lbl_8019D3D8
 	# ROM: 0x1994D8
 	.asciz "Cmd timeout; no cmd in queue"
 	.balign 4
 
-
 glabel lbl_8019D3F8
 	# ROM: 0x1994F8
 	.asciz "BTU HCI command timeout - cmd opcode = 0x%02x"
 	.balign 4
 
-
 glabel lbl_8019D428
 	# ROM: 0x199528
 	.asciz "WARNING: GAP Conn Indication for Unexpected Bd Addr...Disconnecting"
-
 
 glabel lbl_8019D46C
 	# ROM: 0x19956C
 	.asciz "GAP_CONN - Rcvd L2CAP conn ind, CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_8019D498
 	# ROM: 0x199598
 	.asciz "GAP_CONN - Rcvd L2CAP disc, CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_8019D4C0
 	# ROM: 0x1995C0
 	.asciz "GAP_CONN - Rcvd L2CAP Is Congested (%d), CID: 0x%x"
 	.balign 8
-
 
 glabel lbl_8019D4F8
 	# ROM: 0x1995F8
@@ -31514,122 +31327,109 @@ glabel lbl_8019D4F8
 	.asciz "   GAP Remote Name Complete Event (status 0x%04x)"
 	.balign 4
 
-
 glabel lbl_8019D5C4
 	# ROM: 0x1996C4
-	.4byte 0x800EFAD4  ;# ptr
-	.4byte 0x800EFADC  ;# ptr
-	.4byte 0x800EFAE4  ;# ptr
-	.4byte 0x800EFB0C  ;# ptr
-	.4byte 0x800EFAEC  ;# ptr
-	.4byte 0x800EFAEC  ;# ptr
-	.4byte 0x800EFAF4  ;# ptr
-	.4byte 0x800EFAFC  ;# ptr
-	.4byte 0x800EFB04  ;# ptr
+	.4byte lbl_800EFAD4
+	.4byte lbl_800EFADC
+	.4byte lbl_800EFAE4
+	.4byte lbl_800EFB0C
+	.4byte lbl_800EFAEC
+	.4byte lbl_800EFAEC
+	.4byte lbl_800EFAF4
+	.4byte lbl_800EFAFC
+	.4byte lbl_800EFB04
 	.asciz "GAP Inquiry Results Callback (bdaddr [%02x%02x%02x%02x%02x%02x])"
 	.balign 4
 	.asciz "                             (COD [%02x%02x%02x], clkoff 0x%04x)"
 	.balign 4
 
-
 glabel lbl_8019D670
 	# ROM: 0x199770
 	.asciz "   GAP: FindAddrByName Rem Name Cmpl Evt (Status 0x%04x, Name [%s])"
-
 
 glabel lbl_8019D6B4
 	# ROM: 0x1997B4
 	.asciz "   GAP: FindAddrByName Rem Name Cmpl Evt (Status 0x%04x)"
 	.balign 4
 
-
 glabel lbl_8019D6F0
 	# ROM: 0x1997F0
-	.4byte 0x800EFD2C  ;# ptr
-	.4byte 0x800EFD34  ;# ptr
-	.4byte 0x800EFD3C  ;# ptr
-	.4byte 0x800EFD64  ;# ptr
-	.4byte 0x800EFD44  ;# ptr
-	.4byte 0x800EFD44  ;# ptr
-	.4byte 0x800EFD4C  ;# ptr
-	.4byte 0x800EFD54  ;# ptr
-	.4byte 0x800EFD5C  ;# ptr
-
+	.4byte lbl_800EFD2C
+	.4byte lbl_800EFD34
+	.4byte lbl_800EFD3C
+	.4byte lbl_800EFD64
+	.4byte lbl_800EFD44
+	.4byte lbl_800EFD44
+	.4byte lbl_800EFD4C
+	.4byte lbl_800EFD54
+	.4byte lbl_800EFD5C
 
 glabel lbl_8019D714
 	# ROM: 0x199814
-	.4byte 0x800EFC94  ;# ptr
-	.4byte 0x800EFC9C  ;# ptr
-	.4byte 0x800EFCA4  ;# ptr
-	.4byte 0x800EFCCC  ;# ptr
-	.4byte 0x800EFCAC  ;# ptr
-	.4byte 0x800EFCAC  ;# ptr
-	.4byte 0x800EFCB4  ;# ptr
-	.4byte 0x800EFCBC  ;# ptr
-	.4byte 0x800EFCC4  ;# ptr
-
+	.4byte lbl_800EFC94
+	.4byte lbl_800EFC9C
+	.4byte lbl_800EFCA4
+	.4byte lbl_800EFCCC
+	.4byte lbl_800EFCAC
+	.4byte lbl_800EFCAC
+	.4byte lbl_800EFCB4
+	.4byte lbl_800EFCBC
+	.4byte lbl_800EFCC4
 
 glabel lbl_8019D738
 	# ROM: 0x199838
 	.asciz "   GAP: FindAddrByName Inq Cmpl Evt (Status 0x%04x, Result(s) %d)"
 	.balign 4
 
-
 glabel lbl_8019D77C
 	# ROM: 0x19987C
-	.4byte 0x800EFEE0  ;# ptr
-	.4byte 0x800EFEE8  ;# ptr
-	.4byte 0x800EFEF0  ;# ptr
-	.4byte 0x800EFF18  ;# ptr
-	.4byte 0x800EFEF8  ;# ptr
-	.4byte 0x800EFEF8  ;# ptr
-	.4byte 0x800EFF00  ;# ptr
-	.4byte 0x800EFF08  ;# ptr
-	.4byte 0x800EFF10  ;# ptr
-
+	.4byte lbl_800EFEE0
+	.4byte lbl_800EFEE8
+	.4byte lbl_800EFEF0
+	.4byte lbl_800EFF18
+	.4byte lbl_800EFEF8
+	.4byte lbl_800EFEF8
+	.4byte lbl_800EFF00
+	.4byte lbl_800EFF08
+	.4byte lbl_800EFF10
 
 glabel lbl_8019D7A0
 	# ROM: 0x1998A0
-	.4byte 0x800EFE70  ;# ptr
-	.4byte 0x800EFE78  ;# ptr
-	.4byte 0x800EFE80  ;# ptr
-	.4byte 0x800EFEA8  ;# ptr
-	.4byte 0x800EFE88  ;# ptr
-	.4byte 0x800EFE88  ;# ptr
-	.4byte 0x800EFE90  ;# ptr
-	.4byte 0x800EFE98  ;# ptr
-	.4byte 0x800EFEA0  ;# ptr
-
+	.4byte lbl_800EFE70
+	.4byte lbl_800EFE78
+	.4byte lbl_800EFE80
+	.4byte lbl_800EFEA8
+	.4byte lbl_800EFE88
+	.4byte lbl_800EFE88
+	.4byte lbl_800EFE90
+	.4byte lbl_800EFE98
+	.4byte lbl_800EFEA0
 
 glabel lbl_8019D7C4
 	# ROM: 0x1998C4
-	.4byte 0x800EFF84  ;# ptr
-	.4byte 0x800EFF8C  ;# ptr
-	.4byte 0x800EFF94  ;# ptr
-	.4byte 0x800EFFBC  ;# ptr
-	.4byte 0x800EFF9C  ;# ptr
-	.4byte 0x800EFF9C  ;# ptr
-	.4byte 0x800EFFA4  ;# ptr
-	.4byte 0x800EFFAC  ;# ptr
-	.4byte 0x800EFFB4  ;# ptr
-
+	.4byte lbl_800EFF84
+	.4byte lbl_800EFF8C
+	.4byte lbl_800EFF94
+	.4byte lbl_800EFFBC
+	.4byte lbl_800EFF9C
+	.4byte lbl_800EFF9C
+	.4byte lbl_800EFFA4
+	.4byte lbl_800EFFAC
+	.4byte lbl_800EFFB4
 
 glabel lbl_8019D7E8
 	# ROM: 0x1998E8
 	.asciz "HID - Originate started"
-
 
 glabel lbl_8019D800
 	# ROM: 0x199900
 	.asciz "HID - Originate failed"
 	.balign 4
 
-
 glabel lbl_8019D818
 	# ROM: 0x199918
 	.asciz "hidd_proc_repage_timeout"
 	.balign 8
-
 
 glabel lbl_8019D838
 	# ROM: 0x199938
@@ -31651,17 +31451,14 @@ glabel lbl_8019D838
 	.asciz "Security Registration 6 failed"
 	.balign 8
 
-
 glabel lbl_8019D950
 	# ROM: 0x199A50
 	.asciz "HID Control Registration failed"
-
 
 glabel lbl_8019D970
 	# ROM: 0x199A70
 	.asciz "HID Interrupt Registration failed"
 	.balign 4
-
 
 glabel lbl_8019D994
 	# ROM: 0x199A94
@@ -31677,7 +31474,6 @@ glabel lbl_8019D994
 	.asciz "HID - Rcvd L2CAP conn ind, sent config req, PSM: 0x%04x  CID 0x%x"
 	.balign 4
 
-
 glabel lbl_8019DAB4
 	# ROM: 0x199BB4
 	.asciz "HID - Originate failed"
@@ -31689,11 +31485,9 @@ glabel lbl_8019DAB4
 	.asciz "HID - got CTRL conn cnf, sent cfg req, CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_8019DB6C
 	# ROM: 0x199C6C
 	.asciz "HID - Rcvd L2CAP cfg ind, unknown CID: 0x%x"
-
 
 glabel lbl_8019DB98
 	# ROM: 0x199C98
@@ -31701,47 +31495,39 @@ glabel lbl_8019DB98
 	.asciz "HID - Rcvd cfg cfm, CID: 0x%x  Result: %d"
 	.balign 4
 
-
 glabel lbl_8019DBF0
 	# ROM: 0x199CF0
 	.asciz "HID - Rcvd L2CAP disc, unknown CID: 0x%x"
 	.balign 4
-
 
 glabel lbl_8019DC1C
 	# ROM: 0x199D1C
 	.asciz "HID - Rcvd L2CAP disc, CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_8019DC40
 	# ROM: 0x199D40
 	.asciz "HID - Rcvd L2CAP disc cfm, unknown CID: 0x%x"
 	.balign 4
-
 
 glabel lbl_8019DC70
 	# ROM: 0x199D70
 	.asciz "HID - Rcvd L2CAP disc cfm, CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_8019DC98
 	# ROM: 0x199D98
 	.asciz "HID - Rcvd L2CAP congestion status, unknown CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_8019DCD0
 	# ROM: 0x199DD0
 	.asciz "HID - Rcvd L2CAP congestion status, CID: 0x%x  Cong: %d"
-
 
 glabel lbl_8019DD08
 	# ROM: 0x199E08
 	.asciz "HID - Rcvd L2CAP data, unknown CID: 0x%x"
 	.balign 8
-
 
 glabel lbl_8019DD38
 	# ROM: 0x199E38
@@ -31754,12 +31540,10 @@ glabel lbl_8019DD38
 	.asciz "L2CAP - no RCB available, PSM: 0x%04x"
 	.balign 4
 
-
 glabel lbl_8019DDE0
 	# ROM: 0x199EE0
 	.asciz "L2CAP - L2CA_Deregister() called for PSM: 0x%04x"
 	.balign 4
-
 
 glabel lbl_8019DE14
 	# ROM: 0x199F14
@@ -31791,48 +31575,40 @@ glabel lbl_8019DE14
 	.asciz "L2CAP - bad id in L2CA_conn_rsp. Exp: %d  Got: %d"
 	.balign 4
 
-
 glabel lbl_8019E090
 	# ROM: 0x19A190
 	.asciz "L2CA_ConfigReq()  CID: 0x%04x"
 	.balign 4
-
 
 glabel lbl_8019E0B0
 	# ROM: 0x19A1B0
 	.asciz "L2CAP - no CCB for L2CA_cfg_req, CID: %d"
 	.balign 4
 
-
 glabel lbl_8019E0DC
 	# ROM: 0x19A1DC
 	.asciz "L2CA_ConfigRsp()  CID: 0x%04x  Result: %d"
 	.balign 4
-
 
 glabel lbl_8019E108
 	# ROM: 0x19A208
 	.asciz "L2CAP - no CCB for L2CA_cfg_rsp, CID: %d"
 	.balign 4
 
-
 glabel lbl_8019E134
 	# ROM: 0x19A234
 	.asciz "L2CA_DisconnectReq()  CID: 0x%04x"
 	.balign 4
-
 
 glabel lbl_8019E158
 	# ROM: 0x19A258
 	.asciz "L2CAP - no CCB for L2CA_disc_req, CID: %d"
 	.balign 4
 
-
 glabel lbl_8019E184
 	# ROM: 0x19A284
 	.asciz "L2CA_DisconnectRsp()  CID: 0x%04x"
 	.balign 4
-
 
 glabel lbl_8019E1A8
 	# ROM: 0x19A2A8
@@ -31850,7 +31626,6 @@ glabel lbl_8019E1A8
 	.balign 8
 	.asciz "L2CAP - L2CA_ping rejected - link disconnecting"
 
-
 glabel lbl_8019E308
 	# ROM: 0x19A408
 	.asciz "L2CAP - no CCB for L2CA_SetIdleTimeout, CID: %d"
@@ -31867,21 +31642,19 @@ glabel lbl_8019E308
 	.asciz "L2CA_GetNumQueuedBufs()  CID: 0x%04x  returning %d"
 	.balign 8
 
-
 glabel lbl_8019E4C8
 	# ROM: 0x19A5C8
-	.4byte 0x800F65FC  ;# ptr
-	.4byte 0x800F6600  ;# ptr
-	.4byte 0x800F6604  ;# ptr
-	.4byte 0x800F6608  ;# ptr
-	.4byte 0x800F660C  ;# ptr
-	.4byte 0x800F6610  ;# ptr
-	.4byte 0x800F6614  ;# ptr
-	.4byte 0x800F6618  ;# ptr
-	.4byte 0x800F661C  ;# ptr
+	.4byte lbl_800F65FC
+	.4byte lbl_800F6600
+	.4byte lbl_800F6604
+	.4byte lbl_800F6608
+	.4byte lbl_800F660C
+	.4byte lbl_800F6610
+	.4byte lbl_800F6614
+	.4byte lbl_800F6618
+	.4byte lbl_800F661C
 	.asciz "L2CAP - st: CLOSED evt: %d"
 	.balign 4
-
 
 glabel lbl_8019E508
 	# ROM: 0x19A608
@@ -31890,116 +31663,111 @@ glabel lbl_8019E508
 	.asciz "L2CAP - Calling ConnectCfm_Cb(), CID: 0x%04x  Status: %d"
 	.balign 4
 
-
 glabel lbl_8019E588
 	# ROM: 0x19A688
-	.4byte 0x800F66E4  ;# ptr
-	.4byte 0x800F6714  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F66A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F6798  ;# ptr
-	.4byte 0x800F67BC  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F6808  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F688C  ;# ptr
-	.4byte 0x800F675C  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F6898  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F68A0  ;# ptr
-	.4byte 0x800F688C  ;# ptr
-	.4byte 0x800F6838  ;# ptr
+	.4byte lbl_800F66E4
+	.4byte lbl_800F6714
+	.4byte lbl_800F68A0
+	.4byte lbl_800F66A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F6798
+	.4byte lbl_800F67BC
+	.4byte lbl_800F68A0
+	.4byte lbl_800F6808
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F688C
+	.4byte lbl_800F675C
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F6898
+	.4byte lbl_800F68A0
+	.4byte lbl_800F68A0
+	.4byte lbl_800F688C
+	.4byte lbl_800F6838
 	.asciz "L2CAP - st: ORIG_W4_SEC_COMP evt: %d"
 	.balign 4
 
-
 glabel lbl_8019E62C
 	# ROM: 0x19A72C
-	.4byte 0x800F6938  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F697C  ;# ptr
-	.4byte 0x800F69A8  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F69F0  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F69FC  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F6A10  ;# ptr
-	.4byte 0x800F69F0  ;# ptr
-
+	.4byte lbl_800F6938
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F697C
+	.4byte lbl_800F69A8
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F69F0
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F69FC
+	.4byte lbl_800F6A10
+	.4byte lbl_800F6A10
+	.4byte lbl_800F69F0
 
 glabel lbl_8019E698
 	# ROM: 0x19A798
 	.asciz "L2CAP - st: TERM_W4_SEC_COMP evt: %d"
 	.balign 4
 
-
 glabel lbl_8019E6C0
 	# ROM: 0x19A7C0
 	.asciz "L2CAP - Calling Connect_Ind_Cb(), CID: 0x%04x"
 	.balign 4
 
-
 glabel lbl_8019E6F0
 	# ROM: 0x19A7F0
-	.4byte 0x800F6A98  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6AB0  ;# ptr
-	.4byte 0x800F6B18  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B4C  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B34  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B40  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B74  ;# ptr
-	.4byte 0x800F6B34  ;# ptr
+	.4byte lbl_800F6A98
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6AB0
+	.4byte lbl_800F6B18
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B4C
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B34
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B40
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B74
+	.4byte lbl_800F6B34
 	.asciz "L2CAP - st: W4_L2CAP_CON_RSP evt: %d"
 	.balign 4
 	.asciz "L2CAP - Calling Connect_Cfm_Cb(), CID: 0x%04x, Success"
@@ -32010,74 +31778,71 @@ glabel lbl_8019E6F0
 	.asciz "L2CAP - Calling Connect_Cfm_Cb(), CID: 0x%04x, Timeout"
 	.balign 4
 
-
 glabel lbl_8019E858
 	# ROM: 0x19A958
-	.4byte 0x800F6C10  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6C5C  ;# ptr
-	.4byte 0x800F6CBC  ;# ptr
-	.4byte 0x800F6D14  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DB4  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DA8  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DBC  ;# ptr
-	.4byte 0x800F6DB4  ;# ptr
-	.4byte 0x800F6D5C  ;# ptr
-
+	.4byte lbl_800F6C10
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6C5C
+	.4byte lbl_800F6CBC
+	.4byte lbl_800F6D14
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DB4
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DA8
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DBC
+	.4byte lbl_800F6DB4
+	.4byte lbl_800F6D5C
 
 glabel lbl_8019E8C8
 	# ROM: 0x19A9C8
 	.asciz "L2CAP - st: W4_L2CA_CON_RSP evt: %d"
 
-
 glabel lbl_8019E8EC
 	# ROM: 0x19A9EC
-	.4byte 0x800F6E4C  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F68  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6E94  ;# ptr
-	.4byte 0x800F6EF4  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F74  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F94  ;# ptr
-	.4byte 0x800F6F68  ;# ptr
-	.4byte 0x800F6F10  ;# ptr
+	.4byte lbl_800F6E4C
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F68
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6E94
+	.4byte lbl_800F6EF4
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F74
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F94
+	.4byte lbl_800F6F68
+	.4byte lbl_800F6F10
 	.asciz "L2CAP - st: CONFIG evt: %d"
 	.balign 4
 	.asciz "L2CAP - Calling Config_Req_Cb(), CID: 0x%04x"
@@ -32091,175 +31856,164 @@ glabel lbl_8019E8EC
 	.asciz "L2CAP - Calling DataInd_Cb(), CID: 0x%04x"
 	.balign 4
 
-
 glabel lbl_8019EA80
 	# ROM: 0x19AB80
-	.4byte 0x800F7028  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F706C  ;# ptr
-	.4byte 0x800F70D0  ;# ptr
-	.4byte 0x800F714C  ;# ptr
-	.4byte 0x800F7198  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F72AC  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F71F0  ;# ptr
-	.4byte 0x800F721C  ;# ptr
-	.4byte 0x800F7268  ;# ptr
-	.4byte 0x800F7288  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F735C  ;# ptr
-	.4byte 0x800F72EC  ;# ptr
-	.4byte 0x800F7314  ;# ptr
+	.4byte lbl_800F7028
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F706C
+	.4byte lbl_800F70D0
+	.4byte lbl_800F714C
+	.4byte lbl_800F7198
+	.4byte lbl_800F735C
+	.4byte lbl_800F72AC
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F71F0
+	.4byte lbl_800F721C
+	.4byte lbl_800F7268
+	.4byte lbl_800F7288
+	.4byte lbl_800F735C
+	.4byte lbl_800F735C
+	.4byte lbl_800F72EC
+	.4byte lbl_800F7314
 	.asciz "L2CAP - st: OPEN evt: %d"
 	.balign 4
 
-
 glabel lbl_8019EB0C
 	# ROM: 0x19AC0C
-	.4byte 0x800F73F0  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F7434  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F7458  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F74D0  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F7528  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F7580  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F7544  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F75B8  ;# ptr
-	.4byte 0x800F7568  ;# ptr
+	.4byte lbl_800F73F0
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F7434
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F7458
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F74D0
+	.4byte lbl_800F75B8
+	.4byte lbl_800F7528
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F7580
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F7544
+	.4byte lbl_800F75B8
+	.4byte lbl_800F75B8
+	.4byte lbl_800F7568
 	.asciz "L2CAP - st: W4_L2CAP_DISC_RSP evt: %d"
 	.balign 4
 	.asciz "L2CAP - Calling DisconnectCfm_Cb(), CID: 0x%04x"
 
-
 glabel lbl_8019EBD0
 	# ROM: 0x19ACD0
-	.4byte 0x800F7650  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F76E0  ;# ptr
-	.4byte 0x800F7694  ;# ptr
-	.4byte 0x800F7794  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F779C  ;# ptr
-	.4byte 0x800F7794  ;# ptr
-	.4byte 0x800F7740  ;# ptr
-
+	.4byte lbl_800F7650
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F76E0
+	.4byte lbl_800F7694
+	.4byte lbl_800F7794
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F779C
+	.4byte lbl_800F7794
+	.4byte lbl_800F7740
 
 glabel lbl_8019EC40
 	# ROM: 0x19AD40
 	.asciz "L2CAP - st: W4_L2CA_DISC_RSP evt: %d"
 	.balign 4
 
-
 glabel lbl_8019EC68
 	# ROM: 0x19AD68
-	.4byte 0x800F782C  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F0  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78D0  ;# ptr
-	.4byte 0x800F78F8  ;# ptr
-	.4byte 0x800F78F0  ;# ptr
-	.4byte 0x800F7874  ;# ptr
+	.4byte lbl_800F782C
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F0
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78D0
+	.4byte lbl_800F78F8
+	.4byte lbl_800F78F0
+	.4byte lbl_800F7874
 	.asciz "L2CAP - cannot send buffer, offset: %d"
 	.balign 4
-
 
 glabel lbl_8019ED00
 	# ROM: 0x19AE00
 	.asciz "L2CAP failed to allocate LCB"
 	.balign 4
 
-
 glabel lbl_8019ED20
 	# ROM: 0x19AE20
 	.asciz "L2CAP got conn_req while connected"
 	.balign 8
 
-
 glabel lbl_8019ED48
 	# ROM: 0x19AE48
 	.asciz "L2CAP got conn_comp for unknown BD_ADDR"
-
 
 glabel lbl_8019ED70
 	# ROM: 0x19AE70
 	.asciz "L2CAP got conn_comp in bad state: %d  status: 0x%d"
 	.balign 4
 
-
 glabel lbl_8019EDA4
 	# ROM: 0x19AEA4
 	.asciz "L2CAP got sec_comp for unknown BD_ADDR"
 	.balign 4
-
 
 glabel lbl_8019EDCC
 	# ROM: 0x19AECC
@@ -32274,23 +32028,19 @@ glabel lbl_8019EDCC
 	.asciz "LCB %d Priority:%d XmitWindow:%d Congestion Start:%d End:%d Discard:%d"
 	.balign 4
 
-
 glabel lbl_8019EEF8
 	# ROM: 0x19AFF8
 	.asciz "L2CAP - dropping incomplete pkt"
-
 
 glabel lbl_8019EF18
 	# ROM: 0x19B018
 	.asciz "L2CAP - dropping too long pkt"
 	.balign 4
 
-
 glabel lbl_8019EF38
 	# ROM: 0x19B038
 	.asciz "L2CAP - rcvd segment complete, unknown handle: %d"
 	.balign 8
-
 
 glabel lbl_8019EF70
 	# ROM: 0x19B070
@@ -32321,48 +32071,42 @@ glabel lbl_8019EF70
 	.balign 4
 	.asciz "L2CAP - bad cmd code: %d"
 	.balign 4
-	.4byte 0x800F9AA0  ;# ptr
-	.4byte 0x800F9150  ;# ptr
-	.4byte 0x800F9224  ;# ptr
-	.4byte 0x800F92F0  ;# ptr
-	.4byte 0x800F93E8  ;# ptr
-	.4byte 0x800F9698  ;# ptr
-	.4byte 0x800F9948  ;# ptr
-	.4byte 0x800F99BC  ;# ptr
-	.4byte 0x800F9A1C  ;# ptr
-	.4byte 0x800F9A5C  ;# ptr
-	.4byte 0x800F9A7C  ;# ptr
-	.4byte 0x800F90D0  ;# ptr
-
+	.4byte lbl_800F9AA0
+	.4byte lbl_800F9150
+	.4byte lbl_800F9224
+	.4byte lbl_800F92F0
+	.4byte lbl_800F93E8
+	.4byte lbl_800F9698
+	.4byte lbl_800F9948
+	.4byte lbl_800F99BC
+	.4byte lbl_800F9A1C
+	.4byte lbl_800F9A5C
+	.4byte lbl_800F9A7C
+	.4byte lbl_800F90D0
 
 glabel lbl_8019F244
 	# ROM: 0x19B344
 	.asciz "L2CAP HOLD CONTINUE"
-
 
 glabel lbl_8019F258
 	# ROM: 0x19B358
 	.asciz "L2CAP HOLD TIMEOUT"
 	.balign 8
 
-
 glabel lbl_8019F270
 	# ROM: 0x19B370
 	.asciz "L2CAP - no buffer cmd_rej"
 	.balign 4
-
 
 glabel lbl_8019F28C
 	# ROM: 0x19B38C
 	.asciz "L2CAP - no buffer for conn_req"
 	.balign 4
 
-
 glabel lbl_8019F2AC
 	# ROM: 0x19B3AC
 	.asciz "L2CAP - no buffer for cfg_rej"
 	.balign 4
-
 
 glabel lbl_8019F2CC
 	# ROM: 0x19B3CC
@@ -32370,12 +32114,10 @@ glabel lbl_8019F2CC
 	.balign 4
 	.asciz "l2cu_create_conn - btm_is_sco_active_by_bdaddr() is_sco_active = %s"
 
-
 glabel lbl_8019F330
 	# ROM: 0x19B430
 	.asciz "L2CAP - no buffer for l2cu_create_conn"
 	.balign 4
-
 
 glabel lbl_8019F358
 	# ROM: 0x19B458
@@ -32384,48 +32126,40 @@ glabel lbl_8019F358
 	.asciz "port_open_continue no mx channel"
 	.balign 4
 
-
 glabel lbl_8019F390
 	# ROM: 0x19B490
 	.asciz "PORT_StartCnf result:%d"
 	.asciz "PORT_StartCnf failed result:%d"
 	.balign 4
 
-
 glabel lbl_8019F3C8
 	# ROM: 0x19B4C8
 	.asciz "PORT_StartInd"
 	.balign 4
-
 
 glabel lbl_8019F3D8
 	# ROM: 0x19B4D8
 	.asciz "PORT_ParNegInd dlci:%d mtu:%d"
 	.balign 4
 
-
 glabel lbl_8019F3F8
 	# ROM: 0x19B4F8
 	.asciz "PORT_ParNegInd: port not found"
 	.balign 4
-
 
 glabel lbl_8019F418
 	# ROM: 0x19B518
 	.asciz "PORT_ParNegCnf dlci:%d mtu:%d cl: %d k: %d"
 	.balign 4
 
-
 glabel lbl_8019F444
 	# ROM: 0x19B544
 	.asciz "PORT_DlcEstablishInd dlci:%d mtu:%d"
-
 
 glabel lbl_8019F468
 	# ROM: 0x19B568
 	.asciz "PORT_DlcEstablishCnf dlci:%d mtu:%d result:%d"
 	.balign 4
-
 
 glabel lbl_8019F498
 	# ROM: 0x19B598
@@ -32435,58 +32169,48 @@ glabel lbl_8019F498
 	.asciz "PORT_PortNegCnf Control Already sent"
 	.balign 4
 
-
 glabel lbl_8019F4F8
 	# ROM: 0x19B5F8
 	.asciz "PORT_ControlInd"
-
 
 glabel lbl_8019F508
 	# ROM: 0x19B608
 	.asciz "PORT_ControlInd DTR_DSR : %d, RTS_CTS : %d, RI : %d, DCD : %d"
 	.balign 4
 
-
 glabel lbl_8019F548
 	# ROM: 0x19B648
 	.asciz "PORT_ControlCnf"
-
 
 glabel lbl_8019F558
 	# ROM: 0x19B658
 	.asciz "PORT_LineStatusInd"
 	.balign 4
 
-
 glabel lbl_8019F56C
 	# ROM: 0x19B66C
 	.asciz "PORT_DlcReleaseInd"
 	.balign 4
-
 
 glabel lbl_8019F580
 	# ROM: 0x19B680
 	.asciz "PORT_CloseInd"
 	.balign 4
 
-
 glabel lbl_8019F590
 	# ROM: 0x19B690
 	.asciz "Port_TimeOutCloseMux"
 	.balign 4
-
 
 glabel lbl_8019F5A8
 	# ROM: 0x19B6A8
 	.asciz "PORT_DataInd with data length %d"
 	.balign 4
 
-
 glabel lbl_8019F5CC
 	# ROM: 0x19B6CC
 	.asciz "PORT_DataInd. Buffer over run. Dropping the buffer"
 	.balign 4
-
 
 glabel lbl_8019F600
 	# ROM: 0x19B700
@@ -32495,18 +32219,15 @@ glabel lbl_8019F600
 	.asciz "Sending RFCOMM_DataReq"
 	.balign 4
 
-
 glabel lbl_8019F62C
 	# ROM: 0x19B72C
 	.asciz "port_rfc_closed in OPENING state ignored"
 	.balign 4
 
-
 glabel lbl_8019F658
 	# ROM: 0x19B758
 	.asciz "port_rfc_closed state:%d sending events:%x"
 	.balign 8
-
 
 glabel lbl_8019F688
 	# ROM: 0x19B788
@@ -32519,18 +32240,15 @@ glabel lbl_8019F688
 	.asciz "port_select_mtu credit_rx_max %d, credit_rx_low %d, rx_buf_critical %d"
 	.balign 4
 
-
 glabel lbl_8019F788
 	# ROM: 0x19B888
 	.asciz "rfc_port_closed DONE"
 	.balign 4
 
-
 glabel lbl_8019F7A0
 	# ROM: 0x19B8A0
 	.asciz "PORT_DataInd Data reached HW. Sending FC set."
 	.balign 4
-
 
 glabel lbl_8019F7D0
 	# ROM: 0x19B8D0
@@ -32550,16 +32268,15 @@ glabel lbl_8019F7D0
 	.asciz "RFCOMM_CongestionStatusInd LCID:0x%x"
 	.balign 8
 
-
 glabel lbl_8019F910
 	# ROM: 0x19BA10
-	.4byte 0x800FDEB0  ;# ptr
-	.4byte 0x800FDEB4  ;# ptr
-	.4byte 0x800FDEB8  ;# ptr
-	.4byte 0x800FDEBC  ;# ptr
-	.4byte 0x800FDEC0  ;# ptr
-	.4byte 0x800FDEC4  ;# ptr
-	.4byte 0x800FDEC8  ;# ptr
+	.4byte lbl_800FDEB0
+	.4byte lbl_800FDEB4
+	.4byte lbl_800FDEB8
+	.4byte lbl_800FDEBC
+	.4byte lbl_800FDEC0
+	.4byte lbl_800FDEC4
+	.4byte lbl_800FDEC8
 	.asciz "rfc_mx_sm_state_idle - evt:%d"
 	.balign 4
 	.asciz "Mx error state %d event %d"
@@ -32567,295 +32284,270 @@ glabel lbl_8019F910
 	.asciz "rfc_mx_send_config_req"
 	.balign 4
 
-
 glabel lbl_8019F980
 	# ROM: 0x19BA80
 	.asciz "RFCOMM MX ignored - evt:%d in state:%d"
 	.balign 4
 
-
 glabel lbl_8019F9A8
 	# ROM: 0x19BAA8
-	.4byte 0x800FE098  ;# ptr
-	.4byte 0x800FE06C  ;# ptr
-	.4byte 0x800FE06C  ;# ptr
-	.4byte 0x800FE070  ;# ptr
-	.4byte 0x800FE084  ;# ptr
-	.4byte 0x800FE098  ;# ptr
-	.4byte 0x800FDF48  ;# ptr
-	.4byte 0x800FDF8C  ;# ptr
-	.4byte 0x800FE098  ;# ptr
-	.4byte 0x800FDF8C  ;# ptr
-	.4byte 0x800FDFB8  ;# ptr
-	.4byte 0x800FDF8C  ;# ptr
-	.4byte 0x800FDF8C  ;# ptr
+	.4byte lbl_800FE098
+	.4byte lbl_800FE06C
+	.4byte lbl_800FE06C
+	.4byte lbl_800FE070
+	.4byte lbl_800FE084
+	.4byte lbl_800FE098
+	.4byte lbl_800FDF48
+	.4byte lbl_800FDF8C
+	.4byte lbl_800FE098
+	.4byte lbl_800FDF8C
+	.4byte lbl_800FDFB8
+	.4byte lbl_800FDF8C
+	.4byte lbl_800FDF8C
 	.asciz "rfc_mx_sm_state_wait_conn_cnf - evt:%d"
 	.balign 4
 	.asciz "rfc_mx_sm_state_configure - evt:%d"
 	.balign 4
 
-
 glabel lbl_8019FA28
 	# ROM: 0x19BB28
-	.4byte 0x800FE31C  ;# ptr
-	.4byte 0x800FE37C  ;# ptr
-	.4byte 0x800FE37C  ;# ptr
-	.4byte 0x800FE31C  ;# ptr
-	.4byte 0x800FE37C  ;# ptr
-	.4byte 0x800FE358  ;# ptr
-	.4byte 0x800FE348  ;# ptr
-	.4byte 0x800FE37C  ;# ptr
-	.4byte 0x800FE368  ;# ptr
+	.4byte lbl_800FE31C
+	.4byte lbl_800FE37C
+	.4byte lbl_800FE37C
+	.4byte lbl_800FE31C
+	.4byte lbl_800FE37C
+	.4byte lbl_800FE358
+	.4byte lbl_800FE348
+	.4byte lbl_800FE37C
+	.4byte lbl_800FE368
 	.asciz "rfc_mx_sm_sabme_wait_ua - evt:%d"
 	.balign 4
 
-
 glabel lbl_8019FA70
 	# ROM: 0x19BB70
-	.4byte 0x800FE4F0  ;# ptr
-	.4byte 0x800FE4A0  ;# ptr
-	.4byte 0x800FE4C8  ;# ptr
-	.4byte 0x800FE4F0  ;# ptr
-	.4byte 0x800FE4F0  ;# ptr
-	.4byte 0x800FE4D0  ;# ptr
-	.4byte 0x800FE440  ;# ptr
-	.4byte 0x800FE4F0  ;# ptr
-	.4byte 0x800FE4F0  ;# ptr
-	.4byte 0x800FE440  ;# ptr
-	.4byte 0x800FE4F0  ;# ptr
-	.4byte 0x800FE47C  ;# ptr
-	.4byte 0x800FE46C  ;# ptr
-	.4byte 0x800FE4F0  ;# ptr
-	.4byte 0x800FE48C  ;# ptr
-
+	.4byte lbl_800FE4F0
+	.4byte lbl_800FE4A0
+	.4byte lbl_800FE4C8
+	.4byte lbl_800FE4F0
+	.4byte lbl_800FE4F0
+	.4byte lbl_800FE4D0
+	.4byte lbl_800FE440
+	.4byte lbl_800FE4F0
+	.4byte lbl_800FE4F0
+	.4byte lbl_800FE440
+	.4byte lbl_800FE4F0
+	.4byte lbl_800FE47C
+	.4byte lbl_800FE46C
+	.4byte lbl_800FE4F0
+	.4byte lbl_800FE48C
 
 glabel lbl_8019FAAC
 	# ROM: 0x19BBAC
 	.asciz "rfc_mx_sm_state_wait_sabme - evt:%d"
-
 
 glabel lbl_8019FAD0
 	# ROM: 0x19BBD0
 	.asciz "rfc_mx_sm_state_connected - evt:%d"
 	.balign 4
 
-
 glabel lbl_8019FAF4
 	# ROM: 0x19BBF4
-	.4byte 0x800FE700  ;# ptr
-	.4byte 0x800FE72C  ;# ptr
-	.4byte 0x800FE6C8  ;# ptr
-	.4byte 0x800FE72C  ;# ptr
-	.4byte 0x800FE72C  ;# ptr
-	.4byte 0x800FE6C8  ;# ptr
-	.4byte 0x800FE72C  ;# ptr
-	.4byte 0x800FE72C  ;# ptr
-	.4byte 0x800FE72C  ;# ptr
-	.4byte 0x800FE72C  ;# ptr
-	.4byte 0x800FE72C  ;# ptr
-	.4byte 0x800FE6EC  ;# ptr
-
+	.4byte lbl_800FE700
+	.4byte lbl_800FE72C
+	.4byte lbl_800FE6C8
+	.4byte lbl_800FE72C
+	.4byte lbl_800FE72C
+	.4byte lbl_800FE6C8
+	.4byte lbl_800FE72C
+	.4byte lbl_800FE72C
+	.4byte lbl_800FE72C
+	.4byte lbl_800FE72C
+	.4byte lbl_800FE72C
+	.4byte lbl_800FE6EC
 
 glabel lbl_8019FB24
 	# ROM: 0x19BC24
 	.asciz "rfc_mx_sm_state_disc_wait_ua - evt:%d"
 	.balign 4
 
-
 glabel lbl_8019FB4C
 	# ROM: 0x19BC4C
-	.4byte 0x800FE8A0  ;# ptr
-	.4byte 0x800FE7E4  ;# ptr
-	.4byte 0x800FE7E4  ;# ptr
-	.4byte 0x800FE850  ;# ptr
-	.4byte 0x800FE860  ;# ptr
-	.4byte 0x800FE7E4  ;# ptr
-	.4byte 0x800FE87C  ;# ptr
-	.4byte 0x800FE8A0  ;# ptr
-	.4byte 0x800FE89C  ;# ptr
-	.4byte 0x800FE8A0  ;# ptr
-	.4byte 0x800FE8A0  ;# ptr
-	.4byte 0x800FE8A0  ;# ptr
-	.4byte 0x800FE8A0  ;# ptr
-	.4byte 0x800FE8A0  ;# ptr
-	.4byte 0x800FE888  ;# ptr
-
+	.4byte lbl_800FE8A0
+	.4byte lbl_800FE7E4
+	.4byte lbl_800FE7E4
+	.4byte lbl_800FE850
+	.4byte lbl_800FE860
+	.4byte lbl_800FE7E4
+	.4byte lbl_800FE87C
+	.4byte lbl_800FE8A0
+	.4byte lbl_800FE89C
+	.4byte lbl_800FE8A0
+	.4byte lbl_800FE8A0
+	.4byte lbl_800FE8A0
+	.4byte lbl_800FE8A0
+	.4byte lbl_800FE8A0
+	.4byte lbl_800FE888
 
 glabel lbl_8019FB88
 	# ROM: 0x19BC88
 	.asciz "rfc_mx_conf_cnf p_cfg:%08x res:%d "
 	.balign 4
 
-
 glabel lbl_8019FBAC
 	# ROM: 0x19BCAC
 	.asciz "rfc_mx_conf_ind p_cfg:%0x"
 	.balign 4
-
 
 glabel lbl_8019FBC8
 	# ROM: 0x19BCC8
 	.asciz "NULL port event %d"
 	.balign 4
 
-
 glabel lbl_8019FBDC
 	# ROM: 0x19BCDC
 	.asciz "Port error state %d event %d"
 	.balign 4
-
 
 glabel lbl_8019FBFC
 	# ROM: 0x19BCFC
 	.asciz "Port state closed Event ignored %d"
 	.balign 4
 
-
 glabel lbl_8019FC20
 	# ROM: 0x19BD20
-	.4byte 0x800FEBE4  ;# ptr
-	.4byte 0x800FEC1C  ;# ptr
-	.4byte 0x800FEC20  ;# ptr
-	.4byte 0x800FEC44  ;# ptr
-	.4byte 0x800FEC28  ;# ptr
-	.4byte 0x800FEC58  ;# ptr
-	.4byte 0x800FEC90  ;# ptr
-	.4byte 0x800FEC90  ;# ptr
-	.4byte 0x800FEC90  ;# ptr
-	.4byte 0x800FEB9C  ;# ptr
-	.4byte 0x800FEC90  ;# ptr
-	.4byte 0x800FEC90  ;# ptr
-	.4byte 0x800FEC90  ;# ptr
-	.4byte 0x800FEBD4  ;# ptr
-	.4byte 0x800FEBD8  ;# ptr
-
+	.4byte lbl_800FEBE4
+	.4byte lbl_800FEC1C
+	.4byte lbl_800FEC20
+	.4byte lbl_800FEC44
+	.4byte lbl_800FEC28
+	.4byte lbl_800FEC58
+	.4byte lbl_800FEC90
+	.4byte lbl_800FEC90
+	.4byte lbl_800FEC90
+	.4byte lbl_800FEB9C
+	.4byte lbl_800FEC90
+	.4byte lbl_800FEC90
+	.4byte lbl_800FEC90
+	.4byte lbl_800FEBD4
+	.4byte lbl_800FEBD8
 
 glabel lbl_8019FC5C
 	# ROM: 0x19BD5C
 	.asciz "Port state sabme_wait_ua Event ignored %d"
 	.balign 4
 
-
 glabel lbl_8019FC88
 	# ROM: 0x19BD88
-	.4byte 0x800FEDEC  ;# ptr
-	.4byte 0x800FED7C  ;# ptr
-	.4byte 0x800FEDA0  ;# ptr
-	.4byte 0x800FEDC0  ;# ptr
-	.4byte 0x800FEDFC  ;# ptr
-	.4byte 0x800FEE08  ;# ptr
-	.4byte 0x800FEE2C  ;# ptr
-	.4byte 0x800FEE2C  ;# ptr
-	.4byte 0x800FEE2C  ;# ptr
-	.4byte 0x800FED10  ;# ptr
-	.4byte 0x800FEE2C  ;# ptr
-	.4byte 0x800FED10  ;# ptr
-	.4byte 0x800FED40  ;# ptr
-	.4byte 0x800FED68  ;# ptr
-	.4byte 0x800FED70  ;# ptr
+	.4byte lbl_800FEDEC
+	.4byte lbl_800FED7C
+	.4byte lbl_800FEDA0
+	.4byte lbl_800FEDC0
+	.4byte lbl_800FEDFC
+	.4byte lbl_800FEE08
+	.4byte lbl_800FEE2C
+	.4byte lbl_800FEE2C
+	.4byte lbl_800FEE2C
+	.4byte lbl_800FED10
+	.4byte lbl_800FEE2C
+	.4byte lbl_800FED10
+	.4byte lbl_800FED40
+	.4byte lbl_800FED68
+	.4byte lbl_800FED70
 	.asciz "Port error state Term Wait Sec event Data"
 	.balign 4
 	.asciz "Port state term_wait_sec_check Event ignored %d"
 
-
 glabel lbl_8019FD20
 	# ROM: 0x19BE20
-	.4byte 0x800FEF6C  ;# ptr
-	.4byte 0x800FEFEC  ;# ptr
-	.4byte 0x800FEFEC  ;# ptr
-	.4byte 0x800FEF70  ;# ptr
-	.4byte 0x800FEFA0  ;# ptr
-	.4byte 0x800FEFEC  ;# ptr
-	.4byte 0x800FEFEC  ;# ptr
-	.4byte 0x800FEFEC  ;# ptr
-	.4byte 0x800FEFEC  ;# ptr
-	.4byte 0x800FEEFC  ;# ptr
-	.4byte 0x800FEFEC  ;# ptr
-	.4byte 0x800FEFAC  ;# ptr
-	.4byte 0x800FEEFC  ;# ptr
-	.4byte 0x800FEF28  ;# ptr
-	.4byte 0x800FEF40  ;# ptr
-	.4byte 0x800FEEB4  ;# ptr
+	.4byte lbl_800FEF6C
+	.4byte lbl_800FEFEC
+	.4byte lbl_800FEFEC
+	.4byte lbl_800FEF70
+	.4byte lbl_800FEFA0
+	.4byte lbl_800FEFEC
+	.4byte lbl_800FEFEC
+	.4byte lbl_800FEFEC
+	.4byte lbl_800FEFEC
+	.4byte lbl_800FEEFC
+	.4byte lbl_800FEFEC
+	.4byte lbl_800FEFAC
+	.4byte lbl_800FEEFC
+	.4byte lbl_800FEF28
+	.4byte lbl_800FEF40
+	.4byte lbl_800FEEB4
 	.asciz "Port error state Orig Wait Sec event Data"
 	.balign 8
 	.asciz "Port state orig_wait_sec_check Event ignored %d"
 
-
 glabel lbl_8019FDC0
 	# ROM: 0x19BEC0
-	.4byte 0x800FF0C0  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF130  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF0C0  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF0EC  ;# ptr
-	.4byte 0x800FF13C  ;# ptr
-	.4byte 0x800FF104  ;# ptr
-	.4byte 0x800FF070  ;# ptr
-
+	.4byte lbl_800FF0C0
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF130
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF0C0
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF0EC
+	.4byte lbl_800FF13C
+	.4byte lbl_800FF104
+	.4byte lbl_800FF070
 
 glabel lbl_8019FE00
 	# ROM: 0x19BF00
 	.asciz "Port state opened Event ignored %d"
 	.balign 4
 
-
 glabel lbl_8019FE24
 	# ROM: 0x19BF24
-	.4byte 0x800FF290  ;# ptr
-	.4byte 0x800FF28C  ;# ptr
-	.4byte 0x800FF2A0  ;# ptr
-	.4byte 0x800FF2B8  ;# ptr
-	.4byte 0x800FF2DC  ;# ptr
-	.4byte 0x800FF2EC  ;# ptr
-	.4byte 0x800FF324  ;# ptr
-	.4byte 0x800FF324  ;# ptr
-	.4byte 0x800FF324  ;# ptr
-	.4byte 0x800FF1B8  ;# ptr
-	.4byte 0x800FF324  ;# ptr
-	.4byte 0x800FF324  ;# ptr
-	.4byte 0x800FF1E8  ;# ptr
-	.4byte 0x800FF210  ;# ptr
-	.4byte 0x800FF218  ;# ptr
-
+	.4byte lbl_800FF290
+	.4byte lbl_800FF28C
+	.4byte lbl_800FF2A0
+	.4byte lbl_800FF2B8
+	.4byte lbl_800FF2DC
+	.4byte lbl_800FF2EC
+	.4byte lbl_800FF324
+	.4byte lbl_800FF324
+	.4byte lbl_800FF324
+	.4byte lbl_800FF1B8
+	.4byte lbl_800FF324
+	.4byte lbl_800FF324
+	.4byte lbl_800FF1E8
+	.4byte lbl_800FF210
+	.4byte lbl_800FF218
 
 glabel lbl_8019FE60
 	# ROM: 0x19BF60
 	.asciz "Port state disc_wait_ua Event ignored %d"
 	.balign 4
 
-
 glabel lbl_8019FE8C
 	# ROM: 0x19BF8C
-	.4byte 0x800FF3F8  ;# ptr
-	.4byte 0x800FF3E0  ;# ptr
-	.4byte 0x800FF3EC  ;# ptr
-	.4byte 0x800FF40C  ;# ptr
-	.4byte 0x800FF420  ;# ptr
-	.4byte 0x800FF43C  ;# ptr
-	.4byte 0x800FF444  ;# ptr
-	.4byte 0x800FF444  ;# ptr
-	.4byte 0x800FF444  ;# ptr
-	.4byte 0x800FF3A0  ;# ptr
-	.4byte 0x800FF444  ;# ptr
-	.4byte 0x800FF3A0  ;# ptr
-	.4byte 0x800FF444  ;# ptr
-	.4byte 0x800FF3CC  ;# ptr
-	.4byte 0x800FF3D4  ;# ptr
-
+	.4byte lbl_800FF3F8
+	.4byte lbl_800FF3E0
+	.4byte lbl_800FF3EC
+	.4byte lbl_800FF40C
+	.4byte lbl_800FF420
+	.4byte lbl_800FF43C
+	.4byte lbl_800FF444
+	.4byte lbl_800FF444
+	.4byte lbl_800FF444
+	.4byte lbl_800FF3A0
+	.4byte lbl_800FF444
+	.4byte lbl_800FF3A0
+	.4byte lbl_800FF444
+	.4byte lbl_800FF3CC
+	.4byte lbl_800FF3D4
 
 glabel lbl_8019FEC8
 	# ROM: 0x19BFC8
 	.asciz "***** MX PN while disconnecting *****"
 	.balign 4
-
 
 glabel lbl_8019FEF0
 	# ROM: 0x19BFF0
@@ -32883,48 +32575,40 @@ glabel lbl_8019FEF0
 	.asciz "Bad RPN frame"
 	.balign 4
 
-
 glabel lbl_8019FFC8
 	# ROM: 0x19C0C8
 	.asciz "rfc_timer_stop"
 	.balign 4
-
 
 glabel lbl_8019FFD8
 	# ROM: 0x19C0D8
 	.asciz "rfc_timer_start - timeout:%d"
 	.balign 4
 
-
 glabel lbl_8019FFF8
 	# ROM: 0x19C0F8
 	.asciz "rfc_port_timer_start - timeout:%d"
 	.balign 4
-
 
 glabel lbl_801A001C
 	# ROM: 0x19C11C
 	.asciz "rfc_port_timer_stop"
 	.asciz "rfc_port_closed"
 
-
 glabel lbl_801A0040
 	# ROM: 0x19C140
 	.asciz "rfc_inc_credit:%d"
 	.balign 8
-
 
 glabel lbl_801A0058
 	# ROM: 0x19C158
 	.asciz "SDP_InitDiscoveryDb Illegal param: p_db 0x%x, len %d, num_uuid %d, num_attr %d"
 	.balign 4
 
-
 glabel lbl_801A00A8
 	# ROM: 0x19C1A8
 	.asciz "SDP_AddAttribute: attr_len:%d too long. truncate to (%d)"
 	.balign 4
-
 
 glabel lbl_801A00E4
 	# ROM: 0x19C1E4
@@ -32932,17 +32616,14 @@ glabel lbl_801A00E4
 	.balign 4
 	.asciz "Deleting attr_id 0x%04x for handle 0x%x"
 
-
 glabel lbl_801A0140
 	# ROM: 0x19C240
 	.asciz "SDP - Unexp. PDU: %d in state: %d"
 	.balign 8
 
-
 glabel lbl_801A0168
 	# ROM: 0x19C268
 	.asciz "SDP - Rcvd ServiceSearchRsp, no matches"
-
 
 glabel lbl_801A0190
 	# ROM: 0x19C290
@@ -32960,20 +32641,18 @@ glabel lbl_801A0190
 	.asciz "SDP - bad len in boolean attr: %d"
 	.balign 4
 
-
 glabel lbl_801A0278
 	# ROM: 0x19C378
-	.4byte 0x80104CD8  ;# ptr
-	.4byte 0x801048A4  ;# ptr
-	.4byte 0x80104954  ;# ptr
-	.4byte 0x80104A10  ;# ptr
-	.4byte 0x80104C58  ;# ptr
-	.4byte 0x80104C88  ;# ptr
-	.4byte 0x80104BA4  ;# ptr
-	.4byte 0x80104BA4  ;# ptr
-	.4byte 0x80104C58  ;# ptr
+	.4byte lbl_80104CD8
+	.4byte lbl_801048A4
+	.4byte lbl_80104954
+	.4byte lbl_80104A10
+	.4byte lbl_80104C58
+	.4byte lbl_80104C88
+	.4byte lbl_80104BA4
+	.4byte lbl_80104BA4
+	.4byte lbl_80104C58
 	.4byte 0
-
 
 glabel lbl_801A02A0
 	# ROM: 0x19C3A0
@@ -32982,7 +32661,6 @@ glabel lbl_801A02A0
 	.asciz "Security Registration Server failed"
 	.asciz "Security Registration for Client failed"
 	.asciz "SDP Registration failed"
-
 
 glabel lbl_801A0318
 	# ROM: 0x19C418
@@ -32994,11 +32672,9 @@ glabel lbl_801A0318
 	.asciz "SDP - Rcvd conn cnf with error: 0x%x  CID 0x%x"
 	.balign 4
 
-
 glabel lbl_801A03D8
 	# ROM: 0x19C4D8
 	.asciz "SDP - Rcvd L2CAP cfg ind, unknown CID: 0x%x"
-
 
 glabel lbl_801A0404
 	# ROM: 0x19C504
@@ -33006,29 +32682,24 @@ glabel lbl_801A0404
 	.asciz "SDP - Rcvd cfg cfm, CID: 0x%x  Result: %d"
 	.balign 4
 
-
 glabel lbl_801A045C
 	# ROM: 0x19C55C
 	.asciz "SDP - disconnect  CID: 0x%x"
-
 
 glabel lbl_801A0478
 	# ROM: 0x19C578
 	.asciz "SDP - Rcvd L2CAP disc, unknown CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_801A04A4
 	# ROM: 0x19C5A4
 	.asciz "SDP - Rcvd L2CAP disc, CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_801A04C8
 	# ROM: 0x19C5C8
 	.asciz "SDP - Ignored L2CAP data while in state: %d, CID: 0x%x"
 	.balign 4
-
 
 glabel lbl_801A0500
 	# ROM: 0x19C600
@@ -33039,106 +32710,94 @@ glabel lbl_801A0500
 	.asciz "SDP - Originate failed"
 	.balign 4
 
-
 glabel lbl_801A0578
 	# ROM: 0x19C678
 	.asciz "SDP - Rcvd L2CAP disc cfm, unknown CID: 0x%x"
 	.balign 4
-
 
 glabel lbl_801A05A8
 	# ROM: 0x19C6A8
 	.asciz "SDP - Rcvd L2CAP disc cfm, CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_801A05D0
 	# ROM: 0x19C6D0
 	.asciz "SDP - CCB timeout in state: %d  CID: 0x%x"
 	.balign 8
-
 
 glabel lbl_801A0600
 	# ROM: 0x19C700
 	.asciz "SDP - server got unknown PDU: 0x%x"
 	.balign 4
 
-
 glabel lbl_801A0624
 	# ROM: 0x19C724
 	.asciz "SDP - no buf for search rsp"
 
-
 glabel lbl_801A0640
 	# ROM: 0x19C740
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x801069A4  ;# ptr
-	.4byte 0x801069B4  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x801069C8  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x801069DC  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x80106A04  ;# ptr
-	.4byte 0x801069F0  ;# ptr
-
+	.4byte lbl_80106A04
+	.4byte lbl_801069A4
+	.4byte lbl_801069B4
+	.4byte lbl_80106A04
+	.4byte lbl_801069C8
+	.4byte lbl_80106A04
+	.4byte lbl_80106A04
+	.4byte lbl_80106A04
+	.4byte lbl_801069DC
+	.4byte lbl_80106A04
+	.4byte lbl_80106A04
+	.4byte lbl_80106A04
+	.4byte lbl_80106A04
+	.4byte lbl_80106A04
+	.4byte lbl_80106A04
+	.4byte lbl_80106A04
+	.4byte lbl_801069F0
 
 glabel lbl_801A0684
 	# ROM: 0x19C784
 	.asciz "SDP - sdpu_build_n_send_error  code: 0x%x  CID: 0x%x"
 	.balign 4
 
-
 glabel lbl_801A06BC
 	# ROM: 0x19C7BC
 	.asciz "SDP - no buf for err msg"
 	.balign 4
-	.4byte 0x80106D14  ;# ptr
-	.4byte 0x80106CA4  ;# ptr
-	.4byte 0x80106CAC  ;# ptr
-	.4byte 0x80106D14  ;# ptr
-	.4byte 0x80106CB4  ;# ptr
-	.4byte 0x80106CBC  ;# ptr
-	.4byte 0x80106CC8  ;# ptr
-	.4byte 0x80106CE4  ;# ptr
-
+	.4byte lbl_80106D14
+	.4byte lbl_80106CA4
+	.4byte lbl_80106CAC
+	.4byte lbl_80106D14
+	.4byte lbl_80106CB4
+	.4byte lbl_80106CBC
+	.4byte lbl_80106CC8
+	.4byte lbl_80106CE4
 
 glabel lbl_801A06F8
 	# ROM: 0x19C7F8
-	.4byte 0x80106C40  ;# ptr
-	.4byte 0x80106BD0  ;# ptr
-	.4byte 0x80106BD8  ;# ptr
-	.4byte 0x80106C40  ;# ptr
-	.4byte 0x80106BE0  ;# ptr
-	.4byte 0x80106BE8  ;# ptr
-	.4byte 0x80106BF4  ;# ptr
-	.4byte 0x80106C10  ;# ptr
-
+	.4byte lbl_80106C40
+	.4byte lbl_80106BD0
+	.4byte lbl_80106BD8
+	.4byte lbl_80106C40
+	.4byte lbl_80106BE0
+	.4byte lbl_80106BE8
+	.4byte lbl_80106BF4
+	.4byte lbl_80106C10
 
 glabel lbl_801A0718
 	# ROM: 0x19C818
-	.4byte 0x80107150  ;# ptr
-	.4byte 0x8010715C  ;# ptr
-	.4byte 0x80107168  ;# ptr
-	.4byte 0x80107174  ;# ptr
-	.4byte 0x80107180  ;# ptr
-	.4byte 0x8010718C  ;# ptr
-	.4byte 0x8010719C  ;# ptr
-	.4byte 0x801071BC  ;# ptr
-
+	.4byte lbl_80107150
+	.4byte lbl_8010715C
+	.4byte lbl_80107168
+	.4byte lbl_80107174
+	.4byte lbl_80107180
+	.4byte lbl_8010718C
+	.4byte lbl_8010719C
+	.4byte lbl_801071BC
 
 glabel lbl_801A0738
 	# ROM: 0x19C838
 	.asciz "CAUTION!  Unexpected error code [%d] was found.\n"
 	.balign 8
-
 
 glabel lbl_801A0770
 	# ROM: 0x19C870
@@ -33301,7 +32960,6 @@ glabel lbl_801A0770
 	.4byte 0xFFFFFFE9
 	.4byte 0xFFFFEC39
 
-
 glabel lbl_801A09E8
 	# ROM: 0x19CAE8
 	.asciz "Warrning! .ctors section[%d]! size=%x\n"
@@ -33309,21 +32967,20 @@ glabel lbl_801A09E8
 	.asciz "Warrning! .dtors section[%d]! size=%x\n"
 	.balign 4
 	.asciz "Warrning! unknown section[%d]! size=%x\n"
-	.4byte 0x80108450  ;# ptr
-	.4byte 0x801083B0  ;# ptr
-	.4byte 0x801083B8  ;# ptr
-	.4byte 0x801083C0  ;# ptr
-	.4byte 0x801083E4  ;# ptr
-	.4byte 0x80108408  ;# ptr
-	.4byte 0x80108410  ;# ptr
-	.4byte 0x80108418  ;# ptr
-	.4byte 0x80108420  ;# ptr
-	.4byte 0x80108430  ;# ptr
-	.4byte 0x80108440  ;# ptr
-	.4byte 0x80108428  ;# ptr
-	.4byte 0x80108438  ;# ptr
-	.4byte 0x80108448  ;# ptr
-
+	.4byte lbl_80108450
+	.4byte lbl_801083B0
+	.4byte lbl_801083B8
+	.4byte lbl_801083C0
+	.4byte lbl_801083E4
+	.4byte lbl_80108408
+	.4byte lbl_80108410
+	.4byte lbl_80108418
+	.4byte lbl_80108420
+	.4byte lbl_80108430
+	.4byte lbl_80108440
+	.4byte lbl_80108428
+	.4byte lbl_80108438
+	.4byte lbl_80108448
 
 glabel lbl_801A0A98
 	# ROM: 0x19CB98
@@ -33334,459 +32991,745 @@ glabel lbl_801A0A98
 	.asciz "_SDA2_BASE_"
 	.asciz "ERROR: incorrect R_PPC_EMB_SDA21 data.\n"
 
-
 glabel lbl_801A0B00
 	# ROM: 0x19CC00
 	.asciz "invalid version number for texture palette"
 	.balign 8
 
-
 glabel lbl_801A0B30
 	# ROM: 0x19CC30
 	.asciz "<< RVL_SDK - HBM \trelease build: Mar 23 2007 20:10:24 (0x4199_60831) >>"
 
-
 glabel lbl_801A0B78
 	# ROM: 0x19CC78
-	.4byte 0x801A0B30  ;# ptr
-
+	.4byte lbl_801A0B30
 
 glabel lbl_801A0B7C
 	# ROM: 0x19CC7C
-	.4byte 0x80228858  ;# ptr
+	.4byte lbl_80228858
 	.asciz "HBMBase.cpp"
 	.asciz "NW4HBM:Failed assertion mpMemorySoundArchive"
 	.balign 8
 	.asciz "Cannot setup MemorySoundArchive"
+
+glabel lbl_801A0BE0
 	.asciz "P1_Def.brlyt"
 	.balign 4
+
+glabel lbl_801A0BF0
 	.asciz "P2_Def.brlyt"
 	.balign 4
+
+glabel lbl_801A0C00
 	.asciz "P3_Def.brlyt"
 	.balign 4
+
+glabel lbl_801A0C10
 	.asciz "P4_Def.brlyt"
 	.balign 4
-	.4byte 0x801A0BE0  ;# ptr
-	.4byte 0x801A0BF0  ;# ptr
-	.4byte 0x801A0C00  ;# ptr
-	.4byte 0x801A0C10  ;# ptr
+	.4byte lbl_801A0BE0
+	.4byte lbl_801A0BF0
+	.4byte lbl_801A0C00
+	.4byte lbl_801A0C10
+
+glabel lbl_801A0C30
 	.asciz "N_Trans"
-	.4byte 0x801A0C30  ;# ptr
+	.4byte lbl_801A0C30
+
+glabel lbl_801A0C3C
 	.asciz "N_Rot"
 	.balign 4
-	.4byte 0x801A0C3C  ;# ptr
+	.4byte lbl_801A0C3C
+
+glabel lbl_801A0C48
 	.asciz "N_SRot"
 	.balign 4
-	.4byte 0x801A0C48  ;# ptr
+	.4byte lbl_801A0C48
+
+glabel lbl_801A0C54
 	.asciz "B_btnL_00"
 	.balign 4
+
+glabel lbl_801A0C60
 	.asciz "B_btnL_01"
 	.balign 4
+
+glabel lbl_801A0C6C
 	.asciz "B_btnL_10"
 	.balign 4
+
+glabel lbl_801A0C78
 	.asciz "B_btnL_11"
 	.balign 8
 
-
 glabel lbl_801A0C88
 	# ROM: 0x19CD88
-	.4byte 0x801A0C54  ;# ptr
-	.4byte 0x801A0C60  ;# ptr
-	.4byte 0x801A0C6C  ;# ptr
-	.4byte 0x801A0C78  ;# ptr
+	.4byte lbl_801A0C54
+	.4byte lbl_801A0C60
+	.4byte lbl_801A0C6C
+	.4byte lbl_801A0C78
+
+glabel lbl_801A0C98
 	.asciz "T_btnL_00"
 	.balign 4
+
+glabel lbl_801A0CA4
 	.asciz "T_btnL_01"
 	.balign 4
+
+glabel lbl_801A0CB0
 	.asciz "T_btnL_10"
 	.balign 4
+
+glabel lbl_801A0CBC
 	.asciz "T_btnL_11"
 	.balign 4
-	.4byte 0x801A0C98  ;# ptr
-	.4byte 0x801A0CA4  ;# ptr
-	.4byte 0x801A0CB0  ;# ptr
-	.4byte 0x801A0CBC  ;# ptr
+	.4byte lbl_801A0C98
+	.4byte lbl_801A0CA4
+	.4byte lbl_801A0CB0
+	.4byte lbl_801A0CBC
+
+glabel lbl_801A0CD8
 	.asciz "btnL_00_inOut"
 	.balign 4
+
+glabel lbl_801A0CE8
 	.asciz "btnL_01_inOut"
 	.balign 4
+
+glabel lbl_801A0CF8
 	.asciz "btnL_10_inOut"
 	.balign 4
+
+glabel lbl_801A0D08
 	.asciz "btnL_11_inOut"
 	.balign 4
+
+glabel lbl_801A0D18
 	.asciz "btnL_00_psh"
+
+glabel lbl_801A0D24
 	.asciz "btnL_01_psh"
+
+glabel lbl_801A0D30
 	.asciz "btnL_10_psh"
+
+glabel lbl_801A0D3C
 	.asciz "btnL_11_psh"
-	.4byte 0x801A0CD8  ;# ptr
-	.4byte 0x801A0CE8  ;# ptr
-	.4byte 0x801A0CF8  ;# ptr
-	.4byte 0x801A0D08  ;# ptr
-	.4byte 0x801A0D18  ;# ptr
-	.4byte 0x801A0D24  ;# ptr
-	.4byte 0x801A0D30  ;# ptr
-	.4byte 0x801A0D3C  ;# ptr
+	.4byte lbl_801A0CD8
+	.4byte lbl_801A0CE8
+	.4byte lbl_801A0CF8
+	.4byte lbl_801A0D08
+	.4byte lbl_801A0D18
+	.4byte lbl_801A0D24
+	.4byte lbl_801A0D30
+	.4byte lbl_801A0D3C
+
+glabel lbl_801A0D68
 	.asciz "_cntBtn_in.brlan"
 	.balign 4
+
+glabel lbl_801A0D7C
 	.asciz "_cntBtn_psh.brlan"
 	.balign 4
+
+glabel lbl_801A0D90
 	.asciz "_cntBtn_out.brlan"
 	.balign 4
-	.4byte 0x801A0D68  ;# ptr
-	.4byte 0x801A0D7C  ;# ptr
-	.4byte 0x801A0D90  ;# ptr
+	.4byte lbl_801A0D68
+	.4byte lbl_801A0D7C
+	.4byte lbl_801A0D90
+
+glabel lbl_801A0DB0
 	.asciz "_ltrIcn_on.brlan"
 	.balign 4
+
+glabel lbl_801A0DC4
 	.asciz "_optn_bar_psh.brlan"
+
+glabel lbl_801A0DD8
 	.asciz "_close_bar_psh.brlan"
 	.balign 4
+
+glabel lbl_801A0DF0
 	.asciz "_hmMenu_bar_in.brlan"
 	.balign 4
+
+glabel lbl_801A0E08
 	.asciz "_hmMenu_bar_psh.brlan"
 	.balign 4
+
+glabel lbl_801A0E20
 	.asciz "_link_msg_in.brlan"
 	.balign 4
+
+glabel lbl_801A0E34
 	.asciz "_link_msg_out.brlan"
+
+glabel lbl_801A0E48
 	.asciz "_cmn_msg_in.brlan"
 	.balign 4
+
+glabel lbl_801A0E5C
 	.asciz "_cmn_msg_out.brlan"
 	.balign 4
+
+glabel lbl_801A0E70
 	.asciz "_cntrl_up.brlan"
+
+glabel lbl_801A0E80
 	.asciz "_cntrl_wndw_opn.brlan"
 	.balign 4
+
+glabel lbl_801A0E98
 	.asciz "_cntrl_dwn.brlan"
 	.balign 4
+
+glabel lbl_801A0EAC
 	.asciz "_hmMenu_bar_out.brlan"
 	.balign 4
+
+glabel lbl_801A0EC4
 	.asciz "_cmn_msg_rtrn.brlan"
+
+glabel lbl_801A0ED8
 	.asciz "_12btn_on.brlan"
-	.4byte 0x801A0DB0  ;# ptr
-	.4byte 0x801A0DC4  ;# ptr
-	.4byte 0x801A0DD8  ;# ptr
-	.4byte 0x801A0DF0  ;# ptr
-	.4byte 0x801A0E08  ;# ptr
-	.4byte 0x801A0E20  ;# ptr
-	.4byte 0x801A0E34  ;# ptr
-	.4byte 0x801A0E48  ;# ptr
-	.4byte 0x801A0E5C  ;# ptr
-	.4byte 0x801A0E70  ;# ptr
-	.4byte 0x801A0E80  ;# ptr
-	.4byte 0x801A0E98  ;# ptr
-	.4byte 0x801A0EAC  ;# ptr
-	.4byte 0x801A0EC4  ;# ptr
-	.4byte 0x801A0ED8  ;# ptr
+	.4byte lbl_801A0DB0
+	.4byte lbl_801A0DC4
+	.4byte lbl_801A0DD8
+	.4byte lbl_801A0DF0
+	.4byte lbl_801A0E08
+	.4byte lbl_801A0E20
+	.4byte lbl_801A0E34
+	.4byte lbl_801A0E48
+	.4byte lbl_801A0E5C
+	.4byte lbl_801A0E70
+	.4byte lbl_801A0E80
+	.4byte lbl_801A0E98
+	.4byte lbl_801A0EAC
+	.4byte lbl_801A0EC4
+	.4byte lbl_801A0ED8
+
+glabel lbl_801A0F24
 	.asciz "ltrIcn_on"
 	.balign 4
+
+glabel lbl_801A0F30
 	.asciz "optn_bar_psh"
 	.balign 4
+
+glabel lbl_801A0F40
 	.asciz "close_bar_psh"
 	.balign 4
+
+glabel lbl_801A0F50
 	.asciz "hmMenu_bar_in"
 	.balign 4
+
+glabel lbl_801A0F60
 	.asciz "hmMenu_bar_psh"
 	.balign 4
+
+glabel lbl_801A0F70
 	.asciz "link_msg_in"
+
+glabel lbl_801A0F7C
 	.asciz "link_msg_out"
 	.balign 4
+
+glabel lbl_801A0F8C
 	.asciz "cmn_msg_in"
 	.balign 4
+
+glabel lbl_801A0F98
 	.asciz "cmn_msg_out"
+
+glabel lbl_801A0FA4
 	.asciz "cntrl_up"
 	.balign 4
+
+glabel lbl_801A0FB0
 	.asciz "cntrl_wndw_opn"
 	.balign 4
+
+glabel lbl_801A0FC0
 	.asciz "cntrl_dwn"
 	.balign 4
+
+glabel lbl_801A0FCC
 	.asciz "hmMenu_bar_out"
 	.balign 4
+
+glabel lbl_801A0FDC
 	.asciz "cmn_msg_rtrn"
 	.balign 4
+
+glabel lbl_801A0FEC
 	.asciz "12btn_on"
 	.balign 4
-	.4byte 0x801A0F24  ;# ptr
-	.4byte 0x801A0F30  ;# ptr
-	.4byte 0x801A0F40  ;# ptr
-	.4byte 0x801A0F50  ;# ptr
-	.4byte 0x801A0F60  ;# ptr
-	.4byte 0x801A0F70  ;# ptr
-	.4byte 0x801A0F7C  ;# ptr
-	.4byte 0x801A0F8C  ;# ptr
-	.4byte 0x801A0F98  ;# ptr
-	.4byte 0x801A0FA4  ;# ptr
-	.4byte 0x801A0FB0  ;# ptr
-	.4byte 0x801A0FC0  ;# ptr
-	.4byte 0x801A0FCC  ;# ptr
-	.4byte 0x801A0FDC  ;# ptr
-	.4byte 0x801A0FEC  ;# ptr
+	.4byte lbl_801A0F24
+	.4byte lbl_801A0F30
+	.4byte lbl_801A0F40
+	.4byte lbl_801A0F50
+	.4byte lbl_801A0F60
+	.4byte lbl_801A0F70
+	.4byte lbl_801A0F7C
+	.4byte lbl_801A0F8C
+	.4byte lbl_801A0F98
+	.4byte lbl_801A0FA4
+	.4byte lbl_801A0FB0
+	.4byte lbl_801A0FC0
+	.4byte lbl_801A0FCC
+	.4byte lbl_801A0FDC
+	.4byte lbl_801A0FEC
+
+glabel lbl_801A1034
 	.asciz "_hmMenu_strt.brlan"
 	.balign 4
+
+glabel lbl_801A1048
 	.asciz "_hmMenu_fnsh.brlan"
 	.balign 4
+
+glabel lbl_801A105C
 	.asciz "_optn_bar_in.brlan"
 	.balign 4
+
+glabel lbl_801A1070
 	.asciz "_optn_bar_out.brlan"
+
+glabel lbl_801A1084
 	.asciz "_optn_btn_in.brlan"
 	.balign 4
+
+glabel lbl_801A1098
 	.asciz "_optn_btn_psh.brlan"
+
+glabel lbl_801A10AC
 	.asciz "_vb_btn_wht_psh.brlan"
 	.balign 4
+
+glabel lbl_801A10C4
 	.asciz "_optn_btn_out.brlan"
+
+glabel lbl_801A10D8
 	.asciz "_vb_btn_ylw_psh.brlan"
 	.balign 4
+
+glabel lbl_801A10F0
 	.asciz "_sound_gry.brlan"
 	.balign 4
+
+glabel lbl_801A1104
 	.asciz "_sound_ylw.brlan"
 	.balign 4
+
+glabel lbl_801A1118
 	.asciz "_cmn_msg_btn_in.brlan"
 	.balign 4
+
+glabel lbl_801A1130
 	.asciz "_cmn_msg_btn_out.brlan"
 	.balign 4
+
+glabel lbl_801A1148
 	.asciz "_cmn_msg_btn_psh.brlan"
 	.balign 4
+
+glabel lbl_801A1160
 	.asciz "_vb_btn_ylw_ylw.brlan"
 	.balign 4
+
+glabel lbl_801A1178
 	.asciz "_btry_wink.brlan"
 	.balign 8
+
+glabel lbl_801A1190
 	.asciz "_btry_gry.brlan"
+
+glabel lbl_801A11A0
 	.asciz "_btry_wht.brlan"
+
+glabel lbl_801A11B0
 	.asciz "_btry_wink_gry.brlan"
 	.balign 4
+
+glabel lbl_801A11C8
 	.asciz "_close_bar_in.brlan"
+
+glabel lbl_801A11DC
 	.asciz "_close_bar_out.brlan"
 	.balign 8
+
+glabel lbl_801A11F8
 	.asciz "_btry_red.brlan"
-	.4byte 0x801A1034  ;# ptr
-	.4byte 0x801A1048  ;# ptr
-	.4byte 0x801A105C  ;# ptr
-	.4byte 0x801A1070  ;# ptr
-	.4byte 0x801A1084  ;# ptr
-	.4byte 0x801A1098  ;# ptr
-	.4byte 0x801A10AC  ;# ptr
-	.4byte 0x801A10C4  ;# ptr
-	.4byte 0x801A10D8  ;# ptr
-	.4byte 0x801A10F0  ;# ptr
-	.4byte 0x801A1104  ;# ptr
-	.4byte 0x801A1118  ;# ptr
-	.4byte 0x801A1130  ;# ptr
-	.4byte 0x801A1148  ;# ptr
-	.4byte 0x801A1160  ;# ptr
-	.4byte 0x801A1178  ;# ptr
-	.4byte 0x801A1190  ;# ptr
-	.4byte 0x801A11A0  ;# ptr
-	.4byte 0x801A11B0  ;# ptr
-	.4byte 0x801A11C8  ;# ptr
-	.4byte 0x801A11DC  ;# ptr
-	.4byte 0x801A11F8  ;# ptr
+	.4byte lbl_801A1034
+	.4byte lbl_801A1048
+	.4byte lbl_801A105C
+	.4byte lbl_801A1070
+	.4byte lbl_801A1084
+	.4byte lbl_801A1098
+	.4byte lbl_801A10AC
+	.4byte lbl_801A10C4
+	.4byte lbl_801A10D8
+	.4byte lbl_801A10F0
+	.4byte lbl_801A1104
+	.4byte lbl_801A1118
+	.4byte lbl_801A1130
+	.4byte lbl_801A1148
+	.4byte lbl_801A1160
+	.4byte lbl_801A1178
+	.4byte lbl_801A1190
+	.4byte lbl_801A11A0
+	.4byte lbl_801A11B0
+	.4byte lbl_801A11C8
+	.4byte lbl_801A11DC
+	.4byte lbl_801A11F8
+
+glabel lbl_801A1260
 	.asciz "hmMenu_strt"
+
+glabel lbl_801A126C
 	.asciz "hmMenu_fnsh"
+
+glabel lbl_801A1278
 	.asciz "hmMenuBck_strt"
 	.balign 4
+
+glabel lbl_801A1288
 	.asciz "hmMenuBck_fnsh"
 	.balign 4
+
+glabel lbl_801A1298
 	.asciz "optn_bar_in"
+
+glabel lbl_801A12A4
 	.asciz "optn_bar_out"
 	.balign 4
+
+glabel lbl_801A12B4
 	.asciz "optnBtn_00_inOut"
 	.balign 4
+
+glabel lbl_801A12C8
 	.asciz "optnBtn_01_inOut"
 	.balign 4
+
+glabel lbl_801A12DC
 	.asciz "optnBtn_10_inOut"
 	.balign 4
+
+glabel lbl_801A12F0
 	.asciz "optnBtn_11_inOut"
 	.balign 4
+
+glabel lbl_801A1304
 	.asciz "optnBtn_20_inOut"
 	.balign 4
+
+glabel lbl_801A1318
 	.asciz "optnBtn_00_psh"
 	.balign 4
+
+glabel lbl_801A1328
 	.asciz "optnBtn_01_psh"
 	.balign 4
+
+glabel lbl_801A1338
 	.asciz "optnBtn_10_psh"
 	.balign 4
+
+glabel lbl_801A1348
 	.asciz "optnBtn_11_psh"
 	.balign 4
+
+glabel lbl_801A1358
 	.asciz "optnBtn_20_psh"
 	.balign 4
+
+glabel lbl_801A1368
 	.asciz "optnBtn_10_cntrl"
 	.balign 8
+
+glabel lbl_801A1380
 	.asciz "msgBtn_00_inOut"
+
+glabel lbl_801A1390
 	.asciz "msgBtn_01_inOut"
+
+glabel lbl_801A13A0
 	.asciz "msgBtn_00_psh"
 	.balign 4
+
+glabel lbl_801A13B0
 	.asciz "msgBtn_01_psh"
 	.balign 4
+
+glabel lbl_801A13C0
 	.asciz "vol_00"
 	.balign 4
+
+glabel lbl_801A13C8
 	.asciz "vol_01"
 	.balign 4
+
+glabel lbl_801A13D0
 	.asciz "vol_02"
 	.balign 4
+
+glabel lbl_801A13D8
 	.asciz "vol_03"
 	.balign 4
+
+glabel lbl_801A13E0
 	.asciz "vol_04"
 	.balign 4
+
+glabel lbl_801A13E8
 	.asciz "vol_05"
 	.balign 4
+
+glabel lbl_801A13F0
 	.asciz "vol_06"
 	.balign 4
+
+glabel lbl_801A13F8
 	.asciz "vol_07"
 	.balign 4
+
+glabel lbl_801A1400
 	.asciz "vol_08"
 	.balign 4
+
+glabel lbl_801A1408
 	.asciz "vol_09"
 	.balign 4
+
+glabel lbl_801A1410
 	.asciz "plyr_00"
+
+glabel lbl_801A1418
 	.asciz "plyr_01"
+
+glabel lbl_801A1420
 	.asciz "plyr_02"
+
+glabel lbl_801A1428
 	.asciz "plyr_03"
-	.4byte 0x801A1260  ;# ptr
-	.4byte 0x801A126C  ;# ptr
-	.4byte 0x801A1278  ;# ptr
-	.4byte 0x801A1288  ;# ptr
-	.4byte 0x801A1298  ;# ptr
-	.4byte 0x801A12A4  ;# ptr
-	.4byte 0x801A12B4  ;# ptr
-	.4byte 0x801A12C8  ;# ptr
-	.4byte 0x801A12DC  ;# ptr
-	.4byte 0x801A12F0  ;# ptr
-	.4byte 0x801A1304  ;# ptr
-	.4byte 0x801A1318  ;# ptr
-	.4byte 0x801A1328  ;# ptr
-	.4byte 0x801A1338  ;# ptr
-	.4byte 0x801A1348  ;# ptr
-	.4byte 0x801A1358  ;# ptr
-	.4byte 0x801A1368  ;# ptr
-	.4byte 0x801A1380  ;# ptr
-	.4byte 0x801A1390  ;# ptr
-	.4byte 0x801A13A0  ;# ptr
-	.4byte 0x801A13B0  ;# ptr
-	.4byte 0x801A13C0  ;# ptr
-	.4byte 0x801A13C8  ;# ptr
-	.4byte 0x801A13D0  ;# ptr
-	.4byte 0x801A13D8  ;# ptr
-	.4byte 0x801A13E0  ;# ptr
-	.4byte 0x801A13E8  ;# ptr
-	.4byte 0x801A13F0  ;# ptr
-	.4byte 0x801A13F8  ;# ptr
-	.4byte 0x801A1400  ;# ptr
-	.4byte 0x801A1408  ;# ptr
-	.4byte 0x801A1410  ;# ptr
-	.4byte 0x801A1418  ;# ptr
-	.4byte 0x801A1420  ;# ptr
-	.4byte 0x801A1428  ;# ptr
+	.4byte lbl_801A1260
+	.4byte lbl_801A126C
+	.4byte lbl_801A1278
+	.4byte lbl_801A1288
+	.4byte lbl_801A1298
+	.4byte lbl_801A12A4
+	.4byte lbl_801A12B4
+	.4byte lbl_801A12C8
+	.4byte lbl_801A12DC
+	.4byte lbl_801A12F0
+	.4byte lbl_801A1304
+	.4byte lbl_801A1318
+	.4byte lbl_801A1328
+	.4byte lbl_801A1338
+	.4byte lbl_801A1348
+	.4byte lbl_801A1358
+	.4byte lbl_801A1368
+	.4byte lbl_801A1380
+	.4byte lbl_801A1390
+	.4byte lbl_801A13A0
+	.4byte lbl_801A13B0
+	.4byte lbl_801A13C0
+	.4byte lbl_801A13C8
+	.4byte lbl_801A13D0
+	.4byte lbl_801A13D8
+	.4byte lbl_801A13E0
+	.4byte lbl_801A13E8
+	.4byte lbl_801A13F0
+	.4byte lbl_801A13F8
+	.4byte lbl_801A1400
+	.4byte lbl_801A1408
+	.4byte lbl_801A1410
+	.4byte lbl_801A1418
+	.4byte lbl_801A1420
+	.4byte lbl_801A1428
+
+glabel lbl_801A14BC
 	.asciz "let_icn_00"
 	.balign 4
+
+glabel lbl_801A14C8
 	.asciz "N_plyr_00"
 	.balign 4
+
+glabel lbl_801A14D4
 	.asciz "N_plyr_01"
 	.balign 4
+
+glabel lbl_801A14E0
 	.asciz "N_plyr_02"
 	.balign 4
+
+glabel lbl_801A14EC
 	.asciz "N_plyr_03"
 	.balign 4
-	.4byte 0x801A14BC  ;# ptr
-	.4byte 0x801A14C8  ;# ptr
-	.4byte 0x801A14D4  ;# ptr
-	.4byte 0x801A14E0  ;# ptr
-	.4byte 0x801A14EC  ;# ptr
+	.4byte lbl_801A14BC
+	.4byte lbl_801A14C8
+	.4byte lbl_801A14D4
+	.4byte lbl_801A14E0
+	.4byte lbl_801A14EC
+
+glabel lbl_801A150C
 	.asciz "B_btn_00"
 	.balign 4
+
+glabel lbl_801A1518
 	.asciz "B_bar_10"
 	.balign 4
+
+glabel lbl_801A1524
 	.asciz "B_optnBtn_00"
 	.balign 4
+
+glabel lbl_801A1534
 	.asciz "B_optnBtn_01"
 	.balign 4
+
+glabel lbl_801A1544
 	.asciz "B_optnBtn_10"
 	.balign 4
+
+glabel lbl_801A1554
 	.asciz "B_optnBtn_11"
 	.balign 4
+
+glabel lbl_801A1564
 	.asciz "B_optnBtn_20"
 	.balign 4
+
+glabel lbl_801A1574
 	.asciz "B_BtnA"
 	.balign 4
+
+glabel lbl_801A157C
 	.asciz "B_BtnB"
 	.balign 4
+
+glabel lbl_801A1584
 	.asciz "cntrl_00"
 	.balign 4
 
-
 glabel lbl_801A1590
 	# ROM: 0x19D690
-	.4byte 0x801A150C  ;# ptr
-	.4byte 0x801A1518  ;# ptr
-	.4byte 0x801A1524  ;# ptr
-	.4byte 0x801A1534  ;# ptr
-	.4byte 0x801A1544  ;# ptr
-	.4byte 0x801A1554  ;# ptr
-	.4byte 0x801A1564  ;# ptr
-	.4byte 0x801A1574  ;# ptr
-	.4byte 0x801A157C  ;# ptr
-	.4byte 0x801A1584  ;# ptr
+	.4byte lbl_801A150C
+	.4byte lbl_801A1518
+	.4byte lbl_801A1524
+	.4byte lbl_801A1534
+	.4byte lbl_801A1544
+	.4byte lbl_801A1554
+	.4byte lbl_801A1564
+	.4byte lbl_801A1574
+	.4byte lbl_801A157C
+	.4byte lbl_801A1584
+
+glabel lbl_801A15B8
 	.asciz "T_msg_00"
 	.balign 4
+
+glabel lbl_801A15C4
 	.asciz "T_msg_01"
 	.balign 4
+
+glabel lbl_801A15D0
 	.asciz "T_Dialog"
 	.balign 4
 
-
 glabel lbl_801A15DC
 	# ROM: 0x19D6DC
-	.4byte 0x801A15B8  ;# ptr
-	.4byte 0x801A15C4  ;# ptr
-	.4byte 0x801A15D0  ;# ptr
+	.4byte lbl_801A15B8
+	.4byte lbl_801A15C4
+	.4byte lbl_801A15D0
+
+glabel lbl_801A15E8
 	.asciz "btryPwr_00_0"
 	.balign 4
+
+glabel lbl_801A15F8
 	.asciz "btryPwr_00_1"
 	.balign 4
+
+glabel lbl_801A1608
 	.asciz "btryPwr_00_2"
 	.balign 4
+
+glabel lbl_801A1618
 	.asciz "btryPwr_00_3"
 	.balign 4
+
+glabel lbl_801A1628
 	.asciz "btryPwr_01_0"
 	.balign 4
+
+glabel lbl_801A1638
 	.asciz "btryPwr_01_1"
 	.balign 4
+
+glabel lbl_801A1648
 	.asciz "btryPwr_01_2"
 	.balign 4
+
+glabel lbl_801A1658
 	.asciz "btryPwr_01_3"
 	.balign 4
+
+glabel lbl_801A1668
 	.asciz "btryPwr_02_0"
 	.balign 4
+
+glabel lbl_801A1678
 	.asciz "btryPwr_02_1"
 	.balign 4
+
+glabel lbl_801A1688
 	.asciz "btryPwr_02_2"
 	.balign 4
+
+glabel lbl_801A1698
 	.asciz "btryPwr_02_3"
 	.balign 4
+
+glabel lbl_801A16A8
 	.asciz "btryPwr_03_0"
 	.balign 4
+
+glabel lbl_801A16B8
 	.asciz "btryPwr_03_1"
 	.balign 4
+
+glabel lbl_801A16C8
 	.asciz "btryPwr_03_2"
 	.balign 4
+
+glabel lbl_801A16D8
 	.asciz "btryPwr_03_3"
 	.balign 4
 
-
 glabel lbl_801A16E8
 	# ROM: 0x19D7E8
-	.4byte 0x801A15E8  ;# ptr
-	.4byte 0x801A15F8  ;# ptr
-	.4byte 0x801A1608  ;# ptr
-	.4byte 0x801A1618  ;# ptr
-	.4byte 0x801A1628  ;# ptr
-	.4byte 0x801A1638  ;# ptr
-	.4byte 0x801A1648  ;# ptr
-	.4byte 0x801A1658  ;# ptr
-	.4byte 0x801A1668  ;# ptr
-	.4byte 0x801A1678  ;# ptr
-	.4byte 0x801A1688  ;# ptr
-	.4byte 0x801A1698  ;# ptr
-	.4byte 0x801A16A8  ;# ptr
-	.4byte 0x801A16B8  ;# ptr
-	.4byte 0x801A16C8  ;# ptr
-	.4byte 0x801A16D8  ;# ptr
+	.4byte lbl_801A15E8
+	.4byte lbl_801A15F8
+	.4byte lbl_801A1608
+	.4byte lbl_801A1618
+	.4byte lbl_801A1628
+	.4byte lbl_801A1638
+	.4byte lbl_801A1648
+	.4byte lbl_801A1658
+	.4byte lbl_801A1668
+	.4byte lbl_801A1678
+	.4byte lbl_801A1688
+	.4byte lbl_801A1698
+	.4byte lbl_801A16A8
+	.4byte lbl_801A16B8
+	.4byte lbl_801A16C8
+	.4byte lbl_801A16D8
 	.asciz "NW4HBM:Failed assertion mpResAccessor"
 	.balign 4
 	.4byte 0x61726300
@@ -33810,71 +33753,67 @@ glabel lbl_801A16E8
 	.asciz "back_00"
 	.asciz "back_02"
 
-
 glabel lbl_801A1900
 	# ROM: 0x19DA00
-	.4byte 0x8010B3F4  ;# ptr
-	.4byte 0x8010B5BC  ;# ptr
-	.4byte 0x8010B874  ;# ptr
-	.4byte 0x8010B928  ;# ptr
-	.4byte 0x8010BA20  ;# ptr
-	.4byte 0x8010BB3C  ;# ptr
-	.4byte 0x8010BB3C  ;# ptr
-	.4byte 0x8010BD2C  ;# ptr
-	.4byte 0x8010BE40  ;# ptr
-	.4byte 0x8010BFF8  ;# ptr
-	.4byte 0x8010C04C  ;# ptr
-	.4byte 0x8010C198  ;# ptr
-	.4byte 0x8010C1DC  ;# ptr
-	.4byte 0x8010C214  ;# ptr
-	.4byte 0x8010C314  ;# ptr
-	.4byte 0x8010C4A0  ;# ptr
-	.4byte 0x8010C52C  ;# ptr
-	.4byte 0x8010C660  ;# ptr
-	.4byte 0x8010C7A4  ;# ptr
-	.4byte 0x8010C7B0  ;# ptr
-
+	.4byte lbl_8010B3F4
+	.4byte lbl_8010B5BC
+	.4byte lbl_8010B874
+	.4byte lbl_8010B928
+	.4byte lbl_8010BA20
+	.4byte lbl_8010BB3C
+	.4byte lbl_8010BB3C
+	.4byte lbl_8010BD2C
+	.4byte lbl_8010BE40
+	.4byte lbl_8010BFF8
+	.4byte lbl_8010C04C
+	.4byte lbl_8010C198
+	.4byte lbl_8010C1DC
+	.4byte lbl_8010C214
+	.4byte lbl_8010C314
+	.4byte lbl_8010C4A0
+	.4byte lbl_8010C52C
+	.4byte lbl_8010C660
+	.4byte lbl_8010C7A4
+	.4byte lbl_8010C7B0
 
 glabel lbl_801A1950
 	# ROM: 0x19DA50
-	.4byte 0x8010ECE8  ;# ptr
-	.4byte 0x8010EDF8  ;# ptr
-	.4byte 0x8010F430  ;# ptr
-	.4byte 0x8010F550  ;# ptr
-	.4byte 0x8010F670  ;# ptr
-	.4byte 0x8010F790  ;# ptr
-	.4byte 0x8010F8B0  ;# ptr
-	.4byte 0x8010F9D0  ;# ptr
-	.4byte 0x8010FAF0  ;# ptr
-	.4byte 0x8010EDF8  ;# ptr
-
+	.4byte lbl_8010ECE8
+	.4byte lbl_8010EDF8
+	.4byte lbl_8010F430
+	.4byte lbl_8010F550
+	.4byte lbl_8010F670
+	.4byte lbl_8010F790
+	.4byte lbl_8010F8B0
+	.4byte lbl_8010F9D0
+	.4byte lbl_8010FAF0
+	.4byte lbl_8010EDF8
 
 glabel lbl_801A1978
 	# ROM: 0x19DA78
-	.4byte 0x8010FE38  ;# ptr
-	.4byte 0x8010FEAC  ;# ptr
-	.4byte 0x801103D4  ;# ptr
-	.4byte 0x8011045C  ;# ptr
-	.4byte 0x801104E4  ;# ptr
-	.4byte 0x8011056C  ;# ptr
-	.4byte 0x801105F4  ;# ptr
-	.4byte 0x8011067C  ;# ptr
-	.4byte 0x80110704  ;# ptr
-	.4byte 0x8010FEAC  ;# ptr
-
+	.4byte lbl_8010FE38
+	.4byte lbl_8010FEAC
+	.4byte lbl_801103D4
+	.4byte lbl_8011045C
+	.4byte lbl_801104E4
+	.4byte lbl_8011056C
+	.4byte lbl_801105F4
+	.4byte lbl_8011067C
+	.4byte lbl_80110704
+	.4byte lbl_8010FEAC
 
 glabel lbl_801A19A0
 	# ROM: 0x19DAA0
-	.4byte 0x80110ADC  ;# ptr
-	.4byte 0x80110BC0  ;# ptr
-	.4byte 0x80110DB8  ;# ptr
-	.4byte 0x8011117C  ;# ptr
-	.4byte 0x80111540  ;# ptr
-	.4byte 0x80111810  ;# ptr
-	.4byte 0x80111A38  ;# ptr
-	.4byte 0x80111C98  ;# ptr
-	.4byte 0x80111E48  ;# ptr
-	.4byte 0x80110BC0  ;# ptr
+	.4byte lbl_80110ADC
+	.4byte lbl_80110BC0
+	.4byte lbl_80110DB8
+	.4byte lbl_8011117C
+	.4byte lbl_80111540
+	.4byte lbl_80111810
+	.4byte lbl_80111A38
+	.4byte lbl_80111C98
+	.4byte lbl_80111E48
+	.4byte lbl_80110BC0
 	.asciz "NW4HBM:Failed assertion mpSoundArchivePlayer"
 	.balign 4
 	.asciz "NW4HBM:Failed assertion result"
@@ -33891,148 +33830,140 @@ glabel lbl_801A19A0
 	.asciz "NW4HBM:Failed assertion mpNandSoundArchive"
 	.balign 4
 
-
 glabel lbl_801A1B00
 	# ROM: 0x19DC00
 	.4byte 0
 	.4byte 0
-	.4byte 0x801123D4  ;# ptr
-	.4byte 0x8010A6B8  ;# ptr
+	.4byte lbl_801123D4
+	.4byte lbl_8010A6B8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80112D8C  ;# ptr
-	.4byte 0x8010A6B8  ;# ptr
+	.4byte lbl_80112D8C
+	.4byte lbl_8010A6B8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80112DA0  ;# ptr
-	.4byte 0x80112D9C  ;# ptr
-	.4byte 0x80112D98  ;# ptr
-	.4byte 0x80112D90  ;# ptr
-	.4byte 0x80112D94  ;# ptr
-	.4byte 0x8010A678  ;# ptr
+	.4byte lbl_80112DA0
+	.4byte lbl_80112D9C
+	.4byte lbl_80112D98
+	.4byte lbl_80112D90
+	.4byte lbl_80112D94
+	.4byte lbl_8010A678
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A1B70
 	# ROM: 0x19DC70
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A1B94
 	# ROM: 0x19DC94
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A1BA0
 	# ROM: 0x19DCA0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80112DC0  ;# ptr
-	.4byte 0x80112F1C  ;# ptr
-
+	.4byte lbl_80112DC0
+	.4byte lbl_80112F1C
 
 glabel lbl_801A1BB0
 	# ROM: 0x19DCB0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80112DA0  ;# ptr
-	.4byte 0x801135D8  ;# ptr
-	.4byte 0x80112D98  ;# ptr
-	.4byte 0x80112D90  ;# ptr
-	.4byte 0x8011433C  ;# ptr
-	.4byte 0x80113C0C  ;# ptr
-	.4byte 0x80113470  ;# ptr
-	.4byte 0x80113440  ;# ptr
-	.4byte 0x80113478  ;# ptr
-	.4byte 0x80113484  ;# ptr
-	.4byte 0x80113488  ;# ptr
-	.4byte 0x801146D4  ;# ptr
-	.4byte 0x8011344C  ;# ptr
-	.4byte 0x801138D0  ;# ptr
-	.4byte 0x801146CC  ;# ptr
-	.4byte 0x801146C4  ;# ptr
-	.4byte 0x80113230  ;# ptr
-	.4byte 0x801138C8  ;# ptr
-	.4byte 0x8010A6C0  ;# ptr
-	.4byte 0x801136C8  ;# ptr
-	.4byte 0x801145F0  ;# ptr
-	.4byte 0x80114208  ;# ptr
-	.4byte 0x80114070  ;# ptr
-	.4byte 0x8011249C  ;# ptr
-
+	.4byte lbl_80112DA0
+	.4byte lbl_801135D8
+	.4byte lbl_80112D98
+	.4byte lbl_80112D90
+	.4byte lbl_8011433C
+	.4byte lbl_80113C0C
+	.4byte lbl_80113470
+	.4byte lbl_80113440
+	.4byte lbl_80113478
+	.4byte lbl_80113484
+	.4byte lbl_80113488
+	.4byte lbl_801146D4
+	.4byte lbl_8011344C
+	.4byte lbl_801138D0
+	.4byte lbl_801146CC
+	.4byte lbl_801146C4
+	.4byte lbl_80113230
+	.4byte lbl_801138C8
+	.4byte lbl_8010A6C0
+	.4byte lbl_801136C8
+	.4byte lbl_801145F0
+	.4byte lbl_80114208
+	.4byte lbl_80114070
+	.4byte lbl_8011249C
 
 glabel lbl_801A1C18
 	# ROM: 0x19DD18
 	.4byte 0
 	.4byte 0
-	.4byte 0x80112DA0  ;# ptr
-	.4byte 0x80113548  ;# ptr
-	.4byte 0x80113900  ;# ptr
-	.4byte 0x80112D90  ;# ptr
-	.4byte 0x80113990  ;# ptr
-	.4byte 0x80113AB8  ;# ptr
-	.4byte 0x80113604  ;# ptr
-	.4byte 0x801136D0  ;# ptr
-	.4byte 0x80114704  ;# ptr
-	.4byte 0x801136FC  ;# ptr
-	.4byte 0x80113450  ;# ptr
-	.4byte 0x80113A20  ;# ptr
-	.4byte 0x801146D8  ;# ptr
-	.4byte 0x80113C8C  ;# ptr
-	.4byte 0x80114078  ;# ptr
-	.4byte 0x80114334  ;# ptr
-	.4byte 0x8010A6C8  ;# ptr
-	.4byte 0x80114110  ;# ptr
-	.4byte 0x80113CB0  ;# ptr
-
+	.4byte lbl_80112DA0
+	.4byte lbl_80113548
+	.4byte lbl_80113900
+	.4byte lbl_80112D90
+	.4byte lbl_80113990
+	.4byte lbl_80113AB8
+	.4byte lbl_80113604
+	.4byte lbl_801136D0
+	.4byte lbl_80114704
+	.4byte lbl_801136FC
+	.4byte lbl_80113450
+	.4byte lbl_80113A20
+	.4byte lbl_801146D8
+	.4byte lbl_80113C8C
+	.4byte lbl_80114078
+	.4byte lbl_80114334
+	.4byte lbl_8010A6C8
+	.4byte lbl_80114110
+	.4byte lbl_80113CB0
 
 glabel lbl_801A1C6C
 	# ROM: 0x19DD6C
 	.4byte 0
 	.4byte 0
-	.4byte 0x80112DA0  ;# ptr
-	.4byte 0x80113548  ;# ptr
-	.4byte 0x80113900  ;# ptr
-	.4byte 0x80112D90  ;# ptr
-	.4byte 0x80113990  ;# ptr
-	.4byte 0x8011348C  ;# ptr
-	.4byte 0x80113604  ;# ptr
-	.4byte 0x801136D0  ;# ptr
-	.4byte 0x80114704  ;# ptr
-	.4byte 0x801136FC  ;# ptr
-	.4byte 0x80113450  ;# ptr
-	.4byte 0x80113A20  ;# ptr
-	.4byte 0x801146D8  ;# ptr
-
+	.4byte lbl_80112DA0
+	.4byte lbl_80113548
+	.4byte lbl_80113900
+	.4byte lbl_80112D90
+	.4byte lbl_80113990
+	.4byte lbl_8011348C
+	.4byte lbl_80113604
+	.4byte lbl_801136D0
+	.4byte lbl_80114704
+	.4byte lbl_801136FC
+	.4byte lbl_80113450
+	.4byte lbl_80113A20
+	.4byte lbl_801146D8
 
 glabel lbl_801A1CA8
 	# ROM: 0x19DDA8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80112DA0  ;# ptr
-	.4byte 0x801135D8  ;# ptr
-	.4byte 0x80112D98  ;# ptr
-	.4byte 0x80112D90  ;# ptr
-	.4byte 0x80112D94  ;# ptr
-	.4byte 0x80113C4C  ;# ptr
-	.4byte 0x80113470  ;# ptr
-	.4byte 0x80113440  ;# ptr
-	.4byte 0x80113478  ;# ptr
-	.4byte 0x80113484  ;# ptr
-	.4byte 0x80113488  ;# ptr
-	.4byte 0x801146D4  ;# ptr
-	.4byte 0x8011344C  ;# ptr
-	.4byte 0x801138D0  ;# ptr
-	.4byte 0x801146CC  ;# ptr
-	.4byte 0x801146C4  ;# ptr
-	.4byte 0x80113230  ;# ptr
-	.4byte 0x801138C8  ;# ptr
-	.4byte 0x8010A6C0  ;# ptr
-	.4byte 0x801136C8  ;# ptr
-	.4byte 0x80113438  ;# ptr
+	.4byte lbl_80112DA0
+	.4byte lbl_801135D8
+	.4byte lbl_80112D98
+	.4byte lbl_80112D90
+	.4byte lbl_80112D94
+	.4byte lbl_80113C4C
+	.4byte lbl_80113470
+	.4byte lbl_80113440
+	.4byte lbl_80113478
+	.4byte lbl_80113484
+	.4byte lbl_80113488
+	.4byte lbl_801146D4
+	.4byte lbl_8011344C
+	.4byte lbl_801138D0
+	.4byte lbl_801146CC
+	.4byte lbl_801146C4
+	.4byte lbl_80113230
+	.4byte lbl_801138C8
+	.4byte lbl_8010A6C0
+	.4byte lbl_801136C8
+	.4byte lbl_80113438
 	.4byte 0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
@@ -34042,14 +33973,12 @@ glabel lbl_801A1CA8
 	.asciz "list.h"
 	.balign 4
 
-
 glabel lbl_801A1D68
 	# ROM: 0x19DE68
 	.4byte 0
 	.4byte 0
-	.4byte 0x801155AC  ;# ptr
+	.4byte lbl_801155AC
 	.4byte 0
-
 
 glabel lbl_801A1D78
 	# ROM: 0x19DE78
@@ -34063,12 +33992,10 @@ glabel lbl_801A1D78
 	.asciz "%s:%d Panic:"
 	.balign 4
 
-
 glabel lbl_801A1DF0
 	# ROM: 0x19DEF0
 	.asciz "console.h"
 	.balign 4
-
 
 glabel lbl_801A1DFC
 	# ROM: 0x19DEFC
@@ -34077,12 +34004,10 @@ glabel lbl_801A1DFC
 	.asciz "%s:%d Warning:"
 	.balign 4
 
-
 glabel lbl_801A1E30
 	# ROM: 0x19DF30
 	.asciz "db_console.cpp"
 	.balign 4
-
 
 glabel lbl_801A1E40
 	# ROM: 0x19DF40
@@ -34102,12 +34027,10 @@ glabel lbl_801A1E40
 	.asciz "%s"
 	.balign 4
 
-
 glabel lbl_801A1F58
 	# ROM: 0x19E058
 	.asciz "db_directPrint.cpp"
 	.balign 4
-
 
 glabel lbl_801A1F6C
 	# ROM: 0x19E06C
@@ -34118,7 +34041,6 @@ glabel lbl_801A1F6C
 	.asciz "NW4HBM:Failed assertion width > 0"
 	.balign 4
 
-
 glabel lbl_801A1FF8
 	# ROM: 0x19E0F8
 	.4byte 0
@@ -34126,11 +34048,9 @@ glabel lbl_801A1FF8
 	.4byte 0x0000000C
 	.4byte 0x0000000F
 
-
 glabel lbl_801A2008
 	# ROM: 0x19E108
 	.4byte 0xFFFFFFFF
-
 
 glabel lbl_801A200C
 	# ROM: 0x19E10C
@@ -34149,7 +34069,6 @@ glabel lbl_801A200C
 	.asciz "NW4HBM:Failed assertion pMapFile->fileEntry >= 0"
 	.balign 4
 
-
 glabel lbl_801A2140
 	# ROM: 0x19E240
 	.asciz "NW4HBM:Pointer must not be NULL (GetCharPtr_)"
@@ -34162,7 +34081,6 @@ glabel lbl_801A2140
 	.balign 4
 	.asciz "NW4HBM:Failed assertion strBufSize > 0"
 	.balign 8
-
 
 glabel lbl_801A2218
 	# ROM: 0x19E318
@@ -34189,42 +34107,37 @@ glabel lbl_801A2218
 	.asciz "NW4HBM:Pointer must not be NULL (pAnimTrans)"
 	.balign 8
 
-
 glabel lbl_801A2528
 	# ROM: 0x19E628
 	.4byte 0
 	.4byte 0
-	.4byte 0x80118010  ;# ptr
-	.4byte 0x8011809C  ;# ptr
-	.4byte 0x8011822C  ;# ptr
-	.4byte 0x8011832C  ;# ptr
-	.4byte 0x801183E8  ;# ptr
-	.4byte 0x801186D8  ;# ptr
+	.4byte lbl_80118010
+	.4byte lbl_8011809C
+	.4byte lbl_8011822C
+	.4byte lbl_8011832C
+	.4byte lbl_801183E8
+	.4byte lbl_801186D8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80117F8C  ;# ptr
+	.4byte lbl_80117F8C
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_801A2568
 	# ROM: 0x19E668
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A258C
 	# ROM: 0x19E68C
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A2598
 	# ROM: 0x19E698
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A25BC
 	# ROM: 0x19E6BC
@@ -34242,7 +34155,6 @@ glabel lbl_801A25BC
 	.balign 4
 	.asciz "material.h"
 	.balign 8
-
 
 glabel lbl_801A2690
 	# ROM: 0x19E790
@@ -34263,23 +34175,21 @@ glabel lbl_801A2690
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (pLink)"
 
-
 glabel lbl_801A27F8
 	# ROM: 0x19E8F8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80119170  ;# ptr
-	.4byte 0x80119200  ;# ptr
-	.4byte 0x801192BC  ;# ptr
-
+	.4byte lbl_80119170
+	.4byte lbl_80119200
+	.4byte lbl_801192BC
 
 glabel lbl_801A280C
 	# ROM: 0x19E90C
 	.4byte 0
 	.4byte 0
-	.4byte 0x80109B14  ;# ptr
-	.4byte 0x801190A0  ;# ptr
-	.4byte 0x801190C0  ;# ptr
+	.4byte lbl_80109B14
+	.4byte lbl_801190A0
+	.4byte lbl_801190C0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -34292,108 +34202,94 @@ glabel lbl_801A280C
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
-
 
 glabel lbl_801A28E0
 	# ROM: 0x19E9E0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A2904
 	# ROM: 0x19EA04
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A2910
 	# ROM: 0x19EA10
 	.4byte 0
 	.4byte 0
-	.4byte 0x801193A8  ;# ptr
-	.4byte 0x80119470  ;# ptr
-	.4byte 0x8011F7A0  ;# ptr
-	.4byte 0x8011FAC4  ;# ptr
-	.4byte 0x80119400  ;# ptr
-	.4byte 0x8011FBE4  ;# ptr
-	.4byte 0x8011FC90  ;# ptr
-	.4byte 0x8011F4E0  ;# ptr
-	.4byte 0x8011F4EC  ;# ptr
-	.4byte 0x8011F4F0  ;# ptr
-	.4byte 0x8011F574  ;# ptr
-	.4byte 0x8011F608  ;# ptr
-	.4byte 0x8011F610  ;# ptr
-	.4byte 0x8011F614  ;# ptr
-	.4byte 0x8011F6D4  ;# ptr
-	.4byte 0x8011FD94  ;# ptr
-	.4byte 0x8011FE14  ;# ptr
-	.4byte 0x8011FEBC  ;# ptr
-	.4byte 0x8011FED4  ;# ptr
-	.4byte 0x80120050  ;# ptr
-	.4byte 0x801200C8  ;# ptr
-	.4byte 0x801203B0  ;# ptr
-	.4byte 0x801201A8  ;# ptr
+	.4byte lbl_801193A8
+	.4byte lbl_80119470
+	.4byte lbl_8011F7A0
+	.4byte lbl_8011FAC4
+	.4byte lbl_80119400
+	.4byte lbl_8011FBE4
+	.4byte func_8011FC90
+	.4byte lbl_8011F4E0
+	.4byte lbl_8011F4EC
+	.4byte lbl_8011F4F0
+	.4byte lbl_8011F574
+	.4byte lbl_8011F608
+	.4byte lbl_8011F610
+	.4byte lbl_8011F614
+	.4byte lbl_8011F6D4
+	.4byte lbl_8011FD94
+	.4byte lbl_8011FE14
+	.4byte lbl_8011FEBC
+	.4byte func_8011FED4
+	.4byte func_80120050
+	.4byte func_801200C8
+	.4byte lbl_801203B0
+	.4byte lbl_801201A8
 	.4byte 0
-
 
 glabel lbl_801A2978
 	# ROM: 0x19EA78
 	.asciz "lyt_common.cpp"
 	.balign 4
 
-
 glabel lbl_801A2988
 	# ROM: 0x19EA88
 	.asciz "NW4HBM:Failed assertion num <= GX_MAX_TEXMAP"
 	.balign 4
-
 
 glabel lbl_801A29B8
 	# ROM: 0x19EAB8
 	.asciz "NW4HBM:Failed assertion texCoordNum <= mCap"
 	.balign 8
 
-
 glabel lbl_801A29E8
 	# ROM: 0x19EAE8
 	.4byte 0
 	.4byte 0
-	.4byte 0x8011A3A8  ;# ptr
+	.4byte func_8011A3A8
 	.4byte 0
-
 
 glabel lbl_801A29F8
 	# ROM: 0x19EAF8
 	.4byte 0
 	.4byte 0
-	.4byte 0x8011A51C  ;# ptr
-
+	.4byte lbl_8011A51C
 
 glabel lbl_801A2A04
 	# ROM: 0x19EB04
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A2A28
 	# ROM: 0x19EB28
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A2A34
 	# ROM: 0x19EB34
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A2A58
 	# ROM: 0x19EB58
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A2A64
 	# ROM: 0x19EB64
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A2A88
 	# ROM: 0x19EB88
@@ -34405,7 +34301,6 @@ glabel lbl_801A2A88
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 8
-
 
 glabel lbl_801A2AF8
 	# ROM: 0x19EBF8
@@ -34422,28 +34317,26 @@ glabel lbl_801A2AF8
 	.asciz "NW4HBM:Failed assertion ret == 0"
 	.balign 4
 
-
 glabel lbl_801A2C24
 	# ROM: 0x19ED24
 	.asciz "unknown data type"
 	.balign 4
 
-
 glabel lbl_801A2C38
 	# ROM: 0x19ED38
 	.4byte 0
 	.4byte 0
-	.4byte 0x8011AB34  ;# ptr
-	.4byte 0x8011ACBC  ;# ptr
-	.4byte 0x8011B068  ;# ptr
-	.4byte 0x8011B2B8  ;# ptr
-	.4byte 0x8011B2DC  ;# ptr
-	.4byte 0x8011B300  ;# ptr
-	.4byte 0x8011B314  ;# ptr
-	.4byte 0x8011B338  ;# ptr
-	.4byte 0x8011B358  ;# ptr
-	.4byte 0x8011B378  ;# ptr
-	.4byte 0x8011B404  ;# ptr
+	.4byte lbl_8011AB34
+	.4byte lbl_8011ACBC
+	.4byte lbl_8011B068
+	.4byte lbl_8011B2B8
+	.4byte lbl_8011B2DC
+	.4byte lbl_8011B300
+	.4byte lbl_8011B314
+	.4byte lbl_8011B338
+	.4byte lbl_8011B358
+	.4byte lbl_8011B378
+	.4byte lbl_8011B404
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -34459,7 +34352,6 @@ glabel lbl_801A2C38
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 8
-
 
 glabel lbl_801A2D60
 	# ROM: 0x19EE60
@@ -34503,7 +34395,6 @@ glabel lbl_801A2D60
 	.asciz "NW4HBM:Pointer must not be NULL (pTexObj)"
 	.balign 4
 
-
 glabel lbl_801A31B8
 	# ROM: 0x19F2B8
 	.asciz "NW4HBM:Failed assertion texMapIdx < mGXMemNum.texMap"
@@ -34528,25 +34419,22 @@ glabel lbl_801A31B8
 	.asciz "NW4HBM:Failed assertion texMtx == GX_IDENTITY || GetTexMtxIdx(texMtx) < mGXMemNum.texSRT"
 	.balign 8
 
-
 glabel lbl_801A32D8
 	# ROM: 0x19F3D8
 	.4byte 0
 	.4byte 0
-	.4byte 0x8011C6D8  ;# ptr
-	.4byte 0x8011DD1C  ;# ptr
-	.4byte 0x8011EC38  ;# ptr
-	.4byte 0x8011EC54  ;# ptr
-	.4byte 0x8011ED14  ;# ptr
-	.4byte 0x8011ED28  ;# ptr
-	.4byte 0x8011EE70  ;# ptr
-	.4byte 0x8011EE78  ;# ptr
-
+	.4byte lbl_8011C6D8
+	.4byte lbl_8011DD1C
+	.4byte lbl_8011EC38
+	.4byte lbl_8011EC54
+	.4byte lbl_8011ED14
+	.4byte lbl_8011ED28
+	.4byte lbl_8011EE70
+	.4byte lbl_8011EE78
 
 glabel lbl_801A3300
 	# ROM: 0x19F400
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A3324
 	# ROM: 0x19F424
@@ -34555,7 +34443,6 @@ glabel lbl_801A3324
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
-
 
 glabel lbl_801A3360
 	# ROM: 0x19F460
@@ -34570,54 +34457,50 @@ glabel lbl_801A3360
 	.asciz "NW4HBM:Failed assertion pChild->mpParent == this"
 	.balign 8
 
-
 glabel lbl_801A3460
 	# ROM: 0x19F560
 	.asciz "NW4HBM:Failed assertion idx < ANIMTARGET_PANE_COLOR_MAX"
-
 
 glabel lbl_801A3498
 	# ROM: 0x19F598
 	.asciz "NW4HBM:Pointer must not be NULL (pAnimTrans)"
 	.balign 4
 
-
 glabel lbl_801A34C8
 	# ROM: 0x19F5C8
 	.asciz "NW4HBM:Pointer must not be NULL (pAnimationLink)"
 	.balign 4
 
-
 glabel lbl_801A34FC
 	# ROM: 0x19F5FC
 	.4byte 0
 	.4byte 0
-	.4byte 0x8011F198  ;# ptr
-	.4byte 0x8010ACA0  ;# ptr
-	.4byte 0x8011F7A0  ;# ptr
-	.4byte 0x8011FAC4  ;# ptr
-	.4byte 0x8011FB68  ;# ptr
-	.4byte 0x8011FBE4  ;# ptr
-	.4byte 0x8011FC90  ;# ptr
-	.4byte 0x8011F4E0  ;# ptr
-	.4byte 0x8011F4EC  ;# ptr
-	.4byte 0x8011F4F0  ;# ptr
-	.4byte 0x8011F574  ;# ptr
-	.4byte 0x8011F608  ;# ptr
-	.4byte 0x8011F610  ;# ptr
-	.4byte 0x8011F614  ;# ptr
-	.4byte 0x8011F6D4  ;# ptr
-	.4byte 0x8011FD94  ;# ptr
-	.4byte 0x8011FE14  ;# ptr
-	.4byte 0x8011FEBC  ;# ptr
-	.4byte 0x8011FED4  ;# ptr
-	.4byte 0x80120050  ;# ptr
-	.4byte 0x801200C8  ;# ptr
-	.4byte 0x801203B0  ;# ptr
-	.4byte 0x801201A8  ;# ptr
+	.4byte func_8011F198
+	.4byte lbl_8010ACA0
+	.4byte lbl_8011F7A0
+	.4byte lbl_8011FAC4
+	.4byte lbl_8011FB68
+	.4byte lbl_8011FBE4
+	.4byte func_8011FC90
+	.4byte lbl_8011F4E0
+	.4byte lbl_8011F4EC
+	.4byte lbl_8011F4F0
+	.4byte lbl_8011F574
+	.4byte lbl_8011F608
+	.4byte lbl_8011F610
+	.4byte lbl_8011F614
+	.4byte lbl_8011F6D4
+	.4byte lbl_8011FD94
+	.4byte lbl_8011FE14
+	.4byte lbl_8011FEBC
+	.4byte func_8011FED4
+	.4byte func_80120050
+	.4byte func_801200C8
+	.4byte lbl_801203B0
+	.4byte lbl_801201A8
 	.4byte 0
 	.4byte 0
-	.4byte 0x8011F030  ;# ptr
+	.4byte lbl_8011F030
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -34627,12 +34510,10 @@ glabel lbl_801A34FC
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
-
 
 glabel lbl_801A35FC
 	# ROM: 0x19F6FC
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A3620
 	# ROM: 0x19F720
@@ -34651,117 +34532,102 @@ glabel lbl_801A3620
 	.asciz "LinkList.h"
 	.balign 8
 
-
 glabel lbl_801A36F0
 	# ROM: 0x19F7F0
 	.asciz "lyt_picture.cpp"
 
-
 glabel lbl_801A3700
 	# ROM: 0x19F800
 	.asciz "NW4HBM:Pointer must not be NULL (resBlockSet.pMaterialList)"
-
 
 glabel lbl_801A373C
 	# ROM: 0x19F83C
 	.asciz "mpMaterial->GetTextureNum(%d) is large. mpMaterial->GetTextureCap(%d), mpMaterial->GetTexCoordGenCap(%d)\n"
 	.balign 4
 
-
 glabel lbl_801A37A8
 	# ROM: 0x19F8A8
 	.asciz "NW4HBM:Failed assertion idx < VERTEXCOLOR_MAX"
 	.balign 4
 
-
 glabel lbl_801A37D8
 	# ROM: 0x19F8D8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80120528  ;# ptr
-	.4byte 0x80120AE0  ;# ptr
-	.4byte 0x8011F7A0  ;# ptr
-	.4byte 0x8011FAC4  ;# ptr
-	.4byte 0x80120A04  ;# ptr
-	.4byte 0x8011FBE4  ;# ptr
-	.4byte 0x8011FC90  ;# ptr
-	.4byte 0x80120808  ;# ptr
-	.4byte 0x80120894  ;# ptr
-	.4byte 0x8011F4F0  ;# ptr
-	.4byte 0x8011F574  ;# ptr
-	.4byte 0x80120920  ;# ptr
-	.4byte 0x8012098C  ;# ptr
-	.4byte 0x8011F614  ;# ptr
-	.4byte 0x8011F6D4  ;# ptr
-	.4byte 0x8011FD94  ;# ptr
-	.4byte 0x8011FE14  ;# ptr
-	.4byte 0x8011FEBC  ;# ptr
-	.4byte 0x8011FED4  ;# ptr
-	.4byte 0x80120050  ;# ptr
-	.4byte 0x801200C8  ;# ptr
-	.4byte 0x801203B0  ;# ptr
-	.4byte 0x801201A8  ;# ptr
-	.4byte 0x801205F8  ;# ptr
-	.4byte 0x80120644  ;# ptr
-
+	.4byte lbl_80120528
+	.4byte lbl_80120AE0
+	.4byte lbl_8011F7A0
+	.4byte lbl_8011FAC4
+	.4byte lbl_80120A04
+	.4byte lbl_8011FBE4
+	.4byte func_8011FC90
+	.4byte lbl_80120808
+	.4byte lbl_80120894
+	.4byte lbl_8011F4F0
+	.4byte lbl_8011F574
+	.4byte lbl_80120920
+	.4byte lbl_8012098C
+	.4byte lbl_8011F614
+	.4byte lbl_8011F6D4
+	.4byte lbl_8011FD94
+	.4byte lbl_8011FE14
+	.4byte lbl_8011FEBC
+	.4byte func_8011FED4
+	.4byte func_80120050
+	.4byte func_801200C8
+	.4byte lbl_801203B0
+	.4byte lbl_801201A8
+	.4byte lbl_801205F8
+	.4byte lbl_80120644
 
 glabel lbl_801A3844
 	# ROM: 0x19F944
 	.asciz "NW4HBM:Failed assertion idx < ANIMTARGET_VERTEXCOLOR_MAX"
 	.balign 4
 
-
 glabel lbl_801A3880
 	# ROM: 0x19F980
 	.asciz "common.h"
 	.balign 4
-
 
 glabel lbl_801A388C
 	# ROM: 0x19F98C
 	.asciz "NW4HBM:Failed assertion idx < ANIMTARGET_VERTEXCOLOR_MAX"
 	.balign 4
 
-
 glabel lbl_801A38C8
 	# ROM: 0x19F9C8
 	.asciz "common.h"
 	.balign 4
 
-
 glabel lbl_801A38D4
 	# ROM: 0x19F9D4
 	.asciz "NW4HBM:Failed assertion idx < mGXMemNum.texCoordGen"
-
 
 glabel lbl_801A3908
 	# ROM: 0x19FA08
 	.asciz "material.h"
 	.balign 8
 
-
 glabel lbl_801A3918
 	# ROM: 0x19FA18
 	.4byte 0
 	.4byte 0
-	.4byte 0x80120B00  ;# ptr
+	.4byte func_80120B00
 	.4byte 0
-	.4byte 0x80120B50  ;# ptr
+	.4byte lbl_80120B50
 	.4byte 0
-
 
 glabel lbl_801A3930
 	# ROM: 0x19FA30
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80146C08  ;# ptr
+	.4byte lbl_80146C08
 	.4byte 0
-
 
 glabel lbl_801A3940
 	# ROM: 0x19FA40
 	.asciz "lyt_textBox.cpp"
-
 
 glabel lbl_801A3950
 	# ROM: 0x19FA50
@@ -34774,12 +34640,10 @@ glabel lbl_801A3950
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (resBlockSet.pMaterialList)"
 
-
 glabel lbl_801A3A58
 	# ROM: 0x19FB58
 	.asciz "NW4HBM:Failed assertion idx < VERTEXCOLOR_MAX"
 	.balign 4
-
 
 glabel lbl_801A3A88
 	# ROM: 0x19FB88
@@ -34807,147 +34671,127 @@ glabel lbl_801A3A88
 	.asciz "%d character(s) droped.\n"
 	.balign 4
 
-
 glabel lbl_801A3CA8
 	# ROM: 0x19FDA8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80120F5C  ;# ptr
-	.4byte 0x801239DC  ;# ptr
-	.4byte 0x8011F7A0  ;# ptr
-	.4byte 0x8011FAC4  ;# ptr
-	.4byte 0x80121418  ;# ptr
-	.4byte 0x8011FBE4  ;# ptr
-	.4byte 0x8011FC90  ;# ptr
-	.4byte 0x80121114  ;# ptr
-	.4byte 0x80121214  ;# ptr
-	.4byte 0x8011F4F0  ;# ptr
-	.4byte 0x8011F574  ;# ptr
-	.4byte 0x80121334  ;# ptr
-	.4byte 0x801213A0  ;# ptr
-	.4byte 0x8011F614  ;# ptr
-	.4byte 0x8011F6D4  ;# ptr
-	.4byte 0x8011FD94  ;# ptr
-	.4byte 0x8011FE14  ;# ptr
-	.4byte 0x8011FEBC  ;# ptr
-	.4byte 0x8011FED4  ;# ptr
-	.4byte 0x80120050  ;# ptr
-	.4byte 0x801200C8  ;# ptr
-	.4byte 0x801203B0  ;# ptr
-	.4byte 0x801201A8  ;# ptr
-	.4byte 0x80122CD4  ;# ptr
-	.4byte 0x80122D50  ;# ptr
-	.4byte 0x80122D9C  ;# ptr
-	.4byte 0x80122E04  ;# ptr
-
+	.4byte lbl_80120F5C
+	.4byte lbl_801239DC
+	.4byte lbl_8011F7A0
+	.4byte lbl_8011FAC4
+	.4byte lbl_80121418
+	.4byte lbl_8011FBE4
+	.4byte func_8011FC90
+	.4byte lbl_80121114
+	.4byte lbl_80121214
+	.4byte lbl_8011F4F0
+	.4byte lbl_8011F574
+	.4byte lbl_80121334
+	.4byte lbl_801213A0
+	.4byte lbl_8011F614
+	.4byte lbl_8011F6D4
+	.4byte lbl_8011FD94
+	.4byte lbl_8011FE14
+	.4byte lbl_8011FEBC
+	.4byte func_8011FED4
+	.4byte func_80120050
+	.4byte func_801200C8
+	.4byte lbl_801203B0
+	.4byte lbl_801201A8
+	.4byte lbl_80122CD4
+	.4byte lbl_80122D50
+	.4byte lbl_80122D9C
+	.4byte lbl_80122E04
 
 glabel lbl_801A3D1C
 	# ROM: 0x19FE1C
 	.asciz "NW4HBM:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-
 glabel lbl_801A3D54
 	# ROM: 0x19FE54
 	.asciz "Font.h"
 	.balign 4
-
 
 glabel lbl_801A3D5C
 	# ROM: 0x19FE5C
 	.asciz "NW4HBM:Failed assertion mReadFunc == ReadNextCharUTF16"
 	.balign 4
 
-
 glabel lbl_801A3D94
 	# ROM: 0x19FE94
 	.asciz "CharStrmReader.h"
 	.balign 4
-
 
 glabel lbl_801A3DA8
 	# ROM: 0x19FEA8
 	.asciz "NW4HBM:Pointer Error\nstream(=%p) is not valid pointer."
 	.balign 4
 
-
 glabel lbl_801A3DE0
 	# ROM: 0x19FEE0
 	.asciz "CharStrmReader.h"
 	.balign 4
-
 
 glabel lbl_801A3DF4
 	# ROM: 0x19FEF4
 	.asciz "NW4HBM:Alignment Error(0x%x)\nstream must be aligned to 2 bytes boundary."
 	.balign 4
 
-
 glabel lbl_801A3E40
 	# ROM: 0x19FF40
 	.asciz "CharStrmReader.h"
 	.balign 4
-
 
 glabel lbl_801A3E54
 	# ROM: 0x19FF54
 	.asciz "NW4HBM:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-
 glabel lbl_801A3E8C
 	# ROM: 0x19FF8C
 	.asciz "CharStrmReader.h"
 	.balign 4
-
 
 glabel lbl_801A3EA0
 	# ROM: 0x19FFA0
 	.asciz "NW4HBM:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-
 glabel lbl_801A3ED8
 	# ROM: 0x19FFD8
 	.asciz "CharStrmReader.h"
 	.balign 4
-
 
 glabel lbl_801A3EEC
 	# ROM: 0x19FFEC
 	.asciz "NW4HBM:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
 
-
 glabel lbl_801A3F24
 	# ROM: 0x1A0024
 	.asciz "CharStrmReader.h"
 	.balign 4
-
 
 glabel lbl_801A3F38
 	# ROM: 0x1A0038
 	.asciz "NW4HBM:Failed assertion type < TEXTCOLOR_MAX"
 	.balign 4
 
-
 glabel lbl_801A3F68
 	# ROM: 0x1A0068
 	.asciz "textBox.h"
 	.balign 4
-
 
 glabel lbl_801A3F74
 	# ROM: 0x1A0074
 	.asciz "NW4HBM:Failed assertion type < TEXTCOLOR_MAX"
 	.balign 4
 
-
 glabel lbl_801A3FA4
 	# ROM: 0x1A00A4
 	.asciz "textBox.h"
 	.balign 4
-
 
 glabel lbl_801A3FB0
 	# ROM: 0x1A00B0
@@ -34967,17 +34811,14 @@ glabel lbl_801A3FB0
 	.4byte 0x01010000
 	.4byte 0x00010100
 
-
 glabel lbl_801A3FEC
 	# ROM: 0x1A00EC
 	.asciz "lyt_window.cpp"
 	.balign 4
 
-
 glabel lbl_801A3FFC
 	# ROM: 0x1A00FC
 	.asciz "NW4HBM:Pointer must not be NULL (resBlockSet.pMaterialList)"
-
 
 glabel lbl_801A4038
 	# ROM: 0x1A0138
@@ -34986,46 +34827,44 @@ glabel lbl_801A4038
 	.asciz "NW4HBM:Failed assertion textureFlip < TEXTUREFLIP_MAX"
 	.balign 4
 
-
 glabel lbl_801A40A0
 	# ROM: 0x1A01A0
 	.asciz "NW4HBM:Failed assertion frameIdx < WINDOWFRAME_MAX"
 	.balign 4
 
-
 glabel lbl_801A40D4
 	# ROM: 0x1A01D4
 	.4byte 0
 	.4byte 0
-	.4byte 0x80123C34  ;# ptr
-	.4byte 0x80126334  ;# ptr
-	.4byte 0x8011F7A0  ;# ptr
-	.4byte 0x8011FAC4  ;# ptr
-	.4byte 0x801241CC  ;# ptr
-	.4byte 0x8011FBE4  ;# ptr
-	.4byte 0x8012430C  ;# ptr
-	.4byte 0x80123FD0  ;# ptr
-	.4byte 0x8012405C  ;# ptr
-	.4byte 0x8011F4F0  ;# ptr
-	.4byte 0x8011F574  ;# ptr
-	.4byte 0x801240E8  ;# ptr
-	.4byte 0x80124154  ;# ptr
-	.4byte 0x8011F614  ;# ptr
-	.4byte 0x80123D78  ;# ptr
-	.4byte 0x8011FD94  ;# ptr
-	.4byte 0x8011FE14  ;# ptr
-	.4byte 0x8011FEBC  ;# ptr
-	.4byte 0x8012439C  ;# ptr
-	.4byte 0x80123E98  ;# ptr
-	.4byte 0x80123F3C  ;# ptr
-	.4byte 0x801203B0  ;# ptr
-	.4byte 0x801201A8  ;# ptr
-	.4byte 0x80126324  ;# ptr
-	.4byte 0x801262A8  ;# ptr
-	.4byte 0x8012442C  ;# ptr
-	.4byte 0x80124540  ;# ptr
-	.4byte 0x80124B1C  ;# ptr
-	.4byte 0x801252B8  ;# ptr
+	.4byte lbl_80123C34
+	.4byte lbl_80126334
+	.4byte lbl_8011F7A0
+	.4byte lbl_8011FAC4
+	.4byte lbl_801241CC
+	.4byte lbl_8011FBE4
+	.4byte lbl_8012430C
+	.4byte lbl_80123FD0
+	.4byte lbl_8012405C
+	.4byte lbl_8011F4F0
+	.4byte lbl_8011F574
+	.4byte lbl_801240E8
+	.4byte lbl_80124154
+	.4byte lbl_8011F614
+	.4byte lbl_80123D78
+	.4byte lbl_8011FD94
+	.4byte lbl_8011FE14
+	.4byte lbl_8011FEBC
+	.4byte lbl_8012439C
+	.4byte lbl_80123E98
+	.4byte lbl_80123F3C
+	.4byte lbl_801203B0
+	.4byte lbl_801201A8
+	.4byte lbl_80126324
+	.4byte lbl_801262A8
+	.4byte lbl_8012442C
+	.4byte lbl_80124540
+	.4byte lbl_80124B1C
+	.4byte lbl_801252B8
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -35037,7 +34876,6 @@ glabel lbl_801A40D4
 	.balign 4
 	.asciz "common.h"
 	.balign 4
-
 
 glabel lbl_801A4210
 	# ROM: 0x1A0310
@@ -36070,7 +35908,6 @@ glabel lbl_801A4210
 	.4byte 0x3CC90A35
 	.4byte 0xB99DCF89
 
-
 glabel lbl_801A5220
 	# ROM: 0x1A1320
 	.4byte 0
@@ -36140,41 +35977,34 @@ glabel lbl_801A5220
 	.4byte 0x42000000
 	.4byte 0x3F207467
 
-
 glabel lbl_801A5328
 	# ROM: 0x1A1428
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
-
 
 glabel lbl_801A5354
 	# ROM: 0x1A1454
 	.asciz "Util.h"
 	.balign 8
 
-
 glabel lbl_801A5360
 	# ROM: 0x1A1460
 	.asciz "snd_AxManager.cpp"
 	.balign 4
-
 
 glabel lbl_801A5374
 	# ROM: 0x1A1474
 	.asciz "not initialized AI \n"
 	.balign 4
 
-
 glabel lbl_801A538C
 	# ROM: 0x1A148C
 	.asciz "Zero buffer is not created."
-
 
 glabel lbl_801A53A8
 	# ROM: 0x1A14A8
 	.asciz "Voice Acquisition failed!\n"
 	.balign 8
-
 
 glabel lbl_801A53C8
 	# ROM: 0x1A14C8
@@ -36186,74 +36016,61 @@ glabel lbl_801A53C8
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5450
 	# ROM: 0x1A1550
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A5474
 	# ROM: 0x1A1574
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5480
 	# ROM: 0x1A1580
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A54A4
 	# ROM: 0x1A15A4
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A54B0
 	# ROM: 0x1A15B0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A54D4
 	# ROM: 0x1A15D4
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A54E0
 	# ROM: 0x1A15E0
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801A5504
 	# ROM: 0x1A1604
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5510
 	# ROM: 0x1A1610
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A5534
 	# ROM: 0x1A1634
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5540
 	# ROM: 0x1A1640
 	.asciz "bus is out of bounds(%d)\n%d <= bus < %d not satisfied."
 	.balign 4
 
-
 glabel lbl_801A5578
 	# ROM: 0x1A1678
 	.asciz "AxManager.h"
 	.balign 8
-
 
 glabel lbl_801A5588
 	# ROM: 0x1A1688
@@ -36267,19 +36084,16 @@ glabel lbl_801A5588
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (waveParam.channelParam[channelIndex].dataAddr)"
 
-
 glabel lbl_801A56D0
 	# ROM: 0x1A17D0
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801A5718
 	# ROM: 0x1A1818
 	.asciz "bus is out of bounds(%d)\n%d <= bus < %d not satisfied."
 	.balign 4
 	.asciz "voiceOutIndex is out of bounds(%d)\n%d <= voiceOutIndex <= %d not satisfied."
-
 
 glabel lbl_801A579C
 	# ROM: 0x1A189C
@@ -36288,34 +36102,30 @@ glabel lbl_801A579C
 	.asciz "NW4HBM:Failed assertion channelIndex < CHANNEL_MAX"
 	.balign 8
 
-
 glabel lbl_801A5818
 	# ROM: 0x1A1918
 	.asciz "Invalid format\n"
 	.asciz "NW4HBM:Pointer must not be NULL (param)"
 
-
 glabel lbl_801A5850
 	# ROM: 0x1A1950
 	.asciz "NW4HBM:Pointer must not be NULL (voice)"
-
 
 glabel lbl_801A5878
 	# ROM: 0x1A1978
 	.4byte 0
 	.4byte 0
-	.4byte 0x80128470  ;# ptr
-	.4byte 0x8012C064  ;# ptr
-	.4byte 0x8012BEF0  ;# ptr
+	.4byte lbl_80128470
+	.4byte lbl_8012C064
+	.4byte lbl_8012BEF0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80128430  ;# ptr
+	.4byte lbl_80128430
 	.4byte 0
 	.4byte 0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
-
 
 glabel lbl_801A58D0
 	# ROM: 0x1A19D0
@@ -36334,60 +36144,50 @@ glabel lbl_801A58D0
 	.asciz "NW4HBM:Pointer must not be NULL (instInfo)"
 	.balign 4
 
-
 glabel lbl_801A5A90
 	# ROM: 0x1A1B90
 	.asciz "NW4HBM:Pointer must not be NULL (mHeader)"
 	.balign 4
-
 
 glabel lbl_801A5ABC
 	# ROM: 0x1A1BBC
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A5AE8
 	# ROM: 0x1A1BE8
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A5AF0
 	# ROM: 0x1A1BF0
 	.asciz "NW4HBM:Failed assertion ref.dataType == 2"
 	.balign 4
 
-
 glabel lbl_801A5B1C
 	# ROM: 0x1A1C1C
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A5B24
 	# ROM: 0x1A1C24
 	.asciz "NW4HBM:Failed assertion ref.dataType == 3"
 	.balign 4
 
-
 glabel lbl_801A5B50
 	# ROM: 0x1A1C50
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A5B58
 	# ROM: 0x1A1C58
 	.asciz "NW4HBM:Failed assertion ref.dataType == 1"
 	.balign 4
 
-
 glabel lbl_801A5B84
 	# ROM: 0x1A1C84
 	.asciz "Util.h"
 	.balign 8
-
 
 glabel lbl_801A5B90
 	# ROM: 0x1A1C90
@@ -36396,65 +36196,58 @@ glabel lbl_801A5B90
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
 
-
 glabel lbl_801A5BEC
 	# ROM: 0x1A1CEC
 	.asciz "priority is out of bounds(%d)\n%d <= priority <= %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801A5C30
 	# ROM: 0x1A1D30
 	.asciz "NW4HBM:Failed assertion volume >= 0.0f"
 	.balign 4
 
-
 glabel lbl_801A5C58
 	# ROM: 0x1A1D58
 	.asciz "NW4HBM:Failed assertion pitch >= 0.0f"
 	.balign 4
 
-
 glabel lbl_801A5C80
 	# ROM: 0x1A1D80
 	.4byte 0
 	.4byte 0
-	.4byte 0x8012DC80  ;# ptr
-	.4byte 0x8012DC40  ;# ptr
-	.4byte 0x8012D0EC  ;# ptr
-	.4byte 0x8012CAC8  ;# ptr
-	.4byte 0x8012CAE0  ;# ptr
-	.4byte 0x8012CCBC  ;# ptr
-	.4byte 0x8012CF70  ;# ptr
-	.4byte 0x8012CF88  ;# ptr
-	.4byte 0x8012D780  ;# ptr
-	.4byte 0x8012D09C  ;# ptr
-	.4byte 0x8012D0D8  ;# ptr
-	.4byte 0x8012D9A4  ;# ptr
-	.4byte 0x8012DA14  ;# ptr
-	.4byte 0x8012DB04  ;# ptr
-	.4byte 0x8012DB74  ;# ptr
-	.4byte 0x8012DB7C  ;# ptr
-	.4byte 0x8012DB84  ;# ptr
-	.4byte 0x8012D904  ;# ptr
+	.4byte lbl_8012DC80
+	.4byte lbl_8012DC40
+	.4byte lbl_8012D0EC
+	.4byte lbl_8012CAC8
+	.4byte lbl_8012CAE0
+	.4byte lbl_8012CCBC
+	.4byte lbl_8012CF70
+	.4byte lbl_8012CF88
+	.4byte func_8012D780
+	.4byte lbl_8012D09C
+	.4byte lbl_8012D0D8
+	.4byte lbl_8012D9A4
+	.4byte lbl_8012DA14
+	.4byte lbl_8012DB04
+	.4byte lbl_8012DB74
+	.4byte lbl_8012DB7C
+	.4byte lbl_8012DB84
+	.4byte func_8012D904
 	.4byte 0
 	.4byte 0
-	.4byte 0x8012C99C  ;# ptr
+	.4byte func_8012C99C
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_801A5CE8
 	# ROM: 0x1A1DE8
 	.asciz "snd_Channel.cpp"
 
-
 glabel lbl_801A5CF8
 	# ROM: 0x1A1DF8
 	.asciz "NW4HBM:Failed assertion mSweepLength != 0"
 	.balign 4
-
 
 glabel lbl_801A5D24
 	# ROM: 0x1A1E24
@@ -36465,81 +36258,67 @@ glabel lbl_801A5D24
 	.asciz "Channel Allocation failed!"
 	.balign 4
 
-
 glabel lbl_801A5DAC
 	# ROM: 0x1A1EAC
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A5DD0
 	# ROM: 0x1A1ED0
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5DDC
 	# ROM: 0x1A1EDC
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A5E00
 	# ROM: 0x1A1F00
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5E0C
 	# ROM: 0x1A1F0C
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801A5E30
 	# ROM: 0x1A1F30
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5E3C
 	# ROM: 0x1A1F3C
 	.asciz "NW4HBM:Pointer must not be NULL (obj)"
 	.balign 4
-
 
 glabel lbl_801A5E64
 	# ROM: 0x1A1F64
 	.asciz "InstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A5E78
 	# ROM: 0x1A1F78
 	.asciz "NW4HBM:Pointer must not be NULL (obj)"
 	.balign 4
-
 
 glabel lbl_801A5EA0
 	# ROM: 0x1A1FA0
 	.asciz "InstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A5EB4
 	# ROM: 0x1A1FB4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A5ED8
 	# ROM: 0x1A1FD8
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5EE4
 	# ROM: 0x1A1FE4
 	.asciz "NW4HBM:Pointer must not be NULL (obj)"
 	.balign 4
-
 
 glabel lbl_801A5F0C
 	# ROM: 0x1A200C
@@ -36549,28 +36328,23 @@ glabel lbl_801A5F0C
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5F50
 	# ROM: 0x1A2050
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A5F74
 	# ROM: 0x1A2074
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A5F80
 	# ROM: 0x1A2080
 	.asciz "snd_EnvGenerator.cpp"
 	.balign 4
 
-
 glabel lbl_801A5F98
 	# ROM: 0x1A2098
 	.asciz "scale is out of bounds(%d)\n%d <= scale <= %d not satisfied."
-
 
 glabel lbl_801A5FD4
 	# ROM: 0x1A20D4
@@ -36578,11 +36352,9 @@ glabel lbl_801A5FD4
 	.balign 4
 	.asciz "decay is out of bounds(%d)\n%d <= decay <= %d not satisfied."
 
-
 glabel lbl_801A6050
 	# ROM: 0x1A2150
 	.asciz "release is out of bounds(%d)\n%d <= release <= %d not satisfied."
-
 
 glabel lbl_801A6090
 	# ROM: 0x1A2190
@@ -36591,11 +36363,9 @@ glabel lbl_801A6090
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A6100
 	# ROM: 0x1A2200
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A6124
 	# ROM: 0x1A2224
@@ -36605,18 +36375,15 @@ glabel lbl_801A6124
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A6160
 	# ROM: 0x1A2260
 	.asciz "snd_FrameHeap.cpp"
 	.balign 4
 
-
 glabel lbl_801A6174
 	# ROM: 0x1A2274
 	.asciz "NW4HBM:Pointer must not be NULL (startAddress)"
 	.balign 4
-
 
 glabel lbl_801A61A4
 	# ROM: 0x1A22A4
@@ -36640,93 +36407,77 @@ glabel lbl_801A61A4
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A6368
 	# ROM: 0x1A2468
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A638C
 	# ROM: 0x1A248C
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A6398
 	# ROM: 0x1A2498
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A63BC
 	# ROM: 0x1A24BC
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A63C8
 	# ROM: 0x1A24C8
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A63EC
 	# ROM: 0x1A24EC
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A63F8
 	# ROM: 0x1A24F8
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801A641C
 	# ROM: 0x1A251C
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A6428
 	# ROM: 0x1A2528
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A644C
 	# ROM: 0x1A254C
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A6458
 	# ROM: 0x1A2558
 	.asciz "snd_InstancePool.cpp"
 	.balign 4
-
 
 glabel lbl_801A6470
 	# ROM: 0x1A2570
 	.asciz "NW4HBM:Pointer must not be NULL (buffer)"
 	.balign 8
 
-
 glabel lbl_801A64A0
 	# ROM: 0x1A25A0
 	.asciz "snd_Lfo.cpp"
-
 
 glabel lbl_801A64AC
 	# ROM: 0x1A25AC
 	.asciz "index is out of bounds(%d)\n%d <= index < %d not satisfied."
 	.balign 4
 
-
 glabel lbl_801A64E8
 	# ROM: 0x1A25E8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80130D2C  ;# ptr
+	.4byte lbl_80130D2C
 	.4byte 0
-
 
 glabel lbl_801A64F8
 	# ROM: 0x1A25F8
@@ -36761,180 +36512,172 @@ glabel lbl_801A64F8
 	.asciz "NW4HBM:Failed assertion cmd == MML_EX_COMMAND"
 	.balign 4
 
-
 glabel lbl_801A67D4
 	# ROM: 0x1A28D4
-	.4byte 0x80131494  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131794  ;# ptr
-	.4byte 0x801317FC  ;# ptr
-	.4byte 0x8013180C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131508  ;# ptr
-	.4byte 0x801314D8  ;# ptr
-	.4byte 0x801314E8  ;# ptr
-	.4byte 0x801314F0  ;# ptr
-	.4byte 0x801314F8  ;# ptr
-	.4byte 0x80131500  ;# ptr
-	.4byte 0x8013154C  ;# ptr
-	.4byte 0x80131554  ;# ptr
-	.4byte 0x80131634  ;# ptr
-	.4byte 0x8013165C  ;# ptr
-	.4byte 0x80131570  ;# ptr
-	.4byte 0x8013159C  ;# ptr
-	.4byte 0x801315C8  ;# ptr
-	.4byte 0x801315D0  ;# ptr
-	.4byte 0x80131674  ;# ptr
-	.4byte 0x80131568  ;# ptr
-	.4byte 0x80131614  ;# ptr
-	.4byte 0x8013161C  ;# ptr
-	.4byte 0x80131624  ;# ptr
-	.4byte 0x8013162C  ;# ptr
-	.4byte 0x8013189C  ;# ptr
-	.4byte 0x801314E0  ;# ptr
-	.4byte 0x801316B0  ;# ptr
-	.4byte 0x80131538  ;# ptr
-	.4byte 0x80131688  ;# ptr
-	.4byte 0x80131690  ;# ptr
-	.4byte 0x80131698  ;# ptr
-	.4byte 0x801316A8  ;# ptr
-	.4byte 0x80131520  ;# ptr
-	.4byte 0x801314C8  ;# ptr
-	.4byte 0x801316A0  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x801315D8  ;# ptr
-	.4byte 0x8013148C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x801315E8  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x80131C8C  ;# ptr
-	.4byte 0x801318EC  ;# ptr
-	.4byte 0x8013185C  ;# ptr
+	.4byte lbl_80131494
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131794
+	.4byte lbl_801317FC
+	.4byte lbl_8013180C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131508
+	.4byte lbl_801314D8
+	.4byte lbl_801314E8
+	.4byte lbl_801314F0
+	.4byte lbl_801314F8
+	.4byte lbl_80131500
+	.4byte lbl_8013154C
+	.4byte lbl_80131554
+	.4byte lbl_80131634
+	.4byte lbl_8013165C
+	.4byte lbl_80131570
+	.4byte lbl_8013159C
+	.4byte lbl_801315C8
+	.4byte lbl_801315D0
+	.4byte lbl_80131674
+	.4byte lbl_80131568
+	.4byte lbl_80131614
+	.4byte lbl_8013161C
+	.4byte lbl_80131624
+	.4byte lbl_8013162C
+	.4byte lbl_8013189C
+	.4byte lbl_801314E0
+	.4byte lbl_801316B0
+	.4byte lbl_80131538
+	.4byte lbl_80131688
+	.4byte lbl_80131690
+	.4byte lbl_80131698
+	.4byte lbl_801316A8
+	.4byte lbl_80131520
+	.4byte lbl_801314C8
+	.4byte lbl_801316A0
+	.4byte lbl_80131C8C
+	.4byte lbl_801315D8
+	.4byte lbl_8013148C
+	.4byte lbl_80131C8C
+	.4byte lbl_801315E8
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_80131C8C
+	.4byte lbl_801318EC
+	.4byte lbl_8013185C
 	.asciz "NW4HBM:Failed assertion i < 4"
 	.balign 4
-
 
 glabel lbl_801A69E8
 	# ROM: 0x1A2AE8
 	.4byte 0
 	.4byte 0
-	.4byte 0x801313EC  ;# ptr
-	.4byte 0x80131CA4  ;# ptr
-
+	.4byte lbl_801313EC
+	.4byte lbl_80131CA4
 
 glabel lbl_801A69F8
 	# ROM: 0x1A2AF8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80131F38  ;# ptr
-	.4byte 0x80131F24  ;# ptr
-
+	.4byte lbl_80131F38
+	.4byte lbl_80131F24
 
 glabel lbl_801A6A08
 	# ROM: 0x1A2B08
 	.asciz "snd_MmlSeqTrackAllocator.cpp"
 	.balign 4
 
-
 glabel lbl_801A6A28
 	# ROM: 0x1A2B28
 	.asciz "NW4HBM:Pointer must not be NULL (track)"
-
 
 glabel lbl_801A6A50
 	# ROM: 0x1A2B50
 	.4byte 0
 	.4byte 0
-	.4byte 0x80132080  ;# ptr
-	.4byte 0x80131F78  ;# ptr
-	.4byte 0x80131FE0  ;# ptr
+	.4byte lbl_80132080
+	.4byte lbl_80131F78
+	.4byte lbl_80131FE0
 	.4byte 0
-
 
 glabel lbl_801A6A68
 	# ROM: 0x1A2B68
 	.asciz "snd_NandSoundArchive.cpp"
 	.balign 4
-
 
 glabel lbl_801A6A84
 	# ROM: 0x1A2B84
@@ -36958,68 +36701,61 @@ glabel lbl_801A6A84
 	.asciz "NandSoundArchive::LoadLabelStringData cannot read file.\n"
 	.balign 4
 
-
 glabel lbl_801A6CA0
 	# ROM: 0x1A2DA0
 	.asciz "NW4HBM:Pointer must not be NULL (buf)"
 	.balign 4
 
-
 glabel lbl_801A6CC8
 	# ROM: 0x1A2DC8
 	.asciz "Unsupported Seek origin"
-
 
 glabel lbl_801A6CE0
 	# ROM: 0x1A2DE0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801329D4  ;# ptr
-	.4byte 0x801325B4  ;# ptr
-	.4byte 0x8014D2D8  ;# ptr
-	.4byte 0x80132840  ;# ptr
-	.4byte 0x8014D430  ;# ptr
-	.4byte 0x8014D59C  ;# ptr
-	.4byte 0x8014D678  ;# ptr
-	.4byte 0x801329CC  ;# ptr
-	.4byte 0x801329C4  ;# ptr
-	.4byte 0x801329B4  ;# ptr
-	.4byte 0x801329AC  ;# ptr
-	.4byte 0x8013299C  ;# ptr
-	.4byte 0x80132994  ;# ptr
-	.4byte 0x8013298C  ;# ptr
-	.4byte 0x801329E0  ;# ptr
-	.4byte 0x801328F0  ;# ptr
-	.4byte 0x8014B8BC  ;# ptr
-	.4byte 0x8014B90C  ;# ptr
-	.4byte 0x801329BC  ;# ptr
-	.4byte 0x801329A4  ;# ptr
-	.4byte 0x801329E8  ;# ptr
+	.4byte lbl_801329D4
+	.4byte lbl_801325B4
+	.4byte lbl_8014D2D8
+	.4byte lbl_80132840
+	.4byte lbl_8014D430
+	.4byte lbl_8014D59C
+	.4byte lbl_8014D678
+	.4byte lbl_801329CC
+	.4byte lbl_801329C4
+	.4byte lbl_801329B4
+	.4byte lbl_801329AC
+	.4byte lbl_8013299C
+	.4byte lbl_80132994
+	.4byte lbl_8013298C
+	.4byte lbl_801329E0
+	.4byte lbl_801328F0
+	.4byte lbl_8014B8BC
+	.4byte lbl_8014B90C
+	.4byte lbl_801329BC
+	.4byte lbl_801329A4
+	.4byte lbl_801329E8
 	.4byte 0
-
 
 glabel lbl_801A6D40
 	# ROM: 0x1A2E40
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013210C  ;# ptr
-	.4byte 0x80132A00  ;# ptr
-	.4byte 0x801329F8  ;# ptr
-	.4byte 0x8013260C  ;# ptr
-	.4byte 0x80132400  ;# ptr
-	.4byte 0x801324C8  ;# ptr
-
+	.4byte lbl_8013210C
+	.4byte lbl_80132A00
+	.4byte lbl_801329F8
+	.4byte lbl_8013260C
+	.4byte lbl_80132400
+	.4byte lbl_801324C8
 
 glabel lbl_801A6D60
 	# ROM: 0x1A2E60
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 
-
 glabel lbl_801A6D84
 	# ROM: 0x1A2E84
 	.asciz "LinkList.h"
 	.balign 4
-
 
 glabel lbl_801A6D90
 	# ROM: 0x1A2E90
@@ -37032,12 +36768,10 @@ glabel lbl_801A6D90
 	.asciz "WPADSendStreamData failed. %d"
 	.balign 4
 
-
 glabel lbl_801A6E10
 	# ROM: 0x1A2F10
 	.asciz "Playing time of remote speaker(%d) is over 8 minutes."
 	.balign 4
-
 
 glabel lbl_801A6E48
 	# ROM: 0x1A2F48
@@ -37049,7 +36783,6 @@ glabel lbl_801A6E48
 	.balign 4
 	.asciz "wrong remote sample size"
 	.balign 4
-
 
 glabel lbl_801A6F10
 	# ROM: 0x1A3010
@@ -37063,12 +36796,10 @@ glabel lbl_801A6F10
 	.asciz "NW4HBM:Failed assertion mDataBlock->blockHeader.kind == SeqFile::SIGNATURE_DATA_BLOCK"
 	.balign 4
 
-
 glabel lbl_801A7048
 	# ROM: 0x1A3148
 	.asciz "NW4HBM:Pointer must not be NULL (mHeader)"
 	.balign 8
-
 
 glabel lbl_801A7078
 	# ROM: 0x1A3178
@@ -37079,7 +36810,6 @@ glabel lbl_801A7078
 	.asciz "Not enough SeqTrack."
 	.balign 4
 
-
 glabel lbl_801A70E4
 	# ROM: 0x1A31E4
 	.asciz "NW4HBM:Pointer must not be NULL (seqTrack)"
@@ -37087,30 +36817,25 @@ glabel lbl_801A70E4
 	.asciz "NW4HBM:Failed assertion tempoRatio >= 0.0f"
 	.balign 4
 
-
 glabel lbl_801A713C
 	# ROM: 0x1A323C
 	.asciz "NW4HBM:Failed assertion volume >= 0.0f"
 	.balign 4
-
 
 glabel lbl_801A7164
 	# ROM: 0x1A3264
 	.asciz "NW4HBM:Failed assertion pitch >= 0.0f"
 	.balign 4
 
-
 glabel lbl_801A718C
 	# ROM: 0x1A328C
 	.asciz "bus is out of bounds(%d)\n%d <= bus < %d not satisfied."
 	.balign 4
 
-
 glabel lbl_801A71C4
 	# ROM: 0x1A32C4
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801A720C
 	# ROM: 0x1A330C
@@ -37119,47 +36844,46 @@ glabel lbl_801A720C
 	.asciz "varNo is out of bounds(%d)\n%d <= varNo < %d not satisfied."
 	.balign 8
 	.4byte 0xFFFFFFFF
-	.4byte 0x80136168  ;# ptr
+	.4byte func_80136168
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x8013628C  ;# ptr
+	.4byte lbl_8013628C
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x801363B0  ;# ptr
+	.4byte lbl_801363B0
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x801363F0  ;# ptr
+	.4byte lbl_801363F0
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80136468  ;# ptr
+	.4byte lbl_80136468
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x801364A8  ;# ptr
+	.4byte lbl_801364A8
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80136528  ;# ptr
+	.4byte lbl_80136528
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x801364E8  ;# ptr
+	.4byte lbl_801364E8
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80136568  ;# ptr
+	.4byte lbl_80136568
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x801365A8  ;# ptr
+	.4byte lbl_801365A8
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x801365E8  ;# ptr
+	.4byte lbl_801365E8
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80136628  ;# ptr
+	.4byte lbl_80136628
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x801366C4  ;# ptr
+	.4byte lbl_801366C4
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80136760  ;# ptr
-
+	.4byte lbl_80136760
 
 glabel lbl_801A732C
 	# ROM: 0x1A342C
@@ -37168,70 +36892,68 @@ glabel lbl_801A732C
 	.asciz "NW4HBM:Failed assertion mStartedFlag"
 	.balign 4
 
-
 glabel lbl_801A73B4
 	# ROM: 0x1A34B4
 	.asciz "NW4HBM:Failed assertion sPlayerList.IsEmpty()"
 	.balign 8
 
-
 glabel lbl_801A73E8
 	# ROM: 0x1A34E8
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013342C  ;# ptr
-	.4byte 0x80133A30  ;# ptr
-	.4byte 0x80133AD8  ;# ptr
-	.4byte 0x80133C34  ;# ptr
-	.4byte 0x80130D08  ;# ptr
-	.4byte 0x80130CF4  ;# ptr
-	.4byte 0x80130CE0  ;# ptr
-	.4byte 0x80130CCC  ;# ptr
-	.4byte 0x80133CC4  ;# ptr
-	.4byte 0x80133D3C  ;# ptr
-	.4byte 0x80133DB4  ;# ptr
-	.4byte 0x80133DF4  ;# ptr
-	.4byte 0x80133E34  ;# ptr
-	.4byte 0x80133E74  ;# ptr
-	.4byte 0x80133EB4  ;# ptr
-	.4byte 0x80130CC4  ;# ptr
-	.4byte 0x80130CBC  ;# ptr
-	.4byte 0x80130CB4  ;# ptr
-	.4byte 0x80130CAC  ;# ptr
-	.4byte 0x80130CA4  ;# ptr
-	.4byte 0x80130C9C  ;# ptr
-	.4byte 0x80130C94  ;# ptr
-	.4byte 0x801340A8  ;# ptr
-	.4byte 0x80133EF4  ;# ptr
-	.4byte 0x80133F3C  ;# ptr
-	.4byte 0x80133F84  ;# ptr
-	.4byte 0x801340F0  ;# ptr
-	.4byte 0x80134214  ;# ptr
-	.4byte 0x80134338  ;# ptr
-	.4byte 0x801340E8  ;# ptr
-	.4byte 0x80133F34  ;# ptr
-	.4byte 0x80133F7C  ;# ptr
-	.4byte 0x80134020  ;# ptr
-	.4byte 0x8013418C  ;# ptr
-	.4byte 0x801342B0  ;# ptr
-	.4byte 0x801343D4  ;# ptr
+	.4byte func_8013342C
+	.4byte lbl_80133A30
+	.4byte lbl_80133AD8
+	.4byte lbl_80133C34
+	.4byte lbl_80130D08
+	.4byte lbl_80130CF4
+	.4byte lbl_80130CE0
+	.4byte lbl_80130CCC
+	.4byte lbl_80133CC4
+	.4byte lbl_80133D3C
+	.4byte lbl_80133DB4
+	.4byte lbl_80133DF4
+	.4byte lbl_80133E34
+	.4byte lbl_80133E74
+	.4byte lbl_80133EB4
+	.4byte lbl_80130CC4
+	.4byte lbl_80130CBC
+	.4byte lbl_80130CB4
+	.4byte lbl_80130CAC
+	.4byte lbl_80130CA4
+	.4byte lbl_80130C9C
+	.4byte lbl_80130C94
+	.4byte lbl_801340A8
+	.4byte lbl_80133EF4
+	.4byte lbl_80133F3C
+	.4byte lbl_80133F84
+	.4byte lbl_801340F0
+	.4byte lbl_80134214
+	.4byte lbl_80134338
+	.4byte lbl_801340E8
+	.4byte lbl_80133F34
+	.4byte lbl_80133F7C
+	.4byte lbl_80134020
+	.4byte lbl_8013418C
+	.4byte lbl_801342B0
+	.4byte lbl_801343D4
 	.4byte 0
 	.4byte 0
-	.4byte 0x80134D28  ;# ptr
-	.4byte 0x80130D24  ;# ptr
-	.4byte 0x80130D1C  ;# ptr
-	.4byte 0x801344E4  ;# ptr
-	.4byte 0x80130C90  ;# ptr
-	.4byte 0x80134C94  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
+	.4byte lbl_80134D28
+	.4byte lbl_80130D24
+	.4byte lbl_80130D1C
+	.4byte lbl_801344E4
+	.4byte lbl_80130C90
+	.4byte lbl_80134C94
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801333EC  ;# ptr
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte lbl_801333EC
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -37271,23 +36993,19 @@ glabel lbl_801A73E8
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A7580
 	# ROM: 0x1A3680
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A75A4
 	# ROM: 0x1A36A4
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A75B0
 	# ROM: 0x1A36B0
 	.asciz "snd_SeqSound.cpp"
 	.balign 4
-
 
 glabel lbl_801A75C4
 	# ROM: 0x1A36C4
@@ -37296,7 +37014,6 @@ glabel lbl_801A75C4
 	.asciz "NW4HBM:Pointer must not be NULL (GetSoundPlayer())"
 	.balign 4
 
-
 glabel lbl_801A7624
 	# ROM: 0x1A3724
 	.asciz "NW4HBM:Pointer must not be NULL (seqBase)"
@@ -37304,7 +37021,6 @@ glabel lbl_801A7624
 	.asciz "NW4HBM:Pointer must not be NULL (sound)"
 	.asciz "NW4HBM:Failed assertion tempoRatio >= 0.0f"
 	.balign 4
-
 
 glabel lbl_801A76A4
 	# ROM: 0x1A37A4
@@ -37321,74 +37037,65 @@ glabel lbl_801A76A4
 	.asciz "trackNo is out of bounds(%d)\n%d <= trackNo < %d not satisfied."
 	.balign 4
 
-
 glabel lbl_801A77DC
 	# ROM: 0x1A38DC
 	.4byte 0
 	.4byte 0
-	.4byte 0x80135394  ;# ptr
-	.4byte 0x80135154  ;# ptr
-	.4byte 0x8012D0EC  ;# ptr
-	.4byte 0x8012CAC8  ;# ptr
-	.4byte 0x8012CAE0  ;# ptr
-	.4byte 0x8012CCBC  ;# ptr
-	.4byte 0x8012CF70  ;# ptr
-	.4byte 0x8012CF88  ;# ptr
-	.4byte 0x80135048  ;# ptr
-	.4byte 0x8012D09C  ;# ptr
-	.4byte 0x8012D0D8  ;# ptr
-	.4byte 0x8012D9A4  ;# ptr
-	.4byte 0x8012DA14  ;# ptr
-	.4byte 0x8012DB04  ;# ptr
-	.4byte 0x8012DB74  ;# ptr
-	.4byte 0x8012DB7C  ;# ptr
-	.4byte 0x8012DB84  ;# ptr
-	.4byte 0x80135238  ;# ptr
-	.4byte 0x80135368  ;# ptr
-	.4byte 0x8013537C  ;# ptr
-	.4byte 0x80134D94  ;# ptr
-	.4byte 0x80135384  ;# ptr
-	.4byte 0x8013538C  ;# ptr
-
+	.4byte lbl_80135394
+	.4byte lbl_80135154
+	.4byte lbl_8012D0EC
+	.4byte lbl_8012CAC8
+	.4byte lbl_8012CAE0
+	.4byte lbl_8012CCBC
+	.4byte lbl_8012CF70
+	.4byte lbl_8012CF88
+	.4byte lbl_80135048
+	.4byte lbl_8012D09C
+	.4byte lbl_8012D0D8
+	.4byte lbl_8012D9A4
+	.4byte lbl_8012DA14
+	.4byte lbl_8012DB04
+	.4byte lbl_8012DB74
+	.4byte lbl_8012DB7C
+	.4byte lbl_8012DB84
+	.4byte lbl_80135238
+	.4byte lbl_80135368
+	.4byte lbl_8013537C
+	.4byte lbl_80134D94
+	.4byte lbl_80135384
+	.4byte lbl_8013538C
 
 glabel lbl_801A7840
 	# ROM: 0x1A3940
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A7864
 	# ROM: 0x1A3964
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A7870
 	# ROM: 0x1A3970
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A7894
 	# ROM: 0x1A3994
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A78A0
 	# ROM: 0x1A39A0
 	.asciz "NW4HBM:Pointer must not be NULL (sound)"
-
 
 glabel lbl_801A78C8
 	# ROM: 0x1A39C8
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A78E0
 	# ROM: 0x1A39E0
 	.asciz "snd_SeqTrack.cpp"
 	.balign 4
-
 
 glabel lbl_801A78F4
 	# ROM: 0x1A39F4
@@ -37402,18 +37109,15 @@ glabel lbl_801A78F4
 	.asciz "NW4HBM:Failed assertion false"
 	.balign 4
 
-
 glabel lbl_801A7A24
 	# ROM: 0x1A3B24
 	.asciz "NW4HBM:Failed assertion pitch >= 0.0f"
 	.balign 4
 
-
 glabel lbl_801A7A4C
 	# ROM: 0x1A3B4C
 	.asciz "bus is out of bounds(%d)\n%d <= bus < %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801A7A84
 	# ROM: 0x1A3B84
@@ -37421,7 +37125,6 @@ glabel lbl_801A7A84
 	.balign 4
 	.asciz "varNo is out of bounds(%d)\n%d <= varNo < %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801A7B08
 	# ROM: 0x1A3C08
@@ -37448,41 +37151,35 @@ glabel lbl_801A7B08
 	.asciz "Channel.h"
 	.balign 8
 
-
 glabel lbl_801A7D30
 	# ROM: 0x1A3E30
 	.asciz "snd_SoundArchive.cpp"
 	.balign 4
-
 
 glabel lbl_801A7D48
 	# ROM: 0x1A3E48
 	.asciz "NW4HBM:Pointer must not be NULL (fileReader)"
 	.balign 4
 
-
 glabel lbl_801A7D78
 	# ROM: 0x1A3E78
 	.asciz "Too long file path \"%s/%s\""
 	.balign 8
 
-
 glabel lbl_801A7D98
 	# ROM: 0x1A3E98
 	.asciz "NW4HBM:Failed assertion nullPos < FILE_PATH_MAX"
-
 
 glabel lbl_801A7DC8
 	# ROM: 0x1A3EC8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80136C68  ;# ptr
+	.4byte func_80136C68
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_801A7DE8
 	# ROM: 0x1A3EE8
@@ -37501,198 +37198,165 @@ glabel lbl_801A7DE8
 	.asciz "NW4HBM:Failed assertion infoBlock->blockHeader.kind == SoundArchiveFile::SIGNATURE_INFO_BLOCK"
 	.balign 4
 
-
 glabel lbl_801A800C
 	# ROM: 0x1A410C
 	.asciz "NW4HBM:Failed assertion id < mStringTable->offsetTable.count"
 	.balign 4
-
 
 glabel lbl_801A804C
 	# ROM: 0x1A414C
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A8078
 	# ROM: 0x1A4178
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A8080
 	# ROM: 0x1A4180
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A80AC
 	# ROM: 0x1A41AC
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A80B4
 	# ROM: 0x1A41B4
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A80E0
 	# ROM: 0x1A41E0
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A80E8
 	# ROM: 0x1A41E8
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A8114
 	# ROM: 0x1A4214
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A811C
 	# ROM: 0x1A421C
 	.asciz "NW4HBM:Failed assertion ref.dataType == 3"
 	.balign 4
 
-
 glabel lbl_801A8148
 	# ROM: 0x1A4248
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A8150
 	# ROM: 0x1A4250
 	.asciz "NW4HBM:Failed assertion ref.dataType == 2"
 	.balign 4
 
-
 glabel lbl_801A817C
 	# ROM: 0x1A427C
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A8184
 	# ROM: 0x1A4284
 	.asciz "NW4HBM:Failed assertion ref.dataType == 1"
 	.balign 4
 
-
 glabel lbl_801A81B0
 	# ROM: 0x1A42B0
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A81B8
 	# ROM: 0x1A42B8
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A81E4
 	# ROM: 0x1A42E4
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A81EC
 	# ROM: 0x1A42EC
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A8218
 	# ROM: 0x1A4318
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A8220
 	# ROM: 0x1A4320
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A824C
 	# ROM: 0x1A434C
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A8254
 	# ROM: 0x1A4354
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A8280
 	# ROM: 0x1A4380
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A8288
 	# ROM: 0x1A4388
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A82B4
 	# ROM: 0x1A43B4
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A82BC
 	# ROM: 0x1A43BC
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A82E8
 	# ROM: 0x1A43E8
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A82F0
 	# ROM: 0x1A43F0
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A831C
 	# ROM: 0x1A441C
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A8324
 	# ROM: 0x1A4424
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A8350
 	# ROM: 0x1A4450
 	.asciz "Util.h"
 	.balign 4
 
-
 glabel lbl_801A8358
 	# ROM: 0x1A4458
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
-
 
 glabel lbl_801A8384
 	# ROM: 0x1A4484
@@ -37707,47 +37371,39 @@ glabel lbl_801A8384
 	.asciz "Util.h"
 	.balign 4
 
-
 glabel lbl_801A83F4
 	# ROM: 0x1A44F4
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
-
 
 glabel lbl_801A8420
 	# ROM: 0x1A4520
 	.asciz "Util.h"
 	.balign 4
 
-
 glabel lbl_801A8428
 	# ROM: 0x1A4528
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
-
 
 glabel lbl_801A8454
 	# ROM: 0x1A4554
 	.asciz "Util.h"
 	.balign 8
 
-
 glabel lbl_801A8460
 	# ROM: 0x1A4560
 	.asciz "snd_SoundArchiveLoader.cpp"
 	.balign 4
 
-
 glabel lbl_801A847C
 	# ROM: 0x1A457C
 	.asciz "NW4HBM:Pointer must not be NULL (allocater)"
-
 
 glabel lbl_801A84A8
 	# ROM: 0x1A45A8
 	.asciz "snd_SoundArchivePlayer.cpp"
 	.balign 4
-
 
 glabel lbl_801A84C4
 	# ROM: 0x1A45C4
@@ -37770,12 +37426,10 @@ glabel lbl_801A84C4
 	.asciz "NW4HBM:Failed assertion static_cast<char*>(buf) - static_cast<char*>(buffer) == GetRequiredMemSize( arc )"
 	.balign 4
 
-
 glabel lbl_801A86E8
 	# ROM: 0x1A47E8
 	.asciz "playerId is out of bounds(%d)\n%d <= playerId < %d not satisfied."
 	.balign 8
-
 
 glabel lbl_801A8730
 	# ROM: 0x1A4830
@@ -37794,7 +37448,6 @@ glabel lbl_801A8730
 	.asciz "NW4HBM:Pointer must not be NULL (handle)"
 	.balign 4
 
-
 glabel lbl_801A8954
 	# ROM: 0x1A4A54
 	.asciz "NW4HBM:Pointer must not be NULL (info)"
@@ -37810,7 +37463,6 @@ glabel lbl_801A8954
 	.asciz "NW4HBM:Failed assertion detail::TaskManager::GetInstance().GetTaskBufferSize() >= sizeof(StrmDataLoadTask)"
 	.balign 8
 
-
 glabel lbl_801A8B40
 	# ROM: 0x1A4C40
 	.asciz "NW4HBM:Failed assertion mStream == NULL"
@@ -37819,90 +37471,81 @@ glabel lbl_801A8B40
 	.asciz "NW4HBM:Alignment Error(0x%x)\noffset must be aligned to 4 bytes boundary."
 	.balign 4
 
-
 glabel lbl_801A8C44
 	# ROM: 0x1A4D44
 	.asciz "failed to load stream\n"
 	.balign 8
 
-
 glabel lbl_801A8C60
 	# ROM: 0x1A4D60
 	.4byte 0
 	.4byte 0
-	.4byte 0x801395FC  ;# ptr
-	.4byte 0x8013B46C  ;# ptr
-	.4byte 0x8013B4C0  ;# ptr
+	.4byte lbl_801395FC
+	.4byte lbl_8013B46C
+	.4byte lbl_8013B4C0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013C7E8  ;# ptr
-	.4byte 0x8013C7E0  ;# ptr
-	.4byte 0x8013C7D8  ;# ptr
-	.4byte 0x8013AB80  ;# ptr
-	.4byte 0x8013C658  ;# ptr
-
+	.4byte lbl_8013C7E8
+	.4byte lbl_8013C7E0
+	.4byte lbl_8013C7D8
+	.4byte lbl_8013AB80
+	.4byte lbl_8013C658
 
 glabel lbl_801A8C90
 	# ROM: 0x1A4D90
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013C798  ;# ptr
-	.4byte 0x8013C274  ;# ptr
-	.4byte 0x8013C598  ;# ptr
-
+	.4byte lbl_8013C798
+	.4byte lbl_8013C274
+	.4byte lbl_8013C598
 
 glabel lbl_801A8CA4
 	# ROM: 0x1A4DA4
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013C758  ;# ptr
-	.4byte 0x8013BE10  ;# ptr
-	.4byte 0x8013C0B0  ;# ptr
-
+	.4byte lbl_8013C758
+	.4byte lbl_8013BE10
+	.4byte lbl_8013C0B0
 
 glabel lbl_801A8CB8
 	# ROM: 0x1A4DB8
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013C718  ;# ptr
-	.4byte 0x8013BCAC  ;# ptr
-	.4byte 0x8013BDBC  ;# ptr
+	.4byte lbl_8013C718
+	.4byte lbl_8013BCAC
+	.4byte lbl_8013BDBC
 	.4byte 0
-
 
 glabel lbl_801A8CD0
 	# ROM: 0x1A4DD0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801393D4  ;# ptr
-	.4byte 0x8013B868  ;# ptr
-
+	.4byte lbl_801393D4
+	.4byte lbl_8013B868
 
 glabel lbl_801A8CE0
 	# ROM: 0x1A4DE0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80139414  ;# ptr
-	.4byte 0x8013B990  ;# ptr
-	.4byte 0x8013BAD4  ;# ptr
-	.4byte 0x8013BC38  ;# ptr
-
+	.4byte lbl_80139414
+	.4byte lbl_8013B990
+	.4byte lbl_8013BAD4
+	.4byte lbl_8013BC38
 
 glabel lbl_801A8CF8
 	# ROM: 0x1A4DF8
 	.4byte 0
 	.4byte 0
-	.4byte 0x80139394  ;# ptr
-	.4byte 0x8013B6EC  ;# ptr
-
+	.4byte lbl_80139394
+	.4byte lbl_8013B6EC
 
 glabel lbl_801A8D08
 	# ROM: 0x1A4E08
 	.4byte 0
 	.4byte 0
-	.4byte 0x80139314  ;# ptr
-	.4byte 0x8013B514  ;# ptr
-	.4byte 0x8013B6B8  ;# ptr
+	.4byte lbl_80139314
+	.4byte lbl_8013B514
+	.4byte lbl_8013B6B8
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -37910,133 +37553,116 @@ glabel lbl_801A8D08
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013BC6C  ;# ptr
+	.4byte lbl_8013BC6C
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80139294  ;# ptr
+	.4byte lbl_80139294
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80139454  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x80139354  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x801392D4  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x80139254  ;# ptr
+	.4byte lbl_80139454
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
+	.4byte lbl_80139354
 	.4byte 0
 	.4byte 0
-
+	.4byte 0
+	.4byte 0
+	.4byte lbl_801392D4
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte lbl_80139254
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
 
 glabel lbl_801A8DC0
 	# ROM: 0x1A4EC0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013C6C0  ;# ptr
-	.4byte 0x8013C984  ;# ptr
-
+	.4byte lbl_8013C6C0
+	.4byte lbl_8013C984
 
 glabel lbl_801A8DD0
 	# ROM: 0x1A4ED0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A8DF4
 	# ROM: 0x1A4EF4
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A8E00
 	# ROM: 0x1A4F00
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A8E24
 	# ROM: 0x1A4F24
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A8E30
 	# ROM: 0x1A4F30
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A8E54
 	# ROM: 0x1A4F54
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A8E60
 	# ROM: 0x1A4F60
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801A8E84
 	# ROM: 0x1A4F84
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A8E90
 	# ROM: 0x1A4F90
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A8EB4
 	# ROM: 0x1A4FB4
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A8EC0
 	# ROM: 0x1A4FC0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A8EE4
 	# ROM: 0x1A4FE4
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A8EF0
 	# ROM: 0x1A4FF0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A8F14
 	# ROM: 0x1A5014
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A8F20
 	# ROM: 0x1A5020
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801A8F44
 	# ROM: 0x1A5044
@@ -38049,154 +37675,128 @@ glabel lbl_801A8F44
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A8FB0
 	# ROM: 0x1A50B0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A8FD4
 	# ROM: 0x1A50D4
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A8FE0
 	# ROM: 0x1A50E0
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801A9004
 	# ROM: 0x1A5104
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A9010
 	# ROM: 0x1A5110
 	.asciz "NW4HBM:Pointer must not be NULL (buffer)"
 	.balign 4
-
 
 glabel lbl_801A903C
 	# ROM: 0x1A513C
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A9054
 	# ROM: 0x1A5154
 	.asciz "NW4HBM:Pointer must not be NULL (buffer)"
 	.balign 4
-
 
 glabel lbl_801A9080
 	# ROM: 0x1A5180
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A9098
 	# ROM: 0x1A5198
 	.asciz "NW4HBM:Pointer must not be NULL (buffer)"
 	.balign 4
-
 
 glabel lbl_801A90C4
 	# ROM: 0x1A51C4
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A90DC
 	# ROM: 0x1A51DC
 	.asciz "NW4HBM:Pointer must not be NULL (buffer)"
 	.balign 4
-
 
 glabel lbl_801A9108
 	# ROM: 0x1A5208
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A9120
 	# ROM: 0x1A5220
 	.asciz "NW4HBM:Pointer must not be NULL (buffer)"
 	.balign 4
-
 
 glabel lbl_801A914C
 	# ROM: 0x1A524C
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A9164
 	# ROM: 0x1A5264
 	.asciz "NW4HBM:Pointer must not be NULL (buffer)"
 	.balign 4
-
 
 glabel lbl_801A9190
 	# ROM: 0x1A5290
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A91A8
 	# ROM: 0x1A52A8
 	.asciz "NW4HBM:Pointer must not be NULL (waveData)"
 	.balign 4
-
 
 glabel lbl_801A91D4
 	# ROM: 0x1A52D4
 	.asciz "Bank.h"
 	.balign 8
 
-
 glabel lbl_801A91E0
 	# ROM: 0x1A52E0
 	.asciz "NW4HBM:Pointer must not be NULL (mSoundArchive)"
-
 
 glabel lbl_801A9210
 	# ROM: 0x1A5310
 	.asciz "SoundArchivePlayer.h"
 	.balign 4
 
-
 glabel lbl_801A9228
 	# ROM: 0x1A5328
 	.asciz "snd_SoundHandle.cpp"
 	.balign 8
 
-
 glabel lbl_801A9240
 	# ROM: 0x1A5340
 	.asciz "NW4HBM:Pointer must not be NULL (sound)"
-
 
 glabel lbl_801A9268
 	# ROM: 0x1A5368
 	.4byte 0
 	.4byte 0
-	.4byte 0x8013C904  ;# ptr
-	.4byte 0x8013C984  ;# ptr
-
+	.4byte func_8013C904
+	.4byte lbl_8013C984
 
 glabel lbl_801A9278
 	# ROM: 0x1A5378
 	.asciz "snd_SoundPlayer.cpp"
 
-
 glabel lbl_801A928C
 	# ROM: 0x1A538C
 	.asciz "NW4HBM:Failed assertion volume >= 0.0f"
 	.balign 4
-
 
 glabel lbl_801A92B4
 	# ROM: 0x1A53B4
@@ -38207,51 +37807,42 @@ glabel lbl_801A92B4
 	.asciz "playable sound count is over limit."
 	.asciz "NW4HBM:Pointer must not be NULL (dropSound)"
 
-
 glabel lbl_801A9370
 	# ROM: 0x1A5470
 	.asciz "NW4HBM:Failed assertion limit >= 0"
 	.balign 4
-
 
 glabel lbl_801A9394
 	# ROM: 0x1A5494
 	.asciz "NW4HBM:Pointer must not be NULL (heap)"
 	.balign 8
 
-
 glabel lbl_801A93C0
 	# ROM: 0x1A54C0
 	.asciz "NW4HBM:Pointer must not be NULL (sound)"
 
-
 glabel lbl_801A93E8
 	# ROM: 0x1A54E8
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A940C
 	# ROM: 0x1A550C
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A9418
 	# ROM: 0x1A5518
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A943C
 	# ROM: 0x1A553C
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A9448
 	# ROM: 0x1A5548
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801A946C
 	# ROM: 0x1A556C
@@ -38271,24 +37862,20 @@ glabel lbl_801A946C
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A9538
 	# ROM: 0x1A5638
 	.asciz "NW4HBM:Pointer must not be NULL (ptr)"
 	.balign 4
-
 
 glabel lbl_801A9560
 	# ROM: 0x1A5660
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A9578
 	# ROM: 0x1A5678
 	.asciz "priority is out of bounds(%d)\n%d <= priority <= %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801A95BC
 	# ROM: 0x1A56BC
@@ -38308,24 +37895,20 @@ glabel lbl_801A95BC
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A9694
 	# ROM: 0x1A5794
 	.asciz "NW4HBM:Pointer must not be NULL (ptr)"
 	.balign 4
-
 
 glabel lbl_801A96BC
 	# ROM: 0x1A57BC
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A96D4
 	# ROM: 0x1A57D4
 	.asciz "priority is out of bounds(%d)\n%d <= priority <= %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801A9718
 	# ROM: 0x1A5818
@@ -38345,46 +37928,38 @@ glabel lbl_801A9718
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A97F0
 	# ROM: 0x1A58F0
 	.asciz "NW4HBM:Pointer must not be NULL (ptr)"
 	.balign 4
-
 
 glabel lbl_801A9818
 	# ROM: 0x1A5918
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A9830
 	# ROM: 0x1A5930
 	.asciz "priority is out of bounds(%d)\n%d <= priority <= %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801A9874
 	# ROM: 0x1A5974
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801A988C
 	# ROM: 0x1A598C
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A98B0
 	# ROM: 0x1A59B0
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801A98BC
 	# ROM: 0x1A59BC
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801A98E0
 	# ROM: 0x1A59E0
@@ -38407,13 +37982,11 @@ glabel lbl_801A98E0
 	.asciz "LinkList.h"
 	.balign 8
 
-
 glabel lbl_801A99E0
 	# ROM: 0x1A5AE0
 	.asciz "snd_SoundSystem.cpp"
 	.asciz "NW4HBM:Failed assertion initStatus == SC_STATUS_OK"
 	.balign 4
-
 
 glabel lbl_801A9A28
 	# ROM: 0x1A5B28
@@ -38422,16 +37995,13 @@ glabel lbl_801A9A28
 	.asciz "SoundSystem::WaitForResetReady is TIME OUT.\n"
 	.balign 4
 
-
 glabel lbl_801A9A78
 	# ROM: 0x1A5B78
 	.asciz "snd_SoundThread.cpp"
 
-
 glabel lbl_801A9A8C
 	# ROM: 0x1A5B8C
 	.asciz "not initialized nw4hbm::AxManager.\n"
-
 
 glabel lbl_801A9AB0
 	# ROM: 0x1A5BB0
@@ -38440,17 +38010,14 @@ glabel lbl_801A9AB0
 	.asciz "LinkList.h"
 	.balign 8
 
-
 glabel lbl_801A9B08
 	# ROM: 0x1A5C08
 	.asciz "snd_StrmChannel.cpp"
-
 
 glabel lbl_801A9B1C
 	# ROM: 0x1A5C1C
 	.asciz "Too large stream buffer size."
 	.balign 8
-
 
 glabel lbl_801A9B40
 	# ROM: 0x1A5C40
@@ -38467,72 +38034,60 @@ glabel lbl_801A9B40
 	.asciz "NW4HBM:Failed assertion info->blockSize % 32 == 0"
 	.balign 4
 
-
 glabel lbl_801A9CB0
 	# ROM: 0x1A5DB0
 	.asciz "NW4HBM:Pointer must not be NULL (mHeader)"
 	.balign 4
-
 
 glabel lbl_801A9CDC
 	# ROM: 0x1A5DDC
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A9D08
 	# ROM: 0x1A5E08
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A9D10
 	# ROM: 0x1A5E10
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A9D3C
 	# ROM: 0x1A5E3C
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A9D44
 	# ROM: 0x1A5E44
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A9D70
 	# ROM: 0x1A5E70
 	.asciz "Util.h"
 	.balign 4
-
 
 glabel lbl_801A9D78
 	# ROM: 0x1A5E78
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
 
-
 glabel lbl_801A9DA4
 	# ROM: 0x1A5EA4
 	.asciz "Util.h"
 	.balign 8
-
 
 glabel lbl_801A9DB0
 	# ROM: 0x1A5EB0
 	.asciz "snd_StrmPlayer.cpp"
 	.balign 4
 
-
 glabel lbl_801A9DC4
 	# ROM: 0x1A5EC4
 	.asciz "NW4HBM:Pointer must not be NULL (bufferPool)"
 	.balign 4
-
 
 glabel lbl_801A9DF4
 	# ROM: 0x1A5EF4
@@ -38544,29 +38099,24 @@ glabel lbl_801A9DF4
 	.asciz "AdpcmLoop can not update!"
 	.balign 4
 
-
 glabel lbl_801A9E80
 	# ROM: 0x1A5F80
 	.asciz "NW4HBM:Failed assertion loadSize <= sizeof( LoadCommand::mMramBuf )"
-
 
 glabel lbl_801A9EC4
 	# ROM: 0x1A5FC4
 	.asciz "NW4HBM:Failed assertion sPlayerList.IsEmpty()"
 	.balign 4
 
-
 glabel lbl_801A9EF4
 	# ROM: 0x1A5FF4
 	.asciz "bus is out of bounds(%d)\n%d <= bus < %d not satisfied."
 	.balign 4
 
-
 glabel lbl_801A9F2C
 	# ROM: 0x1A602C
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801A9F74
 	# ROM: 0x1A6074
@@ -38577,7 +38127,6 @@ glabel lbl_801A9F74
 	.asciz "Too small stream buffer size."
 	.balign 4
 
-
 glabel lbl_801A9FE8
 	# ROM: 0x1A60E8
 	.asciz "NW4HBM:Pointer must not be NULL (player)"
@@ -38586,54 +38135,52 @@ glabel lbl_801A9FE8
 	.asciz "Unknown AxVoice callback status %d"
 	.balign 8
 
-
 glabel lbl_801AA070
 	# ROM: 0x1A6170
 	.4byte 0
 	.4byte 0
-	.4byte 0x80141F04  ;# ptr
-	.4byte 0x8013FA9C  ;# ptr
-	.4byte 0x8013FC0C  ;# ptr
-	.4byte 0x8013FC20  ;# ptr
-	.4byte 0x80141EF0  ;# ptr
-	.4byte 0x80141EDC  ;# ptr
-	.4byte 0x80141EC8  ;# ptr
-	.4byte 0x80141EB4  ;# ptr
-	.4byte 0x80141EAC  ;# ptr
-	.4byte 0x80141EA4  ;# ptr
-	.4byte 0x80141E9C  ;# ptr
-	.4byte 0x80141E94  ;# ptr
-	.4byte 0x80141E8C  ;# ptr
-	.4byte 0x80141E84  ;# ptr
-	.4byte 0x80141E7C  ;# ptr
-	.4byte 0x80141E74  ;# ptr
-	.4byte 0x80141E6C  ;# ptr
-	.4byte 0x80141E64  ;# ptr
-	.4byte 0x80141E5C  ;# ptr
-	.4byte 0x80141E54  ;# ptr
-	.4byte 0x80141E4C  ;# ptr
-	.4byte 0x80141E44  ;# ptr
-	.4byte 0x80140D60  ;# ptr
-	.4byte 0x80140BAC  ;# ptr
-	.4byte 0x80140BF4  ;# ptr
-	.4byte 0x80140C3C  ;# ptr
-	.4byte 0x80140DA8  ;# ptr
-	.4byte 0x80140ECC  ;# ptr
-	.4byte 0x80140FF0  ;# ptr
-	.4byte 0x80140DA0  ;# ptr
-	.4byte 0x80140BEC  ;# ptr
-	.4byte 0x80140C34  ;# ptr
-	.4byte 0x80140CD8  ;# ptr
-	.4byte 0x80140E44  ;# ptr
-	.4byte 0x80140F68  ;# ptr
-	.4byte 0x8014108C  ;# ptr
-
+	.4byte lbl_80141F04
+	.4byte lbl_8013FA9C
+	.4byte lbl_8013FC0C
+	.4byte lbl_8013FC20
+	.4byte lbl_80141EF0
+	.4byte lbl_80141EDC
+	.4byte lbl_80141EC8
+	.4byte lbl_80141EB4
+	.4byte lbl_80141EAC
+	.4byte lbl_80141EA4
+	.4byte lbl_80141E9C
+	.4byte lbl_80141E94
+	.4byte lbl_80141E8C
+	.4byte lbl_80141E84
+	.4byte lbl_80141E7C
+	.4byte lbl_80141E74
+	.4byte lbl_80141E6C
+	.4byte lbl_80141E64
+	.4byte lbl_80141E5C
+	.4byte lbl_80141E54
+	.4byte lbl_80141E4C
+	.4byte lbl_80141E44
+	.4byte lbl_80140D60
+	.4byte lbl_80140BAC
+	.4byte lbl_80140BF4
+	.4byte lbl_80140C3C
+	.4byte lbl_80140DA8
+	.4byte lbl_80140ECC
+	.4byte lbl_80140FF0
+	.4byte lbl_80140DA0
+	.4byte lbl_80140BEC
+	.4byte lbl_80140C34
+	.4byte lbl_80140CD8
+	.4byte lbl_80140E44
+	.4byte lbl_80140F68
+	.4byte lbl_8014108C
 
 glabel lbl_801AA108
 	# ROM: 0x1A6208
 	.4byte 0
 	.4byte 0
-	.4byte 0x80141CB0  ;# ptr
+	.4byte lbl_80141CB0
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -38677,62 +38224,51 @@ glabel lbl_801AA108
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA1E0
 	# ROM: 0x1A62E0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AA204
 	# ROM: 0x1A6304
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA210
 	# ROM: 0x1A6310
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AA234
 	# ROM: 0x1A6334
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA240
 	# ROM: 0x1A6340
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801AA264
 	# ROM: 0x1A6364
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA270
 	# ROM: 0x1A6370
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AA294
 	# ROM: 0x1A6394
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA2A0
 	# ROM: 0x1A63A0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AA2C4
 	# ROM: 0x1A63C4
 	.asciz "LinkList.h"
 	.balign 4
-
 
 glabel lbl_801AA2D0
 	# ROM: 0x1A63D0
@@ -38743,34 +38279,33 @@ glabel lbl_801AA2D0
 	.asciz "NW4HBM:Pointer must not be NULL (bufferPool)"
 	.balign 4
 
-
 glabel lbl_801AA348
 	# ROM: 0x1A6448
 	.4byte 0
 	.4byte 0
-	.4byte 0x80142410  ;# ptr
-	.4byte 0x80142224  ;# ptr
-	.4byte 0x8012D0EC  ;# ptr
-	.4byte 0x8012CAC8  ;# ptr
-	.4byte 0x8012CAE0  ;# ptr
-	.4byte 0x8012CCBC  ;# ptr
-	.4byte 0x8012CF70  ;# ptr
-	.4byte 0x8012CF88  ;# ptr
-	.4byte 0x80142148  ;# ptr
-	.4byte 0x8012D09C  ;# ptr
-	.4byte 0x8012D0D8  ;# ptr
-	.4byte 0x8012D9A4  ;# ptr
-	.4byte 0x8012DA14  ;# ptr
-	.4byte 0x8012DB04  ;# ptr
-	.4byte 0x8012DB74  ;# ptr
-	.4byte 0x8012DB7C  ;# ptr
-	.4byte 0x8012DB84  ;# ptr
-	.4byte 0x801422B4  ;# ptr
-	.4byte 0x801423E4  ;# ptr
-	.4byte 0x801423F8  ;# ptr
-	.4byte 0x8012C99C  ;# ptr
-	.4byte 0x80142400  ;# ptr
-	.4byte 0x80142408  ;# ptr
+	.4byte lbl_80142410
+	.4byte lbl_80142224
+	.4byte lbl_8012D0EC
+	.4byte lbl_8012CAC8
+	.4byte lbl_8012CAE0
+	.4byte lbl_8012CCBC
+	.4byte lbl_8012CF70
+	.4byte lbl_8012CF88
+	.4byte lbl_80142148
+	.4byte lbl_8012D09C
+	.4byte lbl_8012D0D8
+	.4byte lbl_8012D9A4
+	.4byte lbl_8012DA14
+	.4byte lbl_8012DB04
+	.4byte lbl_8012DB74
+	.4byte lbl_8012DB7C
+	.4byte lbl_8012DB84
+	.4byte lbl_801422B4
+	.4byte lbl_801423E4
+	.4byte lbl_801423F8
+	.4byte func_8012C99C
+	.4byte lbl_80142400
+	.4byte lbl_80142408
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -38778,28 +38313,23 @@ glabel lbl_801AA348
 	.asciz "LinkList.h"
 	.balign 8
 
-
 glabel lbl_801AA410
 	# ROM: 0x1A6510
 	.asciz "NW4HBM:Pointer must not be NULL (sound)"
-
 
 glabel lbl_801AA438
 	# ROM: 0x1A6538
 	.asciz "SoundInstanceManager.h"
 	.balign 4
 
-
 glabel lbl_801AA450
 	# ROM: 0x1A6550
 	.asciz "snd_TaskManager.cpp"
 	.balign 8
 
-
 glabel lbl_801AA468
 	# ROM: 0x1A6568
 	.asciz "NW4HBM:Failed assertion MEMCountFreeBlockForUnitHeap( mHeapHandle ) >= TASK_NUM"
-
 
 glabel lbl_801AA4B8
 	# ROM: 0x1A65B8
@@ -38808,85 +38338,70 @@ glabel lbl_801AA4B8
 	.asciz "NW4HBM:Failed assertion result"
 	.balign 4
 
-
 glabel lbl_801AA518
 	# ROM: 0x1A6618
 	.asciz "priority is out of bounds(%d)\n%d <= priority < %d not satisfied."
 	.balign 4
 
-
 glabel lbl_801AA55C
 	# ROM: 0x1A665C
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AA580
 	# ROM: 0x1A6680
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA58C
 	# ROM: 0x1A668C
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AA5B0
 	# ROM: 0x1A66B0
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA5BC
 	# ROM: 0x1A66BC
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801AA5E0
 	# ROM: 0x1A66E0
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA5EC
 	# ROM: 0x1A66EC
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AA610
 	# ROM: 0x1A6710
 	.asciz "LinkList.h"
 	.balign 8
 
-
 glabel lbl_801AA620
 	# ROM: 0x1A6720
 	.asciz "snd_TaskThread.cpp"
 	.balign 4
 
-
 glabel lbl_801AA634
 	# ROM: 0x1A6734
 	.asciz "NW4HBM:Failed assertion result != 0"
 
-
 glabel lbl_801AA658
 	# ROM: 0x1A6758
 	.4byte 0x12345678
-
 
 glabel lbl_801AA65C
 	# ROM: 0x1A675C
 	.asciz "snd_Util.cpp"
 	.balign 4
 
-
 glabel lbl_801AA66C
 	# ROM: 0x1A676C
 	.asciz "invalid DataRef::RefType"
 	.balign 4
-
 
 glabel lbl_801AA688
 	# ROM: 0x1A6788
@@ -38904,7 +38419,6 @@ glabel lbl_801AA688
 	.asciz "Too small wave buffer."
 	.balign 4
 
-
 glabel lbl_801AA800
 	# ROM: 0x1A6900
 	.asciz "NW4HBM:Failed assertion mWavePacketList.IsEmpty()"
@@ -38921,98 +38435,82 @@ glabel lbl_801AA800
 	.asciz "Unknown AxVoice callback status %d"
 	.balign 4
 
-
 glabel lbl_801AA94C
 	# ROM: 0x1A6A4C
 	.asciz "NW4HBM:Failed assertion sPlayerList.IsEmpty()"
 	.balign 4
 
-
 glabel lbl_801AA97C
 	# ROM: 0x1A6A7C
 	.4byte 0
 	.4byte 0
-	.4byte 0x80143480  ;# ptr
+	.4byte lbl_80143480
 	.4byte 0
 	.4byte 0
-	.4byte 0x80143F78  ;# ptr
+	.4byte lbl_80143F78
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA9C4
 	# ROM: 0x1A6AC4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AA9E8
 	# ROM: 0x1A6AE8
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AA9F4
 	# ROM: 0x1A6AF4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AAA18
 	# ROM: 0x1A6B18
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AAA24
 	# ROM: 0x1A6B24
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801AAA48
 	# ROM: 0x1A6B48
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AAA54
 	# ROM: 0x1A6B54
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
-
 
 glabel lbl_801AAA78
 	# ROM: 0x1A6B78
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AAA84
 	# ROM: 0x1A6B84
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AAAA8
 	# ROM: 0x1A6BA8
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AAAB4
 	# ROM: 0x1A6BB4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AAAD8
 	# ROM: 0x1A6BD8
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AAAE4
 	# ROM: 0x1A6BE4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AAB08
 	# ROM: 0x1A6C08
@@ -39021,7 +38519,6 @@ glabel lbl_801AAB08
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 8
-
 
 glabel lbl_801AAB48
 	# ROM: 0x1A6C48
@@ -39033,58 +38530,53 @@ glabel lbl_801AAB48
 	.asciz "NW4HBM:Pointer must not be NULL (GetSoundPlayer())"
 	.balign 4
 
-
 glabel lbl_801AABF0
 	# ROM: 0x1A6CF0
 	.asciz "priority is out of bounds(%d)\n%d <= priority <= %d not satisfied."
 	.balign 4
 
-
 glabel lbl_801AAC34
 	# ROM: 0x1A6D34
 	.4byte 0
 	.4byte 0
-	.4byte 0x801444B8  ;# ptr
-	.4byte 0x80144294  ;# ptr
-	.4byte 0x8012D0EC  ;# ptr
-	.4byte 0x8012CAC8  ;# ptr
-	.4byte 0x8012CAE0  ;# ptr
-	.4byte 0x8012CCBC  ;# ptr
-	.4byte 0x8012CF70  ;# ptr
-	.4byte 0x8012CF88  ;# ptr
-	.4byte 0x801441B8  ;# ptr
-	.4byte 0x8012D09C  ;# ptr
-	.4byte 0x8012D0D8  ;# ptr
-	.4byte 0x8012D9A4  ;# ptr
-	.4byte 0x8012DA14  ;# ptr
-	.4byte 0x8012DB04  ;# ptr
-	.4byte 0x8012DB74  ;# ptr
-	.4byte 0x8012DB7C  ;# ptr
-	.4byte 0x8012DB84  ;# ptr
-	.4byte 0x8014435C  ;# ptr
-	.4byte 0x8014448C  ;# ptr
-	.4byte 0x801444A0  ;# ptr
-	.4byte 0x8012C99C  ;# ptr
-	.4byte 0x801444A8  ;# ptr
-	.4byte 0x801444B0  ;# ptr
+	.4byte lbl_801444B8
+	.4byte lbl_80144294
+	.4byte lbl_8012D0EC
+	.4byte lbl_8012CAC8
+	.4byte lbl_8012CAE0
+	.4byte lbl_8012CCBC
+	.4byte lbl_8012CF70
+	.4byte lbl_8012CF88
+	.4byte lbl_801441B8
+	.4byte lbl_8012D09C
+	.4byte lbl_8012D0D8
+	.4byte lbl_8012D9A4
+	.4byte lbl_8012DA14
+	.4byte lbl_8012DB04
+	.4byte lbl_8012DB74
+	.4byte lbl_8012DB7C
+	.4byte lbl_8012DB84
+	.4byte lbl_8014435C
+	.4byte lbl_8014448C
+	.4byte lbl_801444A0
+	.4byte func_8012C99C
+	.4byte lbl_801444A8
+	.4byte lbl_801444B0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
-
 
 glabel lbl_801AACF8
 	# ROM: 0x1A6DF8
 	.asciz "NW4HBM:Pointer must not be NULL (sound)"
 
-
 glabel lbl_801AAD20
 	# ROM: 0x1A6E20
 	.asciz "SoundInstanceManager.h"
 	.balign 4
-
 
 glabel lbl_801AAD38
 	# ROM: 0x1A6E38
@@ -39100,84 +38592,70 @@ glabel lbl_801AAD38
 	.asciz "NW4HBM:Failed assertion mWaveBlock->blockHeader.kind == WsdFile::SIGNATURE_WAVE_BLOCK"
 	.balign 4
 
-
 glabel lbl_801AAEC8
 	# ROM: 0x1A6FC8
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
-
 
 glabel lbl_801AAEF4
 	# ROM: 0x1A6FF4
 	.asciz "Util.h"
 	.balign 4
 
-
 glabel lbl_801AAEFC
 	# ROM: 0x1A6FFC
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
-
 
 glabel lbl_801AAF28
 	# ROM: 0x1A7028
 	.asciz "Util.h"
 	.balign 4
 
-
 glabel lbl_801AAF30
 	# ROM: 0x1A7030
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
-
 
 glabel lbl_801AAF5C
 	# ROM: 0x1A705C
 	.asciz "Util.h"
 	.balign 4
 
-
 glabel lbl_801AAF64
 	# ROM: 0x1A7064
 	.asciz "NW4HBM:Failed assertion ref.dataType == 0"
 	.balign 4
-
 
 glabel lbl_801AAF90
 	# ROM: 0x1A7090
 	.asciz "Util.h"
 	.balign 4
 
-
 glabel lbl_801AAF98
 	# ROM: 0x1A7098
 	.asciz "snd_WsdPlayer.cpp"
 	.balign 4
-
 
 glabel lbl_801AAFAC
 	# ROM: 0x1A70AC
 	.asciz "NW4HBM:Failed assertion volume >= 0.0f"
 	.balign 4
 
-
 glabel lbl_801AAFD4
 	# ROM: 0x1A70D4
 	.asciz "NW4HBM:Failed assertion pitch >= 0.0f"
 	.balign 4
-
 
 glabel lbl_801AAFFC
 	# ROM: 0x1A70FC
 	.asciz "bus is out of bounds(%d)\n%d <= bus < %d not satisfied."
 	.balign 4
 
-
 glabel lbl_801AB034
 	# ROM: 0x1A7134
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
-
 
 glabel lbl_801AB07C
 	# ROM: 0x1A717C
@@ -39189,60 +38667,58 @@ glabel lbl_801AB07C
 	.asciz "NW4HBM:Failed assertion mStartedFlag"
 	.balign 4
 
-
 glabel lbl_801AB12C
 	# ROM: 0x1A722C
 	.asciz "NW4HBM:Failed assertion sPlayerList.IsEmpty()"
 	.balign 4
 
-
 glabel lbl_801AB15C
 	# ROM: 0x1A725C
 	.4byte 0
 	.4byte 0
-	.4byte 0x801440A4  ;# ptr
-	.4byte 0x80144CBC  ;# ptr
-	.4byte 0x80144D64  ;# ptr
-	.4byte 0x80144E30  ;# ptr
-	.4byte 0x80145AA0  ;# ptr
-	.4byte 0x80145A78  ;# ptr
-	.4byte 0x80145A8C  ;# ptr
-	.4byte 0x80145A64  ;# ptr
-	.4byte 0x80144E8C  ;# ptr
-	.4byte 0x80144F04  ;# ptr
-	.4byte 0x80144F7C  ;# ptr
-	.4byte 0x80144FBC  ;# ptr
-	.4byte 0x80144FFC  ;# ptr
-	.4byte 0x8014503C  ;# ptr
-	.4byte 0x8014507C  ;# ptr
-	.4byte 0x80145A5C  ;# ptr
-	.4byte 0x80145A54  ;# ptr
-	.4byte 0x80145A4C  ;# ptr
-	.4byte 0x80145A44  ;# ptr
-	.4byte 0x80145A3C  ;# ptr
-	.4byte 0x80145A34  ;# ptr
-	.4byte 0x80145A2C  ;# ptr
-	.4byte 0x80145220  ;# ptr
-	.4byte 0x801455D4  ;# ptr
-	.4byte 0x801450BC  ;# ptr
-	.4byte 0x80145104  ;# ptr
-	.4byte 0x80145268  ;# ptr
-	.4byte 0x8014538C  ;# ptr
-	.4byte 0x801454B0  ;# ptr
-	.4byte 0x80145260  ;# ptr
-	.4byte 0x80145614  ;# ptr
-	.4byte 0x801450FC  ;# ptr
-	.4byte 0x80145198  ;# ptr
-	.4byte 0x80145304  ;# ptr
-	.4byte 0x80145428  ;# ptr
-	.4byte 0x8014554C  ;# ptr
+	.4byte lbl_801440A4
+	.4byte lbl_80144CBC
+	.4byte lbl_80144D64
+	.4byte lbl_80144E30
+	.4byte lbl_80145AA0
+	.4byte lbl_80145A78
+	.4byte lbl_80145A8C
+	.4byte lbl_80145A64
+	.4byte lbl_80144E8C
+	.4byte lbl_80144F04
+	.4byte lbl_80144F7C
+	.4byte lbl_80144FBC
+	.4byte lbl_80144FFC
+	.4byte lbl_8014503C
+	.4byte lbl_8014507C
+	.4byte lbl_80145A5C
+	.4byte lbl_80145A54
+	.4byte lbl_80145A4C
+	.4byte lbl_80145A44
+	.4byte lbl_80145A3C
+	.4byte lbl_80145A34
+	.4byte lbl_80145A2C
+	.4byte lbl_80145220
+	.4byte lbl_801455D4
+	.4byte lbl_801450BC
+	.4byte lbl_80145104
+	.4byte lbl_80145268
+	.4byte lbl_8014538C
+	.4byte lbl_801454B0
+	.4byte lbl_80145260
+	.4byte lbl_80145614
+	.4byte lbl_801450FC
+	.4byte lbl_80145198
+	.4byte lbl_80145304
+	.4byte lbl_80145428
+	.4byte lbl_8014554C
 	.4byte 0
 	.4byte 0
-	.4byte 0x80145B54  ;# ptr
-	.4byte 0x80145B4C  ;# ptr
-	.4byte 0x80145B44  ;# ptr
-	.4byte 0x801456A4  ;# ptr
-	.4byte 0x80145A28  ;# ptr
+	.4byte lbl_80145B54
+	.4byte lbl_80145B4C
+	.4byte lbl_80145B44
+	.4byte lbl_801456A4
+	.4byte lbl_80145A28
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -39291,23 +38767,19 @@ glabel lbl_801AB15C
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AB2F0
 	# ROM: 0x1A73F0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
-
 
 glabel lbl_801AB314
 	# ROM: 0x1A7414
 	.asciz "LinkList.h"
 	.balign 4
 
-
 glabel lbl_801AB320
 	# ROM: 0x1A7420
 	.asciz "snd_WsdTrack.cpp"
 	.balign 4
-
 
 glabel lbl_801AB334
 	# ROM: 0x1A7434
@@ -39334,7 +38806,6 @@ glabel lbl_801AB334
 	.asciz "Channel.h"
 	.balign 4
 
-
 glabel lbl_801AB548
 	# ROM: 0x1A7648
 	.asciz "ut_binaryFileFormat.cpp"
@@ -39351,7 +38822,6 @@ glabel lbl_801AB548
 	.asciz "NW4HBM:Pointer Error\nfileHeader(=%p) is not valid pointer."
 	.balign 4
 
-
 glabel lbl_801AB698
 	# ROM: 0x1A7798
 	.asciz "ut_CharStrmReader.cpp"
@@ -39366,12 +38836,10 @@ glabel lbl_801AB698
 	.balign 4
 	.asciz "NW4HBM:Alignment Error(0x%x)\nmCharStrm must be aligned to 2 bytes boundary."
 
-
 glabel lbl_801AB7E0
 	# ROM: 0x1A78E0
 	.asciz "ut_CharWriter.cpp"
 	.balign 4
-
 
 glabel lbl_801AB7F4
 	# ROM: 0x1A78F4
@@ -39394,17 +38862,14 @@ glabel lbl_801AB7F4
 	.asciz "glyph.texHeight is out of bounds(%d)\n%d <= glyph.texHeight not satisfied."
 	.balign 8
 
-
 glabel lbl_801ABAC0
 	# ROM: 0x1A7BC0
 	.asciz "ut_FileStream.cpp"
 	.balign 4
 
-
 glabel lbl_801ABAD4
 	# ROM: 0x1A7BD4
 	.asciz "Stream don't support SEEK function\n"
-
 
 glabel lbl_801ABAF8
 	# ROM: 0x1A7BF8
@@ -39414,64 +38879,59 @@ glabel lbl_801ABAF8
 	.balign 4
 	.4byte 0
 	.4byte 0
-	.4byte 0x80130C84  ;# ptr
-	.4byte 0x80130C2C  ;# ptr
+	.4byte lbl_80130C84
+	.4byte lbl_80130C2C
 	.4byte 0
-	.4byte 0x8014BCC8  ;# ptr
-	.4byte 0x8014BD1C  ;# ptr
-	.4byte 0x8014BDB4  ;# ptr
-	.4byte 0x8014BE04  ;# ptr
-	.4byte 0x8014BE9C  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0x80130C7C  ;# ptr
-	.4byte 0x80130C74  ;# ptr
-	.4byte 0x80130C6C  ;# ptr
-	.4byte 0
-	.4byte 0x8014B86C  ;# ptr
-	.4byte 0x8014B8BC  ;# ptr
-	.4byte 0x8014B90C  ;# ptr
+	.4byte lbl_8014BCC8
+	.4byte lbl_8014BD1C
+	.4byte lbl_8014BDB4
+	.4byte lbl_8014BE04
+	.4byte lbl_8014BE9C
 	.4byte 0
 	.4byte 0
 	.4byte 0
+	.4byte lbl_80130C7C
+	.4byte lbl_80130C74
+	.4byte lbl_80130C6C
 	.4byte 0
-
+	.4byte lbl_8014B86C
+	.4byte lbl_8014B8BC
+	.4byte lbl_8014B90C
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
 
 glabel lbl_801ABBA8
 	# ROM: 0x1A7CA8
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80146948  ;# ptr
+	.4byte lbl_80146948
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80146C08  ;# ptr
+	.4byte lbl_80146C08
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80147050  ;# ptr
+	.4byte lbl_80147050
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80146E3C  ;# ptr
+	.4byte lbl_80146E3C
 	.asciz "ut_Font.cpp"
 	.asciz "NW4HBM:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 8
-
 
 glabel lbl_801ABC20
 	# ROM: 0x1A7D20
 	.asciz "ut_IOStream.cpp"
 
-
 glabel lbl_801ABC30
 	# ROM: 0x1A7D30
 	.asciz "Stream don't support READ function\n"
-
 
 glabel lbl_801ABC54
 	# ROM: 0x1A7D54
 	.asciz "Stream don't support ASYNC function\n"
 	.balign 4
-
 
 glabel lbl_801ABC7C
 	# ROM: 0x1A7D7C
@@ -39479,21 +38939,20 @@ glabel lbl_801ABC7C
 	.balign 8
 	.4byte 0
 	.4byte 0
-	.4byte 0x8014BEF0  ;# ptr
-	.4byte 0x80130BEC  ;# ptr
+	.4byte lbl_8014BEF0
+	.4byte lbl_80130BEC
 	.4byte 0
-	.4byte 0x8014BCC8  ;# ptr
-	.4byte 0x8014BD1C  ;# ptr
-	.4byte 0x8014BDB4  ;# ptr
-	.4byte 0x8014BE04  ;# ptr
-	.4byte 0x8014BE9C  ;# ptr
+	.4byte lbl_8014BCC8
+	.4byte lbl_8014BD1C
+	.4byte lbl_8014BDB4
+	.4byte lbl_8014BE04
+	.4byte lbl_8014BE9C
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80130C7C  ;# ptr
-	.4byte 0x80130C74  ;# ptr
-	.4byte 0x80130C6C  ;# ptr
-
+	.4byte lbl_80130C7C
+	.4byte lbl_80130C74
+	.4byte lbl_80130C6C
 
 glabel lbl_801ABCE8
 	# ROM: 0x1A7DE8
@@ -39515,11 +38974,9 @@ glabel lbl_801ABCE8
 	.asciz "NW4HBM:Failed assertion p->mPrev == NULL"
 	.balign 4
 
-
 glabel lbl_801ABE90
 	# ROM: 0x1A7F90
 	.asciz "ut_list.cpp"
-
 
 glabel lbl_801ABE9C
 	# ROM: 0x1A7F9C
@@ -39528,24 +38985,20 @@ glabel lbl_801ABE9C
 	.asciz "NW4HBM:Pointer must not be NULL (object)"
 	.balign 4
 
-
 glabel lbl_801ABEF0
 	# ROM: 0x1A7FF0
 	.asciz "ut_NandFileStream.cpp"
 	.balign 4
-
 
 glabel lbl_801ABF08
 	# ROM: 0x1A8008
 	.asciz "NW4HBM:Pointer must not be NULL (commandBlock)"
 	.balign 4
 
-
 glabel lbl_801ABF38
 	# ROM: 0x1A8038
 	.asciz "NW4HBM:Pointer must not be NULL (path)"
 	.balign 4
-
 
 glabel lbl_801ABF60
 	# ROM: 0x1A8060
@@ -39556,39 +39009,36 @@ glabel lbl_801ABF60
 	.asciz "NW4HBM:Alignment Error(0x%x)\nlength must be aligned to 32 bytes boundary."
 	.balign 4
 
-
 glabel lbl_801AC024
 	# ROM: 0x1A8124
 	.asciz "NandFileStream is not opened"
 	.balign 4
 
-
 glabel lbl_801AC044
 	# ROM: 0x1A8144
 	.4byte 0
 	.4byte 0
-	.4byte 0x801329D4  ;# ptr
-	.4byte 0x8014C9DC  ;# ptr
-	.4byte 0x8014D2D8  ;# ptr
-	.4byte 0x8014D34C  ;# ptr
-	.4byte 0x8014D430  ;# ptr
-	.4byte 0x8014D59C  ;# ptr
-	.4byte 0x8014D678  ;# ptr
-	.4byte 0x801329CC  ;# ptr
-	.4byte 0x801329C4  ;# ptr
-	.4byte 0x801329B4  ;# ptr
-	.4byte 0x801329AC  ;# ptr
-	.4byte 0x8013299C  ;# ptr
-	.4byte 0x80132994  ;# ptr
-	.4byte 0x8013298C  ;# ptr
-	.4byte 0x8014D800  ;# ptr
-	.4byte 0x8014D788  ;# ptr
-	.4byte 0x8014B8BC  ;# ptr
-	.4byte 0x8014B90C  ;# ptr
-	.4byte 0x801329BC  ;# ptr
-	.4byte 0x801329A4  ;# ptr
-	.4byte 0x8014D808  ;# ptr
-
+	.4byte lbl_801329D4
+	.4byte func_8014C9DC
+	.4byte lbl_8014D2D8
+	.4byte func_8014D34C
+	.4byte lbl_8014D430
+	.4byte lbl_8014D59C
+	.4byte lbl_8014D678
+	.4byte lbl_801329CC
+	.4byte lbl_801329C4
+	.4byte lbl_801329B4
+	.4byte lbl_801329AC
+	.4byte lbl_8013299C
+	.4byte lbl_80132994
+	.4byte lbl_8013298C
+	.4byte lbl_8014D800
+	.4byte func_8014D788
+	.4byte lbl_8014B8BC
+	.4byte lbl_8014B90C
+	.4byte lbl_801329BC
+	.4byte lbl_801329A4
+	.4byte lbl_8014D808
 
 glabel lbl_801AC0A0
 	# ROM: 0x1A81A0
@@ -39651,38 +39101,36 @@ glabel lbl_801AC0A0
 	.balign 8
 	.asciz "The font has unknown block('%c%c%c%c')."
 
-
 glabel lbl_801AC900
 	# ROM: 0x1A8A00
 	.4byte 0
 	.4byte 0
-	.4byte 0x8014D860  ;# ptr
-	.4byte 0x8014EB20  ;# ptr
-	.4byte 0x8014ED28  ;# ptr
-	.4byte 0x8014EF30  ;# ptr
-	.4byte 0x8014F138  ;# ptr
-	.4byte 0x8014F348  ;# ptr
-	.4byte 0x8014F558  ;# ptr
-	.4byte 0x8014F764  ;# ptr
-	.4byte 0x8014F970  ;# ptr
-	.4byte 0x8014FB7C  ;# ptr
-	.4byte 0x8014FB84  ;# ptr
-	.4byte 0x8014FD90  ;# ptr
-	.4byte 0x8014FF9C  ;# ptr
-	.4byte 0x801501B0  ;# ptr
-	.4byte 0x801504BC  ;# ptr
-	.4byte 0x801508A8  ;# ptr
-	.4byte 0x80150AFC  ;# ptr
-	.4byte 0x80150B48  ;# ptr
-	.4byte 0x801511E4  ;# ptr
-	.4byte 0x801515CC  ;# ptr
-
+	.4byte lbl_8014D860
+	.4byte lbl_8014EB20
+	.4byte lbl_8014ED28
+	.4byte lbl_8014EF30
+	.4byte lbl_8014F138
+	.4byte lbl_8014F348
+	.4byte lbl_8014F558
+	.4byte lbl_8014F764
+	.4byte lbl_8014F970
+	.4byte lbl_8014FB7C
+	.4byte lbl_8014FB84
+	.4byte lbl_8014FD90
+	.4byte lbl_8014FF9C
+	.4byte lbl_801501B0
+	.4byte lbl_801504BC
+	.4byte lbl_801508A8
+	.4byte lbl_80150AFC
+	.4byte lbl_80150B48
+	.4byte lbl_801511E4
+	.4byte lbl_801515CC
 
 glabel lbl_801AC958
 	# ROM: 0x1A8A58
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80146E3C  ;# ptr
+	.4byte lbl_80146E3C
 	.asciz "ut_ResFontBase.cpp"
 	.balign 4
 	.asciz "NW4HBM:Pointer Error\npUserBuffer(=%p) is not valid pointer."
@@ -39707,38 +39155,36 @@ glabel lbl_801AC958
 	.asciz "unknwon MAPMETHOD"
 	.balign 4
 
-
 glabel lbl_801ACBC0
 	# ROM: 0x1A8CC0
 	.4byte 0
 	.4byte 0
-	.4byte 0x8014E880  ;# ptr
-	.4byte 0x8014EB20  ;# ptr
-	.4byte 0x8014ED28  ;# ptr
-	.4byte 0x8014EF30  ;# ptr
-	.4byte 0x8014F138  ;# ptr
-	.4byte 0x8014F348  ;# ptr
-	.4byte 0x8014F558  ;# ptr
-	.4byte 0x8014F764  ;# ptr
-	.4byte 0x8014F970  ;# ptr
-	.4byte 0x8014FB7C  ;# ptr
-	.4byte 0x8014FB84  ;# ptr
-	.4byte 0x8014FD90  ;# ptr
-	.4byte 0x8014FF9C  ;# ptr
-	.4byte 0x801501B0  ;# ptr
-	.4byte 0x801504BC  ;# ptr
-	.4byte 0x801508A8  ;# ptr
-	.4byte 0x80150AFC  ;# ptr
-	.4byte 0x80150B48  ;# ptr
-	.4byte 0x801511E4  ;# ptr
-	.4byte 0x801515CC  ;# ptr
-
+	.4byte func_8014E880
+	.4byte lbl_8014EB20
+	.4byte lbl_8014ED28
+	.4byte lbl_8014EF30
+	.4byte lbl_8014F138
+	.4byte lbl_8014F348
+	.4byte lbl_8014F558
+	.4byte lbl_8014F764
+	.4byte lbl_8014F970
+	.4byte lbl_8014FB7C
+	.4byte lbl_8014FB84
+	.4byte lbl_8014FD90
+	.4byte lbl_8014FF9C
+	.4byte lbl_801501B0
+	.4byte lbl_801504BC
+	.4byte lbl_801508A8
+	.4byte lbl_80150AFC
+	.4byte lbl_80150B48
+	.4byte lbl_801511E4
+	.4byte lbl_801515CC
 
 glabel lbl_801ACC18
 	# ROM: 0x1A8D18
 	.4byte 0
 	.4byte 0
-	.4byte 0x80122F44  ;# ptr
+	.4byte lbl_80122F44
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -39758,7 +39204,6 @@ glabel lbl_801ACC18
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_801ACC70
 	# ROM: 0x1A8D70
@@ -39769,46 +39214,41 @@ glabel lbl_801ACC70
 	.asciz "NW4HBM:Pointer Error\npRect(=%p) is not valid pointer."
 	.balign 4
 
-
 glabel lbl_801ACD20
 	# ROM: 0x1A8E20
 	.4byte 0
 	.4byte 0
-	.4byte 0x80152938  ;# ptr
-	.4byte 0x80152978  ;# ptr
-	.4byte 0x80152CFC  ;# ptr
-
+	.4byte lbl_80152938
+	.4byte lbl_80152978
+	.4byte lbl_80152CFC
 
 glabel lbl_801ACD34
 	# ROM: 0x1A8E34
 	.4byte 0
 	.4byte 0
-	.4byte 0x8015202C  ;# ptr
-	.4byte 0x8015206C  ;# ptr
-	.4byte 0x801523F0  ;# ptr
-
+	.4byte lbl_8015202C
+	.4byte lbl_8015206C
+	.4byte lbl_801523F0
 
 glabel lbl_801ACD48
 	# ROM: 0x1A8E48
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80146C08  ;# ptr
+	.4byte lbl_80146C08
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80146948  ;# ptr
+	.4byte lbl_80146948
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80146E3C  ;# ptr
+	.4byte lbl_80146E3C
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte 0x80147050  ;# ptr
-
+	.4byte lbl_80147050
 
 glabel lbl_801ACD78
 	# ROM: 0x1A8E78
 	.asciz "ut_TextWriterBase.cpp"
 	.balign 4
-
 
 glabel lbl_801ACD90
 	# ROM: 0x1A8E90
@@ -39827,7 +39267,6 @@ glabel lbl_801ACD90
 	.balign 4
 	.asciz "size is out of bounds(%d)\n%d <= size not satisfied."
 
-
 glabel lbl_801ACF54
 	# ROM: 0x1A9054
 	.4byte 0x00000100
@@ -39842,36 +39281,30 @@ glabel lbl_801ACF54
 	.asciz "Font.h"
 	.balign 4
 
-
 glabel lbl_801AD04C
 	# ROM: 0x1A914C
 	.asciz "NW4HBM:Failed assertion mReadFunc == ReadNextCharUTF8 || mReadFunc == ReadNextCharCP1252 || mReadFunc == ReadNextCharSJIS"
 	.balign 4
-
 
 glabel lbl_801AD0C8
 	# ROM: 0x1A91C8
 	.asciz "CharStrmReader.h"
 	.balign 4
 
-
 glabel lbl_801AD0DC
 	# ROM: 0x1A91DC
 	.asciz "NW4HBM:Pointer Error\nstream(=%p) is not valid pointer."
 	.balign 4
-
 
 glabel lbl_801AD114
 	# ROM: 0x1A9214
 	.asciz "CharStrmReader.h"
 	.balign 4
 
-
 glabel lbl_801AD128
 	# ROM: 0x1A9228
 	.asciz "NW4HBM:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 4
-
 
 glabel lbl_801AD160
 	# ROM: 0x1A9260
@@ -39902,96 +39335,94 @@ glabel lbl_801AD160
 	.asciz "CharStrmReader.h"
 	.balign 4
 
-
 glabel lbl_801AD350
 	# ROM: 0x1A9450
-	.4byte 0x80246B10  ;# ptr
+	.4byte lbl_80246B10
 	.4byte 0
-	.4byte 0x8015C1D0  ;# ptr
-	.4byte 0x8015C220  ;# ptr
-	.4byte 0x80246B18  ;# ptr
-	.4byte 0
-	.4byte 0
+	.4byte lbl_8015C1D0
+	.4byte lbl_8015C220
 
+glabel lbl_801AD360
+	.4byte lbl_80246B18
+	.4byte 0
+	.4byte 0
 
 glabel lbl_801AD36C
 	# ROM: 0x1A946C
 	.asciz "bad_alloc"
 	.balign 4
 
-
 glabel lbl_801AD378
 	# ROM: 0x1A9478
-	.4byte 0x8015D78C  ;# ptr
-	.4byte 0x8015D78C  ;# ptr
-	.4byte 0x8015D6E4  ;# ptr
-	.4byte 0x8015D6F0  ;# ptr
-	.4byte 0x8015D6FC  ;# ptr
-	.4byte 0x8015D708  ;# ptr
-	.4byte 0x8015D714  ;# ptr
-	.4byte 0x8015D714  ;# ptr
-	.4byte 0x8015D720  ;# ptr
-	.4byte 0x8015D72C  ;# ptr
-	.4byte 0x8015D738  ;# ptr
-	.4byte 0x8015D744  ;# ptr
-	.4byte 0x8015D750  ;# ptr
-	.4byte 0x8015D768  ;# ptr
-	.4byte 0x8015D78C  ;# ptr
-	.4byte 0x8015D774  ;# ptr
-	.4byte 0x8015D75C  ;# ptr
-	.4byte 0x8015E230  ;# ptr
-	.4byte 0x8015DDE8  ;# ptr
-	.4byte 0x8015DDFC  ;# ptr
-	.4byte 0x8015DE28  ;# ptr
-	.4byte 0x8015DE8C  ;# ptr
-	.4byte 0x8015DED8  ;# ptr
-	.4byte 0x8015DF2C  ;# ptr
-	.4byte 0x8015DF80  ;# ptr
-	.4byte 0x8015DFD4  ;# ptr
-	.4byte 0x8015E05C  ;# ptr
-	.4byte 0x8015E0D8  ;# ptr
-	.4byte 0x8015E120  ;# ptr
-	.4byte 0x8015E19C  ;# ptr
-	.4byte 0x8015E1C4  ;# ptr
-	.4byte 0x8015E230  ;# ptr
-	.4byte 0x8015E210  ;# ptr
-	.4byte 0x8015E1B0  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E800  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E738  ;# ptr
-	.4byte 0x8015E808  ;# ptr
-	.4byte 0x8015E800  ;# ptr
-	.4byte 0x8015E758  ;# ptr
-	.4byte 0x8015E718  ;# ptr
+	.4byte lbl_8015D78C
+	.4byte lbl_8015D78C
+	.4byte lbl_8015D6E4
+	.4byte lbl_8015D6F0
+	.4byte lbl_8015D6FC
+	.4byte lbl_8015D708
+	.4byte lbl_8015D714
+	.4byte lbl_8015D714
+	.4byte lbl_8015D720
+	.4byte lbl_8015D72C
+	.4byte lbl_8015D738
+	.4byte lbl_8015D744
+	.4byte lbl_8015D750
+	.4byte lbl_8015D768
+	.4byte lbl_8015D78C
+	.4byte lbl_8015D774
+	.4byte lbl_8015D75C
+	.4byte lbl_8015E230
+	.4byte lbl_8015DDE8
+	.4byte lbl_8015DDFC
+	.4byte lbl_8015DE28
+	.4byte lbl_8015DE8C
+	.4byte lbl_8015DED8
+	.4byte lbl_8015DF2C
+	.4byte lbl_8015DF80
+	.4byte lbl_8015DFD4
+	.4byte lbl_8015E05C
+	.4byte lbl_8015E0D8
+	.4byte lbl_8015E120
+	.4byte lbl_8015E19C
+	.4byte lbl_8015E1C4
+	.4byte lbl_8015E230
+	.4byte lbl_8015E210
+	.4byte lbl_8015E1B0
+	.4byte lbl_8015E808
+	.4byte lbl_8015E800
+	.4byte lbl_8015E808
+	.4byte lbl_8015E808
+	.4byte lbl_8015E808
+	.4byte lbl_8015E808
+	.4byte lbl_8015E808
+	.4byte lbl_8015E808
+	.4byte lbl_8015E808
+	.4byte lbl_8015E808
+	.4byte lbl_8015E808
+	.4byte lbl_8015E808
+	.4byte lbl_8015E738
+	.4byte lbl_8015E808
+	.4byte lbl_8015E800
+	.4byte lbl_8015E758
+	.4byte lbl_8015E718
 	.4byte 0
-
 
 glabel lbl_801AD448
 	# ROM: 0x1A9548
-	.4byte 0x80246B30  ;# ptr
+	.4byte lbl_80246B30
 	.4byte 0
-	.4byte 0x8015E410  ;# ptr
-	.4byte 0x8015EAC4  ;# ptr
-	.4byte 0x80246B18  ;# ptr
-	.4byte 0
-	.4byte 0
+	.4byte lbl_8015E410
+	.4byte lbl_8015EAC4
 
+glabel lbl_801AD458
+	.4byte lbl_80246B18
+	.4byte 0
+	.4byte 0
 
 glabel lbl_801AD464
 	# ROM: 0x1A9564
 	.asciz "bad_exception"
 	.balign 8
-
 
 glabel lbl_801AD478
 	# ROM: 0x1A9578
@@ -40002,19 +39433,20 @@ glabel lbl_801AD478
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80243E18  ;# ptr
+	.4byte lbl_80243E18
 	.4byte 0x00000100
-	.4byte 0x80243E18  ;# ptr
+	.4byte lbl_80243E18
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801732FC  ;# ptr
-	.4byte 0x8016A534  ;# ptr
-	.4byte 0x8016A604  ;# ptr
+	.4byte lbl_801732FC
+	.4byte lbl_8016A534
+	.4byte lbl_8016A604
 	.4byte 0
-	.4byte 0x801AD4C8  ;# ptr
+	.4byte lbl_801AD4C8
+lbl_801AD4C8:
 	.4byte 0x00000001
 	.4byte 0x12800000
 	.4byte 0
@@ -40022,19 +39454,20 @@ glabel lbl_801AD478
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80243D18  ;# ptr
+	.4byte lbl_80243D18
 	.4byte 0x00000100
-	.4byte 0x80243D18  ;# ptr
+	.4byte lbl_80243D18
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801732FC  ;# ptr
-	.4byte 0x8016A534  ;# ptr
-	.4byte 0x8016A604  ;# ptr
+	.4byte lbl_801732FC
+	.4byte lbl_8016A534
+	.4byte lbl_8016A604
 	.4byte 0
-	.4byte 0x801AD518  ;# ptr
+	.4byte lbl_801AD518
+lbl_801AD518:
 	.4byte 0x00000002
 	.4byte 0x10800000
 	.4byte 0
@@ -40042,26 +39475,20 @@ glabel lbl_801AD478
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x80243C18  ;# ptr
+	.4byte lbl_80243C18
 	.4byte 0x00000100
-	.4byte 0x80243C18  ;# ptr
+	.4byte lbl_80243C18
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801732FC  ;# ptr
-	.4byte 0x8016A534  ;# ptr
-	.4byte 0x8016A604  ;# ptr
+	.4byte lbl_801732FC
+	.4byte lbl_8016A534
+	.4byte lbl_8016A604
 	.4byte 0
-	.4byte 0x801AD568  ;# ptr
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
+	.4byte lbl_801AD568
+lbl_801AD568:
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -40075,85 +39502,90 @@ glabel lbl_801AD478
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
 
 glabel lbl_801AD5B8
 	# ROM: 0x1A96B8
-	.4byte 0x8015FFE0  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x8015FFF4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x8016000C  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x80160024  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x801601D4  ;# ptr
-	.4byte 0x8016003C  ;# ptr
-	.4byte 0x80160054  ;# ptr
-	.4byte 0x8016006C  ;# ptr
-	.4byte 0x80160084  ;# ptr
-	.4byte 0x8016009C  ;# ptr
-	.4byte 0x801600B4  ;# ptr
-	.4byte 0x801600CC  ;# ptr
-	.4byte 0x801600E4  ;# ptr
-	.4byte 0x801600FC  ;# ptr
-	.4byte 0x80160114  ;# ptr
-	.4byte 0x8016012C  ;# ptr
-	.4byte 0x80160144  ;# ptr
-	.4byte 0x8016015C  ;# ptr
-	.4byte 0x80160174  ;# ptr
-	.4byte 0x8016018C  ;# ptr
-	.4byte 0x801601A4  ;# ptr
-	.4byte 0x801601BC  ;# ptr
+	.4byte lbl_8015FFE0
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_8015FFF4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_8016000C
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_80160024
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_801601D4
+	.4byte lbl_8016003C
+	.4byte lbl_80160054
+	.4byte lbl_8016006C
+	.4byte lbl_80160084
+	.4byte lbl_8016009C
+	.4byte lbl_801600B4
+	.4byte lbl_801600CC
+	.4byte lbl_801600E4
+	.4byte lbl_801600FC
+	.4byte lbl_80160114
+	.4byte lbl_8016012C
+	.4byte lbl_80160144
+	.4byte lbl_8016015C
+	.4byte lbl_80160174
+	.4byte lbl_8016018C
+	.4byte lbl_801601A4
+	.4byte lbl_801601BC
 	.4byte 0
-
 
 glabel lbl_801AD6E0
 	# ROM: 0x1A97E0
@@ -40174,33 +39606,34 @@ glabel lbl_801AD6E0
 	.4byte 0x4197D784
 	.4byte 0
 
-
 glabel lbl_801AD720
 	# ROM: 0x1A9820
-	.4byte 0x802480D0  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
+	.4byte lbl_802480D0
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
 	.4byte 0x7F7F7F7F
 	.4byte 0x7F7F7F00
-	.4byte 0x802480D4  ;# ptr
+	.4byte lbl_802480D4
 	.4byte 0x7F7F7F7F
 	.4byte 0x7F7F7F00
+lbl_801AD758:
 	.4byte 0x43000000
 	.4byte 0
-	.4byte 0x80178548  ;# ptr
-	.4byte 0x80178848  ;# ptr
-	.4byte 0x80178748  ;# ptr
-	.4byte 0x80178BE0  ;# ptr
-	.4byte 0x80178FE0  ;# ptr
-	.4byte 0x80178DE0  ;# ptr
-	.4byte 0x80162224  ;# ptr
-	.4byte 0x80162270  ;# ptr
+	.4byte lbl_80178548
+	.4byte lbl_80178848
+	.4byte lbl_80178748
+	.4byte lbl_80178BE0
+	.4byte lbl_80178FE0
+	.4byte lbl_80178DE0
+	.4byte lbl_80162224
+	.4byte lbl_80162270
+lbl_801AD780:
 	.4byte 0x00010002
 	.4byte 0x00030004
 	.4byte 0x00050006
@@ -40249,43 +39682,46 @@ glabel lbl_801AD720
 	.4byte 0x005E001D
 	.4byte 0x001E001F
 	.4byte 0x00200000
+lbl_801AD840:
 	.4byte 0x43000000
 	.4byte 0
 	.4byte 0x00000020
 	.4byte 0x0000006E
 	.4byte 0
-	.4byte 0x801AD780  ;# ptr
+	.4byte lbl_801AD780
 	.4byte 0
+lbl_801AD85C:
 	.4byte 0x43000000
 	.4byte 0
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
 	.4byte 0x7F7F7F7F
 	.4byte 0x7F7F7F00
-	.4byte 0x802480D4  ;# ptr
+	.4byte lbl_802480D4
 	.4byte 0x7F7F7F7F
 	.4byte 0x7F7F7F00
+lbl_801AD890:
 	.4byte 0x43000000
 	.4byte 0
-	.4byte 0x802480D0  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-	.4byte 0x802480D4  ;# ptr
+	.4byte lbl_802480D0
+	.4byte lbl_802480D4
+	.4byte lbl_802480D4
 	.4byte 0
+lbl_801AD8A8:
 	.4byte 0x43000000
 	.4byte 0
-	.4byte 0x802480D8  ;# ptr
-	.4byte 0x80178948  ;# ptr
-	.4byte 0x80178958  ;# ptr
-	.4byte 0x80178964  ;# ptr
-	.4byte 0x802480E0  ;# ptr
-	.4byte 0x80178970  ;# ptr
-	.4byte 0x801789C8  ;# ptr
-	.4byte 0x802480D4  ;# ptr
-
+	.4byte lbl_802480D8
+	.4byte lbl_80178948
+	.4byte lbl_80178958
+	.4byte lbl_80178964
+	.4byte lbl_802480E0
+	.4byte lbl_80178970
+	.4byte lbl_801789C8
+	.4byte lbl_802480D4
 
 glabel lbl_801AD8D0
 	# ROM: 0x1A99D0
@@ -40302,437 +39738,426 @@ glabel lbl_801AD8D0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0x801AD840  ;# ptr
-	.4byte 0x801AD758  ;# ptr
-	.4byte 0x801AD85C  ;# ptr
-	.4byte 0x801AD890  ;# ptr
-	.4byte 0x801AD8A8  ;# ptr
-
+	.4byte lbl_801AD840
+	.4byte lbl_801AD758
+	.4byte lbl_801AD85C
+	.4byte lbl_801AD890
+	.4byte lbl_801AD8A8
 
 glabel lbl_801AD918
 	# ROM: 0x1A9A18
-	.4byte 0x80162C80  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162CE8  ;# ptr
-	.4byte 0x80162C30  ;# ptr
-	.4byte 0x80162CD4  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162BE8  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162C80  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162D64  ;# ptr
-	.4byte 0x80162BE8  ;# ptr
-	.4byte 0x80162CE8  ;# ptr
-	.4byte 0x80162C30  ;# ptr
-	.4byte 0x80162CD4  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162BE8  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DC8  ;# ptr
-	.4byte 0x80162BE8  ;# ptr
-	.4byte 0x80162D40  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162D9C  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162BE8  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162DE0  ;# ptr
-	.4byte 0x80162BE8  ;# ptr
-	.4byte 0x801628E4  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x801628F8  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x801628DC  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x801628D4  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x80162914  ;# ptr
-	.4byte 0x80162900  ;# ptr
-
+	.4byte lbl_80162C80
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162CE8
+	.4byte lbl_80162C30
+	.4byte lbl_80162CD4
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162BE8
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162C80
+	.4byte lbl_80162DE0
+	.4byte lbl_80162D64
+	.4byte lbl_80162BE8
+	.4byte lbl_80162CE8
+	.4byte lbl_80162C30
+	.4byte lbl_80162CD4
+	.4byte lbl_80162DE0
+	.4byte lbl_80162BE8
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DC8
+	.4byte lbl_80162BE8
+	.4byte lbl_80162D40
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162D9C
+	.4byte lbl_80162DE0
+	.4byte lbl_80162BE8
+	.4byte lbl_80162DE0
+	.4byte lbl_80162DE0
+	.4byte lbl_80162BE8
+	.4byte lbl_801628E4
+	.4byte lbl_80162914
+	.4byte lbl_80162914
+	.4byte lbl_801628F8
+	.4byte lbl_80162914
+	.4byte lbl_80162914
+	.4byte lbl_80162914
+	.4byte lbl_80162914
+	.4byte lbl_80162914
+	.4byte lbl_80162914
+	.4byte lbl_80162914
+	.4byte lbl_801628DC
+	.4byte lbl_80162914
+	.4byte lbl_801628D4
+	.4byte lbl_80162914
+	.4byte lbl_80162914
+	.4byte lbl_80162900
 
 glabel lbl_801ADA3C
 	# ROM: 0x1A9B3C
-	.4byte 0x80162ED8  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162E94  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162E94  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EB8  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EC8  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162EE4  ;# ptr
-	.4byte 0x80162ED8  ;# ptr
-
+	.4byte lbl_80162ED8
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162E94
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162E94
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EB8
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EC8
+	.4byte lbl_80162EE4
+	.4byte lbl_80162EE4
+	.4byte lbl_80162ED8
 
 glabel lbl_801ADAC0
 	# ROM: 0x1A9BC0
-	.4byte 0x80163140  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x801630DC  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x801630DC  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x80163120  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x80163130  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x8016314C  ;# ptr
-	.4byte 0x80163140  ;# ptr
-	.4byte 0x801645F0  ;# ptr
-	.4byte 0x801647E8  ;# ptr
-	.4byte 0x801645F8  ;# ptr
-	.4byte 0x80164600  ;# ptr
-	.4byte 0x80164628  ;# ptr
-	.4byte 0x801647E8  ;# ptr
-	.4byte 0x80164608  ;# ptr
-	.4byte 0x80164618  ;# ptr
-	.4byte 0x80164620  ;# ptr
-
+	.4byte lbl_80163140
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_801630DC
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_801630DC
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_80163120
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_80163130
+	.4byte lbl_8016314C
+	.4byte lbl_8016314C
+	.4byte lbl_80163140
+	.4byte lbl_801645F0
+	.4byte lbl_801647E8
+	.4byte lbl_801645F8
+	.4byte lbl_80164600
+	.4byte lbl_80164628
+	.4byte lbl_801647E8
+	.4byte lbl_80164608
+	.4byte lbl_80164618
+	.4byte lbl_80164620
 
 glabel lbl_801ADB68
 	# ROM: 0x1A9C68
-	.4byte 0x80165234  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165234  ;# ptr
-	.4byte 0x80165234  ;# ptr
-	.4byte 0x80165234  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x8016521C  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165370  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165234  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x8016528C  ;# ptr
-	.4byte 0x8016521C  ;# ptr
-	.4byte 0x80165234  ;# ptr
-	.4byte 0x80165234  ;# ptr
-	.4byte 0x80165234  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x8016521C  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165568  ;# ptr
-	.4byte 0x8016521C  ;# ptr
-	.4byte 0x80165278  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x801652B8  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x8016521C  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x80165560  ;# ptr
-	.4byte 0x8016521C  ;# ptr
-
+	.4byte lbl_80165234
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165234
+	.4byte lbl_80165234
+	.4byte lbl_80165234
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_8016521C
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165370
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165234
+	.4byte lbl_80165560
+	.4byte lbl_8016528C
+	.4byte lbl_8016521C
+	.4byte lbl_80165234
+	.4byte lbl_80165234
+	.4byte lbl_80165234
+	.4byte lbl_80165560
+	.4byte lbl_8016521C
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_80165568
+	.4byte lbl_8016521C
+	.4byte lbl_80165278
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_801652B8
+	.4byte lbl_80165560
+	.4byte lbl_8016521C
+	.4byte lbl_80165560
+	.4byte lbl_80165560
+	.4byte lbl_8016521C
 
 glabel lbl_801ADC48
 	# ROM: 0x1A9D48
-	.4byte 0x80165BEC  ;# ptr
-	.4byte 0x80165BF4  ;# ptr
-	.4byte 0x80165BFC  ;# ptr
-	.4byte 0x80165C04  ;# ptr
-	.4byte 0x80165C0C  ;# ptr
-	.4byte 0x80165C20  ;# ptr
-	.4byte 0x80165C28  ;# ptr
-	.4byte 0x80165C30  ;# ptr
-
+	.4byte lbl_80165BEC
+	.4byte lbl_80165BF4
+	.4byte lbl_80165BFC
+	.4byte lbl_80165C04
+	.4byte lbl_80165C0C
+	.4byte lbl_80165C20
+	.4byte lbl_80165C28
+	.4byte lbl_80165C30
 
 glabel lbl_801ADC68
 	# ROM: 0x1A9D68
-	.4byte 0x80165A54  ;# ptr
-	.4byte 0x80165A5C  ;# ptr
-	.4byte 0x80165A64  ;# ptr
-	.4byte 0x80165A6C  ;# ptr
-	.4byte 0x80165A74  ;# ptr
-	.4byte 0x80165A88  ;# ptr
-	.4byte 0x80165A90  ;# ptr
-	.4byte 0x80165A98  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x80167FA8  ;# ptr
-	.4byte 0x80168070  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x801680B8  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x80168108  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x801682A0  ;# ptr
-	.4byte 0x80168108  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x801683F4  ;# ptr
-	.4byte 0x801684BC  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168504  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168554  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168750  ;# ptr
-	.4byte 0x80168554  ;# ptr
-	.4byte 0x8016A370  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169990  ;# ptr
-	.4byte 0x80169AC8  ;# ptr
-	.4byte 0x8016A084  ;# ptr
-	.4byte 0x80169BBC  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169BF8  ;# ptr
-	.4byte 0x80169C70  ;# ptr
-	.4byte 0x80169CA0  ;# ptr
-	.4byte 0x80169CC0  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169D50  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169E5C  ;# ptr
-	.4byte 0x80169E84  ;# ptr
-	.4byte 0x80169EC0  ;# ptr
-	.4byte 0x80169F2C  ;# ptr
-	.4byte 0x80169F84  ;# ptr
-	.4byte 0x80169FD0  ;# ptr
-	.4byte 0x8016A058  ;# ptr
-	.4byte 0x8016A0C0  ;# ptr
-	.4byte 0x8016A328  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x801698EC  ;# ptr
-	.4byte 0x80169A38  ;# ptr
-	.4byte 0x80169B70  ;# ptr
-	.4byte 0x80169B9C  ;# ptr
-	.4byte 0x80169BD8  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169C28  ;# ptr
-	.4byte 0x80169A38  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169D08  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169D2C  ;# ptr
-	.4byte 0x80169D70  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169D8C  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169E30  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169EA4  ;# ptr
-	.4byte 0x80169EE8  ;# ptr
-	.4byte 0x8016A390  ;# ptr
-	.4byte 0x80169FB0  ;# ptr
-	.4byte 0x8016A02C  ;# ptr
-	.4byte 0x8016A084  ;# ptr
-	.4byte 0x8016A0E4  ;# ptr
-
+	.4byte lbl_80165A54
+	.4byte lbl_80165A5C
+	.4byte lbl_80165A64
+	.4byte lbl_80165A6C
+	.4byte lbl_80165A74
+	.4byte lbl_80165A88
+	.4byte lbl_80165A90
+	.4byte lbl_80165A98
+	.4byte lbl_801682A0
+	.4byte lbl_80167FA8
+	.4byte lbl_80168070
+	.4byte lbl_801682A0
+	.4byte lbl_801680B8
+	.4byte lbl_801682A0
+	.4byte lbl_801682A0
+	.4byte lbl_801682A0
+	.4byte lbl_80168108
+	.4byte lbl_801682A0
+	.4byte lbl_801682A0
+	.4byte lbl_801682A0
+	.4byte lbl_801682A0
+	.4byte lbl_801682A0
+	.4byte lbl_801682A0
+	.4byte lbl_801682A0
+	.4byte lbl_80168108
+	.4byte lbl_80168750
+	.4byte lbl_801683F4
+	.4byte lbl_801684BC
+	.4byte lbl_80168750
+	.4byte lbl_80168504
+	.4byte lbl_80168750
+	.4byte lbl_80168750
+	.4byte lbl_80168750
+	.4byte lbl_80168554
+	.4byte lbl_80168750
+	.4byte lbl_80168750
+	.4byte lbl_80168750
+	.4byte lbl_80168750
+	.4byte lbl_80168750
+	.4byte lbl_80168750
+	.4byte lbl_80168750
+	.4byte lbl_80168554
+	.4byte lbl_8016A370
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_80169990
+	.4byte lbl_80169AC8
+	.4byte lbl_8016A084
+	.4byte lbl_80169BBC
+	.4byte lbl_8016A390
+	.4byte lbl_80169BF8
+	.4byte lbl_80169C70
+	.4byte lbl_80169CA0
+	.4byte lbl_80169CC0
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_80169D50
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_80169E5C
+	.4byte lbl_80169E84
+	.4byte lbl_80169EC0
+	.4byte lbl_80169F2C
+	.4byte lbl_80169F84
+	.4byte lbl_80169FD0
+	.4byte lbl_8016A058
+	.4byte lbl_8016A0C0
+	.4byte lbl_8016A328
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_801698EC
+	.4byte lbl_80169A38
+	.4byte lbl_80169B70
+	.4byte lbl_80169B9C
+	.4byte lbl_80169BD8
+	.4byte lbl_8016A390
+	.4byte lbl_80169C28
+	.4byte lbl_80169A38
+	.4byte lbl_8016A390
+	.4byte lbl_80169D08
+	.4byte lbl_8016A390
+	.4byte lbl_8016A390
+	.4byte lbl_80169D2C
+	.4byte lbl_80169D70
+	.4byte lbl_8016A390
+	.4byte lbl_80169D8C
+	.4byte lbl_8016A390
+	.4byte lbl_80169E30
+	.4byte lbl_8016A390
+	.4byte lbl_80169EA4
+	.4byte lbl_80169EE8
+	.4byte lbl_8016A390
+	.4byte lbl_80169FB0
+	.4byte lbl_8016A02C
+	.4byte lbl_8016A084
+	.4byte lbl_8016A0E4
 
 glabel lbl_801ADE68
 	# ROM: 0x1A9F68
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FA40  ;# ptr
-	.4byte 0x8016FA50  ;# ptr
-	.4byte 0x8016FA60  ;# ptr
-	.4byte 0x8016FA80  ;# ptr
-	.4byte 0x8016FA90  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FA70  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FAA0  ;# ptr
-	.4byte 0x8016FAB0  ;# ptr
-	.4byte 0x8016FAC0  ;# ptr
-	.4byte 0x8016FAD0  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB1C  ;# ptr
-	.4byte 0x8016FB10  ;# ptr
-	.4byte 0x8016FAE0  ;# ptr
-	.4byte 0x8016FAF0  ;# ptr
-	.4byte 0x8016FB00  ;# ptr
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FA40
+	.4byte lbl_8016FA50
+	.4byte lbl_8016FA60
+	.4byte lbl_8016FA80
+	.4byte lbl_8016FA90
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FA70
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FAA0
+	.4byte lbl_8016FAB0
+	.4byte lbl_8016FAC0
+	.4byte lbl_8016FAD0
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB1C
+	.4byte lbl_8016FB10
+	.4byte lbl_8016FAE0
+	.4byte lbl_8016FAF0
+	.4byte lbl_8016FB00
 	.4byte 0
-
 
 glabel lbl_801ADED8
 	# ROM: 0x1A9FD8
-	.4byte 0x801706E4  ;# ptr
-	.4byte 0x80170704  ;# ptr
-	.4byte 0x801706DC  ;# ptr
-	.4byte 0x80170704  ;# ptr
-	.4byte 0x801706EC  ;# ptr
-	.4byte 0x801706F4  ;# ptr
-	.4byte 0x801706FC  ;# ptr
-
+	.4byte lbl_801706E4
+	.4byte lbl_80170704
+	.4byte lbl_801706DC
+	.4byte lbl_80170704
+	.4byte lbl_801706EC
+	.4byte lbl_801706F4
+	.4byte lbl_801706FC
 
 glabel lbl_801ADEF4
 	# ROM: 0x1A9FF4
-	.4byte 0x80170928  ;# ptr
-	.4byte 0x80170948  ;# ptr
-	.4byte 0x80170920  ;# ptr
-	.4byte 0x80170948  ;# ptr
-	.4byte 0x80170930  ;# ptr
-	.4byte 0x80170938  ;# ptr
-	.4byte 0x80170940  ;# ptr
-
+	.4byte lbl_80170928
+	.4byte lbl_80170948
+	.4byte lbl_80170920
+	.4byte lbl_80170948
+	.4byte lbl_80170930
+	.4byte lbl_80170938
+	.4byte lbl_80170940
 
 glabel lbl_801ADF10
 	# ROM: 0x1AA010
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_801ADF1C
 	# ROM: 0x1AA01C
@@ -40741,7 +40166,6 @@ glabel lbl_801ADF1C
 	.4byte 0
 	.4byte 0x01000000
 
-
 glabel lbl_801ADF2C
 	# ROM: 0x1AA02C
 	.4byte 0
@@ -40749,7 +40173,6 @@ glabel lbl_801ADF2C
 	.4byte 0
 	.4byte 0
 	.4byte 0
-
 
 glabel lbl_801ADF40
 	# ROM: 0x1AA040
@@ -40769,7 +40192,6 @@ glabel lbl_801ADF40
 	.4byte 0x00001400
 	.4byte 0x00001700
 	.4byte 0
-
 
 glabel lbl_801ADF80
 	# ROM: 0x1AA080

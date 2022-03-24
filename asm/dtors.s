@@ -6,8 +6,8 @@
 
 glabel lbl_80174260
 	# ROM: 0x170360
-	.4byte 0x8015C0E0  ;# ptr
-	.4byte 0x8015D140  ;# ptr
+	.4byte lbl_8015C0E0
+	.4byte lbl_8015D140
 	.4byte 0
 	.4byte 0
 	.4byte 0

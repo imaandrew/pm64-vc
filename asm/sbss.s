@@ -704,28 +704,52 @@ glabel lbl_80246EF0
 	.skip 0x8
 
 glabel lbl_80246EF8
-	.skip 0x10
+	.skip 0x4
+
+glabel lbl_80246EFC
+	.skip 0x4
+
+glabel lbl_80246F00
+	.skip 0x4
+
+glabel lbl_80246F04
+	.skip 0x4
 
 glabel lbl_80246F08
 	.skip 0x4
 
 glabel lbl_80246F0C
-	.skip 0x8
+	.skip 0x4
+
+glabel lbl_80246F10
+	.skip 0x4
 
 glabel lbl_80246F14
-	.skip 0xC
+	.skip 0x4
+
+glabel lbl_80246F18
+	.skip 0x4
+
+glabel lbl_80246F1C
+	.skip 0x4
 
 glabel lbl_80246F20
 	.skip 0x4
 
 glabel lbl_80246F24
-	.skip 0x8
+	.skip 0x4
+
+glabel lbl_80246F28
+	.skip 0x4
 
 glabel lbl_80246F2C
 	.skip 0x4
 
 glabel lbl_80246F30
-	.skip 0x8
+	.skip 0x4
+
+glabel lbl_80246F34
+	.skip 0x4
 
 glabel lbl_80246F38
 	.skip 0x4
@@ -734,34 +758,184 @@ glabel lbl_80246F3C
 	.skip 0x4
 
 glabel lbl_80246F40
-	.skip 0xC
+	.skip 0x4
+
+glabel lbl_80246F44
+	.skip 0x4
+
+glabel lbl_80246F48
+	.skip 0x4
 
 glabel lbl_80246F4C
 	.skip 0x4
 
 glabel lbl_80246F50
-	.skip 0x8
+	.skip 0x4
+
+glabel lbl_80246F54
+	.skip 0x4
 
 glabel lbl_80246F58
-	.skip 0x14
+	.skip 0x4
+
+glabel lbl_80246F5C
+	.skip 0x4
+
+glabel lbl_80246F60
+	.skip 0x4
+
+glabel lbl_80246F64
+	.skip 0x4
+
+glabel lbl_80246F68
+	.skip 0x4
 
 glabel lbl_80246F6C
-	.skip 0x8
+	.skip 0x4
+
+glabel lbl_80246F70
+	.skip 0x4
 
 glabel lbl_80246F74
 	.skip 0x4
 
 glabel lbl_80246F78
-	.skip 0x1C
+	.skip 0x4
+
+glabel lbl_80246F7C
+	.skip 0x4
+
+glabel lbl_80246F80
+	.skip 0x4
+
+glabel lbl_80246F84
+	.skip 0x4
+
+glabel lbl_80246F88
+	.skip 0x4
+
+glabel lbl_80246F8C
+	.skip 0x4
+
+glabel lbl_80246F90
+	.skip 0x4
 
 glabel lbl_80246F94
-	.skip 0x2C
+	.skip 0x4
+
+glabel lbl_80246F98
+	.skip 0x4
+
+glabel lbl_80246F9C
+	.skip 0x4
+
+glabel lbl_80246FA0
+	.skip 0x4
+
+glabel lbl_80246FA4
+	.skip 0x4
+
+glabel lbl_80246FA8
+	.skip 0x4
+
+glabel lbl_80246FAC
+	.skip 0x4
+
+glabel lbl_80246FB0
+	.skip 0x4
+
+glabel lbl_80246FB4
+	.skip 0x4
+
+glabel lbl_80246FB8
+	.skip 0x4
+
+glabel lbl_80246FBC
+	.skip 0x4
 
 glabel lbl_80246FC0
-	.skip 0x8
+	.skip 0x4
+
+glabel lbl_80246FC4
+	.skip 0x4
 
 glabel lbl_80246FC8
-	.skip 0x68
+	.skip 0x4
+
+glabel lbl_80246FCC
+	.skip 0x4
+
+glabel lbl_80246FD0
+	.skip 0x4
+
+glabel lbl_80246FD4
+	.skip 0x4
+
+glabel lbl_80246FD8
+	.skip 0x4
+
+glabel lbl_80246FDC
+	.skip 0x4
+
+glabel lbl_80246FE0
+	.skip 0x4
+
+glabel lbl_80246FE4
+	.skip 0x4
+
+glabel lbl_80246FE8
+	.skip 0x4
+
+glabel lbl_80246FEC
+	.skip 0x4
+
+glabel lbl_80246FF0
+	.skip 0x4
+
+glabel lbl_80246FF4
+	.skip 0x4
+
+glabel lbl_80246FF8
+	.skip 0x4
+
+glabel lbl_80246FFC
+	.skip 0x4
+
+glabel lbl_80247000
+	.skip 0x4
+
+glabel lbl_80247004
+	.skip 0x4
+
+glabel lbl_80247008
+	.skip 0x4
+
+glabel lbl_8024700C
+	.skip 0x4
+
+glabel lbl_80247010
+	.skip 0x4
+
+glabel lbl_80247014
+	.skip 0x4
+
+glabel lbl_80247018
+	.skip 0x4
+
+glabel lbl_8024701C
+	.skip 0x4
+
+glabel lbl_80247020
+	.skip 0x4
+
+glabel lbl_80247024
+	.skip 0x4
+
+glabel lbl_80247028
+	.skip 0x4
+
+glabel lbl_8024702C
+	.skip 0x4
 
 glabel lbl_80247030
 	.skip 0x4
@@ -770,10 +944,85 @@ glabel lbl_80247034
 	.skip 0x4
 
 glabel lbl_80247038
-	.skip 0x64
+	.skip 0x4
+
+glabel lbl_8024703C
+	.skip 0x4
+
+glabel lbl_80247040
+	.skip 0x4
+
+glabel lbl_80247044
+	.skip 0x4
+
+glabel lbl_80247048
+	.skip 0x4
+
+glabel lbl_8024704C
+	.skip 0x4
+
+glabel lbl_80247050
+	.skip 0x4
+
+glabel lbl_80247054
+	.skip 0x4
+
+glabel lbl_80247058
+	.skip 0x4
+
+glabel lbl_8024705C
+	.skip 0x4
+
+glabel lbl_80247060
+	.skip 0x4
+
+glabel lbl_80247064
+	.skip 0x4
+
+glabel lbl_80247068
+	.skip 0x4
+
+glabel lbl_8024706C
+	.skip 0x4
+
+glabel lbl_80247070
+	.skip 0x4
+
+glabel lbl_80247074
+	.skip 0x4
+
+glabel lbl_80247078
+	.skip 0x4
+
+glabel lbl_8024707C
+	.skip 0x4
+
+glabel lbl_80247080
+	.skip 0x4
+
+glabel lbl_80247084
+	.skip 0x4
+
+glabel lbl_80247088
+	.skip 0x4
+
+glabel lbl_8024708C
+	.skip 0x4
+
+glabel lbl_80247090
+	.skip 0x4
+
+glabel lbl_80247094
+	.skip 0x4
+
+glabel lbl_80247098
+	.skip 0x4
 
 glabel lbl_8024709C
-	.skip 0x8
+	.skip 0x4
+
+glabel lbl_802470A0
+	.skip 0x4
 
 glabel lbl_802470A4
 	.skip 0x4

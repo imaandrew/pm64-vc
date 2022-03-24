@@ -119,7 +119,10 @@ glabel lbl_801B1770
 	.skip 0x2250
 
 glabel lbl_801B39C0
-	.skip 0x320
+	.skip 0x2E0
+
+glabel lbl_801B3CA0
+	.skip 0x40
 
 glabel lbl_801B3CE0
 	.skip 0x40
@@ -143,7 +146,10 @@ glabel lbl_801B3E50
 	.skip 0x70
 
 glabel lbl_801B3EC0
-	.skip 0x10760
+	.skip 0x11C0
+
+glabel lbl_801B5080
+	.skip 0xF5A0
 
 glabel lbl_801C4620
 	.skip 0x2C8
@@ -248,7 +254,10 @@ glabel lbl_801C5B50
 	.skip 0x20
 
 glabel lbl_801C5B70
-	.skip 0x680
+	.skip 0x80
+
+glabel lbl_801C5BF0
+	.skip 0x600
 
 glabel lbl_801C61F0
 	.skip 0x24
@@ -347,7 +356,10 @@ glabel lbl_801CF320
 	.skip 0x80
 
 glabel lbl_801CF3A0
-	.skip 0x7800
+	.skip 0x1B10
+
+glabel lbl_801D0EB0
+	.skip 0x5CF0
 
 glabel lbl_801D6BA0
 	.skip 0x1800
@@ -734,7 +746,16 @@ glabel lbl_80243BD0
 	.skip 0x10
 
 glabel lbl_80243BE0
-	.skip 0x338
+	.skip 0x38
+
+glabel lbl_80243C18
+	.skip 0x100
+
+glabel lbl_80243D18
+	.skip 0x100
+
+glabel lbl_80243E18
+	.skip 0x100
 
 glabel lbl_80243F18
 	.skip 0x20

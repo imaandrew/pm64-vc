@@ -2,7 +2,6 @@
 
 .section .text, "ax"
 
-
 glabel lbl_800438B0
 /* 800438B0 0003EDD0  38 60 00 00 */	li r3, 0
 /* 800438B4 0003EDD4  4E 80 00 20 */	blr 

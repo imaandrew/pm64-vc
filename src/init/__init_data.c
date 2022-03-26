@@ -9,8 +9,8 @@ typedef struct {
     unsigned int len;
 } __bss_init;
 
-extern __data_inf __rom_copy_info[];
-extern __bss_init __bss_init_info[];
+extern __data_inf _rom_copy_info[];
+extern __bss_init _bss_init_info[];
 
 void *memcpy(void *dst, void *src, unsigned int len);
 void __flush_cache(void *src, unsigned int len);
@@ -21,14 +21,14 @@ void __init_data(void) {
     __data_inf *data_p;
     __bss_init *bss_p;
 
-    for(data_p = __rom_copy_info; data_p->len != 0; data_p++){
+    for(data_p = _rom_copy_info; data_p->len != 0; data_p++){
         if(data_p->src != data_p->dst) {
             memcpy(data_p->dst, data_p->src, data_p->len);
             __flush_cache(data_p->dst, data_p->len);
         }
     }
 
-    for(bss_p = __bss_init_info; bss_p->len != 0; bss_p++) {
+    for(bss_p = _bss_init_info; bss_p->len != 0; bss_p++) {
         if(bss_p->len != 0){
             memset(bss_p->src, 0, data_p->len);
         }

@@ -40205,10 +40205,4 @@ glabel lbl_801ADF80
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
 

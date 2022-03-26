@@ -443,10 +443,4 @@ glabel lbl_80007088
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
 

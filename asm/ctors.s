@@ -28,6 +28,4 @@ glabel lbl_80174200
 	.4byte lbl_8014D810
 	.4byte lbl_8015BF40
 	.4byte 0
-	.4byte 0
-	.4byte 0
 

@@ -9,9 +9,3 @@ glabel lbl_80174260
 	.4byte lbl_8015C0E0
 	.4byte lbl_8015D140
 	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-

@@ -818,4 +818,4 @@ glabel lbl_80245F60
 	.skip 0x500
 
 glabel lbl_80246460
-	.skip 0x20
+	.skip 0x1C

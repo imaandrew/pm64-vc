@@ -5,8 +5,8 @@ glabel __init_data
 /* 80004244 00000344  93 E1 00 1C */	stw r31, 0x1c(r1)
 /* 80004248 00000348  93 C1 00 18 */	stw r30, 0x18(r1)
 /* 8000424C 0000034C  93 A1 00 14 */	stw r29, 0x14(r1)
-/* 80004250 00000350  3F A0 80 00 */	lis r29, __rom_copy_info@ha
-/* 80004254 00000354  3B BD 64 20 */	addi r29, r29, __rom_copy_info@l
+/* 80004250 00000350  3F A0 80 00 */	lis r29, _rom_copy_info@ha
+/* 80004254 00000354  3B BD 64 20 */	addi r29, r29, _rom_copy_info@l
 lbl_80004258:
 /* 80004258 00000358  83 DD 00 08 */	lwz r30, 8(r29)
 /* 8000425C 0000035C  2C 1E 00 00 */	cmpwi r30, 0
@@ -26,8 +26,8 @@ lbl_80004290:
 /* 80004290 00000390  3B BD 00 0C */	addi r29, r29, 0xc
 /* 80004294 00000394  4B FF FF C4 */	b lbl_80004258
 lbl_80004298:
-/* 80004298 00000398  3F A0 80 00 */	lis r29, __bss_init_info@ha
-/* 8000429C 0000039C  3B BD 64 A4 */	addi r29, r29, __bss_init_info@l
+/* 80004298 00000398  3F A0 80 00 */	lis r29, _bss_init_info@ha
+/* 8000429C 0000039C  3B BD 64 A4 */	addi r29, r29, _bss_init_info@l
 lbl_800042A0:
 /* 800042A0 000003A0  80 BD 00 04 */	lwz r5, 4(r29)
 /* 800042A4 000003A4  2C 05 00 00 */	cmpwi r5, 0

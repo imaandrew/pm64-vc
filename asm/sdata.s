@@ -1252,6 +1252,4 @@ glabel lbl_80246B50
 	# ROM: 0x1AA790
 	.4byte 0x7FF00000
 	.4byte 0
-	.4byte 0
-	.4byte 0
 

@@ -2902,6 +2902,4 @@ glabel lbl_802486B0
 	# ROM: 0x1AB650
 	.4byte 0x3FF00000
 	.4byte 0
-	.4byte 0
-	.4byte 0
 

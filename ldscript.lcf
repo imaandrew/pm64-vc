@@ -16,7 +16,6 @@ SECTIONS {
         TRK_mem.o(.text)
         __exception.o(.init)
         init1.o(.text)
-        initdata.o(.rodata)
         *(.init)
     }
 

@@ -189,40 +189,40 @@ glabel lbl_extabindex
 	.4byte lbl_8015C1D0
 	.4byte 0x00000040
 	.4byte lbl_800066E4
-	.4byte lbl_8015C488
+	.4byte __construct_new_array
 	.4byte 0x00000104
 	.4byte lbl_800066EC
-	.4byte lbl_8015C58C
+	.4byte __dt__26__partial_array_destructorFv
 	.4byte 0x000000BC
 	.4byte lbl_80006704
-	.4byte func_8015C648
+	.4byte __construct_array
 	.4byte 0x000000F8
 	.4byte lbl_8000670C
 	.4byte __destroy_arr
 	.4byte 0x00000078
 	.4byte lbl_80006724
-	.4byte func_8015D474
+	.4byte ExPPC_FindExceptionRecord__FPcP15MWExceptionInfo
 	.4byte 0x000001B0
 	.4byte lbl_8000672C
-	.4byte func_8015D624
+	.4byte ExPPC_NextAction__FP14ActionIterator
 	.4byte 0x000001B0
 	.4byte lbl_80006734
-	.4byte func_8015D7D4
+	.4byte ExPPC_PopStackFrame__FP12ThrowContextP15MWExceptionInfo
 	.4byte 0x00000578
 	.4byte lbl_8000673C
-	.4byte func_8015DD4C
+	.4byte ExPPC_UnwindStack__FP12ThrowContextP15MWExceptionInfoPv
 	.4byte 0x0000050C
 	.4byte lbl_80006744
-	.4byte func_8015E258
+	.4byte __unexpected
 	.4byte 0x000001B8
 	.4byte lbl_80006758
-	.4byte lbl_8015E410
+	.4byte __dt__Q23std13bad_exceptionFv
 	.4byte 0x00000040
 	.4byte lbl_80006784
-	.4byte func_8015E554
+	.4byte ExPPC_ThrowHandler__FP12ThrowContext
 	.4byte 0x00000400
 	.4byte lbl_8000678C
-	.4byte func_8015EE44
+	.4byte Block_subBlock
 	.4byte 0x00000150
 	.4byte lbl_800067A0
 	.4byte func_8015F03C
@@ -234,40 +234,40 @@ glabel lbl_extabindex
 	.4byte func_8015F47C
 	.4byte 0x00000208
 	.4byte lbl_800067B8
-	.4byte func_8015F684
+	.4byte deallocate_from_fixed_pools
 	.4byte 0x000001EC
 	.4byte lbl_800067C0
 	.4byte func_8015F870
 	.4byte 0x000000A0
 	.4byte lbl_800067C8
-	.4byte func_8015F910
+	.4byte free
 	.4byte 0x00000130
 	.4byte lbl_800067D0
-	.4byte lbl_8015FA40
+	.4byte __close_all
 	.4byte 0x000000A4
 	.4byte lbl_800067D8
-	.4byte func_8015FAE4
+	.4byte __flush_all
 	.4byte 0x0000006C
 	.4byte lbl_800067E0
-	.4byte func_8015FB50
+	.4byte __ull2dec
 	.4byte 0x000000DC
 	.4byte lbl_800067E8
-	.4byte func_8015FC2C
+	.4byte __timesdec
 	.4byte 0x00000288
 	.4byte lbl_800067F0
-	.4byte func_8015FFA0
+	.4byte __two_exp
 	.4byte 0x0000036C
 	.4byte lbl_800067F8
-	.4byte func_801604F0
+	.4byte __minus_dec
 	.4byte 0x0000051C
 	.4byte lbl_80006800
-	.4byte func_80160A0C
+	.4byte __num2dec_internal
 	.4byte 0x00000164
 	.4byte lbl_80006808
-	.4byte func_80160B70
+	.4byte __num2dec
 	.4byte 0x000001A0
 	.4byte lbl_80006810
-	.4byte func_80160D10
+	.4byte __dec2num
 	.4byte 0x000007B0
 	.4byte lbl_80006818
 	.4byte func_801614D0
@@ -279,64 +279,64 @@ glabel lbl_extabindex
 	.4byte lbl_80161724
 	.4byte 0x000000F0
 	.4byte lbl_80006830
-	.4byte func_8016183C
+	.4byte __flush_buffer
 	.4byte 0x000000B8
 	.4byte lbl_80006838
-	.4byte func_801618F4
+	.4byte __fwrite
 	.4byte 0x00000308
 	.4byte lbl_80006840
-	.4byte func_80161BFC
+	.4byte fclose
 	.4byte 0x000000BC
 	.4byte lbl_80006848
-	.4byte func_80161CB8
+	.4byte fflush
 	.4byte 0x00000134
 	.4byte lbl_80006850
 	.4byte lbl_80161EAC
 	.4byte 0x000000F0
 	.4byte lbl_80006858
-	.4byte func_80162048
+	.4byte _fseek
 	.4byte 0x000001C4
 	.4byte lbl_80006860
-	.4byte func_8016228C
+	.4byte wcstombs
 	.4byte 0x000000B8
 	.4byte lbl_80006868
 	.4byte memmove
 	.4byte 0x000000CC
 	.4byte lbl_80006870
-	.4byte func_80162784
+	.4byte __signbitd
 	.4byte 0x00000018
 	.4byte lbl_80006878
-	.4byte func_8016279C
+	.4byte __fpclassifyd
 	.4byte 0x00000080
 	.4byte lbl_80006880
-	.4byte func_8016282C
+	.4byte parse_format
 	.4byte 0x000005FC
 	.4byte lbl_80006888
-	.4byte func_80163050
+	.4byte longlong2str
 	.4byte 0x000002A0
 	.4byte lbl_80006890
-	.4byte func_801632F0
+	.4byte double2hex
 	.4byte 0x000003C8
 	.4byte lbl_80006898
-	.4byte func_801637E0
+	.4byte float2str
 	.4byte 0x000007D0
 	.4byte lbl_800068A0
-	.4byte func_80163FB0
+	.4byte __pformatter
 	.4byte 0x0000085C
 	.4byte lbl_800068A8
-	.4byte lbl_8016480C
+	.4byte __FileWrite
 	.4byte 0x00000058
 	.4byte lbl_800068B0
-	.4byte lbl_80164864
+	.4byte __StringWrite
 	.4byte 0x0000006C
 	.4byte lbl_800068B8
-	.4byte lbl_801648D0
+	.4byte printf
 	.4byte 0x000000C8
 	.4byte lbl_800068C0
-	.4byte lbl_80164998
+	.4byte fprintf
 	.4byte 0x000000C4
 	.4byte lbl_800068C8
-	.4byte other_vprintf
+	.4byte __vprintf
 	.4byte 0x00000078
 	.4byte lbl_800068D0
 	.4byte vsnprintf
@@ -351,43 +351,43 @@ glabel lbl_extabindex
 	.4byte sprintf
 	.4byte 0x000000D0
 	.4byte lbl_800068F0
-	.4byte lbl_80164D80
+	.4byte qsort
 	.4byte 0x00000170
 	.4byte lbl_800068F8
-	.4byte func_80164F18
+	.4byte scanf_parse_format
 	.4byte 0x000006B4
 	.4byte lbl_80006900
-	.4byte func_801655CC
+	.4byte __sformatter
 	.4byte 0x00000D60
 	.4byte lbl_80006908
-	.4byte lbl_801663BC
+	.4byte sscanf
 	.4byte 0x000000C8
 	.4byte lbl_80006910
 	.4byte func_80166484
 	.4byte 0x000000B0
 	.4byte lbl_80006918
-	.4byte lbl_80166884
+	.4byte strcspn
 	.4byte 0x000000A8
 	.4byte lbl_80006920
-	.4byte lbl_8016692C
+	.4byte strtok
 	.4byte 0x000000A4
 	.4byte lbl_80006928
-	.4byte lbl_801669D0
+	.4byte func_801669D0
 	.4byte 0x000000A4
 	.4byte lbl_80006930
-	.4byte func_80166AE0
+	.4byte __strtold
 	.4byte 0x000013F4
 	.4byte lbl_80006938
-	.4byte func_80167ED4
+	.4byte __strtoul
 	.4byte 0x00000430
 	.4byte lbl_80006940
-	.4byte func_80168304
+	.4byte __strtoull
 	.4byte 0x000004C4
 	.4byte lbl_80006948
-	.4byte lbl_801687C8
+	.4byte strtoul
 	.4byte 0x000000A8
 	.4byte lbl_80006950
-	.4byte lbl_80168870
+	.4byte strtol
 	.4byte 0x000000EC
 	.4byte lbl_80006958
 	.4byte atoi
@@ -423,13 +423,13 @@ glabel lbl_extabindex
 	.4byte strftime
 	.4byte 0x00000E44
 	.4byte lbl_800069B0
-	.4byte lbl_8016A534
+	.4byte __write_console
 	.4byte 0x000000D0
 	.4byte lbl_800069B8
 	.4byte abort
 	.4byte 0x00000034
 	.4byte lbl_800069C0
-	.4byte func_8016A640
+	.4byte scalbn
 	.4byte 0x00000040
 	.4byte lbl_800069C8
 

@@ -3,7 +3,7 @@ glabel cpuSetXPC
 /* 8003CF64 00038484  7C 08 02 A6 */	mflr r0
 /* 8003CF68 00038488  90 01 00 24 */	stw r0, 0x24(r1)
 /* 8003CF6C 0003848C  39 61 00 20 */	addi r11, r1, 0x20
-/* 8003CF70 00038490  48 11 F9 D1 */	bl __save_registersr26
+/* 8003CF70 00038490  48 11 F9 D1 */	bl _savegpr_26
 /* 8003CF74 00038494  3C 80 80 18 */	lis r4, lbl_8017C0F0@ha
 /* 8003CF78 00038498  7C 7A 1B 78 */	mr r26, r3
 /* 8003CF7C 0003849C  7C DB 33 78 */	mr r27, r6
@@ -29,7 +29,7 @@ lbl_8003CFA8:
 /* 8003CFC8 000384E8  93 FA 00 10 */	stw r31, 0x10(r26)
 lbl_8003CFCC:
 /* 8003CFCC 000384EC  39 61 00 20 */	addi r11, r1, 0x20
-/* 8003CFD0 000384F0  48 11 F9 BD */	bl __restore_registersr26
+/* 8003CFD0 000384F0  48 11 F9 BD */	bl _restgpr_26
 /* 8003CFD4 000384F4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8003CFD8 000384F8  7C 08 03 A6 */	mtlr r0
 /* 8003CFDC 000384FC  38 21 00 20 */	addi r1, r1, 0x20

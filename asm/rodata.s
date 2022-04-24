@@ -819,13 +819,13 @@ glabel lbl_80175318
 	.4byte lbl_80174FA8
 	.4byte lbl_800AAE44
 	.4byte lbl_80174FB4
-	.4byte lbl_800AAA7C
+	.4byte DVDReadPrio
 	.4byte lbl_80174FC0
 	.4byte NANDClose
 	.4byte lbl_80174FCC
 	.4byte NANDCreate
 	.4byte lbl_80174FD8
-	.4byte lbl_800B99AC
+	.4byte nandGetFileStatusAsyncCallback
 	.4byte lbl_80174FE8
 	.4byte NANDDelete
 	.4byte lbl_80174FF4
@@ -833,7 +833,7 @@ glabel lbl_80175318
 	.4byte lbl_80175008
 	.4byte NANDGetLength
 	.4byte lbl_80175018
-	.4byte lbl_800B9E3C
+	.4byte NANDGetStatus
 	.4byte lbl_80175028
 	.4byte lbl_800BBBAC
 	.4byte lbl_80175034
@@ -841,7 +841,7 @@ glabel lbl_80175318
 	.4byte lbl_80175040
 	.4byte NANDRead
 	.4byte lbl_8017504C
-	.4byte lbl_800B97B0
+	.4byte NANDReadDir
 	.4byte lbl_80175058
 	.4byte NANDSafeClose
 	.4byte lbl_80175068
@@ -853,7 +853,7 @@ glabel lbl_80175318
 	.4byte lbl_80175090
 	.4byte lbl_8008DA7C
 	.4byte lbl_801750A8
-	.4byte lbl_800991DC
+	.4byte OSCalendarTimeToTicks
 	.4byte lbl_801750C0
 	.4byte OSGetTime
 	.4byte lbl_80247BF8
@@ -863,7 +863,7 @@ glabel lbl_80175318
 	.4byte lbl_801750E0
 	.4byte OSReport
 	.4byte lbl_801750EC
-	.4byte lbl_80098118
+	.4byte OSYieldThread
 	.4byte lbl_801750FC
 	.4byte SCGetLanguage
 	.4byte lbl_8017510C
@@ -893,9 +893,9 @@ glabel lbl_80175318
 	.4byte lbl_80175218
 	.4byte 0x8024E480
 	.4byte lbl_80175224
-	.4byte func_8015C648
+	.4byte __construct_array
 	.4byte lbl_80175238
-	.4byte lbl_8015C488
+	.4byte __construct_new_array
 	.4byte lbl_80175250
 	.4byte __cvt_fp2unsigned
 	.4byte lbl_80175264
@@ -911,7 +911,7 @@ glabel lbl_80175318
 	.4byte lbl_80247C10
 	.4byte __mod2i
 	.4byte lbl_80175294
-	.4byte func_8015C7F4
+	.4byte __ptmf_scall
 	.4byte lbl_801752A4
 	.4byte lbl_8015D174
 	.4byte lbl_80247C18
@@ -925,13 +925,13 @@ glabel lbl_80175318
 	.4byte lbl_80247C28
 	.4byte lbl_8008E8E4
 	.4byte lbl_80247C2C
-	.4byte lbl_8016E844
+	.4byte acos
 	.4byte lbl_80247C34
-	.4byte lbl_8016E848
+	.4byte asin
 	.4byte lbl_80247C3C
 	.4byte atan
 	.4byte lbl_80247C44
-	.4byte lbl_8016E84C
+	.4byte atan2
 	.4byte lbl_80247C4C
 	.4byte atoi
 	.4byte lbl_80247C54
@@ -943,7 +943,7 @@ glabel lbl_80175318
 	.4byte lbl_80247C70
 	.4byte lbl_80168FE0
 	.4byte lbl_80247C78
-	.4byte sin
+	.4byte cos
 	.4byte lbl_80247C7C
 	.4byte exit
 	.4byte lbl_80247C84
@@ -951,9 +951,9 @@ glabel lbl_80175318
 	.4byte lbl_80247C88
 	.4byte floor
 	.4byte lbl_80247C90
-	.4byte lbl_8016E854
+	.4byte fmod
 	.4byte lbl_80247C98
-	.4byte lbl_80164998
+	.4byte fprintf
 	.4byte lbl_80247CA0
 	.4byte lbl_8016A52C
 	.4byte lbl_80247CA8
@@ -981,13 +981,13 @@ glabel lbl_80175318
 	.4byte lbl_80247CF8
 	.4byte pow
 	.4byte lbl_80247CFC
-	.4byte lbl_801648D0
+	.4byte printf
 	.4byte lbl_80247D04
-	.4byte lbl_80164D80
+	.4byte qsort
 	.4byte lbl_80247D0C
 	.4byte rand
 	.4byte lbl_80247D14
-	.4byte other_sin
+	.4byte sin
 	.4byte lbl_801752DC
 	.4byte snprintf
 	.4byte lbl_80247D18
@@ -995,9 +995,9 @@ glabel lbl_80175318
 	.4byte lbl_80247D20
 	.4byte sqrt
 	.4byte lbl_80247D28
-	.4byte lbl_80164F10
+	.4byte srand
 	.4byte lbl_80247D30
-	.4byte lbl_801663BC
+	.4byte sscanf
 	.4byte lbl_80247D38
 	.4byte strcat
 	.4byte lbl_80247D40
@@ -1007,7 +1007,7 @@ glabel lbl_80175318
 	.4byte lbl_80247D50
 	.4byte strcpy
 	.4byte lbl_80247D58
-	.4byte lbl_801669D0
+	.4byte func_801669D0
 	.4byte lbl_801752E8
 	.4byte strftime
 	.4byte lbl_80247D60
@@ -1021,23 +1021,23 @@ glabel lbl_80175318
 	.4byte lbl_80247D80
 	.4byte strncpy
 	.4byte lbl_801752F4
-	.4byte lbl_8016A728
+	.4byte strncasecmp
 	.4byte lbl_80247D88
-	.4byte lbl_80166884
+	.4byte strcspn
 	.4byte lbl_80247D90
 	.4byte lbl_8016683C
 	.4byte lbl_80247D98
-	.4byte lbl_8016692C
+	.4byte strtok
 	.4byte lbl_80247DA0
 	.4byte strstr
 	.4byte lbl_80247DA8
-	.4byte lbl_80168870
+	.4byte strtol
 	.4byte lbl_80247DB0
-	.4byte lbl_801687C8
+	.4byte strtoul
 	.4byte lbl_80247DB8
-	.4byte lbl_8016E7CC
+	.4byte tan
 	.4byte lbl_80247DC0
-	.4byte other_vprintf
+	.4byte __vprintf
 	.4byte lbl_80175300
 	.4byte vsnprintf
 	.4byte lbl_8017530C
@@ -1206,10 +1206,10 @@ glabel lbl_80175A00
 glabel lbl_80175A10
 	# ROM: 0x171B10
 	.4byte lbl_800DB93C
-	.4byte lbl_800DB968
-	.4byte lbl_800DB9D0
-	.4byte lbl_800DBA04
-	.4byte lbl_800DBA34
+	.4byte hcisu_h2_open
+	.4byte hcisu_h2_close
+	.4byte hcisu_h2_send
+	.4byte hcisu_h2_handle_event
 	.4byte 0
 
 glabel lbl_80175A28
@@ -1309,28 +1309,28 @@ glabel lbl_80175AF8
 
 glabel lbl_80175B58
 	# ROM: 0x171C58
-	.4byte lbl_800DF3D4
-	.4byte lbl_800DF55C
-	.4byte lbl_800DF694
+	.4byte bta_dm_authorize_cback
+	.4byte bta_dm_pin_cback
+	.4byte bta_dm_new_link_key_cback
 	.4byte lbl_800DF68C
-	.4byte lbl_800DF730
+	.4byte bta_dm_authentication_complete_cback
 	.4byte 0
 
 glabel lbl_80175B70
 	# ROM: 0x171C70
-	.4byte lbl_800DDECC
-	.4byte lbl_800DDFDC
-	.4byte lbl_800DE148
-	.4byte lbl_800DE150
-	.4byte lbl_800DE198
-	.4byte lbl_800DE208
-	.4byte lbl_800DE2A4
+	.4byte bta_dm_enable
+	.4byte bta_dm_disable
+	.4byte bta_dm_set_dev_name
+	.4byte bta_dm_set_visibility
+	.4byte bta_dm_bond
+	.4byte bta_dm_pin_reply
+	.4byte bta_dm_auth_reply
 	.4byte lbl_800DF7DC
-	.4byte lbl_800DF97C
-	.4byte lbl_800E10C4
-	.4byte lbl_800E11E4
-	.4byte lbl_800E0114
-	.4byte lbl_800E01B8
+	.4byte bta_dm_acl_change
+	.4byte bta_dm_pm_btm_status
+	.4byte bta_dm_pm_timer
+	.4byte bta_dm_keep_acl
+	.4byte bta_dm_send_hci_reset
 
 glabel lbl_80175BA4
 	# ROM: 0x171CA4
@@ -1348,24 +1348,24 @@ glabel lbl_80175BA4
 
 glabel lbl_80175BD0
 	# ROM: 0x171CD0
-	.4byte lbl_800DE378
-	.4byte lbl_800DE3D8
-	.4byte lbl_800DE45C
-	.4byte lbl_800DE570
-	.4byte lbl_800DE794
-	.4byte lbl_800DE964
-	.4byte lbl_800DEBCC
-	.4byte lbl_800DED08
-	.4byte lbl_800DEBE4
-	.4byte lbl_800DEC34
-	.4byte lbl_800DED4C
-	.4byte lbl_800DED94
-	.4byte lbl_800DEDDC
-	.4byte lbl_800DEE20
+	.4byte bta_dm_search_start
+	.4byte bta_dm_search_cancel
+	.4byte bta_dm_discover
+	.4byte bta_dm_inq_cmpl
+	.4byte bta_dm_rmt_name
+	.4byte bta_dm_sdp_result
+	.4byte bta_dm_search_cmpl
+	.4byte bta_dm_free_sdp_db
+	.4byte bta_dm_disc_result
+	.4byte bta_dm_search_result
+	.4byte bta_dm_queue_search
+	.4byte bta_dm_queue_disc
+	.4byte bta_dm_search_clear_queue
+	.4byte bta_dm_search_cancel_cmpl
 	.4byte lbl_800DEEC0
-	.4byte lbl_800DEE64
-	.4byte lbl_800DE900
-	.4byte lbl_800DF3D0
+	.4byte bta_dm_search_cancel_transac_cmpl
+	.4byte bta_dm_disc_rmt_name
+	.4byte bta_dm_cancel_rmt_name
 lbl_80175C18:
 	.4byte 0x0012010E
 	.4byte 0x12000212
@@ -1408,18 +1408,18 @@ glabel lbl_80175C88
 
 glabel lbl_80175C98
 	# ROM: 0x171D98
-	.4byte lbl_800E193C
-	.4byte lbl_800E1ACC
-	.4byte lbl_800E203C
-	.4byte lbl_800E1B84
-	.4byte lbl_800E1E44
-	.4byte lbl_800E1BDC
-	.4byte func_800E1640
-	.4byte lbl_800E17D4
-	.4byte lbl_800E24D8
-	.4byte lbl_800E223C
-	.4byte lbl_800E2258
-	.4byte lbl_800E19A4
+	.4byte bta_hh_api_disc_act
+	.4byte bta_hh_open_act
+	.4byte bta_hh_close_act
+	.4byte bta_hh_data_act
+	.4byte bta_hh_ctrl_dat_act
+	.4byte bta_hh_handsk_act
+	.4byte bta_hh_start_sdp
+	.4byte bta_hh_sdp_cmpl
+	.4byte bta_hh_write_dev_act
+	.4byte bta_hh_get_dscp_act
+	.4byte bta_hh_maint_dev_act
+	.4byte bta_hh_open_cmpl_act
 lbl_80175CC8:
 	.4byte 0x06020C01
 	.4byte 0x01020201
@@ -1469,16 +1469,16 @@ glabel lbl_80175D40
 
 glabel lbl_80175D50
 	# ROM: 0x171E50
-	.4byte lbl_800F3CF8
-	.4byte lbl_800F42B0
+	.4byte hidh_l2cif_connect_ind
+	.4byte hidh_l2cif_connect_cfm
 	.4byte 0
-	.4byte lbl_800F45F8
-	.4byte lbl_800F48A0
-	.4byte lbl_800F4BAC
-	.4byte lbl_800F4E70
+	.4byte hidh_l2cif_config_ind
+	.4byte hidh_l2cif_config_cfm
+	.4byte hidh_l2cif_disconnect_ind
+	.4byte hidh_l2cif_disconnect_cfm
 	.4byte 0
-	.4byte lbl_800F52B0
-	.4byte lbl_800F50B8
+	.4byte hidh_l2cif_data_ind
+	.4byte hidh_l2cif_cong_ind
 
 glabel lbl_80175D78
 	# ROM: 0x171E78
@@ -2560,7 +2560,7 @@ glabel lbl_80176A84
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8013601C
+	.4byte ChannelCallbackFunc__Q46nw4hbm3snd6detail8SeqTrackFPQ46nw4hbm3snd6detail7ChannelQ56nw4hbm3snd6detail7Channel21ChannelCallbackStatusUl
 	.4byte 0
 	.4byte 0
 

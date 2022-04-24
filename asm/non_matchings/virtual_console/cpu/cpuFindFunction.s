@@ -3,7 +3,7 @@ glabel cpuFindFunction
 /* 8003DBD8 000390F8  7C 08 02 A6 */	mflr r0
 /* 8003DBDC 000390FC  90 01 00 64 */	stw r0, 0x64(r1)
 /* 8003DBE0 00039100  39 61 00 60 */	addi r11, r1, 0x60
-/* 8003DBE4 00039104  48 11 ED 2D */	bl __save_registersr14
+/* 8003DBE4 00039104  48 11 ED 2D */	bl _savegpr_14
 /* 8003DBE8 00039108  3C C3 00 10 */	addis r6, r3, 0x10
 /* 8003DBEC 0003910C  3F E0 80 18 */	lis r31, lbl_8017A998@ha
 /* 8003DBF0 00039110  80 E6 16 94 */	lwz r7, 0x1694(r6)
@@ -558,8 +558,8 @@ lbl_8003E348:
 /* 8003E350 00039870  3C 05 7F F7 */	addis r0, r5, 0x7ff7
 /* 8003E354 00039874  28 00 E4 20 */	cmplwi r0, 0xe420
 /* 8003E358 00039878  40 82 00 B8 */	bne lbl_8003E410
-/* 8003E35C 0003987C  3C 60 80 0A */	lis r3, lbl_8009E380@ha
-/* 8003E360 00039880  3B C3 E3 80 */	addi r30, r3, lbl_8009E380@l
+/* 8003E35C 0003987C  3C 60 80 0A */	lis r3, __DBExceptionDestinationAux@ha
+/* 8003E360 00039880  3B C3 E3 80 */	addi r30, r3, __DBExceptionDestinationAux@l
 /* 8003E364 00039884  48 00 00 AC */	b lbl_8003E410
 lbl_8003E368:
 /* 8003E368 00039888  28 00 51 45 */	cmplwi r0, 0x5145
@@ -748,7 +748,7 @@ lbl_8003E5E4:
 /* 8003E5E4 00039B04  38 60 00 00 */	li r3, 0
 lbl_8003E5E8:
 /* 8003E5E8 00039B08  39 61 00 60 */	addi r11, r1, 0x60
-/* 8003E5EC 00039B0C  48 11 E3 71 */	bl __restore_registersr14
+/* 8003E5EC 00039B0C  48 11 E3 71 */	bl _restgpr_14
 /* 8003E5F0 00039B10  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 8003E5F4 00039B14  7C 08 03 A6 */	mtlr r0
 /* 8003E5F8 00039B18  38 21 00 60 */	addi r1, r1, 0x60

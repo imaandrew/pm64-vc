@@ -3,7 +3,7 @@ glabel cpuMakeFunction
 /* 80031A74 0002CF94  7C 08 02 A6 */	mflr r0
 /* 80031A78 0002CF98  90 01 20 54 */	stw r0, 0x2054(r1)
 /* 80031A7C 0002CF9C  39 61 20 50 */	addi r11, r1, 0x2050
-/* 80031A80 0002CFA0  48 12 AE A9 */	bl __save_registersr20
+/* 80031A80 0002CFA0  48 12 AE A9 */	bl _savegpr_20
 /* 80031A84 0002CFA4  7C 97 23 78 */	mr r23, r4
 /* 80031A88 0002CFA8  7C A4 2B 78 */	mr r4, r5
 /* 80031A8C 0002CFAC  7C 76 1B 78 */	mr r22, r3
@@ -446,7 +446,7 @@ lbl_800320B8:
 /* 800320B8 0002D5D8  38 60 00 01 */	li r3, 1
 lbl_800320BC:
 /* 800320BC 0002D5DC  39 61 20 50 */	addi r11, r1, 0x2050
-/* 800320C0 0002D5E0  48 12 A8 B5 */	bl __restore_registersr20
+/* 800320C0 0002D5E0  48 12 A8 B5 */	bl _restgpr_20
 /* 800320C4 0002D5E4  80 01 20 54 */	lwz r0, 0x2054(r1)
 /* 800320C8 0002D5E8  7C 08 03 A6 */	mtlr r0
 /* 800320CC 0002D5EC  38 21 20 50 */	addi r1, r1, 0x2050

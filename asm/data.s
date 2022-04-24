@@ -9308,7 +9308,7 @@ glabel lbl_80182B78
 
 glabel lbl_80182D78
 	# ROM: 0x17EE78
-	.4byte lbl_8009055C
+	.4byte OnReset
 	.4byte 0xFFFFFFFF
 	.4byte 0
 	.4byte 0
@@ -10195,7 +10195,7 @@ glabel lbl_80184080
 
 glabel lbl_801840B0
 	# ROM: 0x1801B0
-	.4byte lbl_80095C84
+	.4byte OSOnShutdown
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
@@ -22807,7 +22807,7 @@ glabel lbl_80190624
 
 glabel lbl_80190658
 	# ROM: 0x18C758
-	.4byte lbl_8009E440
+	.4byte VIOnShutdown
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
@@ -23401,7 +23401,7 @@ glabel lbl_80190FD0
 
 glabel lbl_80191090
 	# ROM: 0x18D190
-	.4byte lbl_800A3644
+	.4byte __GXShutdown
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
@@ -28266,7 +28266,7 @@ glabel lbl_80196BE0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_800BB1A0
+	.4byte nandOnShutdown
 	.4byte 0x000000FF
 	.4byte 0
 	.4byte 0
@@ -28509,7 +28509,7 @@ glabel lbl_801970DC
 
 glabel lbl_80197110
 	# ROM: 0x193210
-	.4byte lbl_800C3B08
+	.4byte OnShutdown
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
@@ -28593,36 +28593,36 @@ glabel lbl_80197340
 	# ROM: 0x193440
 	.4byte lbl_800CC16C
 	.4byte lbl_800CC57C
-	.4byte lbl_800CC90C
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CCE28
-	.4byte lbl_800CCFE0
-	.4byte lbl_800CD220
-	.4byte lbl_800CD9D8
+	.4byte __a1_22_ack
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_30_data_type
+	.4byte __a1_31_data_type
+	.4byte __a1_32_data_type
+	.4byte __a1_33_data_type
 	.4byte lbl_800CDC4C
 	.4byte lbl_800CDC50
-	.4byte lbl_800CE4BC
+	.4byte __a1_34_data_type
 	.4byte lbl_800CE6C8
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CFB00
-	.4byte lbl_800CEF24
-	.4byte lbl_800CEF28
-	.4byte lbl_800CF50C
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_unused_report
+	.4byte __a1_3d_data_type
+	.4byte __a1_3e_data_type
+	.4byte __a1_3f_data_type
 
 glabel lbl_801973C0
 	# ROM: 0x1934C0
@@ -33834,19 +33834,19 @@ glabel lbl_801A1B00
 	# ROM: 0x19DC00
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801123D4
+	.4byte onEvent__Q210homebutton22HomeButtonEventHandlerFUlUlPv
 	.4byte lbl_8010A6B8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80112D8C
+	.4byte onEvent__Q310homebutton3gui12EventHandlerFUlUlPv
 	.4byte lbl_8010A6B8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80112DA0
-	.4byte lbl_80112D9C
-	.4byte lbl_80112D98
-	.4byte lbl_80112D90
-	.4byte lbl_80112D94
+	.4byte create__Q310homebutton3gui9InterfaceFv
+	.4byte init__Q310homebutton3gui9InterfaceFv
+	.4byte calc__Q310homebutton3gui9InterfaceFv
+	.4byte draw__Q310homebutton3gui9InterfaceFRA3_A4_f
+	.4byte draw__Q310homebutton3gui9InterfaceFv
 	.4byte lbl_8010A678
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
@@ -33865,105 +33865,105 @@ glabel lbl_801A1BA0
 	# ROM: 0x19DCA0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80112DC0
-	.4byte lbl_80112F1C
+	.4byte __dt__Q210homebutton18GroupAnmControllerFv
+	.4byte calc__Q210homebutton15FrameControllerFv
 
 glabel lbl_801A1BB0
 	# ROM: 0x19DCB0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80112DA0
-	.4byte lbl_801135D8
-	.4byte lbl_80112D98
-	.4byte lbl_80112D90
-	.4byte lbl_8011433C
-	.4byte lbl_80113C0C
-	.4byte lbl_80113470
-	.4byte lbl_80113440
-	.4byte lbl_80113478
-	.4byte lbl_80113484
-	.4byte lbl_80113488
-	.4byte lbl_801146D4
-	.4byte lbl_8011344C
-	.4byte lbl_801138D0
-	.4byte lbl_801146CC
-	.4byte lbl_801146C4
-	.4byte lbl_80113230
-	.4byte lbl_801138C8
+	.4byte create__Q310homebutton3gui9InterfaceFv
+	.4byte init__Q310homebutton3gui9ComponentFv
+	.4byte calc__Q310homebutton3gui9InterfaceFv
+	.4byte draw__Q310homebutton3gui9InterfaceFRA3_A4_f
+	.4byte draw__Q310homebutton3gui13PaneComponentFv
+	.4byte __dt__Q310homebutton3gui13PaneComponentFv
+	.4byte getID__Q310homebutton3gui9ComponentFv
+	.4byte isPointed__Q310homebutton3gui9ComponentFi
+	.4byte setPointed__Q310homebutton3gui9ComponentFib
+	.4byte onPoint__Q310homebutton3gui9ComponentFv
+	.4byte offPoint__Q310homebutton3gui9ComponentFv
+	.4byte onDrag__Q310homebutton3gui9ComponentFff
+	.4byte onMove__Q310homebutton3gui9ComponentFff
+	.4byte onTrig__Q310homebutton3gui9ComponentFUlR3Vec
+	.4byte setDraggingButton__Q310homebutton3gui9ComponentFUl
+	.4byte update__Q310homebutton3gui9ComponentFiPC10KPADStatusffPv
+	.4byte update__Q310homebutton3gui9ComponentFiffUlUlUlPv
+	.4byte isTriggerTarger__Q310homebutton3gui9ComponentFv
 	.4byte lbl_8010A6C0
-	.4byte lbl_801136C8
-	.4byte lbl_801145F0
-	.4byte lbl_80114208
-	.4byte lbl_80114070
-	.4byte lbl_8011249C
+	.4byte setManager__Q310homebutton3gui9ComponentFPQ310homebutton3gui7Manager
+	.4byte isVisible__Q310homebutton3gui13PaneComponentFv
+	.4byte contain__Q310homebutton3gui13PaneComponentFff
+	.4byte setPane__Q310homebutton3gui13PaneComponentFPQ36nw4hbm3lyt4Pane
+	.4byte getPane__Q310homebutton3gui13PaneComponentFv
 
 glabel lbl_801A1C18
 	# ROM: 0x19DD18
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80112DA0
-	.4byte lbl_80113548
-	.4byte lbl_80113900
-	.4byte lbl_80112D90
-	.4byte lbl_80113990
-	.4byte lbl_80113AB8
-	.4byte lbl_80113604
-	.4byte lbl_801136D0
-	.4byte lbl_80114704
-	.4byte lbl_801136FC
-	.4byte lbl_80113450
-	.4byte lbl_80113A20
-	.4byte lbl_801146D8
-	.4byte lbl_80113C8C
-	.4byte lbl_80114078
-	.4byte lbl_80114334
+	.4byte create__Q310homebutton3gui9InterfaceFv
+	.4byte init__Q310homebutton3gui7ManagerFv
+	.4byte calc__Q310homebutton3gui7ManagerFv
+	.4byte draw__Q310homebutton3gui9InterfaceFRA3_A4_f
+	.4byte draw__Q310homebutton3gui7ManagerFv
+	.4byte __dt__Q310homebutton3gui11PaneManagerFv
+	.4byte addComponent__Q310homebutton3gui7ManagerFPQ310homebutton3gui9Component
+	.4byte getComponent__Q310homebutton3gui7ManagerFUl
+	.4byte update__Q310homebutton3gui7ManagerFiPC10KPADStatusffPv
+	.4byte update__Q310homebutton3gui7ManagerFiffUlUlUlPv
+	.4byte onEvent__Q310homebutton3gui7ManagerFUlUlPv
+	.4byte setAllComponentTriggerTarget__Q310homebutton3gui7ManagerFb
+	.4byte setEventHandler__Q310homebutton3gui7ManagerFPQ310homebutton3gui12EventHandler
+	.4byte createLayoutScene__Q310homebutton3gui11PaneManagerFRCQ36nw4hbm3lyt6Layout
+	.4byte getPaneComponentByPane__Q310homebutton3gui11PaneManagerFPQ36nw4hbm3lyt4Pane
+	.4byte getDrawInfo__Q310homebutton3gui11PaneManagerFv
 	.4byte lbl_8010A6C8
-	.4byte lbl_80114110
-	.4byte lbl_80113CB0
+	.4byte setAllBoundingBoxComponentTriggerTarget__Q310homebutton3gui11PaneManagerFb
+	.4byte walkInChildren__Q310homebutton3gui11PaneManagerFRQ36nw4hbm2ut30LinkList
 
 glabel lbl_801A1C6C
 	# ROM: 0x19DD6C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80112DA0
-	.4byte lbl_80113548
-	.4byte lbl_80113900
-	.4byte lbl_80112D90
-	.4byte lbl_80113990
-	.4byte lbl_8011348C
-	.4byte lbl_80113604
-	.4byte lbl_801136D0
-	.4byte lbl_80114704
-	.4byte lbl_801136FC
-	.4byte lbl_80113450
-	.4byte lbl_80113A20
-	.4byte lbl_801146D8
+	.4byte create__Q310homebutton3gui9InterfaceFv
+	.4byte init__Q310homebutton3gui7ManagerFv
+	.4byte calc__Q310homebutton3gui7ManagerFv
+	.4byte draw__Q310homebutton3gui9InterfaceFRA3_A4_f
+	.4byte draw__Q310homebutton3gui7ManagerFv
+	.4byte __dt__Q310homebutton3gui7ManagerFv
+	.4byte addComponent__Q310homebutton3gui7ManagerFPQ310homebutton3gui9Component
+	.4byte getComponent__Q310homebutton3gui7ManagerFUl
+	.4byte update__Q310homebutton3gui7ManagerFiPC10KPADStatusffPv
+	.4byte update__Q310homebutton3gui7ManagerFiffUlUlUlPv
+	.4byte onEvent__Q310homebutton3gui7ManagerFUlUlPv
+	.4byte setAllComponentTriggerTarget__Q310homebutton3gui7ManagerFb
+	.4byte setEventHandler__Q310homebutton3gui7ManagerFPQ310homebutton3gui12EventHandler
 
 glabel lbl_801A1CA8
 	# ROM: 0x19DDA8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80112DA0
-	.4byte lbl_801135D8
-	.4byte lbl_80112D98
-	.4byte lbl_80112D90
-	.4byte lbl_80112D94
-	.4byte lbl_80113C4C
-	.4byte lbl_80113470
-	.4byte lbl_80113440
-	.4byte lbl_80113478
-	.4byte lbl_80113484
-	.4byte lbl_80113488
-	.4byte lbl_801146D4
-	.4byte lbl_8011344C
-	.4byte lbl_801138D0
-	.4byte lbl_801146CC
-	.4byte lbl_801146C4
-	.4byte lbl_80113230
-	.4byte lbl_801138C8
+	.4byte create__Q310homebutton3gui9InterfaceFv
+	.4byte init__Q310homebutton3gui9ComponentFv
+	.4byte calc__Q310homebutton3gui9InterfaceFv
+	.4byte draw__Q310homebutton3gui9InterfaceFRA3_A4_f
+	.4byte draw__Q310homebutton3gui9InterfaceFv
+	.4byte __dt__Q310homebutton3gui9ComponentFv
+	.4byte getID__Q310homebutton3gui9ComponentFv
+	.4byte isPointed__Q310homebutton3gui9ComponentFi
+	.4byte setPointed__Q310homebutton3gui9ComponentFib
+	.4byte onPoint__Q310homebutton3gui9ComponentFv
+	.4byte offPoint__Q310homebutton3gui9ComponentFv
+	.4byte onDrag__Q310homebutton3gui9ComponentFff
+	.4byte onMove__Q310homebutton3gui9ComponentFff
+	.4byte onTrig__Q310homebutton3gui9ComponentFUlR3Vec
+	.4byte setDraggingButton__Q310homebutton3gui9ComponentFUl
+	.4byte update__Q310homebutton3gui9ComponentFiPC10KPADStatusffPv
+	.4byte update__Q310homebutton3gui9ComponentFiffUlUlUlPv
+	.4byte isTriggerTarger__Q310homebutton3gui9ComponentFv
 	.4byte lbl_8010A6C0
-	.4byte lbl_801136C8
-	.4byte lbl_80113438
+	.4byte setManager__Q310homebutton3gui9ComponentFPQ310homebutton3gui7Manager
+	.4byte isVisible__Q310homebutton3gui9ComponentFv
 	.4byte 0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
@@ -33977,7 +33977,7 @@ glabel lbl_801A1D68
 	# ROM: 0x19DE68
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801155AC
+	.4byte __dt__Q210homebutton9RemoteSpkFv
 	.4byte 0
 
 glabel lbl_801A1D78
@@ -34111,15 +34111,15 @@ glabel lbl_801A2528
 	# ROM: 0x19E628
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80118010
-	.4byte lbl_8011809C
-	.4byte lbl_8011822C
-	.4byte lbl_8011832C
-	.4byte lbl_801183E8
-	.4byte lbl_801186D8
+	.4byte __dt__Q36nw4hbm3lyt18AnimTransformBasicFv
+	.4byte SetResource__Q36nw4hbm3lyt18AnimTransformBasicFPCQ46nw4hbm3lyt3res14AnimationBlockPQ36nw4hbm3lyt16ResourceAccessor
+	.4byte Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt4Paneb
+	.4byte Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt8Material
+	.4byte Animate__Q36nw4hbm3lyt18AnimTransformBasicFUlPQ36nw4hbm3lyt4Pane
+	.4byte Animate__Q36nw4hbm3lyt18AnimTransformBasicFUlPQ36nw4hbm3lyt8Material
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80117F8C
+	.4byte __dt__Q36nw4hbm3lyt13AnimTransformFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -34179,17 +34179,17 @@ glabel lbl_801A27F8
 	# ROM: 0x19E8F8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80119170
-	.4byte lbl_80119200
-	.4byte lbl_801192BC
+	.4byte __dt__Q36nw4hbm3lyt24MultiArcResourceAccessorFv
+	.4byte GetResource__Q36nw4hbm3lyt24MultiArcResourceAccessorFUlPCcPUl
+	.4byte GetFont__Q36nw4hbm3lyt24MultiArcResourceAccessorFPCc
 
 glabel lbl_801A280C
 	# ROM: 0x19E90C
 	.4byte 0
 	.4byte 0
 	.4byte lbl_80109B14
-	.4byte lbl_801190A0
-	.4byte lbl_801190C0
+	.4byte GetResource__Q36nw4hbm3lyt19ArcResourceAccessorFUlPCcPUl
+	.4byte GetFont__Q36nw4hbm3lyt19ArcResourceAccessorFPCc
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -34216,29 +34216,29 @@ glabel lbl_801A2910
 	# ROM: 0x19EA10
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801193A8
-	.4byte lbl_80119470
-	.4byte lbl_8011F7A0
-	.4byte lbl_8011FAC4
-	.4byte lbl_80119400
-	.4byte lbl_8011FBE4
-	.4byte func_8011FC90
-	.4byte lbl_8011F4E0
-	.4byte lbl_8011F4EC
-	.4byte lbl_8011F4F0
-	.4byte lbl_8011F574
-	.4byte lbl_8011F608
-	.4byte lbl_8011F610
-	.4byte lbl_8011F614
-	.4byte lbl_8011F6D4
-	.4byte lbl_8011FD94
-	.4byte lbl_8011FE14
-	.4byte lbl_8011FEBC
-	.4byte func_8011FED4
-	.4byte func_80120050
-	.4byte func_801200C8
-	.4byte lbl_801203B0
-	.4byte lbl_801201A8
+	.4byte __dt__Q36nw4hbm3lyt8BoundingFv
+	.4byte GetRuntimeTypeInfo__Q36nw4hbm3lyt8BoundingCFv
+	.4byte CalculateMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Draw__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte DrawSelf__Q36nw4hbm3lyt8BoundingFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Animate__Q36nw4hbm3lyt4PaneFUl
+	.4byte AnimateSelf__Q36nw4hbm3lyt4PaneFUl
+	.4byte GetVtxColor__Q36nw4hbm3lyt4PaneCFUl
+	.4byte SetVtxColor__Q36nw4hbm3lyt4PaneFUlQ36nw4hbm2ut5Color
+	.4byte GetColorElement__Q36nw4hbm3lyt4PaneCFUl
+	.4byte SetColorElement__Q36nw4hbm3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q36nw4hbm3lyt4PaneCFUl
+	.4byte SetVtxColorElement__Q36nw4hbm3lyt4PaneFUlUc
+	.4byte FindPaneByName__Q36nw4hbm3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q36nw4hbm3lyt4PaneFPCcb
+	.4byte BindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q36nw4hbm3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
+	.4byte FindAnimationLink__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
+	.4byte SetAnimationEnable__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformbb
+	.4byte GetMaterial__Q36nw4hbm3lyt4PaneCFv
+	.4byte LoadMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
 	.4byte 0
 
 glabel lbl_801A2978
@@ -34260,14 +34260,14 @@ glabel lbl_801A29E8
 	# ROM: 0x19EAE8
 	.4byte 0
 	.4byte 0
-	.4byte func_8011A3A8
+	.4byte __dt__Q36nw4hbm3lyt8DrawInfoFv
 	.4byte 0
 
 glabel lbl_801A29F8
 	# ROM: 0x19EAF8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8011A51C
+	.4byte __dt__Q36nw4hbm3lyt5GroupFv
 
 glabel lbl_801A2A04
 	# ROM: 0x19EB04
@@ -34326,9 +34326,9 @@ glabel lbl_801A2C38
 	# ROM: 0x19ED38
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8011AB34
-	.4byte lbl_8011ACBC
-	.4byte lbl_8011B068
+	.4byte __dt__Q36nw4hbm3lyt6LayoutFv
+	.4byte Build__Q36nw4hbm3lyt6LayoutFPCvPQ36nw4hbm3lyt16ResourceAccessor
+	.4byte CreateAnimTransform__Q36nw4hbm3lyt6LayoutFPCvPQ36nw4hbm3lyt16ResourceAccessor
 	.4byte lbl_8011B2B8
 	.4byte lbl_8011B2DC
 	.4byte lbl_8011B300
@@ -34336,7 +34336,7 @@ glabel lbl_801A2C38
 	.4byte lbl_8011B338
 	.4byte lbl_8011B358
 	.4byte lbl_8011B378
-	.4byte lbl_8011B404
+	.4byte SetTagProcessor__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm2ut19TagProcessorBase
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -34423,14 +34423,14 @@ glabel lbl_801A32D8
 	# ROM: 0x19F3D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8011C6D8
-	.4byte lbl_8011DD1C
-	.4byte lbl_8011EC38
-	.4byte lbl_8011EC54
-	.4byte lbl_8011ED14
-	.4byte lbl_8011ED28
-	.4byte lbl_8011EE70
-	.4byte lbl_8011EE78
+	.4byte __dt__Q36nw4hbm3lyt8MaterialFv
+	.4byte SetupGX__Q36nw4hbm3lyt8MaterialFbUc
+	.4byte BindAnimation__Q36nw4hbm3lyt8MaterialFPQ36nw4hbm3lyt13AnimTransform
+	.4byte UnbindAnimation__Q36nw4hbm3lyt8MaterialFPQ36nw4hbm3lyt13AnimTransform
+	.4byte UnbindAllAnimation__Q36nw4hbm3lyt8MaterialFv
+	.4byte Animate__Q36nw4hbm3lyt8MaterialFv
+	.4byte FindAnimationLink__Q36nw4hbm3lyt8MaterialFPQ36nw4hbm3lyt13AnimTransform
+	.4byte SetAnimationEnable__Q36nw4hbm3lyt8MaterialFPQ36nw4hbm3lyt13AnimTransformb
 
 glabel lbl_801A3300
 	# ROM: 0x19F400
@@ -34475,32 +34475,32 @@ glabel lbl_801A34FC
 	# ROM: 0x19F5FC
 	.4byte 0
 	.4byte 0
-	.4byte func_8011F198
-	.4byte lbl_8010ACA0
-	.4byte lbl_8011F7A0
-	.4byte lbl_8011FAC4
-	.4byte lbl_8011FB68
-	.4byte lbl_8011FBE4
-	.4byte func_8011FC90
-	.4byte lbl_8011F4E0
-	.4byte lbl_8011F4EC
-	.4byte lbl_8011F4F0
-	.4byte lbl_8011F574
-	.4byte lbl_8011F608
-	.4byte lbl_8011F610
-	.4byte lbl_8011F614
-	.4byte lbl_8011F6D4
-	.4byte lbl_8011FD94
-	.4byte lbl_8011FE14
-	.4byte lbl_8011FEBC
-	.4byte func_8011FED4
-	.4byte func_80120050
-	.4byte func_801200C8
-	.4byte lbl_801203B0
-	.4byte lbl_801201A8
+	.4byte __dt__Q36nw4hbm3lyt4PaneFv
+	.4byte GetRuntimeTypeInfo__Q36nw4hbm3lyt4PaneCFv
+	.4byte CalculateMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Draw__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte DrawSelf__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Animate__Q36nw4hbm3lyt4PaneFUl
+	.4byte AnimateSelf__Q36nw4hbm3lyt4PaneFUl
+	.4byte GetVtxColor__Q36nw4hbm3lyt4PaneCFUl
+	.4byte SetVtxColor__Q36nw4hbm3lyt4PaneFUlQ36nw4hbm2ut5Color
+	.4byte GetColorElement__Q36nw4hbm3lyt4PaneCFUl
+	.4byte SetColorElement__Q36nw4hbm3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q36nw4hbm3lyt4PaneCFUl
+	.4byte SetVtxColorElement__Q36nw4hbm3lyt4PaneFUlUc
+	.4byte FindPaneByName__Q36nw4hbm3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q36nw4hbm3lyt4PaneFPCcb
+	.4byte BindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q36nw4hbm3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
+	.4byte FindAnimationLink__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
+	.4byte SetAnimationEnable__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformbb
+	.4byte GetMaterial__Q36nw4hbm3lyt4PaneCFv
+	.4byte LoadMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8011F030
+	.4byte __dt__Q46nw4hbm3lyt6detail8PaneBaseFv
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -34554,31 +34554,31 @@ glabel lbl_801A37D8
 	# ROM: 0x19F8D8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80120528
+	.4byte __dt__Q36nw4hbm3lyt7PictureFv
 	.4byte lbl_80120AE0
-	.4byte lbl_8011F7A0
-	.4byte lbl_8011FAC4
-	.4byte lbl_80120A04
-	.4byte lbl_8011FBE4
-	.4byte func_8011FC90
-	.4byte lbl_80120808
-	.4byte lbl_80120894
-	.4byte lbl_8011F4F0
-	.4byte lbl_8011F574
-	.4byte lbl_80120920
-	.4byte lbl_8012098C
-	.4byte lbl_8011F614
-	.4byte lbl_8011F6D4
-	.4byte lbl_8011FD94
-	.4byte lbl_8011FE14
-	.4byte lbl_8011FEBC
-	.4byte func_8011FED4
-	.4byte func_80120050
-	.4byte func_801200C8
-	.4byte lbl_801203B0
-	.4byte lbl_801201A8
-	.4byte lbl_801205F8
-	.4byte lbl_80120644
+	.4byte CalculateMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Draw__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte DrawSelf__Q36nw4hbm3lyt7PictureFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Animate__Q36nw4hbm3lyt4PaneFUl
+	.4byte AnimateSelf__Q36nw4hbm3lyt4PaneFUl
+	.4byte GetVtxColor__Q36nw4hbm3lyt7PictureCFUl
+	.4byte SetVtxColor__Q36nw4hbm3lyt7PictureFUlQ36nw4hbm2ut5Color
+	.4byte GetColorElement__Q36nw4hbm3lyt4PaneCFUl
+	.4byte SetColorElement__Q36nw4hbm3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q36nw4hbm3lyt7PictureCFUl
+	.4byte SetVtxColorElement__Q36nw4hbm3lyt7PictureFUlUc
+	.4byte FindPaneByName__Q36nw4hbm3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q36nw4hbm3lyt4PaneFPCcb
+	.4byte BindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q36nw4hbm3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
+	.4byte FindAnimationLink__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
+	.4byte SetAnimationEnable__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformbb
+	.4byte GetMaterial__Q36nw4hbm3lyt4PaneCFv
+	.4byte LoadMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Append__Q36nw4hbm3lyt7PictureFP10TPLPalette
+	.4byte Append__Q36nw4hbm3lyt7PictureFRC9_GXTexObj
 
 glabel lbl_801A3844
 	# ROM: 0x19F944
@@ -34613,7 +34613,7 @@ glabel lbl_801A3918
 	# ROM: 0x19FA18
 	.4byte 0
 	.4byte 0
-	.4byte func_80120B00
+	.4byte __dt__Q36nw4hbm3lyt16ResourceAccessorFv
 	.4byte 0
 	.4byte lbl_80120B50
 	.4byte 0
@@ -34622,7 +34622,7 @@ glabel lbl_801A3930
 	# ROM: 0x19FA30
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80146C08
+	.4byte ReadNextCharUTF16__Q36nw4hbm2ut14CharStrmReaderFv
 	.4byte 0
 
 glabel lbl_801A3940
@@ -34675,33 +34675,33 @@ glabel lbl_801A3CA8
 	# ROM: 0x19FDA8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80120F5C
-	.4byte lbl_801239DC
-	.4byte lbl_8011F7A0
-	.4byte lbl_8011FAC4
-	.4byte lbl_80121418
-	.4byte lbl_8011FBE4
-	.4byte func_8011FC90
-	.4byte lbl_80121114
-	.4byte lbl_80121214
-	.4byte lbl_8011F4F0
-	.4byte lbl_8011F574
-	.4byte lbl_80121334
-	.4byte lbl_801213A0
-	.4byte lbl_8011F614
-	.4byte lbl_8011F6D4
-	.4byte lbl_8011FD94
-	.4byte lbl_8011FE14
-	.4byte lbl_8011FEBC
-	.4byte func_8011FED4
-	.4byte func_80120050
-	.4byte func_801200C8
-	.4byte lbl_801203B0
-	.4byte lbl_801201A8
-	.4byte lbl_80122CD4
-	.4byte lbl_80122D50
-	.4byte lbl_80122D9C
-	.4byte lbl_80122E04
+	.4byte __dt__Q36nw4hbm3lyt7TextBoxFv
+	.4byte GetRuntimeTypeInfo__Q36nw4hbm3lyt7TextBoxCFv
+	.4byte CalculateMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Draw__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte DrawSelf__Q36nw4hbm3lyt7TextBoxFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Animate__Q36nw4hbm3lyt4PaneFUl
+	.4byte AnimateSelf__Q36nw4hbm3lyt4PaneFUl
+	.4byte GetVtxColor__Q36nw4hbm3lyt7TextBoxCFUl
+	.4byte SetVtxColor__Q36nw4hbm3lyt7TextBoxFUlQ36nw4hbm2ut5Color
+	.4byte GetColorElement__Q36nw4hbm3lyt4PaneCFUl
+	.4byte SetColorElement__Q36nw4hbm3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q36nw4hbm3lyt7TextBoxCFUl
+	.4byte SetVtxColorElement__Q36nw4hbm3lyt7TextBoxFUlUc
+	.4byte FindPaneByName__Q36nw4hbm3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q36nw4hbm3lyt4PaneFPCcb
+	.4byte BindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q36nw4hbm3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
+	.4byte FindAnimationLink__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
+	.4byte SetAnimationEnable__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformbb
+	.4byte GetMaterial__Q36nw4hbm3lyt4PaneCFv
+	.4byte LoadMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte AllocStringBuffer__Q36nw4hbm3lyt7TextBoxFUs
+	.4byte FreeStringBuffer__Q36nw4hbm3lyt7TextBoxFv
+	.4byte SetString__Q36nw4hbm3lyt7TextBoxFPCwUs
+	.4byte SetString__Q36nw4hbm3lyt7TextBoxFPCwUsUs
 
 glabel lbl_801A3D1C
 	# ROM: 0x19FE1C
@@ -34836,35 +34836,35 @@ glabel lbl_801A40D4
 	# ROM: 0x1A01D4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80123C34
-	.4byte lbl_80126334
-	.4byte lbl_8011F7A0
-	.4byte lbl_8011FAC4
-	.4byte lbl_801241CC
-	.4byte lbl_8011FBE4
-	.4byte lbl_8012430C
-	.4byte lbl_80123FD0
-	.4byte lbl_8012405C
-	.4byte lbl_8011F4F0
-	.4byte lbl_8011F574
-	.4byte lbl_801240E8
-	.4byte lbl_80124154
-	.4byte lbl_8011F614
-	.4byte lbl_80123D78
-	.4byte lbl_8011FD94
-	.4byte lbl_8011FE14
-	.4byte lbl_8011FEBC
-	.4byte lbl_8012439C
-	.4byte lbl_80123E98
-	.4byte lbl_80123F3C
-	.4byte lbl_801203B0
-	.4byte lbl_801201A8
-	.4byte lbl_80126324
-	.4byte lbl_801262A8
-	.4byte lbl_8012442C
-	.4byte lbl_80124540
-	.4byte lbl_80124B1C
-	.4byte lbl_801252B8
+	.4byte __dt__Q36nw4hbm3lyt6WindowFv
+	.4byte GetRuntimeTypeInfo__Q36nw4hbm3lyt6WindowCFv
+	.4byte CalculateMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Draw__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte DrawSelf__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte Animate__Q36nw4hbm3lyt4PaneFUl
+	.4byte AnimateSelf__Q36nw4hbm3lyt6WindowFUl
+	.4byte GetVtxColor__Q36nw4hbm3lyt6WindowCFUl
+	.4byte SetVtxColor__Q36nw4hbm3lyt6WindowFUlQ36nw4hbm2ut5Color
+	.4byte GetColorElement__Q36nw4hbm3lyt4PaneCFUl
+	.4byte SetColorElement__Q36nw4hbm3lyt4PaneFUlUc
+	.4byte GetVtxColorElement__Q36nw4hbm3lyt6WindowCFUl
+	.4byte SetVtxColorElement__Q36nw4hbm3lyt6WindowFUlUc
+	.4byte FindPaneByName__Q36nw4hbm3lyt4PaneFPCcb
+	.4byte FindMaterialByName__Q36nw4hbm3lyt6WindowFPCcb
+	.4byte BindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
+	.4byte UnbindAllAnimation__Q36nw4hbm3lyt4PaneFb
+	.4byte UnbindAnimationSelf__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
+	.4byte FindAnimationLink__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
+	.4byte SetAnimationEnable__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransformbb
+	.4byte GetMaterial__Q36nw4hbm3lyt4PaneCFv
+	.4byte LoadMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
+	.4byte GetContentMaterial__Q36nw4hbm3lyt6WindowCFv
+	.4byte GetFrameMaterial__Q36nw4hbm3lyt6WindowCFUl
+	.4byte DrawContent__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt15WindowFrameSizeUc
+	.4byte DrawFrame__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ46nw4hbm3lyt6Window5FrameRCQ36nw4hbm3lyt15WindowFrameSizeUc
+	.4byte DrawFrame4__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Window5FrameRCQ36nw4hbm3lyt15WindowFrameSizeUc
+	.4byte DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Window5FrameRCQ36nw4hbm3lyt15WindowFrameSizeUc
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -36115,12 +36115,12 @@ glabel lbl_801A5878
 	# ROM: 0x1A1978
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80128470
-	.4byte lbl_8012C064
-	.4byte lbl_8012BEF0
+	.4byte __dt__Q46nw4hbm3snd6detail7AxVoiceFv
+	.4byte InvalidateData__Q46nw4hbm3snd6detail7AxVoiceFPCvPCv
+	.4byte InvalidateWaveData__Q46nw4hbm3snd6detail7AxVoiceFPCvPCv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80128430
+	.4byte __dt__Q46nw4hbm3snd6detail15DisposeCallbackFv
 	.4byte 0
 	.4byte 0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
@@ -36215,27 +36215,27 @@ glabel lbl_801A5C80
 	# ROM: 0x1A1D80
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8012DC80
-	.4byte lbl_8012DC40
-	.4byte lbl_8012D0EC
-	.4byte lbl_8012CAC8
-	.4byte lbl_8012CAE0
-	.4byte lbl_8012CCBC
-	.4byte lbl_8012CF70
+	.4byte GetRuntimeTypeInfo__Q46nw4hbm3snd6detail10BasicSoundCFv
+	.4byte __dt__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte Update__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte StartPrepared__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte Stop__Q46nw4hbm3snd6detail10BasicSoundFi
+	.4byte Pause__Q46nw4hbm3snd6detail10BasicSoundFbi
+	.4byte SetAutoStopCounter__Q46nw4hbm3snd6detail10BasicSoundFi
 	.4byte lbl_8012CF88
-	.4byte func_8012D780
-	.4byte lbl_8012D09C
-	.4byte lbl_8012D0D8
-	.4byte lbl_8012D9A4
-	.4byte lbl_8012DA14
-	.4byte lbl_8012DB04
-	.4byte lbl_8012DB74
-	.4byte lbl_8012DB7C
-	.4byte lbl_8012DB84
-	.4byte func_8012D904
+	.4byte Shutdown__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte FadeIn__Q46nw4hbm3snd6detail10BasicSoundFi
+	.4byte IsPause__Q46nw4hbm3snd6detail10BasicSoundCFv
+	.4byte SetInitialVolume__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetVolume__Q46nw4hbm3snd6detail10BasicSoundFfi
+	.4byte SetPitch__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetPan__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetSurroundPan__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetLpfFreq__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetPlayerPriority__Q46nw4hbm3snd6detail10BasicSoundFi
 	.4byte 0
 	.4byte 0
-	.4byte func_8012C99C
+	.4byte InitParam__Q46nw4hbm3snd6detail10BasicSoundFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -36646,15 +36646,15 @@ glabel lbl_801A69E8
 	# ROM: 0x1A2AE8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801313EC
-	.4byte lbl_80131CA4
+	.4byte CommandProc__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrackUlll
+	.4byte NoteOnCommandProc__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrackiilb
 
 glabel lbl_801A69F8
 	# ROM: 0x1A2AF8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80131F38
-	.4byte lbl_80131F24
+	.4byte __dt__Q46nw4hbm3snd6detail11MmlSeqTrackFv
+	.4byte Parse__Q46nw4hbm3snd6detail11MmlSeqTrackFb
 
 glabel lbl_801A6A08
 	# ROM: 0x1A2B08
@@ -36669,9 +36669,9 @@ glabel lbl_801A6A50
 	# ROM: 0x1A2B50
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80132080
-	.4byte lbl_80131F78
-	.4byte lbl_80131FE0
+	.4byte __dt__Q46nw4hbm3snd6detail20MmlSeqTrackAllocatorFv
+	.4byte AllocTrack__Q46nw4hbm3snd6detail20MmlSeqTrackAllocatorFPQ46nw4hbm3snd6detail9SeqPlayer
+	.4byte FreeTrack__Q46nw4hbm3snd6detail20MmlSeqTrackAllocatorFPQ46nw4hbm3snd6detail8SeqTrack
 	.4byte 0
 
 glabel lbl_801A6A68
@@ -36730,8 +36730,8 @@ glabel lbl_801A6CE0
 	.4byte lbl_8013298C
 	.4byte lbl_801329E0
 	.4byte lbl_801328F0
-	.4byte lbl_8014B8BC
-	.4byte lbl_8014B90C
+	.4byte Cancel__Q36nw4hbm2ut10FileStreamFv
+	.4byte CancelAsync__Q36nw4hbm2ut10FileStreamFPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 	.4byte lbl_801329BC
 	.4byte lbl_801329A4
 	.4byte lbl_801329E8
@@ -36844,46 +36844,46 @@ glabel lbl_801A720C
 	.asciz "varNo is out of bounds(%d)\n%d <= varNo < %d not satisfied."
 	.balign 8
 	.4byte 0xFFFFFFFF
-	.4byte func_80136168
+	.4byte SetMute__Q46nw4hbm3snd6detail8SeqTrackFQ36nw4hbm3snd7SeqMute
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_8013628C
+	.4byte SetSilence__Q46nw4hbm3snd6detail8SeqTrackFbi
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801363B0
+	.4byte SetVolume__Q46nw4hbm3snd6detail8SeqTrackFf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801363F0
+	.4byte SetPitch__Q46nw4hbm3snd6detail8SeqTrackFf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80136468
+	.4byte SetPan__Q46nw4hbm3snd6detail8SeqTrackFf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801364A8
+	.4byte SetSurroundPan__Q46nw4hbm3snd6detail8SeqTrackFf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80136528
+	.4byte SetLpfFreq__Q46nw4hbm3snd6detail8SeqTrackFf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801364E8
+	.4byte SetPanRange__Q46nw4hbm3snd6detail8SeqTrackFf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80136568
+	.4byte SetModDepth__Q46nw4hbm3snd6detail8SeqTrackFf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801365A8
+	.4byte SetModSpeed__Q46nw4hbm3snd6detail8SeqTrackFf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801365E8
+	.4byte SetMainSend__Q46nw4hbm3snd6detail8SeqTrackFf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80136628
+	.4byte SetFxSend__Q46nw4hbm3snd6detail8SeqTrackFQ36nw4hbm3snd6AuxBusf
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_801366C4
+	.4byte SetRemoteSend__Q46nw4hbm3snd6detail8SeqTrackFif
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80136760
+	.4byte SetRemoteFxSend__Q46nw4hbm3snd6detail8SeqTrackFif
 
 glabel lbl_801A732C
 	# ROM: 0x1A342C
@@ -36901,21 +36901,21 @@ glabel lbl_801A73E8
 	# ROM: 0x1A34E8
 	.4byte 0
 	.4byte 0
-	.4byte func_8013342C
-	.4byte lbl_80133A30
-	.4byte lbl_80133AD8
-	.4byte lbl_80133C34
+	.4byte __dt__Q46nw4hbm3snd6detail9SeqPlayerFv
+	.4byte Start__Q46nw4hbm3snd6detail9SeqPlayerFv
+	.4byte Stop__Q46nw4hbm3snd6detail9SeqPlayerFv
+	.4byte Pause__Q46nw4hbm3snd6detail9SeqPlayerFb
 	.4byte lbl_80130D08
 	.4byte lbl_80130CF4
 	.4byte lbl_80130CE0
 	.4byte lbl_80130CCC
-	.4byte lbl_80133CC4
-	.4byte lbl_80133D3C
-	.4byte lbl_80133DB4
-	.4byte lbl_80133DF4
-	.4byte lbl_80133E34
-	.4byte lbl_80133E74
-	.4byte lbl_80133EB4
+	.4byte SetVolume__Q46nw4hbm3snd6detail9SeqPlayerFf
+	.4byte SetPitch__Q46nw4hbm3snd6detail9SeqPlayerFf
+	.4byte SetPan__Q46nw4hbm3snd6detail9SeqPlayerFf
+	.4byte SetSurroundPan__Q46nw4hbm3snd6detail9SeqPlayerFf
+	.4byte SetPan2__Q46nw4hbm3snd6detail9SeqPlayerFf
+	.4byte SetSurroundPan2__Q46nw4hbm3snd6detail9SeqPlayerFf
+	.4byte SetLpfFreq__Q46nw4hbm3snd6detail9SeqPlayerFf
 	.4byte lbl_80130CC4
 	.4byte lbl_80130CBC
 	.4byte lbl_80130CB4
@@ -36923,28 +36923,28 @@ glabel lbl_801A73E8
 	.4byte lbl_80130CA4
 	.4byte lbl_80130C9C
 	.4byte lbl_80130C94
-	.4byte lbl_801340A8
-	.4byte lbl_80133EF4
-	.4byte lbl_80133F3C
-	.4byte lbl_80133F84
-	.4byte lbl_801340F0
-	.4byte lbl_80134214
-	.4byte lbl_80134338
-	.4byte lbl_801340E8
-	.4byte lbl_80133F34
-	.4byte lbl_80133F7C
-	.4byte lbl_80134020
-	.4byte lbl_8013418C
-	.4byte lbl_801342B0
-	.4byte lbl_801343D4
+	.4byte SetOutputLine__Q46nw4hbm3snd6detail9SeqPlayerFi
+	.4byte SetMainOutVolume__Q46nw4hbm3snd6detail9SeqPlayerFf
+	.4byte SetMainSend__Q46nw4hbm3snd6detail9SeqPlayerFf
+	.4byte SetFxSend__Q46nw4hbm3snd6detail9SeqPlayerFQ36nw4hbm3snd6AuxBusf
+	.4byte SetRemoteOutVolume__Q46nw4hbm3snd6detail9SeqPlayerFif
+	.4byte SetRemoteSend__Q46nw4hbm3snd6detail9SeqPlayerFif
+	.4byte SetRemoteFxSend__Q46nw4hbm3snd6detail9SeqPlayerFif
+	.4byte GetOutputLine__Q46nw4hbm3snd6detail9SeqPlayerCFv
+	.4byte GetMainOutVolume__Q46nw4hbm3snd6detail9SeqPlayerCFv
+	.4byte GetMainSend__Q46nw4hbm3snd6detail9SeqPlayerCFv
+	.4byte GetFxSend__Q46nw4hbm3snd6detail9SeqPlayerCFQ36nw4hbm3snd6AuxBus
+	.4byte GetRemoteOutVolume__Q46nw4hbm3snd6detail9SeqPlayerCFi
+	.4byte GetRemoteSend__Q46nw4hbm3snd6detail9SeqPlayerCFi
+	.4byte GetRemoteFxSend__Q46nw4hbm3snd6detail9SeqPlayerCFi
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80134D28
+	.4byte _8___dt__Q46nw4hbm3snd6detail9SeqPlayerFv
 	.4byte lbl_80130D24
 	.4byte lbl_80130D1C
-	.4byte lbl_801344E4
+	.4byte InvalidateData__Q46nw4hbm3snd6detail9SeqPlayerFPCvPCv
 	.4byte lbl_80130C90
-	.4byte lbl_80134C94
+	.4byte ChannelCallback__Q46nw4hbm3snd6detail9SeqPlayerFPQ46nw4hbm3snd6detail7Channel
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -36953,7 +36953,7 @@ glabel lbl_801A73E8
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801333EC
+	.4byte __dt__Q46nw4hbm3snd6detail11BasicPlayerFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -37041,29 +37041,29 @@ glabel lbl_801A77DC
 	# ROM: 0x1A38DC
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80135394
-	.4byte lbl_80135154
-	.4byte lbl_8012D0EC
-	.4byte lbl_8012CAC8
-	.4byte lbl_8012CAE0
-	.4byte lbl_8012CCBC
-	.4byte lbl_8012CF70
+	.4byte GetRuntimeTypeInfo__Q46nw4hbm3snd6detail8SeqSoundCFv
+	.4byte __dt__Q46nw4hbm3snd6detail8SeqSoundFv
+	.4byte Update__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte StartPrepared__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte Stop__Q46nw4hbm3snd6detail10BasicSoundFi
+	.4byte Pause__Q46nw4hbm3snd6detail10BasicSoundFbi
+	.4byte SetAutoStopCounter__Q46nw4hbm3snd6detail10BasicSoundFi
 	.4byte lbl_8012CF88
-	.4byte lbl_80135048
-	.4byte lbl_8012D09C
-	.4byte lbl_8012D0D8
-	.4byte lbl_8012D9A4
-	.4byte lbl_8012DA14
-	.4byte lbl_8012DB04
-	.4byte lbl_8012DB74
-	.4byte lbl_8012DB7C
-	.4byte lbl_8012DB84
-	.4byte lbl_80135238
-	.4byte lbl_80135368
-	.4byte lbl_8013537C
-	.4byte lbl_80134D94
-	.4byte lbl_80135384
-	.4byte lbl_8013538C
+	.4byte Shutdown__Q46nw4hbm3snd6detail8SeqSoundFv
+	.4byte FadeIn__Q46nw4hbm3snd6detail10BasicSoundFi
+	.4byte IsPause__Q46nw4hbm3snd6detail10BasicSoundCFv
+	.4byte SetInitialVolume__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetVolume__Q46nw4hbm3snd6detail10BasicSoundFfi
+	.4byte SetPitch__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetPan__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetSurroundPan__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetLpfFreq__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetPlayerPriority__Q46nw4hbm3snd6detail8SeqSoundFi
+	.4byte IsAttachedTempSpecialHandle__Q46nw4hbm3snd6detail8SeqSoundFv
+	.4byte DetachTempSpecialHandle__Q46nw4hbm3snd6detail8SeqSoundFv
+	.4byte InitParam__Q46nw4hbm3snd6detail8SeqSoundFv
+	.4byte GetBasicPlayer__Q46nw4hbm3snd6detail8SeqSoundFv
+	.4byte GetBasicPlayer__Q46nw4hbm3snd6detail8SeqSoundCFv
 
 glabel lbl_801A7840
 	# ROM: 0x1A3940
@@ -37174,7 +37174,7 @@ glabel lbl_801A7DC8
 	# ROM: 0x1A3EC8
 	.4byte 0
 	.4byte 0
-	.4byte func_80136C68
+	.4byte __dt__Q36nw4hbm3snd12SoundArchiveFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -37480,72 +37480,72 @@ glabel lbl_801A8C60
 	# ROM: 0x1A4D60
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801395FC
-	.4byte lbl_8013B46C
-	.4byte lbl_8013B4C0
+	.4byte __dt__Q36nw4hbm3snd18SoundArchivePlayerFv
+	.4byte InvalidateData__Q36nw4hbm3snd18SoundArchivePlayerFPCvPCv
+	.4byte InvalidateWaveData__Q36nw4hbm3snd18SoundArchivePlayerFPCvPCv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8013C7E8
-	.4byte lbl_8013C7E0
-	.4byte lbl_8013C7D8
-	.4byte lbl_8013AB80
-	.4byte lbl_8013C658
+	.4byte ____dt__Q36nw4hbm3snd18SoundArchivePlayerFv
+	.4byte __detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11SoundHandleUlPQ56nw4hbm3snd6detail10BasicSound14AmbientArgInfoPQ46nw4hbm3snd6detail19ExternalSoundPlayerbPCQ46nw4hbm3snd14SoundStartable9StartInfo
+	.4byte __detail_ConvertLabelStringToSoundId__Q36nw4hbm3snd18SoundArchivePlayerFPCc
+	.4byte detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11SoundHandleUlPQ56nw4hbm3snd6detail10BasicSound14AmbientArgInfoPQ46nw4hbm3snd6detail19ExternalSoundPlayerbPCQ46nw4hbm3snd14SoundStartable9StartInfo
+	.4byte detail_ConvertLabelStringToSoundId__Q36nw4hbm3snd18SoundArchivePlayerFPCc
 
 glabel lbl_801A8C90
 	# ROM: 0x1A4D90
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8013C798
-	.4byte lbl_8013C274
-	.4byte lbl_8013C598
+	.4byte __dt__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
+	.4byte Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
+	.4byte Cancel__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 
 glabel lbl_801A8CA4
 	# ROM: 0x1A4DA4
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8013C758
-	.4byte lbl_8013BE10
-	.4byte lbl_8013C0B0
+	.4byte __dt__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
+	.4byte Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
+	.4byte Cancel__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 
 glabel lbl_801A8CB8
 	# ROM: 0x1A4DB8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8013C718
-	.4byte lbl_8013BCAC
-	.4byte lbl_8013BDBC
+	.4byte __dt__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
+	.4byte Execute__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
+	.4byte Cancel__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
 	.4byte 0
 
 glabel lbl_801A8CD0
 	# ROM: 0x1A4DD0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801393D4
-	.4byte lbl_8013B868
+	.4byte __dt__Q46nw4hbm3snd18SoundArchivePlayer11WsdCallbackFv
+	.4byte GetWaveSoundData__Q46nw4hbm3snd18SoundArchivePlayer11WsdCallbackCFPQ46nw4hbm3snd6detail13WaveSoundInfoPQ46nw4hbm3snd6detail17WaveSoundNoteInfoPQ46nw4hbm3snd6detail8WaveDataPCviiUl
 
 glabel lbl_801A8CE0
 	# ROM: 0x1A4DE0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80139414
-	.4byte lbl_8013B990
-	.4byte lbl_8013BAD4
-	.4byte lbl_8013BC38
+	.4byte __dt__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackFv
+	.4byte LoadHeader__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackCFPFbPCQ56nw4hbm3snd6detail10StrmPlayer10StrmHeaderPv_vPvUlUl
+	.4byte LoadStream__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackCFPvUlliUllbRQ56nw4hbm3snd6detail10StrmPlayer11LoadCommandUlUl
+	.4byte CancelLoading__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackCFUlUl
 
 glabel lbl_801A8CF8
 	# ROM: 0x1A4DF8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80139394
-	.4byte lbl_8013B6EC
+	.4byte __dt__Q46nw4hbm3snd18SoundArchivePlayer17SeqNoteOnCallbackFv
+	.4byte NoteOn__Q46nw4hbm3snd18SoundArchivePlayer17SeqNoteOnCallbackFPQ46nw4hbm3snd6detail9SeqPlayeriRCQ46nw4hbm3snd6detail10NoteOnInfo
 
 glabel lbl_801A8D08
 	# ROM: 0x1A4E08
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80139314
-	.4byte lbl_8013B514
-	.4byte lbl_8013B6B8
+	.4byte __dt__Q46nw4hbm3snd18SoundArchivePlayer15SeqLoadCallbackFv
+	.4byte LoadData__Q46nw4hbm3snd18SoundArchivePlayer15SeqLoadCallbackCFPFbPCvlPv_vPvUl
+	.4byte CancelLoading__Q46nw4hbm3snd18SoundArchivePlayer15SeqLoadCallbackCFUl
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -37553,33 +37553,33 @@ glabel lbl_801A8D08
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8013BC6C
+	.4byte __dt__Q46nw4hbm3snd6detail4TaskFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80139294
+	.4byte __dt__Q56nw4hbm3snd6detail8WsdTrack11WsdCallbackFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80139454
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte 0
-	.4byte lbl_80139354
+	.4byte __dt__Q56nw4hbm3snd6detail10StrmPlayer12StrmCallbackFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801392D4
+	.4byte 0
+	.4byte __dt__Q56nw4hbm3snd6detail8SeqSound15SeqLoadCallbackFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80139254
+	.4byte __dt__Q46nw4hbm3snd6detail17SeqTrackAllocatorFv
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte __dt__Q46nw4hbm3snd6detail14NoteOnCallbackFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -37592,8 +37592,8 @@ glabel lbl_801A8DC0
 	# ROM: 0x1A4EC0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8013C6C0
-	.4byte lbl_8013C984
+	.4byte __dt__Q46nw4hbm3snd6detail10PlayerHeapFv
+	.4byte Alloc__Q36nw4hbm3snd9SoundHeapFUl
 
 glabel lbl_801A8DD0
 	# ROM: 0x1A4ED0
@@ -37786,8 +37786,8 @@ glabel lbl_801A9268
 	# ROM: 0x1A5368
 	.4byte 0
 	.4byte 0
-	.4byte func_8013C904
-	.4byte lbl_8013C984
+	.4byte __dt__Q36nw4hbm3snd9SoundHeapFv
+	.4byte Alloc__Q36nw4hbm3snd9SoundHeapFUl
 
 glabel lbl_801A9278
 	# ROM: 0x1A5378
@@ -38139,48 +38139,48 @@ glabel lbl_801AA070
 	# ROM: 0x1A6170
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80141F04
-	.4byte lbl_8013FA9C
-	.4byte lbl_8013FC0C
-	.4byte lbl_8013FC20
-	.4byte lbl_80141EF0
-	.4byte lbl_80141EDC
-	.4byte lbl_80141EC8
-	.4byte lbl_80141EB4
-	.4byte lbl_80141EAC
-	.4byte lbl_80141EA4
-	.4byte lbl_80141E9C
-	.4byte lbl_80141E94
-	.4byte lbl_80141E8C
-	.4byte lbl_80141E84
-	.4byte lbl_80141E7C
-	.4byte lbl_80141E74
-	.4byte lbl_80141E6C
-	.4byte lbl_80141E64
-	.4byte lbl_80141E5C
-	.4byte lbl_80141E54
-	.4byte lbl_80141E4C
-	.4byte lbl_80141E44
-	.4byte lbl_80140D60
-	.4byte lbl_80140BAC
-	.4byte lbl_80140BF4
-	.4byte lbl_80140C3C
-	.4byte lbl_80140DA8
-	.4byte lbl_80140ECC
-	.4byte lbl_80140FF0
-	.4byte lbl_80140DA0
-	.4byte lbl_80140BEC
-	.4byte lbl_80140C34
-	.4byte lbl_80140CD8
-	.4byte lbl_80140E44
-	.4byte lbl_80140F68
-	.4byte lbl_8014108C
+	.4byte __dt__Q46nw4hbm3snd6detail10StrmPlayerFv
+	.4byte Start__Q46nw4hbm3snd6detail10StrmPlayerFv
+	.4byte Stop__Q46nw4hbm3snd6detail10StrmPlayerFv
+	.4byte Pause__Q46nw4hbm3snd6detail10StrmPlayerFb
+	.4byte IsActive__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte IsPrepared__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte IsStarted__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte IsPause__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte SetVolume__Q46nw4hbm3snd6detail10StrmPlayerFf
+	.4byte SetPitch__Q46nw4hbm3snd6detail10StrmPlayerFf
+	.4byte SetPan__Q46nw4hbm3snd6detail10StrmPlayerFf
+	.4byte SetSurroundPan__Q46nw4hbm3snd6detail10StrmPlayerFf
+	.4byte SetPan2__Q46nw4hbm3snd6detail10StrmPlayerFf
+	.4byte SetSurroundPan2__Q46nw4hbm3snd6detail10StrmPlayerFf
+	.4byte SetLpfFreq__Q46nw4hbm3snd6detail10StrmPlayerFf
+	.4byte GetVolume__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte GetPitch__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte GetPan__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte GetSurroundPan__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte GetPan2__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte GetSurroundPan2__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte GetLpfFreq__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte SetOutputLine__Q46nw4hbm3snd6detail10StrmPlayerFi
+	.4byte SetMainOutVolume__Q46nw4hbm3snd6detail10StrmPlayerFf
+	.4byte SetMainSend__Q46nw4hbm3snd6detail10StrmPlayerFf
+	.4byte SetFxSend__Q46nw4hbm3snd6detail10StrmPlayerFQ36nw4hbm3snd6AuxBusf
+	.4byte SetRemoteOutVolume__Q46nw4hbm3snd6detail10StrmPlayerFif
+	.4byte SetRemoteSend__Q46nw4hbm3snd6detail10StrmPlayerFif
+	.4byte SetRemoteFxSend__Q46nw4hbm3snd6detail10StrmPlayerFif
+	.4byte GetOutputLine__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte GetMainOutVolume__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte GetMainSend__Q46nw4hbm3snd6detail10StrmPlayerCFv
+	.4byte GetFxSend__Q46nw4hbm3snd6detail10StrmPlayerCFQ36nw4hbm3snd6AuxBus
+	.4byte GetRemoteOutVolume__Q46nw4hbm3snd6detail10StrmPlayerCFi
+	.4byte GetRemoteSend__Q46nw4hbm3snd6detail10StrmPlayerCFi
+	.4byte GetRemoteFxSend__Q46nw4hbm3snd6detail10StrmPlayerCFi
 
 glabel lbl_801AA108
 	# ROM: 0x1A6208
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80141CB0
+	.4byte NotifyAsyncEnd__Q56nw4hbm3snd6detail10StrmPlayer11LoadCommandFb
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -38283,29 +38283,29 @@ glabel lbl_801AA348
 	# ROM: 0x1A6448
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80142410
-	.4byte lbl_80142224
-	.4byte lbl_8012D0EC
-	.4byte lbl_8012CAC8
-	.4byte lbl_8012CAE0
-	.4byte lbl_8012CCBC
-	.4byte lbl_8012CF70
+	.4byte GetRuntimeTypeInfo__Q46nw4hbm3snd6detail9StrmSoundCFv
+	.4byte __dt__Q46nw4hbm3snd6detail9StrmSoundFv
+	.4byte Update__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte StartPrepared__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte Stop__Q46nw4hbm3snd6detail10BasicSoundFi
+	.4byte Pause__Q46nw4hbm3snd6detail10BasicSoundFbi
+	.4byte SetAutoStopCounter__Q46nw4hbm3snd6detail10BasicSoundFi
 	.4byte lbl_8012CF88
-	.4byte lbl_80142148
-	.4byte lbl_8012D09C
-	.4byte lbl_8012D0D8
-	.4byte lbl_8012D9A4
-	.4byte lbl_8012DA14
-	.4byte lbl_8012DB04
-	.4byte lbl_8012DB74
-	.4byte lbl_8012DB7C
-	.4byte lbl_8012DB84
-	.4byte lbl_801422B4
-	.4byte lbl_801423E4
-	.4byte lbl_801423F8
-	.4byte func_8012C99C
-	.4byte lbl_80142400
-	.4byte lbl_80142408
+	.4byte Shutdown__Q46nw4hbm3snd6detail9StrmSoundFv
+	.4byte FadeIn__Q46nw4hbm3snd6detail10BasicSoundFi
+	.4byte IsPause__Q46nw4hbm3snd6detail10BasicSoundCFv
+	.4byte SetInitialVolume__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetVolume__Q46nw4hbm3snd6detail10BasicSoundFfi
+	.4byte SetPitch__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetPan__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetSurroundPan__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetLpfFreq__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetPlayerPriority__Q46nw4hbm3snd6detail9StrmSoundFi
+	.4byte IsAttachedTempSpecialHandle__Q46nw4hbm3snd6detail9StrmSoundFv
+	.4byte DetachTempSpecialHandle__Q46nw4hbm3snd6detail9StrmSoundFv
+	.4byte InitParam__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte GetBasicPlayer__Q46nw4hbm3snd6detail9StrmSoundFv
+	.4byte GetBasicPlayer__Q46nw4hbm3snd6detail9StrmSoundCFv
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -38444,10 +38444,10 @@ glabel lbl_801AA97C
 	# ROM: 0x1A6A7C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80143480
+	.4byte __dt__Q36nw4hbm3snd10WavePlayerFv
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80143F78
+	.4byte __dt__Q46nw4hbm3snd10WavePlayer10WavePacketFv
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -38539,29 +38539,29 @@ glabel lbl_801AAC34
 	# ROM: 0x1A6D34
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801444B8
-	.4byte lbl_80144294
-	.4byte lbl_8012D0EC
-	.4byte lbl_8012CAC8
-	.4byte lbl_8012CAE0
-	.4byte lbl_8012CCBC
-	.4byte lbl_8012CF70
+	.4byte GetRuntimeTypeInfo__Q46nw4hbm3snd6detail9WaveSoundCFv
+	.4byte __dt__Q46nw4hbm3snd6detail9WaveSoundFv
+	.4byte Update__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte StartPrepared__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte Stop__Q46nw4hbm3snd6detail10BasicSoundFi
+	.4byte Pause__Q46nw4hbm3snd6detail10BasicSoundFbi
+	.4byte SetAutoStopCounter__Q46nw4hbm3snd6detail10BasicSoundFi
 	.4byte lbl_8012CF88
-	.4byte lbl_801441B8
-	.4byte lbl_8012D09C
-	.4byte lbl_8012D0D8
-	.4byte lbl_8012D9A4
-	.4byte lbl_8012DA14
-	.4byte lbl_8012DB04
-	.4byte lbl_8012DB74
-	.4byte lbl_8012DB7C
-	.4byte lbl_8012DB84
-	.4byte lbl_8014435C
-	.4byte lbl_8014448C
-	.4byte lbl_801444A0
-	.4byte func_8012C99C
-	.4byte lbl_801444A8
-	.4byte lbl_801444B0
+	.4byte Shutdown__Q46nw4hbm3snd6detail9WaveSoundFv
+	.4byte FadeIn__Q46nw4hbm3snd6detail10BasicSoundFi
+	.4byte IsPause__Q46nw4hbm3snd6detail10BasicSoundCFv
+	.4byte SetInitialVolume__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetVolume__Q46nw4hbm3snd6detail10BasicSoundFfi
+	.4byte SetPitch__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetPan__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetSurroundPan__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetLpfFreq__Q46nw4hbm3snd6detail10BasicSoundFf
+	.4byte SetPlayerPriority__Q46nw4hbm3snd6detail9WaveSoundFi
+	.4byte IsAttachedTempSpecialHandle__Q46nw4hbm3snd6detail9WaveSoundFv
+	.4byte DetachTempSpecialHandle__Q46nw4hbm3snd6detail9WaveSoundFv
+	.4byte InitParam__Q46nw4hbm3snd6detail10BasicSoundFv
+	.4byte GetBasicPlayer__Q46nw4hbm3snd6detail9WaveSoundFv
+	.4byte GetBasicPlayer__Q46nw4hbm3snd6detail9WaveSoundCFv
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -38676,49 +38676,49 @@ glabel lbl_801AB15C
 	# ROM: 0x1A725C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801440A4
-	.4byte lbl_80144CBC
-	.4byte lbl_80144D64
-	.4byte lbl_80144E30
-	.4byte lbl_80145AA0
-	.4byte lbl_80145A78
-	.4byte lbl_80145A8C
-	.4byte lbl_80145A64
-	.4byte lbl_80144E8C
-	.4byte lbl_80144F04
-	.4byte lbl_80144F7C
-	.4byte lbl_80144FBC
-	.4byte lbl_80144FFC
-	.4byte lbl_8014503C
-	.4byte lbl_8014507C
-	.4byte lbl_80145A5C
-	.4byte lbl_80145A54
-	.4byte lbl_80145A4C
-	.4byte lbl_80145A44
-	.4byte lbl_80145A3C
-	.4byte lbl_80145A34
-	.4byte lbl_80145A2C
-	.4byte lbl_80145220
-	.4byte lbl_801455D4
-	.4byte lbl_801450BC
-	.4byte lbl_80145104
-	.4byte lbl_80145268
-	.4byte lbl_8014538C
-	.4byte lbl_801454B0
-	.4byte lbl_80145260
-	.4byte lbl_80145614
-	.4byte lbl_801450FC
-	.4byte lbl_80145198
-	.4byte lbl_80145304
-	.4byte lbl_80145428
-	.4byte lbl_8014554C
+	.4byte __dt__Q46nw4hbm3snd6detail9WsdPlayerFv
+	.4byte Start__Q46nw4hbm3snd6detail9WsdPlayerFv
+	.4byte Stop__Q46nw4hbm3snd6detail9WsdPlayerFv
+	.4byte Pause__Q46nw4hbm3snd6detail9WsdPlayerFb
+	.4byte IsActive__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte IsPrepared__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte IsStarted__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte IsPause__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte SetVolume__Q46nw4hbm3snd6detail9WsdPlayerFf
+	.4byte SetPitch__Q46nw4hbm3snd6detail9WsdPlayerFf
+	.4byte SetPan__Q46nw4hbm3snd6detail9WsdPlayerFf
+	.4byte SetSurroundPan__Q46nw4hbm3snd6detail9WsdPlayerFf
+	.4byte SetPan2__Q46nw4hbm3snd6detail9WsdPlayerFf
+	.4byte SetSurroundPan2__Q46nw4hbm3snd6detail9WsdPlayerFf
+	.4byte SetLpfFreq__Q46nw4hbm3snd6detail9WsdPlayerFf
+	.4byte GetVolume__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte GetPitch__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte GetPan__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte GetSurroundPan__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte GetPan2__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte GetSurroundPan2__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte GetLpfFreq__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte SetOutputLine__Q46nw4hbm3snd6detail9WsdPlayerFi
+	.4byte SetMainOutVolume__Q46nw4hbm3snd6detail9WsdPlayerFf
+	.4byte SetMainSend__Q46nw4hbm3snd6detail9WsdPlayerFf
+	.4byte SetFxSend__Q46nw4hbm3snd6detail9WsdPlayerFQ36nw4hbm3snd6AuxBusf
+	.4byte SetRemoteOutVolume__Q46nw4hbm3snd6detail9WsdPlayerFif
+	.4byte SetRemoteSend__Q46nw4hbm3snd6detail9WsdPlayerFif
+	.4byte SetRemoteFxSend__Q46nw4hbm3snd6detail9WsdPlayerFif
+	.4byte GetOutputLine__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte GetMainOutVolume__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte GetMainSend__Q46nw4hbm3snd6detail9WsdPlayerCFv
+	.4byte GetFxSend__Q46nw4hbm3snd6detail9WsdPlayerCFQ36nw4hbm3snd6AuxBus
+	.4byte GetRemoteOutVolume__Q46nw4hbm3snd6detail9WsdPlayerCFi
+	.4byte GetRemoteSend__Q46nw4hbm3snd6detail9WsdPlayerCFi
+	.4byte GetRemoteFxSend__Q46nw4hbm3snd6detail9WsdPlayerCFi
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80145B54
-	.4byte lbl_80145B4C
-	.4byte lbl_80145B44
-	.4byte lbl_801456A4
-	.4byte lbl_80145A28
+	.4byte _8___dt__Q46nw4hbm3snd6detail9WsdPlayerFv
+	.4byte _8_InvalidateData__Q46nw4hbm3snd6detail9WsdPlayerFPCvPCv
+	.4byte _8_InvalidateWaveData__Q46nw4hbm3snd6detail9WsdPlayerFPCvPCv
+	.4byte InvalidateData__Q46nw4hbm3snd6detail9WsdPlayerFPCvPCv
+	.4byte InvalidateWaveData__Q46nw4hbm3snd6detail9WsdPlayerFPCvPCv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -38882,11 +38882,11 @@ glabel lbl_801ABAF8
 	.4byte lbl_80130C84
 	.4byte lbl_80130C2C
 	.4byte 0
-	.4byte lbl_8014BCC8
-	.4byte lbl_8014BD1C
-	.4byte lbl_8014BDB4
-	.4byte lbl_8014BE04
-	.4byte lbl_8014BE9C
+	.4byte Read__Q36nw4hbm2ut8IOStreamFPvUl
+	.4byte ReadAsync__Q36nw4hbm2ut8IOStreamFPvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
+	.4byte Write__Q36nw4hbm2ut8IOStreamFPCvUl
+	.4byte WriteAsync__Q36nw4hbm2ut8IOStreamFPCvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
+	.4byte IsBusy__Q36nw4hbm2ut8IOStreamCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -38894,9 +38894,9 @@ glabel lbl_801ABAF8
 	.4byte lbl_80130C74
 	.4byte lbl_80130C6C
 	.4byte 0
-	.4byte lbl_8014B86C
-	.4byte lbl_8014B8BC
-	.4byte lbl_8014B90C
+	.4byte Seek__Q36nw4hbm2ut10FileStreamFlUl
+	.4byte Cancel__Q36nw4hbm2ut10FileStreamFv
+	.4byte CancelAsync__Q36nw4hbm2ut10FileStreamFPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -38906,16 +38906,16 @@ glabel lbl_801ABBA8
 	# ROM: 0x1A7CA8
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80146948
+	.4byte ReadNextCharUTF8__Q36nw4hbm2ut14CharStrmReaderFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80146C08
+	.4byte ReadNextCharUTF16__Q36nw4hbm2ut14CharStrmReaderFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80147050
+	.4byte ReadNextCharSJIS__Q36nw4hbm2ut14CharStrmReaderFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80146E3C
+	.4byte ReadNextCharCP1252__Q36nw4hbm2ut14CharStrmReaderFv
 	.asciz "ut_Font.cpp"
 	.asciz "NW4HBM:Pointer Error\nthis(=%p) is not valid pointer."
 	.balign 8
@@ -38939,14 +38939,14 @@ glabel lbl_801ABC7C
 	.balign 8
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8014BEF0
+	.4byte GetRuntimeTypeInfo__Q36nw4hbm2ut8IOStreamCFv
 	.4byte lbl_80130BEC
 	.4byte 0
-	.4byte lbl_8014BCC8
-	.4byte lbl_8014BD1C
-	.4byte lbl_8014BDB4
-	.4byte lbl_8014BE04
-	.4byte lbl_8014BE9C
+	.4byte Read__Q36nw4hbm2ut8IOStreamFPvUl
+	.4byte ReadAsync__Q36nw4hbm2ut8IOStreamFPvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
+	.4byte Write__Q36nw4hbm2ut8IOStreamFPCvUl
+	.4byte WriteAsync__Q36nw4hbm2ut8IOStreamFPCvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
+	.4byte IsBusy__Q36nw4hbm2ut8IOStreamCFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -39034,8 +39034,8 @@ glabel lbl_801AC044
 	.4byte lbl_8013298C
 	.4byte lbl_8014D800
 	.4byte func_8014D788
-	.4byte lbl_8014B8BC
-	.4byte lbl_8014B90C
+	.4byte Cancel__Q36nw4hbm2ut10FileStreamFv
+	.4byte CancelAsync__Q36nw4hbm2ut10FileStreamFPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 	.4byte lbl_801329BC
 	.4byte lbl_801329A4
 	.4byte lbl_8014D808
@@ -39105,32 +39105,32 @@ glabel lbl_801AC900
 	# ROM: 0x1A8A00
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8014D860
-	.4byte lbl_8014EB20
-	.4byte lbl_8014ED28
-	.4byte lbl_8014EF30
-	.4byte lbl_8014F138
-	.4byte lbl_8014F348
-	.4byte lbl_8014F558
-	.4byte lbl_8014F764
-	.4byte lbl_8014F970
-	.4byte lbl_8014FB7C
-	.4byte lbl_8014FB84
-	.4byte lbl_8014FD90
-	.4byte lbl_8014FF9C
-	.4byte lbl_801501B0
-	.4byte lbl_801504BC
-	.4byte lbl_801508A8
-	.4byte lbl_80150AFC
-	.4byte lbl_80150B48
-	.4byte lbl_801511E4
-	.4byte lbl_801515CC
+	.4byte __dt__Q36nw4hbm2ut7ResFontFv
+	.4byte GetWidth__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetHeight__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetAscent__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetDescent__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetBaselinePos__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetCellHeight__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetCellWidth__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetMaxCharWidth__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetType__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetTextureFormat__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetLineFeed__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetDefaultCharWidths__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte SetDefaultCharWidths__Q46nw4hbm2ut6detail11ResFontBaseFRCQ36nw4hbm2ut10CharWidths
+	.4byte SetAlternateChar__Q46nw4hbm2ut6detail11ResFontBaseFUs
+	.4byte SetLineFeed__Q46nw4hbm2ut6detail11ResFontBaseFi
+	.4byte GetCharWidth__Q46nw4hbm2ut6detail11ResFontBaseCFUs
+	.4byte GetCharWidths__Q46nw4hbm2ut6detail11ResFontBaseCFUs
+	.4byte GetGlyph__Q46nw4hbm2ut6detail11ResFontBaseCFPQ36nw4hbm2ut5GlyphUs
+	.4byte GetEncoding__Q46nw4hbm2ut6detail11ResFontBaseCFv
 
 glabel lbl_801AC958
 	# ROM: 0x1A8A58
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80146E3C
+	.4byte ReadNextCharCP1252__Q36nw4hbm2ut14CharStrmReaderFv
 	.asciz "ut_ResFontBase.cpp"
 	.balign 4
 	.asciz "NW4HBM:Pointer Error\npUserBuffer(=%p) is not valid pointer."
@@ -39159,32 +39159,32 @@ glabel lbl_801ACBC0
 	# ROM: 0x1A8CC0
 	.4byte 0
 	.4byte 0
-	.4byte func_8014E880
-	.4byte lbl_8014EB20
-	.4byte lbl_8014ED28
-	.4byte lbl_8014EF30
-	.4byte lbl_8014F138
-	.4byte lbl_8014F348
-	.4byte lbl_8014F558
-	.4byte lbl_8014F764
-	.4byte lbl_8014F970
-	.4byte lbl_8014FB7C
-	.4byte lbl_8014FB84
-	.4byte lbl_8014FD90
-	.4byte lbl_8014FF9C
-	.4byte lbl_801501B0
-	.4byte lbl_801504BC
-	.4byte lbl_801508A8
-	.4byte lbl_80150AFC
-	.4byte lbl_80150B48
-	.4byte lbl_801511E4
-	.4byte lbl_801515CC
+	.4byte __dt__Q46nw4hbm2ut6detail11ResFontBaseFv
+	.4byte GetWidth__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetHeight__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetAscent__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetDescent__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetBaselinePos__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetCellHeight__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetCellWidth__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetMaxCharWidth__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetType__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetTextureFormat__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetLineFeed__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte GetDefaultCharWidths__Q46nw4hbm2ut6detail11ResFontBaseCFv
+	.4byte SetDefaultCharWidths__Q46nw4hbm2ut6detail11ResFontBaseFRCQ36nw4hbm2ut10CharWidths
+	.4byte SetAlternateChar__Q46nw4hbm2ut6detail11ResFontBaseFUs
+	.4byte SetLineFeed__Q46nw4hbm2ut6detail11ResFontBaseFi
+	.4byte GetCharWidth__Q46nw4hbm2ut6detail11ResFontBaseCFUs
+	.4byte GetCharWidths__Q46nw4hbm2ut6detail11ResFontBaseCFUs
+	.4byte GetGlyph__Q46nw4hbm2ut6detail11ResFontBaseCFPQ36nw4hbm2ut5GlyphUs
+	.4byte GetEncoding__Q46nw4hbm2ut6detail11ResFontBaseCFv
 
 glabel lbl_801ACC18
 	# ROM: 0x1A8D18
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80122F44
+	.4byte __dt__Q36nw4hbm2ut4FontFv
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -39218,32 +39218,32 @@ glabel lbl_801ACD20
 	# ROM: 0x1A8E20
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80152938
-	.4byte lbl_80152978
-	.4byte lbl_80152CFC
+	.4byte __dt__Q36nw4hbm2ut19TagProcessorBase_w
+	.4byte Process__Q36nw4hbm2ut19TagProcessorBase_w_FUsPQ36nw4hbm2ut15PrintContext_w_
+	.4byte CalcRect__Q36nw4hbm2ut19TagProcessorBase_w_FPQ36nw4hbm2ut4RectUsPQ36nw4hbm2ut15PrintContext_w_
 
 glabel lbl_801ACD34
 	# ROM: 0x1A8E34
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8015202C
-	.4byte lbl_8015206C
-	.4byte lbl_801523F0
+	.4byte __dt__Q36nw4hbm2ut19TagProcessorBase_c_Fv
+	.4byte Process__Q36nw4hbm2ut19TagProcessorBase_c_FUsPQ36nw4hbm2ut15PrintContext_c_
+	.4byte CalcRect__Q36nw4hbm2ut19TagProcessorBase_c_FPQ36nw4hbm2ut4RectUsPQ36nw4hbm2ut15PrintContext_c_
 
 glabel lbl_801ACD48
 	# ROM: 0x1A8E48
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80146C08
+	.4byte ReadNextCharUTF16__Q36nw4hbm2ut14CharStrmReaderFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80146948
+	.4byte ReadNextCharUTF8__Q36nw4hbm2ut14CharStrmReaderFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80146E3C
+	.4byte ReadNextCharCP1252__Q36nw4hbm2ut14CharStrmReaderFv
 	.4byte 0
 	.4byte 0xFFFFFFFF
-	.4byte lbl_80147050
+	.4byte ReadNextCharSJIS__Q36nw4hbm2ut14CharStrmReaderFv
 
 glabel lbl_801ACD78
 	# ROM: 0x1A8E78
@@ -39411,7 +39411,7 @@ glabel lbl_801AD448
 	# ROM: 0x1A9548
 	.4byte lbl_80246B30
 	.4byte 0
-	.4byte lbl_8015E410
+	.4byte __dt__Q23std13bad_exceptionFv
 	.4byte lbl_8015EAC4
 
 glabel lbl_801AD458
@@ -39441,9 +39441,9 @@ glabel lbl_801AD478
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801732FC
-	.4byte lbl_8016A534
-	.4byte lbl_8016A604
+	.4byte __read_console
+	.4byte __write_console
+	.4byte __close_console
 	.4byte 0
 	.4byte lbl_801AD4C8
 lbl_801AD4C8:
@@ -39462,9 +39462,9 @@ lbl_801AD4C8:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801732FC
-	.4byte lbl_8016A534
-	.4byte lbl_8016A604
+	.4byte __read_console
+	.4byte __write_console
+	.4byte __close_console
 	.4byte 0
 	.4byte lbl_801AD518
 lbl_801AD518:
@@ -39483,9 +39483,9 @@ lbl_801AD518:
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_801732FC
-	.4byte lbl_8016A534
-	.4byte lbl_8016A604
+	.4byte __read_console
+	.4byte __write_console
+	.4byte __close_console
 	.4byte 0
 	.4byte lbl_801AD568
 lbl_801AD568:
@@ -39631,8 +39631,8 @@ lbl_801AD758:
 	.4byte lbl_80178BE0
 	.4byte lbl_80178FE0
 	.4byte lbl_80178DE0
-	.4byte lbl_80162224
-	.4byte lbl_80162270
+	.4byte __mbtowc_noconv
+	.4byte __wctomb_noconv
 lbl_801AD780:
 	.4byte 0x00010002
 	.4byte 0x00030004

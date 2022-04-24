@@ -3,7 +3,7 @@ glabel cpuExecuteLoadStoreF
 /* 8003AD24 00036244  7C 08 02 A6 */	mflr r0
 /* 8003AD28 00036248  90 01 00 44 */	stw r0, 0x44(r1)
 /* 8003AD2C 0003624C  39 61 00 40 */	addi r11, r1, 0x40
-/* 8003AD30 00036250  48 12 1C 05 */	bl __save_registersr23
+/* 8003AD30 00036250  48 12 1C 05 */	bl _savegpr_23
 /* 8003AD34 00036254  38 03 00 24 */	addi r0, r3, 0x24
 /* 8003AD38 00036258  7C 7F 1B 78 */	mr r31, r3
 /* 8003AD3C 0003625C  7C E3 00 50 */	subf r7, r3, r0
@@ -741,7 +741,7 @@ lbl_8003B7BC:
 /* 8003B7D8 00036CF8  7F 03 C3 78 */	mr r3, r24
 lbl_8003B7DC:
 /* 8003B7DC 00036CFC  39 61 00 40 */	addi r11, r1, 0x40
-/* 8003B7E0 00036D00  48 12 11 A1 */	bl __restore_registersr23
+/* 8003B7E0 00036D00  48 12 11 A1 */	bl _restgpr_23
 /* 8003B7E4 00036D04  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8003B7E8 00036D08  7C 08 03 A6 */	mtlr r0
 /* 8003B7EC 00036D0C  38 21 00 40 */	addi r1, r1, 0x40

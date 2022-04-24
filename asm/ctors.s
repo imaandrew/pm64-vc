@@ -6,27 +6,27 @@
 
 glabel lbl_80174200
 	# ROM: 0x170300
-	.4byte lbl_8015D104
+	.4byte __init_cpp_exceptions_tmp
 	.4byte lbl_8008B54C
-	.4byte lbl_8011947C
-	.4byte lbl_801203B8
+	.4byte __sinit_lyt_bounding_cpp
+	.4byte __sinit_lyt_pane_cpp
 	.4byte lbl_80120AEC
-	.4byte lbl_801239E8
-	.4byte lbl_80126340
-	.4byte lbl_8012DC8C
-	.4byte lbl_8012EEEC
-	.4byte lbl_80134C98
-	.4byte lbl_801353A0
-	.4byte lbl_80141F8C
-	.4byte lbl_8014241C
-	.4byte lbl_80143FB8
-	.4byte lbl_801444C4
-	.4byte lbl_80145AB4
-	.4byte lbl_8014B858
-	.4byte lbl_8014BAF0
-	.4byte lbl_8014BEFC
+	.4byte __sinit_lyt_textBox_cpp
+	.4byte __sinit_lyt_window_cpp
+	.4byte __sinit_snd_BasicSound_cpp
+	.4byte __sinit_snd_Channel_cpp
+	.4byte __sinit_snd_SeqPlayer_cpp
+	.4byte __sinit_snd_SeqSound_cpp
+	.4byte __sinit_snd_StrmPlayer_cpp
+	.4byte __sinit_snd_StrmSound_cpp
+	.4byte __sinit_snd_WavePlayer_cpp
+	.4byte __sinit_snd_WaveSound_cpp
+	.4byte __sinit_snd_WsdPlayer_cpp
+	.4byte __sinit_ut_DvdFileStream_cpp
+	.4byte __sinit_ut_FileStream_cpp
+	.4byte __sinit_ut_IOStream_cpp
 	.4byte lbl_8014D810
-	.4byte lbl_8015BF40
+	.4byte __sinit_ut_TextWriterBase_cpp
 	.4byte 0
 	.4byte 0
 	.4byte 0

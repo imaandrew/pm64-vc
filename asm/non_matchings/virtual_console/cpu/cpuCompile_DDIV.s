@@ -3,7 +3,7 @@ glabel cpuCompile_DDIV
 /* 800337C4 0002ECE4  7C 08 02 A6 */	mflr r0
 /* 800337C8 0002ECE8  90 01 00 54 */	stw r0, 0x54(r1)
 /* 800337CC 0002ECEC  39 61 00 50 */	addi r11, r1, 0x50
-/* 800337D0 0002ECF0  48 12 91 51 */	bl __save_registersr18
+/* 800337D0 0002ECF0  48 12 91 51 */	bl _savegpr_18
 /* 800337D4 0002ECF4  3C A0 30 00 */	lis r5, 0x30000100@ha
 /* 800337D8 0002ECF8  7C 7F 1B 78 */	mr r31, r3
 /* 800337DC 0002ECFC  7C 92 23 78 */	mr r18, r4
@@ -234,7 +234,7 @@ lbl_800337FC:
 /* 80033B5C 0002F07C  38 60 00 01 */	li r3, 1
 lbl_80033B60:
 /* 80033B60 0002F080  39 61 00 50 */	addi r11, r1, 0x50
-/* 80033B64 0002F084  48 12 8E 09 */	bl __restore_registersr18
+/* 80033B64 0002F084  48 12 8E 09 */	bl _restgpr_18
 /* 80033B68 0002F088  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 80033B6C 0002F08C  7C 08 03 A6 */	mtlr r0
 /* 80033B70 0002F090  38 21 00 50 */	addi r1, r1, 0x50

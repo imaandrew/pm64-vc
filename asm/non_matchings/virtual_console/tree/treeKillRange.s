@@ -3,7 +3,7 @@ glabel treeKillRange
 /* 8003F804 0003AD24  7C 08 02 A6 */	mflr r0
 /* 8003F808 0003AD28  90 01 00 44 */	stw r0, 0x44(r1)
 /* 8003F80C 0003AD2C  39 61 00 40 */	addi r11, r1, 0x40
-/* 8003F810 0003AD30  48 11 D1 29 */	bl __save_registersr24
+/* 8003F810 0003AD30  48 11 D1 29 */	bl _savegpr_24
 /* 8003F814 0003AD34  3C E3 00 10 */	addis r7, r3, 0x10
 /* 8003F818 0003AD38  38 00 00 00 */	li r0, 0
 /* 8003F81C 0003AD3C  83 E7 16 94 */	lwz r31, 0x1694(r7)
@@ -518,7 +518,7 @@ lbl_8003FED8:
 /* 8003FED8 0003B3F8  7F A3 EB 78 */	mr r3, r29
 lbl_8003FEDC:
 /* 8003FEDC 0003B3FC  39 61 00 40 */	addi r11, r1, 0x40
-/* 8003FEE0 0003B400  48 11 CA A5 */	bl __restore_registersr24
+/* 8003FEE0 0003B400  48 11 CA A5 */	bl _restgpr_24
 /* 8003FEE4 0003B404  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8003FEE8 0003B408  7C 08 03 A6 */	mtlr r0
 /* 8003FEEC 0003B40C  38 21 00 40 */	addi r1, r1, 0x40

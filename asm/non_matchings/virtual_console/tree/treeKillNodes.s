@@ -3,7 +3,7 @@ glabel treeKillNodes
 /* 8003EC94 0003A1B4  7C 08 02 A6 */	mflr r0
 /* 8003EC98 0003A1B8  90 01 00 44 */	stw r0, 0x44(r1)
 /* 8003EC9C 0003A1BC  39 61 00 40 */	addi r11, r1, 0x40
-/* 8003ECA0 0003A1C0  48 11 DC 99 */	bl __save_registersr24
+/* 8003ECA0 0003A1C0  48 11 DC 99 */	bl _savegpr_24
 /* 8003ECA4 0003A1C4  2C 04 00 00 */	cmpwi r4, 0
 /* 8003ECA8 0003A1C8  7C 79 1B 78 */	mr r25, r3
 /* 8003ECAC 0003A1CC  7C 9A 23 78 */	mr r26, r4
@@ -151,7 +151,7 @@ lbl_8003EE9C:
 /* 8003EEA4 0003A3C4  7F 63 DB 78 */	mr r3, r27
 lbl_8003EEA8:
 /* 8003EEA8 0003A3C8  39 61 00 40 */	addi r11, r1, 0x40
-/* 8003EEAC 0003A3CC  48 11 DA D9 */	bl __restore_registersr24
+/* 8003EEAC 0003A3CC  48 11 DA D9 */	bl _restgpr_24
 /* 8003EEB0 0003A3D0  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8003EEB4 0003A3D4  7C 08 03 A6 */	mtlr r0
 /* 8003EEB8 0003A3D8  38 21 00 40 */	addi r1, r1, 0x40

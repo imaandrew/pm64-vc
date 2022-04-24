@@ -264,7 +264,7 @@ glabel lbl_800066EC
 	.4byte 0x00000010
 	.4byte 0
 	.4byte 0x82000008
-	.4byte lbl_8015C58C
+	.4byte __dt__26__partial_array_destructorFv
 
 glabel lbl_80006704
 	.4byte 0x18080000
@@ -276,7 +276,7 @@ glabel lbl_8000670C
 	.4byte 0x00000010
 	.4byte 0
 	.4byte 0x82000008
-	.4byte lbl_8015C58C
+	.4byte __dt__26__partial_array_destructorFv
 
 glabel lbl_80006724
 	.4byte 0x20080000

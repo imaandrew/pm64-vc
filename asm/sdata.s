@@ -440,7 +440,7 @@ glabel lbl_802466E8
 
 glabel lbl_802466F0
 	# ROM: 0x1AA330
-	.4byte lbl_800978D4
+	.4byte DefaultSwitchThreadCallback
 	.4byte 0
 
 glabel lbl_802466F8

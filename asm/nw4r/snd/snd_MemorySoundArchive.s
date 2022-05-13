@@ -1,0 +1,63 @@
+.include "macros.inc"
+
+.section .text, "ax"
+
+glabel Shutdown__Q34nw4r3snd18MemorySoundArchiveFv
+/* 80130BE0 0012C100  38 00 00 00 */	li r0, 0
+/* 80130BE4 0012C104  90 03 01 08 */	stw r0, 0x43300108@l(r3)
+/* 80130BE8 0012C108  48 00 61 30 */	b Shutdown__Q36nw4hbm3snd12SoundArchiveFv
+
+glabel lbl_80130BEC
+/* 80130BEC 0012C10C  94 21 FF F0 */	stwu r1, -0x10(r1)
+/* 80130BF0 0012C110  7C 08 02 A6 */	mflr r0
+/* 80130BF4 0012C114  2C 03 00 00 */	cmpwi r3, 0
+/* 80130BF8 0012C118  90 01 00 14 */	stw r0, 0x14(r1)
+/* 80130BFC 0012C11C  93 E1 00 0C */	stw r31, 0xc(r1)
+/* 80130C00 0012C120  7C 7F 1B 78 */	mr r31, r3
+/* 80130C04 0012C124  41 82 00 10 */	beq lbl_80130C14
+/* 80130C08 0012C128  2C 04 00 00 */	cmpwi r4, 0
+/* 80130C0C 0012C12C  40 81 00 08 */	ble lbl_80130C14
+/* 80130C10 0012C130  48 02 B6 01 */	bl operator_delete
+lbl_80130C14:
+/* 80130C14 0012C134  7F E3 FB 78 */	mr r3, r31
+/* 80130C18 0012C138  83 E1 00 0C */	lwz r31, 0xc(r1)
+/* 80130C1C 0012C13C  80 01 00 14 */	lwz r0, 0x14(r1)
+/* 80130C20 0012C140  7C 08 03 A6 */	mtlr r0
+/* 80130C24 0012C144  38 21 00 10 */	addi r1, r1, 0x10
+/* 80130C28 0012C148  4E 80 00 20 */	blr 
+
+glabel lbl_80130C2C
+/* 80130C2C 0012C14C  94 21 FF F0 */	stwu r1, -0x10(r1)
+/* 80130C30 0012C150  7C 08 02 A6 */	mflr r0
+/* 80130C34 0012C154  2C 03 00 00 */	cmpwi r3, 0
+/* 80130C38 0012C158  90 01 00 14 */	stw r0, 0x14(r1)
+/* 80130C3C 0012C15C  93 E1 00 0C */	stw r31, 0xc(r1)
+/* 80130C40 0012C160  7C 7F 1B 78 */	mr r31, r3
+/* 80130C44 0012C164  41 82 00 10 */	beq lbl_80130C54
+/* 80130C48 0012C168  2C 04 00 00 */	cmpwi r4, 0
+/* 80130C4C 0012C16C  40 81 00 08 */	ble lbl_80130C54
+/* 80130C50 0012C170  48 02 B5 C1 */	bl operator_delete
+lbl_80130C54:
+/* 80130C54 0012C174  7F E3 FB 78 */	mr r3, r31
+/* 80130C58 0012C178  83 E1 00 0C */	lwz r31, 0xc(r1)
+/* 80130C5C 0012C17C  80 01 00 14 */	lwz r0, 0x14(r1)
+/* 80130C60 0012C180  7C 08 03 A6 */	mtlr r0
+/* 80130C64 0012C184  38 21 00 10 */	addi r1, r1, 0x10
+/* 80130C68 0012C188  4E 80 00 20 */	blr 
+
+glabel CanWrite__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
+/* 80130C6C 0012C18C  38 60 00 01 */	li r3, 1
+/* 80130C70 0012C190  4E 80 00 20 */	blr 
+
+glabel CanRead__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
+/* 80130C74 0012C194  38 60 00 01 */	li r3, 1
+/* 80130C78 0012C198  4E 80 00 20 */	blr 
+
+glabel CanAsync__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
+/* 80130C7C 0012C19C  38 60 00 01 */	li r3, 1
+/* 80130C80 0012C1A0  4E 80 00 20 */	blr 
+
+glabel lbl_80130C84
+/* 80130C84 0012C1A4  3C 60 80 24 */	lis r3, lbl_80243B90@ha
+/* 80130C88 0012C1A8  38 63 3B 90 */	addi r3, r3, lbl_80243B90@l
+/* 80130C8C 0012C1AC  4E 80 00 20 */	blr 

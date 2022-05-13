@@ -10,7 +10,7 @@ glabel lbl_80174200
 	.4byte lbl_8008B54C
 	.4byte __sinit_lyt_bounding_cpp
 	.4byte __sinit_lyt_pane_cpp
-	.4byte lbl_80120AEC
+	.4byte __sinit_lyt_picture_cpp
 	.4byte __sinit_lyt_textBox_cpp
 	.4byte __sinit_lyt_window_cpp
 	.4byte __sinit_snd_BasicSound_cpp

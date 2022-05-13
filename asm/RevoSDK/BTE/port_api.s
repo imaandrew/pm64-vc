@@ -1,0 +1,25 @@
+.include "macros.inc"
+
+.section .text, "ax"
+
+glabel RFCOMM_Init
+/* 800FBB34 000F7054  94 21 FF F0 */	stwu r1, -0x10(r1)
+/* 800FBB38 000F7058  7C 08 02 A6 */	mflr r0
+/* 800FBB3C 000F705C  38 80 00 00 */	li r4, 0
+/* 800FBB40 000F7060  38 A0 04 18 */	li r5, 0x418
+/* 800FBB44 000F7064  90 01 00 14 */	stw r0, 0x14(r1)
+/* 800FBB48 000F7068  93 E1 00 0C */	stw r31, 0xc(r1)
+/* 800FBB4C 000F706C  3F E0 80 22 */	lis r31, lbl_80223E08@ha
+/* 800FBB50 000F7070  38 7F 3E 08 */	addi r3, r31, lbl_80223E08@l
+/* 800FBB54 000F7074  4B F0 88 E9 */	bl memset
+/* 800FBB58 000F7078  38 7F 3E 08 */	addi r3, r31, 0x3e08
+/* 800FBB5C 000F707C  38 80 00 01 */	li r4, 1
+/* 800FBB60 000F7080  38 00 00 05 */	li r0, 5
+/* 800FBB64 000F7084  98 83 00 65 */	stb r4, 0x65(r3)
+/* 800FBB68 000F7088  98 03 04 14 */	stb r0, 0x414(r3)
+/* 800FBB6C 000F708C  48 00 19 ED */	bl rfcomm_l2cap_if_init
+/* 800FBB70 000F7090  80 01 00 14 */	lwz r0, 0x14(r1)
+/* 800FBB74 000F7094  83 E1 00 0C */	lwz r31, 0xc(r1)
+/* 800FBB78 000F7098  7C 08 03 A6 */	mtlr r0
+/* 800FBB7C 000F709C  38 21 00 10 */	addi r1, r1, 0x10
+/* 800FBB80 000F70A0  4E 80 00 20 */	blr 

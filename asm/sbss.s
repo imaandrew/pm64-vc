@@ -703,340 +703,340 @@ glabel lbl_80246EEC
 glabel lbl_80246EF0
 	.skip 0x8
 
-glabel lbl_80246EF8
+glabel WWWSurfaceInit
 	.skip 0x4
 
-glabel lbl_80246EFC
+glabel WWWSurfaceNewScreen
 	.skip 0x4
 
-glabel lbl_80246F00
+glabel WWWSurfaceDeleteScreen
 	.skip 0x4
 
-glabel lbl_80246F04
+glabel WWWSurfaceResize
 	.skip 0x4
 
-glabel lbl_80246F08
+glabel WWWSurfaceShutdown
 	.skip 0x4
 
-glabel lbl_80246F0C
+glabel WWWSurfaceSetFlushCallback
 	.skip 0x4
 
-glabel lbl_80246F10
+glabel WWWSurfaceInvalidate
 	.skip 0x4
 
-glabel lbl_80246F14
+glabel WWWSurfaceUpdateScreen
 	.skip 0x4
 
-glabel lbl_80246F18
+glabel WWWSurfaceLockArea
 	.skip 0x4
 
-glabel lbl_80246F1C
+glabel WWWSurfaceUnlockArea
 	.skip 0x4
 
-glabel lbl_80246F20
+glabel WWWSurfaceMouseEvt
 	.skip 0x4
 
-glabel lbl_80246F24
+glabel WWWSurfaceWheelEvt
 	.skip 0x4
 
-glabel lbl_80246F28
+glabel WWWSurfaceKeyboardEvt
 	.skip 0x4
 
-glabel lbl_80246F2C
+glabel WWWSurfaceAddFont
 	.skip 0x4
 
-glabel lbl_80246F30
+glabel WWWCreateBrowser
 	.skip 0x4
 
-glabel lbl_80246F34
+glabel WWWTerminateBrowser
 	.skip 0x4
 
-glabel lbl_80246F38
+glabel WWWRunSlice
 	.skip 0x4
 
-glabel lbl_80246F3C
+glabel WWWCreateBrowserWindow
 	.skip 0x4
 
-glabel lbl_80246F40
+glabel WWWCloseBrowserWindow
 	.skip 0x4
 
-glabel lbl_80246F44
+glabel WWWSetBrowserWindowTransparent
 	.skip 0x4
 
-glabel lbl_80246F48
+glabel WWWGetBrowserWindowRect
 	.skip 0x4
 
-glabel lbl_80246F4C
+glabel WWWSetBrowserWindowRect
 	.skip 0x4
 
-glabel lbl_80246F50
+glabel WWWRaiseBrowserWindow
 	.skip 0x4
 
-glabel lbl_80246F54
+glabel WWWLowerBrowserWindow
 	.skip 0x4
 
-glabel lbl_80246F58
+glabel WWWShowBrowserWindow
 	.skip 0x4
 
-glabel lbl_80246F5C
+glabel WWWHideBrowserWindow
 	.skip 0x4
 
-glabel lbl_80246F60
+glabel WWWCommitIme
 	.skip 0x4
 
-glabel lbl_80246F64
+glabel WWWUpdateIme
 	.skip 0x4
 
-glabel lbl_80246F68
+glabel WWWPostUrl
 	.skip 0x4
 
-glabel lbl_80246F6C
+glabel WWWOpenUrl
 	.skip 0x4
 
-glabel lbl_80246F70
+glabel WWWGetHistoryCount
 	.skip 0x4
 
-glabel lbl_80246F74
+glabel WWWNextPage
 	.skip 0x4
 
-glabel lbl_80246F78
+glabel WWWPrevPage
 	.skip 0x4
 
-glabel lbl_80246F7C
+glabel WWWMoveInHistory
 	.skip 0x4
 
-glabel lbl_80246F80
+glabel WWWStop
 	.skip 0x4
 
-glabel lbl_80246F84
+glabel WWWReload
 	.skip 0x4
 
-glabel lbl_80246F88
+glabel WWWReflow
 	.skip 0x4
 
-glabel lbl_80246F8C
+glabel WWWSearch
 	.skip 0x4
 
-glabel lbl_80246F90
+glabel WWWResetSearch
 	.skip 0x4
 
-glabel lbl_80246F94
+glabel WWWSetFocus
 	.skip 0x4
 
-glabel lbl_80246F98
+glabel WWWLoseFocus
 	.skip 0x4
 
-glabel lbl_80246F9C
+glabel WWWHistory
 	.skip 0x4
 
-glabel lbl_80246FA0
+glabel WWWClearHistory
 	.skip 0x4
 
-glabel lbl_80246FA4
+glabel WWWGetTrueZoom
 	.skip 0x4
 
-glabel lbl_80246FA8
+glabel WWWSetTrueZoom
 	.skip 0x4
 
-glabel lbl_80246FAC
+glabel WWWGetZoom
 	.skip 0x4
 
-glabel lbl_80246FB0
+glabel WWWSetZoom
 	.skip 0x4
 
-glabel lbl_80246FB4
+glabel WWWGetSecurityMode
 	.skip 0x4
 
-glabel lbl_80246FB8
+glabel WWWGetScroll
 	.skip 0x4
 
-glabel lbl_80246FBC
+glabel WWWSetScroll
 	.skip 0x4
 
-glabel lbl_80246FC0
+glabel WWWSetRenderingMode
 	.skip 0x4
 
-glabel lbl_80246FC4
+glabel WWWGetRenderingMode
 	.skip 0x4
 
-glabel lbl_80246FC8
+glabel WWWSetImageMode
 	.skip 0x4
 
-glabel lbl_80246FCC
+glabel WWWCreateCertificateManager
 	.skip 0x4
 
-glabel lbl_80246FD0
+glabel WWWCloseCertificateManager
 	.skip 0x4
 
-glabel lbl_80246FD4
+glabel WWWGetNumberOfCertificates
 	.skip 0x4
 
-glabel lbl_80246FD8
+glabel WWWSetLanguageEncoding
 	.skip 0x4
 
-glabel lbl_80246FDC
+glabel WWWGetDocumentIcon
 	.skip 0x4
 
-glabel lbl_80246FE0
+glabel WWWGetDocumentIconUrl
 	.skip 0x4
 
-glabel lbl_80246FE4
+glabel WWWClearCookies
 	.skip 0x4
 
-glabel lbl_80246FE8
+glabel WWWGetDocumentSize
 	.skip 0x4
 
-glabel lbl_80246FEC
+glabel WWWSetIntPref
 	.skip 0x4
 
-glabel lbl_80246FF0
+glabel WWWGetIntPref
 	.skip 0x4
 
-glabel lbl_80246FF4
+glabel WWWSetStringPref
 	.skip 0x4
 
-glabel lbl_80246FF8
+glabel WWWGetStringPref
 	.skip 0x4
 
-glabel lbl_80246FFC
+glabel WWWCommitPrefs
 	.skip 0x4
 
-glabel lbl_80247000
+glabel WWWSetFocusColors
 	.skip 0x4
 
-glabel lbl_80247004
+glabel WWWSetScrollbarColors
 	.skip 0x4
 
-glabel lbl_80247008
+glabel WWWSetScrollbarSize
 	.skip 0x4
 
-glabel lbl_8024700C
+glabel WWWSetWidgetColors
 	.skip 0x4
 
-glabel lbl_80247010
+glabel WWWSetDisabledWidgetColors
 	.skip 0x4
 
-glabel lbl_80247014
+glabel WWWSetButtonWidgetColors
 	.skip 0x4
 
-glabel lbl_80247018
+glabel WWWSetUastringExtension
 	.skip 0x4
 
-glabel lbl_8024701C
+glabel WWWMarkNextItemInDirection
 	.skip 0x4
 
-glabel lbl_80247020
+glabel WWWResetNavigation
 	.skip 0x4
 
-glabel lbl_80247024
+glabel WWWClearHighlight
 	.skip 0x4
 
-glabel lbl_80247028
+glabel WWWSetHighlight
 	.skip 0x4
 
-glabel lbl_8024702C
+glabel WWWGetActiveLinkType
 	.skip 0x4
 
-glabel lbl_80247030
+glabel WWWGetBrowserAllocationFunctions
 	.skip 0x4
 
-glabel lbl_80247034
+glabel WWWShutdownBrowserAllocationFunctions
 	.skip 0x4
 
-glabel lbl_80247038
+glabel WWWSetAllocationFunctions
 	.skip 0x4
 
-glabel lbl_8024703C
+glabel WWWHTTPCreateHttpLib
 	.skip 0x4
 
-glabel lbl_80247040
+glabel WWWHTTPTerminateHttpLib
 	.skip 0x4
 
-glabel lbl_80247044
+glabel WWWHTTPSessionRunSlice
 	.skip 0x4
 
-glabel lbl_80247048
+glabel WWWHTTPInitSession
 	.skip 0x4
 
-glabel lbl_8024704C
+glabel WWWHTTPDeleteSession
 	.skip 0x4
 
-glabel lbl_80247050
+glabel WWWHTTPSetSessionHeader
 	.skip 0x4
 
-glabel lbl_80247054
+glabel WWWHTTPRemoveSessionHeader
 	.skip 0x4
 
-glabel lbl_80247058
+glabel WWWHTTPRemoveAllSessionHeaders
 	.skip 0x4
 
-glabel lbl_8024705C
+glabel WWWHTTPCreateRequest
 	.skip 0x4
 
-glabel lbl_80247060
+glabel WWWHTTPDeleteRequest
 	.skip 0x4
 
-glabel lbl_80247064
+glabel WWWHTTPSetRequestHeader
 	.skip 0x4
 
-glabel lbl_80247068
+glabel WWWHTTPGetRequestHeader
 	.skip 0x4
 
-glabel lbl_8024706C
+glabel WWWHTTPRemoveRequestHeader
 	.skip 0x4
 
-glabel lbl_80247070
+glabel WWWHTTPRemoveAllRequestHeaders
 	.skip 0x4
 
-glabel lbl_80247074
+glabel WWWHTTPGetResponseHeader
 	.skip 0x4
 
-glabel lbl_80247078
+glabel WWWHTTPGetResponseHeaders
 	.skip 0x4
 
-glabel lbl_8024707C
+glabel WWWHTTPIssue
 	.skip 0x4
 
-glabel lbl_80247080
+glabel WWWHTTPNbActiveRequests
 	.skip 0x4
 
-glabel lbl_80247084
+glabel WWWHTTPPostBodyData
 	.skip 0x4
 
-glabel lbl_80247088
+glabel WWWHTTPSetAuthCredentials
 	.skip 0x4
 
-glabel lbl_8024708C
+glabel WWWHTTPRemoveAuthCredentials
 	.skip 0x4
 
-glabel lbl_80247090
+glabel WWWHTTPSetProxy
 	.skip 0x4
 
-glabel lbl_80247094
+glabel WWWHTTPRemoveProxy
 	.skip 0x4
 
-glabel lbl_80247098
+glabel WWWHTTPEndLoading
 	.skip 0x4
 
-glabel lbl_8024709C
+glabel WWWAddJSPlugin
 	.skip 0x4
 
-glabel lbl_802470A0
+glabel WWWAddNSPlugin
 	.skip 0x4
 
-glabel lbl_802470A4
+glabel WWWProtocolWrite
 	.skip 0x4
 
-glabel lbl_802470A8
+glabel WWWProtocolSetMimeType
 	.skip 0x4
 
-glabel lbl_802470AC
+glabel WWWProtocolFinished
 	.skip 0x4
 
-glabel lbl_802470B0
+glabel WWWProtocolFailed
 	.skip 0x4
 
-glabel lbl_802470B4
+glabel WWWAddProtocol
 	.skip 0x4
 
 glabel lbl_802470B8

@@ -1,0 +1,144 @@
+.include "macros.inc"
+
+.section .text, "ax"
+
+glabel InitSoundSystem__Q36nw4hbm3snd11SoundSystemFll
+/* 8013E7B8 00139CD8  94 21 FF E0 */	stwu r1, -0x20(r1)
+/* 8013E7BC 00139CDC  7C 08 02 A6 */	mflr r0
+/* 8013E7C0 00139CE0  3C A0 80 24 */	lis r5, lbl_80239300@ha
+/* 8013E7C4 00139CE4  90 01 00 24 */	stw r0, 0x24(r1)
+/* 8013E7C8 00139CE8  93 E1 00 1C */	stw r31, 0x1c(r1)
+/* 8013E7CC 00139CEC  3F E0 80 1B */	lis r31, lbl_801A99E0@ha
+/* 8013E7D0 00139CF0  3B FF 99 E0 */	addi r31, r31, lbl_801A99E0@l
+/* 8013E7D4 00139CF4  93 C1 00 18 */	stw r30, 0x18(r1)
+/* 8013E7D8 00139CF8  7C 9E 23 78 */	mr r30, r4
+/* 8013E7DC 00139CFC  93 A1 00 14 */	stw r29, 0x14(r1)
+/* 8013E7E0 00139D00  7C 7D 1B 78 */	mr r29, r3
+/* 8013E7E4 00139D04  88 05 93 00 */	lbz r0, lbl_80239300@l(r5)
+/* 8013E7E8 00139D08  2C 00 00 00 */	cmpwi r0, 0
+/* 8013E7EC 00139D0C  40 82 01 00 */	bne lbl_8013E8EC
+/* 8013E7F0 00139D10  38 00 00 01 */	li r0, 1
+/* 8013E7F4 00139D14  98 05 93 00 */	stb r0, -0x6d00(r5)
+/* 8013E7F8 00139D18  4B FE 83 A5 */	bl GetInstance__Q46nw4hbm3snd6detail9AxManagerFv
+/* 8013E7FC 00139D1C  4B FE 84 B5 */	bl Init__Q46nw4hbm3snd6detail9AxManagerFv
+/* 8013E800 00139D20  4B F7 DA 09 */	bl SCInit
+lbl_8013E804:
+/* 8013E804 00139D24  4B F7 DA A5 */	bl SCCheckStatus
+/* 8013E808 00139D28  28 03 00 01 */	cmplwi r3, 1
+/* 8013E80C 00139D2C  41 82 FF F8 */	beq lbl_8013E804
+/* 8013E810 00139D30  2C 03 00 00 */	cmpwi r3, 0
+/* 8013E814 00139D34  41 82 00 18 */	beq lbl_8013E82C
+/* 8013E818 00139D38  38 7F 00 00 */	addi r3, r31, 0
+/* 8013E81C 00139D3C  38 BF 00 14 */	addi r5, r31, 0x14
+/* 8013E820 00139D40  38 80 00 4F */	li r4, 0x4f
+/* 8013E824 00139D44  4C C6 31 82 */	crclr 6
+/* 8013E828 00139D48  4B FD 75 99 */	bl Panic__Q36nw4hbm2db6detailFPCciPCce
+lbl_8013E82C:
+/* 8013E82C 00139D4C  4B F7 F5 29 */	bl SCGetSoundMode
+/* 8013E830 00139D50  54 60 06 3E */	clrlwi r0, r3, 0x18
+/* 8013E834 00139D54  2C 00 00 01 */	cmpwi r0, 1
+/* 8013E838 00139D58  41 82 00 30 */	beq lbl_8013E868
+/* 8013E83C 00139D5C  40 80 00 10 */	bge lbl_8013E84C
+/* 8013E840 00139D60  2C 00 00 00 */	cmpwi r0, 0
+/* 8013E844 00139D64  40 80 00 14 */	bge lbl_8013E858
+/* 8013E848 00139D68  48 00 00 40 */	b lbl_8013E888
+lbl_8013E84C:
+/* 8013E84C 00139D6C  2C 00 00 03 */	cmpwi r0, 3
+/* 8013E850 00139D70  40 80 00 38 */	bge lbl_8013E888
+/* 8013E854 00139D74  48 00 00 24 */	b lbl_8013E878
+lbl_8013E858:
+/* 8013E858 00139D78  4B FE 83 45 */	bl GetInstance__Q46nw4hbm3snd6detail9AxManagerFv
+/* 8013E85C 00139D7C  38 80 00 03 */	li r4, 3
+/* 8013E860 00139D80  4B FE 8E E5 */	bl SetOutputMode__Q46nw4hbm3snd6detail9AxManagerFQ36nw4hbm3snd10OutputMode
+/* 8013E864 00139D84  48 00 00 30 */	b lbl_8013E894
+lbl_8013E868:
+/* 8013E868 00139D88  4B FE 83 35 */	bl GetInstance__Q46nw4hbm3snd6detail9AxManagerFv
+/* 8013E86C 00139D8C  38 80 00 00 */	li r4, 0
+/* 8013E870 00139D90  4B FE 8E D5 */	bl SetOutputMode__Q46nw4hbm3snd6detail9AxManagerFQ36nw4hbm3snd10OutputMode
+/* 8013E874 00139D94  48 00 00 20 */	b lbl_8013E894
+lbl_8013E878:
+/* 8013E878 00139D98  4B FE 83 25 */	bl GetInstance__Q46nw4hbm3snd6detail9AxManagerFv
+/* 8013E87C 00139D9C  38 80 00 02 */	li r4, 2
+/* 8013E880 00139DA0  4B FE 8E C5 */	bl SetOutputMode__Q46nw4hbm3snd6detail9AxManagerFQ36nw4hbm3snd10OutputMode
+/* 8013E884 00139DA4  48 00 00 10 */	b lbl_8013E894
+lbl_8013E888:
+/* 8013E888 00139DA8  4B FE 83 15 */	bl GetInstance__Q46nw4hbm3snd6detail9AxManagerFv
+/* 8013E88C 00139DAC  38 80 00 00 */	li r4, 0
+/* 8013E890 00139DB0  4B FE 8E B5 */	bl SetOutputMode__Q46nw4hbm3snd6detail9AxManagerFQ36nw4hbm3snd10OutputMode
+lbl_8013E894:
+/* 8013E894 00139DB4  4B FF 46 85 */	bl GetInstance__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
+/* 8013E898 00139DB8  4B FF 47 21 */	bl Setup__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
+/* 8013E89C 00139DBC  48 00 43 B5 */	bl GetInstance__Q46nw4hbm3snd6detail10TaskThreadFv
+/* 8013E8A0 00139DC0  7F C4 F3 78 */	mr r4, r30
+/* 8013E8A4 00139DC4  48 00 43 E1 */	bl Create__Q46nw4hbm3snd6detail10TaskThreadFl
+/* 8013E8A8 00139DC8  2C 03 00 00 */	cmpwi r3, 0
+/* 8013E8AC 00139DCC  40 82 00 18 */	bne lbl_8013E8C4
+/* 8013E8B0 00139DD0  38 7F 00 00 */	addi r3, r31, 0
+/* 8013E8B4 00139DD4  38 BF 00 48 */	addi r5, r31, 0x48
+/* 8013E8B8 00139DD8  38 80 00 7E */	li r4, 0x7e
+/* 8013E8BC 00139DDC  4C C6 31 82 */	crclr 6
+/* 8013E8C0 00139DE0  4B FD 75 01 */	bl Panic__Q36nw4hbm2db6detailFPCciPCce
+lbl_8013E8C4:
+/* 8013E8C4 00139DE4  48 00 00 E5 */	bl GetInstance__Q46nw4hbm3snd6detail11SoundThreadFv
+/* 8013E8C8 00139DE8  7F A4 EB 78 */	mr r4, r29
+/* 8013E8CC 00139DEC  48 00 01 BD */	bl Create__Q46nw4hbm3snd6detail11SoundThreadFl
+/* 8013E8D0 00139DF0  2C 03 00 00 */	cmpwi r3, 0
+/* 8013E8D4 00139DF4  40 82 00 18 */	bne lbl_8013E8EC
+/* 8013E8D8 00139DF8  38 7F 00 00 */	addi r3, r31, 0
+/* 8013E8DC 00139DFC  38 BF 00 48 */	addi r5, r31, 0x48
+/* 8013E8E0 00139E00  38 80 00 82 */	li r4, 0x82
+/* 8013E8E4 00139E04  4C C6 31 82 */	crclr 6
+/* 8013E8E8 00139E08  4B FD 74 D9 */	bl Panic__Q36nw4hbm2db6detailFPCciPCce
+lbl_8013E8EC:
+/* 8013E8EC 00139E0C  80 01 00 24 */	lwz r0, 0x24(r1)
+/* 8013E8F0 00139E10  83 E1 00 1C */	lwz r31, 0x1c(r1)
+/* 8013E8F4 00139E14  83 C1 00 18 */	lwz r30, 0x18(r1)
+/* 8013E8F8 00139E18  83 A1 00 14 */	lwz r29, 0x14(r1)
+/* 8013E8FC 00139E1C  7C 08 03 A6 */	mtlr r0
+/* 8013E900 00139E20  38 21 00 20 */	addi r1, r1, 0x20
+/* 8013E904 00139E24  4E 80 00 20 */	blr 
+
+glabel ShutdownSoundSystem__Q36nw4hbm3snd11SoundSystemFv
+/* 8013E908 00139E28  94 21 FF F0 */	stwu r1, -0x10(r1)
+/* 8013E90C 00139E2C  7C 08 02 A6 */	mflr r0
+/* 8013E910 00139E30  3C 60 80 24 */	lis r3, lbl_80239300@ha
+/* 8013E914 00139E34  90 01 00 14 */	stw r0, 0x14(r1)
+/* 8013E918 00139E38  88 03 93 00 */	lbz r0, lbl_80239300@l(r3)
+/* 8013E91C 00139E3C  2C 00 00 00 */	cmpwi r0, 0
+/* 8013E920 00139E40  41 82 00 78 */	beq lbl_8013E998
+/* 8013E924 00139E44  48 00 00 85 */	bl GetInstance__Q46nw4hbm3snd6detail11SoundThreadFv
+/* 8013E928 00139E48  48 00 02 95 */	bl Shutdown__Q46nw4hbm3snd6detail11SoundThreadFv
+/* 8013E92C 00139E4C  2C 03 00 00 */	cmpwi r3, 0
+/* 8013E930 00139E50  40 82 00 20 */	bne lbl_8013E950
+/* 8013E934 00139E54  3C 60 80 1B */	lis r3, lbl_801A99E0@ha
+/* 8013E938 00139E58  3C A0 80 1B */	lis r5, lbl_801A9A28@ha
+/* 8013E93C 00139E5C  38 63 99 E0 */	addi r3, r3, lbl_801A99E0@l
+/* 8013E940 00139E60  38 80 00 8D */	li r4, 0x8d
+/* 8013E944 00139E64  38 A5 9A 28 */	addi r5, r5, lbl_801A9A28@l
+/* 8013E948 00139E68  4C C6 31 82 */	crclr 6
+/* 8013E94C 00139E6C  4B FD 74 75 */	bl Panic__Q36nw4hbm2db6detailFPCciPCce
+lbl_8013E950:
+/* 8013E950 00139E70  48 00 43 01 */	bl GetInstance__Q46nw4hbm3snd6detail10TaskThreadFv
+/* 8013E954 00139E74  48 00 43 FD */	bl Shutdown__Q46nw4hbm3snd6detail10TaskThreadFv
+/* 8013E958 00139E78  2C 03 00 00 */	cmpwi r3, 0
+/* 8013E95C 00139E7C  40 82 00 20 */	bne lbl_8013E97C
+/* 8013E960 00139E80  3C 60 80 1B */	lis r3, lbl_801A99E0@ha
+/* 8013E964 00139E84  3C A0 80 1B */	lis r5, lbl_801A9A28@ha
+/* 8013E968 00139E88  38 63 99 E0 */	addi r3, r3, lbl_801A99E0@l
+/* 8013E96C 00139E8C  38 80 00 91 */	li r4, 0x91
+/* 8013E970 00139E90  38 A5 9A 28 */	addi r5, r5, lbl_801A9A28@l
+/* 8013E974 00139E94  4C C6 31 82 */	crclr 6
+/* 8013E978 00139E98  4B FD 74 49 */	bl Panic__Q36nw4hbm2db6detailFPCciPCce
+lbl_8013E97C:
+/* 8013E97C 00139E9C  4B FF 45 9D */	bl GetInstance__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
+/* 8013E980 00139EA0  4B FF 47 05 */	bl Shutdown__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
+/* 8013E984 00139EA4  4B FE 82 19 */	bl GetInstance__Q46nw4hbm3snd6detail9AxManagerFv
+/* 8013E988 00139EA8  4B FE 84 A9 */	bl Shutdown__Q46nw4hbm3snd6detail9AxManagerFv
+/* 8013E98C 00139EAC  38 00 00 00 */	li r0, 0
+/* 8013E990 00139EB0  3C 60 80 24 */	lis r3, lbl_80239300@ha
+/* 8013E994 00139EB4  98 03 93 00 */	stb r0, lbl_80239300@l(r3)
+lbl_8013E998:
+/* 8013E998 00139EB8  80 01 00 14 */	lwz r0, 0x14(r1)
+/* 8013E99C 00139EBC  7C 08 03 A6 */	mtlr r0
+/* 8013E9A0 00139EC0  38 21 00 10 */	addi r1, r1, 0x10
+/* 8013E9A4 00139EC4  4E 80 00 20 */	blr 

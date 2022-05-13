@@ -8970,229 +8970,229 @@ glabel lbl_801816C0
 glabel lbl_801825C0
 	# ROM: 0x17E6C0
 	.4byte lbl_801744E0
-	.4byte lbl_80246EF8
+	.4byte WWWSurfaceInit
 	.4byte lbl_801744F0
-	.4byte lbl_80246EFC
+	.4byte WWWSurfaceNewScreen
 	.4byte lbl_80174504
-	.4byte lbl_80246F00
+	.4byte WWWSurfaceDeleteScreen
 	.4byte lbl_8017451C
-	.4byte lbl_80246F04
+	.4byte WWWSurfaceResize
 	.4byte lbl_80174530
-	.4byte lbl_80246F08
+	.4byte WWWSurfaceShutdown
 	.4byte lbl_80174544
-	.4byte lbl_80246F0C
+	.4byte WWWSurfaceSetFlushCallback
 	.4byte lbl_80174560
-	.4byte lbl_80246F10
+	.4byte WWWSurfaceInvalidate
 	.4byte lbl_80174578
-	.4byte lbl_80246F14
+	.4byte WWWSurfaceUpdateScreen
 	.4byte lbl_80174590
-	.4byte lbl_80246F18
+	.4byte WWWSurfaceLockArea
 	.4byte lbl_801745A4
-	.4byte lbl_80246F1C
+	.4byte WWWSurfaceUnlockArea
 	.4byte lbl_801745BC
-	.4byte lbl_80246F20
+	.4byte WWWSurfaceMouseEvt
 	.4byte lbl_801745D0
-	.4byte lbl_80246F24
+	.4byte WWWSurfaceWheelEvt
 	.4byte lbl_801745E4
-	.4byte lbl_80246F28
+	.4byte WWWSurfaceKeyboardEvt
 	.4byte lbl_801745FC
-	.4byte lbl_80246F2C
+	.4byte WWWSurfaceAddFont
 	.4byte lbl_80174610
-	.4byte lbl_80246F30
+	.4byte WWWCreateBrowser
 	.4byte lbl_80174624
-	.4byte lbl_80246F34
+	.4byte WWWTerminateBrowser
 	.4byte lbl_80174638
-	.4byte lbl_80246F38
+	.4byte WWWRunSlice
 	.4byte lbl_80174644
-	.4byte lbl_80246F3C
+	.4byte WWWCreateBrowserWindow
 	.4byte lbl_8017465C
-	.4byte lbl_80246F40
+	.4byte WWWCloseBrowserWindow
 	.4byte lbl_80174674
-	.4byte lbl_80246F44
+	.4byte WWWSetBrowserWindowTransparent
 	.4byte lbl_80174698
-	.4byte lbl_80246F48
+	.4byte WWWGetBrowserWindowRect
 	.4byte lbl_801746B0
-	.4byte lbl_80246F4C
+	.4byte WWWSetBrowserWindowRect
 	.4byte lbl_801746C8
-	.4byte lbl_80246F50
+	.4byte WWWRaiseBrowserWindow
 	.4byte lbl_801746E0
-	.4byte lbl_80246F54
+	.4byte WWWLowerBrowserWindow
 	.4byte lbl_801746F8
-	.4byte lbl_80246F58
+	.4byte WWWShowBrowserWindow
 	.4byte lbl_80174710
-	.4byte lbl_80246F5C
+	.4byte WWWHideBrowserWindow
 	.4byte lbl_80174728
-	.4byte lbl_80246F60
+	.4byte WWWCommitIme
 	.4byte lbl_80174738
-	.4byte lbl_80246F64
+	.4byte WWWUpdateIme
 	.4byte lbl_80174748
-	.4byte lbl_80246F68
+	.4byte WWWPostUrl
 	.4byte lbl_80174754
-	.4byte lbl_80246F6C
+	.4byte WWWOpenUrl
 	.4byte lbl_80174760
-	.4byte lbl_80246F70
+	.4byte WWWGetHistoryCount
 	.4byte lbl_80174774
-	.4byte lbl_80246F74
+	.4byte WWWNextPage
 	.4byte lbl_80174780
-	.4byte lbl_80246F78
+	.4byte WWWPrevPage
 	.4byte lbl_8017478C
-	.4byte lbl_80246F7C
+	.4byte WWWMoveInHistory
 	.4byte lbl_80247BD8
-	.4byte lbl_80246F80
+	.4byte WWWStop
 	.4byte lbl_801747A0
-	.4byte lbl_80246F84
+	.4byte WWWReload
 	.4byte lbl_801747AC
-	.4byte lbl_80246F88
+	.4byte WWWReflow
 	.4byte lbl_801747B8
-	.4byte lbl_80246F8C
+	.4byte WWWSearch
 	.4byte lbl_801747C4
-	.4byte lbl_80246F90
+	.4byte WWWResetSearch
 	.4byte lbl_801747D4
-	.4byte lbl_80246F94
+	.4byte WWWSetFocus
 	.4byte lbl_801747E0
-	.4byte lbl_80246F98
+	.4byte WWWLoseFocus
 	.4byte lbl_801747F0
-	.4byte lbl_80246F9C
+	.4byte WWWHistory
 	.4byte lbl_80174800
-	.4byte lbl_80246FA0
+	.4byte WWWClearHistory
 	.4byte lbl_80174810
-	.4byte lbl_80246FA4
+	.4byte WWWGetTrueZoom
 	.4byte lbl_80174820
-	.4byte lbl_80246FA8
+	.4byte WWWSetTrueZoom
 	.4byte lbl_80174830
-	.4byte lbl_80246FAC
+	.4byte WWWGetZoom
 	.4byte lbl_8017483C
-	.4byte lbl_80246FB0
+	.4byte WWWSetZoom
 	.4byte lbl_80174848
-	.4byte lbl_80246FB4
+	.4byte WWWGetSecurityMode
 	.4byte lbl_8017485C
-	.4byte lbl_80246FB8
+	.4byte WWWGetScroll
 	.4byte lbl_8017486C
-	.4byte lbl_80246FBC
+	.4byte WWWSetScroll
 	.4byte lbl_8017487C
-	.4byte lbl_80246FC0
+	.4byte WWWSetRenderingMode
 	.4byte lbl_80174890
-	.4byte lbl_80246FC4
+	.4byte WWWGetRenderingMode
 	.4byte lbl_801748A8
-	.4byte lbl_80246FC8
+	.4byte WWWSetImageMode
 	.4byte lbl_801748B8
-	.4byte lbl_80246FCC
+	.4byte WWWCreateCertificateManager
 	.4byte lbl_801748D4
-	.4byte lbl_80246FD0
+	.4byte WWWCloseCertificateManager
 	.4byte lbl_801748F0
-	.4byte lbl_80246FD4
+	.4byte WWWGetNumberOfCertificates
 	.4byte lbl_8017490C
-	.4byte lbl_80246FD8
+	.4byte WWWSetLanguageEncoding
 	.4byte lbl_80174924
-	.4byte lbl_80246FDC
+	.4byte WWWGetDocumentIcon
 	.4byte lbl_80174938
-	.4byte lbl_80246FE0
+	.4byte WWWGetDocumentIconUrl
 	.4byte lbl_80174950
-	.4byte lbl_80246FE4
+	.4byte WWWClearCookies
 	.4byte lbl_80174960
-	.4byte lbl_80246FE8
+	.4byte WWWGetDocumentSize
 	.4byte lbl_80174974
-	.4byte lbl_80246FEC
+	.4byte WWWSetIntPref
 	.4byte lbl_80174984
-	.4byte lbl_80246FF0
+	.4byte WWWGetIntPref
 	.4byte lbl_80174994
-	.4byte lbl_80246FF4
+	.4byte WWWSetStringPref
 	.4byte lbl_801749A8
-	.4byte lbl_80246FF8
+	.4byte WWWGetStringPref
 	.4byte lbl_801749BC
-	.4byte lbl_80246FFC
+	.4byte WWWCommitPrefs
 	.4byte lbl_801749CC
-	.4byte lbl_80247000
+	.4byte WWWSetFocusColors
 	.4byte lbl_801749E0
-	.4byte lbl_80247004
+	.4byte WWWSetScrollbarColors
 	.4byte lbl_801749F8
-	.4byte lbl_80247008
+	.4byte WWWSetScrollbarSize
 	.4byte lbl_80174A0C
-	.4byte lbl_8024700C
+	.4byte WWWSetWidgetColors
 	.4byte lbl_80174A20
-	.4byte lbl_80247010
+	.4byte WWWSetDisabledWidgetColors
 	.4byte lbl_80174A3C
-	.4byte lbl_80247014
+	.4byte WWWSetButtonWidgetColors
 	.4byte lbl_80174A58
-	.4byte lbl_80247018
+	.4byte WWWSetUastringExtension
 	.4byte lbl_80174A70
-	.4byte lbl_8024701C
+	.4byte WWWMarkNextItemInDirection
 	.4byte lbl_80174A8C
-	.4byte lbl_80247020
+	.4byte WWWResetNavigation
 	.4byte lbl_80174AA0
-	.4byte lbl_80247024
+	.4byte WWWClearHighlight
 	.4byte lbl_80174AB8
-	.4byte lbl_80247028
+	.4byte WWWSetHighlight
 	.4byte lbl_80174AC8
-	.4byte lbl_8024702C
+	.4byte WWWGetActiveLinkType
 	.4byte lbl_80174AE0
-	.4byte lbl_80247030
+	.4byte WWWGetBrowserAllocationFunctions
 	.4byte lbl_80174B04
-	.4byte lbl_80247034
+	.4byte WWWShutdownBrowserAllocationFunctions
 	.4byte lbl_80174B2C
-	.4byte lbl_80247038
+	.4byte WWWSetAllocationFunctions
 	.4byte lbl_80174B48
-	.4byte lbl_8024703C
+	.4byte WWWHTTPCreateHttpLib
 	.4byte lbl_80174B60
-	.4byte lbl_80247040
+	.4byte WWWHTTPTerminateHttpLib
 	.4byte lbl_80174B78
-	.4byte lbl_80247044
+	.4byte WWWHTTPSessionRunSlice
 	.4byte lbl_80174B90
-	.4byte lbl_80247048
+	.4byte WWWHTTPInitSession
 	.4byte lbl_80174BA4
-	.4byte lbl_8024704C
+	.4byte WWWHTTPDeleteSession
 	.4byte lbl_80174BC0
-	.4byte lbl_80247050
+	.4byte WWWHTTPSetSessionHeader
 	.4byte lbl_80174BD8
-	.4byte lbl_80247054
+	.4byte WWWHTTPRemoveSessionHeader
 	.4byte lbl_80174BF4
-	.4byte lbl_80247058
+	.4byte WWWHTTPRemoveAllSessionHeaders
 	.4byte lbl_80174C14
-	.4byte lbl_8024705C
+	.4byte WWWHTTPCreateRequest
 	.4byte lbl_80174C2C
-	.4byte lbl_80247060
+	.4byte WWWHTTPDeleteRequest
 	.4byte lbl_80174C48
-	.4byte lbl_80247064
+	.4byte WWWHTTPSetRequestHeader
 	.4byte lbl_80174C60
-	.4byte lbl_80247068
+	.4byte WWWHTTPGetRequestHeader
 	.4byte lbl_80174C78
-	.4byte lbl_8024706C
+	.4byte WWWHTTPRemoveRequestHeader
 	.4byte lbl_80174C94
-	.4byte lbl_80247070
+	.4byte WWWHTTPRemoveAllRequestHeaders
 	.4byte lbl_80174CB4
-	.4byte lbl_80247074
+	.4byte WWWHTTPGetResponseHeader
 	.4byte lbl_80174CD0
-	.4byte lbl_80247078
+	.4byte WWWHTTPGetResponseHeaders
 	.4byte lbl_80174CEC
-	.4byte lbl_8024707C
+	.4byte WWWHTTPIssue
 	.4byte lbl_80174D00
-	.4byte lbl_80247080
+	.4byte WWWHTTPNbActiveRequests
 	.4byte lbl_80174D18
-	.4byte lbl_80247084
+	.4byte WWWHTTPPostBodyData
 	.4byte lbl_80174D2C
-	.4byte lbl_80247088
+	.4byte WWWHTTPSetAuthCredentials
 	.4byte lbl_80174D48
-	.4byte lbl_8024708C
+	.4byte WWWHTTPRemoveAuthCredentials
 	.4byte lbl_80174D68
-	.4byte lbl_80247090
+	.4byte WWWHTTPSetProxy
 	.4byte lbl_80174D78
-	.4byte lbl_80247094
+	.4byte WWWHTTPRemoveProxy
 	.4byte lbl_80174D8C
-	.4byte lbl_80247098
+	.4byte WWWHTTPEndLoading
 	.4byte lbl_80174DA0
-	.4byte lbl_8024709C
+	.4byte WWWAddJSPlugin
 	.4byte lbl_80174DB0
-	.4byte lbl_802470A0
+	.4byte WWWAddNSPlugin
 	.4byte lbl_80174DC0
-	.4byte lbl_802470A4
+	.4byte WWWProtocolWrite
 	.4byte lbl_80174DD4
-	.4byte lbl_802470A8
+	.4byte WWWProtocolSetMimeType
 	.4byte lbl_80174DEC
-	.4byte lbl_802470AC
+	.4byte WWWProtocolFinished
 	.4byte lbl_80174E00
-	.4byte lbl_802470B0
+	.4byte WWWProtocolFailed
 	.4byte lbl_80174E14
-	.4byte lbl_802470B4
+	.4byte WWWAddProtocol
 
 glabel lbl_80182940
 	# ROM: 0x17EA40
@@ -28483,7 +28483,7 @@ glabel lbl_80197000
 
 glabel lbl_80197048
 	# ROM: 0x193148
-	.4byte lbl_800C3924
+	.4byte OnShutdown
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
@@ -28509,7 +28509,7 @@ glabel lbl_801970DC
 
 glabel lbl_80197110
 	# ROM: 0x193210
-	.4byte OnShutdown
+	.4byte __wpadOnShutdown
 	.4byte 0x0000007F
 	.4byte 0
 	.4byte 0
@@ -28591,8 +28591,8 @@ glabel lbl_80197318
 
 glabel lbl_80197340
 	# ROM: 0x193440
-	.4byte lbl_800CC16C
-	.4byte lbl_800CC57C
+	.4byte __a1_20_status_report
+	.4byte __a1_21_user_data
 	.4byte __a1_22_ack
 	.4byte __a1_unused_report
 	.4byte __a1_unused_report
@@ -28611,10 +28611,10 @@ glabel lbl_80197340
 	.4byte __a1_31_data_type
 	.4byte __a1_32_data_type
 	.4byte __a1_33_data_type
-	.4byte lbl_800CDC4C
-	.4byte lbl_800CDC50
 	.4byte __a1_34_data_type
-	.4byte lbl_800CE6C8
+	.4byte __a1_35_data_type
+	.4byte __a1_36_data_type
+	.4byte __a1_37_data_type
 	.4byte __a1_unused_report
 	.4byte __a1_unused_report
 	.4byte __a1_unused_report
@@ -33847,7 +33847,7 @@ glabel lbl_801A1B00
 	.4byte calc__Q310homebutton3gui9InterfaceFv
 	.4byte draw__Q310homebutton3gui9InterfaceFRA3_A4_f
 	.4byte draw__Q310homebutton3gui9InterfaceFv
-	.4byte lbl_8010A678
+	.4byte __dt__Q310homebutton3gui9InterfaceFv
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
@@ -34187,7 +34187,7 @@ glabel lbl_801A280C
 	# ROM: 0x19E90C
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80109B14
+	.4byte __dt__Q36nw4hbm3lyt19ArcResourceAccessorFv
 	.4byte GetResource__Q36nw4hbm3lyt19ArcResourceAccessorFUlPCcPUl
 	.4byte GetFont__Q36nw4hbm3lyt19ArcResourceAccessorFPCc
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
@@ -34555,7 +34555,7 @@ glabel lbl_801A37D8
 	.4byte 0
 	.4byte 0
 	.4byte __dt__Q36nw4hbm3lyt7PictureFv
-	.4byte lbl_80120AE0
+	.4byte GetRuntimeTypeInfo__Q36nw4hbm3lyt7PictureCFv
 	.4byte CalculateMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
 	.4byte Draw__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
 	.4byte DrawSelf__Q36nw4hbm3lyt7PictureFRCQ36nw4hbm3lyt8DrawInfo
@@ -34615,7 +34615,7 @@ glabel lbl_801A3918
 	.4byte 0
 	.4byte __dt__Q36nw4hbm3lyt16ResourceAccessorFv
 	.4byte 0
-	.4byte lbl_80120B50
+	.4byte GetFont__Q36nw4hbm3lyt16ResourceAccessorFPCc
 	.4byte 0
 
 glabel lbl_801A3930
@@ -36716,11 +36716,11 @@ glabel lbl_801A6CE0
 	.4byte 0
 	.4byte lbl_801329D4
 	.4byte lbl_801325B4
-	.4byte lbl_8014D2D8
+	.4byte Close__Q34nw4r2ut14NandFileStreamFv
 	.4byte lbl_80132840
-	.4byte lbl_8014D430
-	.4byte lbl_8014D59C
-	.4byte lbl_8014D678
+	.4byte ReadAsync__Q34nw4r2ut14NandFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte Write__Q34nw4r2ut14NandFileStreamFPCvUl
+	.4byte WriteAsync__Q34nw4r2ut14NandFileStreamFPCvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
 	.4byte lbl_801329CC
 	.4byte lbl_801329C4
 	.4byte lbl_801329B4
@@ -36728,22 +36728,22 @@ glabel lbl_801A6CE0
 	.4byte lbl_8013299C
 	.4byte lbl_80132994
 	.4byte lbl_8013298C
-	.4byte lbl_801329E0
+	.4byte GetSize__Q44nw4r3snd16NandSoundArchive14NandFileStreamCFv
 	.4byte lbl_801328F0
 	.4byte Cancel__Q36nw4hbm2ut10FileStreamFv
 	.4byte CancelAsync__Q36nw4hbm2ut10FileStreamFPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 	.4byte lbl_801329BC
 	.4byte lbl_801329A4
-	.4byte lbl_801329E8
+	.4byte Tell__Q44nw4r3snd16NandSoundArchive14NandFileStreamCFv
 	.4byte 0
 
 glabel lbl_801A6D40
 	# ROM: 0x1A2E40
 	.4byte 0
 	.4byte 0
-	.4byte lbl_8013210C
-	.4byte lbl_80132A00
-	.4byte lbl_801329F8
+	.4byte __dt__Q34nw4r3snd16NandSoundArchiveFv
+	.4byte detail_GetFileAddress__Q34nw4r3snd16NandSoundArchiveCFUl
+	.4byte detail_GetWaveDataFileAddress__Q34nw4r3snd16NandSoundArchiveCFUl
 	.4byte lbl_8013260C
 	.4byte lbl_80132400
 	.4byte lbl_801324C8
@@ -36905,9 +36905,9 @@ glabel lbl_801A73E8
 	.4byte Start__Q46nw4hbm3snd6detail9SeqPlayerFv
 	.4byte Stop__Q46nw4hbm3snd6detail9SeqPlayerFv
 	.4byte Pause__Q46nw4hbm3snd6detail9SeqPlayerFb
-	.4byte lbl_80130D08
-	.4byte lbl_80130CF4
-	.4byte lbl_80130CE0
+	.4byte IsActive__Q44nw4r3snd6detail9SeqPlayerCFv
+	.4byte IsStarted__Q44nw4r3snd6detail9SeqPlayerCFv
+	.4byte IsPause__Q44nw4r3snd6detail9SeqPlayerCFv
 	.4byte lbl_80130CCC
 	.4byte SetVolume__Q46nw4hbm3snd6detail9SeqPlayerFf
 	.4byte SetPitch__Q46nw4hbm3snd6detail9SeqPlayerFf
@@ -36940,10 +36940,10 @@ glabel lbl_801A73E8
 	.4byte 0
 	.4byte 0
 	.4byte _8___dt__Q46nw4hbm3snd6detail9SeqPlayerFv
-	.4byte lbl_80130D24
-	.4byte lbl_80130D1C
+	.4byte __InvalidateData__Q46nw4hbm3snd6detail9SeqPlayerFPCvPCv
+	.4byte __InvalidateWaveData__Q46nw4hbm3snd6detail9SeqPlayerFPCvPCv
 	.4byte InvalidateData__Q46nw4hbm3snd6detail9SeqPlayerFPCvPCv
-	.4byte lbl_80130C90
+	.4byte InvalidateWaveData__Q46nw4hbm3snd6detail9SeqPlayerFPCvPCv
 	.4byte ChannelCallback__Q46nw4hbm3snd6detail9SeqPlayerFPQ46nw4hbm3snd6detail7Channel
 	.4byte 0
 	.4byte 0
@@ -38890,9 +38890,9 @@ glabel lbl_801ABAF8
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80130C7C
-	.4byte lbl_80130C74
-	.4byte lbl_80130C6C
+	.4byte CanAsync__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
+	.4byte CanRead__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
+	.4byte CanWrite__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
 	.4byte 0
 	.4byte Seek__Q36nw4hbm2ut10FileStreamFlUl
 	.4byte Cancel__Q36nw4hbm2ut10FileStreamFv
@@ -38950,9 +38950,9 @@ glabel lbl_801ABC7C
 	.4byte 0
 	.4byte 0
 	.4byte 0
-	.4byte lbl_80130C7C
-	.4byte lbl_80130C74
-	.4byte lbl_80130C6C
+	.4byte CanAsync__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
+	.4byte CanRead__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
+	.4byte CanWrite__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
 
 glabel lbl_801ABCE8
 	# ROM: 0x1A7DE8
@@ -39019,12 +39019,12 @@ glabel lbl_801AC044
 	.4byte 0
 	.4byte 0
 	.4byte lbl_801329D4
-	.4byte func_8014C9DC
-	.4byte lbl_8014D2D8
-	.4byte func_8014D34C
-	.4byte lbl_8014D430
-	.4byte lbl_8014D59C
-	.4byte lbl_8014D678
+	.4byte __dt__Q34nw4r2ut14NandFileStreamFv
+	.4byte Close__Q34nw4r2ut14NandFileStreamFv
+	.4byte Read__Q34nw4r2ut14NandFileStreamFPvUl
+	.4byte ReadAsync__Q34nw4r2ut14NandFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
+	.4byte Write__Q34nw4r2ut14NandFileStreamFPCvUl
+	.4byte WriteAsync__Q34nw4r2ut14NandFileStreamFPCvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
 	.4byte lbl_801329CC
 	.4byte lbl_801329C4
 	.4byte lbl_801329B4
@@ -39033,7 +39033,7 @@ glabel lbl_801AC044
 	.4byte lbl_80132994
 	.4byte lbl_8013298C
 	.4byte lbl_8014D800
-	.4byte func_8014D788
+	.4byte Seek__Q34nw4r2ut14NandFileStreamFlUl
 	.4byte Cancel__Q36nw4hbm2ut10FileStreamFv
 	.4byte CancelAsync__Q36nw4hbm2ut10FileStreamFPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 	.4byte lbl_801329BC
@@ -39339,8 +39339,8 @@ glabel lbl_801AD350
 	# ROM: 0x1A9450
 	.4byte lbl_80246B10
 	.4byte 0
-	.4byte lbl_8015C1D0
-	.4byte lbl_8015C220
+	.4byte __dt__Q23std9exceptionFv
+	.4byte what__Q23std9bad_allocCFv
 
 glabel lbl_801AD360
 	.4byte lbl_80246B18
@@ -39412,7 +39412,7 @@ glabel lbl_801AD448
 	.4byte lbl_80246B30
 	.4byte 0
 	.4byte __dt__Q23std13bad_exceptionFv
-	.4byte lbl_8015EAC4
+	.4byte what__Q23std13bad_exceptionCFv
 
 glabel lbl_801AD458
 	.4byte lbl_80246B18
@@ -39424,7 +39424,7 @@ glabel lbl_801AD464
 	.asciz "bad_exception"
 	.balign 8
 
-glabel lbl_801AD478
+glabel __files
 	# ROM: 0x1A9578
 	.4byte 0
 	.4byte 0x0A800000
@@ -39723,7 +39723,7 @@ lbl_801AD8A8:
 	.4byte lbl_801789C8
 	.4byte lbl_802480D4
 
-glabel lbl_801AD8D0
+glabel _current_locale
 	# ROM: 0x1A99D0
 	.4byte 0
 	.4byte 0x43000000

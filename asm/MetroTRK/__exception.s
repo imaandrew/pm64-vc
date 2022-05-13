@@ -7,7 +7,7 @@ glabel gTRKInterruptVectorTable
     .string "Metrowerks Target Resident Kernel for PowerPC"
     .balign 4
     .skip 0xD0
-/* 800045C0 000006C0  48 00 1E 34 */	b func_800063F4
+/* 800045C0 000006C0  48 00 1E 34 */	b __TRK_reset
     .skip 0xFC
 /* 800046C0 000007C0  7C 51 43 A6 */	mtspr 0x111, r2
 /* 800046C4 000007C4  7C 5A 02 A6 */	mfspr r2, 0x1a

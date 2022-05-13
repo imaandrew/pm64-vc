@@ -1,0 +1,35 @@
+.include "macros.inc"
+
+.section .text, "ax"
+
+glabel detail_StartSound__Q36nw4hbm3snd14SoundStartableFPQ36nw4hbm3snd11SoundHandleUlPQ56nw4hbm3snd6detail10BasicSound14AmbientArgInfoPQ46nw4hbm3snd6detail19ExternalSoundPlayerPCQ46nw4hbm3snd14SoundStartable9StartInfo
+/* 8013E74C 00139C6C  94 21 FF F0 */	stwu r1, -0x10(r1)
+/* 8013E750 00139C70  7C 08 02 A6 */	mflr r0
+/* 8013E754 00139C74  7D 09 43 78 */	mr r9, r8
+/* 8013E758 00139C78  39 00 00 00 */	li r8, 0
+/* 8013E75C 00139C7C  90 01 00 14 */	stw r0, 0x14(r1)
+/* 8013E760 00139C80  93 E1 00 0C */	stw r31, 0xc(r1)
+/* 8013E764 00139C84  7C 9F 23 78 */	mr r31, r4
+/* 8013E768 00139C88  81 83 00 00 */	lwz r12, 0(r3)
+/* 8013E76C 00139C8C  81 8C 00 0C */	lwz r12, 0xc(r12)
+/* 8013E770 00139C90  7D 89 03 A6 */	mtctr r12
+/* 8013E774 00139C94  4E 80 04 21 */	bctrl 
+/* 8013E778 00139C98  2C 03 00 00 */	cmpwi r3, 0
+/* 8013E77C 00139C9C  41 82 00 08 */	beq lbl_8013E784
+/* 8013E780 00139CA0  48 00 00 24 */	b lbl_8013E7A4
+lbl_8013E784:
+/* 8013E784 00139CA4  80 7F 00 00 */	lwz r3, 0(r31)
+/* 8013E788 00139CA8  2C 03 00 00 */	cmpwi r3, 0
+/* 8013E78C 00139CAC  41 82 00 14 */	beq lbl_8013E7A0
+/* 8013E790 00139CB0  81 83 00 00 */	lwz r12, 0(r3)
+/* 8013E794 00139CB4  81 8C 00 14 */	lwz r12, 0x14(r12)
+/* 8013E798 00139CB8  7D 89 03 A6 */	mtctr r12
+/* 8013E79C 00139CBC  4E 80 04 21 */	bctrl 
+lbl_8013E7A0:
+/* 8013E7A0 00139CC0  38 60 00 00 */	li r3, 0
+lbl_8013E7A4:
+/* 8013E7A4 00139CC4  80 01 00 14 */	lwz r0, 0x14(r1)
+/* 8013E7A8 00139CC8  83 E1 00 0C */	lwz r31, 0xc(r1)
+/* 8013E7AC 00139CCC  7C 08 03 A6 */	mtlr r0
+/* 8013E7B0 00139CD0  38 21 00 10 */	addi r1, r1, 0x10
+/* 8013E7B4 00139CD4  4E 80 00 20 */	blr 

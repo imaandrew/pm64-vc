@@ -1,0 +1,37 @@
+.include "macros.inc"
+
+.section .text, "ax"
+
+glabel btu_init_core
+/* 800EECB4 000EA1D4  94 21 FF F0 */	stwu r1, -0x10(r1)
+/* 800EECB8 000EA1D8  7C 08 02 A6 */	mflr r0
+/* 800EECBC 000EA1DC  90 01 00 14 */	stw r0, 0x14(r1)
+/* 800EECC0 000EA1E0  4B FF A2 AD */	bl btm_init
+/* 800EECC4 000EA1E4  48 00 9F 7D */	bl l2c_init
+/* 800EECC8 000EA1E8  48 01 60 A9 */	bl sdp_init
+/* 800EECCC 000EA1EC  4B FF 86 D5 */	bl btm_discovery_db_init
+/* 800EECD0 000EA1F0  80 01 00 14 */	lwz r0, 0x14(r1)
+/* 800EECD4 000EA1F4  7C 08 03 A6 */	mtlr r0
+/* 800EECD8 000EA1F8  38 21 00 10 */	addi r1, r1, 0x10
+/* 800EECDC 000EA1FC  4E 80 00 20 */	blr 
+
+glabel BTE_Init
+/* 800EECE0 000EA200  94 21 FF F0 */	stwu r1, -0x10(r1)
+/* 800EECE4 000EA204  7C 08 02 A6 */	mflr r0
+/* 800EECE8 000EA208  38 80 00 00 */	li r4, 0
+/* 800EECEC 000EA20C  38 A0 00 84 */	li r5, 0x84
+/* 800EECF0 000EA210  90 01 00 14 */	stw r0, 0x14(r1)
+/* 800EECF4 000EA214  93 E1 00 0C */	stw r31, 0xc(r1)
+/* 800EECF8 000EA218  3F E0 80 22 */	lis r31, lbl_80220030@ha
+/* 800EECFC 000EA21C  38 7F 00 30 */	addi r3, r31, lbl_80220030@l
+/* 800EED00 000EA220  4B F1 57 3D */	bl memset
+/* 800EED04 000EA224  38 7F 00 30 */	addi r3, r31, 0x30
+/* 800EED08 000EA228  38 80 02 A4 */	li r4, 0x2a4
+/* 800EED0C 000EA22C  38 00 00 01 */	li r0, 1
+/* 800EED10 000EA230  B0 83 00 7E */	sth r4, 0x7e(r3)
+/* 800EED14 000EA234  B0 03 00 80 */	sth r0, 0x80(r3)
+/* 800EED18 000EA238  83 E1 00 0C */	lwz r31, 0xc(r1)
+/* 800EED1C 000EA23C  80 01 00 14 */	lwz r0, 0x14(r1)
+/* 800EED20 000EA240  7C 08 03 A6 */	mtlr r0
+/* 800EED24 000EA244  38 21 00 10 */	addi r1, r1, 0x10
+/* 800EED28 000EA248  4E 80 00 20 */	blr 

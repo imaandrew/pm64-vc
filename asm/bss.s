@@ -124,7 +124,7 @@ glabel lbl_801B39C0
 glabel lbl_801B3CA0
 	.skip 0x40
 
-glabel lbl_801B3CE0
+glabel WWW_FONT_FILE_DATA_TABLE__
 	.skip 0x40
 
 glabel lbl_801B3D20

@@ -150,7 +150,7 @@ glabel lbl_extabindex
 	.4byte func_8008DA18
 	.4byte 0x00000060
 	.4byte lbl_80006658
-	.4byte lbl_8008DA7C
+	.4byte NETGetUniversalCalendar
 	.4byte 0x00000040
 	.4byte lbl_80006660
 	.4byte func_8008DACC
@@ -186,7 +186,7 @@ glabel lbl_extabindex
 	.4byte func_8015C128
 	.4byte 0x000000A8
 	.4byte lbl_800066B8
-	.4byte lbl_8015C1D0
+	.4byte __dt__Q23std9exceptionFv
 	.4byte 0x00000040
 	.4byte lbl_800066E4
 	.4byte __construct_new_array
@@ -222,22 +222,22 @@ glabel lbl_extabindex
 	.4byte ExPPC_ThrowHandler__FP12ThrowContext
 	.4byte 0x00000400
 	.4byte lbl_8000678C
-	.4byte Block_subBlock
+	.4byte Block_link
 	.4byte 0x00000150
 	.4byte lbl_800067A0
-	.4byte func_8015F03C
+	.4byte allocate_from_var_pools
 	.4byte 0x00000240
 	.4byte lbl_800067A8
-	.4byte func_8015F27C
+	.4byte soft_allocate_from_var_pools
 	.4byte 0x000000DC
 	.4byte lbl_800067B0
-	.4byte func_8015F47C
+	.4byte allocate_from_fixed_pools
 	.4byte 0x00000208
 	.4byte lbl_800067B8
 	.4byte deallocate_from_fixed_pools
 	.4byte 0x000001EC
 	.4byte lbl_800067C0
-	.4byte func_8015F870
+	.4byte malloc
 	.4byte 0x000000A0
 	.4byte lbl_800067C8
 	.4byte free
@@ -270,13 +270,13 @@ glabel lbl_extabindex
 	.4byte __dec2num
 	.4byte 0x000007B0
 	.4byte lbl_80006818
-	.4byte func_801614D0
+	.4byte div
 	.4byte 0x0000005C
 	.4byte lbl_80006820
-	.4byte func_80161650
+	.4byte __msl_div
 	.4byte 0x00000078
 	.4byte lbl_80006828
-	.4byte lbl_80161724
+	.4byte bsearch
 	.4byte 0x000000F0
 	.4byte lbl_80006830
 	.4byte __flush_buffer
@@ -291,7 +291,7 @@ glabel lbl_extabindex
 	.4byte fflush
 	.4byte 0x00000134
 	.4byte lbl_80006850
-	.4byte lbl_80161EAC
+	.4byte __msl_itoa
 	.4byte 0x000000F0
 	.4byte lbl_80006858
 	.4byte _fseek
@@ -336,7 +336,7 @@ glabel lbl_extabindex
 	.4byte fprintf
 	.4byte 0x000000C4
 	.4byte lbl_800068C8
-	.4byte __vprintf
+	.4byte vprintf
 	.4byte 0x00000078
 	.4byte lbl_800068D0
 	.4byte vsnprintf
@@ -363,16 +363,16 @@ glabel lbl_extabindex
 	.4byte sscanf
 	.4byte 0x000000C8
 	.4byte lbl_80006910
-	.4byte func_80166484
+	.4byte signal
 	.4byte 0x000000B0
 	.4byte lbl_80006918
-	.4byte strcspn
+	.4byte strpbrk
 	.4byte 0x000000A8
 	.4byte lbl_80006920
-	.4byte strtok
+	.4byte strspn
 	.4byte 0x000000A4
 	.4byte lbl_80006928
-	.4byte func_801669D0
+	.4byte strcspn
 	.4byte 0x000000A4
 	.4byte lbl_80006930
 	.4byte __strtold
@@ -393,7 +393,7 @@ glabel lbl_extabindex
 	.4byte atoi
 	.4byte 0x000000C4
 	.4byte lbl_80006960
-	.4byte lbl_80168A20
+	.4byte atol
 	.4byte 0x000000C4
 	.4byte lbl_80006968
 	.4byte func_80168AE4
@@ -405,10 +405,10 @@ glabel lbl_extabindex
 	.4byte func_80168DE4
 	.4byte 0x000001FC
 	.4byte lbl_80006980
-	.4byte lbl_80168FE4
+	.4byte mktime
 	.4byte 0x000000D8
 	.4byte lbl_80006988
-	.4byte lbl_801690BC
+	.4byte localtime
 	.4byte 0x00000094
 	.4byte lbl_80006990
 	.4byte func_80169150

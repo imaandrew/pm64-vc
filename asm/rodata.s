@@ -785,11 +785,11 @@ glabel lbl_8017530C
 glabel lbl_80175318
 	# ROM: 0x171418
 	.4byte lbl_80174EA8
-	.4byte ARCConvertPathToEntrynum
+	.4byte ARCClose
 	.4byte lbl_80174EB4
-	.4byte ARCGetFileIdx
+	.4byte ARCConvertPathToEntrynum
 	.4byte lbl_80174ED0
-	.4byte lbl_800BEA44
+	.4byte ARCEntrynumIsDir
 	.4byte lbl_80174EE4
 	.4byte ARCFastOpen
 	.4byte lbl_80174EF0
@@ -797,7 +797,7 @@ glabel lbl_80175318
 	.4byte lbl_80174F00
 	.4byte ARCGetStartAddrInMenu
 	.4byte lbl_80174F18
-	.4byte lbl_800BEC40
+	.4byte ARCGetStartOffset
 	.4byte lbl_80174F2C
 	.4byte ARCInitHandle
 	.4byte lbl_80247BF0
@@ -807,17 +807,17 @@ glabel lbl_80175318
 	.4byte lbl_80174F48
 	.4byte DVDClose
 	.4byte lbl_80174F54
-	.4byte lbl_800AAED0
+	.4byte DVDCloseDir
 	.4byte lbl_80174F60
 	.4byte DVDConvertPathToEntrynum
 	.4byte lbl_80174F7C
-	.4byte lbl_800AA728
+	.4byte DVDEntrynumIsDir
 	.4byte lbl_80174F90
 	.4byte DVDFastOpen
 	.4byte lbl_80174F9C
-	.4byte lbl_800AABAC
+	.4byte DVDOpenDir
 	.4byte lbl_80174FA8
-	.4byte lbl_800AAE44
+	.4byte DVDReadDir
 	.4byte lbl_80174FB4
 	.4byte DVDReadPrio
 	.4byte lbl_80174FC0
@@ -825,7 +825,7 @@ glabel lbl_80175318
 	.4byte lbl_80174FCC
 	.4byte NANDCreate
 	.4byte lbl_80174FD8
-	.4byte nandGetFileStatusAsyncCallback
+	.4byte NANDCreateDir
 	.4byte lbl_80174FE8
 	.4byte NANDDelete
 	.4byte lbl_80174FF4
@@ -835,7 +835,7 @@ glabel lbl_80175318
 	.4byte lbl_80175018
 	.4byte NANDGetStatus
 	.4byte lbl_80175028
-	.4byte lbl_800BBBAC
+	.4byte NANDGetType
 	.4byte lbl_80175034
 	.4byte NANDOpen
 	.4byte lbl_80175040
@@ -851,7 +851,7 @@ glabel lbl_80175318
 	.4byte lbl_80175084
 	.4byte NANDWrite
 	.4byte lbl_80175090
-	.4byte lbl_8008DA7C
+	.4byte NETGetUniversalCalendar
 	.4byte lbl_801750A8
 	.4byte OSCalendarTimeToTicks
 	.4byte lbl_801750C0
@@ -867,7 +867,7 @@ glabel lbl_80175318
 	.4byte lbl_801750FC
 	.4byte SCGetLanguage
 	.4byte lbl_8017510C
-	.4byte lbl_801B3CE0
+	.4byte WWW_FONT_FILE_DATA_TABLE__
 	.4byte lbl_80175128
 	.4byte contentCloseNAND
 	.4byte lbl_8017513C
@@ -885,13 +885,13 @@ glabel lbl_80175318
 	.4byte lbl_801751C8
 	.4byte contentReleaseHandleNAND
 	.4byte lbl_801751E8
-	.4byte lbl_80107B44
+	.4byte contentSeekNAND
 	.4byte lbl_801751F8
 	.4byte __OSGetSystemTime
 	.4byte lbl_8017520C
-	.4byte 0x8024F800
+	.4byte _SDA2_BASE_
 	.4byte lbl_80175218
-	.4byte 0x8024E480
+	.4byte _SDA_BASE_
 	.4byte lbl_80175224
 	.4byte __construct_array
 	.4byte lbl_80175238
@@ -905,25 +905,25 @@ glabel lbl_80175318
 	.4byte lbl_80247C00
 	.4byte __div2i
 	.4byte lbl_80175284
-	.4byte lbl_80246B50
+	.4byte __double_huge
 	.4byte lbl_80247C08
-	.4byte lbl_801AD478
+	.4byte __files
 	.4byte lbl_80247C10
 	.4byte __mod2i
 	.4byte lbl_80175294
 	.4byte __ptmf_scall
 	.4byte lbl_801752A4
-	.4byte lbl_8015D174
+	.4byte __setjmp
 	.4byte lbl_80247C18
 	.4byte __shl2i
 	.4byte lbl_801752B0
 	.4byte __va_arg
 	.4byte lbl_801752C0
-	.4byte lbl_801AD8D0
+	.4byte _current_locale
 	.4byte lbl_80247C20
 	.4byte abort
 	.4byte lbl_80247C28
-	.4byte lbl_8008E8E4
+	.4byte abs
 	.4byte lbl_80247C2C
 	.4byte acos
 	.4byte lbl_80247C34
@@ -935,19 +935,19 @@ glabel lbl_80175318
 	.4byte lbl_80247C4C
 	.4byte atoi
 	.4byte lbl_80247C54
-	.4byte lbl_80168A20
+	.4byte atol
 	.4byte lbl_80247C60
-	.4byte lbl_80161724
+	.4byte bsearch
 	.4byte lbl_80247C68
 	.4byte ceil
 	.4byte lbl_80247C70
-	.4byte lbl_80168FE0
+	.4byte clock
 	.4byte lbl_80247C78
 	.4byte cos
 	.4byte lbl_80247C7C
 	.4byte exit
 	.4byte lbl_80247C84
-	.4byte lbl_8016E850
+	.4byte exp
 	.4byte lbl_80247C88
 	.4byte floor
 	.4byte lbl_80247C90
@@ -955,17 +955,17 @@ glabel lbl_80175318
 	.4byte lbl_80247C98
 	.4byte fprintf
 	.4byte lbl_80247CA0
-	.4byte lbl_8016A52C
+	.4byte getenv
 	.4byte lbl_80247CA8
-	.4byte lbl_8016A72C
+	.4byte itoa
 	.4byte lbl_80247CB0
 	.4byte labs
 	.4byte lbl_801752D0
-	.4byte lbl_801690BC
+	.4byte localtime
 	.4byte lbl_80247CB8
-	.4byte lbl_8016E858
+	.4byte log
 	.4byte lbl_80247CC0
-	.4byte lbl_8015D278
+	.4byte longjmp
 	.4byte lbl_80247CC8
 	.4byte memchr
 	.4byte lbl_80247CD0
@@ -977,7 +977,7 @@ glabel lbl_80175318
 	.4byte lbl_80247CE8
 	.4byte memset
 	.4byte lbl_80247CF0
-	.4byte lbl_80168FE4
+	.4byte mktime
 	.4byte lbl_80247CF8
 	.4byte pow
 	.4byte lbl_80247CFC
@@ -1007,7 +1007,7 @@ glabel lbl_80175318
 	.4byte lbl_80247D50
 	.4byte strcpy
 	.4byte lbl_80247D58
-	.4byte func_801669D0
+	.4byte strcspn
 	.4byte lbl_801752E8
 	.4byte strftime
 	.4byte lbl_80247D60
@@ -1021,13 +1021,13 @@ glabel lbl_80175318
 	.4byte lbl_80247D80
 	.4byte strncpy
 	.4byte lbl_801752F4
-	.4byte strncasecmp
+	.4byte strnicmp
 	.4byte lbl_80247D88
-	.4byte strcspn
+	.4byte strpbrk
 	.4byte lbl_80247D90
-	.4byte lbl_8016683C
+	.4byte strrchr
 	.4byte lbl_80247D98
-	.4byte strtok
+	.4byte strspn
 	.4byte lbl_80247DA0
 	.4byte strstr
 	.4byte lbl_80247DA8
@@ -1037,7 +1037,7 @@ glabel lbl_80175318
 	.4byte lbl_80247DB8
 	.4byte tan
 	.4byte lbl_80247DC0
-	.4byte __vprintf
+	.4byte vprintf
 	.4byte lbl_80175300
 	.4byte vsnprintf
 	.4byte lbl_8017530C
@@ -1205,7 +1205,7 @@ glabel lbl_80175A00
 
 glabel lbl_80175A10
 	# ROM: 0x171B10
-	.4byte lbl_800DB93C
+	.4byte hcisu_h2_init
 	.4byte hcisu_h2_open
 	.4byte hcisu_h2_close
 	.4byte hcisu_h2_send
@@ -1312,7 +1312,7 @@ glabel lbl_80175B58
 	.4byte bta_dm_authorize_cback
 	.4byte bta_dm_pin_cback
 	.4byte bta_dm_new_link_key_cback
-	.4byte lbl_800DF68C
+	.4byte bta_dm_link_key_request_cback
 	.4byte bta_dm_authentication_complete_cback
 	.4byte 0
 
@@ -1325,7 +1325,7 @@ glabel lbl_80175B70
 	.4byte bta_dm_bond
 	.4byte bta_dm_pin_reply
 	.4byte bta_dm_auth_reply
-	.4byte lbl_800DF7DC
+	.4byte bta_dm_signal_strength
 	.4byte bta_dm_acl_change
 	.4byte bta_dm_pm_btm_status
 	.4byte bta_dm_pm_timer
@@ -1362,7 +1362,7 @@ glabel lbl_80175BD0
 	.4byte bta_dm_queue_disc
 	.4byte bta_dm_search_clear_queue
 	.4byte bta_dm_search_cancel_cmpl
-	.4byte lbl_800DEEC0
+	.4byte bta_dm_search_cancel_notify
 	.4byte bta_dm_search_cancel_transac_cmpl
 	.4byte bta_dm_disc_rmt_name
 	.4byte bta_dm_cancel_rmt_name

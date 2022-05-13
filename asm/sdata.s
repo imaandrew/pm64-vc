@@ -681,11 +681,11 @@ glabel lbl_8024680C
 
 glabel lbl_80246810
 	# ROM: 0x1AA450
-	.4byte lbl_800B6CD8
+	.4byte __AXFXAllocFunction
 
 glabel lbl_80246814
 	# ROM: 0x1AA454
-	.4byte lbl_800B6CE4
+	.4byte __AXFXFreeFunction
 
 glabel lbl_80246818
 	# ROM: 0x1AA458
@@ -908,7 +908,7 @@ glabel lbl_802469A0
 
 glabel lbl_802469A4
 	# ROM: 0x1AA5E4
-	.4byte lbl_800C33A4
+	.4byte SPEC2_MakeStatus
 
 glabel lbl_802469A8
 	# ROM: 0x1AA5E8
@@ -1215,11 +1215,11 @@ glabel lbl_80246B18
 
 glabel lbl_80246B20
 	# ROM: 0x1AA760
-	.4byte lbl_8015C22C
+	.4byte dthandler__3stdFv
 
 glabel lbl_80246B24
 	# ROM: 0x1AA764
-	.4byte lbl_8015C230
+	.4byte duhandler__3stdFv
 
 glabel lbl_80246B28
 	# ROM: 0x1AA768
@@ -1248,7 +1248,7 @@ glabel lbl_80246B4C
 	# ROM: 0x1AA78C
 	.4byte 0x7F800000
 
-glabel lbl_80246B50
+glabel __double_huge
 	# ROM: 0x1AA790
 	.4byte 0x7FF00000
 	.4byte 0

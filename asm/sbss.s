@@ -2306,4 +2306,4 @@ glabel lbl_802477E8
 	.skip 0x8
 
 glabel lbl_802477F0
-	.skip 0x14
+	.skip 0x4

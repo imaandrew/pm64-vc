@@ -6,6 +6,6 @@
 
 glabel lbl_80174260
 	# ROM: 0x170360
-	.4byte lbl_8015C0E0
-	.4byte lbl_8015D140
+	.4byte __destroy_global_chain_tmp
+	.4byte __fini_cpp_exceptions_tmp
 	.4byte 0

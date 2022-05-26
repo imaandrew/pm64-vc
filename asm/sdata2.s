@@ -1844,18 +1844,18 @@ glabel lbl_80248052
 
 glabel lbl_80248058
 	# ROM: 0x1AAFF8
-	.4byte lbl_800E0674
+	.4byte bta_dm_sm_execute
 	.4byte 0
 
 glabel lbl_80248060
 	# ROM: 0x1AB000
-	.4byte lbl_800E070C
+	.4byte bta_dm_search_sm_execute
 	.4byte 0
 
 glabel lbl_80248068
 	# ROM: 0x1AB008
-	.4byte lbl_800E305C
-	.4byte lbl_800E29C0
+	.4byte bta_hh_hdl_event
+	.4byte BTA_HhDisable
 
 glabel lbl_80248070
 	# ROM: 0x1AB010

@@ -1,0 +1,16 @@
+.include "macros.inc"
+
+.section .text, "ax"
+
+glabel BTE_InitStack
+/* 800DD004 000D8524  94 21 FF F0 */	stwu r1, -0x10(r1)
+/* 800DD008 000D8528  7C 08 02 A6 */	mflr r0
+/* 800DD00C 000D852C  90 01 00 14 */	stw r0, 0x14(r1)
+/* 800DD010 000D8530  48 01 EB 25 */	bl RFCOMM_Init
+/* 800DD014 000D8534  48 01 1D F9 */	bl GAP_Init
+/* 800DD018 000D8538  48 01 56 C9 */	bl HID_DevInit
+/* 800DD01C 000D853C  48 01 61 49 */	bl HID_HostInit
+/* 800DD020 000D8540  80 01 00 14 */	lwz r0, 0x14(r1)
+/* 800DD024 000D8544  7C 08 03 A6 */	mtlr r0
+/* 800DD028 000D8548  38 21 00 10 */	addi r1, r1, 0x10
+/* 800DD02C 000D854C  4E 80 00 20 */	blr 

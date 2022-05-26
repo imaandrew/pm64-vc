@@ -3,7 +3,7 @@ glabel treeAdjustRoot
 /* 8003F5BC 0003AADC  7C 08 02 A6 */	mflr r0
 /* 8003F5C0 0003AAE0  90 01 00 44 */	stw r0, 0x44(r1)
 /* 8003F5C4 0003AAE4  39 61 00 40 */	addi r11, r1, 0x40
-/* 8003F5C8 0003AAE8  48 11 D3 65 */	bl __save_registersr21
+/* 8003F5C8 0003AAE8  48 11 D3 65 */	bl _savegpr_21
 /* 8003F5CC 0003AAEC  3C 83 00 10 */	addis r4, r3, 0x10
 /* 8003F5D0 0003AAF0  3B 80 00 00 */	li r28, 0
 /* 8003F5D4 0003AAF4  83 04 16 94 */	lwz r24, 0x1694(r4)
@@ -124,7 +124,7 @@ lbl_8003F768:
 /* 8003F780 0003ACA0  93 38 00 04 */	stw r25, 4(r24)
 lbl_8003F784:
 /* 8003F784 0003ACA4  39 61 00 40 */	addi r11, r1, 0x40
-/* 8003F788 0003ACA8  48 11 D1 F1 */	bl __restore_registersr21
+/* 8003F788 0003ACA8  48 11 D1 F1 */	bl _restgpr_21
 /* 8003F78C 0003ACAC  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8003F790 0003ACB0  7C 08 03 A6 */	mtlr r0
 /* 8003F794 0003ACB4  38 21 00 40 */	addi r1, r1, 0x40

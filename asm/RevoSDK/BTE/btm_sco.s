@@ -3,8 +3,8 @@
 .section .text, "ax"
 
 glabel btm_sco_init
-/* 800E9C5C 000E517C  3C 60 80 17 */	lis r3, lbl_80170004@ha
-/* 800E9C60 000E5180  84 C3 5D 30 */	lwzu r6, 0x5d30(r3)
+/* 800E9C5C 000E517C  3C 60 80 17 */	lis r3, lbl_80175D30@ha
+/* 800E9C60 000E5180  84 C3 5D 30 */	lwzu r6, lbl_80175D30@l(r3)
 /* 800E9C64 000E5184  3C 80 00 01 */	lis r4, 0x0000FFFF@ha
 /* 800E9C68 000E5188  3C E0 80 22 */	lis r7, lbl_80220558@ha
 /* 800E9C6C 000E518C  39 04 FF FF */	addi r8, r4, 0x0000FFFF@l

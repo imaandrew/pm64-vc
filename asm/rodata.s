@@ -14,10 +14,14 @@ glabel lbl_80174280
 	.4byte 0x1406090F
 	.4byte 0x04060A02
 	.4byte 0x03050000
+
+glabel lbl_801742A0
 	.4byte 0xC4200000
 	.4byte 0xC3F00000
 	.4byte 0x44200000
 	.4byte 0x43F00000
+
+glabel lbl_801742B0
 	.4byte 0xC4200000
 	.4byte 0xC4040000
 	.4byte 0x44200000
@@ -41,6 +45,8 @@ glabel lbl_80174308
 	.asciz "_p1.tpl"
 	.balign 4
 	.4byte 0
+
+glabel lbl_80174320
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -1164,6 +1170,8 @@ glabel lbl_80175960
 	.asciz "/title/00000001/00000002/data/setting.txt"
 	.balign 4
 	.4byte 0
+
+glabel lbl_80175990
 	.4byte 0x3FECC000
 	.4byte 0
 	.4byte 0x3FECC000
@@ -1455,6 +1463,8 @@ glabel lbl_80175D20
 	.4byte 0x03010102
 	.4byte 0x03000000
 	.4byte 0
+
+glabel lbl_80175D30
 	.4byte 0x00001F40
 	.4byte 0x00001F40
 	.4byte 0x000A0060
@@ -4555,6 +4565,8 @@ glabel lbl_80178A50
 	.asciz "NAN"
 	.asciz "nan"
 	.align 4
+
+glabel lbl_80178A80
 	.4byte 0
 	.4byte 0x7FFFFFFF
 	.4byte 0
@@ -4593,6 +4605,8 @@ glabel lbl_80178AEC
 	.4byte 0x0004001D
 	.4byte 0x001E001F
 	.4byte 0x00010000
+
+glabel lbl_80178AFC
 	.4byte 0
 	.4byte 0
 	.4byte 0
@@ -5288,6 +5302,8 @@ glabel lbl_801795B0
 	.4byte 0x60000000
 	.4byte 0x60000000
 	.4byte 0x60000000
+
+glabel lbl_801795D8
 	.4byte 0x60000000
 	.4byte 0x60000000
 	.4byte 0x60000000

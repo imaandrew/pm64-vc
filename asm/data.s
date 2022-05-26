@@ -5214,6 +5214,8 @@ glabel lbl_8017E910
 	.4byte 0x000000BE
 	.4byte 0x000000BE
 	.4byte 0
+
+glabel lbl_8017E920
 	.4byte 0xF5500000
 	.4byte 0x07080200
 	.4byte 0xE6000000
@@ -5336,6 +5338,8 @@ glabel lbl_8017EAB8
 	.4byte lbl_8004F96C
 	.4byte 0
 	.4byte lbl_80050788
+
+glabel lbl_8017EAD8
 	.4byte 0x0C184F50
 	.4byte 0x00182CF0
 	.4byte 0x03010305
@@ -7001,6 +7005,8 @@ glabel lbl_801804B8
 	.4byte 0x40000000
 	.4byte 0x20000000
 	.4byte 0x10000000
+
+glabel lbl_801804C8
 	.4byte 0x00000001
 	.4byte 0x00000002
 	.4byte 0x00008000
@@ -7885,6 +7891,8 @@ lbl_801811A8:
 	.4byte 0x00005908
 	.4byte 0
 	.4byte lbl_80081834
+
+glabel lbl_801811B8
 	.4byte 0xE7000000
 	.4byte 0
 	.4byte 0xBA001402
@@ -23907,6 +23915,8 @@ glabel lbl_80191898
 	.4byte lbl_800AE030
 	.4byte lbl_800AE040
 	.4byte lbl_800AE020
+
+glabel lbl_80191934
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF
 	.4byte 0xFFFFFFFF

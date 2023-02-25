@@ -2,8 +2,6 @@
 
 .section .sdata, "wa"  # 0x80246480 - 0x80246B60
 
-.balign 0x20
-
 glabel lbl_80246480
 	# ROM: 0x1AA0C0
 	.asciz "romc"

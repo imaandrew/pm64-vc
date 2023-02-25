@@ -2,8 +2,6 @@
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
-.balign 0x20
-
 glabel lbl_80246B60
 	.skip 0x1
 

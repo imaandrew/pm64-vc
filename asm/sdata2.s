@@ -2,8 +2,6 @@
 
 .section .sdata2, "wa"  # 0x80247800 - 0x802486C0
 
-.balign 0x20
-
 glabel lbl_80247800
 	# ROM: 0x1AA7A0
 	.4byte 0x3F800000

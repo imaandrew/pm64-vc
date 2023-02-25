@@ -2,8 +2,6 @@
 
 .section .text, "ax"  # 0x800070C0 - 0x80174200
 
-.balign 0x20
-
 glabel func_800070C0
 /* 800070C0 000025E0  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 800070C4 000025E4  7C 08 02 A6 */	mflr r0

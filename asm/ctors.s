@@ -2,8 +2,6 @@
 
 .section .ctors, "wa"  # 0x80174200 - 0x80174260
 
-.balign 0x20
-
 glabel lbl_80174200
 	# ROM: 0x170300
 	.4byte __init_cpp_exceptions_tmp

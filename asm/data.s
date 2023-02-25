@@ -2,8 +2,6 @@
 
 .section .data, "wa"  # 0x80179740 - 0x801ADFC0
 
-.balign 0x20
-
 glabel lbl_80179740
 	# ROM: 0x175840
 	.4byte lbl_800072CC

@@ -2,8 +2,6 @@
 
 .section .rodata, "wa"  # 0x80174280 - 0x80179740
 
-.balign 0x20
-
 glabel lbl_80174280
 	# ROM: 0x170380
 	.4byte 0x141E3212

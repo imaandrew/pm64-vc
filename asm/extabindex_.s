@@ -2,8 +2,6 @@
 
 .section extabindex_, "wa"  # 0x800069E0 - 0x800070C0
 
-.balign 0x20
-
 glabel lbl_extabindex
 	# ROM: 0x16FC20
 	.4byte lbl_80087F8C

@@ -2,7 +2,7 @@ ALL:=\
 	$(BUILD_DIR)/src/init/init0.o\
 	$(BUILD_DIR)/asm/__start.o\
 	$(BUILD_DIR)/asm/init/__init_registers.o\
-	$(BUILD_DIR)/src/init/__init_data.o\
+	$(BUILD_DIR)/asm/init/__init_data.o\
 	$(BUILD_DIR)/asm/init/__init_hardware.o\
 	$(BUILD_DIR)/asm/init/__flush_cache.o\
 	$(BUILD_DIR)/src/init/memcpy.o\
@@ -14,19 +14,19 @@ ALL:=\
 	$(BUILD_DIR)/asm/extab_.o\
 	$(BUILD_DIR)/asm/extabindex_.o\
 	$(BUILD_DIR)/asm/virtual_console/code_800070C0.o\
-	$(BUILD_DIR)/src/virtual_console/cpu.o\
-	$(BUILD_DIR)/src/virtual_console/tree.o\
+	$(BUILD_DIR)/asm/virtual_console/cpu.o\
+	$(BUILD_DIR)/asm/virtual_console/tree.o\
 	$(BUILD_DIR)/asm/virtual_console/code_80040474.o\
-	$(BUILD_DIR)/src/virtual_console/ram.o\
+	$(BUILD_DIR)/asm/virtual_console/ram.o\
 	$(BUILD_DIR)/asm/virtual_console/code_80041A3C.o\
-	$(BUILD_DIR)/src/virtual_console/rom.o\
+	$(BUILD_DIR)/asm/virtual_console/rom.o\
 	$(BUILD_DIR)/asm/virtual_console/code_800438B0.o\
-	$(BUILD_DIR)/src/virtual_console/xlFile.o\
-	$(BUILD_DIR)/src/virtual_console/xlText.o\
-	$(BUILD_DIR)/src/virtual_console/xlList.o\
-	$(BUILD_DIR)/src/virtual_console/xlHeap.o\
+	$(BUILD_DIR)/asm/virtual_console/xlFile.o\
+	$(BUILD_DIR)/asm/virtual_console/xlText.o\
+	$(BUILD_DIR)/asm/virtual_console/xlList.o\
+	$(BUILD_DIR)/asm/virtual_console/xlHeap.o\
 	$(BUILD_DIR)/asm/virtual_console/code_80086EBC.o\
-	$(BUILD_DIR)/src/virtual_console/xlObject.o\
+	$(BUILD_DIR)/asm/virtual_console/xlObject.o\
 	$(BUILD_DIR)/asm/NdevExi2A/DebuggerDriver.o\
 	$(BUILD_DIR)/asm/NdevExi2A/exi2.o\
 	$(BUILD_DIR)/asm/RevoSDK/code_80087EB8.o\

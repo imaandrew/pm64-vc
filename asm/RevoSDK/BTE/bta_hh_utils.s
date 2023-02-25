@@ -266,3 +266,8 @@ lbl_800E35EC:
 /* 800E35FC 000DEB1C  7C 08 03 A6 */	mtlr r0
 /* 800E3600 000DEB20  38 21 00 20 */	addi r1, r1, 0x20
 /* 800E3604 000DEB24  4E 80 00 20 */	blr 
+
+.section .sbss2, "", @nobits # 0x802486C0 - 0x802486D0
+
+glabel lbl_802486C8
+	.skip 0x8

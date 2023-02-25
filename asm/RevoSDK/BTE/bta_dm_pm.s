@@ -722,3 +722,8 @@ glabel bta_dm_pm_timer
 /* 800E11E4 000DC704  38 80 00 01 */	li r4, 1
 /* 800E11E8 000DC708  38 63 00 08 */	addi r3, r3, 8
 /* 800E11EC 000DC70C  4B FF F9 E8 */	b bta_dm_pm_set_mode
+
+.section .sbss2, "", @nobits # 0x802486C0 - 0x802486D0
+
+glabel lbl_802486C0
+	.skip 0x8

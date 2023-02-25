@@ -409,5 +409,4 @@ ALL:=\
 	$(BUILD_DIR)/asm/bss.o\
 	$(BUILD_DIR)/asm/sdata.o\
 	$(BUILD_DIR)/asm/sbss.o\
-	$(BUILD_DIR)/asm/sdata2.o\
-	$(BUILD_DIR)/asm/sbss2.o
+	$(BUILD_DIR)/asm/sdata2.o

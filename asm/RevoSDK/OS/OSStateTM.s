@@ -458,3 +458,29 @@ lbl_80099D14:
 /* 80099D20 00095240  7C 08 03 A6 */	mtlr r0
 /* 80099D24 00095244  38 21 00 10 */	addi r1, r1, 0x10
 /* 80099D28 00095248  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802471A8
+	.skip 0x4
+
+glabel lbl_802471AC
+	.skip 0x4
+
+glabel lbl_802471B0
+	.skip 0x4
+
+glabel lbl_802471B4
+	.skip 0x4
+
+glabel lbl_802471B8
+	.skip 0x4
+
+glabel lbl_802471BC
+	.skip 0x4
+
+glabel lbl_802471C0
+	.skip 0x4
+
+glabel lbl_802471C4
+	.skip 0x4

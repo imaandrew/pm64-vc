@@ -63,3 +63,8 @@ lbl_8016A5E4:
 glabel __close_console
 /* 8016A604 00165B24  38 60 00 00 */	li r3, 0
 /* 8016A608 00165B28  4E 80 00 20 */	blr
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802477C8
+	.skip 0x8

@@ -93,3 +93,8 @@ glabel __DVDPrintFatalMessage
 /* 800AFB40 000AB060  7D 89 03 A6 */	mtctr r12
 /* 800AFB44 000AB064  4E 80 04 20 */	bctr 
 /* 800AFB48 000AB068  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247420
+	.skip 0x8

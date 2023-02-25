@@ -6642,3 +6642,13 @@ lbl_8000CA58:
 /* 8000CA64 00007F84  38 21 00 10 */	addi r1, r1, 0x10
 /* 8000CA68 00007F88  4E 80 00 20 */	blr 
 
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80246B60
+	.skip 0x1
+
+glabel lbl_80246B61
+	.skip 0x3
+
+glabel lbl_80246B64
+	.skip 0x4

@@ -20,3 +20,17 @@ glabel __AXGetCurrentProfile
 lbl_800B5E6C:
 /* 800B5E6C 000B138C  38 60 00 00 */	li r3, 0
 /* 800B5E70 000B1390  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802475D0
+	.skip 0x4
+
+glabel lbl_802475D4
+	.skip 0x4
+
+glabel lbl_802475D8
+	.skip 0x4
+
+glabel lbl_802475DC
+	.skip 0x4

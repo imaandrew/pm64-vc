@@ -47,3 +47,20 @@ glabel IPCGetBufferLo
 glabel IPCSetBufferLo
 /* 800BEE68 000BA388  90 6D 91 CC */	stw r3, lbl_8024764C@sda21(r13)
 /* 800BEE6C 000BA38C  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247648
+	.skip 0x4
+
+glabel lbl_8024764C
+	.skip 0x4
+
+glabel lbl_80247650
+	.skip 0x4
+
+glabel lbl_80247654
+	.skip 0x4
+
+glabel lbl_80247658
+	.skip 0x8

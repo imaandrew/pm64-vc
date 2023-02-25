@@ -216,3 +216,8 @@ lbl_80173F18:
 lbl_80173F28:
 /* 80173F28 0016F448  42 00 00 00 */	bdnz lbl_80173F28
 /* 80173F2C 0016F44C  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802477F0
+	.skip 0x4

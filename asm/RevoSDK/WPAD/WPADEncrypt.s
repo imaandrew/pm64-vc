@@ -1079,3 +1079,17 @@ lbl_800D0B9C:
 /* 800D0BA0 000CC0C0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800D0BA4 000CC0C4  38 21 00 10 */	addi r1, r1, 0x10
 /* 800D0BA8 000CC0C8  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247708
+	.skip 0x1
+
+glabel lbl_80247709
+	.skip 0x1
+
+glabel lbl_8024770A
+	.skip 0x1
+
+glabel lbl_8024770B
+	.skip 0x5

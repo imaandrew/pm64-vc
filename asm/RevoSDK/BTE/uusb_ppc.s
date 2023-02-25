@@ -1483,3 +1483,26 @@ glabel UUSB_Unregister
 /* 800DCF40 000D8460  7C 08 03 A6 */	mtlr r0
 /* 800DCF44 000D8464  38 21 00 10 */	addi r1, r1, 0x10
 /* 800DCF48 000D8468  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247770
+	.skip 0x1
+
+glabel lbl_80247771
+	.skip 0x3
+
+glabel lbl_80247774
+	.skip 0x4
+
+glabel lbl_80247778
+	.skip 0x4
+
+glabel lbl_8024777C
+	.skip 0x4
+
+glabel lbl_80247780
+	.skip 0x4
+
+glabel lbl_80247784
+	.skip 0x4

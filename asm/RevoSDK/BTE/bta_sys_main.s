@@ -172,3 +172,8 @@ lbl_800DDC78:
 glabel bta_sys_set_trace_level
 /* 800DDCA0 000D91C0  98 6D 93 20 */	stb r3, lbl_802477A0@sda21(r13)
 /* 800DDCA4 000D91C4  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802477A0
+	.skip 0x8

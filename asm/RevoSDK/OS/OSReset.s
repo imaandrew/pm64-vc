@@ -493,3 +493,17 @@ glabel OSResetSystem
 /* 80096DBC 000922DC  38 A5 41 30 */	addi r5, r5, lbl_80184130@l
 /* 80096DC0 000922E0  4C C6 31 82 */	crclr 6
 /* 80096DC4 000922E4  4B FF AB 78 */	b OSPanic
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247178
+	.skip 0x4
+
+glabel lbl_8024717C
+	.skip 0x4
+
+glabel lbl_80247180
+	.skip 0x8
+
+glabel lbl_80247188
+	.skip 0x8

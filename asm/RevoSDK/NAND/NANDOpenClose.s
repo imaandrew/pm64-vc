@@ -696,3 +696,8 @@ lbl_800BA8A8:
 /* 800BA8C4 000B5DE4  7C 08 03 A6 */	mtlr r0
 /* 800BA8C8 000B5DE8  38 21 00 10 */	addi r1, r1, 0x10
 /* 800BA8CC 000B5DEC  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247620
+	.skip 0x8

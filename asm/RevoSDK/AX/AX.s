@@ -50,3 +50,8 @@ lbl_800B2378:
 glabel func_800B2388
 /* 800B2388 000AD8A8  80 6D 90 28 */	lwz r3, lbl_802474A8@sda21(r13)
 /* 800B238C 000AD8AC  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802474A8
+	.skip 0x8

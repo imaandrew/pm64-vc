@@ -79,3 +79,8 @@ glabel what__Q23std9bad_allocCFv
 /* 8015C220 00157740  3C 60 80 1B */	lis r3, lbl_801AD36C@ha
 /* 8015C224 00157744  38 63 D3 6C */	addi r3, r3, lbl_801AD36C@l
 /* 8015C228 00157748  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802477B0
+	.skip 0x8

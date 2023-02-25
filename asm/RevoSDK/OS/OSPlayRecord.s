@@ -510,3 +510,29 @@ lbl_8009A458:
 /* 8009A464 00095984  7C 08 03 A6 */	mtlr r0
 /* 8009A468 00095988  38 21 00 20 */	addi r1, r1, 0x20
 /* 8009A46C 0009598C  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802471D0
+	.skip 0x4
+
+glabel lbl_802471D4
+	.skip 0x4
+
+glabel lbl_802471D8
+	.skip 0x4
+
+glabel lbl_802471DC
+	.skip 0x4
+
+glabel lbl_802471E0
+	.skip 0x4
+
+glabel lbl_802471E4
+	.skip 0x4
+
+glabel lbl_802471E8
+	.skip 0x4
+
+glabel lbl_802471EC
+	.skip 0x4

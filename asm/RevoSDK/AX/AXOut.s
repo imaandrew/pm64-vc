@@ -596,3 +596,44 @@ lbl_800B43BC:
 /* 800B43D4 000AF8F4  7C 04 00 50 */	subf r0, r4, r0
 /* 800B43D8 000AF8F8  90 0D 90 A4 */	stw r0, lbl_80247524@sda21(r13)
 /* 800B43DC 000AF8FC  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247520
+	.skip 0x4
+
+glabel lbl_80247524
+	.skip 0x4
+
+glabel lbl_80247528
+	.skip 0x4
+
+glabel lbl_8024752C
+	.skip 0x4
+
+glabel lbl_80247530
+	.skip 0x8
+
+glabel lbl_80247538
+	.skip 0x8
+
+glabel lbl_80247540
+	.skip 0x4
+
+glabel lbl_80247544
+	.skip 0x4
+
+glabel lbl_80247548
+	.skip 0x4
+
+glabel lbl_8024754C
+	.skip 0x4
+
+glabel lbl_80247550
+	.skip 0x4
+
+glabel lbl_80247554
+	.skip 0x4
+
+glabel lbl_80247558
+	.skip 0x8

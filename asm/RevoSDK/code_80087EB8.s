@@ -7483,3 +7483,644 @@ lbl_8008E960:
 /* 8008E978 00089E98  7C 08 03 A6 */	mtlr r0
 /* 8008E97C 00089E9C  38 21 00 10 */	addi r1, r1, 0x10
 /* 8008E980 00089EA0  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80246DB0
+	.skip 0x10
+
+glabel lbl_80246DC0
+	.skip 0x4
+
+glabel lbl_80246DC4
+	.skip 0x4
+
+glabel lbl_80246DC8
+	.skip 0x4
+
+glabel lbl_80246DCC
+	.skip 0x4
+
+glabel lbl_80246DD0
+	.skip 0x4
+
+glabel lbl_80246DD4
+	.skip 0x4
+
+glabel lbl_80246DD8
+	.skip 0x4
+
+glabel lbl_80246DDC
+	.skip 0x4
+
+glabel lbl_80246DE0
+	.skip 0x4
+
+glabel lbl_80246DE4
+	.skip 0x4
+
+glabel lbl_80246DE8
+	.skip 0x2
+
+glabel lbl_80246DEA
+	.skip 0x2
+
+glabel lbl_80246DEC
+	.skip 0x2
+
+glabel lbl_80246DEE
+	.skip 0x2
+
+glabel lbl_80246DF0
+	.skip 0x2
+
+glabel lbl_80246DF2
+	.skip 0x2
+
+glabel lbl_80246DF4
+	.skip 0x2
+
+glabel lbl_80246DF6
+	.skip 0x2
+
+glabel lbl_80246DF8
+	.skip 0x4
+
+glabel lbl_80246DFC
+	.skip 0x4
+
+glabel lbl_80246E00
+	.skip 0x4
+
+glabel lbl_80246E04
+	.skip 0x4
+
+glabel lbl_80246E08
+	.skip 0x4
+
+glabel lbl_80246E0C
+	.skip 0x4
+
+glabel lbl_80246E10
+	.skip 0x4
+
+glabel lbl_80246E14
+	.skip 0x4
+
+glabel lbl_80246E18
+	.skip 0x4
+
+glabel lbl_80246E1C
+	.skip 0x1
+
+glabel lbl_80246E1D
+	.skip 0x1
+
+glabel lbl_80246E1E
+	.skip 0x1
+
+glabel lbl_80246E1F
+	.skip 0x1
+
+glabel lbl_80246E20
+	.skip 0x1
+
+glabel lbl_80246E21
+	.skip 0x3
+
+glabel lbl_80246E24
+	.skip 0x4
+
+glabel lbl_80246E28
+	.skip 0x1
+
+glabel lbl_80246E29
+	.skip 0x1
+
+glabel lbl_80246E2A
+	.skip 0x1
+
+glabel lbl_80246E2B
+	.skip 0x1
+
+glabel lbl_80246E2C
+	.skip 0x1
+
+glabel lbl_80246E2D
+	.skip 0x1
+
+glabel lbl_80246E2E
+	.skip 0x1
+
+glabel lbl_80246E2F
+	.skip 0x1
+
+glabel lbl_80246E30
+	.skip 0x4
+
+glabel lbl_80246E34
+	.skip 0x4
+
+glabel lbl_80246E38
+	.skip 0x1
+
+glabel lbl_80246E39
+	.skip 0x3
+
+glabel lbl_80246E3C
+	.skip 0x4
+
+glabel lbl_80246E40
+	.skip 0x1
+
+glabel lbl_80246E41
+	.skip 0x1
+
+glabel lbl_80246E42
+	.skip 0x6
+
+glabel lbl_80246E48
+	.skip 0x4
+
+glabel lbl_80246E4C
+	.skip 0x4
+
+glabel lbl_80246E50
+	.skip 0x4
+
+glabel lbl_80246E54
+	.skip 0x4
+
+glabel lbl_80246E58
+	.skip 0x4
+
+glabel lbl_80246E5C
+	.skip 0x4
+
+glabel lbl_80246E60
+	.skip 0x4
+
+glabel lbl_80246E64
+	.skip 0x4
+
+glabel lbl_80246E68
+	.skip 0x8
+
+glabel lbl_80246E70
+	.skip 0x4
+
+glabel lbl_80246E74
+	.skip 0x1
+
+glabel lbl_80246E75
+	.skip 0x1
+
+glabel lbl_80246E76
+	.skip 0x1
+
+glabel lbl_80246E77
+	.skip 0x1
+
+glabel lbl_80246E78
+	.skip 0x1
+
+glabel lbl_80246E79
+	.skip 0x3
+
+glabel lbl_80246E7C
+	.skip 0x4
+
+glabel lbl_80246E80
+	.skip 0x4
+
+glabel lbl_80246E84
+	.skip 0x4
+
+glabel lbl_80246E88
+	.skip 0x4
+
+glabel lbl_80246E8C
+	.skip 0x4
+
+glabel lbl_80246E90
+	.skip 0x4
+
+glabel lbl_80246E94
+	.skip 0x4
+
+glabel lbl_80246E98
+	.skip 0x4
+
+glabel lbl_80246E9C
+	.skip 0x4
+
+glabel lbl_80246EA0
+	.skip 0x4
+
+glabel lbl_80246EA4
+	.skip 0x4
+
+glabel lbl_80246EA8
+	.skip 0x1
+
+glabel lbl_80246EA9
+	.skip 0x1
+
+glabel lbl_80246EAA
+	.skip 0x2
+
+glabel lbl_80246EAC
+	.skip 0x4
+
+glabel lbl_80246EB0
+	.skip 0x4
+
+glabel lbl_80246EB4
+	.skip 0x4
+
+glabel lbl_80246EB8
+	.skip 0x4
+
+glabel lbl_80246EBC
+	.skip 0x4
+
+glabel lbl_80246EC0
+	.skip 0x4
+
+glabel lbl_80246EC4
+	.skip 0x4
+
+glabel lbl_80246EC8
+	.skip 0x4
+
+glabel lbl_80246ECC
+	.skip 0x4
+
+glabel lbl_80246ED0
+	.skip 0x8
+
+glabel lbl_80246ED8
+	.skip 0x8
+
+glabel lbl_80246EE0
+	.skip 0x4
+
+glabel lbl_80246EE4
+	.skip 0x4
+
+glabel lbl_80246EE8
+	.skip 0x4
+
+glabel lbl_80246EEC
+	.skip 0x4
+
+glabel lbl_80246EF0
+	.skip 0x8
+
+glabel WWWSurfaceInit
+	.skip 0x4
+
+glabel WWWSurfaceNewScreen
+	.skip 0x4
+
+glabel WWWSurfaceDeleteScreen
+	.skip 0x4
+
+glabel WWWSurfaceResize
+	.skip 0x4
+
+glabel WWWSurfaceShutdown
+	.skip 0x4
+
+glabel WWWSurfaceSetFlushCallback
+	.skip 0x4
+
+glabel WWWSurfaceInvalidate
+	.skip 0x4
+
+glabel WWWSurfaceUpdateScreen
+	.skip 0x4
+
+glabel WWWSurfaceLockArea
+	.skip 0x4
+
+glabel WWWSurfaceUnlockArea
+	.skip 0x4
+
+glabel WWWSurfaceMouseEvt
+	.skip 0x4
+
+glabel WWWSurfaceWheelEvt
+	.skip 0x4
+
+glabel WWWSurfaceKeyboardEvt
+	.skip 0x4
+
+glabel WWWSurfaceAddFont
+	.skip 0x4
+
+glabel WWWCreateBrowser
+	.skip 0x4
+
+glabel WWWTerminateBrowser
+	.skip 0x4
+
+glabel WWWRunSlice
+	.skip 0x4
+
+glabel WWWCreateBrowserWindow
+	.skip 0x4
+
+glabel WWWCloseBrowserWindow
+	.skip 0x4
+
+glabel WWWSetBrowserWindowTransparent
+	.skip 0x4
+
+glabel WWWGetBrowserWindowRect
+	.skip 0x4
+
+glabel WWWSetBrowserWindowRect
+	.skip 0x4
+
+glabel WWWRaiseBrowserWindow
+	.skip 0x4
+
+glabel WWWLowerBrowserWindow
+	.skip 0x4
+
+glabel WWWShowBrowserWindow
+	.skip 0x4
+
+glabel WWWHideBrowserWindow
+	.skip 0x4
+
+glabel WWWCommitIme
+	.skip 0x4
+
+glabel WWWUpdateIme
+	.skip 0x4
+
+glabel WWWPostUrl
+	.skip 0x4
+
+glabel WWWOpenUrl
+	.skip 0x4
+
+glabel WWWGetHistoryCount
+	.skip 0x4
+
+glabel WWWNextPage
+	.skip 0x4
+
+glabel WWWPrevPage
+	.skip 0x4
+
+glabel WWWMoveInHistory
+	.skip 0x4
+
+glabel WWWStop
+	.skip 0x4
+
+glabel WWWReload
+	.skip 0x4
+
+glabel WWWReflow
+	.skip 0x4
+
+glabel WWWSearch
+	.skip 0x4
+
+glabel WWWResetSearch
+	.skip 0x4
+
+glabel WWWSetFocus
+	.skip 0x4
+
+glabel WWWLoseFocus
+	.skip 0x4
+
+glabel WWWHistory
+	.skip 0x4
+
+glabel WWWClearHistory
+	.skip 0x4
+
+glabel WWWGetTrueZoom
+	.skip 0x4
+
+glabel WWWSetTrueZoom
+	.skip 0x4
+
+glabel WWWGetZoom
+	.skip 0x4
+
+glabel WWWSetZoom
+	.skip 0x4
+
+glabel WWWGetSecurityMode
+	.skip 0x4
+
+glabel WWWGetScroll
+	.skip 0x4
+
+glabel WWWSetScroll
+	.skip 0x4
+
+glabel WWWSetRenderingMode
+	.skip 0x4
+
+glabel WWWGetRenderingMode
+	.skip 0x4
+
+glabel WWWSetImageMode
+	.skip 0x4
+
+glabel WWWCreateCertificateManager
+	.skip 0x4
+
+glabel WWWCloseCertificateManager
+	.skip 0x4
+
+glabel WWWGetNumberOfCertificates
+	.skip 0x4
+
+glabel WWWSetLanguageEncoding
+	.skip 0x4
+
+glabel WWWGetDocumentIcon
+	.skip 0x4
+
+glabel WWWGetDocumentIconUrl
+	.skip 0x4
+
+glabel WWWClearCookies
+	.skip 0x4
+
+glabel WWWGetDocumentSize
+	.skip 0x4
+
+glabel WWWSetIntPref
+	.skip 0x4
+
+glabel WWWGetIntPref
+	.skip 0x4
+
+glabel WWWSetStringPref
+	.skip 0x4
+
+glabel WWWGetStringPref
+	.skip 0x4
+
+glabel WWWCommitPrefs
+	.skip 0x4
+
+glabel WWWSetFocusColors
+	.skip 0x4
+
+glabel WWWSetScrollbarColors
+	.skip 0x4
+
+glabel WWWSetScrollbarSize
+	.skip 0x4
+
+glabel WWWSetWidgetColors
+	.skip 0x4
+
+glabel WWWSetDisabledWidgetColors
+	.skip 0x4
+
+glabel WWWSetButtonWidgetColors
+	.skip 0x4
+
+glabel WWWSetUastringExtension
+	.skip 0x4
+
+glabel WWWMarkNextItemInDirection
+	.skip 0x4
+
+glabel WWWResetNavigation
+	.skip 0x4
+
+glabel WWWClearHighlight
+	.skip 0x4
+
+glabel WWWSetHighlight
+	.skip 0x4
+
+glabel WWWGetActiveLinkType
+	.skip 0x4
+
+glabel WWWGetBrowserAllocationFunctions
+	.skip 0x4
+
+glabel WWWShutdownBrowserAllocationFunctions
+	.skip 0x4
+
+glabel WWWSetAllocationFunctions
+	.skip 0x4
+
+glabel WWWHTTPCreateHttpLib
+	.skip 0x4
+
+glabel WWWHTTPTerminateHttpLib
+	.skip 0x4
+
+glabel WWWHTTPSessionRunSlice
+	.skip 0x4
+
+glabel WWWHTTPInitSession
+	.skip 0x4
+
+glabel WWWHTTPDeleteSession
+	.skip 0x4
+
+glabel WWWHTTPSetSessionHeader
+	.skip 0x4
+
+glabel WWWHTTPRemoveSessionHeader
+	.skip 0x4
+
+glabel WWWHTTPRemoveAllSessionHeaders
+	.skip 0x4
+
+glabel WWWHTTPCreateRequest
+	.skip 0x4
+
+glabel WWWHTTPDeleteRequest
+	.skip 0x4
+
+glabel WWWHTTPSetRequestHeader
+	.skip 0x4
+
+glabel WWWHTTPGetRequestHeader
+	.skip 0x4
+
+glabel WWWHTTPRemoveRequestHeader
+	.skip 0x4
+
+glabel WWWHTTPRemoveAllRequestHeaders
+	.skip 0x4
+
+glabel WWWHTTPGetResponseHeader
+	.skip 0x4
+
+glabel WWWHTTPGetResponseHeaders
+	.skip 0x4
+
+glabel WWWHTTPIssue
+	.skip 0x4
+
+glabel WWWHTTPNbActiveRequests
+	.skip 0x4
+
+glabel WWWHTTPPostBodyData
+	.skip 0x4
+
+glabel WWWHTTPSetAuthCredentials
+	.skip 0x4
+
+glabel WWWHTTPRemoveAuthCredentials
+	.skip 0x4
+
+glabel WWWHTTPSetProxy
+	.skip 0x4
+
+glabel WWWHTTPRemoveProxy
+	.skip 0x4
+
+glabel WWWHTTPEndLoading
+	.skip 0x4
+
+glabel WWWAddJSPlugin
+	.skip 0x4
+
+glabel WWWAddNSPlugin
+	.skip 0x4
+
+glabel WWWProtocolWrite
+	.skip 0x4
+
+glabel WWWProtocolSetMimeType
+	.skip 0x4
+
+glabel WWWProtocolFinished
+	.skip 0x4
+
+glabel WWWProtocolFailed
+	.skip 0x4
+
+glabel WWWAddProtocol
+	.skip 0x4
+
+glabel lbl_802470B8
+	.skip 0x4
+
+glabel lbl_802470BC
+	.skip 0x4
+
+glabel lbl_802470C0
+	.skip 0x4
+
+glabel lbl_802470C4
+	.skip 0x4

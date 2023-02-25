@@ -827,3 +827,23 @@ lbl_800AAEC4:
 glabel DVDCloseDir
 /* 800AAED0 000A63F0  38 60 00 01 */	li r3, 1
 /* 800AAED4 000A63F4  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247370
+	.skip 0x8
+
+glabel lbl_80247378
+	.skip 0x8
+
+glabel lbl_80247380
+	.skip 0x4
+
+glabel lbl_80247384
+	.skip 0x4
+
+glabel lbl_80247388
+	.skip 0x4
+
+glabel lbl_8024738C
+	.skip 0x4

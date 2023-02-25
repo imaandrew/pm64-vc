@@ -1498,3 +1498,17 @@ lbl_8009E24C:
 /* 8009E26C 0009978C  7C 08 03 A6 */	mtlr r0
 /* 8009E270 00099790  38 21 00 20 */	addi r1, r1, 0x20
 /* 8009E274 00099794  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247220
+	.skip 0x4
+
+glabel lbl_80247224
+	.skip 0x4
+
+glabel lbl_80247228
+	.skip 0x4
+
+glabel lbl_8024722C
+	.skip 0x4

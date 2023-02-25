@@ -1459,3 +1459,20 @@ lbl_800C2090:
 /* 800C209C 000BD5BC  7C 08 03 A6 */	mtlr r0
 /* 800C20A0 000BD5C0  38 21 00 10 */	addi r1, r1, 0x10
 /* 800C20A4 000BD5C4  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247678
+	.skip 0x4
+
+glabel lbl_8024767C
+	.skip 0x4
+
+glabel lbl_80247680
+	.skip 0x4
+
+glabel lbl_80247684
+	.skip 0x4
+
+glabel lbl_80247688
+	.skip 0x8

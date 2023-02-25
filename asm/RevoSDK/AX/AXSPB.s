@@ -286,3 +286,65 @@ glabel __AXDepopVoice
 /* 800B47F8 000AFD18  7C 08 03 A6 */	mtlr r0
 /* 800B47FC 000AFD1C  38 21 00 20 */	addi r1, r1, 0x20
 /* 800B4800 000AFD20  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247560
+	.skip 0x4
+
+glabel lbl_80247564
+	.skip 0x4
+
+glabel lbl_80247568
+	.skip 0x4
+
+glabel lbl_8024756C
+	.skip 0x4
+
+glabel lbl_80247570
+	.skip 0x4
+
+glabel lbl_80247574
+	.skip 0x4
+
+glabel lbl_80247578
+	.skip 0x4
+
+glabel lbl_8024757C
+	.skip 0x4
+
+glabel lbl_80247580
+	.skip 0x4
+
+glabel lbl_80247584
+	.skip 0x4
+
+glabel lbl_80247588
+	.skip 0x4
+
+glabel lbl_8024758C
+	.skip 0x4
+
+glabel lbl_80247590
+	.skip 0x4
+
+glabel lbl_80247594
+	.skip 0x4
+
+glabel lbl_80247598
+	.skip 0x4
+
+glabel lbl_8024759C
+	.skip 0x4
+
+glabel lbl_802475A0
+	.skip 0x4
+
+glabel lbl_802475A4
+	.skip 0x4
+
+glabel lbl_802475A8
+	.skip 0x4
+
+glabel lbl_802475AC
+	.skip 0x4

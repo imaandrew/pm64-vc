@@ -67,3 +67,8 @@ lbl_8009E304:
 glabel SIRefreshSamplingRate
 /* 8009E350 00099870  80 6D 8D B0 */	lwz r3, lbl_80247230@sda21(r13)
 /* 8009E354 00099874  4B FF FF 24 */	b SISetSamplingRate
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247230
+	.skip 0x8

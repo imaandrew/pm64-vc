@@ -100,3 +100,8 @@ lbl_800DD2DC:
 /* 800DD2E0 000D8800  7D 89 03 A6 */	mtctr r12
 /* 800DD2E4 000D8804  4E 80 04 20 */	bctr 
 /* 800DD2E8 000D8808  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247794
+	.skip 0x4

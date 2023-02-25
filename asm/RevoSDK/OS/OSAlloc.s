@@ -71,3 +71,17 @@ lbl_800906D0:
 lbl_800906DC:
 /* 800906DC 0008BBFC  38 60 FF FF */	li r3, -1
 /* 800906E0 0008BC00  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247118
+	.skip 0x4
+
+glabel lbl_8024711C
+	.skip 0x4
+
+glabel lbl_80247120
+	.skip 0x4
+
+glabel lbl_80247124
+	.skip 0x4

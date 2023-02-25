@@ -1526,3 +1526,17 @@ lbl_800A2E00:
 /* 800A2E4C 0009E36C  7C 08 03 A6 */	mtlr r0
 /* 800A2E50 0009E370  38 21 00 60 */	addi r1, r1, 0x60
 /* 800A2E54 0009E374  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802472FC
+	.skip 0x4
+
+glabel lbl_80247300
+	.skip 0x4
+
+glabel lbl_80247304
+	.skip 0x4
+
+glabel lbl_80247308
+	.skip 0x8

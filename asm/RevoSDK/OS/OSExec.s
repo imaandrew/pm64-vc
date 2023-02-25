@@ -1366,3 +1366,29 @@ lbl_800932FC:
 /* 80093304 0008E824  7C 08 03 A6 */	mtlr r0
 /* 80093308 0008E828  7D 41 53 78 */	mr r1, r10
 /* 8009330C 0008E82C  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247130
+	.skip 0x4
+
+glabel lbl_80247134
+	.skip 0x4
+
+glabel lbl_80247138
+	.skip 0x4
+
+glabel lbl_8024713C
+	.skip 0x4
+
+glabel lbl_80247140
+	.skip 0x4
+
+glabel lbl_80247144
+	.skip 0x4
+
+glabel lbl_80247148
+	.skip 0x4
+
+glabel lbl_8024714C
+	.skip 0x4

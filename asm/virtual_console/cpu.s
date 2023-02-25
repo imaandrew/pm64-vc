@@ -57056,3 +57056,101 @@ lbl_8003E730:
 /* 8003E744 00039C64  7C 08 03 A6 */	mtlr r0
 /* 8003E748 00039C68  38 21 00 20 */	addi r1, r1, 0x20
 /* 8003E74C 00039C6C  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80246B68
+	.skip 0x4
+
+glabel lbl_80246B6C
+	.skip 0x4
+
+glabel lbl_80246B70
+	.skip 0x4
+
+glabel lbl_80246B74
+	.skip 0x4
+
+glabel lbl_80246B78
+	.skip 0x4
+
+glabel lbl_80246B7C
+	.skip 0x4
+
+glabel lbl_80246B80
+	.skip 0x4
+
+glabel lbl_80246B84
+	.skip 0x4
+
+glabel lbl_80246B88
+	.skip 0x4
+
+glabel lbl_80246B8C
+	.skip 0x4
+
+glabel lbl_80246B90
+	.skip 0x4
+
+glabel lbl_80246B94
+	.skip 0x4
+
+glabel lbl_80246B98
+	.skip 0x4
+
+glabel lbl_80246B9C
+	.skip 0x4
+
+glabel lbl_80246BA0
+	.skip 0x4
+
+glabel lbl_80246BA4
+	.skip 0x4
+
+glabel lbl_80246BA8
+	.skip 0x4
+
+glabel lbl_80246BAC
+	.skip 0x4
+
+glabel lbl_80246BB0
+	.skip 0x4
+
+glabel lbl_80246BB4
+	.skip 0x4
+
+glabel lbl_80246BB8
+	.skip 0x4
+
+glabel lbl_80246BBC
+	.skip 0x4
+
+glabel lbl_80246BC0
+	.skip 0x4
+
+glabel lbl_80246BC4
+	.skip 0x4
+
+glabel lbl_80246BC8
+	.skip 0x4
+
+glabel lbl_80246BCC
+	.skip 0x4
+
+glabel lbl_80246BD0
+	.skip 0x4
+
+glabel lbl_80246BD4
+	.skip 0x4
+
+glabel lbl_80246BD8
+	.skip 0x4
+
+glabel lbl_80246BDC
+	.skip 0x4
+
+glabel lbl_80246BE0
+	.skip 0x4
+
+glabel lbl_80246BE4
+	.skip 0x4

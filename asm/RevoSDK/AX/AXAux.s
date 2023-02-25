@@ -587,3 +587,59 @@ glabel AXGetAuxCCallback
 /* 800B3118 000AE638  80 0D 90 5C */	lwz r0, lbl_802474DC@sda21(r13)
 /* 800B311C 000AE63C  90 04 00 00 */	stw r0, 0(r4)
 /* 800B3120 000AE640  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802474B8
+	.skip 0x4
+
+glabel lbl_802474BC
+	.skip 0x4
+
+glabel lbl_802474C0
+	.skip 0x4
+
+glabel lbl_802474C4
+	.skip 0x4
+
+glabel lbl_802474C8
+	.skip 0x4
+
+glabel lbl_802474CC
+	.skip 0x4
+
+glabel lbl_802474D0
+	.skip 0x4
+
+glabel lbl_802474D4
+	.skip 0x4
+
+glabel lbl_802474D8
+	.skip 0x4
+
+glabel lbl_802474DC
+	.skip 0x4
+
+glabel lbl_802474E0
+	.skip 0x4
+
+glabel lbl_802474E4
+	.skip 0x4
+
+glabel lbl_802474E8
+	.skip 0x4
+
+glabel lbl_802474EC
+	.skip 0x4
+
+glabel lbl_802474F0
+	.skip 0x4
+
+glabel lbl_802474F4
+	.skip 0x4
+
+glabel lbl_802474F8
+	.skip 0x4
+
+glabel lbl_802474FC
+	.skip 0x4

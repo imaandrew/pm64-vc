@@ -1650,3 +1650,29 @@ glabel xlHeapReset
 /* 80086EB0 000823D0  7C 08 03 A6 */	mtlr r0
 /* 80086EB4 000823D4  38 21 00 10 */	addi r1, r1, 0x10
 /* 80086EB8 000823D8  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80246D50
+	.skip 0x8
+
+glabel lbl_80246D58
+	.skip 0x8
+
+glabel lbl_80246D60
+	.skip 0x8
+
+glabel lbl_80246D68
+	.skip 0x8
+
+glabel gpHeapBlockLast
+	.skip 0x8
+
+glabel gpHeapBlockFirst
+	.skip 0x8
+
+glabel lbl_80246D80
+	.skip 0x8
+
+glabel lbl_80246D88
+	.skip 0x8

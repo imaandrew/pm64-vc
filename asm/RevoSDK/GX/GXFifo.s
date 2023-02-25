@@ -667,3 +667,29 @@ lbl_800A5090:
 /* 800A50A4 000A05C4  7C 08 03 A6 */	mtlr r0
 /* 800A50A8 000A05C8  38 21 00 20 */	addi r1, r1, 0x20
 /* 800A50AC 000A05CC  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247338
+	.skip 0x1
+
+glabel lbl_80247339
+	.skip 0x3
+
+glabel lbl_8024733C
+	.skip 0x4
+
+glabel lbl_80247340
+	.skip 0x4
+
+glabel lbl_80247344
+	.skip 0x4
+
+glabel lbl_80247348
+	.skip 0x4
+
+glabel lbl_8024734C
+	.skip 0x4
+
+glabel lbl_80247350
+	.skip 0x8

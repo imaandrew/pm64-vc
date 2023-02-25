@@ -2937,3 +2937,134 @@ glabel __VIResetSIIdle
 /* 800A0D6C 0009C28C  38 60 00 01 */	li r3, 1
 /* 800A0D70 0009C290  90 0D 8E 50 */	stw r0, lbl_802472D0@sda21(r13)
 /* 800A0D74 0009C294  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247240
+	.skip 0x4
+
+glabel lbl_80247244
+	.skip 0x4
+
+glabel lbl_80247248
+	.skip 0x4
+
+glabel lbl_8024724C
+	.skip 0x4
+
+glabel lbl_80247250
+	.skip 0x4
+
+glabel lbl_80247254
+	.skip 0x4
+
+glabel lbl_80247258
+	.skip 0x4
+
+glabel lbl_8024725C
+	.skip 0x4
+
+glabel lbl_80247260
+	.skip 0x4
+
+glabel lbl_80247264
+	.skip 0x4
+
+glabel lbl_80247268
+	.skip 0x4
+
+glabel lbl_8024726C
+	.skip 0x2
+
+glabel lbl_8024726E
+	.skip 0x2
+
+glabel lbl_80247270
+	.skip 0x8
+
+glabel lbl_80247278
+	.skip 0x4
+
+glabel lbl_8024727C
+	.skip 0x4
+
+glabel lbl_80247280
+	.skip 0x8
+
+glabel lbl_80247288
+	.skip 0x4
+
+glabel lbl_8024728C
+	.skip 0x4
+
+glabel lbl_80247290
+	.skip 0x4
+
+glabel lbl_80247294
+	.skip 0x4
+
+glabel lbl_80247298
+	.skip 0x4
+
+glabel lbl_8024729C
+	.skip 0x4
+
+glabel lbl_802472A0
+	.skip 0x4
+
+glabel lbl_802472A4
+	.skip 0x4
+
+glabel lbl_802472A8
+	.skip 0x4
+
+glabel lbl_802472AC
+	.skip 0x4
+
+glabel lbl_802472B0
+	.skip 0x4
+
+glabel lbl_802472B4
+	.skip 0x4
+
+glabel lbl_802472B8
+	.skip 0x4
+
+glabel lbl_802472BC
+	.skip 0x4
+
+glabel lbl_802472C0
+	.skip 0x8
+
+glabel lbl_802472C8
+	.skip 0x8
+
+glabel lbl_802472D0
+	.skip 0x4
+
+glabel lbl_802472D4
+	.skip 0x4
+
+glabel lbl_802472D8
+	.skip 0x4
+
+glabel lbl_802472DC
+	.skip 0x4
+
+glabel lbl_802472E0
+	.skip 0x4
+
+glabel lbl_802472E4
+	.skip 0x4
+
+glabel lbl_802472E8
+	.skip 0x4
+
+glabel lbl_802472EC
+	.skip 0x4
+
+glabel lbl_802472F0
+	.skip 0x8
+
+glabel lbl_802472F8
+	.skip 0x4

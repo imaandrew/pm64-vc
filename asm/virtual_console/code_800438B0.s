@@ -72513,3 +72513,248 @@ glabel func_80084EF4
 glabel xlPostReset
 /* 80084EFC 0008041C  38 60 00 01 */	li r3, 1
 /* 80084F00 00080420  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80246BF8
+	.skip 0x4
+
+glabel lbl_80246BFC
+	.skip 0x4
+
+glabel lbl_80246C00
+	.skip 0x4
+
+glabel lbl_80246C04
+	.skip 0x4
+
+glabel lbl_80246C08
+	.skip 0x4
+
+glabel lbl_80246C0C
+	.skip 0x4
+
+glabel lbl_80246C10
+	.skip 0x4
+
+glabel lbl_80246C14
+	.skip 0x4
+
+glabel lbl_80246C18
+	.skip 0x4
+
+glabel lbl_80246C1C
+	.skip 0x4
+
+glabel lbl_80246C20
+	.skip 0x4
+
+glabel lbl_80246C24
+	.skip 0x4
+
+glabel lbl_80246C28
+	.skip 0x4
+
+glabel lbl_80246C2C
+	.skip 0x4
+
+glabel lbl_80246C30
+	.skip 0x4
+
+glabel lbl_80246C34
+	.skip 0x4
+
+glabel lbl_80246C38
+	.skip 0x4
+
+glabel lbl_80246C3C
+	.skip 0x4
+
+glabel lbl_80246C40
+	.skip 0x4
+
+glabel lbl_80246C44
+	.skip 0x4
+
+glabel lbl_80246C48
+	.skip 0x4
+
+glabel lbl_80246C4C
+	.skip 0x4
+
+glabel lbl_80246C50
+	.skip 0x4
+
+glabel lbl_80246C54
+	.skip 0x4
+
+glabel lbl_80246C58
+	.skip 0x8
+
+glabel lbl_80246C60
+	.skip 0x4
+
+glabel lbl_80246C64
+	.skip 0x4
+
+glabel lbl_80246C68
+	.skip 0x4
+
+glabel lbl_80246C6C
+	.skip 0x4
+
+glabel lbl_80246C70
+	.skip 0x4
+
+glabel lbl_80246C74
+	.skip 0x4
+
+glabel lbl_80246C78
+	.skip 0x4
+
+glabel lbl_80246C7C
+	.skip 0x4
+
+glabel lbl_80246C80
+	.skip 0x4
+
+glabel lbl_80246C84
+	.skip 0x4
+
+glabel lbl_80246C88
+	.skip 0x4
+
+glabel lbl_80246C8C
+	.skip 0x4
+
+glabel lbl_80246C90
+	.skip 0x8
+
+glabel lbl_80246C98
+	.skip 0x4
+
+glabel lbl_80246C9C
+	.skip 0x4
+
+glabel lbl_80246CA0
+	.skip 0x4
+
+glabel lbl_80246CA4
+	.skip 0x4
+
+glabel lbl_80246CA8
+	.skip 0x8
+
+glabel lbl_80246CB0
+	.skip 0x4
+
+glabel lbl_80246CB4
+	.skip 0x4
+
+glabel lbl_80246CB8
+	.skip 0x4
+
+glabel lbl_80246CBC
+	.skip 0x4
+
+glabel lbl_80246CC0
+	.skip 0x4
+
+glabel lbl_80246CC4
+	.skip 0x4
+
+glabel lbl_80246CC8
+	.skip 0x8
+
+glabel lbl_80246CD0
+	.skip 0x8
+
+glabel lbl_80246CD8
+	.skip 0x4
+
+glabel lbl_80246CDC
+	.skip 0x2
+
+glabel lbl_80246CDE
+	.skip 0x2
+
+glabel lbl_80246CE0
+	.skip 0x2
+
+glabel lbl_80246CE2
+	.skip 0x2
+
+glabel lbl_80246CE4
+	.skip 0x4
+
+glabel lbl_80246CE8
+	.skip 0x2
+
+glabel lbl_80246CEA
+	.skip 0x2
+
+glabel lbl_80246CEC
+	.skip 0x2
+
+glabel lbl_80246CEE
+	.skip 0x2
+
+glabel lbl_80246CF0
+	.skip 0x4
+
+glabel lbl_80246CF4
+	.skip 0x4
+
+glabel lbl_80246CF8
+	.skip 0x4
+
+glabel lbl_80246CFC
+	.skip 0x4
+
+glabel lbl_80246D00
+	.skip 0x4
+
+glabel lbl_80246D04
+	.skip 0x4
+
+glabel lbl_80246D08
+	.skip 0x4
+
+glabel lbl_80246D0C
+	.skip 0x4
+
+glabel lbl_80246D10
+	.skip 0x4
+
+glabel lbl_80246D14
+	.skip 0x4
+
+glabel lbl_80246D18
+	.skip 0x4
+
+glabel lbl_80246D1C
+	.skip 0x4
+
+glabel lbl_80246D20
+	.skip 0x8
+
+glabel lbl_80246D28
+	.skip 0x4
+
+glabel lbl_80246D2C
+	.skip 0x4
+
+glabel lbl_80246D30
+	.skip 0x4
+
+glabel lbl_80246D34
+	.skip 0x4
+
+glabel lbl_80246D38
+	.skip 0x4
+
+glabel lbl_80246D3C
+	.skip 0x4
+
+glabel lbl_80246D40
+	.skip 0x8

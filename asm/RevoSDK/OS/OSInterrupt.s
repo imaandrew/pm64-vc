@@ -586,3 +586,20 @@ glabel ExternalInterruptHandler
 /* 80095A2C 00090F4C  90 04 01 C0 */	stw r0, 0x1c0(r4)
 /* 80095A30 00090F50  94 21 FF F8 */	stwu r1, -8(r1)
 /* 80095A34 00090F54  4B FF FD 10 */	b __OSDispatchInterrupt
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247160
+	.skip 0x4
+
+glabel lbl_80247164
+	.skip 0x4
+
+glabel lbl_80247168
+	.skip 0x4
+
+glabel lbl_8024716C
+	.skip 0x4
+
+glabel lbl_80247170
+	.skip 0x8

@@ -131,3 +131,20 @@ glabel MIXQuit
 glabel MIXSetSoundMode
 /* 800B84E8 000B3A08  90 6D 91 74 */	stw r3, lbl_802475F4@sda21(r13)
 /* 800B84EC 000B3A0C  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802475E8
+	.skip 0x4
+
+glabel lbl_802475EC
+	.skip 0x4
+
+glabel lbl_802475F0
+	.skip 0x4
+
+glabel lbl_802475F4
+	.skip 0x4
+
+glabel lbl_802475F8
+	.skip 0x8

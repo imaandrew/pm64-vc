@@ -563,3 +563,8 @@ glabel OSSetAlarmUserData
 glabel OSGetAlarmUserData
 /* 800905F0 0008BB10  80 63 00 28 */	lwz r3, 0x28(r3)
 /* 800905F4 0008BB14  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247110
+	.skip 0x8

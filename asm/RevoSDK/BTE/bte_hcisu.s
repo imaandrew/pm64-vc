@@ -57,3 +57,11 @@ glabel lbl_800DCFF4
 /* 800DCFF8 000D8518  38 60 00 02 */	li r3, 2
 /* 800DCFFC 000D851C  38 80 00 00 */	li r4, 0
 /* 800DD000 000D8520  4B FF D0 C4 */	b GKI_send_msg
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247788
+	.skip 0x4
+
+glabel lbl_8024778C
+	.skip 0x4

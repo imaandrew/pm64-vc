@@ -78,3 +78,7 @@ lbl_8016EB8C:
 /* 8016EBA4 0016A0C4  38 21 00 20 */	addi r1, r1, 0x20
 /* 8016EBA8 0016A0C8  4E 80 00 20 */	blr 
 
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802477E8
+	.skip 0x8

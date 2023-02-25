@@ -231,3 +231,21 @@ glabel DBOpen
 
 glabel DBClose
 /* 80087728 00082C48  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80246D98
+	.skip 0x4
+
+glabel lbl_80246D9C
+	.skip 0x4
+
+glabel lbl_80246DA0
+	.skip 0x4
+
+glabel lbl_80246DA4
+	.skip 0x4
+
+glabel lbl_80246DA8
+	.skip 0x8
+    

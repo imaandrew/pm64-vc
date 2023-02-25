@@ -2387,3 +2387,53 @@ lbl_800B1CB8:
 /* 800B1CE4 000AD204  7C 00 26 70 */	srawi r0, r0, 4
 /* 800B1CE8 000AD208  7C 60 01 94 */	addze r3, r0
 /* 800B1CEC 000AD20C  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247428
+	.skip 0x1
+
+glabel lbl_80247429
+	.skip 0x3
+
+glabel lbl_8024742C
+	.skip 0x4
+
+glabel lbl_80247430
+	.skip 0x4
+
+glabel lbl_80247434
+	.skip 0x1
+
+glabel lbl_80247435
+	.skip 0x3
+
+glabel lbl_80247438
+	.skip 0x4
+
+glabel lbl_8024743C
+	.skip 0x4
+
+glabel lbl_80247440
+	.skip 0x4
+
+glabel lbl_80247444
+	.skip 0x4
+
+glabel lbl_80247448
+	.skip 0x8
+
+glabel lbl_80247450
+	.skip 0x8
+
+glabel lbl_80247458
+	.skip 0x2
+
+glabel lbl_8024745A
+	.skip 0x2
+
+glabel lbl_8024745C
+	.skip 0x4
+
+glabel lbl_80247460
+	.skip 0x8

@@ -127,3 +127,11 @@ lbl_800C0C44:
 /* 800C0C4C 000BC16C  38 A5 00 01 */	addi r5, r5, 1
 /* 800C0C50 000BC170  42 00 FF B4 */	bdnz lbl_800C0C04
 /* 800C0C54 000BC174  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247670
+	.skip 0x4
+
+glabel lbl_80247674
+	.skip 0x4

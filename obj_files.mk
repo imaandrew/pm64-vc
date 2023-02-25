@@ -1,6 +1,5 @@
 ALL:=\
 	$(BUILD_DIR)/src/init/init0.o\
-	$(BUILD_DIR)/asm/__start.o\
 	$(BUILD_DIR)/asm/init/__init_registers.o\
 	$(BUILD_DIR)/asm/init/__init_data.o\
 	$(BUILD_DIR)/asm/init/__init_hardware.o\
@@ -57,6 +56,7 @@ ALL:=\
 	$(BUILD_DIR)/asm/RevoSDK/OS/OSIpc.o\
 	$(BUILD_DIR)/asm/RevoSDK/OS/OSStateTM.o\
 	$(BUILD_DIR)/asm/RevoSDK/OS/OSSystemTime.o\
+	$(BUILD_DIR)/asm/RevoSDK/OS/__start.o\
 	$(BUILD_DIR)/asm/RevoSDK/OS/OSPlayRecord.o\
 	$(BUILD_DIR)/asm/RevoSDK/OS/OSStateFlags.o\
 	$(BUILD_DIR)/asm/RevoSDK/OS/OSNet.o\
@@ -408,5 +408,4 @@ ALL:=\
 	$(BUILD_DIR)/asm/data.o\
 	$(BUILD_DIR)/asm/bss.o\
 	$(BUILD_DIR)/asm/sdata.o\
-	$(BUILD_DIR)/asm/sbss.o\
 	$(BUILD_DIR)/asm/sdata2.o

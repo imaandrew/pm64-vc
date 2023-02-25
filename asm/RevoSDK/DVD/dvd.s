@@ -4923,3 +4923,104 @@ glabel __DVDStopMotorAsync
 
 glabel __DVDRestartMotor
 /* 800AF3BC 000AA8DC  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247390
+	.skip 0x4
+
+glabel lbl_80247394
+	.skip 0x4
+
+glabel lbl_80247398
+	.skip 0x4
+
+glabel lbl_8024739C
+	.skip 0x4
+
+glabel lbl_802473A0
+	.skip 0x4
+
+glabel lbl_802473A4
+	.skip 0x4
+
+glabel lbl_802473A8
+	.skip 0x4
+
+glabel lbl_802473AC
+	.skip 0x4
+
+glabel lbl_802473B0
+	.skip 0x4
+
+glabel lbl_802473B4
+	.skip 0x4
+
+glabel lbl_802473B8
+	.skip 0x4
+
+glabel lbl_802473BC
+	.skip 0x4
+
+glabel lbl_802473C0
+	.skip 0x4
+
+glabel lbl_802473C4
+	.skip 0x4
+
+glabel lbl_802473C8
+	.skip 0x4
+
+glabel lbl_802473CC
+	.skip 0x4
+
+glabel lbl_802473D0
+	.skip 0x4
+
+glabel lbl_802473D4
+	.skip 0x4
+
+glabel lbl_802473D8
+	.skip 0x4
+
+glabel lbl_802473DC
+	.skip 0x4
+
+glabel lbl_802473E0
+	.skip 0x8
+
+glabel lbl_802473E8
+	.skip 0x4
+
+glabel lbl_802473EC
+	.skip 0x4
+
+glabel lbl_802473F0
+	.skip 0x4
+
+glabel lbl_802473F4
+	.skip 0x4
+
+glabel lbl_802473F8
+	.skip 0x4
+
+glabel lbl_802473FC
+	.skip 0x4
+
+glabel lbl_80247400
+	.skip 0x4
+
+glabel lbl_80247404
+	.skip 0x4
+
+glabel lbl_80247408
+	.skip 0x4
+
+glabel lbl_8024740C
+	.skip 0x4
+
+glabel lbl_80247410
+	.skip 0x4
+
+glabel lbl_80247414
+	.skip 0x4

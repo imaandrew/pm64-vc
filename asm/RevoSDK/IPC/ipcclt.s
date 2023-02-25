@@ -1670,3 +1670,14 @@ lbl_800C0554:
 /* 800C0564 000BBA84  7C 08 03 A6 */	mtlr r0
 /* 800C0568 000BBA88  38 21 00 30 */	addi r1, r1, 0x30
 /* 800C056C 000BBA8C  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247660
+	.skip 0x4
+
+glabel lbl_80247664
+	.skip 0x4
+
+glabel lbl_80247668
+	.skip 0x8

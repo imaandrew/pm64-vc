@@ -64,3 +64,11 @@ glabel OSAllocFromMEM1ArenaLo
 /* 8009076C 0008BC8C  7C C0 00 38 */	and r0, r6, r0
 /* 80090770 0008BC90  90 0D 82 40 */	stw r0, lbl_802466C0@sda21(r13)
 /* 80090774 0008BC94  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247128
+	.skip 0x4
+
+glabel lbl_8024712C
+	.skip 0x4

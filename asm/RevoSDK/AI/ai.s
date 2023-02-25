@@ -425,3 +425,50 @@ lbl_800B22B4:
 /* 800B22E0 000AD800  7C 08 03 A6 */	mtlr r0
 /* 800B22E4 000AD804  38 21 00 20 */	addi r1, r1, 0x20
 /* 800B22E8 000AD808  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247468
+	.skip 0x4
+
+glabel lbl_8024746C
+	.skip 0x4
+
+glabel lbl_80247470
+	.skip 0x4
+
+glabel lbl_80247474
+	.skip 0x4
+
+glabel lbl_80247478
+	.skip 0x4
+
+glabel lbl_8024747C
+	.skip 0x4
+
+glabel lbl_80247480
+	.skip 0x4
+
+glabel lbl_80247484
+	.skip 0x4
+
+glabel lbl_80247488
+	.skip 0x4
+
+glabel lbl_8024748C
+	.skip 0x4
+
+glabel lbl_80247490
+	.skip 0x4
+
+glabel lbl_80247494
+	.skip 0x4
+
+glabel lbl_80247498
+	.skip 0x4
+
+glabel lbl_8024749C
+	.skip 0x4
+
+glabel lbl_802474A0
+	.skip 0x8

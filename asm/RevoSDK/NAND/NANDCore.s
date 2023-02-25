@@ -1715,3 +1715,8 @@ lbl_800BC030:
 /* 800BC038 000B7558  7C 08 03 A6 */	mtlr r0
 /* 800BC03C 000B755C  7D 41 53 78 */	mr r1, r10
 /* 800BC040 000B7560  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247628
+	.skip 0x8

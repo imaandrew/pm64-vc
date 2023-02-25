@@ -225,3 +225,17 @@ lbl_8009CB64:
 /* 8009CB70 00098090  7C 08 03 A6 */	mtlr r0
 /* 8009CB74 00098094  38 21 00 20 */	addi r1, r1, 0x20
 /* 8009CB78 00098098  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247210
+	.skip 0x4
+
+glabel lbl_80247214
+	.skip 0x4
+
+glabel lbl_80247218
+	.skip 0x4
+
+glabel lbl_8024721C
+	.skip 0x4

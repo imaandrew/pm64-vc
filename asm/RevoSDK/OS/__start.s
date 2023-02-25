@@ -104,3 +104,8 @@ lbl_80004194:
 /* 8000419C 0000029C  7D E4 7B 78 */	mr r4, r15
 /* 800041A0 000002A0  48 08 09 6D */	bl main
 /* 800041A4 000002A4  48 09 6D C4 */	b exit
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel Debug_BBA
+	.skip 0x8

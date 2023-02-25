@@ -663,3 +663,17 @@ glabel GXPEInit
 /* 800A64C8 000A19E8  7C 08 03 A6 */	mtlr r0
 /* 800A64CC 000A19EC  38 21 00 10 */	addi r1, r1, 0x10
 /* 800A64D0 000A19F0  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247358
+	.skip 0x8
+
+glabel lbl_80247360
+	.skip 0x4
+
+glabel lbl_80247364
+	.skip 0x4
+
+glabel lbl_80247368
+	.skip 0x8

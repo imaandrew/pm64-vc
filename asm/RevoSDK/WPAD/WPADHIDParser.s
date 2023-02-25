@@ -5073,3 +5073,20 @@ lbl_800CFADC:
 
 glabel __a1_unused_report
 /* 800CFB00 000CB020  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_802476F0
+	.skip 0x4
+
+glabel lbl_802476F4
+	.skip 0x4
+
+glabel lbl_802476F8
+	.skip 0x4
+
+glabel lbl_802476FC
+	.skip 0x4
+
+glabel lbl_80247700
+	.skip 0x8

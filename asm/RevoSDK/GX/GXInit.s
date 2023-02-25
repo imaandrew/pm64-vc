@@ -1186,3 +1186,32 @@ lbl_800A45E4:
 /* 800A46E8 0009FC08  7C 08 03 A6 */	mtlr r0
 /* 800A46EC 0009FC0C  38 21 00 A0 */	addi r1, r1, 0xa0
 /* 800A46F0 0009FC10  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247310
+	.skip 0x4
+
+glabel lbl_80247314
+	.skip 0x4
+
+glabel lbl_80247318
+	.skip 0x4
+
+glabel lbl_8024731C
+	.skip 0x4
+
+glabel lbl_80247320
+	.skip 0x8
+
+glabel lbl_80247328
+	.skip 0x4
+
+glabel lbl_8024732C
+	.skip 0x4
+
+glabel lbl_80247330
+	.skip 0x4
+
+glabel lbl_80247334
+	.skip 0x4

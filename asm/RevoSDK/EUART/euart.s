@@ -252,3 +252,17 @@ lbl_800D3DE4:
 /* 800D3DF0 000CF310  7C 08 03 A6 */	mtlr r0
 /* 800D3DF4 000CF314  38 21 00 30 */	addi r1, r1, 0x30
 /* 800D3DF8 000CF318  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247730
+	.skip 0x4
+
+glabel lbl_80247734
+	.skip 0x4
+
+glabel lbl_80247738
+	.skip 0x4
+
+glabel lbl_8024773C
+	.skip 0x4

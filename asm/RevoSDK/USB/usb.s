@@ -1149,3 +1149,14 @@ glabel IUSB_WriteCtrlMsgAsync
 /* 800D4E90 000D03B0  7C 08 03 A6 */	mtlr r0
 /* 800D4E94 000D03B4  38 21 00 40 */	addi r1, r1, 0x40
 /* 800D4E98 000D03B8  4E 80 00 20 */	blr 
+
+.section .sbss, "wa" # 0x80246B60 - 0x80247800
+
+glabel lbl_80247740
+	.skip 0x4
+
+glabel lbl_80247744
+	.skip 0x4
+
+glabel lbl_80247748
+	.skip 0x8

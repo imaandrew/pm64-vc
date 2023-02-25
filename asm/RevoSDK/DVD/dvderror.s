@@ -218,6 +218,17 @@ lbl_800AF908:
 /* 800AF918 000AAE38  38 21 00 10 */	addi r1, r1, 0x10
 /* 800AF91C 000AAE3C  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801CAE40
+	.skip 0x90
+
+glabel lbl_801CAED0
+	.skip 0xD0
+
+glabel lbl_801CAFA0
+	.skip 0x80
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247418

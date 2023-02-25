@@ -2938,6 +2938,17 @@ glabel __VIResetSIIdle
 /* 800A0D70 0009C290  90 0D 8E 50 */	stw r0, lbl_802472D0@sda21(r13)
 /* 800A0D74 0009C294  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801C59E0
+	.skip 0x78
+
+glabel lbl_801C5A58
+	.skip 0x78
+
+glabel lbl_801C5AD0
+	.skip 0x80
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247240

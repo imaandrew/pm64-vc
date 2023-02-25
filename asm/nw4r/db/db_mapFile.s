@@ -678,3 +678,14 @@ lbl_80117CB8:
 /* 80117CCC 001131EC  7C 08 03 A6 */	mtlr r0
 /* 80117CD0 001131F0  38 21 00 20 */	addi r1, r1, 0x20
 /* 80117CD4 001131F4  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80228EC0
+	.skip 0x240
+
+glabel lbl_80229100
+	.skip 0x4
+
+glabel lbl_80229104
+	.skip 0x4

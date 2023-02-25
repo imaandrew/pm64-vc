@@ -1671,6 +1671,11 @@ lbl_800C0554:
 /* 800C0568 000BBA88  38 21 00 30 */	addi r1, r1, 0x30
 /* 800C056C 000BBA8C  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801ED040
+	.skip 0x50
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247660

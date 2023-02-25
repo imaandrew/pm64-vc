@@ -477,3 +477,8 @@ glabel __sinit_snd_SeqSound_cpp
 /* 801353A8 001308C8  38 84 35 80 */	addi r4, r4, lbl_80233580@l
 /* 801353AC 001308CC  90 83 90 D0 */	stw r4, lbl_802390D0@l(r3)
 /* 801353B0 001308D0  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_802390D0
+	.skip 0x8

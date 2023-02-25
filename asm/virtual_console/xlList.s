@@ -289,3 +289,8 @@ glabel xlListSetup
 glabel xlListReset
 /* 800857E8 00080D08  38 60 00 01 */	li r3, 1
 /* 800857EC 00080D0C  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801B0778
+	.skip 0x10

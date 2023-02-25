@@ -340,3 +340,8 @@ glabel __sinit_snd_WaveSound_cpp
 /* 801444CC 0013F9EC  38 84 35 80 */	addi r4, r4, lbl_80233580@l
 /* 801444D0 0013F9F0  90 83 3B 40 */	stw r4, lbl_80243B40@l(r3)
 /* 801444D4 0013F9F4  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80243B40
+	.skip 0x8

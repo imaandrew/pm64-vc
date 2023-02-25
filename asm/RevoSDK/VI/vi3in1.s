@@ -1527,6 +1527,11 @@ lbl_800A2E00:
 /* 800A2E50 0009E370  38 21 00 60 */	addi r1, r1, 0x60
 /* 800A2E54 0009E374  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801C5B50
+	.skip 0x20
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_802472FC

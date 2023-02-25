@@ -1309,3 +1309,8 @@ lbl_80127840:
 glabel GetOutputMode__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80127858 00122D78  80 63 00 00 */	lwz r3, 0(r3)
 /* 8012785C 00122D7C  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80229160
+	.skip 0xA420

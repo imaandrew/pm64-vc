@@ -1093,3 +1093,8 @@ glabel lbl_8014D810
 /* 8014D818 00148D38  38 84 3B 90 */	addi r4, r4, lbl_80243B90@l
 /* 8014D81C 00148D3C  90 83 3B A0 */	stw r4, lbl_80243BA0@l(r3)
 /* 8014D820 00148D40  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80243BA0
+	.skip 0x8

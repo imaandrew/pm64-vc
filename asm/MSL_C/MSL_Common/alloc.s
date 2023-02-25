@@ -1017,6 +1017,14 @@ lbl_8015FA28:
 /* 8015FA38 0015AF58  38 21 00 10 */	addi r1, r1, 0x10
 /* 8015FA3C 0015AF5C  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80243BE0
+	.skip 0x38
+
+glabel lbl_80243C18
+	.skip 0x100
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_802477B8

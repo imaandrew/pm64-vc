@@ -80,3 +80,11 @@ lbl_8015FB2C:
 /* 8015FB44 0015B064  7C 08 03 A6 */	mtlr r0
 /* 8015FB48 0015B068  38 21 00 10 */	addi r1, r1, 0x10
 /* 8015FB4C 0015B06C  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80243D18
+	.skip 0x100
+
+glabel lbl_80243E18
+	.skip 0x100

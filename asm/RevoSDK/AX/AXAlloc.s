@@ -391,6 +391,14 @@ lbl_800B28D0:
 /* 800B28F0 000ADE10  38 21 00 20 */	addi r1, r1, 0x20
 /* 800B28F4 000ADE14  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801CB190
+	.skip 0x80
+
+glabel lbl_801CB210
+	.skip 0x90
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_802474B0

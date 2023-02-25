@@ -821,3 +821,17 @@ glabel clrBatteryFlag__Q210homebutton10ControllerFv
 /* 80115260 00110780  38 63 88 A0 */	addi r3, r3, lbl_802288A0@l
 /* 80115264 00110784  7C 03 21 AE */	stbx r0, r3, r4
 /* 80115268 00110788  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_802288A0
+	.skip 0x8
+
+glabel lbl_802288A8
+	.skip 0xC0
+
+glabel lbl_80228968
+	.skip 0xC0
+
+glabel lbl_80228A28
+	.skip 0x10

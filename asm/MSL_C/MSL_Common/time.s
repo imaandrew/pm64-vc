@@ -1801,3 +1801,11 @@ lbl_8016A3F0:
 /* 8016A400 00165920  7C 08 03 A6 */	mtlr r0
 /* 8016A404 00165924  38 21 01 80 */	addi r1, r1, 0x180
 /* 8016A408 00165928  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80243F38
+	.skip 0x60
+
+glabel lbl_80243F98
+	.skip 0x28

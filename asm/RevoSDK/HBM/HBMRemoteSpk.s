@@ -570,3 +570,8 @@ glabel isPlayReady__Q210homebutton9RemoteSpkCFl
 /* 80115A54 00110F74  7C 00 1B 78 */	or r0, r0, r3
 /* 80115A58 00110F78  54 03 0F FE */	srwi r3, r0, 0x1f
 /* 80115A5C 00110F7C  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80228A38
+	.skip 0x8

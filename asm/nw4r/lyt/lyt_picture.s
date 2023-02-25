@@ -505,3 +505,14 @@ glabel __sinit_lyt_picture_cpp
 /* 80120AF4 0011C014  38 84 91 40 */	addi r4, r4, lbl_80229140@l
 /* 80120AF8 0011C018  90 83 91 48 */	stw r4, lbl_80229148@l(r3)
 /* 80120AFC 0011C01C  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+# First two might not be here
+glabel lbl_80229138
+	.skip 0x8
+
+glabel lbl_80229140
+	.skip 0x8
+
+glabel lbl_80229148
+	.skip 0x8

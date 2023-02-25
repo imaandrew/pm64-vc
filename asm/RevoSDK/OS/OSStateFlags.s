@@ -144,3 +144,8 @@ lbl_8009A65C:
 /* 8009A670 00095B90  7C 08 03 A6 */	mtlr r0
 /* 8009A674 00095B94  38 21 00 B0 */	addi r1, r1, 0xb0
 /* 8009A678 00095B98  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801C5620
+	.skip 0x20

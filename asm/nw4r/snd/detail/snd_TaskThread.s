@@ -168,3 +168,11 @@ lbl_80142E74:
 /* 80142E88 0013E3A8  7C 08 03 A6 */	mtlr r0
 /* 80142E8C 0013E3AC  38 21 00 20 */	addi r1, r1, 0x20
 /* 80142E90 0013E3B0  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_802417B8
+	.skip 0x8
+
+glabel lbl_802417C0
+	.skip 0x2368

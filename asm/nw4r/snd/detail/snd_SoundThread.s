@@ -384,3 +384,8 @@ lbl_8013EEE4:
 /* 8013EF08 0013A428  7C 08 03 A6 */	mtlr r0
 /* 8013EF0C 0013A42C  38 21 00 30 */	addi r1, r1, 0x30
 /* 8013EF10 0013A430  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80239308
+	.skip 0x23B8

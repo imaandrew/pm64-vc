@@ -1375,3 +1375,8 @@ glabel __sinit_snd_BasicSound_cpp
 /* 8012DC90 001291B0  3C 60 80 23 */	lis r3, lbl_80233580@ha
 /* 8012DC94 001291B4  90 03 35 80 */	stw r0, lbl_80233580@l(r3)
 /* 8012DC98 001291B8  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80233580
+	.skip 0x8

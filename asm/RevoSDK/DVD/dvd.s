@@ -4924,6 +4924,38 @@ glabel __DVDStopMotorAsync
 glabel __DVDRestartMotor
 /* 800AF3BC 000AA8DC  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801C6240
+	.skip 0x20
+
+glabel lbl_801C6260
+	.skip 0x30
+
+glabel lbl_801C6290
+	.skip 0x30
+
+glabel lbl_801C62C0
+	.skip 0x40
+
+glabel lbl_801C6300
+	.skip 0x20
+
+glabel lbl_801C6320
+	.skip 0x20
+
+glabel lbl_801C6340
+	.skip 0xC80
+
+glabel lbl_801C6FC0
+	.skip 0x3DC0
+
+glabel lbl_801CAD80
+	.skip 0x30
+
+glabel lbl_801CADB0
+	.skip 0x60
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247390

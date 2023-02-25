@@ -2758,3 +2758,8 @@ glabel __sinit_lyt_window_cpp
 /* 80126348 00121868  38 84 91 40 */	addi r4, r4, lbl_80229140@l
 /* 8012634C 0012186C  90 83 91 58 */	stw r4, lbl_80229158@l(r3)
 /* 80126350 00121870  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80229158
+	.skip 0x8

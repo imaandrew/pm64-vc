@@ -506,3 +506,8 @@ glabel lbl_80091FA8
 /* 80091FD4 0008D4F4  7C 08 03 A6 */	mtlr r0
 /* 80091FD8 0008D4F8  38 21 00 30 */	addi r1, r1, 0x30
 /* 80091FDC 0008D4FC  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801B3E50
+	.skip 0x70

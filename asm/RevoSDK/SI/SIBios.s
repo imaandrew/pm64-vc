@@ -1499,6 +1499,35 @@ lbl_8009E24C:
 /* 8009E270 00099790  38 21 00 20 */	addi r1, r1, 0x20
 /* 8009E274 00099794  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801C57C0
+	.skip 0x80
+
+glabel lbl_801C5840
+	.skip 0x20
+
+glabel lbl_801C5860
+	.skip 0x20
+
+glabel lbl_801C5880
+	.skip 0xC0
+
+glabel lbl_801C5940
+	.skip 0x20
+
+glabel lbl_801C5960
+	.skip 0x10
+
+glabel lbl_801C5970
+	.skip 0x10
+
+glabel lbl_801C5980
+	.skip 0x20
+
+glabel lbl_801C59A0
+	.skip 0x40
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247220

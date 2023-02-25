@@ -108,6 +108,11 @@ glabel LogMsg_6
 /* 800DD18C 000D86AC  4B FF FE A4 */	b LogMsg
 /* 800DD190 000D86B0  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_8021E820
+	.skip 0x7E0
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247790

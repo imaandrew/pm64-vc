@@ -1554,6 +1554,17 @@ lbl_80098DA8:
 /* 80098DC0 000942E0  38 21 00 10 */	addi r1, r1, 0x10
 /* 80098DC4 000942E4  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801C4958
+	.skip 0x318
+
+glabel lbl_801C4C70
+	.skip 0x100
+
+glabel lbl_801C4D70
+	.skip 0x5F0
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247190

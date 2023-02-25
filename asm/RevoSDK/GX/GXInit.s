@@ -1187,6 +1187,14 @@ lbl_800A45E4:
 /* 800A46EC 0009FC0C  38 21 00 A0 */	addi r1, r1, 0xa0
 /* 800A46F0 0009FC10  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801C5B70
+	.skip 0x80
+
+glabel lbl_801C5BF0
+	.skip 0x600
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247310

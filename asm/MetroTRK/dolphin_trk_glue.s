@@ -337,3 +337,8 @@ glabel TRKEXICallBack
 /* 80173BCC 0016F0EC  7C 08 03 A6 */	mtlr r0
 /* 80173BD0 0016F0F0  38 21 00 10 */	addi r1, r1, 0x10
 /* 80173BD4 0016F0F4  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80245F50
+	.skip 0x8

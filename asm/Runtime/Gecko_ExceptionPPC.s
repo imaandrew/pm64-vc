@@ -1718,3 +1718,8 @@ glabel what__Q23std13bad_exceptionCFv
 /* 8015EAC4 00159FE4  3C 60 80 1B */	lis r3, lbl_801AD464@ha
 /* 8015EAC8 00159FE8  38 63 D4 64 */	addi r3, r3, lbl_801AD464@l
 /* 8015EACC 00159FEC  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80243BD0
+	.skip 0x10

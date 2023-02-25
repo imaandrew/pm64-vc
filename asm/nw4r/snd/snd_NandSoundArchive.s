@@ -699,3 +699,11 @@ glabel detail_GetWaveDataFileAddress__Q34nw4r3snd16NandSoundArchiveCFUl
 glabel detail_GetFileAddress__Q34nw4r3snd16NandSoundArchiveCFUl
 /* 80132A00 0012DF20  38 60 00 00 */	li r3, 0
 /* 80132A04 0012DF24  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80238DD0
+	.skip 0x4
+
+glabel lbl_80238DD4
+	.skip 0x4

@@ -3267,6 +3267,11 @@ glabel func_800D3A80
 /* 800D3A84 000CEFA4  90 0D 92 98 */	stw r0, lbl_80247718@sda21(r13)
 /* 800D3A88 000CEFA8  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801F0A30
+	.skip 0x1490
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247710

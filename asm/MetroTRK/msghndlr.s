@@ -1208,3 +1208,11 @@ glabel GetTRKConnected
 /* 80170C10 0016C130  38 63 59 BC */	addi r3, r3, lbl_802459BC@l
 /* 80170C14 0016C134  80 63 00 00 */	lwz r3, 0(r3)
 /* 80170C18 0016C138  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_802459B8
+	.skip 0x4
+
+glabel lbl_802459BC
+	.skip 0x4

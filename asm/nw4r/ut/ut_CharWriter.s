@@ -4847,3 +4847,11 @@ lbl_8014B550:
 /* 8014B84C 00146D6C  7C 08 03 A6 */	mtlr r0
 /* 8014B850 00146D70  38 21 00 30 */	addi r1, r1, 0x30
 /* 8014B854 00146D74  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80243B60
+	.skip 0x18
+
+glabel lbl_80243B78
+	.skip 0x10

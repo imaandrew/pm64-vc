@@ -833,3 +833,14 @@ lbl_80093EEC:
 /* 80093F28 0008F448  7C 08 03 A6 */	mtlr r0
 /* 80093F2C 0008F44C  38 21 00 50 */	addi r1, r1, 0x50
 /* 80093F30 0008F450  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801B5080
+	.skip 0xF5A0
+
+glabel lbl_801C4620
+	.skip 0x2C8
+
+glabel lbl_801C48E8
+	.skip 0x18

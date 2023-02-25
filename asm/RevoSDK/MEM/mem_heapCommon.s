@@ -330,6 +330,14 @@ lbl_800B7144:
 /* 800B7174 000B2694  38 21 00 20 */	addi r1, r1, 0x20
 /* 800B7178 000B2698  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801E0AA0
+	.skip 0x10
+
+glabel lbl_801E0AB0
+	.skip 0x18
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_802475E0

@@ -199,3 +199,8 @@ glabel __sinit_ut_FileStream_cpp
 /* 8014BAF8 00147018  38 84 3B 98 */	addi r4, r4, lbl_80243B98@l
 /* 8014BAFC 0014701C  90 83 3B 90 */	stw r4, lbl_80243B90@l(r3)
 /* 8014BB00 00147020  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80243B98
+	.skip 0x8

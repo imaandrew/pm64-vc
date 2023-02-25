@@ -4795,6 +4795,32 @@ glabel _WUDGetLinkNumber
 /* 800D9204 000D4724  38 21 00 10 */	addi r1, r1, 0x10
 /* 800D9208 000D4728  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801F1EC0
+	.skip 0x748
+
+glabel lbl_801F2608
+	.skip 0x468
+
+glabel lbl_801F2A70
+	.skip 0x138
+
+glabel lbl_801F2BA8
+	.skip 0x60
+
+glabel lbl_801F2C08
+	.skip 0x58
+
+glabel lbl_801F2C60
+	.skip 0x1000
+
+glabel lbl_801F3C60
+	.skip 0x20
+
+glabel lbl_801F3C80
+	.skip 0x20
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247750

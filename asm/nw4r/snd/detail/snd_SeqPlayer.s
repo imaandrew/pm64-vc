@@ -1856,3 +1856,14 @@ lbl_80134D0C:
 glabel _8___dt__Q46nw4hbm3snd6detail9SeqPlayerFv
 /* 80134D28 00130248  38 63 FF F8 */	addi r3, r3, -8
 /* 80134D2C 0013024C  4B FF E7 00 */	b __dt__Q46nw4hbm3snd6detail9SeqPlayerFv
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80239098
+	.skip 0xC
+
+glabel lbl_802390A4
+	.skip 0xC
+
+glabel lbl_802390B0
+	.skip 0x20

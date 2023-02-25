@@ -1596,6 +1596,20 @@ glabel AXGetMaxVoices
 /* 800B5E2C 000B134C  80 6D 91 3C */	lwz r3, lbl_802475BC@sda21(r13)
 /* 800B5E30 000B1350  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801CF3A0
+	.skip 0x1B10
+
+glabel lbl_801D0EB0
+	.skip 0x5CF0
+
+glabel lbl_801D6BA0
+	.skip 0x1800
+
+glabel lbl_801D83A0
+	.skip 0x8700
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_802475B0

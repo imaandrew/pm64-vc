@@ -2388,6 +2388,20 @@ lbl_800B1CB8:
 /* 800B1CE8 000AD208  7C 60 01 94 */	addze r3, r0
 /* 800B1CEC 000AD20C  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801CB020
+	.skip 0x80
+
+glabel lbl_801CB0A0
+	.skip 0x20
+
+glabel lbl_801CB0C0
+	.skip 0xC0
+
+glabel lbl_801CB180
+	.skip 0x10
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247428

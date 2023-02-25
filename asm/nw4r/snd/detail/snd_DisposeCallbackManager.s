@@ -321,3 +321,8 @@ lbl_8012F3C4:
 /* 8012F3E8 0012A908  7C 08 03 A6 */	mtlr r0
 /* 8012F3EC 0012A90C  38 21 00 40 */	addi r1, r1, 0x40
 /* 8012F3F0 0012A910  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80238DA8
+	.skip 0x20

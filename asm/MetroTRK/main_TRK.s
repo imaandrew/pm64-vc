@@ -21,3 +21,8 @@ lbl_801736FC:
 /* 8017370C 0016EC2C  7C 08 03 A6 */	mtlr r0
 /* 80173710 0016EC30  38 21 00 10 */	addi r1, r1, 0x10
 /* 80173714 0016EC34  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80245F48
+	.skip 0x8

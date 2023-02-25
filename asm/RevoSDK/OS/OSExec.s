@@ -1367,6 +1367,11 @@ lbl_800932FC:
 /* 80093308 0008E828  7D 41 53 78 */	mr r1, r10
 /* 8009330C 0008E82C  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801B3EC0
+	.skip 0x11C0
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247130

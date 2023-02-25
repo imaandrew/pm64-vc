@@ -1448,3 +1448,8 @@ lbl_800DABD4:
 /* 800DABE0 000D6100  7C 08 03 A6 */	mtlr r0
 /* 800DABE4 000D6104  38 21 00 20 */	addi r1, r1, 0x20
 /* 800DABE8 000D6108  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801F3CA0
+	.skip 0x28AE0

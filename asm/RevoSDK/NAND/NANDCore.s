@@ -1716,6 +1716,11 @@ lbl_800BC030:
 /* 800BC03C 000B755C  7D 41 53 78 */	mr r1, r10
 /* 800BC040 000B7560  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801E4E60
+	.skip 0x40
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247628

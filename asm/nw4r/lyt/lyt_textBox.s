@@ -3275,3 +3275,8 @@ glabel __sinit_lyt_textBox_cpp
 /* 801239F0 0011EF10  38 84 91 40 */	addi r4, r4, lbl_80229140@l
 /* 801239F4 0011EF14  90 83 91 50 */	stw r4, lbl_80229150@l(r3)
 /* 801239F8 0011EF18  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+# Might be wrong
+glabel lbl_80229150
+	.skip 0x8

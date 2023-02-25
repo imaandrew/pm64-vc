@@ -1840,3 +1840,20 @@ lbl_80172E90:
 /* 80172EA4 0016E3C4  00 00 00 00 */	.4byte 0x00000000  /* unknown instruction */
 /* 80172EA8 0016E3C8  00 00 00 00 */	.4byte 0x00000000  /* unknown instruction */
 /* 80172EAC 0016E3CC  00 00 00 00 */	.4byte 0x00000000  /* unknown instruction */
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_802459C0
+	.skip 0x4
+
+glabel lbl_802459C4
+	.skip 0xA4
+
+glabel lbl_80245A68
+	.skip 0x430
+
+glabel lbl_80245E98
+	.skip 0x94
+
+glabel lbl_80245F2C
+	.skip 0x14

@@ -223,3 +223,8 @@ glabel EnableMetroTRKInterrupts
 /* 801736C8 0016EBE8  7C 08 03 A6 */	mtlr r0
 /* 801736CC 0016EBEC  38 21 00 10 */	addi r1, r1, 0x10
 /* 801736D0 0016EBF0  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80245F40
+	.skip 0x8

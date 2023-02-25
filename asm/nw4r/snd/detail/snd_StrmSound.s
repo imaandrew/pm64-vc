@@ -305,3 +305,8 @@ glabel __sinit_snd_StrmSound_cpp
 /* 80142424 0013D944  38 84 35 80 */	addi r4, r4, lbl_80233580@l
 /* 80142428 0013D948  90 83 F7 00 */	stw r4, lbl_8023F700@l(r3)
 /* 8014242C 0013D94C  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_8023F700
+	.skip 0x20

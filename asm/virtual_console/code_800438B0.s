@@ -72514,6 +72514,80 @@ glabel xlPostReset
 /* 80084EFC 0008041C  38 60 00 01 */	li r3, 1
 /* 80084F00 00080420  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801AE308
+	.skip 0x310
+
+glabel lbl_801AE618
+	.skip 0x28
+
+glabel lbl_801AE640
+	.skip 0x20
+
+glabel lbl_801AE660
+	.skip 0x180
+
+glabel lbl_801AE7E0
+	.skip 0x20
+
+glabel lbl_801AE800
+	.skip 0x20
+
+glabel lbl_801AE820
+	.skip 0x10
+
+glabel lbl_801AE830
+	.skip 0x20
+
+glabel lbl_801AE850
+	.skip 0x18
+
+glabel lbl_801AE868
+	.skip 0x800
+
+glabel lbl_801AF068
+	.skip 0x28
+
+glabel lbl_801AF090
+	.skip 0x20
+
+glabel lbl_801AF0B0
+	.skip 0x20
+
+glabel lbl_801AF0D0
+	.skip 0x20
+
+glabel lbl_801AF0F0
+	.skip 0x200
+
+glabel lbl_801AF2F0
+	.skip 0x20
+
+glabel lbl_801AF310
+	.skip 0x28
+
+glabel lbl_801AF338
+	.skip 0x98
+
+glabel lbl_801AF3D0
+	.skip 0x10
+
+glabel lbl_801AF3E0
+	.skip 0x320
+
+glabel lbl_801AF700
+	.skip 0x904
+
+glabel lbl_801B0004
+	.skip 0x6FC
+
+glabel lbl_801B0700
+	.skip 0x40
+
+glabel lbl_801B0740
+	.skip 0x28
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80246BF8

@@ -128,6 +128,14 @@ lbl_800C0C44:
 /* 800C0C50 000BC170  42 00 FF B4 */	bdnz lbl_800C0C04
 /* 800C0C54 000BC174  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801ED110
+	.skip 0x80
+
+glabel lbl_801ED190
+	.skip 0x80
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247670

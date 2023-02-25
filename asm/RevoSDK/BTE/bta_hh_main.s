@@ -429,3 +429,8 @@ glabel lbl_800E324C
 lbl_800E3254:
 /* 800E3254 000DE774  38 64 02 84 */	addi r3, r4, 0x284
 /* 800E3258 000DE778  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80220328
+	.skip 0x230

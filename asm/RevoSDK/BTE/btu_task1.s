@@ -331,6 +331,11 @@ glabel btu_stop_timer
 /* 800DD734 000D8C54  38 65 00 40 */	addi r3, r5, 0x40
 /* 800DD738 000D8C58  4B FF D8 E8 */	b GKI_remove_from_timer_list
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80220030
+	.skip 0x88
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247798

@@ -86,3 +86,8 @@ glabel __sinit_lyt_bounding_cpp
 /* 80119484 001149A4  38 84 91 40 */	addi r4, r4, lbl_80229140@l
 /* 80119488 001149A8  90 83 91 08 */	stw r4, lbl_80229108@l(r3)
 /* 8011948C 001149AC  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80229108
+	.skip 0x8

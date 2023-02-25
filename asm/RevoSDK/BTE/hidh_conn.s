@@ -2291,3 +2291,8 @@ glabel hidh_conn_dereg
 /* 800F5A00 000F0F20  7C 08 03 A6 */	mtlr r0
 /* 800F5A04 000F0F24  38 21 00 10 */	addi r1, r1, 0x10
 /* 800F5A08 000F0F28  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80223218
+	.skip 0x408

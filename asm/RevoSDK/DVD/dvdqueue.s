@@ -175,3 +175,8 @@ lbl_800AF604:
 /* 800AF60C 000AAB2C  7C 08 03 A6 */	mtlr r0
 /* 800AF610 000AAB30  38 21 00 10 */	addi r1, r1, 0x10
 /* 800AF614 000AAB34  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801CAE10
+	.skip 0x30

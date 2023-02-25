@@ -287,6 +287,11 @@ glabel __AXDepopVoice
 /* 800B47FC 000AFD1C  38 21 00 20 */	addi r1, r1, 0x20
 /* 800B4800 000AFD20  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801CF320
+	.skip 0x80
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247560

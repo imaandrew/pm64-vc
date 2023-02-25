@@ -249,3 +249,8 @@ glabel hidd_pm_inact_timeout
 /* 800F2C40 000EE160  7C 08 03 A6 */	mtlr r0
 /* 800F2C44 000EE164  38 21 00 10 */	addi r1, r1, 0x10
 /* 800F2C48 000EE168  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_802230D0
+	.skip 0x148

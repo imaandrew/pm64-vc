@@ -124,3 +124,11 @@ lbl_8016F958:
 /* 8016F960 0016AE80  7C 08 03 A6 */	mtlr r0
 /* 8016F964 0016AE84  38 21 08 E0 */	addi r1, r1, 0x8e0
 /* 8016F968 0016AE88  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+# This might be wrong
+glabel lbl_80244CFC
+	.skip 0xCA4
+
+glabel lbl_802459A0
+	.skip 0x18

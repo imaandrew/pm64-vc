@@ -8093,6 +8093,26 @@ glabel WPADiClearQueue
 /* 800CB048 000C6568  38 21 00 10 */	addi r1, r1, 0x10
 /* 800CB04C 000C656C  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801ED2A0
+	.skip 0x30
+
+glabel lbl_801ED2D0
+	.skip 0x10
+
+glabel lbl_801ED2E0
+	.skip 0x1000
+
+glabel lbl_801EE2E0
+	.skip 0x26E8
+
+glabel lbl_801F09C8
+	.skip 0x18
+
+glabel lbl_801F09E0
+	.skip 0x50
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_802476C0

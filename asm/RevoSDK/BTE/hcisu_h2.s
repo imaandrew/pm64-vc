@@ -462,3 +462,8 @@ glabel hcisu_h2_handle_event
 /* 800DBA64 000D6F84  7C 08 03 A6 */	mtlr r0
 /* 800DBA68 000D6F88  38 21 00 10 */	addi r1, r1, 0x10
 /* 800DBA6C 000D6F8C  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_8021C780
+	.skip 0x40

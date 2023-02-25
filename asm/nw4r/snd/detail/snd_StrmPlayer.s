@@ -2864,3 +2864,14 @@ lbl_80142000:
 /* 80142010 0013D530  7C 08 03 A6 */	mtlr r0
 /* 80142014 0013D534  38 21 00 10 */	addi r1, r1, 0x10
 /* 80142018 0013D538  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_8023B6C0
+	.skip 0xC
+
+glabel lbl_8023B6CC
+	.skip 0x14
+
+glabel lbl_8023B6E0
+	.skip 0x4020

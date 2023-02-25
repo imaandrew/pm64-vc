@@ -1651,6 +1651,11 @@ glabel xlHeapReset
 /* 80086EB4 000823D4  38 21 00 10 */	addi r1, r1, 0x10
 /* 80086EB8 000823D8  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801B0788
+	.skip 0xB00
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80246D50

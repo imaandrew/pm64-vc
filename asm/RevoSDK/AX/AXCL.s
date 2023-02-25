@@ -709,6 +709,11 @@ glabel AXSetAuxCReturnVolume
 /* 800B3B8C 000AF0AC  B0 6D 90 80 */	sth r3, lbl_80247500@sda21(r13)
 /* 800B3B90 000AF0B0  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801CE420
+	.skip 0x100
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247500

@@ -1733,6 +1733,11 @@ lbl_8009C830:
 /* 8009C840 00097D60  38 21 00 40 */	addi r1, r1, 0x40
 /* 8009C844 00097D64  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801C5700
+	.skip 0xC0
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247208

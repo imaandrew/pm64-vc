@@ -1564,3 +1564,8 @@ lbl_800F7A94:
 /* 800F7AA8 000F2FC8  7C 08 03 A6 */	mtlr r0
 /* 800F7AAC 000F2FCC  38 21 00 20 */	addi r1, r1, 0x20
 /* 800F7AB0 000F2FD0  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80223620
+	.skip 0x7E8

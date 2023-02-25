@@ -1395,6 +1395,14 @@ lbl_8008FE10:
 /* 8008FE14 0008B334  88 63 31 84 */	lbz r3, 0x80003184@l(r3)
 /* 8008FE18 0008B338  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801B3DE0
+	.skip 0x20
+
+glabel lbl_801B3E00
+	.skip 0x50
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_802470C8

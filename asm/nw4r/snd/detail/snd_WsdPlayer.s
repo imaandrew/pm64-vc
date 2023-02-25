@@ -1500,3 +1500,11 @@ glabel _8_InvalidateData__Q46nw4hbm3snd6detail9WsdPlayerFPCvPCv
 glabel _8___dt__Q46nw4hbm3snd6detail9WsdPlayerFv
 /* 80145B54 00141074  38 63 FF F8 */	addi r3, r3, -8
 /* 80145B58 00141078  4B FF E5 4C */	b __dt__Q46nw4hbm3snd6detail9WsdPlayerFv
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80243B48
+	.skip 0xC
+
+glabel lbl_80243B54
+	.skip 0xC

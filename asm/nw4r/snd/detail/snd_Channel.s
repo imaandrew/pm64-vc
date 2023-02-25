@@ -1303,3 +1303,20 @@ glabel __arraydtor$1945
 /* 8012EF54 0012A474  38 84 DE 68 */	addi r4, r4, __dt__Q46nw4hbm3snd6detail7ChannelFv@l
 /* 8012EF58 0012A478  38 C0 00 61 */	li r6, 0x61
 /* 8012EF5C 0012A47C  48 02 D7 E4 */	b __destroy_arr
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80233588
+	.skip 0xC
+
+glabel lbl_80233594
+	.skip 0xC
+
+glabel lbl_802335A0
+	.skip 0x57E8
+
+glabel lbl_80238D88
+	.skip 0x8
+
+glabel lbl_80238D90
+	.skip 0x18

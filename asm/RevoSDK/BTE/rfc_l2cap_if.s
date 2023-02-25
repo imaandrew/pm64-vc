@@ -664,3 +664,8 @@ glabel rfc_save_lcid_mcb
 /* 800FDE80 000F93A0  7C 84 02 14 */	add r4, r4, r0
 /* 800FDE84 000F93A4  90 64 00 3C */	stw r3, 0x3c(r4)
 /* 800FDE88 000F93A8  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80223E08
+	.skip 0x418

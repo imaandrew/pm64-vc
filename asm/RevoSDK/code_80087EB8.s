@@ -7484,6 +7484,53 @@ lbl_8008E960:
 /* 8008E97C 00089E9C  38 21 00 10 */	addi r1, r1, 0x10
 /* 8008E980 00089EA0  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801B1288
+	.skip 0x100
+
+glabel lbl_801B1388
+	.skip 0x40
+
+glabel lbl_801B13C8
+	.skip 0x80
+
+glabel lbl_801B1448
+	.skip 0x250
+
+glabel lbl_801B1698
+	.skip 0x58
+
+glabel lbl_801B16F0
+	.skip 0x20
+
+glabel lbl_801B1710
+	.skip 0x20
+
+glabel lbl_801B1730
+	.skip 0x40
+
+glabel lbl_801B1770
+	.skip 0x2250
+
+glabel lbl_801B39C0
+	.skip 0x2E0
+
+glabel lbl_801B3CA0
+	.skip 0x40
+
+glabel WWW_FONT_FILE_DATA_TABLE__
+	.skip 0x40
+
+glabel lbl_801B3D20
+	.skip 0x20
+
+glabel lbl_801B3D40
+	.skip 0xC
+
+glabel lbl_801B3D4C
+	.skip 0x94
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80246DB0

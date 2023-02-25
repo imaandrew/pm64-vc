@@ -1280,6 +1280,11 @@ lbl_80042C2C:
 /* 80042C3C 0003E15C  38 21 00 30 */	addi r1, r1, 0x30
 /* 80042C40 0003E160  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801ADFF0
+	.skip 0x318
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80246BE8

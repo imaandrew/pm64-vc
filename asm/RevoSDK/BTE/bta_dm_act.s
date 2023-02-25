@@ -2517,3 +2517,20 @@ lbl_800E01EC:
 /* 800E01FC 000DB71C  7C 08 03 A6 */	mtlr r0
 /* 800E0200 000DB720  38 21 00 10 */	addi r1, r1, 0x10
 /* 800E0204 000DB724  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_802200B8
+	.skip 0x90
+
+glabel lbl_80220148
+	.skip 0x30
+
+glabel lbl_80220178
+	.skip 0x7C
+
+glabel lbl_802201F4
+	.skip 0x104
+
+glabel lbl_802202F8
+	.skip 0x30

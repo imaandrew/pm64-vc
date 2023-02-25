@@ -1651,3 +1651,8 @@ glabel setEventHandler__Q310homebutton3gui7ManagerFPQ310homebutton3gui12EventHan
 glabel update__Q310homebutton3gui7ManagerFiPC10KPADStatusffPv
 /* 80114704 0010FC24  38 60 00 00 */	li r3, 0
 /* 80114708 0010FC28  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80228898
+	.skip 0x8

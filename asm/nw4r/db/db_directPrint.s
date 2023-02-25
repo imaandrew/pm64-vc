@@ -730,3 +730,14 @@ lbl_80117380:
 /* 80117390 001128B0  7C 08 03 A6 */	mtlr r0
 /* 80117394 001128B4  38 21 00 20 */	addi r1, r1, 0x20
 /* 80117398 001128B8  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80228E98
+	.skip 0x10
+
+glabel lbl_80228EA8
+	.skip 0x14
+
+glabel lbl_80228EBC
+	.skip 0x4

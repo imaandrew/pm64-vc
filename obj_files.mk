@@ -406,6 +406,5 @@ ALL:=\
 	$(BUILD_DIR)/asm/dtors.o\
 	$(BUILD_DIR)/asm/rodata.o\
 	$(BUILD_DIR)/asm/data.o\
-	$(BUILD_DIR)/asm/bss.o\
 	$(BUILD_DIR)/asm/sdata.o\
 	$(BUILD_DIR)/asm/sdata2.o

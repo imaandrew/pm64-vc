@@ -597,6 +597,23 @@ lbl_800B43BC:
 /* 800B43D8 000AF8F8  90 0D 90 A4 */	stw r0, lbl_80247524@sda21(r13)
 /* 800B43DC 000AF8FC  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801CE520
+	.skip 0x40
+
+glabel lbl_801CE560
+	.skip 0x8A0
+
+glabel lbl_801CEE00
+	.skip 0x480
+
+glabel lbl_801CF280
+	.skip 0x60
+
+glabel lbl_801CF2E0
+	.skip 0x40
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_80247520

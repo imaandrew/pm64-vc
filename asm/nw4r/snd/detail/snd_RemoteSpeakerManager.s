@@ -207,3 +207,11 @@ lbl_801331E8:
 /* 801331F4 0012E714  7C 08 03 A6 */	mtlr r0
 /* 801331F8 0012E718  38 21 00 70 */	addi r1, r1, 0x70
 /* 801331FC 0012E71C  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80238DD8
+	.skip 0x8
+
+glabel lbl_80238DE0
+	.skip 0x2B8

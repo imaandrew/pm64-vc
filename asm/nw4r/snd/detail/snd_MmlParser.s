@@ -1312,3 +1312,8 @@ lbl_80131E90:
 /* 80131EA0 0012D3C0  7C 08 03 A6 */	mtlr r0
 /* 80131EA4 0012D3C4  38 21 00 20 */	addi r1, r1, 0x20
 /* 80131EA8 0012D3C8  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80238DC8
+	.skip 0x8

@@ -11077,3 +11077,17 @@ glabel init__Q310homebutton3gui9InterfaceFv
 
 glabel create__Q310homebutton3gui9InterfaceFv
 /* 80112DA0 0010E2C0  4E 80 00 20 */	blr 
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_80228858
+	.skip 0x10
+
+glabel lbl_80228868
+	.skip 0x10
+
+glabel lbl_80228878
+	.skip 0x8
+
+glabel lbl_80228880
+	.skip 0x18

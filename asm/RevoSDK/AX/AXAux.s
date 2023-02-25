@@ -588,6 +588,17 @@ glabel AXGetAuxCCallback
 /* 800B311C 000AE63C  90 04 00 00 */	stw r0, 0(r4)
 /* 800B3120 000AE640  4E 80 00 20 */	blr 
 
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_801CB2A0
+	.skip 0x1200
+
+glabel lbl_801CC4A0
+	.skip 0x1200
+
+glabel lbl_801CD6A0
+	.skip 0xD80
+
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 
 glabel lbl_802474B8

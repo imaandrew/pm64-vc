@@ -3950,3 +3950,8 @@ glabel __detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11So
 glabel ____dt__Q36nw4hbm3snd18SoundArchivePlayerFv
 /* 8013C7E8 00137D08  38 63 FF F4 */	addi r3, r3, -12
 /* 8013C7EC 00137D0C  4B FF CE 10 */	b __dt__Q36nw4hbm3snd18SoundArchivePlayerFv
+
+.section .bss, "wa"  # 0x801ADFC0 - 0x80246480
+
+glabel lbl_802390E0
+	.skip 0x220

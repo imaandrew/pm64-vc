@@ -19,22 +19,19 @@ endif
 # Files
 #-------------------------------------------------------------------------------
 
-TARGET := 00000001
+NAME := 00000001
 
 BUILD_DIR := build
 
 # Inputs
-SRC_DIRS := $(shell find src -type d)
-ASM_DIRS := $(shell find asm -type d -not -path "asm/non_matchings*") $(shell find data -type d)
-
-C_FILES       := $(foreach dir,$(SRC_DIRS), $(wildcard $(dir)/*.c))
-S_FILES       := $(foreach dir,$(ASM_DIRS), $(wildcard $(dir)/*.s))
+S_FILES := $(wildcard asm/*.s)
+C_FILES := $(wildcard src/*.c)
 LDSCRIPT := $(BUILD_DIR)/ldscript.lcf
 
 # Outputs
-DOL     := $(BUILD_DIR)/$(TARGET).app
+DOL     := $(BUILD_DIR)/$(NAME).app
 ELF     := $(DOL:.app=.elf)
-MAP     := $(BUILD_DIR)/$(TARGET).map
+MAP     := $(BUILD_DIR)/$(NAME).map
 
 ifeq ($(MAPGENFLAG),1)
   MAPGEN := -map $(MAP)
@@ -46,9 +43,6 @@ O_FILES := $(ALL)
 DEPENDS := $(O_FILES:.o=.d)
 # If a specific .o file is passed as a target, also process its deps
 DEPENDS += $(MAKECMDGOALS:.o=.d)
-GLOBAL_ASM_C_FILES != grep -rl 'GLOBAL_ASM(' $(C_FILES)
-GLOBAL_ASM_O_FILES = $(addprefix $(BUILD_DIR)/,$(GLOBAL_ASM_C_FILES:.c=.o))
-
 
 #-------------------------------------------------------------------------------
 # Tools
@@ -85,9 +79,6 @@ CC_2.7  = $(WINE) tools/mwcc_compiler/2.7/mwcceppc.exe
 ELF2DOL := tools/elf2dol
 SHA1SUM := sha1sum
 
-ASM_PROCESSOR_DIR := tools/asm_processor
-ASM_PROCESSOR := $(ASM_PROCESSOR_DIR)/compile.sh
-
 # Options
 INCLUDES := -i include/
 ASM_INCLUDES := -I include/
@@ -107,6 +98,12 @@ ifeq ($(VERBOSE),0)
 # this set of ASFLAGS generates no warnings.
 ASFLAGS += -W
 endif
+
+#-------------------------------------------------------------------------------
+# File Overrides
+#-------------------------------------------------------------------------------
+
+$(BUILD_DIR)/src/MetroTRK/%.o : CC := $(CC_2.7)
 
 #-------------------------------------------------------------------------------
 # Recipes
@@ -130,7 +127,7 @@ $(LDSCRIPT): ldscript.lcf
 
 $(DOL): $(ELF) | tools
 	$(QUIET) $(ELF2DOL) $< $@
-	$(QUIET) $(SHA1SUM) -c $(TARGET).sha1
+	$(QUIET) $(SHA1SUM) -c $(NAME).sha1
 
 clean:
 	rm -f -d -r build
@@ -142,15 +139,10 @@ tools:
 	$(MAKE) -C tools
 
 # ELF creation makefile instructions
-$(ELF): $(O_FILES) $(GLOBAL_ASM_O_FILES) $(LDSCRIPT)
+$(ELF): $(O_FILES) $(LDSCRIPT)
 	@echo Linking ELF $@
-	$(QUIET) $(RM) -rf $(ASM_PROCESSOR_DIR)/tmp
 	$(QUIET) @echo $(O_FILES) > build/o_files
 	$(QUIET) $(LD) $(LDFLAGS) -o $@ -lcf $(LDSCRIPT) @build/o_files
-
-$(GLOBAL_ASM_O_FILES) : BUILD_C := $(QUIET) $(ASM_PROCESSOR) "$(CC) $(CFLAGS) $(OPT_FLAGS)" "$(AS) $(ASFLAGS)"
-
-BUILD_C ?= $(CC) $(CFLAGS) $(OPT_FLAGS) -c -o
 
 %.d.unix: %.d $(TRANSFORM_DEP)
 	@echo Processing $<
@@ -163,16 +155,10 @@ $(BUILD_DIR)/%.o: %.s
 	$(QUIET) mkdir -p $(dir $@)
 	$(QUIET) $(AS) $(ASFLAGS) -o $@ $<
 
-$(BUILD_DIR)/src/MetroTRK/%.o : CC := $(CC_2.7)
-
-$(GLOBAL_ASM_O_FILES) : BUILD_C := $(ASM_PROCESSOR) "$(CC) $(CFLAGS) $(OPT_FLAGS)" "$(AS) $(ASFLAGS)"
-
-BUILD_C ?= $(CC) $(CFLAGS) $(OPT_FLAGS) -c -o
-
 $(BUILD_DIR)/%.o: %.c
 	@echo "Compiling " $<
 	$(QUIET) mkdir -p $(dir $@)
-	$(QUIET) $(BUILD_C) $@ $<
+	$(QUIET) $(CC) $(CFLAGS) -c -o $(dir $@) $<
 
 ### Extremely lazy recipes for generating context ###
 # Example usage: make build/pikmin2.usa/src/plugProjectYamashitaU/farmMgr.h

@@ -72,7 +72,7 @@ glabel RFCOMM_ConnectInd
 /* 800FD650 000F8B70  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 800FD654 000F8B74  7C 08 03 A6 */	mtlr r0
 /* 800FD658 000F8B78  38 21 00 20 */	addi r1, r1, 0x20
-/* 800FD65C 000F8B7C  4E 80 00 20 */	blr 
+/* 800FD65C 000F8B7C  4E 80 00 20 */	blr
 
 glabel RFCOMM_ConnectCnf
 /* 800FD660 000F8B80  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -145,7 +145,7 @@ glabel RFCOMM_ConnectCnf
 /* 800FD754 000F8C74  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 800FD758 000F8C78  7C 08 03 A6 */	mtlr r0
 /* 800FD75C 000F8C7C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800FD760 000F8C80  4E 80 00 20 */	blr 
+/* 800FD760 000F8C80  4E 80 00 20 */	blr
 
 glabel RFCOMM_ConfigInd
 /* 800FD764 000F8C84  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -219,7 +219,7 @@ glabel RFCOMM_ConfigInd
 /* 800FD85C 000F8D7C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800FD860 000F8D80  7C 08 03 A6 */	mtlr r0
 /* 800FD864 000F8D84  38 21 00 20 */	addi r1, r1, 0x20
-/* 800FD868 000F8D88  4E 80 00 20 */	blr 
+/* 800FD868 000F8D88  4E 80 00 20 */	blr
 
 glabel RFCOMM_ConfigCnf
 /* 800FD86C 000F8D8C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -293,10 +293,10 @@ glabel RFCOMM_ConfigCnf
 /* 800FD964 000F8E84  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800FD968 000F8E88  7C 08 03 A6 */	mtlr r0
 /* 800FD96C 000F8E8C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800FD970 000F8E90  4E 80 00 20 */	blr 
+/* 800FD970 000F8E90  4E 80 00 20 */	blr
 
 glabel RFCOMM_QoSViolationInd
-/* 800FD974 000F8E94  4E 80 00 20 */	blr 
+/* 800FD974 000F8E94  4E 80 00 20 */	blr
 
 glabel RFCOMM_DisconnectInd
 /* 800FD978 000F8E98  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -378,7 +378,7 @@ glabel RFCOMM_DisconnectInd
 /* 800FDA8C 000F8FAC  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800FDA90 000F8FB0  7C 08 03 A6 */	mtlr r0
 /* 800FDA94 000F8FB4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800FDA98 000F8FB8  4E 80 00 20 */	blr 
+/* 800FDA98 000F8FB8  4E 80 00 20 */	blr
 
 glabel RFCOMM_BufDataInd
 /* 800FDA9C 000F8FBC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -568,7 +568,7 @@ glabel RFCOMM_BufDataInd
 /* 800FDD2C 000F924C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800FDD30 000F9250  7C 08 03 A6 */	mtlr r0
 /* 800FDD34 000F9254  38 21 00 20 */	addi r1, r1, 0x20
-/* 800FDD38 000F9258  4E 80 00 20 */	blr 
+/* 800FDD38 000F9258  4E 80 00 20 */	blr
 
 glabel RFCOMM_CongestionStatusInd
 /* 800FDD3C 000F925C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -654,7 +654,7 @@ glabel RFCOMM_CongestionStatusInd
 /* 800FDE60 000F9380  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800FDE64 000F9384  7C 08 03 A6 */	mtlr r0
 /* 800FDE68 000F9388  38 21 00 20 */	addi r1, r1, 0x20
-/* 800FDE6C 000F938C  4E 80 00 20 */	blr 
+/* 800FDE6C 000F938C  4E 80 00 20 */	blr
 
 glabel rfc_save_lcid_mcb
 /* 800FDE70 000F9390  38 04 FF C0 */	addi r0, r4, -64
@@ -663,7 +663,7 @@ glabel rfc_save_lcid_mcb
 /* 800FDE7C 000F939C  54 00 10 3A */	slwi r0, r0, 2
 /* 800FDE80 000F93A0  7C 84 02 14 */	add r4, r4, r0
 /* 800FDE84 000F93A4  90 64 00 3C */	stw r3, 0x3c(r4)
-/* 800FDE88 000F93A8  4E 80 00 20 */	blr 
+/* 800FDE88 000F93A8  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

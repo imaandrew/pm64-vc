@@ -32,7 +32,7 @@ glabel uusb_CloseDeviceCB
 /* 800DBAD8 000D6FF8  7F A4 07 74 */	extsb r4, r29
 /* 800DBADC 000D6FFC  38 60 00 04 */	li r3, 4
 /* 800DBAE0 000D7000  7D 89 03 A6 */	mtctr r12
-/* 800DBAE4 000D7004  4E 80 04 21 */	bctrl 
+/* 800DBAE4 000D7004  4E 80 04 21 */	bctrl
 .L_800DBAE8:
 /* 800DBAE8 000D7008  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DBAEC 000D700C  83 E1 00 1C */	lwz r31, 0x1c(r1)
@@ -40,7 +40,7 @@ glabel uusb_CloseDeviceCB
 /* 800DBAF4 000D7014  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800DBAF8 000D7018  7C 08 03 A6 */	mtlr r0
 /* 800DBAFC 000D701C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DBB00 000D7020  4E 80 00 20 */	blr 
+/* 800DBB00 000D7020  4E 80 00 20 */	blr
 
 glabel uusb_ReadIntrDataCB
 /* 800DBB04 000D7024  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -191,7 +191,7 @@ glabel uusb_ReadIntrDataCB
 /* 800DBD10 000D7230  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DBD14 000D7234  7C 08 03 A6 */	mtlr r0
 /* 800DBD18 000D7238  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DBD1C 000D723C  4E 80 00 20 */	blr 
+/* 800DBD1C 000D723C  4E 80 00 20 */	blr
 
 glabel uusb_ReadBulkDataCB
 /* 800DBD20 000D7240  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -337,7 +337,7 @@ glabel uusb_ReadBulkDataCB
 /* 800DBF18 000D7438  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DBF1C 000D743C  7C 08 03 A6 */	mtlr r0
 /* 800DBF20 000D7440  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DBF24 000D7444  4E 80 00 20 */	blr 
+/* 800DBF24 000D7444  4E 80 00 20 */	blr
 
 glabel uusb_issue_bulk_read
 /* 800DBF28 000D7448  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -413,7 +413,7 @@ glabel uusb_issue_bulk_read
 /* 800DC02C 000D754C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DC030 000D7550  7C 08 03 A6 */	mtlr r0
 /* 800DC034 000D7554  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DC038 000D7558  4E 80 00 20 */	blr 
+/* 800DC038 000D7558  4E 80 00 20 */	blr
 
 glabel uusb_issue_intr_read
 /* 800DC03C 000D755C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -493,7 +493,7 @@ glabel uusb_issue_intr_read
 /* 800DC150 000D7670  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DC154 000D7674  7C 08 03 A6 */	mtlr r0
 /* 800DC158 000D7678  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DC15C 000D767C  4E 80 00 20 */	blr 
+/* 800DC15C 000D767C  4E 80 00 20 */	blr
 
 glabel uusb_WriteCtrlDataCB
 /* 800DC160 000D7680  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -594,7 +594,7 @@ glabel uusb_WriteCtrlDataCB
 /* 800DC2C4 000D77E4  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800DC2C8 000D77E8  7C 08 03 A6 */	mtlr r0
 /* 800DC2CC 000D77EC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DC2D0 000D77F0  4E 80 00 20 */	blr 
+/* 800DC2D0 000D77F0  4E 80 00 20 */	blr
 
 glabel uusb_WriteBulkDataCB
 /* 800DC2D4 000D77F4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -692,7 +692,7 @@ glabel uusb_WriteBulkDataCB
 /* 800DC42C 000D794C  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800DC430 000D7950  7C 08 03 A6 */	mtlr r0
 /* 800DC434 000D7954  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DC438 000D7958  4E 80 00 20 */	blr 
+/* 800DC438 000D7958  4E 80 00 20 */	blr
 
 glabel uusb_get_devId
 /* 800DC43C 000D795C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -767,7 +767,7 @@ glabel uusb_get_devId
 /* 800DC538 000D7A58  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800DC53C 000D7A5C  7C 08 03 A6 */	mtlr r0
 /* 800DC540 000D7A60  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DC544 000D7A64  4E 80 00 20 */	blr 
+/* 800DC544 000D7A64  4E 80 00 20 */	blr
 
 glabel UUSB_Register
 /* 800DC548 000D7A68  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -935,7 +935,7 @@ glabel UUSB_Register
 /* 800DC7A4 000D7CC4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800DC7A8 000D7CC8  7C 08 03 A6 */	mtlr r0
 /* 800DC7AC 000D7CCC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DC7B0 000D7CD0  4E 80 00 20 */	blr 
+/* 800DC7B0 000D7CD0  4E 80 00 20 */	blr
 
 glabel UUSB_Open
 /* 800DC7B4 000D7CD4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1013,11 +1013,11 @@ glabel UUSB_Open
 /* 800DC8BC 000D7DDC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800DC8C0 000D7DE0  7C 08 03 A6 */	mtlr r0
 /* 800DC8C4 000D7DE4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DC8C8 000D7DE8  4E 80 00 20 */	blr 
+/* 800DC8C8 000D7DE8  4E 80 00 20 */	blr
 
 glabel UUSB_Read
 /* 800DC8CC 000D7DEC  38 60 00 00 */	li r3, 0
-/* 800DC8D0 000D7DF0  4E 80 00 20 */	blr 
+/* 800DC8D0 000D7DF0  4E 80 00 20 */	blr
 
 glabel UUSB_Write
 /* 800DC8D4 000D7DF4  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1412,7 +1412,7 @@ glabel UUSB_Write
 /* 800DCE4C 000D836C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800DCE50 000D8370  7C 08 03 A6 */	mtlr r0
 /* 800DCE54 000D8374  38 21 00 30 */	addi r1, r1, 0x30
-/* 800DCE58 000D8378  4E 80 00 20 */	blr 
+/* 800DCE58 000D8378  4E 80 00 20 */	blr
 
 glabel UUSB_Close
 /* 800DCE5C 000D837C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1463,7 +1463,7 @@ glabel UUSB_Close
 /* 800DCEF8 000D8418  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800DCEFC 000D841C  7C 08 03 A6 */	mtlr r0
 /* 800DCF00 000D8420  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DCF04 000D8424  4E 80 00 20 */	blr 
+/* 800DCF04 000D8424  4E 80 00 20 */	blr
 
 glabel UUSB_Unregister
 /* 800DCF08 000D8428  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1482,7 +1482,7 @@ glabel UUSB_Unregister
 /* 800DCF3C 000D845C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800DCF40 000D8460  7C 08 03 A6 */	mtlr r0
 /* 800DCF44 000D8464  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DCF48 000D8468  4E 80 00 20 */	blr 
+/* 800DCF48 000D8468  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

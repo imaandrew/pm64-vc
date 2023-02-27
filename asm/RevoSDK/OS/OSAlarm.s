@@ -25,13 +25,13 @@ glabel __OSInitAlarm
 /* 8008FE64 0008B384  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8008FE68 0008B388  7C 08 03 A6 */	mtlr r0
 /* 8008FE6C 0008B38C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8008FE70 0008B390  4E 80 00 20 */	blr 
+/* 8008FE70 0008B390  4E 80 00 20 */	blr
 
 glabel OSCreateAlarm
 /* 8008FE74 0008B394  38 00 00 00 */	li r0, 0
 /* 8008FE78 0008B398  90 03 00 00 */	stw r0, 0(r3)
 /* 8008FE7C 0008B39C  90 03 00 04 */	stw r0, 4(r3)
-/* 8008FE80 0008B3A0  4E 80 00 20 */	blr 
+/* 8008FE80 0008B3A0  4E 80 00 20 */	blr
 
 glabel InsertAlarm
 /* 8008FE84 0008B3A4  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -192,7 +192,7 @@ glabel InsertAlarm
 /* 800900C4 0008B5E4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800900C8 0008B5E8  7C 08 03 A6 */	mtlr r0
 /* 800900CC 0008B5EC  38 21 00 30 */	addi r1, r1, 0x30
-/* 800900D0 0008B5F0  4E 80 00 20 */	blr 
+/* 800900D0 0008B5F0  4E 80 00 20 */	blr
 
 glabel OSSetAlarm
 /* 800900D4 0008B5F4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -222,7 +222,7 @@ glabel OSSetAlarm
 /* 80090134 0008B654  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80090138 0008B658  7C 08 03 A6 */	mtlr r0
 /* 8009013C 0008B65C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80090140 0008B660  4E 80 00 20 */	blr 
+/* 80090140 0008B660  4E 80 00 20 */	blr
 
 glabel OSSetPeriodicAlarm
 /* 80090144 0008B664  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -257,7 +257,7 @@ glabel OSSetPeriodicAlarm
 /* 800901B8 0008B6D8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800901BC 0008B6DC  7C 08 03 A6 */	mtlr r0
 /* 800901C0 0008B6E0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800901C4 0008B6E4  4E 80 00 20 */	blr 
+/* 800901C4 0008B6E4  4E 80 00 20 */	blr
 
 glabel OSCancelAlarm
 /* 800901C8 0008B6E8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -337,7 +337,7 @@ glabel OSCancelAlarm
 /* 800902D0 0008B7F0  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800902D4 0008B7F4  7C 08 03 A6 */	mtlr r0
 /* 800902D8 0008B7F8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800902DC 0008B7FC  4E 80 00 20 */	blr 
+/* 800902DC 0008B7FC  4E 80 00 20 */	blr
 
 glabel DecrementerExceptionCallback
 /* 800902E0 0008B800  94 21 FD 20 */	stwu r1, -0x2e0(r1)
@@ -473,7 +473,7 @@ glabel DecrementerExceptionCallback
 /* 800904BC 0008B9DC  7F E3 FB 78 */	mr r3, r31
 /* 800904C0 0008B9E0  7F A4 EB 78 */	mr r4, r29
 /* 800904C4 0008B9E4  7D 89 03 A6 */	mtctr r12
-/* 800904C8 0008B9E8  4E 80 04 21 */	bctrl 
+/* 800904C8 0008B9E8  4E 80 04 21 */	bctrl
 /* 800904CC 0008B9EC  38 61 00 08 */	addi r3, r1, 8
 /* 800904D0 0008B9F0  48 00 0F D1 */	bl OSClearContext
 /* 800904D4 0008B9F4  7F A3 EB 78 */	mr r3, r29
@@ -489,7 +489,7 @@ glabel DecrementerExceptionCallback
 /* 800904FC 0008BA1C  83 81 02 D0 */	lwz r28, 0x2d0(r1)
 /* 80090500 0008BA20  7C 08 03 A6 */	mtlr r0
 /* 80090504 0008BA24  38 21 02 E0 */	addi r1, r1, 0x2e0
-/* 80090508 0008BA28  4E 80 00 20 */	blr 
+/* 80090508 0008BA28  4E 80 00 20 */	blr
 
 glabel DecrementerExceptionHandler
 /* 8009050C 0008BA2C  90 04 00 00 */	stw r0, 0(r4)
@@ -554,15 +554,15 @@ glabel OnReset
 /* 800905D8 0008BAF8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800905DC 0008BAFC  7C 08 03 A6 */	mtlr r0
 /* 800905E0 0008BB00  38 21 00 10 */	addi r1, r1, 0x10
-/* 800905E4 0008BB04  4E 80 00 20 */	blr 
+/* 800905E4 0008BB04  4E 80 00 20 */	blr
 
 glabel OSSetAlarmUserData
 /* 800905E8 0008BB08  90 83 00 28 */	stw r4, 0x28(r3)
-/* 800905EC 0008BB0C  4E 80 00 20 */	blr 
+/* 800905EC 0008BB0C  4E 80 00 20 */	blr
 
 glabel OSGetAlarmUserData
 /* 800905F0 0008BB10  80 63 00 28 */	lwz r3, 0x28(r3)
-/* 800905F4 0008BB14  4E 80 00 20 */	blr 
+/* 800905F4 0008BB14  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

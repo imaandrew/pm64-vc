@@ -40,7 +40,7 @@ glabel C_MTXOrtho
 /* 800A332C 0009E84C  D0 83 00 0C */	stfs f4, 0xc(r3)
 /* 800A3330 0009E850  D0 43 00 1C */	stfs f2, 0x1c(r3)
 /* 800A3334 0009E854  D0 23 00 28 */	stfs f1, 0x28(r3)
-/* 800A3338 0009E858  4E 80 00 20 */	blr 
+/* 800A3338 0009E858  4E 80 00 20 */	blr
 
 glabel PSMTX44Identity
 /* 800A333C 0009E85C  C0 22 86 38 */	lfs f1, lbl_80247E38@sda21(r2)
@@ -55,7 +55,7 @@ glabel PSMTX44Identity
 /* 800A3360 0009E880  F0 23 00 2C */	psq_st f1, 44(r3), 0, qr0
 /* 800A3364 0009E884  F0 23 00 34 */	psq_st f1, 52(r3), 0, qr0
 /* 800A3368 0009E888  D0 03 00 3C */	stfs f0, 0x3c(r3)
-/* 800A336C 0009E88C  4E 80 00 20 */	blr 
+/* 800A336C 0009E88C  4E 80 00 20 */	blr
 
 glabel PSMTX44Concat
 /* 800A3370 0009E890  E0 03 00 00 */	psq_l f0, 0(r3), 0, qr0
@@ -122,7 +122,7 @@ glabel PSMTX44Concat
 /* 800A3464 0009E984  F1 65 00 28 */	psq_st f11, 40(r5), 0, qr0
 /* 800A3468 0009E988  11 A5 68 5E */	ps_madds1 f13, f5, f1, f13
 /* 800A346C 0009E98C  F1 A5 00 38 */	psq_st f13, 56(r5), 0, qr0
-/* 800A3470 0009E990  4E 80 00 20 */	blr 
+/* 800A3470 0009E990  4E 80 00 20 */	blr
 
 glabel PSMTX44Transpose
 /* 800A3474 0009E994  E0 03 00 00 */	psq_l f0, 0(r3), 0, qr0
@@ -149,5 +149,5 @@ glabel PSMTX44Transpose
 /* 800A34C8 0009E9E8  F0 84 00 28 */	psq_st f4, 40(r4), 0, qr0
 /* 800A34CC 0009E9EC  10 A2 1C E0 */	ps_merge11 f5, f2, f3
 /* 800A34D0 0009E9F0  F0 A4 00 38 */	psq_st f5, 56(r4), 0, qr0
-/* 800A34D4 0009E9F4  4E 80 00 20 */	blr 
+/* 800A34D4 0009E9F4  4E 80 00 20 */	blr
 

@@ -48,7 +48,7 @@ glabel rfc_send_sabme
 /* 8010023C 000FB75C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80100240 000FB760  7C 08 03 A6 */	mtlr r0
 /* 80100244 000FB764  38 21 00 20 */	addi r1, r1, 0x20
-/* 80100248 000FB768  4E 80 00 20 */	blr 
+/* 80100248 000FB768  4E 80 00 20 */	blr
 
 glabel rfc_send_ua
 /* 8010024C 000FB76C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -96,7 +96,7 @@ glabel rfc_send_ua
 /* 801002EC 000FB80C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801002F0 000FB810  7C 08 03 A6 */	mtlr r0
 /* 801002F4 000FB814  38 21 00 20 */	addi r1, r1, 0x20
-/* 801002F8 000FB818  4E 80 00 20 */	blr 
+/* 801002F8 000FB818  4E 80 00 20 */	blr
 
 glabel rfc_send_dm
 /* 801002FC 000FB81C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -149,7 +149,7 @@ glabel rfc_send_dm
 /* 801003B0 000FB8D0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801003B4 000FB8D4  7C 08 03 A6 */	mtlr r0
 /* 801003B8 000FB8D8  38 21 00 20 */	addi r1, r1, 0x20
-/* 801003BC 000FB8DC  4E 80 00 20 */	blr 
+/* 801003BC 000FB8DC  4E 80 00 20 */	blr
 
 glabel rfc_send_disc
 /* 801003C0 000FB8E0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -197,7 +197,7 @@ glabel rfc_send_disc
 /* 80100460 000FB980  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80100464 000FB984  7C 08 03 A6 */	mtlr r0
 /* 80100468 000FB988  38 21 00 20 */	addi r1, r1, 0x20
-/* 8010046C 000FB98C  4E 80 00 20 */	blr 
+/* 8010046C 000FB98C  4E 80 00 20 */	blr
 
 glabel rfc_send_buf_uih
 /* 80100470 000FB990  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -311,7 +311,7 @@ glabel rfc_send_buf_uih
 /* 801005F8 000FBB18  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801005FC 000FBB1C  7C 08 03 A6 */	mtlr r0
 /* 80100600 000FBB20  38 21 00 20 */	addi r1, r1, 0x20
-/* 80100604 000FBB24  4E 80 00 20 */	blr 
+/* 80100604 000FBB24  4E 80 00 20 */	blr
 
 glabel rfc_send_pn
 /* 80100608 000FBB28  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -374,7 +374,7 @@ glabel rfc_send_pn
 /* 801006E0 000FBC00  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801006E4 000FBC04  7C 08 03 A6 */	mtlr r0
 /* 801006E8 000FBC08  38 21 00 20 */	addi r1, r1, 0x20
-/* 801006EC 000FBC0C  4E 80 00 20 */	blr 
+/* 801006EC 000FBC0C  4E 80 00 20 */	blr
 
 glabel rfc_send_fcon
 /* 801006F0 000FBC10  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -410,7 +410,7 @@ glabel rfc_send_fcon
 /* 80100764 000FBC84  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80100768 000FBC88  7C 08 03 A6 */	mtlr r0
 /* 8010076C 000FBC8C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80100770 000FBC90  4E 80 00 20 */	blr 
+/* 80100770 000FBC90  4E 80 00 20 */	blr
 
 glabel rfc_send_fcoff
 /* 80100774 000FBC94  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -446,7 +446,7 @@ glabel rfc_send_fcoff
 /* 801007E8 000FBD08  83 C1 00 08 */	lwz r30, 8(r1)
 /* 801007EC 000FBD0C  7C 08 03 A6 */	mtlr r0
 /* 801007F0 000FBD10  38 21 00 10 */	addi r1, r1, 0x10
-/* 801007F4 000FBD14  4E 80 00 20 */	blr 
+/* 801007F4 000FBD14  4E 80 00 20 */	blr
 
 glabel rfc_send_msc
 /* 801007F8 000FBD18  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -522,7 +522,7 @@ glabel rfc_send_msc
 /* 80100908 000FBE28  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8010090C 000FBE2C  7C 08 03 A6 */	mtlr r0
 /* 80100910 000FBE30  38 21 00 20 */	addi r1, r1, 0x20
-/* 80100914 000FBE34  4E 80 00 20 */	blr 
+/* 80100914 000FBE34  4E 80 00 20 */	blr
 
 glabel rfc_send_rls
 /* 80100918 000FBE38  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -569,7 +569,7 @@ glabel rfc_send_rls
 /* 801009B8 000FBED8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801009BC 000FBEDC  7C 08 03 A6 */	mtlr r0
 /* 801009C0 000FBEE0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801009C4 000FBEE4  4E 80 00 20 */	blr 
+/* 801009C4 000FBEE4  4E 80 00 20 */	blr
 
 glabel rfc_send_rpn
 /* 801009C8 000FBEE8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -645,7 +645,7 @@ glabel rfc_send_rpn
 /* 80100AD4 000FBFF4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80100AD8 000FBFF8  7C 08 03 A6 */	mtlr r0
 /* 80100ADC 000FBFFC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80100AE0 000FC000  4E 80 00 20 */	blr 
+/* 80100AE0 000FC000  4E 80 00 20 */	blr
 
 glabel rfc_send_test
 /* 80100AE4 000FC004  A0 05 00 04 */	lhz r0, 4(r5)
@@ -744,7 +744,7 @@ glabel rfc_send_credit
 /* 80100C3C 000FC15C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80100C40 000FC160  7C 08 03 A6 */	mtlr r0
 /* 80100C44 000FC164  38 21 00 20 */	addi r1, r1, 0x20
-/* 80100C48 000FC168  4E 80 00 20 */	blr 
+/* 80100C48 000FC168  4E 80 00 20 */	blr
 
 glabel rfc_parse_data
 /* 80100C4C 000FC16C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1144,7 +1144,7 @@ glabel rfc_parse_data
 /* 801011B0 000FC6D0  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 801011B4 000FC6D4  7C 08 03 A6 */	mtlr r0
 /* 801011B8 000FC6D8  38 21 00 20 */	addi r1, r1, 0x20
-/* 801011BC 000FC6DC  4E 80 00 20 */	blr 
+/* 801011BC 000FC6DC  4E 80 00 20 */	blr
 
 glabel rfc_process_mx_message
 /* 801011C0 000FC6E0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1572,5 +1572,5 @@ glabel rfc_process_mx_message
 /* 801017D4 000FCCF4  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801017D8 000FCCF8  7C 08 03 A6 */	mtlr r0
 /* 801017DC 000FCCFC  38 21 00 20 */	addi r1, r1, 0x20
-/* 801017E0 000FCD00  4E 80 00 20 */	blr 
+/* 801017E0 000FCD00  4E 80 00 20 */	blr
 

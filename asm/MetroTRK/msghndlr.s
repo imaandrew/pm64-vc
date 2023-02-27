@@ -56,7 +56,7 @@ glabel TRKDoSetOption
 /* 8016FBFC 0016B11C  83 C1 00 48 */	lwz r30, 0x48(r1)
 /* 8016FC00 0016B120  7C 08 03 A6 */	mtlr r0
 /* 8016FC04 0016B124  38 21 00 50 */	addi r1, r1, 0x50
-/* 8016FC08 0016B128  4E 80 00 20 */	blr 
+/* 8016FC08 0016B128  4E 80 00 20 */	blr
 
 glabel TRKDoStop
 /* 8016FC0C 0016B12C  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -116,7 +116,7 @@ glabel TRKDoStop
 /* 8016FCC8 0016B1E8  83 E1 00 4C */	lwz r31, 0x4c(r1)
 /* 8016FCCC 0016B1EC  7C 08 03 A6 */	mtlr r0
 /* 8016FCD0 0016B1F0  38 21 00 50 */	addi r1, r1, 0x50
-/* 8016FCD4 0016B1F4  4E 80 00 20 */	blr 
+/* 8016FCD4 0016B1F4  4E 80 00 20 */	blr
 
 glabel TRKDoStep
 /* 8016FCD8 0016B1F8  94 21 FE A0 */	stwu r1, -0x160(r1)
@@ -310,7 +310,7 @@ glabel TRKDoStep
 /* 8016FF9C 0016B4BC  80 01 01 64 */	lwz r0, 0x164(r1)
 /* 8016FFA0 0016B4C0  7C 08 03 A6 */	mtlr r0
 /* 8016FFA4 0016B4C4  38 21 01 60 */	addi r1, r1, 0x160
-/* 8016FFA8 0016B4C8  4E 80 00 20 */	blr 
+/* 8016FFA8 0016B4C8  4E 80 00 20 */	blr
 
 glabel TRKDoContinue
 /* 8016FFAC 0016B4CC  94 21 FF 70 */	stwu r1, -0x90(r1)
@@ -373,7 +373,7 @@ glabel lbl_80170004
 /* 80170080 0016B5A0  80 01 00 94 */	lwz r0, 0x94(r1)
 /* 80170084 0016B5A4  7C 08 03 A6 */	mtlr r0
 /* 80170088 0016B5A8  38 21 00 90 */	addi r1, r1, 0x90
-/* 8017008C 0016B5AC  4E 80 00 20 */	blr 
+/* 8017008C 0016B5AC  4E 80 00 20 */	blr
 
 glabel TRKDoWriteRegisters
 /* 80170090 0016B5B0  94 21 FF 20 */	stwu r1, -0xe0(r1)
@@ -571,7 +571,7 @@ glabel TRKDoWriteRegisters
 /* 8017033C 0016B85C  83 81 00 D0 */	lwz r28, 0xd0(r1)
 /* 80170340 0016B860  7C 08 03 A6 */	mtlr r0
 /* 80170344 0016B864  38 21 00 E0 */	addi r1, r1, 0xe0
-/* 80170348 0016B868  4E 80 00 20 */	blr 
+/* 80170348 0016B868  4E 80 00 20 */	blr
 
 glabel TRKDoReadRegisters
 /* 8017034C 0016B86C  94 21 FF 20 */	stwu r1, -0xe0(r1)
@@ -725,7 +725,7 @@ glabel TRKDoReadRegisters
 /* 80170560 0016BA80  83 E1 00 DC */	lwz r31, 0xdc(r1)
 /* 80170564 0016BA84  7C 08 03 A6 */	mtlr r0
 /* 80170568 0016BA88  38 21 00 E0 */	addi r1, r1, 0xe0
-/* 8017056C 0016BA8C  4E 80 00 20 */	blr 
+/* 8017056C 0016BA8C  4E 80 00 20 */	blr
 
 glabel TRKDoWriteMemory
 /* 80170570 0016BA90  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -820,7 +820,7 @@ glabel TRKDoWriteMemory
 /* 801706CC 0016BBEC  38 63 DE D8 */	addi r3, r3, lbl_801ADED8@l
 /* 801706D0 0016BBF0  7C 03 00 2E */	lwzx r0, r3, r0
 /* 801706D4 0016BBF4  7C 09 03 A6 */	mtctr r0
-/* 801706D8 0016BBF8  4E 80 04 20 */	bctr 
+/* 801706D8 0016BBF8  4E 80 04 20 */	bctr
 
 glabel lbl_801706DC
 /* 801706DC 0016BBFC  3B E0 00 15 */	li r31, 0x15
@@ -879,7 +879,7 @@ glabel lbl_80170704
 /* 8017077C 0016BC9C  83 AA FF F4 */	lwz r29, -0xc(r10)
 /* 80170780 0016BCA0  7C 08 03 A6 */	mtlr r0
 /* 80170784 0016BCA4  7D 41 53 78 */	mr r1, r10
-/* 80170788 0016BCA8  4E 80 00 20 */	blr 
+/* 80170788 0016BCA8  4E 80 00 20 */	blr
 
 glabel TRKDoReadMemory
 /* 8017078C 0016BCAC  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -985,7 +985,7 @@ glabel TRKDoReadMemory
 /* 80170910 0016BE30  38 63 DE F4 */	addi r3, r3, lbl_801ADEF4@l
 /* 80170914 0016BE34  7C 03 00 2E */	lwzx r0, r3, r0
 /* 80170918 0016BE38  7C 09 03 A6 */	mtctr r0
-/* 8017091C 0016BE3C  4E 80 04 20 */	bctr 
+/* 8017091C 0016BE3C  4E 80 04 20 */	bctr
 
 glabel lbl_80170920
 /* 80170920 0016BE40  3B A0 00 15 */	li r29, 0x15
@@ -1045,15 +1045,15 @@ glabel lbl_80170948
 /* 801709C4 0016BEE4  83 8A FF F0 */	lwz r28, -0x10(r10)
 /* 801709C8 0016BEE8  7C 08 03 A6 */	mtlr r0
 /* 801709CC 0016BEEC  7D 41 53 78 */	mr r1, r10
-/* 801709D0 0016BEF0  4E 80 00 20 */	blr 
+/* 801709D0 0016BEF0  4E 80 00 20 */	blr
 
 glabel TRKDoSupportMask
 /* 801709D4 0016BEF4  38 60 00 00 */	li r3, 0
-/* 801709D8 0016BEF8  4E 80 00 20 */	blr 
+/* 801709D8 0016BEF8  4E 80 00 20 */	blr
 
 glabel TRKDoVersions
 /* 801709DC 0016BEFC  38 60 00 00 */	li r3, 0
-/* 801709E0 0016BF00  4E 80 00 20 */	blr 
+/* 801709E0 0016BF00  4E 80 00 20 */	blr
 
 glabel TRKDoOverride
 /* 801709E4 0016BF04  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -1086,7 +1086,7 @@ glabel TRKDoOverride
 /* 80170A50 0016BF70  38 60 00 00 */	li r3, 0
 /* 80170A54 0016BF74  7C 08 03 A6 */	mtlr r0
 /* 80170A58 0016BF78  38 21 00 50 */	addi r1, r1, 0x50
-/* 80170A5C 0016BF7C  4E 80 00 20 */	blr 
+/* 80170A5C 0016BF7C  4E 80 00 20 */	blr
 
 glabel TRKDoReset
 /* 80170A60 0016BF80  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -1119,7 +1119,7 @@ glabel TRKDoReset
 /* 80170ACC 0016BFEC  38 60 00 00 */	li r3, 0
 /* 80170AD0 0016BFF0  7C 08 03 A6 */	mtlr r0
 /* 80170AD4 0016BFF4  38 21 00 50 */	addi r1, r1, 0x50
-/* 80170AD8 0016BFF8  4E 80 00 20 */	blr 
+/* 80170AD8 0016BFF8  4E 80 00 20 */	blr
 
 glabel TRKDoDisconnect
 /* 80170ADC 0016BFFC  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -1160,7 +1160,7 @@ glabel TRKDoDisconnect
 /* 80170B68 0016C088  38 60 00 00 */	li r3, 0
 /* 80170B6C 0016C08C  7C 08 03 A6 */	mtlr r0
 /* 80170B70 0016C090  38 21 00 60 */	addi r1, r1, 0x60
-/* 80170B74 0016C094  4E 80 00 20 */	blr 
+/* 80170B74 0016C094  4E 80 00 20 */	blr
 
 glabel TRKDoConnect
 /* 80170B78 0016C098  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -1196,18 +1196,18 @@ glabel TRKDoConnect
 /* 80170BF0 0016C110  38 60 00 00 */	li r3, 0
 /* 80170BF4 0016C114  7C 08 03 A6 */	mtlr r0
 /* 80170BF8 0016C118  38 21 00 50 */	addi r1, r1, 0x50
-/* 80170BFC 0016C11C  4E 80 00 20 */	blr 
+/* 80170BFC 0016C11C  4E 80 00 20 */	blr
 
 glabel SetTRKConnected
 /* 80170C00 0016C120  3C 80 80 24 */	lis r4, lbl_802459BC@ha
 /* 80170C04 0016C124  90 64 59 BC */	stw r3, lbl_802459BC@l(r4)
-/* 80170C08 0016C128  4E 80 00 20 */	blr 
+/* 80170C08 0016C128  4E 80 00 20 */	blr
 
 glabel GetTRKConnected
 /* 80170C0C 0016C12C  3C 60 80 24 */	lis r3, lbl_802459BC@ha
 /* 80170C10 0016C130  38 63 59 BC */	addi r3, r3, lbl_802459BC@l
 /* 80170C14 0016C134  80 63 00 00 */	lwz r3, 0(r3)
-/* 80170C18 0016C138  4E 80 00 20 */	blr 
+/* 80170C18 0016C138  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

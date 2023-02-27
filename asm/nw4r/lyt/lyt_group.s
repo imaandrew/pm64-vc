@@ -42,7 +42,7 @@ glabel __ct__Q36nw4hbm3lyt5GroupFPCQ46nw4hbm3lyt3res5GroupPQ36nw4hbm3lyt4Pane
 /* 8011A474 00115994  38 A0 00 01 */	li r5, 1
 /* 8011A478 00115998  81 8C 00 3C */	lwz r12, 0x3c(r12)
 /* 8011A47C 0011599C  7D 89 03 A6 */	mtctr r12
-/* 8011A480 001159A0  4E 80 04 21 */	bctrl 
+/* 8011A480 001159A0  4E 80 04 21 */	bctrl
 /* 8011A484 001159A4  2C 03 00 00 */	cmpwi r3, 0
 /* 8011A488 001159A8  7C 7D 1B 78 */	mr r29, r3
 /* 8011A48C 001159AC  41 82 00 60 */	beq .L_8011A4EC
@@ -84,7 +84,7 @@ glabel __ct__Q36nw4hbm3lyt5GroupFPCQ46nw4hbm3lyt3res5GroupPQ36nw4hbm3lyt4Pane
 /* 8011A50C 00115A2C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8011A510 00115A30  7C 08 03 A6 */	mtlr r0
 /* 8011A514 00115A34  38 21 00 40 */	addi r1, r1, 0x40
-/* 8011A518 00115A38  4E 80 00 20 */	blr 
+/* 8011A518 00115A38  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt5GroupFv
 /* 8011A51C 00115A3C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -152,7 +152,7 @@ glabel __dt__Q36nw4hbm3lyt5GroupFv
 /* 8011A5FC 00115B1C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8011A600 00115B20  7C 08 03 A6 */	mtlr r0
 /* 8011A604 00115B24  38 21 00 40 */	addi r1, r1, 0x40
-/* 8011A608 00115B28  4E 80 00 20 */	blr 
+/* 8011A608 00115B28  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt14GroupContainerFv
 /* 8011A60C 00115B2C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -203,7 +203,7 @@ glabel __dt__Q36nw4hbm3lyt14GroupContainerFv
 /* 8011A6B4 00115BD4  38 80 FF FF */	li r4, -1
 /* 8011A6B8 00115BD8  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8011A6BC 00115BDC  7D 89 03 A6 */	mtctr r12
-/* 8011A6C0 00115BE0  4E 80 04 21 */	bctrl 
+/* 8011A6C0 00115BE0  4E 80 04 21 */	bctrl
 /* 8011A6C4 00115BE4  2C 18 00 00 */	cmpwi r24, 0
 /* 8011A6C8 00115BE8  40 82 00 18 */	bne .L_8011A6E0
 /* 8011A6CC 00115BEC  38 79 2A 88 */	addi r3, r25, lbl_801A2A88@l
@@ -243,7 +243,7 @@ glabel __dt__Q36nw4hbm3lyt14GroupContainerFv
 /* 8011A740 00115C60  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8011A744 00115C64  7C 08 03 A6 */	mtlr r0
 /* 8011A748 00115C68  38 21 00 40 */	addi r1, r1, 0x40
-/* 8011A74C 00115C6C  4E 80 00 20 */	blr 
+/* 8011A74C 00115C6C  4E 80 00 20 */	blr
 
 glabel AppendGroup__Q36nw4hbm3lyt14GroupContainerFPQ36nw4hbm3lyt5Group
 /* 8011A750 00115C70  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -276,7 +276,7 @@ glabel AppendGroup__Q36nw4hbm3lyt14GroupContainerFPQ36nw4hbm3lyt5Group
 /* 8011A7B8 00115CD8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8011A7BC 00115CDC  7C 08 03 A6 */	mtlr r0
 /* 8011A7C0 00115CE0  38 21 00 20 */	addi r1, r1, 0x20
-/* 8011A7C4 00115CE4  4E 80 00 20 */	blr 
+/* 8011A7C4 00115CE4  4E 80 00 20 */	blr
 
 glabel FindGroupByName__Q36nw4hbm3lyt14GroupContainerFPCc
 /* 8011A7C8 00115CE8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -338,5 +338,5 @@ glabel FindGroupByName__Q36nw4hbm3lyt14GroupContainerFPCc
 /* 8011A88C 00115DAC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8011A890 00115DB0  7C 08 03 A6 */	mtlr r0
 /* 8011A894 00115DB4  38 21 00 20 */	addi r1, r1, 0x20
-/* 8011A898 00115DB8  4E 80 00 20 */	blr 
+/* 8011A898 00115DB8  4E 80 00 20 */	blr
 

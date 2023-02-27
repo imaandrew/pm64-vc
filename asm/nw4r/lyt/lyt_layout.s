@@ -15,7 +15,7 @@ glabel SetTagProcessorImpl__24lyt_layout_cppFPQ36nw4hbm3lyt4PanePQ36nw4hbm2ut19T
 /* 8011A8C0 00115DE0  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8011A8C4 00115DE4  3A B5 91 50 */	addi r21, r21, lbl_80229150@l
 /* 8011A8C8 00115DE8  7D 89 03 A6 */	mtctr r12
-/* 8011A8CC 00115DEC  4E 80 04 21 */	bctrl 
+/* 8011A8CC 00115DEC  4E 80 04 21 */	bctrl
 /* 8011A8D0 00115DF0  48 00 00 18 */	b .L_8011A8E8
 .L_8011A8D4:
 /* 8011A8D4 00115DF4  7C 03 A8 40 */	cmplw r3, r21
@@ -70,7 +70,7 @@ glabel SetTagProcessorImpl__24lyt_layout_cppFPQ36nw4hbm3lyt4PanePQ36nw4hbm2ut19T
 /* 8011A974 00115E94  7F 23 CB 78 */	mr r3, r25
 /* 8011A978 00115E98  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8011A97C 00115E9C  7D 89 03 A6 */	mtctr r12
-/* 8011A980 00115EA0  4E 80 04 21 */	bctrl 
+/* 8011A980 00115EA0  4E 80 04 21 */	bctrl
 /* 8011A984 00115EA4  48 00 00 18 */	b .L_8011A99C
 .L_8011A988:
 /* 8011A988 00115EA8  7C 03 A0 40 */	cmplw r3, r20
@@ -119,7 +119,7 @@ glabel SetTagProcessorImpl__24lyt_layout_cppFPQ36nw4hbm3lyt4PanePQ36nw4hbm2ut19T
 /* 8011AA10 00115F30  7F 23 CB 78 */	mr r3, r25
 /* 8011AA14 00115F34  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8011AA18 00115F38  7D 89 03 A6 */	mtctr r12
-/* 8011AA1C 00115F3C  4E 80 04 21 */	bctrl 
+/* 8011AA1C 00115F3C  4E 80 04 21 */	bctrl
 /* 8011AA20 00115F40  48 00 00 18 */	b .L_8011AA38
 .L_8011AA24:
 /* 8011AA24 00115F44  7C 03 A0 40 */	cmplw r3, r20
@@ -183,7 +183,7 @@ glabel SetTagProcessorImpl__24lyt_layout_cppFPQ36nw4hbm3lyt4PanePQ36nw4hbm2ut19T
 /* 8011AADC 00115FFC  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8011AAE0 00116000  7C 08 03 A6 */	mtlr r0
 /* 8011AAE4 00116004  38 21 00 40 */	addi r1, r1, 0x40
-/* 8011AAE8 00116008  4E 80 00 20 */	blr 
+/* 8011AAE8 00116008  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm3lyt6LayoutFv
 /* 8011AAEC 0011600C  38 00 00 00 */	li r0, 0
@@ -203,7 +203,7 @@ glabel __ct__Q36nw4hbm3lyt6LayoutFv
 /* 8011AB24 00116044  D0 03 00 18 */	stfs f0, 0x18(r3)
 /* 8011AB28 00116048  D0 03 00 1C */	stfs f0, 0x1c(r3)
 /* 8011AB2C 0011604C  98 03 00 20 */	stb r0, 0x20(r3)
-/* 8011AB30 00116050  4E 80 00 20 */	blr 
+/* 8011AB30 00116050  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt6LayoutFv
 /* 8011AB34 00116054  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -239,7 +239,7 @@ glabel __dt__Q36nw4hbm3lyt6LayoutFv
 /* 8011ABA8 001160C8  38 80 FF FF */	li r4, -1
 /* 8011ABAC 001160CC  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8011ABB0 001160D0  7D 89 03 A6 */	mtctr r12
-/* 8011ABB4 001160D4  4E 80 04 21 */	bctrl 
+/* 8011ABB4 001160D4  4E 80 04 21 */	bctrl
 /* 8011ABB8 001160D8  3C 60 80 23 */	lis r3, lbl_80229138@ha
 /* 8011ABBC 001160DC  80 96 00 10 */	lwz r4, 0x10(r22)
 /* 8011ABC0 001160E0  80 63 91 38 */	lwz r3, lbl_80229138@l(r3)
@@ -273,7 +273,7 @@ glabel __dt__Q36nw4hbm3lyt6LayoutFv
 /* 8011AC24 00116144  38 80 FF FF */	li r4, -1
 /* 8011AC28 00116148  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8011AC2C 0011614C  7D 89 03 A6 */	mtctr r12
-/* 8011AC30 00116150  4E 80 04 21 */	bctrl 
+/* 8011AC30 00116150  4E 80 04 21 */	bctrl
 /* 8011AC34 00116154  2C 18 00 00 */	cmpwi r24, 0
 /* 8011AC38 00116158  40 82 00 18 */	bne .L_8011AC50
 /* 8011AC3C 0011615C  38 79 2C F0 */	addi r3, r25, lbl_801A2CF0@l
@@ -312,7 +312,7 @@ glabel __dt__Q36nw4hbm3lyt6LayoutFv
 /* 8011ACAC 001161CC  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8011ACB0 001161D0  7C 08 03 A6 */	mtlr r0
 /* 8011ACB4 001161D4  38 21 00 40 */	addi r1, r1, 0x40
-/* 8011ACB8 001161D8  4E 80 00 20 */	blr 
+/* 8011ACB8 001161D8  4E 80 00 20 */	blr
 
 glabel Build__Q36nw4hbm3lyt6LayoutFPCvPQ36nw4hbm3lyt16ResourceAccessor
 /* 8011ACBC 001161DC  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -583,7 +583,7 @@ glabel lbl_8011B03C
 /* 8011B058 00116578  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 8011B05C 0011657C  7C 08 03 A6 */	mtlr r0
 /* 8011B060 00116580  38 21 00 60 */	addi r1, r1, 0x60
-/* 8011B064 00116584  4E 80 00 20 */	blr 
+/* 8011B064 00116584  4E 80 00 20 */	blr
 
 glabel CreateAnimTransform__Q36nw4hbm3lyt6LayoutFPCvPQ36nw4hbm3lyt16ResourceAccessor
 /* 8011B068 00116588  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -718,7 +718,7 @@ glabel CreateAnimTransform__Q36nw4hbm3lyt6LayoutFPCvPQ36nw4hbm3lyt16ResourceAcce
 /* 8011B238 00116758  7F 45 D3 78 */	mr r5, r26
 /* 8011B23C 0011675C  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8011B240 00116760  7D 89 03 A6 */	mtctr r12
-/* 8011B244 00116764  4E 80 04 21 */	bctrl 
+/* 8011B244 00116764  4E 80 04 21 */	bctrl
 /* 8011B248 00116768  7E BC AB 78 */	mr r28, r21
 .L_8011B24C:
 /* 8011B24C 0011676C  2C 1C 00 00 */	cmpwi r28, 0
@@ -751,77 +751,77 @@ glabel CreateAnimTransform__Q36nw4hbm3lyt6LayoutFPCvPQ36nw4hbm3lyt16ResourceAcce
 /* 8011B2A8 001167C8  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 8011B2AC 001167CC  7C 08 03 A6 */	mtlr r0
 /* 8011B2B0 001167D0  38 21 00 50 */	addi r1, r1, 0x50
-/* 8011B2B4 001167D4  4E 80 00 20 */	blr 
+/* 8011B2B4 001167D4  4E 80 00 20 */	blr
 
 glabel lbl_8011B2B8
 /* 8011B2B8 001167D8  80 63 00 10 */	lwz r3, 0x10(r3)
 /* 8011B2BC 001167DC  2C 03 00 00 */	cmpwi r3, 0
-/* 8011B2C0 001167E0  4D 82 00 20 */	beqlr 
+/* 8011B2C0 001167E0  4D 82 00 20 */	beqlr
 /* 8011B2C4 001167E4  81 83 00 00 */	lwz r12, 0(r3)
 /* 8011B2C8 001167E8  38 A0 00 01 */	li r5, 1
 /* 8011B2CC 001167EC  81 8C 00 44 */	lwz r12, 0x44(r12)
 /* 8011B2D0 001167F0  7D 89 03 A6 */	mtctr r12
-/* 8011B2D4 001167F4  4E 80 04 20 */	bctr 
-/* 8011B2D8 001167F8  4E 80 00 20 */	blr 
+/* 8011B2D4 001167F4  4E 80 04 20 */	bctr
+/* 8011B2D8 001167F8  4E 80 00 20 */	blr
 
 glabel lbl_8011B2DC
 /* 8011B2DC 001167FC  80 63 00 10 */	lwz r3, 0x10(r3)
 /* 8011B2E0 00116800  2C 03 00 00 */	cmpwi r3, 0
-/* 8011B2E4 00116804  4D 82 00 20 */	beqlr 
+/* 8011B2E4 00116804  4D 82 00 20 */	beqlr
 /* 8011B2E8 00116808  81 83 00 00 */	lwz r12, 0(r3)
 /* 8011B2EC 0011680C  38 A0 00 01 */	li r5, 1
 /* 8011B2F0 00116810  81 8C 00 48 */	lwz r12, 0x48(r12)
 /* 8011B2F4 00116814  7D 89 03 A6 */	mtctr r12
-/* 8011B2F8 00116818  4E 80 04 20 */	bctr 
-/* 8011B2FC 0011681C  4E 80 00 20 */	blr 
+/* 8011B2F8 00116818  4E 80 04 20 */	bctr
+/* 8011B2FC 0011681C  4E 80 00 20 */	blr
 
 glabel lbl_8011B300
 /* 8011B300 00116820  81 83 00 00 */	lwz r12, 0(r3)
 /* 8011B304 00116824  38 80 00 00 */	li r4, 0
 /* 8011B308 00116828  81 8C 00 18 */	lwz r12, 0x18(r12)
 /* 8011B30C 0011682C  7D 89 03 A6 */	mtctr r12
-/* 8011B310 00116830  4E 80 04 20 */	bctr 
+/* 8011B310 00116830  4E 80 04 20 */	bctr
 
 glabel lbl_8011B314
 /* 8011B314 00116834  80 63 00 10 */	lwz r3, 0x10(r3)
 /* 8011B318 00116838  2C 03 00 00 */	cmpwi r3, 0
-/* 8011B31C 0011683C  4D 82 00 20 */	beqlr 
+/* 8011B31C 0011683C  4D 82 00 20 */	beqlr
 /* 8011B320 00116840  81 83 00 00 */	lwz r12, 0(r3)
 /* 8011B324 00116844  38 C0 00 01 */	li r6, 1
 /* 8011B328 00116848  81 8C 00 58 */	lwz r12, 0x58(r12)
 /* 8011B32C 0011684C  7D 89 03 A6 */	mtctr r12
-/* 8011B330 00116850  4E 80 04 20 */	bctr 
-/* 8011B334 00116854  4E 80 00 20 */	blr 
+/* 8011B330 00116850  4E 80 04 20 */	bctr
+/* 8011B334 00116854  4E 80 00 20 */	blr
 
 glabel lbl_8011B338
 /* 8011B338 00116858  80 63 00 10 */	lwz r3, 0x10(r3)
 /* 8011B33C 0011685C  2C 03 00 00 */	cmpwi r3, 0
-/* 8011B340 00116860  4D 82 00 20 */	beqlr 
+/* 8011B340 00116860  4D 82 00 20 */	beqlr
 /* 8011B344 00116864  81 83 00 00 */	lwz r12, 0(r3)
 /* 8011B348 00116868  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8011B34C 0011686C  7D 89 03 A6 */	mtctr r12
-/* 8011B350 00116870  4E 80 04 20 */	bctr 
-/* 8011B354 00116874  4E 80 00 20 */	blr 
+/* 8011B350 00116870  4E 80 04 20 */	bctr
+/* 8011B354 00116874  4E 80 00 20 */	blr
 
 glabel lbl_8011B358
 /* 8011B358 00116878  80 63 00 10 */	lwz r3, 0x10(r3)
 /* 8011B35C 0011687C  2C 03 00 00 */	cmpwi r3, 0
-/* 8011B360 00116880  4D 82 00 20 */	beqlr 
+/* 8011B360 00116880  4D 82 00 20 */	beqlr
 /* 8011B364 00116884  81 83 00 00 */	lwz r12, 0(r3)
 /* 8011B368 00116888  81 8C 00 14 */	lwz r12, 0x14(r12)
 /* 8011B36C 0011688C  7D 89 03 A6 */	mtctr r12
-/* 8011B370 00116890  4E 80 04 20 */	bctr 
-/* 8011B374 00116894  4E 80 00 20 */	blr 
+/* 8011B370 00116890  4E 80 04 20 */	bctr
+/* 8011B374 00116894  4E 80 00 20 */	blr
 
 glabel lbl_8011B378
 /* 8011B378 00116898  80 63 00 10 */	lwz r3, 0x10(r3)
 /* 8011B37C 0011689C  2C 03 00 00 */	cmpwi r3, 0
-/* 8011B380 001168A0  4D 82 00 20 */	beqlr 
+/* 8011B380 001168A0  4D 82 00 20 */	beqlr
 /* 8011B384 001168A4  81 83 00 00 */	lwz r12, 0(r3)
 /* 8011B388 001168A8  81 8C 00 1C */	lwz r12, 0x1c(r12)
 /* 8011B38C 001168AC  7D 89 03 A6 */	mtctr r12
-/* 8011B390 001168B0  4E 80 04 20 */	bctr 
-/* 8011B394 001168B4  4E 80 00 20 */	blr 
+/* 8011B390 001168B0  4E 80 04 20 */	bctr
+/* 8011B394 001168B4  4E 80 00 20 */	blr
 
 glabel GetLayoutRect__Q36nw4hbm3lyt6LayoutCFv
 /* 8011B398 001168B8  88 04 00 20 */	lbz r0, 0x20(r4)
@@ -841,7 +841,7 @@ glabel GetLayoutRect__Q36nw4hbm3lyt6LayoutCFv
 /* 8011B3D0 001168F0  D0 23 00 04 */	stfs f1, 4(r3)
 /* 8011B3D4 001168F4  D0 03 00 00 */	stfs f0, 0(r3)
 /* 8011B3D8 001168F8  D0 63 00 0C */	stfs f3, 0xc(r3)
-/* 8011B3DC 001168FC  4E 80 00 20 */	blr 
+/* 8011B3DC 001168FC  4E 80 00 20 */	blr
 .L_8011B3E0:
 /* 8011B3E0 00116900  3C A0 80 17 */	lis r5, lbl_80176500@ha
 /* 8011B3E4 00116904  C0 44 00 1C */	lfs f2, 0x1c(r4)
@@ -851,7 +851,7 @@ glabel GetLayoutRect__Q36nw4hbm3lyt6LayoutCFv
 /* 8011B3F4 00116914  D0 03 00 04 */	stfs f0, 4(r3)
 /* 8011B3F8 00116918  D0 23 00 08 */	stfs f1, 8(r3)
 /* 8011B3FC 0011691C  D0 43 00 0C */	stfs f2, 0xc(r3)
-/* 8011B400 00116920  4E 80 00 20 */	blr 
+/* 8011B400 00116920  4E 80 00 20 */	blr
 
 glabel SetTagProcessor__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm2ut19TagProcessorBase
 /* 8011B404 00116924  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -867,7 +867,7 @@ glabel SetTagProcessor__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm2ut19TagProcessorBase
 /* 8011B42C 0011694C  3A 94 91 50 */	addi r20, r20, lbl_80229150@l
 /* 8011B430 00116950  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8011B434 00116954  7D 89 03 A6 */	mtctr r12
-/* 8011B438 00116958  4E 80 04 21 */	bctrl 
+/* 8011B438 00116958  4E 80 04 21 */	bctrl
 /* 8011B43C 0011695C  48 00 00 18 */	b .L_8011B454
 .L_8011B440:
 /* 8011B440 00116960  7C 03 A0 40 */	cmplw r3, r20
@@ -922,7 +922,7 @@ glabel SetTagProcessor__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm2ut19TagProcessorBase
 /* 8011B4E0 00116A00  7F 23 CB 78 */	mr r3, r25
 /* 8011B4E4 00116A04  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8011B4E8 00116A08  7D 89 03 A6 */	mtctr r12
-/* 8011B4EC 00116A0C  4E 80 04 21 */	bctrl 
+/* 8011B4EC 00116A0C  4E 80 04 21 */	bctrl
 /* 8011B4F0 00116A10  48 00 00 18 */	b .L_8011B508
 .L_8011B4F4:
 /* 8011B4F4 00116A14  7C 03 A0 40 */	cmplw r3, r20
@@ -971,7 +971,7 @@ glabel SetTagProcessor__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm2ut19TagProcessorBase
 /* 8011B57C 00116A9C  7F 23 CB 78 */	mr r3, r25
 /* 8011B580 00116AA0  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8011B584 00116AA4  7D 89 03 A6 */	mtctr r12
-/* 8011B588 00116AA8  4E 80 04 21 */	bctrl 
+/* 8011B588 00116AA8  4E 80 04 21 */	bctrl
 /* 8011B58C 00116AAC  48 00 00 18 */	b .L_8011B5A4
 .L_8011B590:
 /* 8011B590 00116AB0  7C 03 A0 40 */	cmplw r3, r20
@@ -1035,7 +1035,7 @@ glabel SetTagProcessor__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm2ut19TagProcessorBase
 /* 8011B648 00116B68  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8011B64C 00116B6C  7C 08 03 A6 */	mtlr r0
 /* 8011B650 00116B70  38 21 00 40 */	addi r1, r1, 0x40
-/* 8011B654 00116B74  4E 80 00 20 */	blr 
+/* 8011B654 00116B74  4E 80 00 20 */	blr
 
 glabel BuildPaneObj__Q36nw4hbm3lyt6LayoutFlPCvRCQ36nw4hbm3lyt11ResBlockSet
 /* 8011B658 00116B78  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -1193,5 +1193,5 @@ glabel BuildPaneObj__Q36nw4hbm3lyt6LayoutFlPCvRCQ36nw4hbm3lyt11ResBlockSet
 /* 8011B884 00116DA4  83 E1 00 4C */	lwz r31, 0x4c(r1)
 /* 8011B888 00116DA8  7C 08 03 A6 */	mtlr r0
 /* 8011B88C 00116DAC  38 21 00 50 */	addi r1, r1, 0x50
-/* 8011B890 00116DB0  4E 80 00 20 */	blr 
+/* 8011B890 00116DB0  4E 80 00 20 */	blr
 

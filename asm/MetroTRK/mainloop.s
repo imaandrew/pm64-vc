@@ -76,7 +76,7 @@ glabel TRKNubMainLoop
 /* 8016EB9C 0016A0BC  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 8016EBA0 0016A0C0  7C 08 03 A6 */	mtlr r0
 /* 8016EBA4 0016A0C4  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016EBA8 0016A0C8  4E 80 00 20 */	blr 
+/* 8016EBA8 0016A0C8  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

@@ -58,7 +58,7 @@ glabel GetInstance__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 80142530 0013DA50  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80142534 0013DA54  7C 08 03 A6 */	mtlr r0
 /* 80142538 0013DA58  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014253C 0013DA5C  4E 80 00 20 */	blr 
+/* 8014253C 0013DA5C  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 80142540 0013DA60  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -87,7 +87,7 @@ glabel __dt__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 80142598 0013DAB8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014259C 0013DABC  7C 08 03 A6 */	mtlr r0
 /* 801425A0 0013DAC0  38 21 00 10 */	addi r1, r1, 0x10
-/* 801425A4 0013DAC4  4E 80 00 20 */	blr 
+/* 801425A4 0013DAC4  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut37LinkList__Q46nw4hbm3snd6detail4Task__Fv
 /* 801425A8 0013DAC8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -112,7 +112,7 @@ glabel __dt__Q36nw4hbm2ut37LinkList__Q46nw4hbm3snd6detail4Task__Fv
 /* 801425F0 0013DB10  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801425F4 0013DB14  7C 08 03 A6 */	mtlr r0
 /* 801425F8 0013DB18  38 21 00 10 */	addi r1, r1, 0x10
-/* 801425FC 0013DB1C  4E 80 00 20 */	blr 
+/* 801425FC 0013DB1C  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm2ut37LinkList__Q46nw4hbm3snd6detail4Task__Fv
 /* 80142600 0013DB20  38 00 00 00 */	li r0, 0
@@ -122,7 +122,7 @@ glabel __ct__Q36nw4hbm2ut37LinkList__Q46nw4hbm3snd6detail4Task__Fv
 /* 80142610 0013DB30  90 03 00 00 */	stw r0, 0(r3)
 /* 80142614 0013DB34  90 83 00 04 */	stw r4, 4(r3)
 /* 80142618 0013DB38  90 83 00 08 */	stw r4, 8(r3)
-/* 8014261C 0013DB3C  4E 80 00 20 */	blr 
+/* 8014261C 0013DB3C  4E 80 00 20 */	blr
 
 glabel Alloc__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 80142620 0013DB40  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -177,12 +177,12 @@ glabel Alloc__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 801426D4 0013DBF4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801426D8 0013DBF8  7C 08 03 A6 */	mtlr r0
 /* 801426DC 0013DBFC  38 21 00 20 */	addi r1, r1, 0x20
-/* 801426E0 0013DC00  4E 80 00 20 */	blr 
+/* 801426E0 0013DC00  4E 80 00 20 */	blr
 
 glabel GetTaskBufferSize__Q46nw4hbm3snd6detail11TaskManagerCFv
 /* 801426E4 0013DC04  80 63 00 18 */	lwz r3, 0x18(r3)
 /* 801426E8 0013DC08  80 63 00 40 */	lwz r3, 0x40(r3)
-/* 801426EC 0013DC0C  4E 80 00 20 */	blr 
+/* 801426EC 0013DC0C  4E 80 00 20 */	blr
 
 glabel AppendTask__Q46nw4hbm3snd6detail11TaskManagerFPQ46nw4hbm3snd6detail4TaskQ56nw4hbm3snd6detail11TaskManager12TaskPriority
 /* 801426F0 0013DC10  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -245,7 +245,7 @@ glabel AppendTask__Q46nw4hbm3snd6detail11TaskManagerFPQ46nw4hbm3snd6detail4TaskQ
 /* 801427C8 0013DCE8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801427CC 0013DCEC  7C 08 03 A6 */	mtlr r0
 /* 801427D0 0013DCF0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801427D4 0013DCF4  4E 80 00 20 */	blr 
+/* 801427D4 0013DCF4  4E 80 00 20 */	blr
 
 glabel Execute__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 801427D8 0013DCF8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -262,7 +262,7 @@ glabel Execute__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 80142800 0013DD20  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80142804 0013DD24  7C 08 03 A6 */	mtlr r0
 /* 80142808 0013DD28  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014280C 0013DD2C  4E 80 00 20 */	blr 
+/* 8014280C 0013DD2C  4E 80 00 20 */	blr
 
 glabel ExecuteSingle__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 80142810 0013DD30  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -432,7 +432,7 @@ glabel ExecuteSingle__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 80142A60 0013DF80  81 83 00 00 */	lwz r12, 0(r3)
 /* 80142A64 0013DF84  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80142A68 0013DF88  7D 89 03 A6 */	mtctr r12
-/* 80142A6C 0013DF8C  4E 80 04 21 */	bctrl 
+/* 80142A6C 0013DF8C  4E 80 04 21 */	bctrl
 /* 80142A70 0013DF90  80 1F 00 18 */	lwz r0, 0x18(r31)
 /* 80142A74 0013DF94  83 BF 00 1C */	lwz r29, 0x1c(r31)
 /* 80142A78 0013DF98  2C 00 00 00 */	cmpwi r0, 0
@@ -464,7 +464,7 @@ glabel ExecuteSingle__Q46nw4hbm3snd6detail11TaskManagerFv
 /* 80142AD8 0013DFF8  83 A1 00 24 */	lwz r29, 0x24(r1)
 /* 80142ADC 0013DFFC  7C 08 03 A6 */	mtlr r0
 /* 80142AE0 0013E000  38 21 00 30 */	addi r1, r1, 0x30
-/* 80142AE4 0013E004  4E 80 00 20 */	blr 
+/* 80142AE4 0013E004  4E 80 00 20 */	blr
 
 glabel CancelByTaskId__Q46nw4hbm3snd6detail11TaskManagerFUl
 /* 80142AE8 0013E008  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -555,7 +555,7 @@ glabel CancelByTaskId__Q46nw4hbm3snd6detail11TaskManagerFUl
 /* 80142C20 0013E140  81 83 00 00 */	lwz r12, 0(r3)
 /* 80142C24 0013E144  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 80142C28 0013E148  7D 89 03 A6 */	mtctr r12
-/* 80142C2C 0013E14C  4E 80 04 21 */	bctrl 
+/* 80142C2C 0013E14C  4E 80 04 21 */	bctrl
 .L_80142C30:
 /* 80142C30 0013E150  7F 43 D3 78 */	mr r3, r26
 /* 80142C34 0013E154  4B F5 26 A9 */	bl OSRestoreInterrupts
@@ -564,7 +564,7 @@ glabel CancelByTaskId__Q46nw4hbm3snd6detail11TaskManagerFUl
 /* 80142C40 0013E160  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 80142C44 0013E164  7C 08 03 A6 */	mtlr r0
 /* 80142C48 0013E168  38 21 00 50 */	addi r1, r1, 0x50
-/* 80142C4C 0013E16C  4E 80 00 20 */	blr 
+/* 80142C4C 0013E16C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

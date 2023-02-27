@@ -77,7 +77,7 @@ glabel __OSFPRInit
 /* 8008EC00 0008A120  FF C0 00 90 */	fmr f30, f0
 /* 8008EC04 0008A124  FF E0 00 90 */	fmr f31, f0
 /* 8008EC08 0008A128  FD FE 05 8E */	mtfsf 0xff, f0
-/* 8008EC0C 0008A12C  4E 80 00 20 */	blr 
+/* 8008EC0C 0008A12C  4E 80 00 20 */	blr
 
 glabel __OSGetIOSRev
 /* 8008EC10 0008A130  3C 80 C0 00 */	lis r4, 0xC0003144@ha
@@ -106,7 +106,7 @@ glabel __OSGetIOSRev
 /* 8008EC6C 0008A18C  98 83 00 05 */	stb r4, 5(r3)
 /* 8008EC70 0008A190  98 C3 00 04 */	stb r6, 4(r3)
 /* 8008EC74 0008A194  B0 03 00 06 */	sth r0, 6(r3)
-/* 8008EC78 0008A198  4E 80 00 20 */	blr 
+/* 8008EC78 0008A198  4E 80 00 20 */	blr
 
 glabel OSGetConsoleType
 /* 8008EC7C 0008A19C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -293,7 +293,7 @@ glabel OSGetConsoleType
 /* 8008EEDC 0008A3FC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8008EEE0 0008A400  7C 08 03 A6 */	mtlr r0
 /* 8008EEE4 0008A404  38 21 00 10 */	addi r1, r1, 0x10
-/* 8008EEE8 0008A408  4E 80 00 20 */	blr 
+/* 8008EEE8 0008A408  4E 80 00 20 */	blr
 
 glabel ClearArena
 /* 8008EEEC 0008A40C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -429,7 +429,7 @@ glabel ClearArena
 /* 8008F0B8 0008A5D8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8008F0BC 0008A5DC  7C 08 03 A6 */	mtlr r0
 /* 8008F0C0 0008A5E0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8008F0C4 0008A5E4  4E 80 00 20 */	blr 
+/* 8008F0C4 0008A5E4  4E 80 00 20 */	blr
 
 glabel ClearMEM2Arena
 /* 8008F0C8 0008A5E8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -567,7 +567,7 @@ glabel ClearMEM2Arena
 /* 8008F29C 0008A7BC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8008F2A0 0008A7C0  7C 08 03 A6 */	mtlr r0
 /* 8008F2A4 0008A7C4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8008F2A8 0008A7C8  4E 80 00 20 */	blr 
+/* 8008F2A8 0008A7C8  4E 80 00 20 */	blr
 
 glabel InquiryCallback
 /* 8008F2AC 0008A7CC  80 04 00 0C */	lwz r0, 0xc(r4)
@@ -581,12 +581,12 @@ glabel InquiryCallback
 /* 8008F2C8 0008A7E8  A0 04 00 02 */	lhz r0, 2(r4)
 /* 8008F2CC 0008A7EC  60 00 80 00 */	ori r0, r0, 0x8000
 /* 8008F2D0 0008A7F0  B0 03 30 E6 */	sth r0, 0x800030E6@l(r3)
-/* 8008F2D4 0008A7F4  4E 80 00 20 */	blr 
+/* 8008F2D4 0008A7F4  4E 80 00 20 */	blr
 .L_8008F2D8:
 /* 8008F2D8 0008A7F8  38 00 00 01 */	li r0, 1
 /* 8008F2DC 0008A7FC  3C 60 80 00 */	lis r3, 0x800030E6@ha
 /* 8008F2E0 0008A800  B0 03 30 E6 */	sth r0, 0x800030E6@l(r3)
-/* 8008F2E4 0008A804  4E 80 00 20 */	blr 
+/* 8008F2E4 0008A804  4E 80 00 20 */	blr
 
 glabel ReportOSInfo
 /* 8008F2E8 0008A808  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -663,7 +663,7 @@ glabel ReportOSInfo
 /* 8008F3E4 0008A904  38 84 2B 78 */	addi r4, r4, lbl_80182B78@l
 /* 8008F3E8 0008A908  7C 84 28 2E */	lwzx r4, r4, r5
 /* 8008F3EC 0008A90C  7C 89 03 A6 */	mtctr r4
-/* 8008F3F0 0008A910  4E 80 04 20 */	bctr 
+/* 8008F3F0 0008A910  4E 80 04 20 */	bctr
 
 glabel lbl_8008F3F4
 /* 8008F3F4 0008A914  38 7F 00 F4 */	addi r3, r31, 0xf4
@@ -777,7 +777,7 @@ glabel lbl_8008F454
 /* 8008F568 0008AA88  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8008F56C 0008AA8C  7C 08 03 A6 */	mtlr r0
 /* 8008F570 0008AA90  38 21 00 10 */	addi r1, r1, 0x10
-/* 8008F574 0008AA94  4E 80 00 20 */	blr 
+/* 8008F574 0008AA94  4E 80 00 20 */	blr
 
 glabel OSInit
 /* 8008F578 0008AA98  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1058,7 +1058,7 @@ glabel OSInit
 /* 8008F96C 0008AE8C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8008F970 0008AE90  7C 08 03 A6 */	mtlr r0
 /* 8008F974 0008AE94  38 21 00 10 */	addi r1, r1, 0x10
-/* 8008F978 0008AE98  4E 80 00 20 */	blr 
+/* 8008F978 0008AE98  4E 80 00 20 */	blr
 
 glabel OSExceptionInit
 /* 8008F97C 0008AE9C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1229,7 +1229,7 @@ glabel OSExceptionInit
 /* 8008FBEC 0008B10C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8008FBF0 0008B110  7C 08 03 A6 */	mtlr r0
 /* 8008FBF4 0008B114  38 21 00 40 */	addi r1, r1, 0x40
-/* 8008FBF8 0008B118  4E 80 00 20 */	blr 
+/* 8008FBF8 0008B118  4E 80 00 20 */	blr
 .L_8008FBFC:
 /* 8008FBFC 0008B11C  38 A0 00 40 */	li r5, 0x40
 /* 8008FC00 0008B120  7C 68 02 A6 */	mflr r3
@@ -1239,7 +1239,7 @@ glabel OSExceptionInit
 /* 8008FC10 0008B130  7C 68 03 A6 */	mtlr r3
 /* 8008FC14 0008B134  38 60 00 30 */	li r3, 0x30
 /* 8008FC18 0008B138  7C 60 01 24 */	mtmsr r3
-/* 8008FC1C 0008B13C  4E 80 00 20 */	blr 
+/* 8008FC1C 0008B13C  4E 80 00 20 */	blr
 
 glabel __OSDBJump
 /* 8008FC20 0008B140  48 00 00 61 */	bl func_8008FC80
@@ -1249,13 +1249,13 @@ glabel __OSSetExceptionHandler
 /* 8008FC28 0008B148  54 60 15 BA */	rlwinm r0, r3, 2, 0x16, 0x1d
 /* 8008FC2C 0008B14C  7C 65 00 2E */	lwzx r3, r5, r0
 /* 8008FC30 0008B150  7C 85 01 2E */	stwx r4, r5, r0
-/* 8008FC34 0008B154  4E 80 00 20 */	blr 
+/* 8008FC34 0008B154  4E 80 00 20 */	blr
 
 glabel __OSGetExceptionHandler
 /* 8008FC38 0008B158  80 8D 8C 58 */	lwz r4, lbl_802470D8@sda21(r13)
 /* 8008FC3C 0008B15C  54 60 15 BA */	rlwinm r0, r3, 2, 0x16, 0x1d
 /* 8008FC40 0008B160  7C 64 00 2E */	lwzx r3, r4, r0
-/* 8008FC44 0008B164  4E 80 00 20 */	blr 
+/* 8008FC44 0008B164  4E 80 00 20 */	blr
 
 glabel OSExceptionVector
 /* 8008FC48 0008B168  7C 90 43 A6 */	mtspr 0x110, r4
@@ -1282,7 +1282,7 @@ glabel func_8008FC80
 /* 8008FC94 0008B1B4  7C 7B 02 A6 */	mfspr r3, 0x1b
 /* 8008FC98 0008B1B8  90 64 01 9C */	stw r3, 0x19c(r4)
 /* 8008FC9C 0008B1BC  7C 65 1B 78 */	mr r5, r3
-/* 8008FCA0 0008B1C0  60 00 00 00 */	nop 
+/* 8008FCA0 0008B1C0  60 00 00 00 */	nop
 /* 8008FCA4 0008B1C4  7C 60 00 A6 */	mfmsr r3
 /* 8008FCA8 0008B1C8  60 63 00 30 */	ori r3, r3, 0x30
 /* 8008FCAC 0008B1CC  7C 7B 03 A6 */	mtspr 0x1b, r3
@@ -1294,14 +1294,14 @@ glabel func_8008FC80
 /* 8008FCC0 0008B1E0  3C A0 80 09 */	lis r5, OSDefaultExceptionHandler@ha
 /* 8008FCC4 0008B1E4  38 A5 FC E4 */	addi r5, r5, OSDefaultExceptionHandler@l
 /* 8008FCC8 0008B1E8  7C BA 03 A6 */	mtspr 0x1a, r5
-/* 8008FCCC 0008B1EC  4C 00 00 64 */	rfi 
+/* 8008FCCC 0008B1EC  4C 00 00 64 */	rfi
 .L_8008FCD0:
 /* 8008FCD0 0008B1F0  54 65 15 BA */	rlwinm r5, r3, 2, 0x16, 0x1d
 /* 8008FCD4 0008B1F4  80 A5 30 00 */	lwz r5, 0x3000(r5)
 /* 8008FCD8 0008B1F8  7C BA 03 A6 */	mtspr 0x1a, r5
-/* 8008FCDC 0008B1FC  4C 00 00 64 */	rfi 
+/* 8008FCDC 0008B1FC  4C 00 00 64 */	rfi
 .L_8008FCE0:
-/* 8008FCE0 0008B200  60 00 00 00 */	nop 
+/* 8008FCE0 0008B200  60 00 00 00 */	nop
 
 glabel OSDefaultExceptionHandler
 /* 8008FCE4 0008B204  90 04 00 00 */	stw r0, 0(r4)
@@ -1348,13 +1348,13 @@ glabel __OSPSInit
 /* 8008FD80 0008B2A0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8008FD84 0008B2A4  7C 08 03 A6 */	mtlr r0
 /* 8008FD88 0008B2A8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8008FD8C 0008B2AC  4E 80 00 20 */	blr 
+/* 8008FD8C 0008B2AC  4E 80 00 20 */	blr
 
 glabel __OSGetDiConfig
 /* 8008FD90 0008B2B0  3C 60 CD 00 */	lis r3, 0xCD006024@ha
 /* 8008FD94 0008B2B4  80 03 60 24 */	lwz r0, 0xCD006024@l(r3)
 /* 8008FD98 0008B2B8  54 03 06 3E */	clrlwi r3, r0, 0x18
-/* 8008FD9C 0008B2BC  4E 80 00 20 */	blr 
+/* 8008FD9C 0008B2BC  4E 80 00 20 */	blr
 
 glabel OSRegisterVersion
 /* 8008FDA0 0008B2C0  7C 64 1B 78 */	mr r4, r3
@@ -1382,18 +1382,18 @@ glabel OSGetAppGamename
 /* 8008FDEC 0008B30C  88 86 00 03 */	lbz r4, 3(r6)
 /* 8008FDF0 0008B310  98 85 00 03 */	stb r4, 3(r5)
 /* 8008FDF4 0008B314  98 05 00 04 */	stb r0, 4(r5)
-/* 8008FDF8 0008B318  4E 80 00 20 */	blr 
+/* 8008FDF8 0008B318  4E 80 00 20 */	blr
 
 glabel OSGetAppType
 /* 8008FDFC 0008B31C  80 0D 8C 48 */	lwz r0, lbl_802470C8@sda21(r13)
 /* 8008FE00 0008B320  2C 00 00 00 */	cmpwi r0, 0
 /* 8008FE04 0008B324  41 82 00 0C */	beq .L_8008FE10
 /* 8008FE08 0008B328  38 60 00 40 */	li r3, 0x40
-/* 8008FE0C 0008B32C  4E 80 00 20 */	blr 
+/* 8008FE0C 0008B32C  4E 80 00 20 */	blr
 .L_8008FE10:
 /* 8008FE10 0008B330  3C 60 80 00 */	lis r3, 0x80003184@ha
 /* 8008FE14 0008B334  88 63 31 84 */	lbz r3, 0x80003184@l(r3)
-/* 8008FE18 0008B338  4E 80 00 20 */	blr 
+/* 8008FE18 0008B338  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

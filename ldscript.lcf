@@ -58,6 +58,6 @@ SECTIONS
     __ArenaHi = 0x81700000;
 }
 
-FORCEFILES 
+FORCEFILES
 {
 }

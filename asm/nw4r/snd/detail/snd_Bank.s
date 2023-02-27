@@ -16,7 +16,7 @@ glabel __ct__Q46nw4hbm3snd6detail4BankFPCv
 /* 8012C090 001275B0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012C094 001275B4  7C 08 03 A6 */	mtlr r0
 /* 8012C098 001275B8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012C09C 001275BC  4E 80 00 20 */	blr 
+/* 8012C09C 001275BC  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail4BankFv
 /* 8012C0A0 001275C0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -35,7 +35,7 @@ glabel __dt__Q46nw4hbm3snd6detail4BankFv
 /* 8012C0D0 001275F0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012C0D4 001275F4  7C 08 03 A6 */	mtlr r0
 /* 8012C0D8 001275F8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012C0DC 001275FC  4E 80 00 20 */	blr 
+/* 8012C0DC 001275FC  4E 80 00 20 */	blr
 
 glabel NoteOn__Q46nw4hbm3snd6detail4BankCFRCQ46nw4hbm3snd6detail10NoteOnInfo
 /* 8012C0E0 00127600  94 21 FF 30 */	stwu r1, -0xd0(r1)
@@ -154,5 +154,5 @@ glabel NoteOn__Q46nw4hbm3snd6detail4BankCFRCQ46nw4hbm3snd6detail10NoteOnInfo
 /* 8012C290 001277B0  83 A1 00 C4 */	lwz r29, 0xc4(r1)
 /* 8012C294 001277B4  7C 08 03 A6 */	mtlr r0
 /* 8012C298 001277B8  38 21 00 D0 */	addi r1, r1, 0xd0
-/* 8012C29C 001277BC  4E 80 00 20 */	blr 
+/* 8012C29C 001277BC  4E 80 00 20 */	blr
 

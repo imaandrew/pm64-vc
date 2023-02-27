@@ -58,7 +58,7 @@ glabel __write_console
 /* 8016A5F4 00165B14  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8016A5F8 00165B18  7C 08 03 A6 */	mtlr r0
 /* 8016A5FC 00165B1C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016A600 00165B20  4E 80 00 20 */	blr 
+/* 8016A600 00165B20  4E 80 00 20 */	blr
 
 glabel __close_console
 /* 8016A604 00165B24  38 60 00 00 */	li r3, 0

@@ -19,7 +19,7 @@ glabel btm_sco_init
 /* 800E9C90 000E51B0  90 87 19 00 */	stw r4, 0x1900(r7)
 /* 800E9C94 000E51B4  90 67 19 04 */	stw r3, 0x1904(r7)
 /* 800E9C98 000E51B8  98 07 19 09 */	stb r0, 0x1909(r7)
-/* 800E9C9C 000E51BC  4E 80 00 20 */	blr 
+/* 800E9C9C 000E51BC  4E 80 00 20 */	blr
 
 glabel btm_esco_conn_rsp
 /* 800E9CA0 000E51C0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -150,7 +150,7 @@ glabel btm_esco_conn_rsp
 /* 800E9E6C 000E538C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800E9E70 000E5390  7C 08 03 A6 */	mtlr r0
 /* 800E9E74 000E5394  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E9E78 000E5398  4E 80 00 20 */	blr 
+/* 800E9E78 000E5398  4E 80 00 20 */	blr
 
 glabel btm_sco_chk_pend_unpark
 /* 800E9E7C 000E539C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -260,7 +260,7 @@ glabel btm_sco_chk_pend_unpark
 /* 800E9FF8 000E5518  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800E9FFC 000E551C  7C 08 03 A6 */	mtlr r0
 /* 800EA000 000E5520  38 21 00 40 */	addi r1, r1, 0x40
-/* 800EA004 000E5524  4E 80 00 20 */	blr 
+/* 800EA004 000E5524  4E 80 00 20 */	blr
 
 glabel btm_sco_conn_req
 /* 800EA008 000E5528  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -325,7 +325,7 @@ glabel btm_sco_conn_req
 /* 800EA0E4 000E5604  81 9B 00 10 */	lwz r12, 0x10(r27)
 /* 800EA0E8 000E5608  B3 81 00 08 */	sth r28, 8(r1)
 /* 800EA0EC 000E560C  7D 89 03 A6 */	mtctr r12
-/* 800EA0F0 000E5610  4E 80 04 21 */	bctrl 
+/* 800EA0F0 000E5610  4E 80 04 21 */	bctrl
 /* 800EA0F4 000E5614  48 00 00 DC */	b .L_800EA1D0
 .L_800EA0F8:
 /* 800EA0F8 000E5618  3B 9C 00 01 */	addi r28, r28, 1
@@ -368,7 +368,7 @@ glabel btm_sco_conn_req
 /* 800EA180 000E56A0  38 84 05 58 */	addi r4, r4, lbl_80220558@l
 /* 800EA184 000E56A4  81 84 18 50 */	lwz r12, 0x1850(r4)
 /* 800EA188 000E56A8  7D 89 03 A6 */	mtctr r12
-/* 800EA18C 000E56AC  4E 80 04 21 */	bctrl 
+/* 800EA18C 000E56AC  4E 80 04 21 */	bctrl
 /* 800EA190 000E56B0  48 00 00 40 */	b .L_800EA1D0
 .L_800EA194:
 /* 800EA194 000E56B4  3C 60 80 22 */	lis r3, lbl_80220558@ha
@@ -393,7 +393,7 @@ glabel btm_sco_conn_req
 /* 800EA1D8 000E56F8  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800EA1DC 000E56FC  7C 08 03 A6 */	mtlr r0
 /* 800EA1E0 000E5700  38 21 00 30 */	addi r1, r1, 0x30
-/* 800EA1E4 000E5704  4E 80 00 20 */	blr 
+/* 800EA1E4 000E5704  4E 80 00 20 */	blr
 
 glabel btm_sco_connected
 /* 800EA1E8 000E5708  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -441,7 +441,7 @@ glabel btm_sco_connected
 /* 800EA288 000E57A8  B0 1F 00 08 */	sth r0, 8(r31)
 /* 800EA28C 000E57AC  81 9F 00 04 */	lwz r12, 4(r31)
 /* 800EA290 000E57B0  7D 89 03 A6 */	mtctr r12
-/* 800EA294 000E57B4  4E 80 04 21 */	bctrl 
+/* 800EA294 000E57B4  4E 80 04 21 */	bctrl
 /* 800EA298 000E57B8  48 00 00 D8 */	b .L_800EA370
 .L_800EA29C:
 /* 800EA29C 000E57BC  38 00 00 01 */	li r0, 1
@@ -495,7 +495,7 @@ glabel btm_sco_connected
 /* 800EA34C 000E586C  81 9F 00 00 */	lwz r12, 0(r31)
 /* 800EA350 000E5870  57 C3 04 3E */	clrlwi r3, r30, 0x10
 /* 800EA354 000E5874  7D 89 03 A6 */	mtctr r12
-/* 800EA358 000E5878  4E 80 04 21 */	bctrl 
+/* 800EA358 000E5878  4E 80 04 21 */	bctrl
 /* 800EA35C 000E587C  48 00 00 14 */	b .L_800EA370
 .L_800EA360:
 /* 800EA360 000E5880  3B DE 00 01 */	addi r30, r30, 1
@@ -508,7 +508,7 @@ glabel btm_sco_connected
 /* 800EA378 000E5898  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800EA37C 000E589C  7C 08 03 A6 */	mtlr r0
 /* 800EA380 000E58A0  38 21 00 30 */	addi r1, r1, 0x30
-/* 800EA384 000E58A4  4E 80 00 20 */	blr 
+/* 800EA384 000E58A4  4E 80 00 20 */	blr
 
 glabel BTM_RemoveSco
 /* 800EA388 000E58A8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -562,7 +562,7 @@ glabel BTM_RemoveSco
 /* 800EA430 000E5950  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800EA434 000E5954  7C 08 03 A6 */	mtlr r0
 /* 800EA438 000E5958  38 21 00 10 */	addi r1, r1, 0x10
-/* 800EA43C 000E595C  4E 80 00 20 */	blr 
+/* 800EA43C 000E595C  4E 80 00 20 */	blr
 
 glabel btm_remove_sco_links
 /* 800EA440 000E5960  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -599,7 +599,7 @@ glabel btm_remove_sco_links
 /* 800EA4B4 000E59D4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800EA4B8 000E59D8  7C 08 03 A6 */	mtlr r0
 /* 800EA4BC 000E59DC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EA4C0 000E59E0  4E 80 00 20 */	blr 
+/* 800EA4C0 000E59E0  4E 80 00 20 */	blr
 
 glabel btm_sco_removed
 /* 800EA4C4 000E59E4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -669,7 +669,7 @@ glabel btm_sco_removed
 /* 800EA5A4 000E5AC4  90 85 00 10 */	stw r4, 0x10(r5)
 /* 800EA5A8 000E5AC8  81 85 00 04 */	lwz r12, 4(r5)
 /* 800EA5AC 000E5ACC  7D 89 03 A6 */	mtctr r12
-/* 800EA5B0 000E5AD0  4E 80 04 21 */	bctrl 
+/* 800EA5B0 000E5AD0  4E 80 04 21 */	bctrl
 /* 800EA5B4 000E5AD4  48 00 00 10 */	b .L_800EA5C4
 .L_800EA5B8:
 /* 800EA5B8 000E5AD8  38 C6 00 01 */	addi r6, r6, 1
@@ -680,7 +680,7 @@ glabel btm_sco_removed
 /* 800EA5C8 000E5AE8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800EA5CC 000E5AEC  7C 08 03 A6 */	mtlr r0
 /* 800EA5D0 000E5AF0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800EA5D4 000E5AF4  4E 80 00 20 */	blr 
+/* 800EA5D4 000E5AF4  4E 80 00 20 */	blr
 
 glabel btm_sco_acl_removed
 /* 800EA5D8 000E5AF8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -717,7 +717,7 @@ glabel btm_sco_acl_removed
 /* 800EA64C 000E5B6C  93 FE 00 10 */	stw r31, 0x10(r30)
 /* 800EA650 000E5B70  81 9E 00 04 */	lwz r12, 4(r30)
 /* 800EA654 000E5B74  7D 89 03 A6 */	mtctr r12
-/* 800EA658 000E5B78  4E 80 04 21 */	bctrl 
+/* 800EA658 000E5B78  4E 80 04 21 */	bctrl
 .L_800EA65C:
 /* 800EA65C 000E5B7C  3B BD 00 01 */	addi r29, r29, 1
 /* 800EA660 000E5B80  3B DE 00 34 */	addi r30, r30, 0x34
@@ -730,7 +730,7 @@ glabel btm_sco_acl_removed
 /* 800EA67C 000E5B9C  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800EA680 000E5BA0  7C 08 03 A6 */	mtlr r0
 /* 800EA684 000E5BA4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EA688 000E5BA8  4E 80 00 20 */	blr 
+/* 800EA688 000E5BA8  4E 80 00 20 */	blr
 
 glabel btm_route_sco_data
 /* 800EA68C 000E5BAC  4B FE F8 84 */	b GKI_freebuf
@@ -852,7 +852,7 @@ glabel BTM_ChangeEScoLinkParms
 /* 800EA828 000E5D48  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800EA82C 000E5D4C  7C 08 03 A6 */	mtlr r0
 /* 800EA830 000E5D50  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EA834 000E5D54  4E 80 00 20 */	blr 
+/* 800EA834 000E5D54  4E 80 00 20 */	blr
 
 glabel btm_esco_proc_conn_chg
 /* 800EA838 000E5D58  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -911,7 +911,7 @@ glabel btm_esco_proc_conn_chg
 /* 800EA904 000E5E24  9B 41 00 15 */	stb r26, 0x15(r1)
 /* 800EA908 000E5E28  9B 61 00 16 */	stb r27, 0x16(r1)
 /* 800EA90C 000E5E2C  7D 89 03 A6 */	mtctr r12
-/* 800EA910 000E5E30  4E 80 04 21 */	bctrl 
+/* 800EA910 000E5E30  4E 80 04 21 */	bctrl
 /* 800EA914 000E5E34  48 00 00 10 */	b .L_800EA924
 .L_800EA918:
 /* 800EA918 000E5E38  3B DE 00 01 */	addi r30, r30, 1
@@ -923,7 +923,7 @@ glabel btm_esco_proc_conn_chg
 /* 800EA92C 000E5E4C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800EA930 000E5E50  7C 08 03 A6 */	mtlr r0
 /* 800EA934 000E5E54  38 21 00 40 */	addi r1, r1, 0x40
-/* 800EA938 000E5E58  4E 80 00 20 */	blr 
+/* 800EA938 000E5E58  4E 80 00 20 */	blr
 
 glabel btm_is_sco_active
 /* 800EA93C 000E5E5C  3C 80 80 22 */	lis r4, lbl_80220558@ha
@@ -935,7 +935,7 @@ glabel btm_is_sco_active
 /* 800EA954 000E5E74  28 00 00 04 */	cmplwi r0, 4
 /* 800EA958 000E5E78  40 82 00 0C */	bne .L_800EA964
 /* 800EA95C 000E5E7C  38 60 00 01 */	li r3, 1
-/* 800EA960 000E5E80  4E 80 00 20 */	blr 
+/* 800EA960 000E5E80  4E 80 00 20 */	blr
 .L_800EA964:
 /* 800EA964 000E5E84  A0 04 18 92 */	lhz r0, 0x1892(r4)
 /* 800EA968 000E5E88  7C 03 00 40 */	cmplw r3, r0
@@ -944,7 +944,7 @@ glabel btm_is_sco_active
 /* 800EA974 000E5E94  28 00 00 04 */	cmplwi r0, 4
 /* 800EA978 000E5E98  40 82 00 0C */	bne .L_800EA984
 /* 800EA97C 000E5E9C  38 60 00 01 */	li r3, 1
-/* 800EA980 000E5EA0  4E 80 00 20 */	blr 
+/* 800EA980 000E5EA0  4E 80 00 20 */	blr
 .L_800EA984:
 /* 800EA984 000E5EA4  A0 04 18 C6 */	lhz r0, 0x18c6(r4)
 /* 800EA988 000E5EA8  7C 03 00 40 */	cmplw r3, r0
@@ -953,10 +953,10 @@ glabel btm_is_sco_active
 /* 800EA994 000E5EB4  28 00 00 04 */	cmplwi r0, 4
 /* 800EA998 000E5EB8  40 82 00 0C */	bne .L_800EA9A4
 /* 800EA99C 000E5EBC  38 60 00 01 */	li r3, 1
-/* 800EA9A0 000E5EC0  4E 80 00 20 */	blr 
+/* 800EA9A0 000E5EC0  4E 80 00 20 */	blr
 .L_800EA9A4:
 /* 800EA9A4 000E5EC4  38 60 00 00 */	li r3, 0
-/* 800EA9A8 000E5EC8  4E 80 00 20 */	blr 
+/* 800EA9A8 000E5EC8  4E 80 00 20 */	blr
 
 glabel btm_num_sco_links_active
 /* 800EA9AC 000E5ECC  3C 80 80 22 */	lis r4, lbl_80220558@ha
@@ -982,11 +982,11 @@ glabel btm_num_sco_links_active
 .L_800EA9F0:
 /* 800EA9F0 000E5F10  A0 04 18 C4 */	lhz r0, 0x18c4(r4)
 /* 800EA9F4 000E5F14  2C 00 00 07 */	cmpwi r0, 7
-/* 800EA9F8 000E5F18  4C 80 00 20 */	bgelr 
+/* 800EA9F8 000E5F18  4C 80 00 20 */	bgelr
 /* 800EA9FC 000E5F1C  2C 00 00 02 */	cmpwi r0, 2
-/* 800EAA00 000E5F20  4D 80 00 20 */	bltlr 
+/* 800EAA00 000E5F20  4D 80 00 20 */	bltlr
 /* 800EAA04 000E5F24  38 63 00 01 */	addi r3, r3, 1
-/* 800EAA08 000E5F28  4E 80 00 20 */	blr 
+/* 800EAA08 000E5F28  4E 80 00 20 */	blr
 
 glabel btm_is_sco_active_by_bdaddr
 /* 800EAA0C 000E5F2C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1025,5 +1025,5 @@ glabel btm_is_sco_active_by_bdaddr
 /* 800EAA84 000E5FA4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800EAA88 000E5FA8  7C 08 03 A6 */	mtlr r0
 /* 800EAA8C 000E5FAC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EAA90 000E5FB0  4E 80 00 20 */	blr 
+/* 800EAA90 000E5FB0  4E 80 00 20 */	blr
 

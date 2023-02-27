@@ -27,7 +27,7 @@ glabel bta_sys_init
 /* 800DDAB8 000D8FD8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800DDABC 000D8FDC  7C 08 03 A6 */	mtlr r0
 /* 800DDAC0 000D8FE0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DDAC4 000D8FE4  4E 80 00 20 */	blr 
+/* 800DDAC4 000D8FE4  4E 80 00 20 */	blr
 
 glabel bta_sys_event
 /* 800DDAC8 000D8FE8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -71,7 +71,7 @@ glabel bta_sys_event
 /* 800DDB54 000D9074  81 83 00 00 */	lwz r12, 0(r3)
 /* 800DDB58 000D9078  7F C3 F3 78 */	mr r3, r30
 /* 800DDB5C 000D907C  7D 89 03 A6 */	mtctr r12
-/* 800DDB60 000D9080  4E 80 04 21 */	bctrl 
+/* 800DDB60 000D9080  4E 80 04 21 */	bctrl
 /* 800DDB64 000D9084  7C 7F 1B 78 */	mr r31, r3
 /* 800DDB68 000D9088  48 00 00 24 */	b .L_800DDB8C
 .L_800DDB6C:
@@ -94,24 +94,24 @@ glabel bta_sys_event
 /* 800DDBA4 000D90C4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800DDBA8 000D90C8  7C 08 03 A6 */	mtlr r0
 /* 800DDBAC 000D90CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DDBB0 000D90D0  4E 80 00 20 */	blr 
+/* 800DDBB0 000D90D0  4E 80 00 20 */	blr
 
 glabel bta_sys_timer_update
 /* 800DDBB4 000D90D4  3C 60 80 22 */	lis r3, lbl_802200B8@ha
 /* 800DDBB8 000D90D8  38 63 00 B8 */	addi r3, r3, lbl_802200B8@l
 /* 800DDBBC 000D90DC  88 03 00 7C */	lbz r0, 0x7c(r3)
 /* 800DDBC0 000D90E0  2C 00 00 00 */	cmpwi r0, 0
-/* 800DDBC4 000D90E4  4C 82 00 20 */	bnelr 
+/* 800DDBC4 000D90E4  4C 82 00 20 */	bnelr
 /* 800DDBC8 000D90E8  38 63 00 68 */	addi r3, r3, 0x68
 /* 800DDBCC 000D90EC  48 00 01 28 */	b ptim_timer_update
-/* 800DDBD0 000D90F0  4E 80 00 20 */	blr 
+/* 800DDBD0 000D90F0  4E 80 00 20 */	blr
 
 glabel bta_sys_register
 /* 800DDBD4 000D90F4  3C A0 80 22 */	lis r5, lbl_802200B8@ha
 /* 800DDBD8 000D90F8  54 60 15 BA */	rlwinm r0, r3, 2, 0x16, 0x1d
 /* 800DDBDC 000D90FC  38 A5 00 B8 */	addi r5, r5, lbl_802200B8@l
 /* 800DDBE0 000D9100  7C 85 01 2E */	stwx r4, r5, r0
-/* 800DDBE4 000D9104  4E 80 00 20 */	blr 
+/* 800DDBE4 000D9104  4E 80 00 20 */	blr
 
 glabel bta_sys_sendmsg
 /* 800DDBE8 000D9108  80 8D 86 10 */	lwz r4, lbl_80246A90@sda21(r13)
@@ -156,7 +156,7 @@ glabel bta_sys_disable
 /* 800DDC68 000D9188  2C 0C 00 00 */	cmpwi r12, 0
 /* 800DDC6C 000D918C  41 82 00 0C */	beq .L_800DDC78
 /* 800DDC70 000D9190  7D 89 03 A6 */	mtctr r12
-/* 800DDC74 000D9194  4E 80 04 21 */	bctrl 
+/* 800DDC74 000D9194  4E 80 04 21 */	bctrl
 .L_800DDC78:
 /* 800DDC78 000D9198  3B DE 00 01 */	addi r30, r30, 1
 /* 800DDC7C 000D919C  3B FF 00 04 */	addi r31, r31, 4
@@ -167,11 +167,11 @@ glabel bta_sys_disable
 /* 800DDC90 000D91B0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800DDC94 000D91B4  7C 08 03 A6 */	mtlr r0
 /* 800DDC98 000D91B8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DDC9C 000D91BC  4E 80 00 20 */	blr 
+/* 800DDC9C 000D91BC  4E 80 00 20 */	blr
 
 glabel bta_sys_set_trace_level
 /* 800DDCA0 000D91C0  98 6D 93 20 */	stb r3, lbl_802477A0@sda21(r13)
-/* 800DDCA4 000D91C4  4E 80 00 20 */	blr 
+/* 800DDCA4 000D91C4  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

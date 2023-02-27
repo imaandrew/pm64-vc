@@ -16,7 +16,7 @@ glabel GetInstance__Q46nw4hbm3snd6detail10TaskThreadFv
 .L_80142C78:
 /* 80142C78 0013E198  3C 60 80 24 */	lis r3, lbl_802417C0@ha
 /* 80142C7C 0013E19C  38 63 17 C0 */	addi r3, r3, lbl_802417C0@l
-/* 80142C80 0013E1A0  4E 80 00 20 */	blr 
+/* 80142C80 0013E1A0  4E 80 00 20 */	blr
 
 glabel Create__Q46nw4hbm3snd6detail10TaskThreadFl
 /* 80142C84 0013E1A4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -73,7 +73,7 @@ glabel Create__Q46nw4hbm3snd6detail10TaskThreadFl
 /* 80142D40 0013E260  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80142D44 0013E264  7C 08 03 A6 */	mtlr r0
 /* 80142D48 0013E268  38 21 00 20 */	addi r1, r1, 0x20
-/* 80142D4C 0013E26C  4E 80 00 20 */	blr 
+/* 80142D4C 0013E26C  4E 80 00 20 */	blr
 
 glabel Shutdown__Q46nw4hbm3snd6detail10TaskThreadFv
 /* 80142D50 0013E270  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -130,7 +130,7 @@ glabel Shutdown__Q46nw4hbm3snd6detail10TaskThreadFv
 /* 80142E08 0013E328  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80142E0C 0013E32C  7C 08 03 A6 */	mtlr r0
 /* 80142E10 0013E330  38 21 00 10 */	addi r1, r1, 0x10
-/* 80142E14 0013E334  4E 80 00 20 */	blr 
+/* 80142E14 0013E334  4E 80 00 20 */	blr
 
 glabel SendWakeupMessage__Q46nw4hbm3snd6detail10TaskThreadFv
 /* 80142E18 0013E338  38 80 00 01 */	li r4, 1
@@ -167,7 +167,7 @@ glabel ThreadFunc__Q46nw4hbm3snd6detail10TaskThreadFPv
 /* 80142E84 0013E3A4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80142E88 0013E3A8  7C 08 03 A6 */	mtlr r0
 /* 80142E8C 0013E3AC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80142E90 0013E3B0  4E 80 00 20 */	blr 
+/* 80142E90 0013E3B0  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

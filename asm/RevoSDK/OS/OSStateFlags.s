@@ -63,7 +63,7 @@ glabel __OSWriteStateFlags
 /* 8009A544 00095A64  83 C1 00 98 */	lwz r30, 0x98(r1)
 /* 8009A548 00095A68  7C 08 03 A6 */	mtlr r0
 /* 8009A54C 00095A6C  38 21 00 A0 */	addi r1, r1, 0xa0
-/* 8009A550 00095A70  4E 80 00 20 */	blr 
+/* 8009A550 00095A70  4E 80 00 20 */	blr
 
 glabel __OSReadStateFlags
 /* 8009A554 00095A74  94 21 FF 50 */	stwu r1, -0xb0(r1)
@@ -143,7 +143,7 @@ glabel __OSReadStateFlags
 /* 8009A66C 00095B8C  83 81 00 A0 */	lwz r28, 0xa0(r1)
 /* 8009A670 00095B90  7C 08 03 A6 */	mtlr r0
 /* 8009A674 00095B94  38 21 00 B0 */	addi r1, r1, 0xb0
-/* 8009A678 00095B98  4E 80 00 20 */	blr 
+/* 8009A678 00095B98  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

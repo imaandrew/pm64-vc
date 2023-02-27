@@ -61,7 +61,7 @@ glabel __AXOutNewFrame
 /* 800B3C60 000AF180  90 7D 00 18 */	stw r3, 0x18(r29)
 /* 800B3C64 000AF184  41 82 00 0C */	beq .L_800B3C70
 /* 800B3C68 000AF188  7D 89 03 A6 */	mtctr r12
-/* 800B3C6C 000AF18C  4E 80 04 21 */	bctrl 
+/* 800B3C6C 000AF18C  4E 80 04 21 */	bctrl
 .L_800B3C70:
 /* 800B3C70 000AF190  4B FE 51 59 */	bl OSGetTime
 /* 800B3C74 000AF194  80 ED 90 A8 */	lwz r7, lbl_80247528@sda21(r13)
@@ -165,7 +165,7 @@ glabel __AXOutNewFrame
 /* 800B3DE4 000AF304  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800B3DE8 000AF308  7C 08 03 A6 */	mtlr r0
 /* 800B3DEC 000AF30C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800B3DF0 000AF310  4E 80 00 20 */	blr 
+/* 800B3DF0 000AF310  4E 80 00 20 */	blr
 
 glabel __AXOutAiCallback
 /* 800B3DF4 000AF314  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -211,12 +211,12 @@ glabel __AXOutAiCallback
 /* 800B3E88 000AF3A8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B3E8C 000AF3AC  7C 08 03 A6 */	mtlr r0
 /* 800B3E90 000AF3B0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B3E94 000AF3B4  4E 80 00 20 */	blr 
+/* 800B3E94 000AF3B4  4E 80 00 20 */	blr
 
 glabel __AXDSPInitCallback
 /* 800B3E98 000AF3B8  38 00 00 01 */	li r0, 1
 /* 800B3E9C 000AF3BC  90 0D 90 C8 */	stw r0, lbl_80247548@sda21(r13)
-/* 800B3EA0 000AF3C0  4E 80 00 20 */	blr 
+/* 800B3EA0 000AF3C0  4E 80 00 20 */	blr
 
 glabel __AXDSPResumeCallback
 /* 800B3EA4 000AF3C4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -232,7 +232,7 @@ glabel __AXDSPResumeCallback
 /* 800B3ECC 000AF3EC  2C 0C 00 00 */	cmpwi r12, 0
 /* 800B3ED0 000AF3F0  41 82 00 18 */	beq .L_800B3EE8
 /* 800B3ED4 000AF3F4  7D 89 03 A6 */	mtctr r12
-/* 800B3ED8 000AF3F8  4E 80 04 21 */	bctrl 
+/* 800B3ED8 000AF3F8  4E 80 04 21 */	bctrl
 /* 800B3EDC 000AF3FC  48 00 00 0C */	b .L_800B3EE8
 .L_800B3EE0:
 /* 800B3EE0 000AF400  38 00 00 01 */	li r0, 1
@@ -241,7 +241,7 @@ glabel __AXDSPResumeCallback
 /* 800B3EE8 000AF408  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B3EEC 000AF40C  7C 08 03 A6 */	mtlr r0
 /* 800B3EF0 000AF410  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B3EF4 000AF414  4E 80 00 20 */	blr 
+/* 800B3EF4 000AF414  4E 80 00 20 */	blr
 
 glabel __AXDSPDoneCallback
 /* 800B3EF8 000AF418  38 00 00 01 */	li r0, 1
@@ -250,7 +250,7 @@ glabel __AXDSPDoneCallback
 /* 800B3F04 000AF424  4B FE 4D D0 */	b OSWakeupThread
 
 glabel __AXDSPRequestCallback
-/* 800B3F08 000AF428  4E 80 00 20 */	blr 
+/* 800B3F08 000AF428  4E 80 00 20 */	blr
 
 glabel __AXOutInitDSP
 /* 800B3F0C 000AF42C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -314,7 +314,7 @@ glabel __AXOutInitDSP
 /* 800B3FEC 000AF50C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B3FF0 000AF510  7C 08 03 A6 */	mtlr r0
 /* 800B3FF4 000AF514  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B3FF8 000AF518  4E 80 00 20 */	blr 
+/* 800B3FF8 000AF518  4E 80 00 20 */	blr
 
 glabel __AXOutInit
 /* 800B3FFC 000AF51C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -451,7 +451,7 @@ glabel __AXOutInit
 
 glabel lbl_800B41EC
 /* 800B41EC 000AF70C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B41F0 000AF710  4E 80 00 20 */	blr 
+/* 800B41F0 000AF710  4E 80 00 20 */	blr
 
 glabel __AXOutQuit
 /* 800B41F4 000AF714  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -477,7 +477,7 @@ glabel __AXOutQuit
 /* 800B4244 000AF764  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B4248 000AF768  7C 08 03 A6 */	mtlr r0
 /* 800B424C 000AF76C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B4250 000AF770  4E 80 00 20 */	blr 
+/* 800B4250 000AF770  4E 80 00 20 */	blr
 
 glabel AXRegisterCallback
 /* 800B4254 000AF774  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -496,7 +496,7 @@ glabel AXRegisterCallback
 /* 800B4288 000AF7A8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B428C 000AF7AC  7C 08 03 A6 */	mtlr r0
 /* 800B4290 000AF7B0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B4294 000AF7B4  4E 80 00 20 */	blr 
+/* 800B4294 000AF7B4  4E 80 00 20 */	blr
 
 glabel AXRmtGetSamplesLeft
 /* 800B4298 000AF7B8  80 6D 90 A8 */	lwz r3, lbl_80247528@sda21(r13)
@@ -507,10 +507,10 @@ glabel AXRmtGetSamplesLeft
 .L_800B42AC:
 /* 800B42AC 000AF7CC  80 0D 90 A4 */	lwz r0, lbl_80247524@sda21(r13)
 /* 800B42B0 000AF7D0  7C 60 18 51 */	subf. r3, r0, r3
-/* 800B42B4 000AF7D4  4C 80 00 20 */	bgelr 
+/* 800B42B4 000AF7D4  4C 80 00 20 */	bgelr
 /* 800B42B8 000AF7D8  80 0D 90 AC */	lwz r0, lbl_8024752C@sda21(r13)
 /* 800B42BC 000AF7DC  7C 63 02 14 */	add r3, r3, r0
-/* 800B42C0 000AF7E0  4E 80 00 20 */	blr 
+/* 800B42C0 000AF7E0  4E 80 00 20 */	blr
 
 glabel AXRmtGetSamples
 /* 800B42C4 000AF7E4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -568,7 +568,7 @@ glabel AXRmtGetSamples
 /* 800B4378 000AF898  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B437C 000AF89C  7C 08 03 A6 */	mtlr r0
 /* 800B4380 000AF8A0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B4384 000AF8A4  4E 80 00 20 */	blr 
+/* 800B4384 000AF8A4  4E 80 00 20 */	blr
 
 glabel AXRmtAdvancePtr
 /* 800B4388 000AF8A8  80 8D 90 A8 */	lwz r4, lbl_80247528@sda21(r13)
@@ -592,10 +592,10 @@ glabel AXRmtAdvancePtr
 /* 800B43C4 000AF8E4  7C 00 1A 14 */	add r0, r0, r3
 /* 800B43C8 000AF8E8  7C 00 20 00 */	cmpw r0, r4
 /* 800B43CC 000AF8EC  90 0D 90 A4 */	stw r0, lbl_80247524@sda21(r13)
-/* 800B43D0 000AF8F0  4D 80 00 20 */	bltlr 
+/* 800B43D0 000AF8F0  4D 80 00 20 */	bltlr
 /* 800B43D4 000AF8F4  7C 04 00 50 */	subf r0, r4, r0
 /* 800B43D8 000AF8F8  90 0D 90 A4 */	stw r0, lbl_80247524@sda21(r13)
-/* 800B43DC 000AF8FC  4E 80 00 20 */	blr 
+/* 800B43DC 000AF8FC  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

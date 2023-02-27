@@ -55,7 +55,7 @@ glabel GetColor__25lyt_textBox_cppFRC11_GXColorS10
 /* 80120BFC 0011C11C  80 01 00 08 */	lwz r0, 8(r1)
 /* 80120C00 0011C120  90 03 00 00 */	stw r0, 0(r3)
 /* 80120C04 0011C124  38 21 00 10 */	addi r1, r1, 0x10
-/* 80120C08 0011C128  4E 80 00 20 */	blr 
+/* 80120C08 0011C128  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm3lyt7TextBoxFPCQ46nw4hbm3lyt3res7TextBoxRCQ36nw4hbm3lyt11ResBlockSet
 /* 80120C0C 0011C12C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -134,7 +134,7 @@ glabel __ct__Q36nw4hbm3lyt7TextBoxFPCQ46nw4hbm3lyt3res7TextBoxRCQ36nw4hbm3lyt11R
 /* 80120D2C 0011C24C  7F C4 F3 78 */	mr r4, r30
 /* 80120D30 0011C250  81 8C 00 64 */	lwz r12, 0x64(r12)
 /* 80120D34 0011C254  7D 89 03 A6 */	mtctr r12
-/* 80120D38 0011C258  4E 80 04 21 */	bctrl 
+/* 80120D38 0011C258  4E 80 04 21 */	bctrl
 .L_80120D3C:
 /* 80120D3C 0011C25C  A0 9C 00 4E */	lhz r4, 0x4e(r28)
 /* 80120D40 0011C260  28 04 00 02 */	cmplwi r4, 2
@@ -152,7 +152,7 @@ glabel __ct__Q36nw4hbm3lyt7TextBoxFPCQ46nw4hbm3lyt3res7TextBoxRCQ36nw4hbm3lyt11R
 /* 80120D70 0011C290  38 A0 00 00 */	li r5, 0
 /* 80120D74 0011C294  7C 9C 22 14 */	add r4, r28, r4
 /* 80120D78 0011C298  7D 89 03 A6 */	mtctr r12
-/* 80120D7C 0011C29C  4E 80 04 21 */	bctrl 
+/* 80120D7C 0011C29C  4E 80 04 21 */	bctrl
 .L_80120D80:
 /* 80120D80 0011C2A0  80 1D 00 04 */	lwz r0, 4(r29)
 /* 80120D84 0011C2A4  80 9C 00 5C */	lwz r4, 0x5c(r28)
@@ -199,7 +199,7 @@ glabel __ct__Q36nw4hbm3lyt7TextBoxFPCQ46nw4hbm3lyt3res7TextBoxRCQ36nw4hbm3lyt11R
 /* 80120E20 0011C340  7F C4 02 14 */	add r30, r4, r0
 /* 80120E24 0011C344  7F C4 F3 78 */	mr r4, r30
 /* 80120E28 0011C348  7D 89 03 A6 */	mtctr r12
-/* 80120E2C 0011C34C  4E 80 04 21 */	bctrl 
+/* 80120E2C 0011C34C  4E 80 04 21 */	bctrl
 /* 80120E30 0011C350  2C 03 00 00 */	cmpwi r3, 0
 /* 80120E34 0011C354  41 82 00 0C */	beq .L_80120E40
 /* 80120E38 0011C358  90 7B 00 E0 */	stw r3, 0xe0(r27)
@@ -213,7 +213,7 @@ glabel __ct__Q36nw4hbm3lyt7TextBoxFPCQ46nw4hbm3lyt3res7TextBoxRCQ36nw4hbm3lyt11R
 /* 80120E54 0011C374  38 84 6E 74 */	addi r4, r4, 0x666F6E74@l
 /* 80120E58 0011C378  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80120E5C 0011C37C  7D 89 03 A6 */	mtctr r12
-/* 80120E60 0011C380  4E 80 04 21 */	bctrl 
+/* 80120E60 0011C380  4E 80 04 21 */	bctrl
 /* 80120E64 0011C384  2C 03 00 00 */	cmpwi r3, 0
 /* 80120E68 0011C388  7C 7A 1B 78 */	mr r26, r3
 /* 80120E6C 0011C38C  41 82 00 64 */	beq .L_80120ED0
@@ -281,7 +281,7 @@ glabel __ct__Q36nw4hbm3lyt7TextBoxFPCQ46nw4hbm3lyt3res7TextBoxRCQ36nw4hbm3lyt11R
 /* 80120F4C 0011C46C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80120F50 0011C470  7C 08 03 A6 */	mtlr r0
 /* 80120F54 0011C474  38 21 00 30 */	addi r1, r1, 0x30
-/* 80120F58 0011C478  4E 80 00 20 */	blr 
+/* 80120F58 0011C478  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt7TextBoxFv
 /* 80120F5C 0011C47C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -315,7 +315,7 @@ glabel __dt__Q36nw4hbm3lyt7TextBoxFv
 /* 80120FC8 0011C4E8  81 83 00 00 */	lwz r12, 0(r3)
 /* 80120FCC 0011C4EC  81 8C 00 08 */	lwz r12, 8(r12)
 /* 80120FD0 0011C4F0  7D 89 03 A6 */	mtctr r12
-/* 80120FD4 0011C4F4  4E 80 04 21 */	bctrl 
+/* 80120FD4 0011C4F4  4E 80 04 21 */	bctrl
 /* 80120FD8 0011C4F8  3C 60 80 23 */	lis r3, lbl_80229138@ha
 /* 80120FDC 0011C4FC  80 9E 00 E0 */	lwz r4, 0xe0(r30)
 /* 80120FE0 0011C500  80 63 91 38 */	lwz r3, lbl_80229138@l(r3)
@@ -327,7 +327,7 @@ glabel __dt__Q36nw4hbm3lyt7TextBoxFv
 /* 80120FF4 0011C514  38 00 00 00 */	li r0, 0
 /* 80120FF8 0011C518  90 1E 00 E0 */	stw r0, 0xe0(r30)
 /* 80120FFC 0011C51C  48 00 00 58 */	b .L_80121054
-/* 80121000 0011C520  4E 80 04 21 */	bctrl 
+/* 80121000 0011C520  4E 80 04 21 */	bctrl
 /* 80121004 0011C524  6C 60 80 00 */	xoris r0, r3, 0x8000
 /* 80121008 0011C528  80 7E 00 E0 */	lwz r3, 0xe0(r30)
 /* 8012100C 0011C52C  3C 80 43 30 */	lis r4, 0x4330
@@ -336,7 +336,7 @@ glabel __dt__Q36nw4hbm3lyt7TextBoxFv
 /* 80121018 0011C538  90 81 00 18 */	stw r4, 0x18(r1)
 /* 8012101C 0011C53C  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80121020 0011C540  7D 89 03 A6 */	mtctr r12
-/* 80121024 0011C544  4E 80 04 21 */	bctrl 
+/* 80121024 0011C544  4E 80 04 21 */	bctrl
 /* 80121028 0011C548  6C 60 80 00 */	xoris r0, r3, 0x8000
 /* 8012102C 0011C54C  90 81 00 20 */	stw r4, 0x20(r1)
 /* 80121030 0011C550  C8 23 65 68 */	lfd f1, 0x6568(r3)
@@ -366,7 +366,7 @@ glabel __dt__Q36nw4hbm3lyt7TextBoxFv
 /* 80121088 0011C5A8  38 80 FF FF */	li r4, -1
 /* 8012108C 0011C5AC  81 8C 00 08 */	lwz r12, 8(r12)
 /* 80121090 0011C5B0  7D 89 03 A6 */	mtctr r12
-/* 80121094 0011C5B4  4E 80 04 21 */	bctrl 
+/* 80121094 0011C5B4  4E 80 04 21 */	bctrl
 /* 80121098 0011C5B8  3C 60 80 23 */	lis r3, lbl_80229138@ha
 /* 8012109C 0011C5BC  80 9E 00 28 */	lwz r4, 0x28(r30)
 /* 801210A0 0011C5C0  80 63 91 38 */	lwz r3, lbl_80229138@l(r3)
@@ -378,7 +378,7 @@ glabel __dt__Q36nw4hbm3lyt7TextBoxFv
 /* 801210B4 0011C5D4  7F C3 F3 78 */	mr r3, r30
 /* 801210B8 0011C5D8  81 8C 00 68 */	lwz r12, 0x68(r12)
 /* 801210BC 0011C5DC  7D 89 03 A6 */	mtctr r12
-/* 801210C0 0011C5E0  4E 80 04 21 */	bctrl 
+/* 801210C0 0011C5E0  4E 80 04 21 */	bctrl
 /* 801210C4 0011C5E4  3C 80 80 11 */	lis r4, __dt__Q36nw4hbm2ut5ColorFv@ha
 /* 801210C8 0011C5E8  38 7E 00 D8 */	addi r3, r30, 0xd8
 /* 801210CC 0011C5EC  38 84 69 60 */	addi r4, r4, __dt__Q36nw4hbm2ut5ColorFv@l
@@ -399,7 +399,7 @@ glabel __dt__Q36nw4hbm3lyt7TextBoxFv
 /* 80121104 0011C624  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80121108 0011C628  7C 08 03 A6 */	mtlr r0
 /* 8012110C 0011C62C  38 21 00 30 */	addi r1, r1, 0x30
-/* 80121110 0011C630  4E 80 00 20 */	blr 
+/* 80121110 0011C630  4E 80 00 20 */	blr
 
 glabel GetVtxColor__Q36nw4hbm3lyt7TextBoxCFUl
 /* 80121114 0011C634  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -431,7 +431,7 @@ glabel GetVtxColor__Q36nw4hbm3lyt7TextBoxCFUl
 /* 80121178 0011C698  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8012117C 0011C69C  7C 08 03 A6 */	mtlr r0
 /* 80121180 0011C6A0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80121184 0011C6A4  4E 80 00 20 */	blr 
+/* 80121184 0011C6A4  4E 80 00 20 */	blr
 
 glabel GetTextColor__Q36nw4hbm3lyt7TextBoxCFUl
 /* 80121188 0011C6A8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -469,7 +469,7 @@ glabel GetTextColor__Q36nw4hbm3lyt7TextBoxCFUl
 /* 80121204 0011C724  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80121208 0011C728  7C 08 03 A6 */	mtlr r0
 /* 8012120C 0011C72C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80121210 0011C730  4E 80 00 20 */	blr 
+/* 80121210 0011C730  4E 80 00 20 */	blr
 
 glabel SetVtxColor__Q36nw4hbm3lyt7TextBoxFUlQ36nw4hbm2ut5Color
 /* 80121214 0011C734  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -509,7 +509,7 @@ glabel SetVtxColor__Q36nw4hbm3lyt7TextBoxFUlQ36nw4hbm2ut5Color
 /* 80121298 0011C7B8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8012129C 0011C7BC  7C 08 03 A6 */	mtlr r0
 /* 801212A0 0011C7C0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801212A4 0011C7C4  4E 80 00 20 */	blr 
+/* 801212A4 0011C7C4  4E 80 00 20 */	blr
 
 glabel SetTextColor__Q36nw4hbm3lyt7TextBoxFUlQ36nw4hbm2ut5Color
 /* 801212A8 0011C7C8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -547,7 +547,7 @@ glabel SetTextColor__Q36nw4hbm3lyt7TextBoxFUlQ36nw4hbm2ut5Color
 /* 80121324 0011C844  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80121328 0011C848  7C 08 03 A6 */	mtlr r0
 /* 8012132C 0011C84C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80121330 0011C850  4E 80 00 20 */	blr 
+/* 80121330 0011C850  4E 80 00 20 */	blr
 
 glabel GetVtxColorElement__Q36nw4hbm3lyt7TextBoxCFUl
 /* 80121334 0011C854  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -577,7 +577,7 @@ glabel GetVtxColorElement__Q36nw4hbm3lyt7TextBoxCFUl
 /* 80121390 0011C8B0  88 63 00 D8 */	lbz r3, 0xd8(r3)
 /* 80121394 0011C8B4  7C 08 03 A6 */	mtlr r0
 /* 80121398 0011C8B8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012139C 0011C8BC  4E 80 00 20 */	blr 
+/* 8012139C 0011C8BC  4E 80 00 20 */	blr
 
 glabel SetVtxColorElement__Q36nw4hbm3lyt7TextBoxFUlUc
 /* 801213A0 0011C8C0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -610,7 +610,7 @@ glabel SetVtxColorElement__Q36nw4hbm3lyt7TextBoxFUlUc
 /* 80121408 0011C928  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8012140C 0011C92C  7C 08 03 A6 */	mtlr r0
 /* 80121410 0011C930  38 21 00 20 */	addi r1, r1, 0x20
-/* 80121414 0011C934  4E 80 00 20 */	blr 
+/* 80121414 0011C934  4E 80 00 20 */	blr
 
 glabel DrawSelf__Q36nw4hbm3lyt7TextBoxFRCQ36nw4hbm3lyt8DrawInfo
 /* 80121418 0011C938  94 21 FD F0 */	stwu r1, -0x210(r1)
@@ -645,7 +645,7 @@ glabel DrawSelf__Q36nw4hbm3lyt7TextBoxFRCQ36nw4hbm3lyt8DrawInfo
 /* 80121488 0011C9A8  81 83 00 00 */	lwz r12, 0(r3)
 /* 8012148C 0011C9AC  81 8C 00 60 */	lwz r12, 0x60(r12)
 /* 80121490 0011C9B0  7D 89 03 A6 */	mtctr r12
-/* 80121494 0011C9B4  4E 80 04 21 */	bctrl 
+/* 80121494 0011C9B4  4E 80 04 21 */	bctrl
 /* 80121498 0011C9B8  38 61 00 C8 */	addi r3, r1, 0xc8
 /* 8012149C 0011C9BC  48 03 5F 71 */	bl __ct__Q36nw4hbm2ut17TextWriterBase_w_Fv
 /* 801214A0 0011C9C0  80 9A 00 E0 */	lwz r4, 0xe0(r26)
@@ -1098,7 +1098,7 @@ glabel DrawSelf__Q36nw4hbm3lyt7TextBoxFRCQ36nw4hbm3lyt8DrawInfo
 /* 80121B40 0011D060  80 01 02 14 */	lwz r0, 0x214(r1)
 /* 80121B44 0011D064  7C 08 03 A6 */	mtlr r0
 /* 80121B48 0011D068  38 21 02 10 */	addi r1, r1, 0x210
-/* 80121B4C 0011D06C  4E 80 00 20 */	blr 
+/* 80121B4C 0011D06C  4E 80 00 20 */	blr
 
 glabel CalcLineRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17TextWriterBase_w_PCwifPb_i
 /* 80121B50 0011D070  94 21 FF 10 */	stwu r1, -0xf0(r1)
@@ -1658,7 +1658,7 @@ glabel CalcLineRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17T
 /* 8012232C 0011D84C  38 61 00 28 */	addi r3, r1, 0x28
 /* 80122330 0011D850  39 81 00 2C */	addi r12, r1, 0x2c
 /* 80122334 0011D854  48 03 A4 C1 */	bl __ptmf_scall
-/* 80122338 0011D858  60 00 00 00 */	nop 
+/* 80122338 0011D858  60 00 00 00 */	nop
 /* 8012233C 0011D85C  3C A0 80 17 */	lis r5, lbl_80176560@ha
 /* 80122340 0011D860  3C 80 80 17 */	lis r4, lbl_80176568@ha
 /* 80122344 0011D864  38 01 00 28 */	addi r0, r1, 0x28
@@ -1731,7 +1731,7 @@ glabel CalcLineRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17T
 /* 80122440 0011D960  38 C1 00 38 */	addi r6, r1, 0x38
 /* 80122444 0011D964  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 80122448 0011D968  7D 89 03 A6 */	mtctr r12
-/* 8012244C 0011D96C  4E 80 04 21 */	bctrl 
+/* 8012244C 0011D96C  4E 80 04 21 */	bctrl
 /* 80122450 0011D970  80 C1 00 3C */	lwz r6, 0x3c(r1)
 /* 80122454 0011D974  7C 7E 1B 78 */	mr r30, r3
 /* 80122458 0011D978  38 00 00 01 */	li r0, 1
@@ -2016,7 +2016,7 @@ glabel CalcLineRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17T
 /* 8012282C 0011DD4C  57 44 04 3E */	clrlwi r4, r26, 0x10
 /* 80122830 0011DD50  81 8C 00 48 */	lwz r12, 0x48(r12)
 /* 80122834 0011DD54  7D 89 03 A6 */	mtctr r12
-/* 80122838 0011DD58  4E 80 04 21 */	bctrl 
+/* 80122838 0011DD58  4E 80 04 21 */	bctrl
 /* 8012283C 0011DD5C  6C 63 80 00 */	xoris r3, r3, 0x8000
 /* 80122840 0011DD60  3C 00 43 30 */	lis r0, 0x4330
 /* 80122844 0011DD64  90 01 00 50 */	stw r0, 0x50(r1)
@@ -2119,7 +2119,7 @@ glabel CalcLineRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17T
 /* 801229A0 0011DEC0  38 61 00 28 */	addi r3, r1, 0x28
 /* 801229A4 0011DEC4  39 81 00 2C */	addi r12, r1, 0x2c
 /* 801229A8 0011DEC8  48 03 9E 4D */	bl __ptmf_scall
-/* 801229AC 0011DECC  60 00 00 00 */	nop 
+/* 801229AC 0011DECC  60 00 00 00 */	nop
 /* 801229B0 0011DED0  C0 6F 00 00 */	lfs f3, 0(r15)
 /* 801229B4 0011DED4  7C 7A 1B 78 */	mr r26, r3
 /* 801229B8 0011DED8  C0 4F 00 04 */	lfs f2, 4(r15)
@@ -2247,7 +2247,7 @@ glabel CalcLineRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17T
 /* 80122B78 0011E098  80 01 00 F4 */	lwz r0, 0xf4(r1)
 /* 80122B7C 0011E09C  7C 08 03 A6 */	mtlr r0
 /* 80122B80 0011E0A0  38 21 00 F0 */	addi r1, r1, 0xf0
-/* 80122B84 0011E0A4  4E 80 00 20 */	blr 
+/* 80122B84 0011E0A4  4E 80 00 20 */	blr
 
 glabel GetCharStrmReader__Q36nw4hbm2ut4FontCFv
 /* 80122B88 0011E0A8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2339,7 +2339,7 @@ glabel GetCharStrmReader__Q36nw4hbm2ut4FontCFv
 /* 80122CC4 0011E1E4  90 61 00 10 */	stw r3, 0x10(r1)
 /* 80122CC8 0011E1E8  7C 08 03 A6 */	mtlr r0
 /* 80122CCC 0011E1EC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80122CD0 0011E1F0  4E 80 00 20 */	blr 
+/* 80122CD0 0011E1F0  4E 80 00 20 */	blr
 
 glabel AllocStringBuffer__Q36nw4hbm3lyt7TextBoxFUs
 /* 80122CD4 0011E1F4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2358,7 +2358,7 @@ glabel AllocStringBuffer__Q36nw4hbm3lyt7TextBoxFUs
 /* 80122D08 0011E228  81 83 00 00 */	lwz r12, 0(r3)
 /* 80122D0C 0011E22C  81 8C 00 68 */	lwz r12, 0x68(r12)
 /* 80122D10 0011E230  7D 89 03 A6 */	mtctr r12
-/* 80122D14 0011E234  4E 80 04 21 */	bctrl 
+/* 80122D14 0011E234  4E 80 04 21 */	bctrl
 /* 80122D18 0011E238  3C 60 80 23 */	lis r3, lbl_80229138@ha
 /* 80122D1C 0011E23C  7F E4 FB 78 */	mr r4, r31
 /* 80122D20 0011E240  80 63 91 38 */	lwz r3, lbl_80229138@l(r3)
@@ -2373,7 +2373,7 @@ glabel AllocStringBuffer__Q36nw4hbm3lyt7TextBoxFUs
 /* 80122D40 0011E260  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80122D44 0011E264  7C 08 03 A6 */	mtlr r0
 /* 80122D48 0011E268  38 21 00 10 */	addi r1, r1, 0x10
-/* 80122D4C 0011E26C  4E 80 00 20 */	blr 
+/* 80122D4C 0011E26C  4E 80 00 20 */	blr
 
 glabel FreeStringBuffer__Q36nw4hbm3lyt7TextBoxFv
 /* 80122D50 0011E270  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2395,7 +2395,7 @@ glabel FreeStringBuffer__Q36nw4hbm3lyt7TextBoxFv
 /* 80122D8C 0011E2AC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80122D90 0011E2B0  7C 08 03 A6 */	mtlr r0
 /* 80122D94 0011E2B4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80122D98 0011E2B8  4E 80 00 20 */	blr 
+/* 80122D98 0011E2B8  4E 80 00 20 */	blr
 
 glabel SetString__Q36nw4hbm3lyt7TextBoxFPCwUs
 /* 80122D9C 0011E2BC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2416,14 +2416,14 @@ glabel SetString__Q36nw4hbm3lyt7TextBoxFPCwUs
 /* 80122DD8 0011E2F8  81 8C 00 70 */	lwz r12, 0x70(r12)
 /* 80122DDC 0011E2FC  7F E5 FB 78 */	mr r5, r31
 /* 80122DE0 0011E300  7D 89 03 A6 */	mtctr r12
-/* 80122DE4 0011E304  4E 80 04 21 */	bctrl 
+/* 80122DE4 0011E304  4E 80 04 21 */	bctrl
 /* 80122DE8 0011E308  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80122DEC 0011E30C  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 80122DF0 0011E310  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 80122DF4 0011E314  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80122DF8 0011E318  7C 08 03 A6 */	mtlr r0
 /* 80122DFC 0011E31C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80122E00 0011E320  4E 80 00 20 */	blr 
+/* 80122E00 0011E320  4E 80 00 20 */	blr
 
 glabel SetString__Q36nw4hbm3lyt7TextBoxFPCwUsUs
 /* 80122E04 0011E324  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2513,7 +2513,7 @@ glabel SetString__Q36nw4hbm3lyt7TextBoxFPCwUsUs
 /* 80122F34 0011E454  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80122F38 0011E458  7C 08 03 A6 */	mtlr r0
 /* 80122F3C 0011E45C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80122F40 0011E460  4E 80 00 20 */	blr 
+/* 80122F40 0011E460  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut4FontFv
 /* 80122F44 0011E464  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2532,7 +2532,7 @@ glabel __dt__Q36nw4hbm2ut4FontFv
 /* 80122F74 0011E494  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80122F78 0011E498  7C 08 03 A6 */	mtlr r0
 /* 80122F7C 0011E49C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80122F80 0011E4A0  4E 80 00 20 */	blr 
+/* 80122F80 0011E4A0  4E 80 00 20 */	blr
 
 glabel GetTextDrawRect__Q36nw4hbm3lyt7TextBoxCFPQ36nw4hbm2ut17TextWriterBase_w_
 /* 80122F84 0011E4A4  94 21 FF 50 */	stwu r1, -0xb0(r1)
@@ -2957,7 +2957,7 @@ glabel GetTextDrawRect__Q36nw4hbm3lyt7TextBoxCFPQ36nw4hbm2ut17TextWriterBase_w_
 /* 80123590 0011EAB0  80 01 00 B4 */	lwz r0, 0xb4(r1)
 /* 80123594 0011EAB4  7C 08 03 A6 */	mtlr r0
 /* 80123598 0011EAB8  38 21 00 B0 */	addi r1, r1, 0xb0
-/* 8012359C 0011EABC  4E 80 00 20 */	blr 
+/* 8012359C 0011EABC  4E 80 00 20 */	blr
 
 glabel CalcStringRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17TextWriterBase_w_PCwif_v
 /* 801235A0 0011EAC0  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -3262,19 +3262,19 @@ glabel CalcStringRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut1
 /* 801239CC 0011EEEC  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 801239D0 0011EEF0  7C 08 03 A6 */	mtlr r0
 /* 801239D4 0011EEF4  38 21 00 60 */	addi r1, r1, 0x60
-/* 801239D8 0011EEF8  4E 80 00 20 */	blr 
+/* 801239D8 0011EEF8  4E 80 00 20 */	blr
 
 glabel GetRuntimeTypeInfo__Q36nw4hbm3lyt7TextBoxCFv
 /* 801239DC 0011EEFC  3C 60 80 23 */	lis r3, lbl_80229150@ha
 /* 801239E0 0011EF00  38 63 91 50 */	addi r3, r3, lbl_80229150@l
-/* 801239E4 0011EF04  4E 80 00 20 */	blr 
+/* 801239E4 0011EF04  4E 80 00 20 */	blr
 
 glabel __sinit_lyt_textBox_cpp
 /* 801239E8 0011EF08  3C 80 80 23 */	lis r4, lbl_80229140@ha
 /* 801239EC 0011EF0C  3C 60 80 23 */	lis r3, lbl_80229150@ha
 /* 801239F0 0011EF10  38 84 91 40 */	addi r4, r4, lbl_80229140@l
 /* 801239F4 0011EF14  90 83 91 50 */	stw r4, lbl_80229150@l(r3)
-/* 801239F8 0011EF18  4E 80 00 20 */	blr 
+/* 801239F8 0011EF18  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 # Might be wrong

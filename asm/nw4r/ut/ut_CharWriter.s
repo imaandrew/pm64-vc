@@ -552,7 +552,7 @@ glabel __ct__Q36nw4hbm2ut10CharWriterFv
 /* 80147A70 00142F90  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80147A74 00142F94  7C 08 03 A6 */	mtlr r0
 /* 80147A78 00142F98  38 21 00 30 */	addi r1, r1, 0x30
-/* 80147A7C 00142F9C  4E 80 00 20 */	blr 
+/* 80147A7C 00142F9C  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut10CharWriterFv
 /* 80147A80 00142FA0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -571,7 +571,7 @@ glabel __dt__Q36nw4hbm2ut10CharWriterFv
 /* 80147AB0 00142FD0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80147AB4 00142FD4  7C 08 03 A6 */	mtlr r0
 /* 80147AB8 00142FD8  38 21 00 10 */	addi r1, r1, 0x10
-/* 80147ABC 00142FDC  4E 80 00 20 */	blr 
+/* 80147ABC 00142FDC  4E 80 00 20 */	blr
 
 glabel SetFont__Q36nw4hbm2ut10CharWriterFRCQ36nw4hbm2ut4Font
 /* 80147AC0 00142FE0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -719,7 +719,7 @@ glabel SetFont__Q36nw4hbm2ut10CharWriterFRCQ36nw4hbm2ut4Font
 /* 80147CC0 001431E0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80147CC4 001431E4  7C 08 03 A6 */	mtlr r0
 /* 80147CC8 001431E8  38 21 00 20 */	addi r1, r1, 0x20
-/* 80147CCC 001431EC  4E 80 00 20 */	blr 
+/* 80147CCC 001431EC  4E 80 00 20 */	blr
 
 glabel GetFont__Q36nw4hbm2ut10CharWriterCFv
 /* 80147CD0 001431F0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -798,7 +798,7 @@ glabel GetFont__Q36nw4hbm2ut10CharWriterCFv
 /* 80147DD8 001432F8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80147DDC 001432FC  7C 08 03 A6 */	mtlr r0
 /* 80147DE0 00143300  38 21 00 10 */	addi r1, r1, 0x10
-/* 80147DE4 00143304  4E 80 00 20 */	blr 
+/* 80147DE4 00143304  4E 80 00 20 */	blr
 
 glabel SetupGX__Q36nw4hbm2ut10CharWriterFv
 /* 80147DE8 00143308  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -954,7 +954,7 @@ glabel SetupGX__Q36nw4hbm2ut10CharWriterFv
 /* 80148010 00143530  81 83 00 00 */	lwz r12, 0(r3)
 /* 80148014 00143534  81 8C 00 30 */	lwz r12, 0x30(r12)
 /* 80148018 00143538  7D 89 03 A6 */	mtctr r12
-/* 8014801C 0014353C  4E 80 04 21 */	bctrl 
+/* 8014801C 0014353C  4E 80 04 21 */	bctrl
 /* 80148020 00143540  2C 03 00 04 */	cmpwi r3, 4
 /* 80148024 00143544  40 80 00 18 */	bge .L_8014803C
 /* 80148028 00143548  2C 03 00 02 */	cmpwi r3, 2
@@ -1598,7 +1598,7 @@ glabel SetupGX__Q36nw4hbm2ut10CharWriterFv
 /* 801489F0 00143F10  83 81 00 30 */	lwz r28, 0x30(r1)
 /* 801489F4 00143F14  7C 08 03 A6 */	mtlr r0
 /* 801489F8 00143F18  38 21 00 40 */	addi r1, r1, 0x40
-/* 801489FC 00143F1C  4E 80 00 20 */	blr 
+/* 801489FC 00143F1C  4E 80 00 20 */	blr
 
 glabel SetColorMapping__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5ColorQ36nw4hbm2ut5Color
 /* 80148A00 00143F20  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1698,7 +1698,7 @@ glabel SetColorMapping__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5ColorQ36nw4hbm2ut5
 /* 80148B5C 0014407C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80148B60 00144080  7C 08 03 A6 */	mtlr r0
 /* 80148B64 00144084  38 21 00 20 */	addi r1, r1, 0x20
-/* 80148B68 00144088  4E 80 00 20 */	blr 
+/* 80148B68 00144088  4E 80 00 20 */	blr
 
 glabel SetGradationMode__Q36nw4hbm2ut10CharWriterFQ46nw4hbm2ut10CharWriter13GradationMode
 /* 80148B6C 0014408C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1928,7 +1928,7 @@ glabel SetGradationMode__Q36nw4hbm2ut10CharWriterFQ46nw4hbm2ut10CharWriter13Grad
 /* 80148EA4 001443C4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80148EA8 001443C8  7C 08 03 A6 */	mtlr r0
 /* 80148EAC 001443CC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80148EB0 001443D0  4E 80 00 20 */	blr 
+/* 80148EB0 001443D0  4E 80 00 20 */	blr
 
 glabel SetTextColor__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5Color
 /* 80148EB4 001443D4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2147,7 +2147,7 @@ glabel SetTextColor__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5Color
 /* 801491C8 001446E8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801491CC 001446EC  7C 08 03 A6 */	mtlr r0
 /* 801491D0 001446F0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801491D4 001446F4  4E 80 00 20 */	blr 
+/* 801491D4 001446F4  4E 80 00 20 */	blr
 
 glabel SetTextColor__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5ColorQ36nw4hbm2ut5Color
 /* 801491D8 001446F8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2377,7 +2377,7 @@ glabel SetTextColor__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5ColorQ36nw4hbm2ut5Col
 /* 80149518 00144A38  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014951C 00144A3C  7C 08 03 A6 */	mtlr r0
 /* 80149520 00144A40  38 21 00 20 */	addi r1, r1, 0x20
-/* 80149524 00144A44  4E 80 00 20 */	blr 
+/* 80149524 00144A44  4E 80 00 20 */	blr
 
 glabel GetScaleH__Q36nw4hbm2ut10CharWriterCFv
 /* 80149528 00144A48  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2456,7 +2456,7 @@ glabel GetScaleH__Q36nw4hbm2ut10CharWriterCFv
 /* 80149630 00144B50  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80149634 00144B54  7C 08 03 A6 */	mtlr r0
 /* 80149638 00144B58  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014963C 00144B5C  4E 80 00 20 */	blr 
+/* 8014963C 00144B5C  4E 80 00 20 */	blr
 
 glabel GetScaleV__Q36nw4hbm2ut10CharWriterCFv
 /* 80149640 00144B60  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2535,7 +2535,7 @@ glabel GetScaleV__Q36nw4hbm2ut10CharWriterCFv
 /* 80149748 00144C68  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014974C 00144C6C  7C 08 03 A6 */	mtlr r0
 /* 80149750 00144C70  38 21 00 10 */	addi r1, r1, 0x10
-/* 80149754 00144C74  4E 80 00 20 */	blr 
+/* 80149754 00144C74  4E 80 00 20 */	blr
 
 glabel SetFontSize__Q36nw4hbm2ut10CharWriterFff
 /* 80149758 00144C78  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -2684,14 +2684,14 @@ glabel SetFontSize__Q36nw4hbm2ut10CharWriterFff
 /* 8014995C 00144E7C  81 83 00 00 */	lwz r12, 0(r3)
 /* 80149960 00144E80  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80149964 00144E84  7D 89 03 A6 */	mtctr r12
-/* 80149968 00144E88  4E 80 04 21 */	bctrl 
+/* 80149968 00144E88  4E 80 04 21 */	bctrl
 /* 8014996C 00144E8C  2C 03 00 01 */	cmpwi r3, 1
 /* 80149970 00144E90  40 80 00 34 */	bge .L_801499A4
 /* 80149974 00144E94  80 7D 00 48 */	lwz r3, 0x48(r29)
 /* 80149978 00144E98  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014997C 00144E9C  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80149980 00144EA0  7D 89 03 A6 */	mtctr r12
-/* 80149984 00144EA4  4E 80 04 21 */	bctrl 
+/* 80149984 00144EA4  4E 80 04 21 */	bctrl
 /* 80149988 00144EA8  7C 66 1B 78 */	mr r6, r3
 /* 8014998C 00144EAC  38 7F 00 00 */	addi r3, r31, 0
 /* 80149990 00144EB0  38 BF 01 2C */	addi r5, r31, 0x12c
@@ -2704,14 +2704,14 @@ glabel SetFontSize__Q36nw4hbm2ut10CharWriterFff
 /* 801499A8 00144EC8  81 83 00 00 */	lwz r12, 0(r3)
 /* 801499AC 00144ECC  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 801499B0 00144ED0  7D 89 03 A6 */	mtctr r12
-/* 801499B4 00144ED4  4E 80 04 21 */	bctrl 
+/* 801499B4 00144ED4  4E 80 04 21 */	bctrl
 /* 801499B8 00144ED8  2C 03 00 01 */	cmpwi r3, 1
 /* 801499BC 00144EDC  40 80 00 34 */	bge .L_801499F0
 /* 801499C0 00144EE0  80 7D 00 48 */	lwz r3, 0x48(r29)
 /* 801499C4 00144EE4  81 83 00 00 */	lwz r12, 0(r3)
 /* 801499C8 00144EE8  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 801499CC 00144EEC  7D 89 03 A6 */	mtctr r12
-/* 801499D0 00144EF0  4E 80 04 21 */	bctrl 
+/* 801499D0 00144EF0  4E 80 04 21 */	bctrl
 /* 801499D4 00144EF4  7C 66 1B 78 */	mr r6, r3
 /* 801499D8 00144EF8  38 7F 00 00 */	addi r3, r31, 0
 /* 801499DC 00144EFC  38 BF 01 80 */	addi r5, r31, 0x180
@@ -2724,7 +2724,7 @@ glabel SetFontSize__Q36nw4hbm2ut10CharWriterFff
 /* 801499F4 00144F14  81 83 00 00 */	lwz r12, 0(r3)
 /* 801499F8 00144F18  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 801499FC 00144F1C  7D 89 03 A6 */	mtctr r12
-/* 80149A00 00144F20  4E 80 04 21 */	bctrl 
+/* 80149A00 00144F20  4E 80 04 21 */	bctrl
 /* 80149A04 00144F24  6C 60 80 00 */	xoris r0, r3, 0x8000
 /* 80149A08 00144F28  3F 80 43 30 */	lis r28, 0x4330
 /* 80149A0C 00144F2C  90 01 00 0C */	stw r0, 0xc(r1)
@@ -2738,7 +2738,7 @@ glabel SetFontSize__Q36nw4hbm2ut10CharWriterFff
 /* 80149A2C 00144F4C  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80149A30 00144F50  EF DE 00 24 */	fdivs f30, f30, f0
 /* 80149A34 00144F54  7D 89 03 A6 */	mtctr r12
-/* 80149A38 00144F58  4E 80 04 21 */	bctrl 
+/* 80149A38 00144F58  4E 80 04 21 */	bctrl
 /* 80149A3C 00144F5C  6C 63 80 00 */	xoris r3, r3, 0x8000
 /* 80149A40 00144F60  3C 1E 80 00 */	addis r0, r30, 0x8000
 /* 80149A44 00144F64  90 61 00 14 */	stw r3, 0x14(r1)
@@ -2794,7 +2794,7 @@ glabel SetFontSize__Q36nw4hbm2ut10CharWriterFff
 /* 80149B00 00145020  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 80149B04 00145024  7C 08 03 A6 */	mtlr r0
 /* 80149B08 00145028  38 21 00 50 */	addi r1, r1, 0x50
-/* 80149B0C 0014502C  4E 80 00 20 */	blr 
+/* 80149B0C 0014502C  4E 80 00 20 */	blr
 
 glabel GetFontWidth__Q36nw4hbm2ut10CharWriterCFv
 /* 80149B10 00145030  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2937,7 +2937,7 @@ glabel GetFontWidth__Q36nw4hbm2ut10CharWriterCFv
 /* 80149CFC 0014521C  81 83 00 00 */	lwz r12, 0(r3)
 /* 80149D00 00145220  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80149D04 00145224  7D 89 03 A6 */	mtctr r12
-/* 80149D08 00145228  4E 80 04 21 */	bctrl 
+/* 80149D08 00145228  4E 80 04 21 */	bctrl
 /* 80149D0C 0014522C  6C 63 80 00 */	xoris r3, r3, 0x8000
 /* 80149D10 00145230  3C 00 43 30 */	lis r0, 0x4330
 /* 80149D14 00145234  90 61 00 0C */	stw r3, 0xc(r1)
@@ -2953,7 +2953,7 @@ glabel GetFontWidth__Q36nw4hbm2ut10CharWriterCFv
 /* 80149D3C 0014525C  EC 20 00 72 */	fmuls f1, f0, f1
 /* 80149D40 00145260  7C 08 03 A6 */	mtlr r0
 /* 80149D44 00145264  38 21 00 20 */	addi r1, r1, 0x20
-/* 80149D48 00145268  4E 80 00 20 */	blr 
+/* 80149D48 00145268  4E 80 00 20 */	blr
 
 glabel GetFontHeight__Q36nw4hbm2ut10CharWriterCFv
 /* 80149D4C 0014526C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3096,7 +3096,7 @@ glabel GetFontHeight__Q36nw4hbm2ut10CharWriterCFv
 /* 80149F38 00145458  81 83 00 00 */	lwz r12, 0(r3)
 /* 80149F3C 0014545C  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 80149F40 00145460  7D 89 03 A6 */	mtctr r12
-/* 80149F44 00145464  4E 80 04 21 */	bctrl 
+/* 80149F44 00145464  4E 80 04 21 */	bctrl
 /* 80149F48 00145468  6C 63 80 00 */	xoris r3, r3, 0x8000
 /* 80149F4C 0014546C  3C 00 43 30 */	lis r0, 0x4330
 /* 80149F50 00145470  90 61 00 0C */	stw r3, 0xc(r1)
@@ -3112,7 +3112,7 @@ glabel GetFontHeight__Q36nw4hbm2ut10CharWriterCFv
 /* 80149F78 00145498  EC 20 00 72 */	fmuls f1, f0, f1
 /* 80149F7C 0014549C  7C 08 03 A6 */	mtlr r0
 /* 80149F80 001454A0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80149F84 001454A4  4E 80 00 20 */	blr 
+/* 80149F84 001454A4  4E 80 00 20 */	blr
 
 glabel GetFontAscent__Q36nw4hbm2ut10CharWriterCFv
 /* 80149F88 001454A8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3255,7 +3255,7 @@ glabel GetFontAscent__Q36nw4hbm2ut10CharWriterCFv
 /* 8014A174 00145694  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014A178 00145698  81 8C 00 14 */	lwz r12, 0x14(r12)
 /* 8014A17C 0014569C  7D 89 03 A6 */	mtctr r12
-/* 8014A180 001456A0  4E 80 04 21 */	bctrl 
+/* 8014A180 001456A0  4E 80 04 21 */	bctrl
 /* 8014A184 001456A4  6C 63 80 00 */	xoris r3, r3, 0x8000
 /* 8014A188 001456A8  3C 00 43 30 */	lis r0, 0x4330
 /* 8014A18C 001456AC  90 61 00 0C */	stw r3, 0xc(r1)
@@ -3271,7 +3271,7 @@ glabel GetFontAscent__Q36nw4hbm2ut10CharWriterCFv
 /* 8014A1B4 001456D4  EC 20 00 72 */	fmuls f1, f0, f1
 /* 8014A1B8 001456D8  7C 08 03 A6 */	mtlr r0
 /* 8014A1BC 001456DC  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014A1C0 001456E0  4E 80 00 20 */	blr 
+/* 8014A1C0 001456E0  4E 80 00 20 */	blr
 
 glabel IsWidthFixed__Q36nw4hbm2ut10CharWriterCFv
 /* 8014A1C4 001456E4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3350,7 +3350,7 @@ glabel IsWidthFixed__Q36nw4hbm2ut10CharWriterCFv
 /* 8014A2CC 001457EC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014A2D0 001457F0  7C 08 03 A6 */	mtlr r0
 /* 8014A2D4 001457F4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014A2D8 001457F8  4E 80 00 20 */	blr 
+/* 8014A2D8 001457F8  4E 80 00 20 */	blr
 
 glabel GetFixedWidth__Q36nw4hbm2ut10CharWriterCFv
 /* 8014A2DC 001457FC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3429,7 +3429,7 @@ glabel GetFixedWidth__Q36nw4hbm2ut10CharWriterCFv
 /* 8014A3E4 00145904  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014A3E8 00145908  7C 08 03 A6 */	mtlr r0
 /* 8014A3EC 0014590C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014A3F0 00145910  4E 80 00 20 */	blr 
+/* 8014A3F0 00145910  4E 80 00 20 */	blr
 
 glabel Print__Q36nw4hbm2ut10CharWriterFUs
 /* 8014A3F4 00145914  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -3589,7 +3589,7 @@ glabel Print__Q36nw4hbm2ut10CharWriterFUs
 /* 8014A620 00145B40  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014A624 00145B44  81 8C 00 50 */	lwz r12, 0x50(r12)
 /* 8014A628 00145B48  7D 89 03 A6 */	mtctr r12
-/* 8014A62C 00145B4C  4E 80 04 21 */	bctrl 
+/* 8014A62C 00145B4C  4E 80 04 21 */	bctrl
 /* 8014A630 00145B50  88 1D 00 43 */	lbz r0, 0x43(r29)
 /* 8014A634 00145B54  2C 00 00 00 */	cmpwi r0, 0
 /* 8014A638 00145B58  41 82 00 64 */	beq .L_8014A69C
@@ -3655,7 +3655,7 @@ glabel Print__Q36nw4hbm2ut10CharWriterFUs
 /* 8014A720 00145C40  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 8014A724 00145C44  7C 08 03 A6 */	mtlr r0
 /* 8014A728 00145C48  38 21 00 50 */	addi r1, r1, 0x50
-/* 8014A72C 00145C4C  4E 80 00 20 */	blr 
+/* 8014A72C 00145C4C  4E 80 00 20 */	blr
 
 glabel SetCursor__Q36nw4hbm2ut10CharWriterFff
 /* 8014A730 00145C50  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3741,7 +3741,7 @@ glabel SetCursor__Q36nw4hbm2ut10CharWriterFff
 /* 8014A854 00145D74  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014A858 00145D78  7C 08 03 A6 */	mtlr r0
 /* 8014A85C 00145D7C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014A860 00145D80  4E 80 00 20 */	blr 
+/* 8014A860 00145D80  4E 80 00 20 */	blr
 
 glabel SetCursorX__Q36nw4hbm2ut10CharWriterFf
 /* 8014A864 00145D84  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3823,7 +3823,7 @@ glabel SetCursorX__Q36nw4hbm2ut10CharWriterFf
 /* 8014A978 00145E98  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014A97C 00145E9C  7C 08 03 A6 */	mtlr r0
 /* 8014A980 00145EA0  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014A984 00145EA4  4E 80 00 20 */	blr 
+/* 8014A984 00145EA4  4E 80 00 20 */	blr
 
 glabel SetCursorY__Q36nw4hbm2ut10CharWriterFf
 /* 8014A988 00145EA8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3905,7 +3905,7 @@ glabel SetCursorY__Q36nw4hbm2ut10CharWriterFf
 /* 8014AA9C 00145FBC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014AAA0 00145FC0  7C 08 03 A6 */	mtlr r0
 /* 8014AAA4 00145FC4  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014AAA8 00145FC8  4E 80 00 20 */	blr 
+/* 8014AAA8 00145FC8  4E 80 00 20 */	blr
 
 glabel MoveCursorX__Q36nw4hbm2ut10CharWriterFf
 /* 8014AAAC 00145FCC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3991,7 +3991,7 @@ glabel MoveCursorX__Q36nw4hbm2ut10CharWriterFf
 /* 8014ABD0 001460F0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014ABD4 001460F4  7C 08 03 A6 */	mtlr r0
 /* 8014ABD8 001460F8  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014ABDC 001460FC  4E 80 00 20 */	blr 
+/* 8014ABDC 001460FC  4E 80 00 20 */	blr
 
 glabel MoveCursorY__Q36nw4hbm2ut10CharWriterFf
 /* 8014ABE0 00146100  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -4077,7 +4077,7 @@ glabel MoveCursorY__Q36nw4hbm2ut10CharWriterFf
 /* 8014AD04 00146224  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014AD08 00146228  7C 08 03 A6 */	mtlr r0
 /* 8014AD0C 0014622C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014AD10 00146230  4E 80 00 20 */	blr 
+/* 8014AD10 00146230  4E 80 00 20 */	blr
 
 glabel GetCursorX__Q36nw4hbm2ut10CharWriterCFv
 /* 8014AD14 00146234  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -4156,7 +4156,7 @@ glabel GetCursorX__Q36nw4hbm2ut10CharWriterCFv
 /* 8014AE1C 0014633C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014AE20 00146340  7C 08 03 A6 */	mtlr r0
 /* 8014AE24 00146344  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014AE28 00146348  4E 80 00 20 */	blr 
+/* 8014AE28 00146348  4E 80 00 20 */	blr
 
 glabel GetCursorY__Q36nw4hbm2ut10CharWriterCFv
 /* 8014AE2C 0014634C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -4235,7 +4235,7 @@ glabel GetCursorY__Q36nw4hbm2ut10CharWriterCFv
 /* 8014AF34 00146454  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014AF38 00146458  7C 08 03 A6 */	mtlr r0
 /* 8014AF3C 0014645C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014AF40 00146460  4E 80 00 20 */	blr 
+/* 8014AF40 00146460  4E 80 00 20 */	blr
 
 glabel PrintGlyph__Q36nw4hbm2ut10CharWriterFfffRCQ36nw4hbm2ut5Glyph
 /* 8014AF44 00146464  94 21 FF 40 */	stwu r1, -0xc0(r1)
@@ -4627,7 +4627,7 @@ glabel PrintGlyph__Q36nw4hbm2ut10CharWriterFfffRCQ36nw4hbm2ut5Glyph
 /* 8014B4E8 00146A08  80 01 00 C4 */	lwz r0, 0xc4(r1)
 /* 8014B4EC 00146A0C  7C 08 03 A6 */	mtlr r0
 /* 8014B4F0 00146A10  38 21 00 C0 */	addi r1, r1, 0xc0
-/* 8014B4F4 00146A14  4E 80 00 20 */	blr 
+/* 8014B4F4 00146A14  4E 80 00 20 */	blr
 
 glabel SetupGXWithColorMapping__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5ColorQ36nw4hbm2ut5Color
 /* 8014B4F8 00146A18  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -4846,7 +4846,7 @@ glabel SetupGXWithColorMapping__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5ColorQ36nw
 /* 8014B848 00146D68  83 A1 00 24 */	lwz r29, 0x24(r1)
 /* 8014B84C 00146D6C  7C 08 03 A6 */	mtlr r0
 /* 8014B850 00146D70  38 21 00 30 */	addi r1, r1, 0x30
-/* 8014B854 00146D74  4E 80 00 20 */	blr 
+/* 8014B854 00146D74  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -81,7 +81,7 @@ glabel iosCreateHeap
 /* 800C0690 000BBBB0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800C0694 000BBBB4  7C 08 03 A6 */	mtlr r0
 /* 800C0698 000BBBB8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C069C 000BBBBC  4E 80 00 20 */	blr 
+/* 800C069C 000BBBBC  4E 80 00 20 */	blr
 
 glabel __iosAlloc
 /* 800C06A0 000BBBC0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -227,7 +227,7 @@ glabel __iosAlloc
 /* 800C0894 000BBDB4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800C0898 000BBDB8  7C 08 03 A6 */	mtlr r0
 /* 800C089C 000BBDBC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C08A0 000BBDC0  4E 80 00 20 */	blr 
+/* 800C08A0 000BBDC0  4E 80 00 20 */	blr
 
 glabel iosAllocAligned
 /* 800C08A4 000BBDC4  4B FF FD FC */	b __iosAlloc
@@ -368,7 +368,7 @@ glabel iosFree
 /* 800C0A84 000BBFA4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800C0A88 000BBFA8  7C 08 03 A6 */	mtlr r0
 /* 800C0A8C 000BBFAC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C0A90 000BBFB0  4E 80 00 20 */	blr 
+/* 800C0A90 000BBFB0  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

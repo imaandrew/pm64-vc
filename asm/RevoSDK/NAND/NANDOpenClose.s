@@ -78,7 +78,7 @@ glabel nandOpen
 /* 800BA038 000B5558  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 800BA03C 000B555C  7C 08 03 A6 */	mtlr r0
 /* 800BA040 000B5560  38 21 00 60 */	addi r1, r1, 0x60
-/* 800BA044 000B5564  4E 80 00 20 */	blr 
+/* 800BA044 000B5564  4E 80 00 20 */	blr
 
 glabel NANDOpen
 /* 800BA048 000B5568  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -118,7 +118,7 @@ glabel NANDOpen
 /* 800BA0C4 000B55E4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800BA0C8 000B55E8  7C 08 03 A6 */	mtlr r0
 /* 800BA0CC 000B55EC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BA0D0 000B55F0  4E 80 00 20 */	blr 
+/* 800BA0D0 000B55F0  4E 80 00 20 */	blr
 
 glabel NANDPrivateOpen
 /* 800BA0D4 000B55F4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -158,7 +158,7 @@ glabel NANDPrivateOpen
 /* 800BA150 000B5670  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800BA154 000B5674  7C 08 03 A6 */	mtlr r0
 /* 800BA158 000B5678  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BA15C 000B567C  4E 80 00 20 */	blr 
+/* 800BA15C 000B567C  4E 80 00 20 */	blr
 
 glabel NANDOpenAsync
 /* 800BA160 000B5680  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -192,7 +192,7 @@ glabel NANDOpenAsync
 /* 800BA1C8 000B56E8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BA1CC 000B56EC  7C 08 03 A6 */	mtlr r0
 /* 800BA1D0 000B56F0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BA1D4 000B56F4  4E 80 00 20 */	blr 
+/* 800BA1D4 000B56F4  4E 80 00 20 */	blr
 
 glabel NANDPrivateOpenAsync
 /* 800BA1D8 000B56F8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -226,7 +226,7 @@ glabel NANDPrivateOpenAsync
 /* 800BA240 000B5760  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BA244 000B5764  7C 08 03 A6 */	mtlr r0
 /* 800BA248 000B5768  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BA24C 000B576C  4E 80 00 20 */	blr 
+/* 800BA24C 000B576C  4E 80 00 20 */	blr
 
 glabel nandOpenCallback
 /* 800BA250 000B5770  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -247,20 +247,20 @@ glabel nandOpenCallback
 /* 800BA28C 000B57AC  98 05 00 8A */	stb r0, 0x8a(r5)
 /* 800BA290 000B57B0  81 84 00 04 */	lwz r12, 4(r4)
 /* 800BA294 000B57B4  7D 89 03 A6 */	mtctr r12
-/* 800BA298 000B57B8  4E 80 04 21 */	bctrl 
+/* 800BA298 000B57B8  4E 80 04 21 */	bctrl
 /* 800BA29C 000B57BC  48 00 00 18 */	b .L_800BA2B4
 .L_800BA2A0:
 /* 800BA2A0 000B57C0  48 00 0A 51 */	bl nandConvertErrorCode
 /* 800BA2A4 000B57C4  81 9F 00 04 */	lwz r12, 4(r31)
 /* 800BA2A8 000B57C8  7F E4 FB 78 */	mr r4, r31
 /* 800BA2AC 000B57CC  7D 89 03 A6 */	mtctr r12
-/* 800BA2B0 000B57D0  4E 80 04 21 */	bctrl 
+/* 800BA2B0 000B57D0  4E 80 04 21 */	bctrl
 .L_800BA2B4:
 /* 800BA2B4 000B57D4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800BA2B8 000B57D8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800BA2BC 000B57DC  7C 08 03 A6 */	mtlr r0
 /* 800BA2C0 000B57E0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BA2C4 000B57E4  4E 80 00 20 */	blr 
+/* 800BA2C4 000B57E4  4E 80 00 20 */	blr
 
 glabel NANDClose
 /* 800BA2C8 000B57E8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -293,7 +293,7 @@ glabel NANDClose
 /* 800BA324 000B5844  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800BA328 000B5848  7C 08 03 A6 */	mtlr r0
 /* 800BA32C 000B584C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BA330 000B5850  4E 80 00 20 */	blr 
+/* 800BA330 000B5850  4E 80 00 20 */	blr
 
 glabel NANDCloseAsync
 /* 800BA334 000B5854  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -332,7 +332,7 @@ glabel NANDCloseAsync
 /* 800BA3AC 000B58CC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800BA3B0 000B58D0  7C 08 03 A6 */	mtlr r0
 /* 800BA3B4 000B58D4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BA3B8 000B58D8  4E 80 00 20 */	blr 
+/* 800BA3B8 000B58D8  4E 80 00 20 */	blr
 
 glabel NANDSafeOpen
 /* 800BA3BC 000B58DC  39 00 00 00 */	li r8, 0
@@ -560,7 +560,7 @@ glabel NANDSafeOpen
 /* 800BA6E0 000B5C00  80 01 00 94 */	lwz r0, 0x94(r1)
 /* 800BA6E4 000B5C04  7C 08 03 A6 */	mtlr r0
 /* 800BA6E8 000B5C08  38 21 00 90 */	addi r1, r1, 0x90
-/* 800BA6EC 000B5C0C  4E 80 00 20 */	blr 
+/* 800BA6EC 000B5C0C  4E 80 00 20 */	blr
 
 glabel NANDSafeClose
 /* 800BA6F0 000B5C10  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -669,7 +669,7 @@ glabel NANDSafeClose
 /* 800BA864 000B5D84  83 E1 00 4C */	lwz r31, 0x4c(r1)
 /* 800BA868 000B5D88  7C 08 03 A6 */	mtlr r0
 /* 800BA86C 000B5D8C  38 21 00 50 */	addi r1, r1, 0x50
-/* 800BA870 000B5D90  4E 80 00 20 */	blr 
+/* 800BA870 000B5D90  4E 80 00 20 */	blr
 
 glabel nandCloseCallback
 /* 800BA874 000B5D94  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -690,12 +690,12 @@ glabel nandCloseCallback
 /* 800BA8AC 000B5DCC  81 9F 00 04 */	lwz r12, 4(r31)
 /* 800BA8B0 000B5DD0  7F E4 FB 78 */	mr r4, r31
 /* 800BA8B4 000B5DD4  7D 89 03 A6 */	mtctr r12
-/* 800BA8B8 000B5DD8  4E 80 04 21 */	bctrl 
+/* 800BA8B8 000B5DD8  4E 80 04 21 */	bctrl
 /* 800BA8BC 000B5DDC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800BA8C0 000B5DE0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800BA8C4 000B5DE4  7C 08 03 A6 */	mtlr r0
 /* 800BA8C8 000B5DE8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BA8CC 000B5DEC  4E 80 00 20 */	blr 
+/* 800BA8CC 000B5DEC  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

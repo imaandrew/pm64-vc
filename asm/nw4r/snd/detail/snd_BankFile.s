@@ -114,7 +114,7 @@ glabel __ct__Q46nw4hbm3snd6detail14BankFileReaderFPCv
 /* 8012C424 00127944  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8012C428 00127948  7C 08 03 A6 */	mtlr r0
 /* 8012C42C 0012794C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012C430 00127950  4E 80 00 20 */	blr 
+/* 8012C430 00127950  4E 80 00 20 */	blr
 
 glabel ReadInstInfo__Q46nw4hbm3snd6detail14BankFileReaderCFPQ46nw4hbm3snd6detail8InstInfoiii
 /* 8012C434 00127954  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -269,7 +269,7 @@ glabel ReadInstInfo__Q46nw4hbm3snd6detail14BankFileReaderCFPQ46nw4hbm3snd6detail
 /* 8012C648 00127B68  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8012C64C 00127B6C  7C 08 03 A6 */	mtlr r0
 /* 8012C650 00127B70  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012C654 00127B74  4E 80 00 20 */	blr 
+/* 8012C654 00127B74  4E 80 00 20 */	blr
 
 glabel GetReferenceToSubRegion__Q46nw4hbm3snd6detail14BankFileReaderCFPCQ56nw4hbm3snd6detail4Util134DataRef
 /* 8012C658 00127B78  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -384,7 +384,7 @@ glabel GetReferenceToSubRegion__Q46nw4hbm3snd6detail14BankFileReaderCFPCQ56nw4hb
 /* 8012C7D4 00127CF4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8012C7D8 00127CF8  7C 08 03 A6 */	mtlr r0
 /* 8012C7DC 00127CFC  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012C7E0 00127D00  4E 80 00 20 */	blr 
+/* 8012C7E0 00127D00  4E 80 00 20 */	blr
 
 glabel ReadWaveParam__Q46nw4hbm3snd6detail14BankFileReaderCFPQ46nw4hbm3snd6detail8WaveDataiPCv
 /* 8012C7E4 00127D04  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -465,5 +465,5 @@ glabel ReadWaveParam__Q46nw4hbm3snd6detail14BankFileReaderCFPQ46nw4hbm3snd6detai
 /* 8012C8F4 00127E14  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8012C8F8 00127E18  7C 08 03 A6 */	mtlr r0
 /* 8012C8FC 00127E1C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012C900 00127E20  4E 80 00 20 */	blr 
+/* 8012C900 00127E20  4E 80 00 20 */	blr
 

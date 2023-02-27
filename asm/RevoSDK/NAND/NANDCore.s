@@ -60,7 +60,7 @@ glabel nandRemoveTailToken
 /* 800BA994 000B5EB4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800BA998 000B5EB8  7C 08 03 A6 */	mtlr r0
 /* 800BA99C 000B5EBC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BA9A0 000B5EC0  4E 80 00 20 */	blr 
+/* 800BA9A0 000B5EC0  4E 80 00 20 */	blr
 
 glabel nandGetHeadToken
 /* 800BA9A4 000B5EC4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -121,7 +121,7 @@ glabel nandGetHeadToken
 /* 800BAA68 000B5F88  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BAA6C 000B5F8C  7C 08 03 A6 */	mtlr r0
 /* 800BAA70 000B5F90  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BAA74 000B5F94  4E 80 00 20 */	blr 
+/* 800BAA74 000B5F94  4E 80 00 20 */	blr
 
 glabel nandGetRelativeName
 /* 800BAA78 000B5F98  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -165,7 +165,7 @@ glabel nandGetRelativeName
 /* 800BAB00 000B6020  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800BAB04 000B6024  7C 08 03 A6 */	mtlr r0
 /* 800BAB08 000B6028  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BAB0C 000B602C  4E 80 00 20 */	blr 
+/* 800BAB0C 000B602C  4E 80 00 20 */	blr
 
 glabel nandConvertPath
 /* 800BAB10 000B6030  94 21 FD E0 */	stwu r1, -0x220(r1)
@@ -253,7 +253,7 @@ glabel nandConvertPath
 /* 800BAC3C 000B615C  83 A1 02 14 */	lwz r29, 0x214(r1)
 /* 800BAC40 000B6160  7C 08 03 A6 */	mtlr r0
 /* 800BAC44 000B6164  38 21 02 20 */	addi r1, r1, 0x220
-/* 800BAC48 000B6168  4E 80 00 20 */	blr 
+/* 800BAC48 000B6168  4E 80 00 20 */	blr
 
 glabel nandIsPrivatePath
 /* 800BAC4C 000B616C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -268,7 +268,7 @@ glabel nandIsPrivatePath
 /* 800BAC70 000B6190  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800BAC74 000B6194  7C 08 03 A6 */	mtlr r0
 /* 800BAC78 000B6198  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BAC7C 000B619C  4E 80 00 20 */	blr 
+/* 800BAC7C 000B619C  4E 80 00 20 */	blr
 
 glabel nandIsUnderPrivatePath
 /* 800BAC80 000B61A0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -294,17 +294,17 @@ glabel nandIsUnderPrivatePath
 /* 800BACC8 000B61E8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800BACCC 000B61EC  7C 08 03 A6 */	mtlr r0
 /* 800BACD0 000B61F0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BACD4 000B61F4  4E 80 00 20 */	blr 
+/* 800BACD4 000B61F4  4E 80 00 20 */	blr
 
 glabel nandIsInitialized
 /* 800BACD8 000B61F8  80 6D 91 A8 */	lwz r3, lbl_80247628@sda21(r13)
 /* 800BACDC 000B61FC  38 03 FF FE */	addi r0, r3, -2
 /* 800BACE0 000B6200  7C 00 00 34 */	cntlzw r0, r0
 /* 800BACE4 000B6204  54 03 D9 7E */	srwi r3, r0, 5
-/* 800BACE8 000B6208  4E 80 00 20 */	blr 
+/* 800BACE8 000B6208  4E 80 00 20 */	blr
 
 glabel nandReportErrorCode
-/* 800BACEC 000B620C  4E 80 00 20 */	blr 
+/* 800BACEC 000B620C  4E 80 00 20 */	blr
 
 glabel nandConvertErrorCode
 /* 800BACF0 000B6210  94 21 FE B0 */	stwu r1, -0x150(r1)
@@ -363,7 +363,7 @@ glabel nandConvertErrorCode
 /* 800BADB0 000B62D0  83 C1 01 48 */	lwz r30, 0x148(r1)
 /* 800BADB4 000B62D4  7C 08 03 A6 */	mtlr r0
 /* 800BADB8 000B62D8  38 21 01 50 */	addi r1, r1, 0x150
-/* 800BADBC 000B62DC  4E 80 00 20 */	blr 
+/* 800BADBC 000B62DC  4E 80 00 20 */	blr
 
 glabel nandGenerateAbsPath
 /* 800BADC0 000B62E0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -420,7 +420,7 @@ glabel nandGenerateAbsPath
 /* 800BAE78 000B6398  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800BAE7C 000B639C  7C 08 03 A6 */	mtlr r0
 /* 800BAE80 000B63A0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BAE84 000B63A4  4E 80 00 20 */	blr 
+/* 800BAE84 000B63A4  4E 80 00 20 */	blr
 
 glabel nandGetParentDirectory
 /* 800BAE88 000B63A8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -467,7 +467,7 @@ glabel nandGetParentDirectory
 /* 800BAF1C 000B643C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800BAF20 000B6440  7C 08 03 A6 */	mtlr r0
 /* 800BAF24 000B6444  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BAF28 000B6448  4E 80 00 20 */	blr 
+/* 800BAF28 000B6448  4E 80 00 20 */	blr
 
 glabel ESSetHomeDir
 /* 800BAF2C 000B644C  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -644,7 +644,7 @@ glabel ESSetHomeDir
 /* 800BB190 000B66B0  83 8A FF F0 */	lwz r28, -0x10(r10)
 /* 800BB194 000B66B4  7C 08 03 A6 */	mtlr r0
 /* 800BB198 000B66B8  7D 41 53 78 */	mr r1, r10
-/* 800BB19C 000B66BC  4E 80 00 20 */	blr 
+/* 800BB19C 000B66BC  4E 80 00 20 */	blr
 
 glabel nandOnShutdown
 /* 800BB1A0 000B66C0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -702,12 +702,12 @@ glabel nandOnShutdown
 /* 800BB25C 000B677C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800BB260 000B6780  7C 08 03 A6 */	mtlr r0
 /* 800BB264 000B6784  38 21 00 30 */	addi r1, r1, 0x30
-/* 800BB268 000B6788  4E 80 00 20 */	blr 
+/* 800BB268 000B6788  4E 80 00 20 */	blr
 
 glabel nandShutdownCallback
 /* 800BB26C 000B678C  38 00 00 01 */	li r0, 1
 /* 800BB270 000B6790  90 04 00 00 */	stw r0, 0(r4)
-/* 800BB274 000B6794  4E 80 00 20 */	blr 
+/* 800BB274 000B6794  4E 80 00 20 */	blr
 
 glabel nandChangeDir
 /* 800BB278 000B6798  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -893,7 +893,7 @@ glabel nandChangeDir
 /* 800BB4FC 000B6A1C  83 A1 00 54 */	lwz r29, 0x54(r1)
 /* 800BB500 000B6A20  7C 08 03 A6 */	mtlr r0
 /* 800BB504 000B6A24  38 21 00 60 */	addi r1, r1, 0x60
-/* 800BB508 000B6A28  4E 80 00 20 */	blr 
+/* 800BB508 000B6A28  4E 80 00 20 */	blr
 
 glabel NANDChangeDirAsync
 /* 800BB50C 000B6A2C  94 21 FE B0 */	stwu r1, -0x150(r1)
@@ -965,7 +965,7 @@ glabel lbl_800BB58C
 /* 800BB5F0 000B6B10  83 C1 01 48 */	lwz r30, 0x148(r1)
 /* 800BB5F4 000B6B14  7C 08 03 A6 */	mtlr r0
 /* 800BB5F8 000B6B18  38 21 01 50 */	addi r1, r1, 0x150
-/* 800BB5FC 000B6B1C  4E 80 00 20 */	blr 
+/* 800BB5FC 000B6B1C  4E 80 00 20 */	blr
 
 glabel nandChangeDirCallback
 /* 800BB600 000B6B20  94 21 FE A0 */	stwu r1, -0x160(r1)
@@ -1036,7 +1036,7 @@ glabel nandChangeDirCallback
 /* 800BB6EC 000B6C0C  7F 83 E3 78 */	mr r3, r28
 /* 800BB6F0 000B6C10  7F A4 EB 78 */	mr r4, r29
 /* 800BB6F4 000B6C14  7D 89 03 A6 */	mtctr r12
-/* 800BB6F8 000B6C18  4E 80 04 21 */	bctrl 
+/* 800BB6F8 000B6C18  4E 80 04 21 */	bctrl
 /* 800BB6FC 000B6C1C  80 01 01 64 */	lwz r0, 0x164(r1)
 /* 800BB700 000B6C20  83 E1 01 5C */	lwz r31, 0x15c(r1)
 /* 800BB704 000B6C24  83 C1 01 58 */	lwz r30, 0x158(r1)
@@ -1044,7 +1044,7 @@ glabel nandChangeDirCallback
 /* 800BB70C 000B6C2C  83 81 01 50 */	lwz r28, 0x150(r1)
 /* 800BB710 000B6C30  7C 08 03 A6 */	mtlr r0
 /* 800BB714 000B6C34  38 21 01 60 */	addi r1, r1, 0x160
-/* 800BB718 000B6C38  4E 80 00 20 */	blr 
+/* 800BB718 000B6C38  4E 80 00 20 */	blr
 
 glabel NANDGetCurrentDir
 /* 800BB71C 000B6C3C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1081,7 +1081,7 @@ glabel NANDGetCurrentDir
 /* 800BB788 000B6CA8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800BB78C 000B6CAC  7C 08 03 A6 */	mtlr r0
 /* 800BB790 000B6CB0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BB794 000B6CB4  4E 80 00 20 */	blr 
+/* 800BB794 000B6CB4  4E 80 00 20 */	blr
 
 glabel NANDGetHomeDir
 /* 800BB798 000B6CB8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1108,7 +1108,7 @@ glabel NANDGetHomeDir
 /* 800BB7DC 000B6CFC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800BB7E0 000B6D00  7C 08 03 A6 */	mtlr r0
 /* 800BB7E4 000B6D04  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BB7E8 000B6D08  4E 80 00 20 */	blr 
+/* 800BB7E8 000B6D08  4E 80 00 20 */	blr
 
 glabel nandCallback
 /* 800BB7EC 000B6D0C  94 21 FE A0 */	stwu r1, -0x160(r1)
@@ -1167,14 +1167,14 @@ glabel nandCallback
 /* 800BB8AC 000B6DCC  7F A3 EB 78 */	mr r3, r29
 /* 800BB8B0 000B6DD0  7F C4 F3 78 */	mr r4, r30
 /* 800BB8B4 000B6DD4  7D 89 03 A6 */	mtctr r12
-/* 800BB8B8 000B6DD8  4E 80 04 21 */	bctrl 
+/* 800BB8B8 000B6DD8  4E 80 04 21 */	bctrl
 /* 800BB8BC 000B6DDC  80 01 01 64 */	lwz r0, 0x164(r1)
 /* 800BB8C0 000B6DE0  83 E1 01 5C */	lwz r31, 0x15c(r1)
 /* 800BB8C4 000B6DE4  83 C1 01 58 */	lwz r30, 0x158(r1)
 /* 800BB8C8 000B6DE8  83 A1 01 54 */	lwz r29, 0x154(r1)
 /* 800BB8CC 000B6DEC  7C 08 03 A6 */	mtlr r0
 /* 800BB8D0 000B6DF0  38 21 01 60 */	addi r1, r1, 0x160
-/* 800BB8D4 000B6DF4  4E 80 00 20 */	blr 
+/* 800BB8D4 000B6DF4  4E 80 00 20 */	blr
 
 glabel nandGetType
 /* 800BB8D8 000B6DF8  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -1378,7 +1378,7 @@ glabel nandGetType
 /* 800BBB9C 000B70BC  80 01 00 74 */	lwz r0, 0x74(r1)
 /* 800BBBA0 000B70C0  7C 08 03 A6 */	mtlr r0
 /* 800BBBA4 000B70C4  38 21 00 70 */	addi r1, r1, 0x70
-/* 800BBBA8 000B70C8  4E 80 00 20 */	blr 
+/* 800BBBA8 000B70C8  4E 80 00 20 */	blr
 
 glabel NANDGetType
 /* 800BBBAC 000B70CC  94 21 FE B0 */	stwu r1, -0x150(r1)
@@ -1448,7 +1448,7 @@ glabel NANDGetType
 /* 800BBC90 000B71B0  83 C1 01 48 */	lwz r30, 0x148(r1)
 /* 800BBC94 000B71B4  7C 08 03 A6 */	mtlr r0
 /* 800BBC98 000B71B8  38 21 01 50 */	addi r1, r1, 0x150
-/* 800BBC9C 000B71BC  4E 80 00 20 */	blr 
+/* 800BBC9C 000B71BC  4E 80 00 20 */	blr
 
 glabel NANDPrivateGetTypeAsync
 /* 800BBCA0 000B71C0  94 21 FE B0 */	stwu r1, -0x150(r1)
@@ -1519,7 +1519,7 @@ glabel NANDPrivateGetTypeAsync
 /* 800BBD88 000B72A8  83 C1 01 48 */	lwz r30, 0x148(r1)
 /* 800BBD8C 000B72AC  7C 08 03 A6 */	mtlr r0
 /* 800BBD90 000B72B0  38 21 01 50 */	addi r1, r1, 0x150
-/* 800BBD94 000B72B4  4E 80 00 20 */	blr 
+/* 800BBD94 000B72B4  4E 80 00 20 */	blr
 
 glabel nandGetTypeCallback
 /* 800BBD98 000B72B8  94 21 FE A0 */	stwu r1, -0x160(r1)
@@ -1596,19 +1596,19 @@ glabel nandGetTypeCallback
 /* 800BBE94 000B73B4  7F A3 EB 78 */	mr r3, r29
 /* 800BBE98 000B73B8  7F E4 FB 78 */	mr r4, r31
 /* 800BBE9C 000B73BC  7D 89 03 A6 */	mtctr r12
-/* 800BBEA0 000B73C0  4E 80 04 21 */	bctrl 
+/* 800BBEA0 000B73C0  4E 80 04 21 */	bctrl
 /* 800BBEA4 000B73C4  80 01 01 64 */	lwz r0, 0x164(r1)
 /* 800BBEA8 000B73C8  83 E1 01 5C */	lwz r31, 0x15c(r1)
 /* 800BBEAC 000B73CC  83 C1 01 58 */	lwz r30, 0x158(r1)
 /* 800BBEB0 000B73D0  83 A1 01 54 */	lwz r29, 0x154(r1)
 /* 800BBEB4 000B73D4  7C 08 03 A6 */	mtlr r0
 /* 800BBEB8 000B73D8  38 21 01 60 */	addi r1, r1, 0x160
-/* 800BBEBC 000B73DC  4E 80 00 20 */	blr 
+/* 800BBEBC 000B73DC  4E 80 00 20 */	blr
 
 glabel nandGetHomeDir
 /* 800BBEC0 000B73E0  3C 60 80 1E */	lis r3, lbl_801E4E60@ha
 /* 800BBEC4 000B73E4  38 63 4E 60 */	addi r3, r3, lbl_801E4E60@l
-/* 800BBEC8 000B73E8  4E 80 00 20 */	blr 
+/* 800BBEC8 000B73E8  4E 80 00 20 */	blr
 
 glabel NANDInitBanner
 /* 800BBECC 000B73EC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1669,7 +1669,7 @@ glabel NANDInitBanner
 /* 800BBF98 000B74B8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800BBF9C 000B74BC  7C 08 03 A6 */	mtlr r0
 /* 800BBFA0 000B74C0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BBFA4 000B74C4  4E 80 00 20 */	blr 
+/* 800BBFA4 000B74C4  4E 80 00 20 */	blr
 
 glabel _ES_GetDataDir
 /* 800BBFA8 000B74C8  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -1714,7 +1714,7 @@ glabel _ES_GetDataDir
 /* 800BC034 000B7554  80 0A 00 04 */	lwz r0, 4(r10)
 /* 800BC038 000B7558  7C 08 03 A6 */	mtlr r0
 /* 800BC03C 000B755C  7D 41 53 78 */	mr r1, r10
-/* 800BC040 000B7560  4E 80 00 20 */	blr 
+/* 800BC040 000B7560  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

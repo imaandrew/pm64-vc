@@ -92,7 +92,7 @@ glabel FindNameResource__37lyt_arcResourceAccessor_cppFP9ARCHandlePCc
 /* 80118DB4 001142D4  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80118DB8 001142D8  7C 08 03 A6 */	mtlr r0
 /* 80118DBC 001142DC  38 21 00 40 */	addi r1, r1, 0x40
-/* 80118DC0 001142E0  4E 80 00 20 */	blr 
+/* 80118DC0 001142E0  4E 80 00 20 */	blr
 
 glabel GetResourceSub__37lyt_arcResourceAccessor_cppFP9ARCHandlePCcUlPCcPUl
 /* 80118DC4 001142E4  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -204,7 +204,7 @@ glabel GetResourceSub__37lyt_arcResourceAccessor_cppFP9ARCHandlePCcUlPCcPUl
 /* 80118F50 00114470  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80118F54 00114474  7C 08 03 A6 */	mtlr r0
 /* 80118F58 00114478  38 21 00 40 */	addi r1, r1, 0x40
-/* 80118F5C 0011447C  4E 80 00 20 */	blr 
+/* 80118F5C 0011447C  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm3lyt19ArcResourceAccessorFv
 /* 80118F60 00114480  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -229,7 +229,7 @@ glabel __ct__Q36nw4hbm3lyt19ArcResourceAccessorFv
 /* 80118FAC 001144CC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80118FB0 001144D0  7C 08 03 A6 */	mtlr r0
 /* 80118FB4 001144D4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80118FB8 001144D8  4E 80 00 20 */	blr 
+/* 80118FB8 001144D8  4E 80 00 20 */	blr
 
 glabel Attach__Q36nw4hbm3lyt19ArcResourceAccessorFPvPCc
 /* 80118FBC 001144DC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -293,7 +293,7 @@ glabel Attach__Q36nw4hbm3lyt19ArcResourceAccessorFPvPCc
 /* 80119090 001145B0  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80119094 001145B4  7C 08 03 A6 */	mtlr r0
 /* 80119098 001145B8  38 21 00 20 */	addi r1, r1, 0x20
-/* 8011909C 001145BC  4E 80 00 20 */	blr 
+/* 8011909C 001145BC  4E 80 00 20 */	blr
 
 glabel GetResource__Q36nw4hbm3lyt19ArcResourceAccessorFUlPCcPUl
 /* 801190A0 001145C0  7C 88 23 78 */	mr r8, r4
@@ -355,7 +355,7 @@ glabel GetFont__Q36nw4hbm3lyt19ArcResourceAccessorFPCc
 /* 80119160 00114680  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80119164 00114684  7C 08 03 A6 */	mtlr r0
 /* 80119168 00114688  38 21 00 20 */	addi r1, r1, 0x20
-/* 8011916C 0011468C  4E 80 00 20 */	blr 
+/* 8011916C 0011468C  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt24MultiArcResourceAccessorFv
 /* 80119170 00114690  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -396,7 +396,7 @@ glabel __dt__Q36nw4hbm3lyt24MultiArcResourceAccessorFv
 /* 801191F0 00114710  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801191F4 00114714  7C 08 03 A6 */	mtlr r0
 /* 801191F8 00114718  38 21 00 10 */	addi r1, r1, 0x10
-/* 801191FC 0011471C  4E 80 00 20 */	blr 
+/* 801191FC 0011471C  4E 80 00 20 */	blr
 
 glabel GetResource__Q36nw4hbm3lyt24MultiArcResourceAccessorFUlPCcPUl
 /* 80119200 00114720  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -451,7 +451,7 @@ glabel GetResource__Q36nw4hbm3lyt24MultiArcResourceAccessorFUlPCcPUl
 /* 801192AC 001147CC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 801192B0 001147D0  7C 08 03 A6 */	mtlr r0
 /* 801192B4 001147D4  38 21 00 30 */	addi r1, r1, 0x30
-/* 801192B8 001147D8  4E 80 00 20 */	blr 
+/* 801192B8 001147D8  4E 80 00 20 */	blr
 
 glabel GetFont__Q36nw4hbm3lyt24MultiArcResourceAccessorFPCc
 /* 801192BC 001147DC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -503,5 +503,5 @@ glabel GetFont__Q36nw4hbm3lyt24MultiArcResourceAccessorFPCc
 /* 8011935C 0011487C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80119360 00114880  7C 08 03 A6 */	mtlr r0
 /* 80119364 00114884  38 21 00 20 */	addi r1, r1, 0x20
-/* 80119368 00114888  4E 80 00 20 */	blr 
+/* 80119368 00114888  4E 80 00 20 */	blr
 

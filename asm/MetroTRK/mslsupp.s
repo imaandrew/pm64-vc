@@ -56,7 +56,7 @@ glabel __TRK_write_console
 /* 801732EC 0016E80C  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 801732F0 0016E810  7C 08 03 A6 */	mtlr r0
 /* 801732F4 0016E814  38 21 00 20 */	addi r1, r1, 0x20
-/* 801732F8 0016E818  4E 80 00 20 */	blr 
+/* 801732F8 0016E818  4E 80 00 20 */	blr
 
 glabel __read_console
 /* 801732FC 0016E81C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -112,5 +112,5 @@ glabel __read_console
 /* 801733A8 0016E8C8  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 801733AC 0016E8CC  7C 08 03 A6 */	mtlr r0
 /* 801733B0 0016E8D0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801733B4 0016E8D4  4E 80 00 20 */	blr 
+/* 801733B4 0016E8D4  4E 80 00 20 */	blr
 

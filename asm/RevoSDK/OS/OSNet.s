@@ -47,7 +47,7 @@ glabel __OSInitNet
 /* 8009A710 00095C30  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 8009A714 00095C34  7C 08 03 A6 */	mtlr r0
 /* 8009A718 00095C38  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009A71C 00095C3C  4E 80 00 20 */	blr 
+/* 8009A71C 00095C3C  4E 80 00 20 */	blr
 
 glabel NWC24iPrepareShutdown
 /* 8009A720 00095C40  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -100,7 +100,7 @@ glabel NWC24iPrepareShutdown
 /* 8009A7C8 00095CE8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009A7CC 00095CEC  7C 08 03 A6 */	mtlr r0
 /* 8009A7D0 00095CF0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009A7D4 00095CF4  4E 80 00 20 */	blr 
+/* 8009A7D4 00095CF4  4E 80 00 20 */	blr
 
 glabel NWC24iSynchronizeRtcCounter
 /* 8009A7D8 00095CF8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -165,7 +165,7 @@ glabel NWC24iSynchronizeRtcCounter
 /* 8009A8AC 00095DCC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8009A8B0 00095DD0  7C 08 03 A6 */	mtlr r0
 /* 8009A8B4 00095DD4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009A8B8 00095DD8  4E 80 00 20 */	blr 
+/* 8009A8B8 00095DD8  4E 80 00 20 */	blr
 
 glabel NWC24SuspendScheduler
 /* 8009A8BC 00095DDC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -244,7 +244,7 @@ glabel NWC24SuspendScheduler
 /* 8009A9AC 00095ECC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8009A9B0 00095ED0  7C 08 03 A6 */	mtlr r0
 /* 8009A9B4 00095ED4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009A9B8 00095ED8  4E 80 00 20 */	blr 
+/* 8009A9B8 00095ED8  4E 80 00 20 */	blr
 
 glabel NWC24iRequestShutdown
 /* 8009A9BC 00095EDC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -275,7 +275,7 @@ glabel NWC24iRequestShutdown
 /* 8009AA18 00095F38  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009AA1C 00095F3C  7C 08 03 A6 */	mtlr r0
 /* 8009AA20 00095F40  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009AA24 00095F44  4E 80 00 20 */	blr 
+/* 8009AA24 00095F44  4E 80 00 20 */	blr
 
 glabel NWC24Shutdown_
 /* 8009AA28 00095F48  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -330,7 +330,7 @@ glabel NWC24Shutdown_
 /* 8009AAD0 00095FF0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009AAD4 00095FF4  7C 08 03 A6 */	mtlr r0
 /* 8009AAD8 00095FF8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009AADC 00095FFC  4E 80 00 20 */	blr 
+/* 8009AADC 00095FFC  4E 80 00 20 */	blr
 
 glabel NWC24iSetRtcCounter_
 /* 8009AAE0 00096000  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -414,7 +414,7 @@ glabel NWC24iSetRtcCounter_
 /* 8009ABE4 00096104  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8009ABE8 00096108  7C 08 03 A6 */	mtlr r0
 /* 8009ABEC 0009610C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009ABF0 00096110  4E 80 00 20 */	blr 
+/* 8009ABF0 00096110  4E 80 00 20 */	blr
 
 glabel CallbackAsyncIpc
 /* 8009ABF4 00096114  2C 04 00 00 */	cmpwi r4, 0
@@ -424,7 +424,7 @@ glabel CallbackAsyncIpc
 /* 8009AC00 00096120  38 00 00 00 */	li r0, 0
 /* 8009AC04 00096124  38 60 00 00 */	li r3, 0
 /* 8009AC08 00096128  90 0D 8D 74 */	stw r0, lbl_802471F4@sda21(r13)
-/* 8009AC0C 0009612C  4E 80 00 20 */	blr 
+/* 8009AC0C 0009612C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

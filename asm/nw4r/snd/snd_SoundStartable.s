@@ -13,7 +13,7 @@ glabel detail_StartSound__Q36nw4hbm3snd14SoundStartableFPQ36nw4hbm3snd11SoundHan
 /* 8013E768 00139C88  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013E76C 00139C8C  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8013E770 00139C90  7D 89 03 A6 */	mtctr r12
-/* 8013E774 00139C94  4E 80 04 21 */	bctrl 
+/* 8013E774 00139C94  4E 80 04 21 */	bctrl
 /* 8013E778 00139C98  2C 03 00 00 */	cmpwi r3, 0
 /* 8013E77C 00139C9C  41 82 00 08 */	beq .L_8013E784
 /* 8013E780 00139CA0  48 00 00 24 */	b .L_8013E7A4
@@ -24,7 +24,7 @@ glabel detail_StartSound__Q36nw4hbm3snd14SoundStartableFPQ36nw4hbm3snd11SoundHan
 /* 8013E790 00139CB0  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013E794 00139CB4  81 8C 00 14 */	lwz r12, 0x14(r12)
 /* 8013E798 00139CB8  7D 89 03 A6 */	mtctr r12
-/* 8013E79C 00139CBC  4E 80 04 21 */	bctrl 
+/* 8013E79C 00139CBC  4E 80 04 21 */	bctrl
 .L_8013E7A0:
 /* 8013E7A0 00139CC0  38 60 00 00 */	li r3, 0
 .L_8013E7A4:
@@ -32,5 +32,5 @@ glabel detail_StartSound__Q36nw4hbm3snd14SoundStartableFPQ36nw4hbm3snd11SoundHan
 /* 8013E7A8 00139CC8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8013E7AC 00139CCC  7C 08 03 A6 */	mtlr r0
 /* 8013E7B0 00139CD0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013E7B4 00139CD4  4E 80 00 20 */	blr 
+/* 8013E7B4 00139CD4  4E 80 00 20 */	blr
 

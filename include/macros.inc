@@ -2,7 +2,7 @@
 Code sections:
 	.text0:	0x00000100	0x80004000	0x800064E0  # init
 	.text1:	0x000025E0	0x800070C0	0x80174200  # text
-Data sections:                                
+Data sections:
 	.data0:	0x0016F720	0x800064E0	0x800069E0  # extab_
 	.data1:	0x0016FC20	0x800069E0	0x800070C0  # extabindex_
 	.data2:	0x00170300	0x80174200	0x80174260  # ctors
@@ -11,7 +11,7 @@ Data sections:
 	.data5:	0x00175840	0x80179740	0x801ADFC0  # data
 	.data6:	0x001AA0C0	0x80246480	0x80246B60  # sdata
 	.data7:	0x001AA7A0	0x80247800	0x802486C0  # sdata2
-BSS sections:                                  
+BSS sections:
 	.bss:	0x00000000	0x801ADFC0	0x80246480  # bss
 	.bss:	0x00000000	0x80246B60	0x80247800  # sbss
 	.bss:	0x00000000	0x802486C0	0x802486D0  # sbss2

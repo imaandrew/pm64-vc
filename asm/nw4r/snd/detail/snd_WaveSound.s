@@ -25,7 +25,7 @@ glabel __ct__Q46nw4hbm3snd6detail9WaveSoundFPQ46nw4hbm3snd6detail52SoundInstance
 /* 80144094 0013F5B4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80144098 0013F5B8  7C 08 03 A6 */	mtlr r0
 /* 8014409C 0013F5BC  38 21 00 10 */	addi r1, r1, 0x10
-/* 801440A0 0013F5C0  4E 80 00 20 */	blr 
+/* 801440A0 0013F5C0  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail9WsdPlayerFv
 /* 801440A4 0013F5C4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -44,7 +44,7 @@ glabel __dt__Q46nw4hbm3snd6detail9WsdPlayerFv
 /* 801440D4 0013F5F4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801440D8 0013F5F8  7C 08 03 A6 */	mtlr r0
 /* 801440DC 0013F5FC  38 21 00 10 */	addi r1, r1, 0x10
-/* 801440E0 0013F600  4E 80 00 20 */	blr 
+/* 801440E0 0013F600  4E 80 00 20 */	blr
 
 glabel Prepare__Q46nw4hbm3snd6detail9WaveSoundFPCvliPCQ56nw4hbm3snd6detail8WsdTrack11WsdCallbackUl
 /* 801440E4 0013F604  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -89,7 +89,7 @@ glabel Prepare__Q46nw4hbm3snd6detail9WaveSoundFPCvliPCQ56nw4hbm3snd6detail8WsdTr
 /* 80144174 0013F694  7F 23 CB 78 */	mr r3, r25
 /* 80144178 0013F698  81 8C 00 58 */	lwz r12, 0x58(r12)
 /* 8014417C 0013F69C  7D 89 03 A6 */	mtctr r12
-/* 80144180 0013F6A0  4E 80 04 21 */	bctrl 
+/* 80144180 0013F6A0  4E 80 04 21 */	bctrl
 /* 80144184 0013F6A4  7F 44 D3 78 */	mr r4, r26
 /* 80144188 0013F6A8  7F 65 DB 78 */	mr r5, r27
 /* 8014418C 0013F6AC  7F 86 E3 78 */	mr r6, r28
@@ -102,7 +102,7 @@ glabel Prepare__Q46nw4hbm3snd6detail9WaveSoundFPCvliPCQ56nw4hbm3snd6detail8WsdTr
 /* 801441A8 0013F6C8  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 801441AC 0013F6CC  7C 08 03 A6 */	mtlr r0
 /* 801441B0 0013F6D0  38 21 00 30 */	addi r1, r1, 0x30
-/* 801441B4 0013F6D4  4E 80 00 20 */	blr 
+/* 801441B4 0013F6D4  4E 80 00 20 */	blr
 
 glabel Shutdown__Q46nw4hbm3snd6detail9WaveSoundFv
 /* 801441B8 0013F6D8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -150,7 +150,7 @@ glabel Shutdown__Q46nw4hbm3snd6detail9WaveSoundFv
 /* 80144254 0013F774  38 80 FF FF */	li r4, -1
 /* 80144258 0013F778  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8014425C 0013F77C  7D 89 03 A6 */	mtctr r12
-/* 80144260 0013F780  4E 80 04 21 */	bctrl 
+/* 80144260 0013F780  4E 80 04 21 */	bctrl
 /* 80144264 0013F784  7F C3 F3 78 */	mr r3, r30
 /* 80144268 0013F788  7F A4 EB 78 */	mr r4, r29
 /* 8014426C 0013F78C  4B FE C6 AD */	bl FreeImpl__Q46nw4hbm3snd6detail8PoolImplFPv
@@ -163,7 +163,7 @@ glabel Shutdown__Q46nw4hbm3snd6detail9WaveSoundFv
 /* 80144284 0013F7A4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80144288 0013F7A8  7C 08 03 A6 */	mtlr r0
 /* 8014428C 0013F7AC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80144290 0013F7B0  4E 80 00 20 */	blr 
+/* 80144290 0013F7B0  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail9WaveSoundFv
 /* 80144294 0013F7B4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -182,7 +182,7 @@ glabel __dt__Q46nw4hbm3snd6detail9WaveSoundFv
 /* 801442C4 0013F7E4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801442C8 0013F7E8  7C 08 03 A6 */	mtlr r0
 /* 801442CC 0013F7EC  38 21 00 10 */	addi r1, r1, 0x10
-/* 801442D0 0013F7F0  4E 80 00 20 */	blr 
+/* 801442D0 0013F7F0  4E 80 00 20 */	blr
 
 glabel SetChannelPriority__Q46nw4hbm3snd6detail9WaveSoundFi
 /* 801442D4 0013F7F4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -220,7 +220,7 @@ glabel SetChannelPriority__Q46nw4hbm3snd6detail9WaveSoundFi
 /* 8014434C 0013F86C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80144350 0013F870  7C 08 03 A6 */	mtlr r0
 /* 80144354 0013F874  38 21 00 10 */	addi r1, r1, 0x10
-/* 80144358 0013F878  4E 80 00 20 */	blr 
+/* 80144358 0013F878  4E 80 00 20 */	blr
 
 glabel SetPlayerPriority__Q46nw4hbm3snd6detail9WaveSoundFi
 /* 8014435C 0013F87C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -308,14 +308,14 @@ glabel SetPlayerPriority__Q46nw4hbm3snd6detail9WaveSoundFi
 /* 8014447C 0013F99C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80144480 0013F9A0  7C 08 03 A6 */	mtlr r0
 /* 80144484 0013F9A4  38 21 00 30 */	addi r1, r1, 0x30
-/* 80144488 0013F9A8  4E 80 00 20 */	blr 
+/* 80144488 0013F9A8  4E 80 00 20 */	blr
 
 glabel IsAttachedTempSpecialHandle__Q46nw4hbm3snd6detail9WaveSoundFv
 /* 8014448C 0013F9AC  80 63 01 AC */	lwz r3, 0x1ac(r3)
 /* 80144490 0013F9B0  7C 03 00 D0 */	neg r0, r3
 /* 80144494 0013F9B4  7C 00 1B 78 */	or r0, r0, r3
 /* 80144498 0013F9B8  54 03 0F FE */	srwi r3, r0, 0x1f
-/* 8014449C 0013F9BC  4E 80 00 20 */	blr 
+/* 8014449C 0013F9BC  4E 80 00 20 */	blr
 
 glabel DetachTempSpecialHandle__Q46nw4hbm3snd6detail9WaveSoundFv
 /* 801444A0 0013F9C0  80 63 01 AC */	lwz r3, 0x1ac(r3)
@@ -323,23 +323,23 @@ glabel DetachTempSpecialHandle__Q46nw4hbm3snd6detail9WaveSoundFv
 
 glabel GetBasicPlayer__Q46nw4hbm3snd6detail9WaveSoundFv
 /* 801444A8 0013F9C8  38 63 00 D8 */	addi r3, r3, 0xd8
-/* 801444AC 0013F9CC  4E 80 00 20 */	blr 
+/* 801444AC 0013F9CC  4E 80 00 20 */	blr
 
 glabel GetBasicPlayer__Q46nw4hbm3snd6detail9WaveSoundCFv
 /* 801444B0 0013F9D0  38 63 00 D8 */	addi r3, r3, 0xd8
-/* 801444B4 0013F9D4  4E 80 00 20 */	blr 
+/* 801444B4 0013F9D4  4E 80 00 20 */	blr
 
 glabel GetRuntimeTypeInfo__Q46nw4hbm3snd6detail9WaveSoundCFv
 /* 801444B8 0013F9D8  3C 60 80 24 */	lis r3, lbl_80243B40@ha
 /* 801444BC 0013F9DC  38 63 3B 40 */	addi r3, r3, lbl_80243B40@l
-/* 801444C0 0013F9E0  4E 80 00 20 */	blr 
+/* 801444C0 0013F9E0  4E 80 00 20 */	blr
 
 glabel __sinit_snd_WaveSound_cpp
 /* 801444C4 0013F9E4  3C 80 80 23 */	lis r4, lbl_80233580@ha
 /* 801444C8 0013F9E8  3C 60 80 24 */	lis r3, lbl_80243B40@ha
 /* 801444CC 0013F9EC  38 84 35 80 */	addi r4, r4, lbl_80233580@l
 /* 801444D0 0013F9F0  90 83 3B 40 */	stw r4, lbl_80243B40@l(r3)
-/* 801444D4 0013F9F4  4E 80 00 20 */	blr 
+/* 801444D4 0013F9F4  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

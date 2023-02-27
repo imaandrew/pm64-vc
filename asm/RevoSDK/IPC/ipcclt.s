@@ -16,7 +16,7 @@ glabel strnlen
 /* 800BEE90 000BA3B0  40 82 FF E8 */	bne .L_800BEE78
 .L_800BEE94:
 /* 800BEE94 000BA3B4  7C 63 28 50 */	subf r3, r3, r5
-/* 800BEE98 000BA3B8  4E 80 00 20 */	blr 
+/* 800BEE98 000BA3B8  4E 80 00 20 */	blr
 
 glabel IpcReplyHandler
 /* 800BEE9C 000BA3BC  94 21 FD 20 */	stwu r1, -0x2e0(r1)
@@ -156,7 +156,7 @@ glabel IpcReplyHandler
 /* 800BF078 000BA598  80 7F 00 04 */	lwz r3, 4(r31)
 /* 800BF07C 000BA59C  80 9F 00 24 */	lwz r4, 0x24(r31)
 /* 800BF080 000BA5A0  7D 89 03 A6 */	mtctr r12
-/* 800BF084 000BA5A4  4E 80 04 21 */	bctrl 
+/* 800BF084 000BA5A4  4E 80 04 21 */	bctrl
 /* 800BF088 000BA5A8  38 61 00 08 */	addi r3, r1, 8
 /* 800BF08C 000BA5AC  4B FD 24 15 */	bl OSClearContext
 /* 800BF090 000BA5B0  7F C3 F3 78 */	mr r3, r30
@@ -186,7 +186,7 @@ glabel IpcReplyHandler
 /* 800BF0E4 000BA604  83 81 02 D0 */	lwz r28, 0x2d0(r1)
 /* 800BF0E8 000BA608  7C 08 03 A6 */	mtlr r0
 /* 800BF0EC 000BA60C  38 21 02 E0 */	addi r1, r1, 0x2e0
-/* 800BF0F0 000BA610  4E 80 00 20 */	blr 
+/* 800BF0F0 000BA610  4E 80 00 20 */	blr
 
 glabel IPCInterruptHandler
 /* 800BF0F4 000BA614  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -305,7 +305,7 @@ glabel IPCInterruptHandler
 /* 800BF29C 000BA7BC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800BF2A0 000BA7C0  7C 08 03 A6 */	mtlr r0
 /* 800BF2A4 000BA7C4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BF2A8 000BA7C8  4E 80 00 20 */	blr 
+/* 800BF2A8 000BA7C8  4E 80 00 20 */	blr
 
 glabel IPCCltInit
 /* 800BF2AC 000BA7CC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -354,7 +354,7 @@ glabel IPCCltInit
 /* 800BF350 000BA870  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BF354 000BA874  7C 08 03 A6 */	mtlr r0
 /* 800BF358 000BA878  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BF35C 000BA87C  4E 80 00 20 */	blr 
+/* 800BF35C 000BA87C  4E 80 00 20 */	blr
 
 glabel __ipc_sendreq
 /* 800BF360 000BA880  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -517,7 +517,7 @@ glabel __ipc_sendreq
 /* 800BF59C 000BAABC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BF5A0 000BAAC0  7C 08 03 A6 */	mtlr r0
 /* 800BF5A4 000BAAC4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BF5A8 000BAAC8  4E 80 00 20 */	blr 
+/* 800BF5A8 000BAAC8  4E 80 00 20 */	blr
 
 glabel IOS_OpenAsync
 /* 800BF5AC 000BAACC  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -598,7 +598,7 @@ glabel IOS_OpenAsync
 /* 800BF6B4 000BABD4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800BF6B8 000BABD8  7C 08 03 A6 */	mtlr r0
 /* 800BF6BC 000BABDC  38 21 00 30 */	addi r1, r1, 0x30
-/* 800BF6C0 000BABE0  4E 80 00 20 */	blr 
+/* 800BF6C0 000BABE0  4E 80 00 20 */	blr
 
 glabel IOS_Open
 /* 800BF6C4 000BABE4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -681,7 +681,7 @@ glabel IOS_Open
 /* 800BF7D4 000BACF4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BF7D8 000BACF8  7C 08 03 A6 */	mtlr r0
 /* 800BF7DC 000BACFC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BF7E0 000BAD00  4E 80 00 20 */	blr 
+/* 800BF7E0 000BAD00  4E 80 00 20 */	blr
 
 glabel IOS_CloseAsync
 /* 800BF7E4 000BAD04  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -735,7 +735,7 @@ glabel IOS_CloseAsync
 /* 800BF894 000BADB4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BF898 000BADB8  7C 08 03 A6 */	mtlr r0
 /* 800BF89C 000BADBC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BF8A0 000BADC0  4E 80 00 20 */	blr 
+/* 800BF8A0 000BADC0  4E 80 00 20 */	blr
 
 glabel IOS_Close
 /* 800BF8A4 000BADC4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -783,7 +783,7 @@ glabel IOS_Close
 /* 800BF93C 000BAE5C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BF940 000BAE60  7C 08 03 A6 */	mtlr r0
 /* 800BF944 000BAE64  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BF948 000BAE68  4E 80 00 20 */	blr 
+/* 800BF948 000BAE68  4E 80 00 20 */	blr
 
 glabel IOS_ReadAsync
 /* 800BF94C 000BAE6C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -857,7 +857,7 @@ glabel IOS_ReadAsync
 /* 800BFA3C 000BAF5C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800BFA40 000BAF60  7C 08 03 A6 */	mtlr r0
 /* 800BFA44 000BAF64  38 21 00 30 */	addi r1, r1, 0x30
-/* 800BFA48 000BAF68  4E 80 00 20 */	blr 
+/* 800BFA48 000BAF68  4E 80 00 20 */	blr
 glabel lbl_800BFA4C
 /* 800BFA4C 000BAF6C  94 21 FF E0 */	stwu r1, -0x20(r1)
 /* 800BFA50 000BAF70  7C 08 02 A6 */	mflr r0
@@ -932,7 +932,7 @@ glabel lbl_800BFA4C
 /* 800BFB44 000BB064  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BFB48 000BB068  7C 08 03 A6 */	mtlr r0
 /* 800BFB4C 000BB06C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BFB50 000BB070  4E 80 00 20 */	blr 
+/* 800BFB50 000BB070  4E 80 00 20 */	blr
 
 glabel IOS_WriteAsync
 /* 800BFB54 000BB074  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1006,7 +1006,7 @@ glabel IOS_WriteAsync
 /* 800BFC44 000BB164  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800BFC48 000BB168  7C 08 03 A6 */	mtlr r0
 /* 800BFC4C 000BB16C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800BFC50 000BB170  4E 80 00 20 */	blr 
+/* 800BFC50 000BB170  4E 80 00 20 */	blr
 glabel lbl_800BFC54
 /* 800BFC54 000BB174  94 21 FF E0 */	stwu r1, -0x20(r1)
 /* 800BFC58 000BB178  7C 08 02 A6 */	mflr r0
@@ -1081,7 +1081,7 @@ glabel lbl_800BFC54
 /* 800BFD4C 000BB26C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BFD50 000BB270  7C 08 03 A6 */	mtlr r0
 /* 800BFD54 000BB274  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BFD58 000BB278  4E 80 00 20 */	blr 
+/* 800BFD58 000BB278  4E 80 00 20 */	blr
 
 glabel IOS_SeekAsync
 /* 800BFD5C 000BB27C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1145,7 +1145,7 @@ glabel IOS_SeekAsync
 /* 800BFE2C 000BB34C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800BFE30 000BB350  7C 08 03 A6 */	mtlr r0
 /* 800BFE34 000BB354  38 21 00 30 */	addi r1, r1, 0x30
-/* 800BFE38 000BB358  4E 80 00 20 */	blr 
+/* 800BFE38 000BB358  4E 80 00 20 */	blr
 glabel lbl_800BFE3C
 /* 800BFE3C 000BB35C  94 21 FF E0 */	stwu r1, -0x20(r1)
 /* 800BFE40 000BB360  7C 08 02 A6 */	mflr r0
@@ -1210,7 +1210,7 @@ glabel lbl_800BFE3C
 /* 800BFF14 000BB434  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BFF18 000BB438  7C 08 03 A6 */	mtlr r0
 /* 800BFF1C 000BB43C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BFF20 000BB440  4E 80 00 20 */	blr 
+/* 800BFF20 000BB440  4E 80 00 20 */	blr
 
 glabel IOS_IoCtlAsync
 /* 800BFF24 000BB444  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1300,7 +1300,7 @@ glabel IOS_IoCtlAsync
 /* 800C004C 000BB56C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800C0050 000BB570  7C 08 03 A6 */	mtlr r0
 /* 800C0054 000BB574  38 21 00 40 */	addi r1, r1, 0x40
-/* 800C0058 000BB578  4E 80 00 20 */	blr 
+/* 800C0058 000BB578  4E 80 00 20 */	blr
 
 glabel IOS_IoCtl
 /* 800C005C 000BB57C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1388,7 +1388,7 @@ glabel IOS_IoCtl
 /* 800C017C 000BB69C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800C0180 000BB6A0  7C 08 03 A6 */	mtlr r0
 /* 800C0184 000BB6A4  38 21 00 30 */	addi r1, r1, 0x30
-/* 800C0188 000BB6A8  4E 80 00 20 */	blr 
+/* 800C0188 000BB6A8  4E 80 00 20 */	blr
 
 glabel __ios_Ioctlv
 /* 800C018C 000BB6AC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1481,7 +1481,7 @@ glabel __ios_Ioctlv
 /* 800C02B8 000BB7D8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800C02BC 000BB7DC  7C 08 03 A6 */	mtlr r0
 /* 800C02C0 000BB7E0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C02C4 000BB7E4  4E 80 00 20 */	blr 
+/* 800C02C4 000BB7E4  4E 80 00 20 */	blr
 
 glabel IOS_IoCtlvAsync
 /* 800C02C8 000BB7E8  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1544,7 +1544,7 @@ glabel IOS_IoCtlvAsync
 /* 800C039C 000BB8BC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800C03A0 000BB8C0  7C 08 03 A6 */	mtlr r0
 /* 800C03A4 000BB8C4  38 21 00 30 */	addi r1, r1, 0x30
-/* 800C03A8 000BB8C8  4E 80 00 20 */	blr 
+/* 800C03A8 000BB8C8  4E 80 00 20 */	blr
 
 glabel IOS_IoCtlv
 /* 800C03AC 000BB8CC  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1605,7 +1605,7 @@ glabel IOS_IoCtlv
 /* 800C0478 000BB998  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800C047C 000BB99C  7C 08 03 A6 */	mtlr r0
 /* 800C0480 000BB9A0  38 21 00 30 */	addi r1, r1, 0x30
-/* 800C0484 000BB9A4  4E 80 00 20 */	blr 
+/* 800C0484 000BB9A4  4E 80 00 20 */	blr
 
 glabel IOS_IoctlvReboot
 /* 800C0488 000BB9A8  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1669,7 +1669,7 @@ glabel IOS_IoctlvReboot
 /* 800C0560 000BBA80  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800C0564 000BBA84  7C 08 03 A6 */	mtlr r0
 /* 800C0568 000BBA88  38 21 00 30 */	addi r1, r1, 0x30
-/* 800C056C 000BBA8C  4E 80 00 20 */	blr 
+/* 800C056C 000BBA8C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

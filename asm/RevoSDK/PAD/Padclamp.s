@@ -86,7 +86,7 @@ glabel ClampStick
 .L_800C21CC:
 /* 800C21CC 000BD6EC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800C21D0 000BD6F0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800C21D4 000BD6F4  4E 80 00 20 */	blr 
+/* 800C21D4 000BD6F4  4E 80 00 20 */	blr
 
 glabel PADClamp
 /* 800C21D8 000BD6F8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -155,5 +155,5 @@ glabel PADClamp
 /* 800C22B8 000BD7D8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800C22BC 000BD7DC  7C 08 03 A6 */	mtlr r0
 /* 800C22C0 000BD7E0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C22C4 000BD7E4  4E 80 00 20 */	blr 
+/* 800C22C4 000BD7E4  4E 80 00 20 */	blr
 

@@ -20,5 +20,5 @@ glabel utl_freebuf
 /* 800DDEBC 000D93DC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800DDEC0 000D93E0  7C 08 03 A6 */	mtlr r0
 /* 800DDEC4 000D93E4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DDEC8 000D93E8  4E 80 00 20 */	blr 
+/* 800DDEC8 000D93E8  4E 80 00 20 */	blr
 

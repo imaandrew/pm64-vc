@@ -80,7 +80,7 @@ glabel nandCreate
 /* 800B91C0 000B46E0  80 01 00 74 */	lwz r0, 0x74(r1)
 /* 800B91C4 000B46E4  7C 08 03 A6 */	mtlr r0
 /* 800B91C8 000B46E8  38 21 00 70 */	addi r1, r1, 0x70
-/* 800B91CC 000B46EC  4E 80 00 20 */	blr 
+/* 800B91CC 000B46EC  4E 80 00 20 */	blr
 
 glabel NANDCreate
 /* 800B91D0 000B46F0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -113,7 +113,7 @@ glabel NANDCreate
 /* 800B9234 000B4754  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B9238 000B4758  7C 08 03 A6 */	mtlr r0
 /* 800B923C 000B475C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B9240 000B4760  4E 80 00 20 */	blr 
+/* 800B9240 000B4760  4E 80 00 20 */	blr
 
 glabel NANDCreateAsync
 /* 800B9244 000B4764  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -146,7 +146,7 @@ glabel NANDCreateAsync
 /* 800B92A8 000B47C8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B92AC 000B47CC  7C 08 03 A6 */	mtlr r0
 /* 800B92B0 000B47D0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B92B4 000B47D4  4E 80 00 20 */	blr 
+/* 800B92B4 000B47D4  4E 80 00 20 */	blr
 
 glabel NANDPrivateCreateAsync
 /* 800B92B8 000B47D8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -180,7 +180,7 @@ glabel NANDPrivateCreateAsync
 /* 800B9320 000B4840  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B9324 000B4844  7C 08 03 A6 */	mtlr r0
 /* 800B9328 000B4848  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B932C 000B484C  4E 80 00 20 */	blr 
+/* 800B932C 000B484C  4E 80 00 20 */	blr
 
 glabel NANDDelete
 /* 800B9330 000B4850  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -230,7 +230,7 @@ glabel NANDDelete
 /* 800B93D0 000B48F0  83 E1 00 4C */	lwz r31, 0x4c(r1)
 /* 800B93D4 000B48F4  7C 08 03 A6 */	mtlr r0
 /* 800B93D8 000B48F8  38 21 00 50 */	addi r1, r1, 0x50
-/* 800B93DC 000B48FC  4E 80 00 20 */	blr 
+/* 800B93DC 000B48FC  4E 80 00 20 */	blr
 
 glabel NANDPrivateDeleteAsync
 /* 800B93E0 000B4900  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -282,7 +282,7 @@ glabel NANDPrivateDeleteAsync
 /* 800B9490 000B49B0  83 A1 00 54 */	lwz r29, 0x54(r1)
 /* 800B9494 000B49B4  7C 08 03 A6 */	mtlr r0
 /* 800B9498 000B49B8  38 21 00 60 */	addi r1, r1, 0x60
-/* 800B949C 000B49BC  4E 80 00 20 */	blr 
+/* 800B949C 000B49BC  4E 80 00 20 */	blr
 
 glabel NANDRead
 /* 800B94A0 000B49C0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -312,7 +312,7 @@ glabel NANDRead
 /* 800B94F8 000B4A18  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B94FC 000B4A1C  7C 08 03 A6 */	mtlr r0
 /* 800B9500 000B4A20  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B9504 000B4A24  4E 80 00 20 */	blr 
+/* 800B9504 000B4A24  4E 80 00 20 */	blr
 
 glabel NANDReadAsync
 /* 800B9508 000B4A28  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -346,7 +346,7 @@ glabel NANDReadAsync
 /* 800B9570 000B4A90  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B9574 000B4A94  7C 08 03 A6 */	mtlr r0
 /* 800B9578 000B4A98  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B957C 000B4A9C  4E 80 00 20 */	blr 
+/* 800B957C 000B4A9C  4E 80 00 20 */	blr
 
 glabel NANDWrite
 /* 800B9580 000B4AA0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -376,7 +376,7 @@ glabel NANDWrite
 /* 800B95D8 000B4AF8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B95DC 000B4AFC  7C 08 03 A6 */	mtlr r0
 /* 800B95E0 000B4B00  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B95E4 000B4B04  4E 80 00 20 */	blr 
+/* 800B95E4 000B4B04  4E 80 00 20 */	blr
 
 glabel NANDWriteAsync
 /* 800B95E8 000B4B08  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -410,7 +410,7 @@ glabel NANDWriteAsync
 /* 800B9650 000B4B70  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B9654 000B4B74  7C 08 03 A6 */	mtlr r0
 /* 800B9658 000B4B78  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B965C 000B4B7C  4E 80 00 20 */	blr 
+/* 800B965C 000B4B7C  4E 80 00 20 */	blr
 
 glabel NANDSeek
 /* 800B9660 000B4B80  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -459,7 +459,7 @@ glabel NANDSeek
 /* 800B96F0 000B4C10  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B96F4 000B4C14  7C 08 03 A6 */	mtlr r0
 /* 800B96F8 000B4C18  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B96FC 000B4C1C  4E 80 00 20 */	blr 
+/* 800B96FC 000B4C1C  4E 80 00 20 */	blr
 
 glabel NANDSeekAsync
 /* 800B9700 000B4C20  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -512,7 +512,7 @@ glabel NANDSeekAsync
 /* 800B97A0 000B4CC0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B97A4 000B4CC4  7C 08 03 A6 */	mtlr r0
 /* 800B97A8 000B4CC8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B97AC 000B4CCC  4E 80 00 20 */	blr 
+/* 800B97AC 000B4CCC  4E 80 00 20 */	blr
 
 glabel NANDReadDir
 /* 800B97B0 000B4CD0  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -570,7 +570,7 @@ glabel NANDReadDir
 /* 800B9870 000B4D90  83 A1 00 54 */	lwz r29, 0x54(r1)
 /* 800B9874 000B4D94  7C 08 03 A6 */	mtlr r0
 /* 800B9878 000B4D98  38 21 00 60 */	addi r1, r1, 0x60
-/* 800B987C 000B4D9C  4E 80 00 20 */	blr 
+/* 800B987C 000B4D9C  4E 80 00 20 */	blr
 
 glabel nandCreateDir
 /* 800B9880 000B4DA0  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -651,7 +651,7 @@ glabel nandCreateDir
 /* 800B999C 000B4EBC  80 01 00 74 */	lwz r0, 0x74(r1)
 /* 800B99A0 000B4EC0  7C 08 03 A6 */	mtlr r0
 /* 800B99A4 000B4EC4  38 21 00 70 */	addi r1, r1, 0x70
-/* 800B99A8 000B4EC8  4E 80 00 20 */	blr 
+/* 800B99A8 000B4EC8  4E 80 00 20 */	blr
 
 glabel NANDCreateDir
 /* 800B99AC 000B4ECC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -686,7 +686,7 @@ glabel NANDCreateDir
 
 glabel lbl_800B9A18
 /* 800B9A18 000B4F38  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B9A1C 000B4F3C  4E 80 00 20 */	blr 
+/* 800B9A1C 000B4F3C  4E 80 00 20 */	blr
 
 glabel NANDPrivateCreateDir
 /* 800B9A20 000B4F40  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -719,7 +719,7 @@ glabel NANDPrivateCreateDir
 /* 800B9A84 000B4FA4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B9A88 000B4FA8  7C 08 03 A6 */	mtlr r0
 /* 800B9A8C 000B4FAC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B9A90 000B4FB0  4E 80 00 20 */	blr 
+/* 800B9A90 000B4FB0  4E 80 00 20 */	blr
 
 glabel NANDPrivateCreateDirAsync
 /* 800B9A94 000B4FB4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -753,7 +753,7 @@ glabel NANDPrivateCreateDirAsync
 /* 800B9AFC 000B501C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B9B00 000B5020  7C 08 03 A6 */	mtlr r0
 /* 800B9B04 000B5024  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B9B08 000B5028  4E 80 00 20 */	blr 
+/* 800B9B08 000B5028  4E 80 00 20 */	blr
 
 glabel NANDGetLength
 /* 800B9B0C 000B502C  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -792,7 +792,7 @@ glabel NANDGetLength
 /* 800B9B84 000B50A4  83 CA FF F8 */	lwz r30, -8(r10)
 /* 800B9B88 000B50A8  7C 08 03 A6 */	mtlr r0
 /* 800B9B8C 000B50AC  7D 41 53 78 */	mr r1, r10
-/* 800B9B90 000B50B0  4E 80 00 20 */	blr 
+/* 800B9B90 000B50B0  4E 80 00 20 */	blr
 
 glabel nandComposePerm
 /* 800B9B94 000B50B4  54 80 07 FF */	clrlwi. r0, r4, 0x1f
@@ -821,7 +821,7 @@ glabel nandComposePerm
 /* 800B9BDC 000B50FC  60 E7 00 02 */	ori r7, r7, 2
 .L_800B9BE0:
 /* 800B9BE0 000B5100  98 E3 00 00 */	stb r7, 0(r3)
-/* 800B9BE4 000B5104  4E 80 00 20 */	blr 
+/* 800B9BE4 000B5104  4E 80 00 20 */	blr
 
 glabel nandSplitPerm
 /* 800B9BE8 000B5108  38 E0 00 00 */	li r7, 0
@@ -859,11 +859,11 @@ glabel nandSplitPerm
 /* 800B9C58 000B5178  90 06 00 00 */	stw r0, 0(r6)
 .L_800B9C5C:
 /* 800B9C5C 000B517C  54 60 07 BD */	rlwinm. r0, r3, 0, 0x1e, 0x1e
-/* 800B9C60 000B5180  4D 82 00 20 */	beqlr 
+/* 800B9C60 000B5180  4D 82 00 20 */	beqlr
 /* 800B9C64 000B5184  80 06 00 00 */	lwz r0, 0(r6)
 /* 800B9C68 000B5188  60 00 00 02 */	ori r0, r0, 2
 /* 800B9C6C 000B518C  90 06 00 00 */	stw r0, 0(r6)
-/* 800B9C70 000B5190  4E 80 00 20 */	blr 
+/* 800B9C70 000B5190  4E 80 00 20 */	blr
 
 glabel nandGetStatus
 /* 800B9C74 000B5194  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -954,7 +954,7 @@ glabel nandGetStatus
 /* 800B9DB8 000B52D8  83 81 00 60 */	lwz r28, 0x60(r1)
 /* 800B9DBC 000B52DC  7C 08 03 A6 */	mtlr r0
 /* 800B9DC0 000B52E0  38 21 00 70 */	addi r1, r1, 0x70
-/* 800B9DC4 000B52E4  4E 80 00 20 */	blr 
+/* 800B9DC4 000B52E4  4E 80 00 20 */	blr
 
 glabel nandGetStatusCallback
 /* 800B9DC8 000B52E8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -980,13 +980,13 @@ glabel nandGetStatusCallback
 /* 800B9E14 000B5334  81 9F 00 04 */	lwz r12, 4(r31)
 /* 800B9E18 000B5338  7F E4 FB 78 */	mr r4, r31
 /* 800B9E1C 000B533C  7D 89 03 A6 */	mtctr r12
-/* 800B9E20 000B5340  4E 80 04 21 */	bctrl 
+/* 800B9E20 000B5340  4E 80 04 21 */	bctrl
 /* 800B9E24 000B5344  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B9E28 000B5348  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800B9E2C 000B534C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B9E30 000B5350  7C 08 03 A6 */	mtlr r0
 /* 800B9E34 000B5354  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B9E38 000B5358  4E 80 00 20 */	blr 
+/* 800B9E38 000B5358  4E 80 00 20 */	blr
 
 glabel NANDGetStatus
 /* 800B9E3C 000B535C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1015,7 +1015,7 @@ glabel NANDGetStatus
 /* 800B9E90 000B53B0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B9E94 000B53B4  7C 08 03 A6 */	mtlr r0
 /* 800B9E98 000B53B8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B9E9C 000B53BC  4E 80 00 20 */	blr 
+/* 800B9E9C 000B53BC  4E 80 00 20 */	blr
 
 glabel NANDPrivateGetStatusAsync
 /* 800B9EA0 000B53C0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1052,13 +1052,13 @@ glabel NANDPrivateGetStatusAsync
 /* 800B9F14 000B5434  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800B9F18 000B5438  7C 08 03 A6 */	mtlr r0
 /* 800B9F1C 000B543C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B9F20 000B5440  4E 80 00 20 */	blr 
+/* 800B9F20 000B5440  4E 80 00 20 */	blr
 
 glabel NANDSetUserData
 /* 800B9F24 000B5444  90 83 00 00 */	stw r4, 0(r3)
-/* 800B9F28 000B5448  4E 80 00 20 */	blr 
+/* 800B9F28 000B5448  4E 80 00 20 */	blr
 
 glabel NANDGetUserData
 /* 800B9F2C 000B544C  80 63 00 00 */	lwz r3, 0(r3)
-/* 800B9F30 000B5450  4E 80 00 20 */	blr 
+/* 800B9F30 000B5450  4E 80 00 20 */	blr
 

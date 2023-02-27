@@ -54,7 +54,7 @@ glabel nandCalcUsage
 /* 800BC0F0 000B7610  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800BC0F4 000B7614  7C 08 03 A6 */	mtlr r0
 /* 800BC0F8 000B7618  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BC0FC 000B761C  4E 80 00 20 */	blr 
+/* 800BC0FC 000B761C  4E 80 00 20 */	blr
 
 glabel NANDCheck
 /* 800BC100 000B7620  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -130,5 +130,5 @@ glabel NANDCheck
 /* 800BC1F8 000B7718  83 A1 00 24 */	lwz r29, 0x24(r1)
 /* 800BC1FC 000B771C  7C 08 03 A6 */	mtlr r0
 /* 800BC200 000B7720  38 21 00 30 */	addi r1, r1, 0x30
-/* 800BC204 000B7724  4E 80 00 20 */	blr 
+/* 800BC204 000B7724  4E 80 00 20 */	blr
 

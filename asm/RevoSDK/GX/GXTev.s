@@ -41,7 +41,7 @@ glabel GXSetTevOp
 /* 800A8AA8 000A3FC8  91 04 80 00 */	stw r8, -0x8000(r4)
 /* 800A8AAC 000A3FCC  91 06 01 C0 */	stw r8, 0x1c0(r6)
 /* 800A8AB0 000A3FD0  B0 07 00 02 */	sth r0, 2(r7)
-/* 800A8AB4 000A3FD4  4E 80 00 20 */	blr 
+/* 800A8AB4 000A3FD4  4E 80 00 20 */	blr
 
 glabel GXSetTevColorIn
 /* 800A8AB8 000A3FD8  81 62 86 40 */	lwz r11, lbl_80247E40@sda21(r2)
@@ -59,7 +59,7 @@ glabel GXSetTevColorIn
 /* 800A8AE8 000A4008  91 23 80 00 */	stw r9, -0x8000(r3)
 /* 800A8AEC 000A400C  91 2A 01 80 */	stw r9, 0x180(r10)
 /* 800A8AF0 000A4010  B0 0B 00 02 */	sth r0, 2(r11)
-/* 800A8AF4 000A4014  4E 80 00 20 */	blr 
+/* 800A8AF4 000A4014  4E 80 00 20 */	blr
 
 glabel GXSetTevAlphaIn
 /* 800A8AF8 000A4018  81 62 86 40 */	lwz r11, lbl_80247E40@sda21(r2)
@@ -77,7 +77,7 @@ glabel GXSetTevAlphaIn
 /* 800A8B28 000A4048  91 23 80 00 */	stw r9, -0x8000(r3)
 /* 800A8B2C 000A404C  91 2A 01 C0 */	stw r9, 0x1c0(r10)
 /* 800A8B30 000A4050  B0 0B 00 02 */	sth r0, 2(r11)
-/* 800A8B34 000A4054  4E 80 00 20 */	blr 
+/* 800A8B34 000A4054  4E 80 00 20 */	blr
 
 glabel GXSetTevColorOp
 /* 800A8B38 000A4058  81 42 86 40 */	lwz r10, lbl_80247E40@sda21(r2)
@@ -103,7 +103,7 @@ glabel GXSetTevColorOp
 /* 800A8B80 000A40A0  91 63 80 00 */	stw r11, -0x8000(r3)
 /* 800A8B84 000A40A4  91 69 01 80 */	stw r11, 0x180(r9)
 /* 800A8B88 000A40A8  B0 0A 00 02 */	sth r0, 2(r10)
-/* 800A8B8C 000A40AC  4E 80 00 20 */	blr 
+/* 800A8B8C 000A40AC  4E 80 00 20 */	blr
 
 glabel GXSetTevAlphaOp
 /* 800A8B90 000A40B0  81 42 86 40 */	lwz r10, lbl_80247E40@sda21(r2)
@@ -129,7 +129,7 @@ glabel GXSetTevAlphaOp
 /* 800A8BD8 000A40F8  91 63 80 00 */	stw r11, -0x8000(r3)
 /* 800A8BDC 000A40FC  91 69 01 C0 */	stw r11, 0x1c0(r9)
 /* 800A8BE0 000A4100  B0 0A 00 02 */	sth r0, 2(r10)
-/* 800A8BE4 000A4104  4E 80 00 20 */	blr 
+/* 800A8BE4 000A4104  4E 80 00 20 */	blr
 
 glabel GXSetTevColor
 /* 800A8BE8 000A4108  54 63 08 3C */	slwi r3, r3, 1
@@ -155,7 +155,7 @@ glabel GXSetTevColor
 /* 800A8C38 000A4158  98 A4 80 00 */	stb r5, -0x8000(r4)
 /* 800A8C3C 000A415C  90 C4 80 00 */	stw r6, -0x8000(r4)
 /* 800A8C40 000A4160  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A8C44 000A4164  4E 80 00 20 */	blr 
+/* 800A8C44 000A4164  4E 80 00 20 */	blr
 
 glabel GXSetTevColorS10
 /* 800A8C48 000A4168  54 63 08 3C */	slwi r3, r3, 1
@@ -182,7 +182,7 @@ glabel GXSetTevColorS10
 /* 800A8C9C 000A41BC  98 C5 80 00 */	stb r6, -0x8000(r5)
 /* 800A8CA0 000A41C0  90 85 80 00 */	stw r4, -0x8000(r5)
 /* 800A8CA4 000A41C4  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A8CA8 000A41C8  4E 80 00 20 */	blr 
+/* 800A8CA8 000A41C8  4E 80 00 20 */	blr
 
 glabel GXSetTevKColor
 /* 800A8CAC 000A41CC  54 66 08 3C */	slwi r6, r3, 1
@@ -207,7 +207,7 @@ glabel GXSetTevKColor
 /* 800A8CF8 000A4218  50 E6 A2 16 */	rlwimi r6, r7, 0x14, 8, 0xb
 /* 800A8CFC 000A421C  90 C4 80 00 */	stw r6, -0x8000(r4)
 /* 800A8D00 000A4220  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A8D04 000A4224  4E 80 00 20 */	blr 
+/* 800A8D04 000A4224  4E 80 00 20 */	blr
 
 glabel GXSetTevKColorSel
 /* 800A8D08 000A4228  54 60 07 FF */	clrlwi. r0, r3, 0x1f
@@ -231,7 +231,7 @@ glabel GXSetTevKColorSel
 /* 800A8D48 000A4268  80 63 02 00 */	lwz r3, 0x200(r3)
 /* 800A8D4C 000A426C  90 64 80 00 */	stw r3, -0x8000(r4)
 /* 800A8D50 000A4270  B0 05 00 02 */	sth r0, 2(r5)
-/* 800A8D54 000A4274  4E 80 00 20 */	blr 
+/* 800A8D54 000A4274  4E 80 00 20 */	blr
 
 glabel GXSetTevKAlphaSel
 /* 800A8D58 000A4278  54 60 07 FF */	clrlwi. r0, r3, 0x1f
@@ -255,7 +255,7 @@ glabel GXSetTevKAlphaSel
 /* 800A8D98 000A42B8  80 63 02 00 */	lwz r3, 0x200(r3)
 /* 800A8D9C 000A42BC  90 64 80 00 */	stw r3, -0x8000(r4)
 /* 800A8DA0 000A42C0  B0 05 00 02 */	sth r0, 2(r5)
-/* 800A8DA4 000A42C4  4E 80 00 20 */	blr 
+/* 800A8DA4 000A42C4  4E 80 00 20 */	blr
 
 glabel GXSetTevSwapMode
 /* 800A8DA8 000A42C8  81 22 86 40 */	lwz r9, lbl_80247E40@sda21(r2)
@@ -272,7 +272,7 @@ glabel GXSetTevSwapMode
 /* 800A8DD4 000A42F4  80 68 01 C0 */	lwz r3, 0x1c0(r8)
 /* 800A8DD8 000A42F8  90 66 80 00 */	stw r3, -0x8000(r6)
 /* 800A8DDC 000A42FC  B0 09 00 02 */	sth r0, 2(r9)
-/* 800A8DE0 000A4300  4E 80 00 20 */	blr 
+/* 800A8DE0 000A4300  4E 80 00 20 */	blr
 
 glabel GXSetTevSwapModeTable
 /* 800A8DE4 000A4304  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -305,7 +305,7 @@ glabel GXSetTevSwapModeTable
 /* 800A8E50 000A4370  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800A8E54 000A4374  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800A8E58 000A4378  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A8E5C 000A437C  4E 80 00 20 */	blr 
+/* 800A8E5C 000A437C  4E 80 00 20 */	blr
 
 glabel GXSetAlphaCompare
 /* 800A8E60 000A4380  3D 00 CC 01 */	lis r8, 0xCC008000@ha
@@ -321,7 +321,7 @@ glabel GXSetAlphaCompare
 /* 800A8E88 000A43A8  50 A9 B2 12 */	rlwimi r9, r5, 0x16, 8, 9
 /* 800A8E8C 000A43AC  91 28 80 00 */	stw r9, -0x8000(r8)
 /* 800A8E90 000A43B0  B0 04 00 02 */	sth r0, 2(r4)
-/* 800A8E94 000A43B4  4E 80 00 20 */	blr 
+/* 800A8E94 000A43B4  4E 80 00 20 */	blr
 
 glabel GXSetZTexture
 /* 800A8E98 000A43B8  2C 04 00 13 */	cmpwi r4, 0x13
@@ -364,7 +364,7 @@ glabel GXSetZTexture
 /* 800A8F14 000A4434  38 00 00 00 */	li r0, 0
 /* 800A8F18 000A4438  90 C4 80 00 */	stw r6, -0x8000(r4)
 /* 800A8F1C 000A443C  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A8F20 000A4440  4E 80 00 20 */	blr 
+/* 800A8F20 000A4440  4E 80 00 20 */	blr
 
 glabel GXSetTevOrder
 /* 800A8F24 000A4444  54 AB 06 2C */	rlwinm r11, r5, 0, 0x18, 0x16
@@ -463,7 +463,7 @@ glabel GXSetTevOrder
 /* 800A9070 000A4590  80 05 05 FC */	lwz r0, 0x5fc(r5)
 /* 800A9074 000A4594  60 00 00 01 */	ori r0, r0, 1
 /* 800A9078 000A4598  90 05 05 FC */	stw r0, 0x5fc(r5)
-/* 800A907C 000A459C  4E 80 00 20 */	blr 
+/* 800A907C 000A459C  4E 80 00 20 */	blr
 
 glabel GXSetNumTevStages
 /* 800A9080 000A45A0  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
@@ -474,5 +474,5 @@ glabel GXSetNumTevStages
 /* 800A9094 000A45B4  80 04 05 FC */	lwz r0, 0x5fc(r4)
 /* 800A9098 000A45B8  60 00 00 04 */	ori r0, r0, 4
 /* 800A909C 000A45BC  90 04 05 FC */	stw r0, 0x5fc(r4)
-/* 800A90A0 000A45C0  4E 80 00 20 */	blr 
+/* 800A90A0 000A45C0  4E 80 00 20 */	blr
 

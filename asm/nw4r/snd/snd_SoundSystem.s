@@ -96,7 +96,7 @@ glabel InitSoundSystem__Q36nw4hbm3snd11SoundSystemFll
 /* 8013E8F8 00139E18  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8013E8FC 00139E1C  7C 08 03 A6 */	mtlr r0
 /* 8013E900 00139E20  38 21 00 20 */	addi r1, r1, 0x20
-/* 8013E904 00139E24  4E 80 00 20 */	blr 
+/* 8013E904 00139E24  4E 80 00 20 */	blr
 
 glabel ShutdownSoundSystem__Q36nw4hbm3snd11SoundSystemFv
 /* 8013E908 00139E28  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -141,7 +141,7 @@ glabel ShutdownSoundSystem__Q36nw4hbm3snd11SoundSystemFv
 /* 8013E998 00139EB8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013E99C 00139EBC  7C 08 03 A6 */	mtlr r0
 /* 8013E9A0 00139EC0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013E9A4 00139EC4  4E 80 00 20 */	blr 
+/* 8013E9A4 00139EC4  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

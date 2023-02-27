@@ -60,5 +60,5 @@ glabel WBT_ExtCreateRecord
 /* 800EEDFC 000EA31C  83 C1 01 18 */	lwz r30, 0x118(r1)
 /* 800EEE00 000EA320  7C 08 03 A6 */	mtlr r0
 /* 800EEE04 000EA324  38 21 01 20 */	addi r1, r1, 0x120
-/* 800EEE08 000EA328  4E 80 00 20 */	blr 
+/* 800EEE08 000EA328  4E 80 00 20 */	blr
 

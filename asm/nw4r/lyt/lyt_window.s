@@ -154,7 +154,7 @@ glabel __ct__Q36nw4hbm3lyt6WindowFPCQ46nw4hbm3lyt3res6WindowRCQ36nw4hbm3lyt11Res
 /* 80123C24 0011F144  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80123C28 0011F148  7C 08 03 A6 */	mtlr r0
 /* 80123C2C 0011F14C  38 21 00 30 */	addi r1, r1, 0x30
-/* 80123C30 0011F150  4E 80 00 20 */	blr 
+/* 80123C30 0011F150  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt6WindowFv
 /* 80123C34 0011F154  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -184,7 +184,7 @@ glabel __dt__Q36nw4hbm3lyt6WindowFv
 /* 80123C90 0011F1B0  81 83 00 00 */	lwz r12, 0(r3)
 /* 80123C94 0011F1B4  81 8C 00 08 */	lwz r12, 8(r12)
 /* 80123C98 0011F1B8  7D 89 03 A6 */	mtctr r12
-/* 80123C9C 0011F1BC  4E 80 04 21 */	bctrl 
+/* 80123C9C 0011F1BC  4E 80 04 21 */	bctrl
 /* 80123CA0 0011F1C0  80 1B 00 FC */	lwz r0, 0xfc(r27)
 /* 80123CA4 0011F1C4  80 7F 91 38 */	lwz r3, lbl_80229138@l(r31)
 /* 80123CA8 0011F1C8  7C 80 F2 14 */	add r4, r0, r30
@@ -211,7 +211,7 @@ glabel __dt__Q36nw4hbm3lyt6WindowFv
 /* 80123CF4 0011F214  38 80 FF FF */	li r4, -1
 /* 80123CF8 0011F218  81 8C 00 08 */	lwz r12, 8(r12)
 /* 80123CFC 0011F21C  7D 89 03 A6 */	mtctr r12
-/* 80123D00 0011F220  4E 80 04 21 */	bctrl 
+/* 80123D00 0011F220  4E 80 04 21 */	bctrl
 /* 80123D04 0011F224  3C 60 80 23 */	lis r3, lbl_80229138@ha
 /* 80123D08 0011F228  80 9B 00 28 */	lwz r4, 0x28(r27)
 /* 80123D0C 0011F22C  80 63 91 38 */	lwz r3, lbl_80229138@l(r3)
@@ -243,7 +243,7 @@ glabel __dt__Q36nw4hbm3lyt6WindowFv
 /* 80123D68 0011F288  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80123D6C 0011F28C  7C 08 03 A6 */	mtlr r0
 /* 80123D70 0011F290  38 21 00 20 */	addi r1, r1, 0x20
-/* 80123D74 0011F294  4E 80 00 20 */	blr 
+/* 80123D74 0011F294  4E 80 00 20 */	blr
 
 glabel FindMaterialByName__Q36nw4hbm3lyt6WindowFPCcb
 /* 80123D78 0011F298  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -310,7 +310,7 @@ glabel FindMaterialByName__Q36nw4hbm3lyt6WindowFPCcb
 /* 80123E54 0011F374  38 A0 00 01 */	li r5, 1
 /* 80123E58 0011F378  81 8C 00 40 */	lwz r12, 0x40(r12)
 /* 80123E5C 0011F37C  7D 89 03 A6 */	mtctr r12
-/* 80123E60 0011F380  4E 80 04 21 */	bctrl 
+/* 80123E60 0011F380  4E 80 04 21 */	bctrl
 /* 80123E64 0011F384  2C 03 00 00 */	cmpwi r3, 0
 /* 80123E68 0011F388  41 82 00 08 */	beq .L_80123E70
 /* 80123E6C 0011F38C  48 00 00 14 */	b .L_80123E80
@@ -327,7 +327,7 @@ glabel FindMaterialByName__Q36nw4hbm3lyt6WindowFPCcb
 /* 80123E88 0011F3A8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80123E8C 0011F3AC  7C 08 03 A6 */	mtlr r0
 /* 80123E90 0011F3B0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80123E94 0011F3B4  4E 80 00 20 */	blr 
+/* 80123E94 0011F3B4  4E 80 00 20 */	blr
 
 glabel FindAnimationLink__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
 /* 80123E98 0011F3B8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -355,7 +355,7 @@ glabel FindAnimationLink__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
 /* 80123EE8 0011F408  81 83 00 00 */	lwz r12, 0(r3)
 /* 80123EEC 0011F40C  81 8C 00 20 */	lwz r12, 0x20(r12)
 /* 80123EF0 0011F410  7D 89 03 A6 */	mtctr r12
-/* 80123EF4 0011F414  4E 80 04 21 */	bctrl 
+/* 80123EF4 0011F414  4E 80 04 21 */	bctrl
 /* 80123EF8 0011F418  2C 03 00 00 */	cmpwi r3, 0
 /* 80123EFC 0011F41C  41 82 00 08 */	beq .L_80123F04
 /* 80123F00 0011F420  48 00 00 1C */	b .L_80123F1C
@@ -375,7 +375,7 @@ glabel FindAnimationLink__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
 /* 80123F2C 0011F44C  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80123F30 0011F450  7C 08 03 A6 */	mtlr r0
 /* 80123F34 0011F454  38 21 00 20 */	addi r1, r1, 0x20
-/* 80123F38 0011F458  4E 80 00 20 */	blr 
+/* 80123F38 0011F458  4E 80 00 20 */	blr
 
 glabel SetAnimationEnable__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransformbb
 /* 80123F3C 0011F45C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -399,7 +399,7 @@ glabel SetAnimationEnable__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransformbb
 /* 80123F80 0011F4A0  81 83 00 00 */	lwz r12, 0(r3)
 /* 80123F84 0011F4A4  81 8C 00 24 */	lwz r12, 0x24(r12)
 /* 80123F88 0011F4A8  7D 89 03 A6 */	mtctr r12
-/* 80123F8C 0011F4AC  4E 80 04 21 */	bctrl 
+/* 80123F8C 0011F4AC  4E 80 04 21 */	bctrl
 /* 80123F90 0011F4B0  3B FF 00 08 */	addi r31, r31, 8
 /* 80123F94 0011F4B4  3B DE 00 01 */	addi r30, r30, 1
 .L_80123F98:
@@ -416,7 +416,7 @@ glabel SetAnimationEnable__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransformbb
 /* 80123FC0 0011F4E0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80123FC4 0011F4E4  7C 08 03 A6 */	mtlr r0
 /* 80123FC8 0011F4E8  38 21 00 20 */	addi r1, r1, 0x20
-/* 80123FCC 0011F4EC  4E 80 00 20 */	blr 
+/* 80123FCC 0011F4EC  4E 80 00 20 */	blr
 
 glabel GetVtxColor__Q36nw4hbm3lyt6WindowCFUl
 /* 80123FD0 0011F4F0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -454,7 +454,7 @@ glabel GetVtxColor__Q36nw4hbm3lyt6WindowCFUl
 /* 8012404C 0011F56C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80124050 0011F570  7C 08 03 A6 */	mtlr r0
 /* 80124054 0011F574  38 21 00 20 */	addi r1, r1, 0x20
-/* 80124058 0011F578  4E 80 00 20 */	blr 
+/* 80124058 0011F578  4E 80 00 20 */	blr
 
 glabel SetVtxColor__Q36nw4hbm3lyt6WindowFUlQ36nw4hbm2ut5Color
 /* 8012405C 0011F57C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -492,7 +492,7 @@ glabel SetVtxColor__Q36nw4hbm3lyt6WindowFUlQ36nw4hbm2ut5Color
 /* 801240D8 0011F5F8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801240DC 0011F5FC  7C 08 03 A6 */	mtlr r0
 /* 801240E0 0011F600  38 21 00 20 */	addi r1, r1, 0x20
-/* 801240E4 0011F604  4E 80 00 20 */	blr 
+/* 801240E4 0011F604  4E 80 00 20 */	blr
 
 glabel GetVtxColorElement__Q36nw4hbm3lyt6WindowCFUl
 /* 801240E8 0011F608  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -522,7 +522,7 @@ glabel GetVtxColorElement__Q36nw4hbm3lyt6WindowCFUl
 /* 80124144 0011F664  88 63 00 E4 */	lbz r3, 0xe4(r3)
 /* 80124148 0011F668  7C 08 03 A6 */	mtlr r0
 /* 8012414C 0011F66C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80124150 0011F670  4E 80 00 20 */	blr 
+/* 80124150 0011F670  4E 80 00 20 */	blr
 
 glabel SetVtxColorElement__Q36nw4hbm3lyt6WindowFUlUc
 /* 80124154 0011F674  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -555,7 +555,7 @@ glabel SetVtxColorElement__Q36nw4hbm3lyt6WindowFUlUc
 /* 801241BC 0011F6DC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801241C0 0011F6E0  7C 08 03 A6 */	mtlr r0
 /* 801241C4 0011F6E4  38 21 00 20 */	addi r1, r1, 0x20
-/* 801241C8 0011F6E8  4E 80 00 20 */	blr 
+/* 801241C8 0011F6E8  4E 80 00 20 */	blr
 
 glabel DrawSelf__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm3lyt8DrawInfo
 /* 801241CC 0011F6EC  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -566,7 +566,7 @@ glabel DrawSelf__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm3lyt8DrawInfo
 /* 801241E0 0011F700  81 83 00 00 */	lwz r12, 0(r3)
 /* 801241E4 0011F704  81 8C 00 60 */	lwz r12, 0x60(r12)
 /* 801241E8 0011F708  7D 89 03 A6 */	mtctr r12
-/* 801241EC 0011F70C  4E 80 04 21 */	bctrl 
+/* 801241EC 0011F70C  4E 80 04 21 */	bctrl
 /* 801241F0 0011F710  88 BF 01 00 */	lbz r5, 0x100(r31)
 /* 801241F4 0011F714  7F E4 FB 78 */	mr r4, r31
 /* 801241F8 0011F718  80 DF 00 FC */	lwz r6, 0xfc(r31)
@@ -593,7 +593,7 @@ glabel DrawSelf__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm3lyt8DrawInfo
 /* 8012424C 0011F76C  38 81 00 10 */	addi r4, r1, 0x10
 /* 80124250 0011F770  88 DF 00 CE */	lbz r6, 0xce(r31)
 /* 80124254 0011F774  7D 89 03 A6 */	mtctr r12
-/* 80124258 0011F778  4E 80 04 21 */	bctrl 
+/* 80124258 0011F778  4E 80 04 21 */	bctrl
 /* 8012425C 0011F77C  88 1F 01 00 */	lbz r0, 0x100(r31)
 /* 80124260 0011F780  2C 00 00 04 */	cmpwi r0, 4
 /* 80124264 0011F784  41 82 00 48 */	beq .L_801242AC
@@ -614,7 +614,7 @@ glabel DrawSelf__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm3lyt8DrawInfo
 /* 80124298 0011F7B8  80 BF 00 FC */	lwz r5, 0xfc(r31)
 /* 8012429C 0011F7BC  88 FF 00 CE */	lbz r7, 0xce(r31)
 /* 801242A0 0011F7C0  7D 89 03 A6 */	mtctr r12
-/* 801242A4 0011F7C4  4E 80 04 21 */	bctrl 
+/* 801242A4 0011F7C4  4E 80 04 21 */	bctrl
 /* 801242A8 0011F7C8  48 00 00 50 */	b .L_801242F8
 .L_801242AC:
 /* 801242AC 0011F7CC  81 9F 00 00 */	lwz r12, 0(r31)
@@ -625,7 +625,7 @@ glabel DrawSelf__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm3lyt8DrawInfo
 /* 801242C0 0011F7E0  80 BF 00 FC */	lwz r5, 0xfc(r31)
 /* 801242C4 0011F7E4  88 FF 00 CE */	lbz r7, 0xce(r31)
 /* 801242C8 0011F7E8  7D 89 03 A6 */	mtctr r12
-/* 801242CC 0011F7EC  4E 80 04 21 */	bctrl 
+/* 801242CC 0011F7EC  4E 80 04 21 */	bctrl
 /* 801242D0 0011F7F0  48 00 00 28 */	b .L_801242F8
 .L_801242D4:
 /* 801242D4 0011F7F4  81 9F 00 00 */	lwz r12, 0(r31)
@@ -636,13 +636,13 @@ glabel DrawSelf__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm3lyt8DrawInfo
 /* 801242E8 0011F808  80 BF 00 FC */	lwz r5, 0xfc(r31)
 /* 801242EC 0011F80C  88 FF 00 CE */	lbz r7, 0xce(r31)
 /* 801242F0 0011F810  7D 89 03 A6 */	mtctr r12
-/* 801242F4 0011F814  4E 80 04 21 */	bctrl 
+/* 801242F4 0011F814  4E 80 04 21 */	bctrl
 .L_801242F8:
 /* 801242F8 0011F818  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 801242FC 0011F81C  83 E1 00 3C */	lwz r31, 0x3c(r1)
 /* 80124300 0011F820  7C 08 03 A6 */	mtlr r0
 /* 80124304 0011F824  38 21 00 40 */	addi r1, r1, 0x40
-/* 80124308 0011F828  4E 80 00 20 */	blr 
+/* 80124308 0011F828  4E 80 00 20 */	blr
 
 glabel AnimateSelf__Q36nw4hbm3lyt6WindowFUl
 /* 8012430C 0011F82C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -670,7 +670,7 @@ glabel AnimateSelf__Q36nw4hbm3lyt6WindowFUl
 /* 8012435C 0011F87C  81 83 00 00 */	lwz r12, 0(r3)
 /* 80124360 0011F880  81 8C 00 1C */	lwz r12, 0x1c(r12)
 /* 80124364 0011F884  7D 89 03 A6 */	mtctr r12
-/* 80124368 0011F888  4E 80 04 21 */	bctrl 
+/* 80124368 0011F888  4E 80 04 21 */	bctrl
 /* 8012436C 0011F88C  3B FF 00 08 */	addi r31, r31, 8
 /* 80124370 0011F890  3B DE 00 01 */	addi r30, r30, 1
 .L_80124374:
@@ -684,7 +684,7 @@ glabel AnimateSelf__Q36nw4hbm3lyt6WindowFUl
 /* 8012438C 0011F8AC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80124390 0011F8B0  7C 08 03 A6 */	mtlr r0
 /* 80124394 0011F8B4  38 21 00 20 */	addi r1, r1, 0x20
-/* 80124398 0011F8B8  4E 80 00 20 */	blr 
+/* 80124398 0011F8B8  4E 80 00 20 */	blr
 
 glabel UnbindAnimationSelf__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
 /* 8012439C 0011F8BC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -707,7 +707,7 @@ glabel UnbindAnimationSelf__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
 /* 801243DC 0011F8FC  81 83 00 00 */	lwz r12, 0(r3)
 /* 801243E0 0011F900  81 8C 00 14 */	lwz r12, 0x14(r12)
 /* 801243E4 0011F904  7D 89 03 A6 */	mtctr r12
-/* 801243E8 0011F908  4E 80 04 21 */	bctrl 
+/* 801243E8 0011F908  4E 80 04 21 */	bctrl
 /* 801243EC 0011F90C  3B FF 00 08 */	addi r31, r31, 8
 /* 801243F0 0011F910  3B DE 00 01 */	addi r30, r30, 1
 .L_801243F4:
@@ -724,7 +724,7 @@ glabel UnbindAnimationSelf__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
 /* 8012441C 0011F93C  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80124420 0011F940  7C 08 03 A6 */	mtlr r0
 /* 80124424 0011F944  38 21 00 20 */	addi r1, r1, 0x20
-/* 80124428 0011F948  4E 80 00 20 */	blr 
+/* 80124428 0011F948  4E 80 00 20 */	blr
 
 glabel DrawContent__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt15WindowFrameSizeUc
 /* 8012442C 0011F94C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -745,7 +745,7 @@ glabel DrawContent__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt15W
 /* 80124468 0011F988  81 83 00 00 */	lwz r12, 0(r3)
 /* 8012446C 0011F98C  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80124470 0011F990  7D 89 03 A6 */	mtctr r12
-/* 80124474 0011F994  4E 80 04 21 */	bctrl 
+/* 80124474 0011F994  4E 80 04 21 */	bctrl
 /* 80124478 0011F998  88 9B 00 F5 */	lbz r4, 0xf5(r27)
 /* 8012447C 0011F99C  7C 7F 1B 78 */	mr r31, r3
 /* 80124480 0011F9A0  4B FF 54 81 */	bl SetVertexFormat__Q36nw4hbm3lyt6detailFbUc
@@ -797,7 +797,7 @@ glabel DrawContent__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt15W
 /* 80124530 0011FA50  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80124534 0011FA54  7C 08 03 A6 */	mtlr r0
 /* 80124538 0011FA58  38 21 00 30 */	addi r1, r1, 0x30
-/* 8012453C 0011FA5C  4E 80 00 20 */	blr 
+/* 8012453C 0011FA5C  4E 80 00 20 */	blr
 
 glabel DrawFrame__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ46nw4hbm3lyt6Window5FrameRCQ36nw4hbm3lyt15WindowFrameSizeUc
 /* 80124540 0011FA60  94 21 FF 20 */	stwu r1, -0xe0(r1)
@@ -824,7 +824,7 @@ glabel DrawFrame__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ46nw4hbm3lyt6Wind
 /* 80124594 0011FAB4  81 83 00 00 */	lwz r12, 0(r3)
 /* 80124598 0011FAB8  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8012459C 0011FABC  7D 89 03 A6 */	mtctr r12
-/* 801245A0 0011FAC0  4E 80 04 21 */	bctrl 
+/* 801245A0 0011FAC0  4E 80 04 21 */	bctrl
 /* 801245A4 0011FAC4  7C 77 1B 78 */	mr r23, r3
 /* 801245A8 0011FAC8  38 80 00 01 */	li r4, 1
 /* 801245AC 0011FACC  4B FF 53 55 */	bl SetVertexFormat__Q36nw4hbm3lyt6detailFbUc
@@ -1174,7 +1174,7 @@ glabel DrawFrame__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ46nw4hbm3lyt6Wind
 /* 80124B0C 0012002C  80 01 00 E4 */	lwz r0, 0xe4(r1)
 /* 80124B10 00120030  7C 08 03 A6 */	mtlr r0
 /* 80124B14 00120034  38 21 00 E0 */	addi r1, r1, 0xe0
-/* 80124B18 00120038  4E 80 00 20 */	blr 
+/* 80124B18 00120038  4E 80 00 20 */	blr
 
 glabel DrawFrame4__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Window5FrameRCQ36nw4hbm3lyt15WindowFrameSizeUc
 /* 80124B1C 0012003C  94 21 FF 20 */	stwu r1, -0xe0(r1)
@@ -1211,7 +1211,7 @@ glabel DrawFrame4__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 80124B98 001200B8  81 83 00 00 */	lwz r12, 0(r3)
 /* 80124B9C 001200BC  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80124BA0 001200C0  7D 89 03 A6 */	mtctr r12
-/* 80124BA4 001200C4  4E 80 04 21 */	bctrl 
+/* 80124BA4 001200C4  4E 80 04 21 */	bctrl
 /* 80124BA8 001200C8  C0 38 00 00 */	lfs f1, 0(r24)
 /* 80124BAC 001200CC  7C 7C 1B 78 */	mr r28, r3
 /* 80124BB0 001200D0  C0 18 00 04 */	lfs f0, 4(r24)
@@ -1321,7 +1321,7 @@ glabel DrawFrame4__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 80124D4C 0012026C  81 83 00 00 */	lwz r12, 0(r3)
 /* 80124D50 00120270  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80124D54 00120274  7D 89 03 A6 */	mtctr r12
-/* 80124D58 00120278  4E 80 04 21 */	bctrl 
+/* 80124D58 00120278  4E 80 04 21 */	bctrl
 /* 80124D5C 0012027C  C0 58 00 00 */	lfs f2, 0(r24)
 /* 80124D60 00120280  7C 7C 1B 78 */	mr r28, r3
 /* 80124D64 00120284  C0 17 00 4C */	lfs f0, 0x4c(r23)
@@ -1437,7 +1437,7 @@ glabel DrawFrame4__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 80124F18 00120438  81 83 00 00 */	lwz r12, 0(r3)
 /* 80124F1C 0012043C  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80124F20 00120440  7D 89 03 A6 */	mtctr r12
-/* 80124F24 00120444  4E 80 04 21 */	bctrl 
+/* 80124F24 00120444  4E 80 04 21 */	bctrl
 /* 80124F28 00120448  C0 38 00 04 */	lfs f1, 4(r24)
 /* 80124F2C 0012044C  7C 7C 1B 78 */	mr r28, r3
 /* 80124F30 00120450  C0 17 00 50 */	lfs f0, 0x50(r23)
@@ -1554,7 +1554,7 @@ glabel DrawFrame4__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 801250E8 00120608  81 83 00 00 */	lwz r12, 0(r3)
 /* 801250EC 0012060C  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 801250F0 00120610  7D 89 03 A6 */	mtctr r12
-/* 801250F4 00120614  4E 80 04 21 */	bctrl 
+/* 801250F4 00120614  4E 80 04 21 */	bctrl
 /* 801250F8 00120618  C0 18 00 04 */	lfs f0, 4(r24)
 /* 801250FC 0012061C  7C 7C 1B 78 */	mr r28, r3
 /* 80125100 00120620  C0 3A 00 08 */	lfs f1, 8(r26)
@@ -1667,7 +1667,7 @@ glabel DrawFrame4__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 801252A8 001207C8  80 01 00 E4 */	lwz r0, 0xe4(r1)
 /* 801252AC 001207CC  7C 08 03 A6 */	mtlr r0
 /* 801252B0 001207D0  38 21 00 E0 */	addi r1, r1, 0xe0
-/* 801252B4 001207D4  4E 80 00 20 */	blr 
+/* 801252B4 001207D4  4E 80 00 20 */	blr
 
 glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Window5FrameRCQ36nw4hbm3lyt15WindowFrameSizeUc
 /* 801252B8 001207D8  94 21 FE 90 */	stwu r1, -0x170(r1)
@@ -1704,7 +1704,7 @@ glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 80125334 00120854  81 83 00 00 */	lwz r12, 0(r3)
 /* 80125338 00120858  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8012533C 0012085C  7D 89 03 A6 */	mtctr r12
-/* 80125340 00120860  4E 80 04 21 */	bctrl 
+/* 80125340 00120860  4E 80 04 21 */	bctrl
 /* 80125344 00120864  C0 3E 00 08 */	lfs f1, 8(r30)
 /* 80125348 00120868  7C 77 1B 78 */	mr r23, r3
 /* 8012534C 0012086C  C0 1E 00 00 */	lfs f0, 0(r30)
@@ -1810,7 +1810,7 @@ glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 801254D8 001209F8  81 83 00 00 */	lwz r12, 0(r3)
 /* 801254DC 001209FC  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 801254E0 00120A00  7D 89 03 A6 */	mtctr r12
-/* 801254E4 00120A04  4E 80 04 21 */	bctrl 
+/* 801254E4 00120A04  4E 80 04 21 */	bctrl
 /* 801254E8 00120A08  C0 3B 00 4C */	lfs f1, 0x4c(r27)
 /* 801254EC 00120A0C  7C 77 1B 78 */	mr r23, r3
 /* 801254F0 00120A10  C0 1E 00 00 */	lfs f0, 0(r30)
@@ -1926,7 +1926,7 @@ glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 801256A4 00120BC4  81 83 00 00 */	lwz r12, 0(r3)
 /* 801256A8 00120BC8  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 801256AC 00120BCC  7D 89 03 A6 */	mtctr r12
-/* 801256B0 00120BD0  4E 80 04 21 */	bctrl 
+/* 801256B0 00120BD0  4E 80 04 21 */	bctrl
 /* 801256B4 00120BD4  C0 3E 00 08 */	lfs f1, 8(r30)
 /* 801256B8 00120BD8  7C 77 1B 78 */	mr r23, r3
 /* 801256BC 00120BDC  C0 1E 00 04 */	lfs f0, 4(r30)
@@ -2041,7 +2041,7 @@ glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 8012586C 00120D8C  81 83 00 00 */	lwz r12, 0(r3)
 /* 80125870 00120D90  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80125874 00120D94  7D 89 03 A6 */	mtctr r12
-/* 80125878 00120D98  4E 80 04 21 */	bctrl 
+/* 80125878 00120D98  4E 80 04 21 */	bctrl
 /* 8012587C 00120D9C  C0 3B 00 50 */	lfs f1, 0x50(r27)
 /* 80125880 00120DA0  7C 77 1B 78 */	mr r23, r3
 /* 80125884 00120DA4  C0 1E 00 08 */	lfs f0, 8(r30)
@@ -2162,7 +2162,7 @@ glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 80125A4C 00120F6C  81 83 00 00 */	lwz r12, 0(r3)
 /* 80125A50 00120F70  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80125A54 00120F74  7D 89 03 A6 */	mtctr r12
-/* 80125A58 00120F78  4E 80 04 21 */	bctrl 
+/* 80125A58 00120F78  4E 80 04 21 */	bctrl
 /* 80125A5C 00120F7C  C0 3E 00 0C */	lfs f1, 0xc(r30)
 /* 80125A60 00120F80  7C 77 1B 78 */	mr r23, r3
 /* 80125A64 00120F84  C0 1E 00 04 */	lfs f0, 4(r30)
@@ -2281,7 +2281,7 @@ glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 80125C24 00121144  81 83 00 00 */	lwz r12, 0(r3)
 /* 80125C28 00121148  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80125C2C 0012114C  7D 89 03 A6 */	mtctr r12
-/* 80125C30 00121150  4E 80 04 21 */	bctrl 
+/* 80125C30 00121150  4E 80 04 21 */	bctrl
 /* 80125C34 00121154  C0 3B 00 4C */	lfs f1, 0x4c(r27)
 /* 80125C38 00121158  7C 77 1B 78 */	mr r23, r3
 /* 80125C3C 0012115C  C0 1E 00 00 */	lfs f0, 0(r30)
@@ -2402,7 +2402,7 @@ glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 80125E04 00121324  81 83 00 00 */	lwz r12, 0(r3)
 /* 80125E08 00121328  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80125E0C 0012132C  7D 89 03 A6 */	mtctr r12
-/* 80125E10 00121330  4E 80 04 21 */	bctrl 
+/* 80125E10 00121330  4E 80 04 21 */	bctrl
 /* 80125E14 00121334  C0 3E 00 0C */	lfs f1, 0xc(r30)
 /* 80125E18 00121338  7C 77 1B 78 */	mr r23, r3
 /* 80125E1C 0012133C  C0 1E 00 00 */	lfs f0, 0(r30)
@@ -2517,7 +2517,7 @@ glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 80125FCC 001214EC  81 83 00 00 */	lwz r12, 0(r3)
 /* 80125FD0 001214F0  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80125FD4 001214F4  7D 89 03 A6 */	mtctr r12
-/* 80125FD8 001214F8  4E 80 04 21 */	bctrl 
+/* 80125FD8 001214F8  4E 80 04 21 */	bctrl
 /* 80125FDC 001214FC  C0 3B 00 50 */	lfs f1, 0x50(r27)
 /* 80125FE0 00121500  7C 77 1B 78 */	mr r23, r3
 /* 80125FE4 00121504  C0 1E 00 08 */	lfs f0, 8(r30)
@@ -2633,7 +2633,7 @@ glabel DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Win
 /* 80126198 001216B8  80 01 01 74 */	lwz r0, 0x174(r1)
 /* 8012619C 001216BC  7C 08 03 A6 */	mtlr r0
 /* 801261A0 001216C0  38 21 01 70 */	addi r1, r1, 0x170
-/* 801261A4 001216C4  4E 80 00 20 */	blr 
+/* 801261A4 001216C4  4E 80 00 20 */	blr
 
 glabel GetFrameSize__Q36nw4hbm3lyt6WindowFUcPCQ46nw4hbm3lyt6Window5Frame
 /* 801261A8 001216C8  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -2703,7 +2703,7 @@ glabel GetFrameSize__Q36nw4hbm3lyt6WindowFUcPCQ46nw4hbm3lyt6Window5Frame
 /* 80126298 001217B8  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8012629C 001217BC  7C 08 03 A6 */	mtlr r0
 /* 801262A0 001217C0  38 21 00 40 */	addi r1, r1, 0x40
-/* 801262A4 001217C4  4E 80 00 20 */	blr 
+/* 801262A4 001217C4  4E 80 00 20 */	blr
 
 glabel GetFrameMaterial__Q36nw4hbm3lyt6WindowCFUl
 /* 801262A8 001217C8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2739,25 +2739,25 @@ glabel GetFrameMaterial__Q36nw4hbm3lyt6WindowCFUl
 /* 80126314 00121834  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80126318 00121838  7C 08 03 A6 */	mtlr r0
 /* 8012631C 0012183C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80126320 00121840  4E 80 00 20 */	blr 
+/* 80126320 00121840  4E 80 00 20 */	blr
 
 glabel GetContentMaterial__Q36nw4hbm3lyt6WindowCFv
 /* 80126324 00121844  81 83 00 00 */	lwz r12, 0(r3)
 /* 80126328 00121848  81 8C 00 5C */	lwz r12, 0x5c(r12)
 /* 8012632C 0012184C  7D 89 03 A6 */	mtctr r12
-/* 80126330 00121850  4E 80 04 20 */	bctr 
+/* 80126330 00121850  4E 80 04 20 */	bctr
 
 glabel GetRuntimeTypeInfo__Q36nw4hbm3lyt6WindowCFv
 /* 80126334 00121854  3C 60 80 23 */	lis r3, lbl_80229158@ha
 /* 80126338 00121858  38 63 91 58 */	addi r3, r3, lbl_80229158@l
-/* 8012633C 0012185C  4E 80 00 20 */	blr 
+/* 8012633C 0012185C  4E 80 00 20 */	blr
 
 glabel __sinit_lyt_window_cpp
 /* 80126340 00121860  3C 80 80 23 */	lis r4, lbl_80229140@ha
 /* 80126344 00121864  3C 60 80 23 */	lis r3, lbl_80229158@ha
 /* 80126348 00121868  38 84 91 40 */	addi r4, r4, lbl_80229140@l
 /* 8012634C 0012186C  90 83 91 58 */	stw r4, lbl_80229158@l(r3)
-/* 80126350 00121870  4E 80 00 20 */	blr 
+/* 80126350 00121870  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

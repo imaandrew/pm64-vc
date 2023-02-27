@@ -49,7 +49,7 @@ glabel __VISetYUVSEL
 /* 800A1828 0009CD48  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A182C 0009CD4C  7C 08 03 A6 */	mtlr r0
 /* 800A1830 0009CD50  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A1834 0009CD54  4E 80 00 20 */	blr 
+/* 800A1834 0009CD54  4E 80 00 20 */	blr
 
 glabel __VISetFilter4EURGB60
 /* 800A1838 0009CD58  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -67,7 +67,7 @@ glabel __VISetFilter4EURGB60
 /* 800A1868 0009CD88  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A186C 0009CD8C  7C 08 03 A6 */	mtlr r0
 /* 800A1870 0009CD90  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A1874 0009CD94  4E 80 00 20 */	blr 
+/* 800A1874 0009CD94  4E 80 00 20 */	blr
 
 glabel __VISetCGMS
 /* 800A1878 0009CD98  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -91,7 +91,7 @@ glabel __VISetCGMS
 /* 800A18C0 0009CDE0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A18C4 0009CDE4  7C 08 03 A6 */	mtlr r0
 /* 800A18C8 0009CDE8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A18CC 0009CDEC  4E 80 00 20 */	blr 
+/* 800A18CC 0009CDEC  4E 80 00 20 */	blr
 
 glabel __VISetWSS
 /* 800A18D0 0009CDF0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -118,7 +118,7 @@ glabel __VISetWSS
 /* 800A1924 0009CE44  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A1928 0009CE48  7C 08 03 A6 */	mtlr r0
 /* 800A192C 0009CE4C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A1930 0009CE50  4E 80 00 20 */	blr 
+/* 800A1930 0009CE50  4E 80 00 20 */	blr
 
 glabel __VISetClosedCaption
 /* 800A1934 0009CE54  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -147,7 +147,7 @@ glabel __VISetClosedCaption
 /* 800A1990 0009CEB0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A1994 0009CEB4  7C 08 03 A6 */	mtlr r0
 /* 800A1998 0009CEB8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A199C 0009CEBC  4E 80 00 20 */	blr 
+/* 800A199C 0009CEBC  4E 80 00 20 */	blr
 
 glabel __VISetMacrovision
 /* 800A19A0 0009CEC0  94 21 FE 70 */	stwu r1, -0x190(r1)
@@ -1038,7 +1038,7 @@ glabel lbl_800A1BB8
 /* 800A2718 0009DC38  83 81 01 80 */	lwz r28, 0x180(r1)
 /* 800A271C 0009DC3C  7C 08 03 A6 */	mtlr r0
 /* 800A2720 0009DC40  38 21 01 90 */	addi r1, r1, 0x190
-/* 800A2724 0009DC44  4E 80 00 20 */	blr 
+/* 800A2724 0009DC44  4E 80 00 20 */	blr
 
 glabel __VISetGammaImm
 /* 800A2728 0009DC48  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1141,7 +1141,7 @@ glabel __VISetGammaImm
 /* 800A28AC 0009DDCC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800A28B0 0009DDD0  7C 08 03 A6 */	mtlr r0
 /* 800A28B4 0009DDD4  38 21 00 30 */	addi r1, r1, 0x30
-/* 800A28B8 0009DDD8  4E 80 00 20 */	blr 
+/* 800A28B8 0009DDD8  4E 80 00 20 */	blr
 
 glabel __VISetGamma
 /* 800A28BC 0009DDDC  80 0D 8E 80 */	lwz r0, lbl_80247300@sda21(r13)
@@ -1154,12 +1154,12 @@ glabel __VISetGamma
 glabel func_800A28D4
 /* 800A28D4 0009DDF4  80 0D 8E 80 */	lwz r0, lbl_80247300@sda21(r13)
 /* 800A28D8 0009DDF8  7C 00 18 00 */	cmpw r0, r3
-/* 800A28DC 0009DDFC  4D 82 00 20 */	beqlr 
+/* 800A28DC 0009DDFC  4D 82 00 20 */	beqlr
 /* 800A28E0 0009DE00  80 0D 8E 78 */	lwz r0, lbl_802472F8@sda21(r13)
 /* 800A28E4 0009DE04  90 6D 8E 80 */	stw r3, lbl_80247300@sda21(r13)
 /* 800A28E8 0009DE08  60 00 00 10 */	ori r0, r0, 0x10
 /* 800A28EC 0009DE0C  90 0D 8E 78 */	stw r0, lbl_802472F8@sda21(r13)
-/* 800A28F0 0009DE10  4E 80 00 20 */	blr 
+/* 800A28F0 0009DE10  4E 80 00 20 */	blr
 
 glabel __VISetTrapFilter
 /* 800A28F4 0009DE14  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1186,7 +1186,7 @@ glabel __VISetTrapFilter
 /* 800A2940 0009DE60  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A2944 0009DE64  7C 08 03 A6 */	mtlr r0
 /* 800A2948 0009DE68  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A294C 0009DE6C  4E 80 00 20 */	blr 
+/* 800A294C 0009DE6C  4E 80 00 20 */	blr
 
 glabel __VISetRGBOverDrive
 /* 800A2950 0009DE70  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1223,13 +1223,13 @@ glabel __VISetRGBOverDrive
 /* 800A29C4 0009DEE4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A29C8 0009DEE8  7C 08 03 A6 */	mtlr r0
 /* 800A29CC 0009DEEC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A29D0 0009DEF0  4E 80 00 20 */	blr 
+/* 800A29D0 0009DEF0  4E 80 00 20 */	blr
 
 glabel VISetRGBModeImm
 /* 800A29D4 0009DEF4  80 0D 8E 78 */	lwz r0, lbl_802472F8@sda21(r13)
 /* 800A29D8 0009DEF8  60 00 00 80 */	ori r0, r0, 0x80
 /* 800A29DC 0009DEFC  90 0D 8E 78 */	stw r0, lbl_802472F8@sda21(r13)
-/* 800A29E0 0009DF00  4E 80 00 20 */	blr 
+/* 800A29E0 0009DF00  4E 80 00 20 */	blr
 
 glabel __VISetRGBModeImm
 /* 800A29E4 0009DF04  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1249,7 +1249,7 @@ glabel __VISetRGBModeImm
 /* 800A2A1C 0009DF3C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A2A20 0009DF40  7C 08 03 A6 */	mtlr r0
 /* 800A2A24 0009DF44  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A2A28 0009DF48  4E 80 00 20 */	blr 
+/* 800A2A28 0009DF48  4E 80 00 20 */	blr
 
 glabel __VISetRevolutionModeSimple
 /* 800A2A2C 0009DF4C  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -1525,7 +1525,7 @@ glabel __VISetRevolutionModeSimple
 /* 800A2E48 0009E368  83 81 00 50 */	lwz r28, 0x50(r1)
 /* 800A2E4C 0009E36C  7C 08 03 A6 */	mtlr r0
 /* 800A2E50 0009E370  38 21 00 60 */	addi r1, r1, 0x60
-/* 800A2E54 0009E374  4E 80 00 20 */	blr 
+/* 800A2E54 0009E374  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

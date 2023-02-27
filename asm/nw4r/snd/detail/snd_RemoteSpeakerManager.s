@@ -44,7 +44,7 @@ glabel GetInstance__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
 /* 80132FA8 0012E4C8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80132FAC 0012E4CC  7C 08 03 A6 */	mtlr r0
 /* 80132FB0 0012E4D0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80132FB4 0012E4D4  4E 80 00 20 */	blr 
+/* 80132FB4 0012E4D4  4E 80 00 20 */	blr
 
 glabel Setup__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
 /* 80132FB8 0012E4D8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -99,7 +99,7 @@ glabel Setup__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
 /* 80133074 0012E594  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80133078 0012E598  7C 08 03 A6 */	mtlr r0
 /* 8013307C 0012E59C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80133080 0012E5A0  4E 80 00 20 */	blr 
+/* 80133080 0012E5A0  4E 80 00 20 */	blr
 
 glabel Shutdown__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
 /* 80133084 0012E5A4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -119,7 +119,7 @@ glabel Shutdown__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
 /* 801330B8 0012E5D8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 801330BC 0012E5DC  7C 08 03 A6 */	mtlr r0
 /* 801330C0 0012E5E0  38 21 00 10 */	addi r1, r1, 0x10
-/* 801330C4 0012E5E4  4E 80 00 20 */	blr 
+/* 801330C4 0012E5E4  4E 80 00 20 */	blr
 
 glabel RemoteSpeakerAlarmProc__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFP7OSAlarmP9OSContext
 /* 801330C8 0012E5E8  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -206,7 +206,7 @@ glabel RemoteSpeakerAlarmProc__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFP7OSAl
 /* 801331F0 0012E710  80 01 00 74 */	lwz r0, 0x74(r1)
 /* 801331F4 0012E714  7C 08 03 A6 */	mtlr r0
 /* 801331F8 0012E718  38 21 00 70 */	addi r1, r1, 0x70
-/* 801331FC 0012E71C  4E 80 00 20 */	blr 
+/* 801331FC 0012E71C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

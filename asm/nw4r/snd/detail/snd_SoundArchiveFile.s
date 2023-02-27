@@ -11,7 +11,7 @@ glabel __ct__Q46nw4hbm3snd6detail22SoundArchiveFileReaderFv
 /* 8013735C 0013287C  90 03 00 38 */	stw r0, 0x38(r3)
 /* 80137360 00132880  90 03 00 3C */	stw r0, 0x3c(r3)
 /* 80137364 00132884  90 03 00 40 */	stw r0, 0x40(r3)
-/* 80137368 00132888  4E 80 00 20 */	blr 
+/* 80137368 00132888  4E 80 00 20 */	blr
 
 glabel Init__Q46nw4hbm3snd6detail22SoundArchiveFileReaderFPCv
 /* 8013736C 0013288C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -109,7 +109,7 @@ glabel Init__Q46nw4hbm3snd6detail22SoundArchiveFileReaderFPCv
 /* 801374BC 001329DC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 801374C0 001329E0  7C 08 03 A6 */	mtlr r0
 /* 801374C4 001329E4  38 21 00 20 */	addi r1, r1, 0x20
-/* 801374C8 001329E8  4E 80 00 20 */	blr 
+/* 801374C8 001329E8  4E 80 00 20 */	blr
 
 glabel SetInfoChunk__Q46nw4hbm3snd6detail22SoundArchiveFileReaderFPCvUl
 /* 801374CC 001329EC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -148,7 +148,7 @@ glabel SetInfoChunk__Q46nw4hbm3snd6detail22SoundArchiveFileReaderFPCvUl
 /* 80137548 00132A68  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8013754C 00132A6C  7C 08 03 A6 */	mtlr r0
 /* 80137550 00132A70  38 21 00 20 */	addi r1, r1, 0x20
-/* 80137554 00132A74  4E 80 00 20 */	blr 
+/* 80137554 00132A74  4E 80 00 20 */	blr
 
 glabel GetSoundType__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUl
 /* 80137558 00132A78  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -251,7 +251,7 @@ glabel GetSoundType__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUl
 /* 801376A8 00132BC8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801376AC 00132BCC  7C 08 03 A6 */	mtlr r0
 /* 801376B0 00132BD0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801376B4 00132BD4  4E 80 00 20 */	blr 
+/* 801376B4 00132BD4  4E 80 00 20 */	blr
 
 glabel ReadSoundInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3snd12SoundArchive9SoundInfo
 /* 801376B8 00132BD8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -341,7 +341,7 @@ glabel ReadSoundInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm
 /* 801377E8 00132D08  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801377EC 00132D0C  7C 08 03 A6 */	mtlr r0
 /* 801377F0 00132D10  38 21 00 20 */	addi r1, r1, 0x20
-/* 801377F4 00132D14  4E 80 00 20 */	blr 
+/* 801377F4 00132D14  4E 80 00 20 */	blr
 
 glabel ReadSeqSoundInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3snd12SoundArchive12SeqSoundInfo
 /* 801377F8 00132D18  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -390,7 +390,7 @@ glabel ReadSeqSoundInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4
 /* 80137898 00132DB8  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 8013789C 00132DBC  7C 08 03 A6 */	mtlr r0
 /* 801378A0 00132DC0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801378A4 00132DC4  4E 80 00 20 */	blr 
+/* 801378A4 00132DC4  4E 80 00 20 */	blr
 
 glabel ReadStrmSoundInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3snd12SoundArchive13StrmSoundInfo
 /* 801378A8 00132DC8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -428,7 +428,7 @@ glabel ReadStrmSoundInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw
 /* 8013791C 00132E3C  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 80137920 00132E40  7C 08 03 A6 */	mtlr r0
 /* 80137924 00132E44  38 21 00 20 */	addi r1, r1, 0x20
-/* 80137928 00132E48  4E 80 00 20 */	blr 
+/* 80137928 00132E48  4E 80 00 20 */	blr
 
 glabel ReadWaveSoundInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3snd12SoundArchive13WaveSoundInfo
 /* 8013792C 00132E4C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -473,7 +473,7 @@ glabel ReadWaveSoundInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw
 /* 801379BC 00132EDC  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 801379C0 00132EE0  7C 08 03 A6 */	mtlr r0
 /* 801379C4 00132EE4  38 21 00 20 */	addi r1, r1, 0x20
-/* 801379C8 00132EE8  4E 80 00 20 */	blr 
+/* 801379C8 00132EE8  4E 80 00 20 */	blr
 
 glabel ReadBankInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3snd12SoundArchive8BankInfo
 /* 801379CC 00132EEC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -546,7 +546,7 @@ glabel ReadBankInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3
 /* 80137ABC 00132FDC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80137AC0 00132FE0  7C 08 03 A6 */	mtlr r0
 /* 80137AC4 00132FE4  38 21 00 20 */	addi r1, r1, 0x20
-/* 80137AC8 00132FE8  4E 80 00 20 */	blr 
+/* 80137AC8 00132FE8  4E 80 00 20 */	blr
 
 glabel ReadPlayerInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3snd12SoundArchive10PlayerInfo
 /* 80137ACC 00132FEC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -622,7 +622,7 @@ glabel ReadPlayerInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hb
 /* 80137BC8 001330E8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80137BCC 001330EC  7C 08 03 A6 */	mtlr r0
 /* 80137BD0 001330F0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80137BD4 001330F4  4E 80 00 20 */	blr 
+/* 80137BD4 001330F4  4E 80 00 20 */	blr
 
 glabel ReadGroupInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3snd12SoundArchive9GroupInfo
 /* 80137BD8 001330F8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -743,7 +743,7 @@ glabel ReadGroupInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm
 /* 80137D7C 0013329C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80137D80 001332A0  7C 08 03 A6 */	mtlr r0
 /* 80137D84 001332A4  38 21 00 20 */	addi r1, r1, 0x20
-/* 80137D88 001332A8  4E 80 00 20 */	blr 
+/* 80137D88 001332A8  4E 80 00 20 */	blr
 
 glabel ReadGroupItemInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlUlPQ46nw4hbm3snd12SoundArchive13GroupItemInfo
 /* 80137D8C 001332AC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -878,7 +878,7 @@ glabel ReadGroupItemInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlUlPQ46
 /* 80137F60 00133480  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80137F64 00133484  7C 08 03 A6 */	mtlr r0
 /* 80137F68 00133488  38 21 00 20 */	addi r1, r1, 0x20
-/* 80137F6C 0013348C  4E 80 00 20 */	blr 
+/* 80137F6C 0013348C  4E 80 00 20 */	blr
 
 glabel ReadSoundArchivePlayerInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFPQ46nw4hbm3snd12SoundArchive22SoundArchivePlayerInfo
 /* 80137F70 00133490  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -929,7 +929,7 @@ glabel ReadSoundArchivePlayerInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderC
 /* 80138018 00133538  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8013801C 0013353C  7C 08 03 A6 */	mtlr r0
 /* 80138020 00133540  38 21 00 10 */	addi r1, r1, 0x10
-/* 80138024 00133544  4E 80 00 20 */	blr 
+/* 80138024 00133544  4E 80 00 20 */	blr
 
 glabel GetPlayerCount__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFv
 /* 80138028 00133548  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -963,7 +963,7 @@ glabel GetPlayerCount__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFv
 /* 8013808C 001335AC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80138090 001335B0  7C 08 03 A6 */	mtlr r0
 /* 80138094 001335B4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80138098 001335B8  4E 80 00 20 */	blr 
+/* 80138098 001335B8  4E 80 00 20 */	blr
 
 glabel GetGroupCount__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFv
 /* 8013809C 001335BC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -998,7 +998,7 @@ glabel GetGroupCount__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFv
 /* 80138104 00133624  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80138108 00133628  7C 08 03 A6 */	mtlr r0
 /* 8013810C 0013362C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80138110 00133630  4E 80 00 20 */	blr 
+/* 80138110 00133630  4E 80 00 20 */	blr
 
 glabel ReadFileInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3snd12SoundArchive8FileInfo
 /* 80138114 00133634  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1114,7 +1114,7 @@ glabel ReadFileInfo__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlPQ46nw4hbm3
 /* 801382A8 001337C8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801382AC 001337CC  7C 08 03 A6 */	mtlr r0
 /* 801382B0 001337D0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801382B4 001337D4  4E 80 00 20 */	blr 
+/* 801382B4 001337D4  4E 80 00 20 */	blr
 
 glabel ReadFilePos__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlUlPQ46nw4hbm3snd12SoundArchive7FilePos
 /* 801382B8 001337D8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1242,7 +1242,7 @@ glabel ReadFilePos__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUlUlPQ46nw4hbm
 /* 80138474 00133994  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80138478 00133998  7C 08 03 A6 */	mtlr r0
 /* 8013847C 0013399C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80138480 001339A0  4E 80 00 20 */	blr 
+/* 80138480 001339A0  4E 80 00 20 */	blr
 
 glabel ConvertLabelStringToId__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFPCQ56nw4hbm3snd6detail16SoundArchiveFile10StringTreePCc
 /* 80138484 001339A4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1350,7 +1350,7 @@ glabel ConvertLabelStringToId__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFPCQ
 /* 801385E8 00133B08  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801385EC 00133B0C  7C 08 03 A6 */	mtlr r0
 /* 801385F0 00133B10  38 21 00 20 */	addi r1, r1, 0x20
-/* 801385F4 00133B14  4E 80 00 20 */	blr 
+/* 801385F4 00133B14  4E 80 00 20 */	blr
 
 glabel impl_GetSoundInfoOffset__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUl
 /* 801385F8 00133B18  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1449,7 +1449,7 @@ glabel impl_GetSoundInfoOffset__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUl
 /* 80138750 00133C70  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80138754 00133C74  7C 08 03 A6 */	mtlr r0
 /* 80138758 00133C78  38 21 00 20 */	addi r1, r1, 0x20
-/* 8013875C 00133C7C  4E 80 00 20 */	blr 
+/* 8013875C 00133C7C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -16,10 +16,10 @@ glabel __AXGetCurrentProfile
 /* 800B5E5C 000B137C  7C 00 20 50 */	subf r0, r0, r4
 /* 800B5E60 000B1380  90 0D 91 54 */	stw r0, lbl_802475D4@sda21(r13)
 /* 800B5E64 000B1384  7C 66 1A 14 */	add r3, r6, r3
-/* 800B5E68 000B1388  4E 80 00 20 */	blr 
+/* 800B5E68 000B1388  4E 80 00 20 */	blr
 .L_800B5E6C:
 /* 800B5E6C 000B138C  38 60 00 00 */	li r3, 0
-/* 800B5E70 000B1390  4E 80 00 20 */	blr 
+/* 800B5E70 000B1390  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

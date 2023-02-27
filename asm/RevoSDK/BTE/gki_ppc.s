@@ -38,7 +38,7 @@ glabel GKI_init
 /* 800DB1C4 000D66E4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800DB1C8 000D66E8  7C 08 03 A6 */	mtlr r0
 /* 800DB1CC 000D66EC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DB1D0 000D66F0  4E 80 00 20 */	blr 
+/* 800DB1D0 000D66F0  4E 80 00 20 */	blr
 
 glabel GKI_shutdown
 /* 800DB1D4 000D66F4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -84,19 +84,19 @@ glabel GKI_shutdown
 /* 800DB26C 000D678C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800DB270 000D6790  7C 08 03 A6 */	mtlr r0
 /* 800DB274 000D6794  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DB278 000D6798  4E 80 00 20 */	blr 
+/* 800DB278 000D6798  4E 80 00 20 */	blr
 
 glabel GKI_run
-/* 800DB27C 000D679C  4E 80 00 20 */	blr 
+/* 800DB27C 000D679C  4E 80 00 20 */	blr
 
 glabel GKI_sched_lock
-/* 800DB280 000D67A0  4E 80 00 20 */	blr 
+/* 800DB280 000D67A0  4E 80 00 20 */	blr
 
 glabel GKI_sched_unlock
-/* 800DB284 000D67A4  4E 80 00 20 */	blr 
+/* 800DB284 000D67A4  4E 80 00 20 */	blr
 
 glabel GKI_delay
-/* 800DB288 000D67A8  4E 80 00 20 */	blr 
+/* 800DB288 000D67A8  4E 80 00 20 */	blr
 
 glabel GKI_send_event
 /* 800DB28C 000D67AC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -141,11 +141,11 @@ glabel GKI_send_event
 /* 800DB320 000D6840  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800DB324 000D6844  7C 08 03 A6 */	mtlr r0
 /* 800DB328 000D6848  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DB32C 000D684C  4E 80 00 20 */	blr 
+/* 800DB32C 000D684C  4E 80 00 20 */	blr
 
 glabel GKI_get_taskid
 /* 800DB330 000D6850  38 60 00 02 */	li r3, 2
-/* 800DB334 000D6854  4E 80 00 20 */	blr 
+/* 800DB334 000D6854  4E 80 00 20 */	blr
 
 glabel GKI_enable
 /* 800DB338 000D6858  3C A0 80 1F */	lis r5, lbl_801F3CA0@ha
@@ -175,10 +175,10 @@ glabel GKI_disable
 /* 800DB390 000D68B0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800DB394 000D68B4  7C 08 03 A6 */	mtlr r0
 /* 800DB398 000D68B8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DB39C 000D68BC  4E 80 00 20 */	blr 
+/* 800DB39C 000D68BC  4E 80 00 20 */	blr
 
 glabel GKI_exception
-/* 800DB3A0 000D68C0  4E 80 00 20 */	blr 
+/* 800DB3A0 000D68C0  4E 80 00 20 */	blr
 
 glabel GKI_os_malloc
 /* 800DB3A4 000D68C4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -192,19 +192,19 @@ glabel GKI_os_malloc
 /* 800DB3C0 000D68E0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800DB3C4 000D68E4  7C 08 03 A6 */	mtlr r0
 /* 800DB3C8 000D68E8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DB3CC 000D68EC  4E 80 00 20 */	blr 
+/* 800DB3CC 000D68EC  4E 80 00 20 */	blr
 
 glabel GKI_os_free
 /* 800DB3D0 000D68F0  4B FF 9B 1C */	b App_MEMfree
 glabel lbl_800DB3D4
 /* 800DB3D4 000D68F4  2C 03 00 04 */	cmpwi r3, 4
 /* 800DB3D8 000D68F8  41 82 00 14 */	beq .L_800DB3EC
-/* 800DB3DC 000D68FC  4C 80 00 20 */	bgelr 
+/* 800DB3DC 000D68FC  4C 80 00 20 */	bgelr
 /* 800DB3E0 000D6900  2C 03 00 00 */	cmpwi r3, 0
-/* 800DB3E4 000D6904  4D 82 00 20 */	beqlr 
-/* 800DB3E8 000D6908  4E 80 00 20 */	blr 
+/* 800DB3E4 000D6904  4D 82 00 20 */	beqlr
+/* 800DB3E8 000D6908  4E 80 00 20 */	blr
 .L_800DB3EC:
 /* 800DB3EC 000D690C  7C 83 07 74 */	extsb r3, r4
 /* 800DB3F0 000D6910  48 00 1E CC */	b bta_usb_close_evt
-/* 800DB3F4 000D6914  4E 80 00 20 */	blr 
+/* 800DB3F4 000D6914  4E 80 00 20 */	blr
 

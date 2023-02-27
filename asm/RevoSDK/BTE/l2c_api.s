@@ -114,7 +114,7 @@ glabel L2CA_Register
 /* 800F5B98 000F10B8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F5B9C 000F10BC  7C 08 03 A6 */	mtlr r0
 /* 800F5BA0 000F10C0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F5BA4 000F10C4  4E 80 00 20 */	blr 
+/* 800F5BA4 000F10C4  4E 80 00 20 */	blr
 
 glabel L2CA_Deregister
 /* 800F5BA8 000F10C8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -155,7 +155,7 @@ glabel L2CA_Deregister
 /* 800F5C28 000F1148  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F5C2C 000F114C  7C 08 03 A6 */	mtlr r0
 /* 800F5C30 000F1150  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F5C34 000F1154  4E 80 00 20 */	blr 
+/* 800F5C34 000F1154  4E 80 00 20 */	blr
 
 glabel L2CA_ConnectReq
 /* 800F5C38 000F1158  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -314,7 +314,7 @@ glabel L2CA_ConnectReq
 /* 800F5E5C 000F137C  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800F5E60 000F1380  7C 08 03 A6 */	mtlr r0
 /* 800F5E64 000F1384  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F5E68 000F1388  4E 80 00 20 */	blr 
+/* 800F5E68 000F1388  4E 80 00 20 */	blr
 
 glabel L2CA_ConnectRsp
 /* 800F5E6C 000F138C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -428,7 +428,7 @@ glabel L2CA_ConnectRsp
 /* 800F5FEC 000F150C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800F5FF0 000F1510  7C 08 03 A6 */	mtlr r0
 /* 800F5FF4 000F1514  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F5FF8 000F1518  4E 80 00 20 */	blr 
+/* 800F5FF8 000F1518  4E 80 00 20 */	blr
 
 glabel L2CA_ConfigReq
 /* 800F5FFC 000F151C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -480,7 +480,7 @@ glabel L2CA_ConfigReq
 /* 800F60A4 000F15C4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F60A8 000F15C8  7C 08 03 A6 */	mtlr r0
 /* 800F60AC 000F15CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F60B0 000F15D0  4E 80 00 20 */	blr 
+/* 800F60B0 000F15D0  4E 80 00 20 */	blr
 
 glabel L2CA_ConfigRsp
 /* 800F60B4 000F15D4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -540,7 +540,7 @@ glabel L2CA_ConfigRsp
 /* 800F6174 000F1694  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F6178 000F1698  7C 08 03 A6 */	mtlr r0
 /* 800F617C 000F169C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F6180 000F16A0  4E 80 00 20 */	blr 
+/* 800F6180 000F16A0  4E 80 00 20 */	blr
 
 glabel L2CA_DisconnectReq
 /* 800F6184 000F16A4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -587,7 +587,7 @@ glabel L2CA_DisconnectReq
 /* 800F6218 000F1738  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F621C 000F173C  7C 08 03 A6 */	mtlr r0
 /* 800F6220 000F1740  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F6224 000F1744  4E 80 00 20 */	blr 
+/* 800F6224 000F1744  4E 80 00 20 */	blr
 
 glabel L2CA_DisconnectRsp
 /* 800F6228 000F1748  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -634,7 +634,7 @@ glabel L2CA_DisconnectRsp
 /* 800F62BC 000F17DC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F62C0 000F17E0  7C 08 03 A6 */	mtlr r0
 /* 800F62C4 000F17E4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F62C8 000F17E8  4E 80 00 20 */	blr 
+/* 800F62C8 000F17E8  4E 80 00 20 */	blr
 
 glabel L2CA_DataWrite
 /* 800F62CC 000F17EC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -715,7 +715,7 @@ glabel L2CA_DataWrite
 /* 800F63E0 000F1900  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800F63E4 000F1904  7C 08 03 A6 */	mtlr r0
 /* 800F63E8 000F1908  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F63EC 000F190C  4E 80 00 20 */	blr 
+/* 800F63EC 000F190C  4E 80 00 20 */	blr
 
 glabel L2CA_SetIdleTimeout
 /* 800F63F0 000F1910  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -773,7 +773,7 @@ glabel L2CA_SetIdleTimeout
 /* 800F64A8 000F19C8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F64AC 000F19CC  7C 08 03 A6 */	mtlr r0
 /* 800F64B0 000F19D0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F64B4 000F19D4  4E 80 00 20 */	blr 
+/* 800F64B4 000F19D4  4E 80 00 20 */	blr
 
 glabel L2CA_SetIdleTimeoutByBdAddr
 /* 800F64B8 000F19D8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -846,7 +846,7 @@ glabel L2CA_SetIdleTimeoutByBdAddr
 /* 800F65A8 000F1AC8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F65AC 000F1ACC  7C 08 03 A6 */	mtlr r0
 /* 800F65B0 000F1AD0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F65B4 000F1AD4  4E 80 00 20 */	blr 
+/* 800F65B4 000F1AD4  4E 80 00 20 */	blr
 
 glabel L2CA_SetTraceLevel
 /* 800F65B8 000F1AD8  28 03 00 FF */	cmplwi r3, 0xff
@@ -856,8 +856,8 @@ glabel L2CA_SetTraceLevel
 .L_800F65C8:
 /* 800F65C8 000F1AE8  3C 60 80 22 */	lis r3, lbl_80223620@ha
 /* 800F65CC 000F1AEC  88 63 36 20 */	lbz r3, lbl_80223620@l(r3)
-/* 800F65D0 000F1AF0  4E 80 00 20 */	blr 
+/* 800F65D0 000F1AF0  4E 80 00 20 */	blr
 
 glabel L2CA_RegisterCompression
-/* 800F65D4 000F1AF4  4E 80 00 20 */	blr 
+/* 800F65D4 000F1AF4  4E 80 00 20 */	blr
 

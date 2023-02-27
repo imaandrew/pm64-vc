@@ -4,7 +4,7 @@
 
 glabel TRKTerminateSerialHandler
 /* 8016F7C0 0016ACE0  38 60 00 00 */	li r3, 0
-/* 8016F7C4 0016ACE4  4E 80 00 20 */	blr 
+/* 8016F7C4 0016ACE4  4E 80 00 20 */	blr
 
 glabel TRKInitializeSerialHandler
 /* 8016F7C8 0016ACE8  3C 60 80 24 */	lis r3, lbl_802459A0@ha
@@ -15,7 +15,7 @@ glabel TRKInitializeSerialHandler
 /* 8016F7DC 0016ACFC  38 60 00 00 */	li r3, 0
 /* 8016F7E0 0016AD00  90 04 00 08 */	stw r0, 8(r4)
 /* 8016F7E4 0016AD04  90 04 00 0C */	stw r0, 0xc(r4)
-/* 8016F7E8 0016AD08  4E 80 00 20 */	blr 
+/* 8016F7E8 0016AD08  4E 80 00 20 */	blr
 
 glabel TRKProcessInput
 /* 8016F7EC 0016AD0C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -37,7 +37,7 @@ glabel TRKProcessInput
 /* 8016F82C 0016AD4C  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 8016F830 0016AD50  7C 08 03 A6 */	mtlr r0
 /* 8016F834 0016AD54  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016F838 0016AD58  4E 80 00 20 */	blr 
+/* 8016F838 0016AD58  4E 80 00 20 */	blr
 
 glabel TRKGetInput
 /* 8016F83C 0016AD5C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -64,7 +64,7 @@ glabel TRKGetInput
 /* 8016F88C 0016ADAC  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 8016F890 0016ADB0  7C 08 03 A6 */	mtlr r0
 /* 8016F894 0016ADB4  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016F898 0016ADB8  4E 80 00 20 */	blr 
+/* 8016F898 0016ADB8  4E 80 00 20 */	blr
 
 glabel TRKTestForPacket
 /* 8016F89C 0016ADBC  94 21 F7 20 */	stwu r1, -0x8e0(r1)
@@ -123,7 +123,7 @@ glabel TRKTestForPacket
 /* 8016F95C 0016AE7C  83 E1 08 DC */	lwz r31, 0x8dc(r1)
 /* 8016F960 0016AE80  7C 08 03 A6 */	mtlr r0
 /* 8016F964 0016AE84  38 21 08 E0 */	addi r1, r1, 0x8e0
-/* 8016F968 0016AE88  4E 80 00 20 */	blr 
+/* 8016F968 0016AE88  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 # This might be wrong

@@ -114,7 +114,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 80130EF4 0012C414  89 19 00 C2 */	lbz r8, 0xc2(r25)
 /* 80130EF8 0012C418  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80130EFC 0012C41C  7D 89 03 A6 */	mtctr r12
-/* 80130F00 0012C420  4E 80 04 21 */	bctrl 
+/* 80130F00 0012C420  4E 80 04 21 */	bctrl
 .L_80130F04:
 /* 80130F04 0012C424  88 19 00 C1 */	lbz r0, 0xc1(r25)
 /* 80130F08 0012C428  2C 00 00 00 */	cmpwi r0, 0
@@ -204,7 +204,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 80131030 0012C550  81 8C 00 08 */	lwz r12, 8(r12)
 /* 80131034 0012C554  38 E0 00 00 */	li r7, 0
 /* 80131038 0012C558  7D 89 03 A6 */	mtctr r12
-/* 8013103C 0012C55C  4E 80 04 21 */	bctrl 
+/* 8013103C 0012C55C  4E 80 04 21 */	bctrl
 /* 80131040 0012C560  48 00 03 90 */	b .L_801313D0
 .L_80131044:
 /* 80131044 0012C564  80 D9 00 54 */	lwz r6, 0x54(r25)
@@ -231,7 +231,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 80131098 0012C5B8  7F 65 DB 78 */	mr r5, r27
 /* 8013109C 0012C5BC  81 8C 00 08 */	lwz r12, 8(r12)
 /* 801310A0 0012C5C0  7D 89 03 A6 */	mtctr r12
-/* 801310A4 0012C5C4  4E 80 04 21 */	bctrl 
+/* 801310A4 0012C5C4  4E 80 04 21 */	bctrl
 /* 801310A8 0012C5C8  48 00 03 28 */	b .L_801313D0
 .L_801310AC:
 /* 801310AC 0012C5CC  80 99 00 54 */	lwz r4, 0x54(r25)
@@ -256,7 +256,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 801310F8 0012C618  81 8C 00 08 */	lwz r12, 8(r12)
 /* 801310FC 0012C61C  38 E0 00 00 */	li r7, 0
 /* 80131100 0012C620  7D 89 03 A6 */	mtctr r12
-/* 80131104 0012C624  4E 80 04 21 */	bctrl 
+/* 80131104 0012C624  4E 80 04 21 */	bctrl
 /* 80131108 0012C628  48 00 02 C8 */	b .L_801313D0
 .L_8013110C:
 /* 8013110C 0012C62C  80 99 00 54 */	lwz r4, 0x54(r25)
@@ -281,7 +281,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 80131158 0012C678  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8013115C 0012C67C  38 E0 00 00 */	li r7, 0
 /* 80131160 0012C680  7D 89 03 A6 */	mtctr r12
-/* 80131164 0012C684  4E 80 04 21 */	bctrl 
+/* 80131164 0012C684  4E 80 04 21 */	bctrl
 /* 80131168 0012C688  48 00 02 68 */	b .L_801313D0
 .L_8013116C:
 /* 8013116C 0012C68C  2C 05 00 00 */	cmpwi r5, 0
@@ -315,7 +315,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 801311CC 0012C6EC  81 8C 00 08 */	lwz r12, 8(r12)
 /* 801311D0 0012C6F0  38 E0 00 00 */	li r7, 0
 /* 801311D4 0012C6F4  7D 89 03 A6 */	mtctr r12
-/* 801311D8 0012C6F8  4E 80 04 21 */	bctrl 
+/* 801311D8 0012C6F8  4E 80 04 21 */	bctrl
 /* 801311DC 0012C6FC  48 00 01 F4 */	b .L_801313D0
 .L_801311E0:
 /* 801311E0 0012C700  2C 1C 00 00 */	cmpwi r28, 0
@@ -328,7 +328,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 801311FC 0012C71C  38 C0 00 00 */	li r6, 0
 /* 80131200 0012C720  38 E0 00 00 */	li r7, 0
 /* 80131204 0012C724  7D 89 03 A6 */	mtctr r12
-/* 80131208 0012C728  4E 80 04 21 */	bctrl 
+/* 80131208 0012C728  4E 80 04 21 */	bctrl
 /* 8013120C 0012C72C  48 00 01 C4 */	b .L_801313D0
 .L_80131210:
 /* 80131210 0012C730  2C 05 00 00 */	cmpwi r5, 0
@@ -351,7 +351,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 80131250 0012C770  81 8C 00 08 */	lwz r12, 8(r12)
 /* 80131254 0012C774  38 E0 00 00 */	li r7, 0
 /* 80131258 0012C778  7D 89 03 A6 */	mtctr r12
-/* 8013125C 0012C77C  4E 80 04 21 */	bctrl 
+/* 8013125C 0012C77C  4E 80 04 21 */	bctrl
 /* 80131260 0012C780  48 00 01 70 */	b .L_801313D0
 .L_80131264:
 /* 80131264 0012C784  2C 1B 00 FE */	cmpwi r27, 0xfe
@@ -413,7 +413,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 80131328 0012C848  7C A0 D2 14 */	add r5, r0, r26
 /* 8013132C 0012C84C  38 E0 00 00 */	li r7, 0
 /* 80131330 0012C850  7D 89 03 A6 */	mtctr r12
-/* 80131334 0012C854  4E 80 04 21 */	bctrl 
+/* 80131334 0012C854  4E 80 04 21 */	bctrl
 /* 80131338 0012C858  48 00 00 6C */	b .L_801313A4
 .L_8013133C:
 /* 8013133C 0012C85C  81 19 00 54 */	lwz r8, 0x54(r25)
@@ -442,7 +442,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 80131394 0012C8B4  7E C7 B3 78 */	mr r7, r22
 /* 80131398 0012C8B8  7C A0 D2 14 */	add r5, r0, r26
 /* 8013139C 0012C8BC  7D 89 03 A6 */	mtctr r12
-/* 801313A0 0012C8C0  4E 80 04 21 */	bctrl 
+/* 801313A0 0012C8C0  4E 80 04 21 */	bctrl
 .L_801313A4:
 /* 801313A4 0012C8C4  2C 1C 00 00 */	cmpwi r28, 0
 /* 801313A8 0012C8C8  41 82 00 28 */	beq .L_801313D0
@@ -454,7 +454,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 801313C0 0012C8E0  7E E6 BB 78 */	mr r6, r23
 /* 801313C4 0012C8E4  7E C7 B3 78 */	mr r7, r22
 /* 801313C8 0012C8E8  7D 89 03 A6 */	mtctr r12
-/* 801313CC 0012C8EC  4E 80 04 21 */	bctrl 
+/* 801313CC 0012C8EC  4E 80 04 21 */	bctrl
 .L_801313D0:
 /* 801313D0 0012C8F0  38 60 00 00 */	li r3, 0
 .L_801313D4:
@@ -463,7 +463,7 @@ glabel Parse__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrack
 /* 801313DC 0012C8FC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 801313E0 0012C900  7C 08 03 A6 */	mtlr r0
 /* 801313E4 0012C904  38 21 00 30 */	addi r1, r1, 0x30
-/* 801313E8 0012C908  4E 80 00 20 */	blr 
+/* 801313E8 0012C908  4E 80 00 20 */	blr
 
 glabel CommandProc__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrackUlll
 /* 801313EC 0012C90C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -507,7 +507,7 @@ glabel CommandProc__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSe
 /* 8013147C 0012C99C  38 63 67 D4 */	addi r3, r3, lbl_801A67D4@l
 /* 80131480 0012C9A0  7C 63 00 2E */	lwzx r3, r3, r0
 /* 80131484 0012C9A4  7C 69 03 A6 */	mtctr r3
-/* 80131488 0012C9A8  4E 80 04 20 */	bctr 
+/* 80131488 0012C9A8  4E 80 04 20 */	bctr
 
 glabel lbl_8013148C
 /* 8013148C 0012C9AC  B3 99 00 92 */	sth r28, 0x92(r25)
@@ -1163,7 +1163,7 @@ glabel lbl_80131C8C
 /* 80131C94 0012D1B4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80131C98 0012D1B8  7C 08 03 A6 */	mtlr r0
 /* 80131C9C 0012D1BC  38 21 00 30 */	addi r1, r1, 0x30
-/* 80131CA0 0012D1C0  4E 80 00 20 */	blr 
+/* 80131CA0 0012D1C0  4E 80 00 20 */	blr
 
 glabel NoteOnCommandProc__Q46nw4hbm3snd6detail9MmlParserCFPQ46nw4hbm3snd6detail11MmlSeqTrackiilb
 /* 80131CA4 0012D1C4  7C 83 23 78 */	mr r3, r4
@@ -1311,7 +1311,7 @@ glabel ReadArg__Q46nw4hbm3snd6detail9MmlParserCFPPCUcPQ46nw4hbm3snd6detail9SeqPl
 /* 80131E9C 0012D3BC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80131EA0 0012D3C0  7C 08 03 A6 */	mtlr r0
 /* 80131EA4 0012D3C4  38 21 00 20 */	addi r1, r1, 0x20
-/* 80131EA8 0012D3C8  4E 80 00 20 */	blr 
+/* 80131EA8 0012D3C8  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

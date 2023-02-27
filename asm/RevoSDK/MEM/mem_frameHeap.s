@@ -38,7 +38,7 @@ glabel MEMCreateFrmHeapEx
 /* 800B795C 000B2E7C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800B7960 000B2E80  7C 08 03 A6 */	mtlr r0
 /* 800B7964 000B2E84  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7968 000B2E88  4E 80 00 20 */	blr 
+/* 800B7968 000B2E88  4E 80 00 20 */	blr
 
 glabel MEMDestroyFrmHeap
 /* 800B796C 000B2E8C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -52,7 +52,7 @@ glabel MEMDestroyFrmHeap
 /* 800B798C 000B2EAC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B7990 000B2EB0  7C 08 03 A6 */	mtlr r0
 /* 800B7994 000B2EB4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7998 000B2EB8  4E 80 00 20 */	blr 
+/* 800B7998 000B2EB8  4E 80 00 20 */	blr
 
 glabel MEMAllocFromFrmHeapEx
 /* 800B799C 000B2EBC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -135,7 +135,7 @@ glabel MEMAllocFromFrmHeapEx
 /* 800B7AAC 000B2FCC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B7AB0 000B2FD0  7C 08 03 A6 */	mtlr r0
 /* 800B7AB4 000B2FD4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B7AB8 000B2FD8  4E 80 00 20 */	blr 
+/* 800B7AB8 000B2FD8  4E 80 00 20 */	blr
 
 glabel MEMFreeToFrmHeap
 /* 800B7ABC 000B2FDC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -183,7 +183,7 @@ glabel MEMFreeToFrmHeap
 /* 800B7B4C 000B306C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B7B50 000B3070  7C 08 03 A6 */	mtlr r0
 /* 800B7B54 000B3074  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7B58 000B3078  4E 80 00 20 */	blr 
+/* 800B7B58 000B3078  4E 80 00 20 */	blr
 
 glabel MEMGetAllocatableSizeForFrmHeapEx
 /* 800B7B5C 000B307C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -217,5 +217,5 @@ glabel MEMGetAllocatableSizeForFrmHeapEx
 /* 800B7BC4 000B30E4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B7BC8 000B30E8  7C 08 03 A6 */	mtlr r0
 /* 800B7BCC 000B30EC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7BD0 000B30F0  4E 80 00 20 */	blr 
+/* 800B7BD0 000B30F0  4E 80 00 20 */	blr
 

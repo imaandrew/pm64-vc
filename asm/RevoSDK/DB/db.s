@@ -12,7 +12,7 @@ glabel DBInit
 /* 8009E370 00099890  3C 63 80 00 */	addis r3, r3, 0x8000
 /* 8009E374 00099894  90 64 00 48 */	stw r3, 0x48(r4)
 /* 8009E378 00099898  90 0D 8D BC */	stw r0, lbl_8024723C@sda21(r13)
-/* 8009E37C 0009989C  4E 80 00 20 */	blr 
+/* 8009E37C 0009989C  4E 80 00 20 */	blr
 
 glabel __DBExceptionDestinationAux
 /* 8009E380 000998A0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -32,7 +32,7 @@ glabel __DBExceptionDestinationAux
 /* 8009E3B8 000998D8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8009E3BC 000998DC  7C 08 03 A6 */	mtlr r0
 /* 8009E3C0 000998E0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009E3C4 000998E4  4E 80 00 20 */	blr 
+/* 8009E3C4 000998E4  4E 80 00 20 */	blr
 
 glabel __DBExceptionDestination
 /* 8009E3C8 000998E8  7C 60 00 A6 */	mfmsr r3
@@ -46,7 +46,7 @@ glabel __DBIsExceptionMarked
 /* 8009E3E0 00099900  7C 00 18 30 */	slw r0, r0, r3
 /* 8009E3E4 00099904  80 64 00 04 */	lwz r3, 4(r4)
 /* 8009E3E8 00099908  7C 63 00 38 */	and r3, r3, r0
-/* 8009E3EC 0009990C  4E 80 00 20 */	blr 
+/* 8009E3EC 0009990C  4E 80 00 20 */	blr
 
 glabel DBPrintf
 /* 8009E3F0 00099910  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -69,7 +69,7 @@ glabel DBPrintf
 /* 8009E430 00099950  91 21 00 20 */	stw r9, 0x20(r1)
 /* 8009E434 00099954  91 41 00 24 */	stw r10, 0x24(r1)
 /* 8009E438 00099958  38 21 00 70 */	addi r1, r1, 0x70
-/* 8009E43C 0009995C  4E 80 00 20 */	blr 
+/* 8009E43C 0009995C  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

@@ -72,14 +72,14 @@ glabel __AXAuxInit
 /* 800B29FC 000ADF1C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B2A00 000ADF20  7C 08 03 A6 */	mtlr r0
 /* 800B2A04 000ADF24  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B2A08 000ADF28  4E 80 00 20 */	blr 
+/* 800B2A08 000ADF28  4E 80 00 20 */	blr
 
 glabel __AXAuxQuit
 /* 800B2A0C 000ADF2C  38 00 00 00 */	li r0, 0
 /* 800B2A10 000ADF30  90 0D 90 70 */	stw r0, lbl_802474F0@sda21(r13)
 /* 800B2A14 000ADF34  90 0D 90 6C */	stw r0, lbl_802474EC@sda21(r13)
 /* 800B2A18 000ADF38  90 0D 90 68 */	stw r0, lbl_802474E8@sda21(r13)
-/* 800B2A1C 000ADF3C  4E 80 00 20 */	blr 
+/* 800B2A1C 000ADF3C  4E 80 00 20 */	blr
 
 glabel __AXGetAuxAInput
 /* 800B2A20 000ADF40  80 0D 90 70 */	lwz r0, lbl_802474F0@sda21(r13)
@@ -91,11 +91,11 @@ glabel __AXGetAuxAInput
 /* 800B2A38 000ADF58  1C 00 06 00 */	mulli r0, r0, 0x600
 /* 800B2A3C 000ADF5C  7C 04 02 14 */	add r0, r4, r0
 /* 800B2A40 000ADF60  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2A44 000ADF64  4E 80 00 20 */	blr 
+/* 800B2A44 000ADF64  4E 80 00 20 */	blr
 .L_800B2A48:
 /* 800B2A48 000ADF68  38 00 00 00 */	li r0, 0
 /* 800B2A4C 000ADF6C  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2A50 000ADF70  4E 80 00 20 */	blr 
+/* 800B2A50 000ADF70  4E 80 00 20 */	blr
 
 glabel __AXGetAuxAOutput
 /* 800B2A54 000ADF74  80 0D 90 3C */	lwz r0, lbl_802474BC@sda21(r13)
@@ -104,7 +104,7 @@ glabel __AXGetAuxAOutput
 /* 800B2A60 000ADF80  1C 00 06 00 */	mulli r0, r0, 0x600
 /* 800B2A64 000ADF84  7C 04 02 14 */	add r0, r4, r0
 /* 800B2A68 000ADF88  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2A6C 000ADF8C  4E 80 00 20 */	blr 
+/* 800B2A6C 000ADF8C  4E 80 00 20 */	blr
 
 glabel __AXGetAuxAInputDpl2
 /* 800B2A70 000ADF90  80 0D 90 40 */	lwz r0, lbl_802474C0@sda21(r13)
@@ -114,7 +114,7 @@ glabel __AXGetAuxAInputDpl2
 /* 800B2A80 000ADFA0  7C 84 02 14 */	add r4, r4, r0
 /* 800B2A84 000ADFA4  38 04 04 80 */	addi r0, r4, 0x480
 /* 800B2A88 000ADFA8  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2A8C 000ADFAC  4E 80 00 20 */	blr 
+/* 800B2A8C 000ADFAC  4E 80 00 20 */	blr
 
 glabel __AXGetAuxAOutputDpl2R
 /* 800B2A90 000ADFB0  80 0D 90 3C */	lwz r0, lbl_802474BC@sda21(r13)
@@ -124,7 +124,7 @@ glabel __AXGetAuxAOutputDpl2R
 /* 800B2AA0 000ADFC0  7C 84 02 14 */	add r4, r4, r0
 /* 800B2AA4 000ADFC4  38 04 01 80 */	addi r0, r4, 0x180
 /* 800B2AA8 000ADFC8  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2AAC 000ADFCC  4E 80 00 20 */	blr 
+/* 800B2AAC 000ADFCC  4E 80 00 20 */	blr
 
 glabel __AXGetAuxAOutputDpl2Ls
 /* 800B2AB0 000ADFD0  80 0D 90 3C */	lwz r0, lbl_802474BC@sda21(r13)
@@ -134,7 +134,7 @@ glabel __AXGetAuxAOutputDpl2Ls
 /* 800B2AC0 000ADFE0  7C 84 02 14 */	add r4, r4, r0
 /* 800B2AC4 000ADFE4  38 04 03 00 */	addi r0, r4, 0x300
 /* 800B2AC8 000ADFE8  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2ACC 000ADFEC  4E 80 00 20 */	blr 
+/* 800B2ACC 000ADFEC  4E 80 00 20 */	blr
 
 glabel __AXGetAuxAOutputDpl2Rs
 /* 800B2AD0 000ADFF0  80 0D 90 3C */	lwz r0, lbl_802474BC@sda21(r13)
@@ -144,7 +144,7 @@ glabel __AXGetAuxAOutputDpl2Rs
 /* 800B2AE0 000AE000  7C 84 02 14 */	add r4, r4, r0
 /* 800B2AE4 000AE004  38 04 04 80 */	addi r0, r4, 0x480
 /* 800B2AE8 000AE008  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2AEC 000AE00C  4E 80 00 20 */	blr 
+/* 800B2AEC 000AE00C  4E 80 00 20 */	blr
 
 glabel __AXGetAuxBInput
 /* 800B2AF0 000AE010  80 0D 90 6C */	lwz r0, lbl_802474EC@sda21(r13)
@@ -156,11 +156,11 @@ glabel __AXGetAuxBInput
 /* 800B2B08 000AE028  1C 00 06 00 */	mulli r0, r0, 0x600
 /* 800B2B0C 000AE02C  7C 04 02 14 */	add r0, r4, r0
 /* 800B2B10 000AE030  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2B14 000AE034  4E 80 00 20 */	blr 
+/* 800B2B14 000AE034  4E 80 00 20 */	blr
 .L_800B2B18:
 /* 800B2B18 000AE038  38 00 00 00 */	li r0, 0
 /* 800B2B1C 000AE03C  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2B20 000AE040  4E 80 00 20 */	blr 
+/* 800B2B20 000AE040  4E 80 00 20 */	blr
 
 glabel __AXGetAuxBOutput
 /* 800B2B24 000AE044  80 0D 90 3C */	lwz r0, lbl_802474BC@sda21(r13)
@@ -169,7 +169,7 @@ glabel __AXGetAuxBOutput
 /* 800B2B30 000AE050  1C 00 06 00 */	mulli r0, r0, 0x600
 /* 800B2B34 000AE054  7C 04 02 14 */	add r0, r4, r0
 /* 800B2B38 000AE058  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2B3C 000AE05C  4E 80 00 20 */	blr 
+/* 800B2B3C 000AE05C  4E 80 00 20 */	blr
 
 glabel __AXGetAuxBInputDpl2
 /* 800B2B40 000AE060  80 0D 90 40 */	lwz r0, lbl_802474C0@sda21(r13)
@@ -179,7 +179,7 @@ glabel __AXGetAuxBInputDpl2
 /* 800B2B50 000AE070  7C 84 02 14 */	add r4, r4, r0
 /* 800B2B54 000AE074  38 04 04 80 */	addi r0, r4, 0x480
 /* 800B2B58 000AE078  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2B5C 000AE07C  4E 80 00 20 */	blr 
+/* 800B2B5C 000AE07C  4E 80 00 20 */	blr
 
 glabel __AXGetAuxBOutputDpl2R
 /* 800B2B60 000AE080  80 0D 90 3C */	lwz r0, lbl_802474BC@sda21(r13)
@@ -189,7 +189,7 @@ glabel __AXGetAuxBOutputDpl2R
 /* 800B2B70 000AE090  7C 84 02 14 */	add r4, r4, r0
 /* 800B2B74 000AE094  38 04 01 80 */	addi r0, r4, 0x180
 /* 800B2B78 000AE098  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2B7C 000AE09C  4E 80 00 20 */	blr 
+/* 800B2B7C 000AE09C  4E 80 00 20 */	blr
 
 glabel __AXGetAuxBOutputDpl2Ls
 /* 800B2B80 000AE0A0  80 0D 90 3C */	lwz r0, lbl_802474BC@sda21(r13)
@@ -199,7 +199,7 @@ glabel __AXGetAuxBOutputDpl2Ls
 /* 800B2B90 000AE0B0  7C 84 02 14 */	add r4, r4, r0
 /* 800B2B94 000AE0B4  38 04 03 00 */	addi r0, r4, 0x300
 /* 800B2B98 000AE0B8  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2B9C 000AE0BC  4E 80 00 20 */	blr 
+/* 800B2B9C 000AE0BC  4E 80 00 20 */	blr
 
 glabel __AXGetAuxBOutputDpl2Rs
 /* 800B2BA0 000AE0C0  80 0D 90 3C */	lwz r0, lbl_802474BC@sda21(r13)
@@ -209,7 +209,7 @@ glabel __AXGetAuxBOutputDpl2Rs
 /* 800B2BB0 000AE0D0  7C 84 02 14 */	add r4, r4, r0
 /* 800B2BB4 000AE0D4  38 04 04 80 */	addi r0, r4, 0x480
 /* 800B2BB8 000AE0D8  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2BBC 000AE0DC  4E 80 00 20 */	blr 
+/* 800B2BBC 000AE0DC  4E 80 00 20 */	blr
 
 glabel __AXGetAuxCInput
 /* 800B2BC0 000AE0E0  80 0D 90 68 */	lwz r0, lbl_802474E8@sda21(r13)
@@ -221,11 +221,11 @@ glabel __AXGetAuxCInput
 /* 800B2BD8 000AE0F8  1C 00 04 80 */	mulli r0, r0, 0x480
 /* 800B2BDC 000AE0FC  7C 04 02 14 */	add r0, r4, r0
 /* 800B2BE0 000AE100  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2BE4 000AE104  4E 80 00 20 */	blr 
+/* 800B2BE4 000AE104  4E 80 00 20 */	blr
 .L_800B2BE8:
 /* 800B2BE8 000AE108  38 00 00 00 */	li r0, 0
 /* 800B2BEC 000AE10C  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2BF0 000AE110  4E 80 00 20 */	blr 
+/* 800B2BF0 000AE110  4E 80 00 20 */	blr
 
 glabel __AXGetAuxCOutput
 /* 800B2BF4 000AE114  80 0D 90 3C */	lwz r0, lbl_802474BC@sda21(r13)
@@ -234,7 +234,7 @@ glabel __AXGetAuxCOutput
 /* 800B2C00 000AE120  1C 00 04 80 */	mulli r0, r0, 0x480
 /* 800B2C04 000AE124  7C 04 02 14 */	add r0, r4, r0
 /* 800B2C08 000AE128  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2C0C 000AE12C  4E 80 00 20 */	blr 
+/* 800B2C0C 000AE12C  4E 80 00 20 */	blr
 
 glabel __AXProcessAux
 /* 800B2C10 000AE130  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -288,7 +288,7 @@ glabel __AXProcessAux
 /* 800B2CD0 000AE1F0  38 61 00 40 */	addi r3, r1, 0x40
 /* 800B2CD4 000AE1F4  80 8D 90 64 */	lwz r4, lbl_802474E4@sda21(r13)
 /* 800B2CD8 000AE1F8  7D 89 03 A6 */	mtctr r12
-/* 800B2CDC 000AE1FC  4E 80 04 21 */	bctrl 
+/* 800B2CDC 000AE1FC  4E 80 04 21 */	bctrl
 /* 800B2CE0 000AE200  80 61 00 40 */	lwz r3, 0x40(r1)
 /* 800B2CE4 000AE204  38 80 06 00 */	li r4, 0x600
 /* 800B2CE8 000AE208  4B FD DF E5 */	bl DCFlushRangeNoSync
@@ -308,7 +308,7 @@ glabel __AXProcessAux
 /* 800B2D1C 000AE23C  38 61 00 30 */	addi r3, r1, 0x30
 /* 800B2D20 000AE240  80 8D 90 64 */	lwz r4, lbl_802474E4@sda21(r13)
 /* 800B2D24 000AE244  7D 89 03 A6 */	mtctr r12
-/* 800B2D28 000AE248  4E 80 04 21 */	bctrl 
+/* 800B2D28 000AE248  4E 80 04 21 */	bctrl
 /* 800B2D2C 000AE24C  80 61 00 30 */	lwz r3, 0x30(r1)
 /* 800B2D30 000AE250  38 80 04 80 */	li r4, 0x480
 /* 800B2D34 000AE254  4B FD DF 99 */	bl DCFlushRangeNoSync
@@ -357,7 +357,7 @@ glabel lbl_800B2DCC
 /* 800B2DD0 000AE2F0  38 61 00 20 */	addi r3, r1, 0x20
 /* 800B2DD4 000AE2F4  80 8D 90 60 */	lwz r4, lbl_802474E0@sda21(r13)
 /* 800B2DD8 000AE2F8  7D 89 03 A6 */	mtctr r12
-/* 800B2DDC 000AE2FC  4E 80 04 21 */	bctrl 
+/* 800B2DDC 000AE2FC  4E 80 04 21 */	bctrl
 /* 800B2DE0 000AE300  80 61 00 20 */	lwz r3, 0x20(r1)
 /* 800B2DE4 000AE304  38 80 06 00 */	li r4, 0x600
 /* 800B2DE8 000AE308  4B FD DE E5 */	bl DCFlushRangeNoSync
@@ -378,7 +378,7 @@ glabel lbl_800B2DCC
 /* 800B2E20 000AE340  38 61 00 14 */	addi r3, r1, 0x14
 /* 800B2E24 000AE344  80 8D 90 60 */	lwz r4, lbl_802474E0@sda21(r13)
 /* 800B2E28 000AE348  7D 89 03 A6 */	mtctr r12
-/* 800B2E2C 000AE34C  4E 80 04 21 */	bctrl 
+/* 800B2E2C 000AE34C  4E 80 04 21 */	bctrl
 /* 800B2E30 000AE350  80 61 00 14 */	lwz r3, 0x14(r1)
 /* 800B2E34 000AE354  38 80 04 80 */	li r4, 0x480
 /* 800B2E38 000AE358  4B FD DE 95 */	bl DCFlushRangeNoSync
@@ -424,7 +424,7 @@ glabel lbl_800B2DCC
 /* 800B2ED0 000AE3F0  38 61 00 08 */	addi r3, r1, 8
 /* 800B2ED4 000AE3F4  80 8D 90 5C */	lwz r4, lbl_802474DC@sda21(r13)
 /* 800B2ED8 000AE3F8  7D 89 03 A6 */	mtctr r12
-/* 800B2EDC 000AE3FC  4E 80 04 21 */	bctrl 
+/* 800B2EDC 000AE3FC  4E 80 04 21 */	bctrl
 /* 800B2EE0 000AE400  80 61 00 08 */	lwz r3, 8(r1)
 /* 800B2EE4 000AE404  38 80 04 80 */	li r4, 0x480
 /* 800B2EE8 000AE408  4B FD DD E5 */	bl DCFlushRangeNoSync
@@ -481,7 +481,7 @@ glabel lbl_800B2DCC
 /* 800B2FAC 000AE4CC  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 800B2FB0 000AE4D0  7C 08 03 A6 */	mtlr r0
 /* 800B2FB4 000AE4D4  38 21 00 60 */	addi r1, r1, 0x60
-/* 800B2FB8 000AE4D8  4E 80 00 20 */	blr 
+/* 800B2FB8 000AE4D8  4E 80 00 20 */	blr
 
 glabel AXRegisterAuxACallback
 /* 800B2FBC 000AE4DC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -509,7 +509,7 @@ glabel AXRegisterAuxACallback
 /* 800B3010 000AE530  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B3014 000AE534  7C 08 03 A6 */	mtlr r0
 /* 800B3018 000AE538  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B301C 000AE53C  4E 80 00 20 */	blr 
+/* 800B301C 000AE53C  4E 80 00 20 */	blr
 
 glabel AXRegisterAuxBCallback
 /* 800B3020 000AE540  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -537,7 +537,7 @@ glabel AXRegisterAuxBCallback
 /* 800B3074 000AE594  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B3078 000AE598  7C 08 03 A6 */	mtlr r0
 /* 800B307C 000AE59C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B3080 000AE5A0  4E 80 00 20 */	blr 
+/* 800B3080 000AE5A0  4E 80 00 20 */	blr
 
 glabel AXRegisterAuxCCallback
 /* 800B3084 000AE5A4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -565,28 +565,28 @@ glabel AXRegisterAuxCCallback
 /* 800B30D8 000AE5F8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B30DC 000AE5FC  7C 08 03 A6 */	mtlr r0
 /* 800B30E0 000AE600  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B30E4 000AE604  4E 80 00 20 */	blr 
+/* 800B30E4 000AE604  4E 80 00 20 */	blr
 
 glabel AXGetAuxACallback
 /* 800B30E8 000AE608  80 0D 90 70 */	lwz r0, lbl_802474F0@sda21(r13)
 /* 800B30EC 000AE60C  90 03 00 00 */	stw r0, 0(r3)
 /* 800B30F0 000AE610  80 0D 90 64 */	lwz r0, lbl_802474E4@sda21(r13)
 /* 800B30F4 000AE614  90 04 00 00 */	stw r0, 0(r4)
-/* 800B30F8 000AE618  4E 80 00 20 */	blr 
+/* 800B30F8 000AE618  4E 80 00 20 */	blr
 
 glabel AXGetAuxBCallback
 /* 800B30FC 000AE61C  80 0D 90 6C */	lwz r0, lbl_802474EC@sda21(r13)
 /* 800B3100 000AE620  90 03 00 00 */	stw r0, 0(r3)
 /* 800B3104 000AE624  80 0D 90 60 */	lwz r0, lbl_802474E0@sda21(r13)
 /* 800B3108 000AE628  90 04 00 00 */	stw r0, 0(r4)
-/* 800B310C 000AE62C  4E 80 00 20 */	blr 
+/* 800B310C 000AE62C  4E 80 00 20 */	blr
 
 glabel AXGetAuxCCallback
 /* 800B3110 000AE630  80 0D 90 68 */	lwz r0, lbl_802474E8@sda21(r13)
 /* 800B3114 000AE634  90 03 00 00 */	stw r0, 0(r3)
 /* 800B3118 000AE638  80 0D 90 5C */	lwz r0, lbl_802474DC@sda21(r13)
 /* 800B311C 000AE63C  90 04 00 00 */	stw r0, 0(r4)
-/* 800B3120 000AE640  4E 80 00 20 */	blr 
+/* 800B3120 000AE640  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

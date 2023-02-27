@@ -11,7 +11,7 @@ glabel __ct__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 8012FC6C 0012B18C  90 03 00 04 */	stw r0, 4(r3)
 /* 8012FC70 0012B190  90 83 00 08 */	stw r4, 8(r3)
 /* 8012FC74 0012B194  90 83 00 0C */	stw r4, 0xc(r3)
-/* 8012FC78 0012B198  4E 80 00 20 */	blr 
+/* 8012FC78 0012B198  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 8012FC7C 0012B19C  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -91,7 +91,7 @@ glabel __dt__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 8012FD8C 0012B2AC  80 98 00 08 */	lwz r4, 8(r24)
 /* 8012FD90 0012B2B0  80 B8 00 10 */	lwz r5, 0x10(r24)
 /* 8012FD94 0012B2B4  7D 89 03 A6 */	mtctr r12
-/* 8012FD98 0012B2B8  4E 80 04 21 */	bctrl 
+/* 8012FD98 0012B2B8  4E 80 04 21 */	bctrl
 .L_8012FD9C:
 /* 8012FD9C 0012B2BC  80 11 00 0C */	lwz r0, 0xc(r17)
 /* 8012FDA0 0012B2C0  7C 18 00 40 */	cmplw r24, r0
@@ -141,7 +141,7 @@ glabel __dt__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 8012FE34 0012B354  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 8012FE38 0012B358  7C 08 03 A6 */	mtlr r0
 /* 8012FE3C 0012B35C  38 21 00 50 */	addi r1, r1, 0x50
-/* 8012FE40 0012B360  4E 80 00 20 */	blr 
+/* 8012FE40 0012B360  4E 80 00 20 */	blr
 
 glabel Create__Q46nw4hbm3snd6detail9FrameHeapFPvUl
 /* 8012FE44 0012B364  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -230,7 +230,7 @@ glabel Create__Q46nw4hbm3snd6detail9FrameHeapFPvUl
 /* 8012FF74 0012B494  80 97 00 08 */	lwz r4, 8(r23)
 /* 8012FF78 0012B498  80 B7 00 10 */	lwz r5, 0x10(r23)
 /* 8012FF7C 0012B49C  7D 89 03 A6 */	mtctr r12
-/* 8012FF80 0012B4A0  4E 80 04 21 */	bctrl 
+/* 8012FF80 0012B4A0  4E 80 04 21 */	bctrl
 .L_8012FF84:
 /* 8012FF84 0012B4A4  80 10 00 0C */	lwz r0, 0xc(r16)
 /* 8012FF88 0012B4A8  7C 17 00 40 */	cmplw r23, r0
@@ -331,7 +331,7 @@ glabel Create__Q46nw4hbm3snd6detail9FrameHeapFPvUl
 /* 801300D0 0012B5F0  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 801300D4 0012B5F4  7C 08 03 A6 */	mtlr r0
 /* 801300D8 0012B5F8  38 21 00 50 */	addi r1, r1, 0x50
-/* 801300DC 0012B5FC  4E 80 00 20 */	blr 
+/* 801300DC 0012B5FC  4E 80 00 20 */	blr
 
 glabel Destroy__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 801300E0 0012B600  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -407,7 +407,7 @@ glabel Destroy__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 801301E0 0012B700  80 99 00 08 */	lwz r4, 8(r25)
 /* 801301E4 0012B704  80 B9 00 10 */	lwz r5, 0x10(r25)
 /* 801301E8 0012B708  7D 89 03 A6 */	mtctr r12
-/* 801301EC 0012B70C  4E 80 04 21 */	bctrl 
+/* 801301EC 0012B70C  4E 80 04 21 */	bctrl
 .L_801301F0:
 /* 801301F0 0012B710  80 12 00 0C */	lwz r0, 0xc(r18)
 /* 801301F4 0012B714  7C 19 00 40 */	cmplw r25, r0
@@ -446,7 +446,7 @@ glabel Destroy__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 80130264 0012B784  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80130268 0012B788  7C 08 03 A6 */	mtlr r0
 /* 8013026C 0012B78C  38 21 00 40 */	addi r1, r1, 0x40
-/* 80130270 0012B790  4E 80 00 20 */	blr 
+/* 80130270 0012B790  4E 80 00 20 */	blr
 
 glabel Clear__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 80130274 0012B794  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -530,7 +530,7 @@ glabel Clear__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 80130390 0012B8B0  80 98 00 08 */	lwz r4, 8(r24)
 /* 80130394 0012B8B4  80 B8 00 10 */	lwz r5, 0x10(r24)
 /* 80130398 0012B8B8  7D 89 03 A6 */	mtctr r12
-/* 8013039C 0012B8BC  4E 80 04 21 */	bctrl 
+/* 8013039C 0012B8BC  4E 80 04 21 */	bctrl
 .L_801303A0:
 /* 801303A0 0012B8C0  80 11 00 0C */	lwz r0, 0xc(r17)
 /* 801303A4 0012B8C4  7C 18 00 40 */	cmplw r24, r0
@@ -611,7 +611,7 @@ glabel Clear__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 801304AC 0012B9CC  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 801304B0 0012B9D0  7C 08 03 A6 */	mtlr r0
 /* 801304B4 0012B9D4  38 21 00 50 */	addi r1, r1, 0x50
-/* 801304B8 0012B9D8  4E 80 00 20 */	blr 
+/* 801304B8 0012B9D8  4E 80 00 20 */	blr
 
 glabel Alloc__Q46nw4hbm3snd6detail9FrameHeapFUlPFPvUlPv_vPv
 /* 801304BC 0012B9DC  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -718,7 +718,7 @@ glabel Alloc__Q46nw4hbm3snd6detail9FrameHeapFUlPFPvUlPv_vPv
 /* 8013062C 0012BB4C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80130630 0012BB50  7C 08 03 A6 */	mtlr r0
 /* 80130634 0012BB54  38 21 00 30 */	addi r1, r1, 0x30
-/* 80130638 0012BB58  4E 80 00 20 */	blr 
+/* 80130638 0012BB58  4E 80 00 20 */	blr
 
 glabel GetFreeSize__Q46nw4hbm3snd6detail9FrameHeapCFv
 /* 8013063C 0012BB5C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -752,5 +752,5 @@ glabel GetFreeSize__Q46nw4hbm3snd6detail9FrameHeapCFv
 /* 801306A0 0012BBC0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 801306A4 0012BBC4  7C 08 03 A6 */	mtlr r0
 /* 801306A8 0012BBC8  38 21 00 10 */	addi r1, r1, 0x10
-/* 801306AC 0012BBCC  4E 80 00 20 */	blr 
+/* 801306AC 0012BBCC  4E 80 00 20 */	blr
 

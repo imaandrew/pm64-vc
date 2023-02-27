@@ -62,7 +62,7 @@ glabel SISetSamplingRate
 /* 8009E340 00099860  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8009E344 00099864  7C 08 03 A6 */	mtlr r0
 /* 8009E348 00099868  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009E34C 0009986C  4E 80 00 20 */	blr 
+/* 8009E34C 0009986C  4E 80 00 20 */	blr
 
 glabel SIRefreshSamplingRate
 /* 8009E350 00099870  80 6D 8D B0 */	lwz r3, lbl_80247230@sda21(r13)

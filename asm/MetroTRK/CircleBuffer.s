@@ -73,7 +73,7 @@ glabel CircleBufferReadBytes
 /* 80174028 0016F548  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8017402C 0016F54C  7C 08 03 A6 */	mtlr r0
 /* 80174030 0016F550  38 21 00 20 */	addi r1, r1, 0x20
-/* 80174034 0016F554  4E 80 00 20 */	blr 
+/* 80174034 0016F554  4E 80 00 20 */	blr
 
 glabel CircleBufferWriteBytes
 /* 80174038 0016F558  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -146,7 +146,7 @@ glabel CircleBufferWriteBytes
 /* 80174130 0016F650  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80174134 0016F654  7C 08 03 A6 */	mtlr r0
 /* 80174138 0016F658  38 21 00 20 */	addi r1, r1, 0x20
-/* 8017413C 0016F65C  4E 80 00 20 */	blr 
+/* 8017413C 0016F65C  4E 80 00 20 */	blr
 
 glabel CircleBufferInitialize
 /* 80174140 0016F660  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -168,9 +168,9 @@ glabel CircleBufferInitialize
 /* 80174180 0016F6A0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80174184 0016F6A4  7C 08 03 A6 */	mtlr r0
 /* 80174188 0016F6A8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8017418C 0016F6AC  4E 80 00 20 */	blr 
+/* 8017418C 0016F6AC  4E 80 00 20 */	blr
 
 glabel CBGetBytesAvailableForRead
 /* 80174190 0016F6B0  80 63 00 10 */	lwz r3, 0x10(r3)
-/* 80174194 0016F6B4  4E 80 00 20 */	blr 
+/* 80174194 0016F6B4  4E 80 00 20 */	blr
 

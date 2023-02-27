@@ -127,5 +127,5 @@ glabel InitReaderFunc__Q36nw4hbm2ut4FontFQ36nw4hbm2ut12FontEncoding
 /* 8014BCB8 001471D8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8014BCBC 001471DC  7C 08 03 A6 */	mtlr r0
 /* 8014BCC0 001471E0  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014BCC4 001471E4  4E 80 00 20 */	blr 
+/* 8014BCC4 001471E4  4E 80 00 20 */	blr
 

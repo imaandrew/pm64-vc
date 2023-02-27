@@ -82,7 +82,7 @@ glabel GXCPInterruptHandler
 /* 800A481C 0009FD3C  4B FE CA 5D */	bl OSSetCurrentContext
 /* 800A4820 0009FD40  81 8D 8E C4 */	lwz r12, lbl_80247344@sda21(r13)
 /* 800A4824 0009FD44  7D 89 03 A6 */	mtctr r12
-/* 800A4828 0009FD48  4E 80 04 21 */	bctrl 
+/* 800A4828 0009FD48  4E 80 04 21 */	bctrl
 /* 800A482C 0009FD4C  38 61 00 08 */	addi r3, r1, 8
 /* 800A4830 0009FD50  4B FE CC 71 */	bl OSClearContext
 /* 800A4834 0009FD54  7F C3 F3 78 */	mr r3, r30
@@ -93,7 +93,7 @@ glabel GXCPInterruptHandler
 /* 800A4844 0009FD64  83 C1 02 D8 */	lwz r30, 0x2d8(r1)
 /* 800A4848 0009FD68  7C 08 03 A6 */	mtlr r0
 /* 800A484C 0009FD6C  38 21 02 E0 */	addi r1, r1, 0x2e0
-/* 800A4850 0009FD70  4E 80 00 20 */	blr 
+/* 800A4850 0009FD70  4E 80 00 20 */	blr
 
 glabel GXInitFifoBase
 /* 800A4854 0009FD74  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -131,7 +131,7 @@ glabel GXInitFifoBase
 /* 800A48D0 0009FDF0  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800A48D4 0009FDF4  7C 08 03 A6 */	mtlr r0
 /* 800A48D8 0009FDF8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A48DC 0009FDFC  4E 80 00 20 */	blr 
+/* 800A48DC 0009FDFC  4E 80 00 20 */	blr
 
 glabel CPGPLinkCheck
 /* 800A48E0 0009FE00  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -205,7 +205,7 @@ glabel CPGPLinkCheck
 /* 800A49C8 0009FEE8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A49CC 0009FEEC  7C 08 03 A6 */	mtlr r0
 /* 800A49D0 0009FEF0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A49D4 0009FEF4  4E 80 00 20 */	blr 
+/* 800A49D4 0009FEF4  4E 80 00 20 */	blr
 
 glabel GXSetCPUFifo
 /* 800A49D8 0009FEF8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -332,7 +332,7 @@ glabel GXSetCPUFifo
 /* 800A4BA8 000A00C8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800A4BAC 000A00CC  7C 08 03 A6 */	mtlr r0
 /* 800A4BB0 000A00D0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A4BB4 000A00D4  4E 80 00 20 */	blr 
+/* 800A4BB4 000A00D4  4E 80 00 20 */	blr
 
 glabel GXSetGPFifo
 /* 800A4BB8 000A00D8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -502,11 +502,11 @@ glabel GXSetGPFifo
 /* 800A4E38 000A0358  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800A4E3C 000A035C  7C 08 03 A6 */	mtlr r0
 /* 800A4E40 000A0360  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A4E44 000A0364  4E 80 00 20 */	blr 
+/* 800A4E44 000A0364  4E 80 00 20 */	blr
 
 glabel func_800A4E48
 /* 800A4E48 000A0368  88 6D 8E B9 */	lbz r3, lbl_80247339@sda21(r13)
-/* 800A4E4C 000A036C  4E 80 00 20 */	blr 
+/* 800A4E4C 000A036C  4E 80 00 20 */	blr
 
 glabel GXSetBreakPtCallback
 /* 800A4E50 000A0370  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -525,7 +525,7 @@ glabel GXSetBreakPtCallback
 /* 800A4E84 000A03A4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A4E88 000A03A8  7C 08 03 A6 */	mtlr r0
 /* 800A4E8C 000A03AC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A4E90 000A03B0  4E 80 00 20 */	blr 
+/* 800A4E90 000A03B0  4E 80 00 20 */	blr
 
 glabel __GXFifoInit
 /* 800A4E94 000A03B4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -558,7 +558,7 @@ glabel __GXFifoInit
 /* 800A4F00 000A0420  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A4F04 000A0424  7C 08 03 A6 */	mtlr r0
 /* 800A4F08 000A0428  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A4F0C 000A042C  4E 80 00 20 */	blr 
+/* 800A4F0C 000A042C  4E 80 00 20 */	blr
 
 glabel __GXCleanGPFifo
 /* 800A4F10 000A0430  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -666,7 +666,7 @@ glabel __GXCleanGPFifo
 /* 800A50A0 000A05C0  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800A50A4 000A05C4  7C 08 03 A6 */	mtlr r0
 /* 800A50A8 000A05C8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A50AC 000A05CC  4E 80 00 20 */	blr 
+/* 800A50AC 000A05CC  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

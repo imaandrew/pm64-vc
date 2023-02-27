@@ -7,7 +7,7 @@ glabel __AXGetStackHead
 /* 800B2394 000AD8B4  54 60 10 3A */	slwi r0, r3, 2
 /* 800B2398 000AD8B8  38 84 B1 90 */	addi r4, r4, lbl_801CB190@l
 /* 800B239C 000AD8BC  7C 64 00 2E */	lwzx r3, r4, r0
-/* 800B23A0 000AD8C0  4E 80 00 20 */	blr 
+/* 800B23A0 000AD8C0  4E 80 00 20 */	blr
 
 glabel __AXServiceCallbackStack
 /* 800B23A4 000AD8C4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -34,7 +34,7 @@ glabel __AXServiceCallbackStack
 /* 800B23F0 000AD910  41 82 00 10 */	beq .L_800B2400
 /* 800B23F4 000AD914  7F A3 EB 78 */	mr r3, r29
 /* 800B23F8 000AD918  7D 89 03 A6 */	mtctr r12
-/* 800B23FC 000AD91C  4E 80 04 21 */	bctrl 
+/* 800B23FC 000AD91C  4E 80 04 21 */	bctrl
 .L_800B2400:
 /* 800B2400 000AD920  7F A3 EB 78 */	mr r3, r29
 /* 800B2404 000AD924  48 00 01 D9 */	bl __AXRemoveFromStack
@@ -57,7 +57,7 @@ glabel __AXServiceCallbackStack
 /* 800B2440 000AD960  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B2444 000AD964  7C 08 03 A6 */	mtlr r0
 /* 800B2448 000AD968  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B244C 000AD96C  4E 80 00 20 */	blr 
+/* 800B244C 000AD96C  4E 80 00 20 */	blr
 
 glabel __AXAllocInit
 /* 800B2450 000AD970  38 60 00 00 */	li r3, 0
@@ -104,7 +104,7 @@ glabel __AXAllocInit
 /* 800B24F0 000ADA10  90 65 00 3C */	stw r3, 0x3c(r5)
 /* 800B24F4 000ADA14  38 A5 00 40 */	addi r5, r5, 0x40
 /* 800B24F8 000ADA18  42 00 FF 78 */	bdnz .L_800B2470
-/* 800B24FC 000ADA1C  4E 80 00 20 */	blr 
+/* 800B24FC 000ADA1C  4E 80 00 20 */	blr
 
 glabel __AXAllocQuit
 /* 800B2500 000ADA20  38 60 00 00 */	li r3, 0
@@ -151,7 +151,7 @@ glabel __AXAllocQuit
 /* 800B25A0 000ADAC0  90 65 00 3C */	stw r3, 0x3c(r5)
 /* 800B25A4 000ADAC4  38 A5 00 40 */	addi r5, r5, 0x40
 /* 800B25A8 000ADAC8  42 00 FF 78 */	bdnz .L_800B2520
-/* 800B25AC 000ADACC  4E 80 00 20 */	blr 
+/* 800B25AC 000ADACC  4E 80 00 20 */	blr
 
 glabel __AXPushFreeStack
 /* 800B25B0 000ADAD0  3C A0 80 1D */	lis r5, lbl_801CB190@ha
@@ -160,13 +160,13 @@ glabel __AXPushFreeStack
 /* 800B25BC 000ADADC  90 83 00 00 */	stw r4, 0(r3)
 /* 800B25C0 000ADAE0  90 65 B1 90 */	stw r3, -0x4e70(r5)
 /* 800B25C4 000ADAE4  90 03 00 0C */	stw r0, 0xc(r3)
-/* 800B25C8 000ADAE8  4E 80 00 20 */	blr 
+/* 800B25C8 000ADAE8  4E 80 00 20 */	blr
 
 glabel __AXPushCallbackStack
 /* 800B25CC 000ADAEC  80 0D 90 30 */	lwz r0, lbl_802474B0@sda21(r13)
 /* 800B25D0 000ADAF0  90 03 00 08 */	stw r0, 8(r3)
 /* 800B25D4 000ADAF4  90 6D 90 30 */	stw r3, lbl_802474B0@sda21(r13)
-/* 800B25D8 000ADAF8  4E 80 00 20 */	blr 
+/* 800B25D8 000ADAF8  4E 80 00 20 */	blr
 
 glabel __AXRemoveFromStack
 /* 800B25DC 000ADAFC  80 03 00 0C */	lwz r0, 0xc(r3)
@@ -182,7 +182,7 @@ glabel __AXRemoveFromStack
 /* 800B2604 000ADB24  38 00 00 00 */	li r0, 0
 /* 800B2608 000ADB28  7C 04 31 2E */	stwx r0, r4, r6
 /* 800B260C 000ADB2C  7C 05 31 2E */	stwx r0, r5, r6
-/* 800B2610 000ADB30  4E 80 00 20 */	blr 
+/* 800B2610 000ADB30  4E 80 00 20 */	blr
 .L_800B2614:
 /* 800B2614 000ADB34  7C 03 00 40 */	cmplw r3, r0
 /* 800B2618 000ADB38  40 82 00 18 */	bne .L_800B2630
@@ -190,7 +190,7 @@ glabel __AXRemoveFromStack
 /* 800B2620 000ADB40  38 00 00 00 */	li r0, 0
 /* 800B2624 000ADB44  7C 65 31 2E */	stwx r3, r5, r6
 /* 800B2628 000ADB48  90 03 00 04 */	stw r0, 4(r3)
-/* 800B262C 000ADB4C  4E 80 00 20 */	blr 
+/* 800B262C 000ADB4C  4E 80 00 20 */	blr
 .L_800B2630:
 /* 800B2630 000ADB50  7C 03 38 40 */	cmplw r3, r7
 /* 800B2634 000ADB54  40 82 00 18 */	bne .L_800B264C
@@ -198,13 +198,13 @@ glabel __AXRemoveFromStack
 /* 800B263C 000ADB5C  38 00 00 00 */	li r0, 0
 /* 800B2640 000ADB60  7C 64 31 2E */	stwx r3, r4, r6
 /* 800B2644 000ADB64  90 03 00 00 */	stw r0, 0(r3)
-/* 800B2648 000ADB68  4E 80 00 20 */	blr 
+/* 800B2648 000ADB68  4E 80 00 20 */	blr
 .L_800B264C:
 /* 800B264C 000ADB6C  80 83 00 04 */	lwz r4, 4(r3)
 /* 800B2650 000ADB70  80 63 00 00 */	lwz r3, 0(r3)
 /* 800B2654 000ADB74  90 64 00 00 */	stw r3, 0(r4)
 /* 800B2658 000ADB78  90 83 00 04 */	stw r4, 4(r3)
-/* 800B265C 000ADB7C  4E 80 00 20 */	blr 
+/* 800B265C 000ADB7C  4E 80 00 20 */	blr
 
 glabel AXFreeVoice
 /* 800B2660 000ADB80  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -238,7 +238,7 @@ glabel AXFreeVoice
 /* 800B26CC 000ADBEC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B26D0 000ADBF0  7C 08 03 A6 */	mtlr r0
 /* 800B26D4 000ADBF4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B26D8 000ADBF8  4E 80 00 20 */	blr 
+/* 800B26D8 000ADBF8  4E 80 00 20 */	blr
 
 glabel AXAcquireVoice
 /* 800B26DC 000ADBFC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -304,7 +304,7 @@ glabel AXAcquireVoice
 /* 800B27B8 000ADCD8  41 82 00 20 */	beq .L_800B27D8
 /* 800B27BC 000ADCDC  7F C3 F3 78 */	mr r3, r30
 /* 800B27C0 000ADCE0  7D 89 03 A6 */	mtctr r12
-/* 800B27C4 000ADCE4  4E 80 04 21 */	bctrl 
+/* 800B27C4 000ADCE4  4E 80 04 21 */	bctrl
 /* 800B27C8 000ADCE8  48 00 00 10 */	b .L_800B27D8
 .L_800B27CC:
 /* 800B27CC 000ADCEC  38 A5 00 04 */	addi r5, r5, 4
@@ -346,7 +346,7 @@ glabel AXAcquireVoice
 /* 800B284C 000ADD6C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B2850 000ADD70  7C 08 03 A6 */	mtlr r0
 /* 800B2854 000ADD74  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B2858 000ADD78  4E 80 00 20 */	blr 
+/* 800B2858 000ADD78  4E 80 00 20 */	blr
 
 glabel AXSetVoicePriority
 /* 800B285C 000ADD7C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -389,7 +389,7 @@ glabel AXSetVoicePriority
 /* 800B28E8 000ADE08  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B28EC 000ADE0C  7C 08 03 A6 */	mtlr r0
 /* 800B28F0 000ADE10  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B28F4 000ADE14  4E 80 00 20 */	blr 
+/* 800B28F4 000ADE14  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

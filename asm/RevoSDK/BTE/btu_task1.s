@@ -18,7 +18,7 @@ glabel btu_task_init
 /* 800DD31C 000D883C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800DD320 000D8840  7C 08 03 A6 */	mtlr r0
 /* 800DD324 000D8844  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DD328 000D8848  4E 80 00 20 */	blr 
+/* 800DD328 000D8848  4E 80 00 20 */	blr
 
 glabel btu_task_msg_handler
 /* 800DD32C 000D884C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -123,7 +123,7 @@ glabel btu_task_msg_handler
 /* 800DD484 000D89A4  41 86 00 14 */	beq cr1, .L_800DD498
 /* 800DD488 000D89A8  7F 63 DB 78 */	mr r3, r27
 /* 800DD48C 000D89AC  7D 89 03 A6 */	mtctr r12
-/* 800DD490 000D89B0  4E 80 04 21 */	bctrl 
+/* 800DD490 000D89B0  4E 80 04 21 */	bctrl
 /* 800DD494 000D89B4  38 80 00 01 */	li r4, 1
 .L_800DD498:
 /* 800DD498 000D89B8  3B 5A 00 01 */	addi r26, r26, 1
@@ -225,7 +225,7 @@ glabel btu_task_msg_handler
 /* 800DD5D0 000D8AF0  81 9C 00 10 */	lwz r12, 0x10(r28)
 /* 800DD5D4 000D8AF4  7F 83 E3 78 */	mr r3, r28
 /* 800DD5D8 000D8AF8  7D 89 03 A6 */	mtctr r12
-/* 800DD5DC 000D8AFC  4E 80 04 21 */	bctrl 
+/* 800DD5DC 000D8AFC  4E 80 04 21 */	bctrl
 /* 800DD5E0 000D8B00  48 00 00 58 */	b .L_800DD638
 .L_800DD5E4:
 /* 800DD5E4 000D8B04  3B 60 00 00 */	li r27, 0
@@ -242,7 +242,7 @@ glabel btu_task_msg_handler
 /* 800DD60C 000D8B2C  40 82 00 14 */	bne .L_800DD620
 /* 800DD610 000D8B30  7F 83 E3 78 */	mr r3, r28
 /* 800DD614 000D8B34  7D 89 03 A6 */	mtctr r12
-/* 800DD618 000D8B38  4E 80 04 21 */	bctrl 
+/* 800DD618 000D8B38  4E 80 04 21 */	bctrl
 /* 800DD61C 000D8B3C  38 80 00 01 */	li r4, 1
 .L_800DD620:
 /* 800DD620 000D8B40  3B 7B 00 01 */	addi r27, r27, 1
@@ -292,7 +292,7 @@ glabel btu_task_msg_handler
 /* 800DD6A8 000D8BC8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DD6AC 000D8BCC  7C 08 03 A6 */	mtlr r0
 /* 800DD6B0 000D8BD0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DD6B4 000D8BD4  4E 80 00 20 */	blr 
+/* 800DD6B4 000D8BD4  4E 80 00 20 */	blr
 
 glabel btu_start_timer
 /* 800DD6B8 000D8BD8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -322,7 +322,7 @@ glabel btu_start_timer
 /* 800DD718 000D8C38  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800DD71C 000D8C3C  7C 08 03 A6 */	mtlr r0
 /* 800DD720 000D8C40  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DD724 000D8C44  4E 80 00 20 */	blr 
+/* 800DD724 000D8C44  4E 80 00 20 */	blr
 
 glabel btu_stop_timer
 /* 800DD728 000D8C48  3C A0 80 22 */	lis r5, lbl_80220030@ha

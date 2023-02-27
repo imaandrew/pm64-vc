@@ -9,7 +9,7 @@ glabel __ct__Q210homebutton18GroupAnmControllerFv
 /* 80112DB0 0010E2D0  90 03 00 20 */	stw r0, 0x20(r3)
 /* 80112DB4 0010E2D4  90 83 00 00 */	stw r4, 0(r3)
 /* 80112DB8 0010E2D8  90 03 00 24 */	stw r0, 0x24(r3)
-/* 80112DBC 0010E2DC  4E 80 00 20 */	blr 
+/* 80112DBC 0010E2DC  4E 80 00 20 */	blr
 
 glabel __dt__Q210homebutton18GroupAnmControllerFv
 /* 80112DC0 0010E2E0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -28,7 +28,7 @@ glabel __dt__Q210homebutton18GroupAnmControllerFv
 /* 80112DF0 0010E310  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80112DF4 0010E314  7C 08 03 A6 */	mtlr r0
 /* 80112DF8 0010E318  38 21 00 10 */	addi r1, r1, 0x10
-/* 80112DFC 0010E31C  4E 80 00 20 */	blr 
+/* 80112DFC 0010E31C  4E 80 00 20 */	blr
 
 glabel do_calc__Q210homebutton18GroupAnmControllerFv
 /* 80112E00 0010E320  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -43,7 +43,7 @@ glabel do_calc__Q210homebutton18GroupAnmControllerFv
 /* 80112E24 0010E344  81 83 00 00 */	lwz r12, 0(r3)
 /* 80112E28 0010E348  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80112E2C 0010E34C  7D 89 03 A6 */	mtctr r12
-/* 80112E30 0010E350  4E 80 04 21 */	bctrl 
+/* 80112E30 0010E350  4E 80 04 21 */	bctrl
 /* 80112E34 0010E354  C0 1A 00 0C */	lfs f0, 0xc(r26)
 /* 80112E38 0010E358  3B 60 00 01 */	li r27, 1
 /* 80112E3C 0010E35C  80 7A 00 24 */	lwz r3, 0x24(r26)
@@ -74,7 +74,7 @@ glabel do_calc__Q210homebutton18GroupAnmControllerFv
 /* 80112E90 0010E3B0  81 83 00 00 */	lwz r12, 0(r3)
 /* 80112E94 0010E3B4  81 8C 00 58 */	lwz r12, 0x58(r12)
 /* 80112E98 0010E3B8  7D 89 03 A6 */	mtctr r12
-/* 80112E9C 0010E3BC  4E 80 04 21 */	bctrl 
+/* 80112E9C 0010E3BC  4E 80 04 21 */	bctrl
 /* 80112EA0 0010E3C0  83 FF 00 00 */	lwz r31, 0(r31)
 .L_80112EA4:
 /* 80112EA4 0010E3C4  7C 1F F0 40 */	cmplw r31, r30
@@ -84,5 +84,5 @@ glabel do_calc__Q210homebutton18GroupAnmControllerFv
 /* 80112EB4 0010E3D4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80112EB8 0010E3D8  7C 08 03 A6 */	mtlr r0
 /* 80112EBC 0010E3DC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80112EC0 0010E3E0  4E 80 00 20 */	blr 
+/* 80112EC0 0010E3E0  4E 80 00 20 */	blr
 

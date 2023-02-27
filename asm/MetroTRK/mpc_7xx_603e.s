@@ -102,7 +102,7 @@ glabel TRKSaveExtended1Block
 /* 8017304C 0016E56C  7F DB FA A6 */	mfspr r30, 0x3FB
 /* 80173050 0016E570  7F F9 FA A6 */	mfspr r31, 0x3f9
 /* 80173054 0016E574  BE 62 02 84 */	stmw r19, 0x284(r2)
-/* 80173058 0016E578  4E 80 00 20 */	blr 
+/* 80173058 0016E578  4E 80 00 20 */	blr
 /* 8017305C 0016E57C  7F 30 F2 A6 */	mfspr r25, 0x3d0
 /* 80173060 0016E580  7F 51 F2 A6 */	mfspr r26, 0x3d1
 /* 80173064 0016E584  7F 72 F2 A6 */	mfspr r27, 0x3d2
@@ -113,7 +113,7 @@ glabel TRKSaveExtended1Block
 /* 80173078 0016E598  BF 22 02 40 */	stmw r25, 0x240(r2)
 /* 8017307C 0016E59C  7F F6 02 A6 */	mfspr r31, 0x16
 /* 80173080 0016E5A0  93 E2 02 78 */	stw r31, 0x278(r2)
-/* 80173084 0016E5A4  4E 80 00 20 */	blr 
+/* 80173084 0016E5A4  4E 80 00 20 */	blr
 
 glabel TRKRestoreExtended1Block
 /* 80173088 0016E5A8  3C 40 80 24 */	lis r2, lbl_80245A68@h
@@ -229,5 +229,5 @@ glabel TRKRestoreExtended1Block
 /* 80173230 0016E750  7F 93 43 A6 */	mtspr 0x113, r28
 /* 80173234 0016E754  7F D2 FB A6 */	mtspr 0x3f2, r30
 /* 80173238 0016E758  7F FA 43 A6 */	mtspr 0x11a, r31
-/* 8017323C 0016E75C  4E 80 00 20 */	blr 
+/* 8017323C 0016E75C  4E 80 00 20 */	blr
 

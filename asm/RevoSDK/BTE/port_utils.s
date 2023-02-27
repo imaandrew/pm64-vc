@@ -103,7 +103,7 @@ glabel port_select_mtu
 /* 800FD0EC 000F860C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800FD0F0 000F8610  7C 08 03 A6 */	mtlr r0
 /* 800FD0F4 000F8614  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FD0F8 000F8618  4E 80 00 20 */	blr 
+/* 800FD0F8 000F8618  4E 80 00 20 */	blr
 
 glabel port_release_port
 /* 800FD0FC 000F861C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -167,25 +167,25 @@ glabel port_release_port
 /* 800FD1C8 000F86E8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800FD1CC 000F86EC  7C 08 03 A6 */	mtlr r0
 /* 800FD1D0 000F86F0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FD1D4 000F86F4  4E 80 00 20 */	blr 
+/* 800FD1D4 000F86F4  4E 80 00 20 */	blr
 
 glabel port_find_mcb_dlci_port
 /* 800FD1D8 000F86F8  2C 03 00 00 */	cmpwi r3, 0
 /* 800FD1DC 000F86FC  40 82 00 0C */	bne .L_800FD1E8
 /* 800FD1E0 000F8700  38 60 00 00 */	li r3, 0
-/* 800FD1E4 000F8704  4E 80 00 20 */	blr 
+/* 800FD1E4 000F8704  4E 80 00 20 */	blr
 .L_800FD1E8:
 /* 800FD1E8 000F8708  28 04 00 3D */	cmplwi r4, 0x3d
 /* 800FD1EC 000F870C  40 81 00 0C */	ble .L_800FD1F8
 /* 800FD1F0 000F8710  38 60 00 00 */	li r3, 0
-/* 800FD1F4 000F8714  4E 80 00 20 */	blr 
+/* 800FD1F4 000F8714  4E 80 00 20 */	blr
 .L_800FD1F8:
 /* 800FD1F8 000F8718  7C 63 22 14 */	add r3, r3, r4
 /* 800FD1FC 000F871C  88 63 00 24 */	lbz r3, 0x24(r3)
 /* 800FD200 000F8720  2C 03 00 00 */	cmpwi r3, 0
 /* 800FD204 000F8724  40 82 00 0C */	bne .L_800FD210
 /* 800FD208 000F8728  38 60 00 00 */	li r3, 0
-/* 800FD20C 000F872C  4E 80 00 20 */	blr 
+/* 800FD20C 000F872C  4E 80 00 20 */	blr
 .L_800FD210:
 /* 800FD210 000F8730  38 03 FF FF */	addi r0, r3, -1
 /* 800FD214 000F8734  3C 60 80 22 */	lis r3, lbl_80223E08@ha
@@ -193,7 +193,7 @@ glabel port_find_mcb_dlci_port
 /* 800FD21C 000F873C  38 63 3E 08 */	addi r3, r3, lbl_80223E08@l
 /* 800FD220 000F8740  7C 63 02 14 */	add r3, r3, r0
 /* 800FD224 000F8744  38 63 00 68 */	addi r3, r3, 0x68
-/* 800FD228 000F8748  4E 80 00 20 */	blr 
+/* 800FD228 000F8748  4E 80 00 20 */	blr
 
 glabel port_find_dlci_port
 /* 800FD22C 000F874C  3C A0 80 22 */	lis r5, lbl_80223E08@ha
@@ -218,7 +218,7 @@ glabel port_find_dlci_port
 /* 800FD274 000F8794  7C 04 18 40 */	cmplw r4, r3
 /* 800FD278 000F8798  40 82 00 0C */	bne .L_800FD284
 /* 800FD27C 000F879C  7D 23 4B 78 */	mr r3, r9
-/* 800FD280 000F87A0  4E 80 00 20 */	blr 
+/* 800FD280 000F87A0  4E 80 00 20 */	blr
 .L_800FD284:
 /* 800FD284 000F87A4  2C 06 00 00 */	cmpwi r6, 0
 /* 800FD288 000F87A8  41 82 00 1C */	beq .L_800FD2A4
@@ -227,12 +227,12 @@ glabel port_find_dlci_port
 /* 800FD294 000F87B4  38 04 00 01 */	addi r0, r4, 1
 /* 800FD298 000F87B8  7D 23 4B 78 */	mr r3, r9
 /* 800FD29C 000F87BC  98 09 00 0D */	stb r0, 0xd(r9)
-/* 800FD2A0 000F87C0  4E 80 00 20 */	blr 
+/* 800FD2A0 000F87C0  4E 80 00 20 */	blr
 .L_800FD2A4:
 /* 800FD2A4 000F87C4  39 08 00 01 */	addi r8, r8, 1
 /* 800FD2A8 000F87C8  42 00 FF A0 */	bdnz .L_800FD248
 /* 800FD2AC 000F87CC  38 60 00 00 */	li r3, 0
-/* 800FD2B0 000F87D0  4E 80 00 20 */	blr 
+/* 800FD2B0 000F87D0  4E 80 00 20 */	blr
 
 glabel port_flow_control_user
 /* 800FD2B4 000F87D4  88 03 00 24 */	lbz r0, 0x24(r3)
@@ -258,14 +258,14 @@ glabel port_flow_control_user
 /* 800FD2FC 000F881C  7C 00 28 40 */	cmplw r0, r5
 /* 800FD300 000F8820  40 82 00 0C */	bne .L_800FD30C
 /* 800FD304 000F8824  38 60 00 00 */	li r3, 0
-/* 800FD308 000F8828  4E 80 00 20 */	blr 
+/* 800FD308 000F8828  4E 80 00 20 */	blr
 .L_800FD30C:
 /* 800FD30C 000F882C  2C 05 00 00 */	cmpwi r5, 0
 /* 800FD310 000F8830  98 A3 00 25 */	stb r5, 0x25(r3)
 /* 800FD314 000F8834  3C 60 00 03 */	lis r3, 3
-/* 800FD318 000F8838  4D 82 00 20 */	beqlr 
+/* 800FD318 000F8838  4D 82 00 20 */	beqlr
 /* 800FD31C 000F883C  3C 60 00 01 */	lis r3, 1
-/* 800FD320 000F8840  4E 80 00 20 */	blr 
+/* 800FD320 000F8840  4E 80 00 20 */	blr
 
 glabel port_get_signal_changes
 /* 800FD324 000F8844  7C A4 22 78 */	xor r4, r5, r4
@@ -297,7 +297,7 @@ glabel port_get_signal_changes
 .L_800FD380:
 /* 800FD380 000F88A0  80 03 00 88 */	lwz r0, 0x88(r3)
 /* 800FD384 000F88A4  7C 03 30 38 */	and r3, r0, r6
-/* 800FD388 000F88A8  4E 80 00 20 */	blr 
+/* 800FD388 000F88A8  4E 80 00 20 */	blr
 
 glabel port_flow_control_peer
 /* 800FD38C 000F88AC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -424,5 +424,5 @@ glabel port_flow_control_peer
 /* 800FD548 000F8A68  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800FD54C 000F8A6C  7C 08 03 A6 */	mtlr r0
 /* 800FD550 000F8A70  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FD554 000F8A74  4E 80 00 20 */	blr 
+/* 800FD554 000F8A74  4E 80 00 20 */	blr
 

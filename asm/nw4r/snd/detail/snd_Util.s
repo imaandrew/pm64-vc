@@ -117,12 +117,12 @@ glabel CalcPitchRatio__Q46nw4hbm3snd6detail4UtilFi
 /* 80143004 0013E524  EC 21 00 32 */	fmuls f1, f1, f0
 .L_80143008:
 /* 80143008 0013E528  2C 03 00 00 */	cmpwi r3, 0
-/* 8014300C 0013E52C  4D 82 00 20 */	beqlr 
+/* 8014300C 0013E52C  4D 82 00 20 */	beqlr
 /* 80143010 0013E530  54 60 10 3A */	slwi r0, r3, 2
 /* 80143014 0013E534  38 66 00 30 */	addi r3, r6, 0x30
 /* 80143018 0013E538  7C 03 04 2E */	lfsx f0, r3, r0
 /* 8014301C 0013E53C  EC 21 00 32 */	fmuls f1, f1, f0
-/* 80143020 0013E540  4E 80 00 20 */	blr 
+/* 80143020 0013E540  4E 80 00 20 */	blr
 
 glabel CalcVolumeRatio__Q46nw4hbm3snd6detail4UtilFf
 /* 80143024 0013E544  3C 60 80 17 */	lis r3, lbl_80176AF8@ha
@@ -150,7 +150,7 @@ glabel CalcVolumeRatio__Q46nw4hbm3snd6detail4UtilFf
 /* 80143070 0013E590  54 00 10 3A */	slwi r0, r0, 2
 /* 80143074 0013E594  7C 23 04 2E */	lfsx f1, r3, r0
 /* 80143078 0013E598  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014307C 0013E59C  4E 80 00 20 */	blr 
+/* 8014307C 0013E59C  4E 80 00 20 */	blr
 
 glabel CalcPanRatio__Q46nw4hbm3snd6detail4UtilFf
 /* 80143080 0013E5A0  3C 80 80 17 */	lis r4, lbl_80176AF8@ha
@@ -182,7 +182,7 @@ glabel CalcPanRatio__Q46nw4hbm3snd6detail4UtilFf
 /* 801430DC 0013E5FC  54 00 10 3A */	slwi r0, r0, 2
 /* 801430E0 0013E600  7C 23 04 2E */	lfsx f1, r3, r0
 /* 801430E4 0013E604  38 21 00 10 */	addi r1, r1, 0x10
-/* 801430E8 0013E608  4E 80 00 20 */	blr 
+/* 801430E8 0013E608  4E 80 00 20 */	blr
 
 glabel CalcSurroundPanRatio__Q46nw4hbm3snd6detail4UtilFf
 /* 801430EC 0013E60C  3C 80 80 17 */	lis r4, lbl_80176AF8@ha
@@ -212,7 +212,7 @@ glabel CalcSurroundPanRatio__Q46nw4hbm3snd6detail4UtilFf
 /* 80143140 0013E660  54 00 10 3A */	slwi r0, r0, 2
 /* 80143144 0013E664  7C 23 04 2E */	lfsx f1, r3, r0
 /* 80143148 0013E668  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014314C 0013E66C  4E 80 00 20 */	blr 
+/* 8014314C 0013E66C  4E 80 00 20 */	blr
 
 glabel CalcLpfFreq__Q46nw4hbm3snd6detail4UtilFf
 /* 80143150 0013E670  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -248,7 +248,7 @@ glabel CalcLpfFreq__Q46nw4hbm3snd6detail4UtilFf
 /* 801431BC 0013E6DC  80 61 00 0C */	lwz r3, 0xc(r1)
 /* 801431C0 0013E6E0  7C 08 03 A6 */	mtlr r0
 /* 801431C4 0013E6E4  38 21 00 20 */	addi r1, r1, 0x20
-/* 801431C8 0013E6E8  4E 80 00 20 */	blr 
+/* 801431C8 0013E6E8  4E 80 00 20 */	blr
 
 glabel CalcRandom__Q46nw4hbm3snd6detail4UtilFv
 /* 801431CC 0013E6EC  3C A0 80 1B */	lis r5, lbl_801AA658@ha
@@ -260,7 +260,7 @@ glabel CalcRandom__Q46nw4hbm3snd6detail4UtilFv
 /* 801431E4 0013E704  38 03 F3 5F */	addi r0, r3, -3233
 /* 801431E8 0013E708  90 05 A6 58 */	stw r0, -0x59a8(r5)
 /* 801431EC 0013E70C  54 03 84 3E */	srwi r3, r0, 0x10
-/* 801431F0 0013E710  4E 80 00 20 */	blr 
+/* 801431F0 0013E710  4E 80 00 20 */	blr
 
 glabel GetDataRefAddressImpl__Q46nw4hbm3snd6detail4UtilFQ56nw4hbm3snd6detail4Util7RefTypeUlPCv
 /* 801431F4 0013E714  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -288,5 +288,5 @@ glabel GetDataRefAddressImpl__Q46nw4hbm3snd6detail4UtilFQ56nw4hbm3snd6detail4Uti
 /* 80143240 0013E760  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80143244 0013E764  7C 08 03 A6 */	mtlr r0
 /* 80143248 0013E768  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014324C 0013E76C  4E 80 00 20 */	blr 
+/* 8014324C 0013E76C  4E 80 00 20 */	blr
 

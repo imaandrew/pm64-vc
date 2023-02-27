@@ -50,13 +50,13 @@ glabel __copy_longs_aligned
 /* 8016254C 0015DA6C  54 A5 07 BF */	clrlwi. r5, r5, 0x1e
 /* 80162550 0015DA70  38 C7 00 03 */	addi r6, r7, 3
 /* 80162554 0015DA74  38 64 00 03 */	addi r3, r4, 3
-/* 80162558 0015DA78  4D 82 00 20 */	beqlr 
+/* 80162558 0015DA78  4D 82 00 20 */	beqlr
 .L_8016255C:
 /* 8016255C 0015DA7C  8C 06 00 01 */	lbzu r0, 1(r6)
 /* 80162560 0015DA80  34 A5 FF FF */	addic. r5, r5, -1
 /* 80162564 0015DA84  9C 03 00 01 */	stbu r0, 1(r3)
 /* 80162568 0015DA88  40 82 FF F4 */	bne .L_8016255C
-/* 8016256C 0015DA8C  4E 80 00 20 */	blr 
+/* 8016256C 0015DA8C  4E 80 00 20 */	blr
 
 glabel __copy_longs_rev_aligned
 /* 80162570 0015DA90  7C E3 2A 14 */	add r7, r3, r5
@@ -101,13 +101,13 @@ glabel __copy_longs_rev_aligned
 /* 801625F8 0015DB18  40 82 FF F4 */	bne .L_801625EC
 .L_801625FC:
 /* 801625FC 0015DB1C  54 A5 07 BF */	clrlwi. r5, r5, 0x1e
-/* 80162600 0015DB20  4D 82 00 20 */	beqlr 
+/* 80162600 0015DB20  4D 82 00 20 */	beqlr
 .L_80162604:
 /* 80162604 0015DB24  8C 06 FF FF */	lbzu r0, -1(r6)
 /* 80162608 0015DB28  34 A5 FF FF */	addic. r5, r5, -1
 /* 8016260C 0015DB2C  9C 07 FF FF */	stbu r0, -1(r7)
 /* 80162610 0015DB30  40 82 FF F4 */	bne .L_80162604
-/* 80162614 0015DB34  4E 80 00 20 */	blr 
+/* 80162614 0015DB34  4E 80 00 20 */	blr
 
 glabel __copy_longs_unaligned
 /* 80162618 0015DB38  7C 03 00 D0 */	neg r0, r3
@@ -154,7 +154,7 @@ glabel __copy_longs_unaligned
 /* 801626AC 0015DBCC  54 A5 07 BF */	clrlwi. r5, r5, 0x1e
 /* 801626B0 0015DBD0  38 88 00 03 */	addi r4, r8, 3
 /* 801626B4 0015DBD4  38 66 00 03 */	addi r3, r6, 3
-/* 801626B8 0015DBD8  4D 82 00 20 */	beqlr 
+/* 801626B8 0015DBD8  4D 82 00 20 */	beqlr
 /* 801626BC 0015DBDC  20 09 00 04 */	subfic r0, r9, 4
 /* 801626C0 0015DBE0  7C 80 20 50 */	subf r4, r0, r4
 .L_801626C4:
@@ -162,7 +162,7 @@ glabel __copy_longs_unaligned
 /* 801626C8 0015DBE8  34 A5 FF FF */	addic. r5, r5, -1
 /* 801626CC 0015DBEC  9C 03 00 01 */	stbu r0, 1(r3)
 /* 801626D0 0015DBF0  40 82 FF F4 */	bne .L_801626C4
-/* 801626D4 0015DBF4  4E 80 00 20 */	blr 
+/* 801626D4 0015DBF4  4E 80 00 20 */	blr
 
 glabel __copy_longs_rev_unaligned
 /* 801626D8 0015DBF8  7D 63 2A 14 */	add r11, r3, r5
@@ -205,11 +205,11 @@ glabel __copy_longs_rev_unaligned
 /* 80162760 0015DC80  94 0B FF FC */	stwu r0, -4(r11)
 .L_80162764:
 /* 80162764 0015DC84  54 A5 07 BF */	clrlwi. r5, r5, 0x1e
-/* 80162768 0015DC88  4D 82 00 20 */	beqlr 
+/* 80162768 0015DC88  4D 82 00 20 */	beqlr
 /* 8016276C 0015DC8C  7D 4A 3A 14 */	add r10, r10, r7
 .L_80162770:
 /* 80162770 0015DC90  8C 0A FF FF */	lbzu r0, -1(r10)
 /* 80162774 0015DC94  34 A5 FF FF */	addic. r5, r5, -1
 /* 80162778 0015DC98  9C 0B FF FF */	stbu r0, -1(r11)
 /* 8016277C 0015DC9C  40 82 FF F4 */	bne .L_80162770
-/* 80162780 0015DCA0  4E 80 00 20 */	blr 
+/* 80162780 0015DCA0  4E 80 00 20 */	blr

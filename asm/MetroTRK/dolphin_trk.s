@@ -38,10 +38,10 @@ glabel InitMetroTRK
 /* 80173438 0016E958  80 83 00 84 */	lwz r4, 0x84(r3)
 /* 8017343C 0016E95C  7C 88 03 A6 */	mtlr r4
 /* 80173440 0016E960  B8 03 00 00 */	.4byte 0xB8030000  /* illegal lmw r0, 0(r3) */
-/* 80173444 0016E964  4E 80 00 20 */	blr 
+/* 80173444 0016E964  4E 80 00 20 */	blr
 .L_80173448:
 /* 80173448 0016E968  48 00 02 8C */	b TRK_main
-/* 8017344C 0016E96C  4E 80 00 20 */	blr 
+/* 8017344C 0016E96C  4E 80 00 20 */	blr
 
 glabel IntroMetroTRK_BBA
 /* 80173450 0016E970  38 21 FF FC */	addi r1, r1, -4
@@ -78,10 +78,10 @@ glabel IntroMetroTRK_BBA
 /* 801734CC 0016E9EC  80 83 00 84 */	lwz r4, 0x84(r3)
 /* 801734D0 0016E9F0  7C 88 03 A6 */	mtlr r4
 /* 801734D4 0016E9F4  B8 03 00 00 */	.4byte 0xB8030000  /* illegal lmw r0, 0(r3) */
-/* 801734D8 0016E9F8  4E 80 00 20 */	blr 
+/* 801734D8 0016E9F8  4E 80 00 20 */	blr
 .L_801734DC:
 /* 801734DC 0016E9FC  48 00 01 F8 */	b TRK_main
-/* 801734E0 0016EA00  4E 80 00 20 */	blr 
+/* 801734E0 0016EA00  4E 80 00 20 */	blr
 
 glabel TRKInitializeTarget
 /* 801734E4 0016EA04  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -102,7 +102,7 @@ glabel TRKInitializeTarget
 /* 80173520 0016EA40  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80173524 0016EA44  7C 08 03 A6 */	mtlr r0
 /* 80173528 0016EA48  38 21 00 10 */	addi r1, r1, 0x10
-/* 8017352C 0016EA4C  4E 80 00 20 */	blr 
+/* 8017352C 0016EA4C  4E 80 00 20 */	blr
 
 glabel __TRK_copy_vectors
 /* 80173530 0016EA50  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -186,7 +186,7 @@ glabel __TRK_copy_vectors
 /* 8017364C 0016EB6C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80173650 0016EB70  7C 08 03 A6 */	mtlr r0
 /* 80173654 0016EB74  38 21 00 20 */	addi r1, r1, 0x20
-/* 80173658 0016EB78  4E 80 00 20 */	blr 
+/* 80173658 0016EB78  4E 80 00 20 */	blr
 
 glabel TRKTargetTranslate
 /* 8017365C 0016EB7C  3C 80 80 24 */	lis r4, lbl_80245F40@ha
@@ -201,18 +201,18 @@ glabel TRKTargetTranslate
 /* 80173680 0016EBA0  38 84 5A 68 */	addi r4, r4, lbl_80245A68@l
 /* 80173684 0016EBA4  80 04 02 38 */	lwz r0, 0x238(r4)
 /* 80173688 0016EBA8  54 00 07 BF */	clrlwi. r0, r0, 0x1e
-/* 8017368C 0016EBAC  4C 82 00 20 */	bnelr 
+/* 8017368C 0016EBAC  4C 82 00 20 */	bnelr
 .L_80173690:
 /* 80173690 0016EBB0  3C 00 7E 00 */	lis r0, 0x7e00
 /* 80173694 0016EBB4  7C 03 00 40 */	cmplw r3, r0
 /* 80173698 0016EBB8  41 80 00 10 */	blt .L_801736A8
 /* 8017369C 0016EBBC  3C 00 80 00 */	lis r0, 0x8000
 /* 801736A0 0016EBC0  7C 03 00 40 */	cmplw r3, r0
-/* 801736A4 0016EBC4  4C 81 00 20 */	blelr 
+/* 801736A4 0016EBC4  4C 81 00 20 */	blelr
 .L_801736A8:
 /* 801736A8 0016EBC8  54 60 00 BE */	clrlwi r0, r3, 2
 /* 801736AC 0016EBCC  64 03 80 00 */	oris r3, r0, 0x8000
-/* 801736B0 0016EBD0  4E 80 00 20 */	blr 
+/* 801736B0 0016EBD0  4E 80 00 20 */	blr
 
 glabel EnableMetroTRKInterrupts
 /* 801736B4 0016EBD4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -222,7 +222,7 @@ glabel EnableMetroTRKInterrupts
 /* 801736C4 0016EBE4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801736C8 0016EBE8  7C 08 03 A6 */	mtlr r0
 /* 801736CC 0016EBEC  38 21 00 10 */	addi r1, r1, 0x10
-/* 801736D0 0016EBF0  4E 80 00 20 */	blr 
+/* 801736D0 0016EBF0  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

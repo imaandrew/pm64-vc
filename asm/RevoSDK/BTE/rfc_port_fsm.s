@@ -10,14 +10,14 @@ glabel rfc_port_sm_execute
 /* 800FEAE0 000FA000  38 63 3E 08 */	addi r3, r3, lbl_80223E08@l
 /* 800FEAE4 000FA004  88 03 04 14 */	lbz r0, 0x414(r3)
 /* 800FEAE8 000FA008  28 00 00 02 */	cmplwi r0, 2
-/* 800FEAEC 000FA00C  4D 80 00 20 */	bltlr 
+/* 800FEAEC 000FA00C  4D 80 00 20 */	bltlr
 /* 800FEAF0 000FA010  3C 60 00 09 */	lis r3, 0x00090001@ha
 /* 800FEAF4 000FA014  3C 80 80 1A */	lis r4, lbl_8019FBC8@ha
 /* 800FEAF8 000FA018  7C C5 33 78 */	mr r5, r6
 /* 800FEAFC 000FA01C  38 63 00 01 */	addi r3, r3, 0x00090001@l
 /* 800FEB00 000FA020  38 84 FB C8 */	addi r4, r4, lbl_8019FBC8@l
 /* 800FEB04 000FA024  4B FD E6 00 */	b LogMsg_1
-/* 800FEB08 000FA028  4E 80 00 20 */	blr 
+/* 800FEB08 000FA028  4E 80 00 20 */	blr
 .L_800FEB0C:
 /* 800FEB0C 000FA02C  88 03 00 68 */	lbz r0, 0x68(r3)
 /* 800FEB10 000FA030  2C 00 00 03 */	cmpwi r0, 3
@@ -28,11 +28,11 @@ glabel rfc_port_sm_execute
 /* 800FEB24 000FA044  40 80 00 28 */	bge .L_800FEB4C
 /* 800FEB28 000FA048  2C 00 00 00 */	cmpwi r0, 0
 /* 800FEB2C 000FA04C  40 80 00 18 */	bge .L_800FEB44
-/* 800FEB30 000FA050  4E 80 00 20 */	blr 
+/* 800FEB30 000FA050  4E 80 00 20 */	blr
 .L_800FEB34:
 /* 800FEB34 000FA054  2C 00 00 05 */	cmpwi r0, 5
 /* 800FEB38 000FA058  41 82 00 20 */	beq .L_800FEB58
-/* 800FEB3C 000FA05C  4C 80 00 20 */	bgelr 
+/* 800FEB3C 000FA05C  4C 80 00 20 */	bgelr
 /* 800FEB40 000FA060  48 00 00 14 */	b .L_800FEB54
 .L_800FEB44:
 /* 800FEB44 000FA064  48 00 00 1C */	b rfc_port_sm_state_closed
@@ -46,7 +46,7 @@ glabel rfc_port_sm_execute
 /* 800FEB54 000FA074  48 00 06 28 */	b rfc_port_sm_opened
 .L_800FEB58:
 /* 800FEB58 000FA078  48 00 08 10 */	b rfc_port_sm_disc_wait_ua
-/* 800FEB5C 000FA07C  4E 80 00 20 */	blr 
+/* 800FEB5C 000FA07C  4E 80 00 20 */	blr
 
 glabel rfc_port_sm_state_closed
 /* 800FEB60 000FA080  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -63,7 +63,7 @@ glabel rfc_port_sm_state_closed
 /* 800FEB8C 000FA0AC  38 C6 FC 20 */	addi r6, r6, lbl_8019FC20@l
 /* 800FEB90 000FA0B0  7C C6 00 2E */	lwzx r6, r6, r0
 /* 800FEB94 000FA0B4  7C C9 03 A6 */	mtctr r6
-/* 800FEB98 000FA0B8  4E 80 04 20 */	bctr 
+/* 800FEB98 000FA0B8  4E 80 04 20 */	bctr
 
 glabel lbl_800FEB9C
 /* 800FEB9C 000FA0BC  88 1E 00 0D */	lbz r0, 0xd(r30)
@@ -162,7 +162,7 @@ glabel lbl_800FEC90
 /* 800FECC4 000FA1E4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800FECC8 000FA1E8  7C 08 03 A6 */	mtlr r0
 /* 800FECCC 000FA1EC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FECD0 000FA1F0  4E 80 00 20 */	blr 
+/* 800FECD0 000FA1F0  4E 80 00 20 */	blr
 
 glabel rfc_port_sm_sabme_wait_ua
 /* 800FECD4 000FA1F4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -179,7 +179,7 @@ glabel rfc_port_sm_sabme_wait_ua
 /* 800FED00 000FA220  38 C6 FC 88 */	addi r6, r6, lbl_8019FC88@l
 /* 800FED04 000FA224  7C C6 00 2E */	lwzx r6, r6, r0
 /* 800FED08 000FA228  7C C9 03 A6 */	mtctr r6
-/* 800FED0C 000FA22C  4E 80 04 20 */	bctr 
+/* 800FED0C 000FA22C  4E 80 04 20 */	bctr
 
 glabel lbl_800FED10
 /* 800FED10 000FA230  3C 60 80 22 */	lis r3, lbl_80223E08@ha
@@ -290,7 +290,7 @@ glabel lbl_800FEE2C
 /* 800FEE60 000FA380  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800FEE64 000FA384  7C 08 03 A6 */	mtlr r0
 /* 800FEE68 000FA388  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FEE6C 000FA38C  4E 80 00 20 */	blr 
+/* 800FEE6C 000FA38C  4E 80 00 20 */	blr
 
 glabel rfc_port_sm_term_wait_sec_check
 /* 800FEE70 000FA390  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -309,7 +309,7 @@ glabel rfc_port_sm_term_wait_sec_check
 /* 800FEEA4 000FA3C4  38 C6 FD 20 */	addi r6, r6, lbl_8019FD20@l
 /* 800FEEA8 000FA3C8  7C C6 00 2E */	lwzx r6, r6, r0
 /* 800FEEAC 000FA3CC  7C C9 03 A6 */	mtctr r6
-/* 800FEEB0 000FA3D0  4E 80 04 20 */	bctr 
+/* 800FEEB0 000FA3D0  4E 80 04 20 */	bctr
 
 glabel lbl_800FEEB4
 /* 800FEEB4 000FA3D4  88 05 00 00 */	lbz r0, 0(r5)
@@ -425,7 +425,7 @@ glabel lbl_800FEFEC
 /* 800FF01C 000FA53C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800FF020 000FA540  7C 08 03 A6 */	mtlr r0
 /* 800FF024 000FA544  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FF028 000FA548  4E 80 00 20 */	blr 
+/* 800FF028 000FA548  4E 80 00 20 */	blr
 
 glabel rfc_port_sm_orig_wait_sec_check
 /* 800FF02C 000FA54C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -444,7 +444,7 @@ glabel rfc_port_sm_orig_wait_sec_check
 /* 800FF060 000FA580  38 C6 FD C0 */	addi r6, r6, lbl_8019FDC0@l
 /* 800FF064 000FA584  7C C6 00 2E */	lwzx r6, r6, r0
 /* 800FF068 000FA588  7C C9 03 A6 */	mtctr r6
-/* 800FF06C 000FA58C  4E 80 04 20 */	bctr 
+/* 800FF06C 000FA58C  4E 80 04 20 */	bctr
 
 glabel lbl_800FF070
 /* 800FF070 000FA590  88 05 00 00 */	lbz r0, 0(r5)
@@ -526,7 +526,7 @@ glabel lbl_800FF13C
 /* 800FF16C 000FA68C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800FF170 000FA690  7C 08 03 A6 */	mtlr r0
 /* 800FF174 000FA694  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FF178 000FA698  4E 80 00 20 */	blr 
+/* 800FF178 000FA698  4E 80 00 20 */	blr
 
 glabel rfc_port_sm_opened
 /* 800FF17C 000FA69C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -543,7 +543,7 @@ glabel rfc_port_sm_opened
 /* 800FF1A8 000FA6C8  38 C6 FE 24 */	addi r6, r6, lbl_8019FE24@l
 /* 800FF1AC 000FA6CC  7C C6 00 2E */	lwzx r6, r6, r0
 /* 800FF1B0 000FA6D0  7C C9 03 A6 */	mtctr r6
-/* 800FF1B4 000FA6D4  4E 80 04 20 */	bctr 
+/* 800FF1B4 000FA6D4  4E 80 04 20 */	bctr
 
 glabel lbl_800FF1B8
 /* 800FF1B8 000FA6D8  3C 60 80 22 */	lis r3, lbl_80223E08@ha
@@ -676,7 +676,7 @@ glabel lbl_800FF324
 /* 800FF358 000FA878  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800FF35C 000FA87C  7C 08 03 A6 */	mtlr r0
 /* 800FF360 000FA880  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FF364 000FA884  4E 80 00 20 */	blr 
+/* 800FF364 000FA884  4E 80 00 20 */	blr
 
 glabel rfc_port_sm_disc_wait_ua
 /* 800FF368 000FA888  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -692,7 +692,7 @@ glabel rfc_port_sm_disc_wait_ua
 /* 800FF390 000FA8B0  38 E7 FE 8C */	addi r7, r7, lbl_8019FE8C@l
 /* 800FF394 000FA8B4  7C E7 00 2E */	lwzx r7, r7, r0
 /* 800FF398 000FA8B8  7C E9 03 A6 */	mtctr r7
-/* 800FF39C 000FA8BC  4E 80 04 20 */	bctr 
+/* 800FF39C 000FA8BC  4E 80 04 20 */	bctr
 
 glabel lbl_800FF3A0
 /* 800FF3A0 000FA8C0  3C 60 80 22 */	lis r3, lbl_80223E08@ha
@@ -770,7 +770,7 @@ glabel lbl_800FF444
 /* 800FF474 000FA994  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800FF478 000FA998  7C 08 03 A6 */	mtlr r0
 /* 800FF47C 000FA99C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FF480 000FA9A0  4E 80 00 20 */	blr 
+/* 800FF480 000FA9A0  4E 80 00 20 */	blr
 
 glabel rfc_process_pn
 /* 800FF484 000FA9A4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -834,7 +834,7 @@ glabel rfc_process_pn
 /* 800FF55C 000FAA7C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800FF560 000FAA80  7C 08 03 A6 */	mtlr r0
 /* 800FF564 000FAA84  38 21 00 20 */	addi r1, r1, 0x20
-/* 800FF568 000FAA88  4E 80 00 20 */	blr 
+/* 800FF568 000FAA88  4E 80 00 20 */	blr
 
 glabel rfc_process_rpn
 /* 800FF56C 000FAA8C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1043,7 +1043,7 @@ glabel rfc_process_rpn
 /* 800FF868 000FAD88  83 81 00 20 */	lwz r28, 0x20(r1)
 /* 800FF86C 000FAD8C  7C 08 03 A6 */	mtlr r0
 /* 800FF870 000FAD90  38 21 00 30 */	addi r1, r1, 0x30
-/* 800FF874 000FAD94  4E 80 00 20 */	blr 
+/* 800FF874 000FAD94  4E 80 00 20 */	blr
 
 glabel rfc_process_msc
 /* 800FF878 000FAD98  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1145,7 +1145,7 @@ glabel rfc_process_msc
 /* 800FF9D4 000FAEF4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800FF9D8 000FAEF8  7C 08 03 A6 */	mtlr r0
 /* 800FF9DC 000FAEFC  38 21 00 30 */	addi r1, r1, 0x30
-/* 800FF9E0 000FAF00  4E 80 00 20 */	blr 
+/* 800FF9E0 000FAF00  4E 80 00 20 */	blr
 
 glabel rfc_process_rls
 /* 800FF9E4 000FAF04  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1185,10 +1185,10 @@ glabel rfc_process_rls
 /* 800FFA60 000FAF80  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800FFA64 000FAF84  7C 08 03 A6 */	mtlr r0
 /* 800FFA68 000FAF88  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FFA6C 000FAF8C  4E 80 00 20 */	blr 
+/* 800FFA6C 000FAF8C  4E 80 00 20 */	blr
 
 glabel rfc_process_nsc
-/* 800FFA70 000FAF90  4E 80 00 20 */	blr 
+/* 800FFA70 000FAF90  4E 80 00 20 */	blr
 
 glabel rfc_process_test_rsp
 /* 800FFA74 000FAF94  7C 83 23 78 */	mr r3, r4
@@ -1220,7 +1220,7 @@ glabel rfc_process_fcon
 /* 800FFAD0 000FAFF0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800FFAD4 000FAFF4  7C 08 03 A6 */	mtlr r0
 /* 800FFAD8 000FAFF8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FFADC 000FAFFC  4E 80 00 20 */	blr 
+/* 800FFADC 000FAFFC  4E 80 00 20 */	blr
 
 glabel rfc_process_fcoff
 /* 800FFAE0 000FB000  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1249,7 +1249,7 @@ glabel rfc_process_fcoff
 /* 800FFB34 000FB054  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800FFB38 000FB058  7C 08 03 A6 */	mtlr r0
 /* 800FFB3C 000FB05C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FFB40 000FB060  4E 80 00 20 */	blr 
+/* 800FFB40 000FB060  4E 80 00 20 */	blr
 
 glabel rfc_process_l2cap_congestion
 /* 800FFB44 000FB064  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1288,7 +1288,7 @@ glabel rfc_process_l2cap_congestion
 /* 800FFBBC 000FB0DC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800FFBC0 000FB0E0  7C 08 03 A6 */	mtlr r0
 /* 800FFBC4 000FB0E4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800FFBC8 000FB0E8  4E 80 00 20 */	blr 
+/* 800FFBC8 000FB0E8  4E 80 00 20 */	blr
 
 glabel rfc_set_port_state
 /* 800FFBCC 000FB0EC  A0 04 00 12 */	lhz r0, 0x12(r4)
@@ -1335,8 +1335,8 @@ glabel rfc_set_port_state
 .L_800FFC58:
 /* 800FFC58 000FB178  A0 04 00 12 */	lhz r0, 0x12(r4)
 /* 800FFC5C 000FB17C  54 00 06 73 */	rlwinm. r0, r0, 0, 0x19, 0x19
-/* 800FFC60 000FB180  4D 82 00 20 */	beqlr 
+/* 800FFC60 000FB180  4D 82 00 20 */	beqlr
 /* 800FFC64 000FB184  88 04 00 11 */	lbz r0, 0x11(r4)
 /* 800FFC68 000FB188  98 03 00 08 */	stb r0, 8(r3)
-/* 800FFC6C 000FB18C  4E 80 00 20 */	blr 
+/* 800FFC6C 000FB18C  4E 80 00 20 */	blr
 

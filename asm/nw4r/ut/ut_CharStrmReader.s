@@ -197,7 +197,7 @@ glabel ReadNextCharUTF8__Q36nw4hbm2ut14CharStrmReaderFv
 /* 80146BF8 00142118  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80146BFC 0014211C  7C 08 03 A6 */	mtlr r0
 /* 80146C00 00142120  38 21 00 10 */	addi r1, r1, 0x10
-/* 80146C04 00142124  4E 80 00 20 */	blr 
+/* 80146C04 00142124  4E 80 00 20 */	blr
 
 glabel ReadNextCharUTF16__Q36nw4hbm2ut14CharStrmReaderFv
 /* 80146C08 00142128  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -355,7 +355,7 @@ glabel ReadNextCharUTF16__Q36nw4hbm2ut14CharStrmReaderFv
 /* 80146E2C 0014234C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80146E30 00142350  7C 08 03 A6 */	mtlr r0
 /* 80146E34 00142354  38 21 00 10 */	addi r1, r1, 0x10
-/* 80146E38 00142358  4E 80 00 20 */	blr 
+/* 80146E38 00142358  4E 80 00 20 */	blr
 
 glabel ReadNextCharCP1252__Q36nw4hbm2ut14CharStrmReaderFv
 /* 80146E3C 0014235C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -504,7 +504,7 @@ glabel ReadNextCharCP1252__Q36nw4hbm2ut14CharStrmReaderFv
 /* 80147040 00142560  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80147044 00142564  7C 08 03 A6 */	mtlr r0
 /* 80147048 00142568  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014704C 0014256C  4E 80 00 20 */	blr 
+/* 8014704C 0014256C  4E 80 00 20 */	blr
 
 glabel ReadNextCharSJIS__Q36nw4hbm2ut14CharStrmReaderFv
 /* 80147050 00142570  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -675,5 +675,5 @@ glabel ReadNextCharSJIS__Q36nw4hbm2ut14CharStrmReaderFv
 /* 80147298 001427B8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8014729C 001427BC  7C 08 03 A6 */	mtlr r0
 /* 801472A0 001427C0  38 21 00 10 */	addi r1, r1, 0x10
-/* 801472A4 001427C4  4E 80 00 20 */	blr 
+/* 801472A4 001427C4  4E 80 00 20 */	blr
 

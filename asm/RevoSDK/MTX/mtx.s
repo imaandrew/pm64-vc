@@ -13,7 +13,7 @@ glabel PSMTXIdentity
 /* 800A2E74 0009E394  F0 23 00 10 */	psq_st f1, 16(r3), 0, qr0
 /* 800A2E78 0009E398  F0 43 00 00 */	psq_st f2, 0(r3), 0, qr0
 /* 800A2E7C 0009E39C  F0 43 00 28 */	psq_st f2, 40(r3), 0, qr0
-/* 800A2E80 0009E3A0  4E 80 00 20 */	blr 
+/* 800A2E80 0009E3A0  4E 80 00 20 */	blr
 
 glabel PSMTXCopy
 /* 800A2E84 0009E3A4  E0 03 00 00 */	psq_l f0, 0(r3), 0, qr0
@@ -28,7 +28,7 @@ glabel PSMTXCopy
 /* 800A2EA8 0009E3C8  F0 84 00 20 */	psq_st f4, 32(r4), 0, qr0
 /* 800A2EAC 0009E3CC  E0 A3 00 28 */	psq_l f5, 40(r3), 0, qr0
 /* 800A2EB0 0009E3D0  F0 A4 00 28 */	psq_st f5, 40(r4), 0, qr0
-/* 800A2EB4 0009E3D4  4E 80 00 20 */	blr 
+/* 800A2EB4 0009E3D4  4E 80 00 20 */	blr
 
 glabel PSMTXConcat
 /* 800A2EB8 0009E3D8  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -81,7 +81,7 @@ glabel PSMTXConcat
 /* 800A2F74 0009E494  F0 05 00 28 */	psq_st f0, 40(r5), 0, qr0
 /* 800A2F78 0009E498  CB E1 00 28 */	lfd f31, 0x28(r1)
 /* 800A2F7C 0009E49C  38 21 00 40 */	addi r1, r1, 0x40
-/* 800A2F80 0009E4A0  4E 80 00 20 */	blr 
+/* 800A2F80 0009E4A0  4E 80 00 20 */	blr
 
 glabel PSMTXInverse
 /* 800A2F84 0009E4A4  E0 03 80 00 */	psq_l f0, 0(r3), 1, qr0
@@ -112,7 +112,7 @@ glabel PSMTXInverse
 /* 800A2FE8 0009E508  10 07 30 40 */	ps_cmpo0 cr0, f7, f6
 /* 800A2FEC 0009E50C  40 82 00 0C */	bne .L_800A2FF8
 /* 800A2FF0 0009E510  38 60 00 00 */	li r3, 0
-/* 800A2FF4 0009E514  4E 80 00 20 */	blr 
+/* 800A2FF4 0009E514  4E 80 00 20 */	blr
 .L_800A2FF8:
 /* 800A2FF8 0009E518  EC 00 38 30 */	fres f0, f7
 /* 800A2FFC 0009E51C  10 C0 00 2A */	ps_add f6, f0, f0
@@ -146,7 +146,7 @@ glabel PSMTXInverse
 /* 800A306C 0009E58C  10 E8 38 FE */	ps_nmadd f7, f8, f3, f7
 /* 800A3070 0009E590  38 60 00 01 */	li r3, 1
 /* 800A3074 0009E594  F0 E4 80 2C */	psq_st f7, 44(r4), 1, qr0
-/* 800A3078 0009E598  4E 80 00 20 */	blr 
+/* 800A3078 0009E598  4E 80 00 20 */	blr
 
 glabel PSMTXRotRad
 /* 800A307C 0009E59C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -179,7 +179,7 @@ glabel PSMTXRotRad
 /* 800A30E8 0009E608  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800A30EC 0009E60C  7C 08 03 A6 */	mtlr r0
 /* 800A30F0 0009E610  38 21 00 30 */	addi r1, r1, 0x30
-/* 800A30F4 0009E614  4E 80 00 20 */	blr 
+/* 800A30F4 0009E614  4E 80 00 20 */	blr
 
 glabel PSMTXRotTrig
 /* 800A30F8 0009E618  FC A0 08 18 */	frsp f5, f1
@@ -194,7 +194,7 @@ glabel PSMTXRotTrig
 /* 800A311C 0009E63C  41 82 00 38 */	beq .L_800A3154
 /* 800A3120 0009E640  28 00 00 7A */	cmplwi r0, 0x7a
 /* 800A3124 0009E644  41 82 00 5C */	beq .L_800A3180
-/* 800A3128 0009E648  4E 80 00 20 */	blr 
+/* 800A3128 0009E648  4E 80 00 20 */	blr
 .L_800A312C:
 /* 800A312C 0009E64C  10 65 24 20 */	ps_merge00 f3, f5, f4
 /* 800A3130 0009E650  F0 23 80 00 */	psq_st f1, 0(r3), 1, qr0
@@ -205,7 +205,7 @@ glabel PSMTXRotTrig
 /* 800A3144 0009E664  F0 03 80 2C */	psq_st f0, 44(r3), 1, qr0
 /* 800A3148 0009E668  F0 63 00 24 */	psq_st f3, 36(r3), 0, qr0
 /* 800A314C 0009E66C  F0 23 00 14 */	psq_st f1, 20(r3), 0, qr0
-/* 800A3150 0009E670  4E 80 00 20 */	blr 
+/* 800A3150 0009E670  4E 80 00 20 */	blr
 .L_800A3154:
 /* 800A3154 0009E674  10 64 04 20 */	ps_merge00 f3, f4, f0
 /* 800A3158 0009E678  F0 03 00 18 */	psq_st f0, 24(r3), 0, qr0
@@ -217,7 +217,7 @@ glabel PSMTXRotTrig
 /* 800A3170 0009E690  F0 23 00 10 */	psq_st f1, 16(r3), 0, qr0
 /* 800A3174 0009E694  F0 03 00 08 */	psq_st f0, 8(r3), 0, qr0
 /* 800A3178 0009E698  F0 43 00 20 */	psq_st f2, 32(r3), 0, qr0
-/* 800A317C 0009E69C  4E 80 00 20 */	blr 
+/* 800A317C 0009E69C  4E 80 00 20 */	blr
 .L_800A3180:
 /* 800A3180 0009E6A0  10 65 24 20 */	ps_merge00 f3, f5, f4
 /* 800A3184 0009E6A4  F0 03 00 08 */	psq_st f0, 8(r3), 0, qr0
@@ -228,7 +228,7 @@ glabel PSMTXRotTrig
 /* 800A3198 0009E6B8  F0 63 00 10 */	psq_st f3, 16(r3), 0, qr0
 /* 800A319C 0009E6BC  F0 43 00 00 */	psq_st f2, 0(r3), 0, qr0
 /* 800A31A0 0009E6C0  F0 23 00 28 */	psq_st f1, 40(r3), 0, qr0
-/* 800A31A4 0009E6C4  4E 80 00 20 */	blr 
+/* 800A31A4 0009E6C4  4E 80 00 20 */	blr
 
 glabel PSMTXTrans
 /* 800A31A8 0009E6C8  C0 02 86 2C */	lfs f0, lbl_80247E2C@sda21(r2)
@@ -243,7 +243,7 @@ glabel PSMTXTrans
 /* 800A31CC 0009E6EC  D0 83 00 28 */	stfs f4, 0x28(r3)
 /* 800A31D0 0009E6F0  D0 63 00 2C */	stfs f3, 0x2c(r3)
 /* 800A31D4 0009E6F4  D0 83 00 00 */	stfs f4, 0(r3)
-/* 800A31D8 0009E6F8  4E 80 00 20 */	blr 
+/* 800A31D8 0009E6F8  4E 80 00 20 */	blr
 
 glabel PSMTXTransApply
 /* 800A31DC 0009E6FC  E0 83 00 00 */	psq_l f4, 0(r3), 0, qr0
@@ -264,7 +264,7 @@ glabel PSMTXTransApply
 /* 800A3218 0009E738  F0 E4 00 18 */	psq_st f7, 24(r4), 0, qr0
 /* 800A321C 0009E73C  F1 24 00 20 */	psq_st f9, 32(r4), 0, qr0
 /* 800A3220 0009E740  F1 04 00 28 */	psq_st f8, 40(r4), 0, qr0
-/* 800A3224 0009E744  4E 80 00 20 */	blr 
+/* 800A3224 0009E744  4E 80 00 20 */	blr
 
 glabel PSMTXScale
 /* 800A3228 0009E748  C0 02 86 2C */	lfs f0, lbl_80247E2C@sda21(r2)
@@ -276,5 +276,5 @@ glabel PSMTXScale
 /* 800A3240 0009E760  F0 03 00 20 */	psq_st f0, 32(r3), 0, qr0
 /* 800A3244 0009E764  D0 63 00 28 */	stfs f3, 0x28(r3)
 /* 800A3248 0009E768  D0 03 00 2C */	stfs f0, 0x2c(r3)
-/* 800A324C 0009E76C  4E 80 00 20 */	blr 
+/* 800A324C 0009E76C  4E 80 00 20 */	blr
 

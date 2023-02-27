@@ -125,7 +125,7 @@ glabel hidd_pm_set_now
 /* 800F2A80 000EDFA0  38 A1 00 08 */	addi r5, r1, 8
 /* 800F2A84 000EDFA4  38 60 00 04 */	li r3, 4
 /* 800F2A88 000EDFA8  7D 89 03 A6 */	mtctr r12
-/* 800F2A8C 000EDFAC  4E 80 04 21 */	bctrl 
+/* 800F2A8C 000EDFAC  4E 80 04 21 */	bctrl
 .L_800F2A90:
 /* 800F2A90 000EDFB0  38 60 00 00 */	li r3, 0
 .L_800F2A94:
@@ -133,7 +133,7 @@ glabel hidd_pm_set_now
 /* 800F2A98 000EDFB8  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 800F2A9C 000EDFBC  7C 08 03 A6 */	mtlr r0
 /* 800F2AA0 000EDFC0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F2AA4 000EDFC4  4E 80 00 20 */	blr 
+/* 800F2AA4 000EDFC4  4E 80 00 20 */	blr
 
 glabel hidd_pm_proc_mode_change
 /* 800F2AA8 000EDFC8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -161,7 +161,7 @@ glabel hidd_pm_proc_mode_change
 /* 800F2B00 000EE020  88 9E 00 6F */	lbz r4, 0x6f(r30)
 /* 800F2B04 000EE024  38 60 00 04 */	li r3, 4
 /* 800F2B08 000EE028  7D 89 03 A6 */	mtctr r12
-/* 800F2B0C 000EE02C  4E 80 04 21 */	bctrl 
+/* 800F2B0C 000EE02C  4E 80 04 21 */	bctrl
 /* 800F2B10 000EE030  48 00 00 D4 */	b .L_800F2BE4
 .L_800F2B14:
 /* 800F2B14 000EE034  88 1E 00 78 */	lbz r0, 0x78(r30)
@@ -219,7 +219,7 @@ glabel hidd_pm_proc_mode_change
 /* 800F2BD4 000EE0F4  38 A1 00 0A */	addi r5, r1, 0xa
 /* 800F2BD8 000EE0F8  38 60 00 03 */	li r3, 3
 /* 800F2BDC 000EE0FC  7D 89 03 A6 */	mtctr r12
-/* 800F2BE0 000EE100  4E 80 04 21 */	bctrl 
+/* 800F2BE0 000EE100  4E 80 04 21 */	bctrl
 .L_800F2BE4:
 /* 800F2BE4 000EE104  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F2BE8 000EE108  83 E1 00 1C */	lwz r31, 0x1c(r1)
@@ -227,7 +227,7 @@ glabel hidd_pm_proc_mode_change
 /* 800F2BF0 000EE110  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F2BF4 000EE114  7C 08 03 A6 */	mtlr r0
 /* 800F2BF8 000EE118  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F2BFC 000EE11C  4E 80 00 20 */	blr 
+/* 800F2BFC 000EE11C  4E 80 00 20 */	blr
 
 glabel hidd_pm_inact_timeout
 /* 800F2C00 000EE120  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -248,7 +248,7 @@ glabel hidd_pm_inact_timeout
 /* 800F2C3C 000EE15C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F2C40 000EE160  7C 08 03 A6 */	mtlr r0
 /* 800F2C44 000EE164  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F2C48 000EE168  4E 80 00 20 */	blr 
+/* 800F2C48 000EE168  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

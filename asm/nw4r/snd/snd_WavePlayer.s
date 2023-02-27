@@ -47,7 +47,7 @@ glabel __dt__Q36nw4hbm3snd10WavePlayerFv
 /* 80143518 0013EA38  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014351C 0013EA3C  7C 08 03 A6 */	mtlr r0
 /* 80143520 0013EA40  38 21 00 20 */	addi r1, r1, 0x20
-/* 80143524 0013EA44  4E 80 00 20 */	blr 
+/* 80143524 0013EA44  4E 80 00 20 */	blr
 
 glabel Stop__Q36nw4hbm3snd10WavePlayerFv
 /* 80143528 0013EA48  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -137,7 +137,7 @@ glabel Stop__Q36nw4hbm3snd10WavePlayerFv
 /* 8014365C 0013EB7C  80 DF 00 90 */	lwz r6, 0x90(r31)
 /* 80143660 0013EB80  38 60 00 01 */	li r3, 1
 /* 80143664 0013EB84  7D 89 03 A6 */	mtctr r12
-/* 80143668 0013EB88  4E 80 04 21 */	bctrl 
+/* 80143668 0013EB88  4E 80 04 21 */	bctrl
 .L_8014366C:
 /* 8014366C 0013EB8C  7C 1D E0 40 */	cmplw r29, r28
 /* 80143670 0013EB90  40 82 FF 68 */	bne .L_801435D8
@@ -161,7 +161,7 @@ glabel Stop__Q36nw4hbm3snd10WavePlayerFv
 /* 801436B4 0013EBD4  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 801436B8 0013EBD8  7C 08 03 A6 */	mtlr r0
 /* 801436BC 0013EBDC  38 21 00 40 */	addi r1, r1, 0x40
-/* 801436C0 0013EBE0  4E 80 00 20 */	blr 
+/* 801436C0 0013EBE0  4E 80 00 20 */	blr
 
 glabel StartVoice__Q36nw4hbm3snd10WavePlayerFv
 /* 801436C4 0013EBE4  94 21 FF 50 */	stwu r1, -0xb0(r1)
@@ -299,7 +299,7 @@ glabel StartVoice__Q36nw4hbm3snd10WavePlayerFv
 /* 801438A4 0013EDC4  83 81 00 A0 */	lwz r28, 0xa0(r1)
 /* 801438A8 0013EDC8  7C 08 03 A6 */	mtlr r0
 /* 801438AC 0013EDCC  38 21 00 B0 */	addi r1, r1, 0xb0
-/* 801438B0 0013EDD0  4E 80 00 20 */	blr 
+/* 801438B0 0013EDD0  4E 80 00 20 */	blr
 
 glabel IsNextWavePacket__Q36nw4hbm3snd10WavePlayerCFv
 /* 801438B4 0013EDD4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -390,7 +390,7 @@ glabel IsNextWavePacket__Q36nw4hbm3snd10WavePlayerCFv
 /* 801439E4 0013EF04  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801439E8 0013EF08  7C 08 03 A6 */	mtlr r0
 /* 801439EC 0013EF0C  38 21 00 20 */	addi r1, r1, 0x20
-/* 801439F0 0013EF10  4E 80 00 20 */	blr 
+/* 801439F0 0013EF10  4E 80 00 20 */	blr
 
 glabel UpdateWavePacket__Q36nw4hbm3snd10WavePlayerFv
 /* 801439F4 0013EF14  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -461,7 +461,7 @@ glabel UpdateWavePacket__Q36nw4hbm3snd10WavePlayerFv
 /* 80143AE8 0013F008  80 DF 00 90 */	lwz r6, 0x90(r31)
 /* 80143AEC 0013F00C  38 60 00 00 */	li r3, 0
 /* 80143AF0 0013F010  7D 89 03 A6 */	mtctr r12
-/* 80143AF4 0013F014  4E 80 04 21 */	bctrl 
+/* 80143AF4 0013F014  4E 80 04 21 */	bctrl
 .L_80143AF8:
 /* 80143AF8 0013F018  80 1F 00 04 */	lwz r0, 4(r31)
 /* 80143AFC 0013F01C  2C 00 00 00 */	cmpwi r0, 0
@@ -529,7 +529,7 @@ glabel UpdateWavePacket__Q36nw4hbm3snd10WavePlayerFv
 /* 80143BDC 0013F0FC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80143BE0 0013F100  7C 08 03 A6 */	mtlr r0
 /* 80143BE4 0013F104  38 21 00 20 */	addi r1, r1, 0x20
-/* 80143BE8 0013F108  4E 80 00 20 */	blr 
+/* 80143BE8 0013F108  4E 80 00 20 */	blr
 
 glabel detail_UpdateBufferAllPlayers__Q36nw4hbm3snd10WavePlayerFv
 /* 80143BEC 0013F10C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -624,7 +624,7 @@ glabel detail_UpdateBufferAllPlayers__Q36nw4hbm3snd10WavePlayerFv
 /* 80143D2C 0013F24C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80143D30 0013F250  7C 08 03 A6 */	mtlr r0
 /* 80143D34 0013F254  38 21 00 40 */	addi r1, r1, 0x40
-/* 80143D38 0013F258  4E 80 00 20 */	blr 
+/* 80143D38 0013F258  4E 80 00 20 */	blr
 
 glabel detail_Update__Q36nw4hbm3snd10WavePlayerFv
 /* 80143D3C 0013F25C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -701,7 +701,7 @@ glabel detail_Update__Q36nw4hbm3snd10WavePlayerFv
 /* 80143E4C 0013F36C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80143E50 0013F370  7C 08 03 A6 */	mtlr r0
 /* 80143E54 0013F374  38 21 00 20 */	addi r1, r1, 0x20
-/* 80143E58 0013F378  4E 80 00 20 */	blr 
+/* 80143E58 0013F378  4E 80 00 20 */	blr
 
 glabel detail_UpdateAllPlayers__Q36nw4hbm3snd10WavePlayerFv
 /* 80143E5C 0013F37C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -736,7 +736,7 @@ glabel detail_UpdateAllPlayers__Q36nw4hbm3snd10WavePlayerFv
 /* 80143EC4 0013F3E4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80143EC8 0013F3E8  7C 08 03 A6 */	mtlr r0
 /* 80143ECC 0013F3EC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80143ED0 0013F3F0  4E 80 00 20 */	blr 
+/* 80143ED0 0013F3F0  4E 80 00 20 */	blr
 
 glabel detail_StopAllPlayers__Q36nw4hbm3snd10WavePlayerFv
 /* 80143ED4 0013F3F4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -783,7 +783,7 @@ glabel detail_StopAllPlayers__Q36nw4hbm3snd10WavePlayerFv
 /* 80143F68 0013F488  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80143F6C 0013F48C  7C 08 03 A6 */	mtlr r0
 /* 80143F70 0013F490  38 21 00 20 */	addi r1, r1, 0x20
-/* 80143F74 0013F494  4E 80 00 20 */	blr 
+/* 80143F74 0013F494  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd10WavePlayer10WavePacketFv
 /* 80143F78 0013F498  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -802,7 +802,7 @@ glabel __dt__Q46nw4hbm3snd10WavePlayer10WavePacketFv
 /* 80143FA8 0013F4C8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80143FAC 0013F4CC  7C 08 03 A6 */	mtlr r0
 /* 80143FB0 0013F4D0  38 21 00 10 */	addi r1, r1, 0x10
-/* 80143FB4 0013F4D4  4E 80 00 20 */	blr 
+/* 80143FB4 0013F4D4  4E 80 00 20 */	blr
 
 glabel __sinit_snd_WavePlayer_cpp
 /* 80143FB8 0013F4D8  3C C0 80 24 */	lis r6, lbl_80243B34@ha
@@ -843,7 +843,7 @@ glabel __dt__Q36nw4hbm2ut39LinkList__Q36nw4hbm3snd10WavePlayer48__Fv
 /* 80144038 0013F558  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014403C 0013F55C  7C 08 03 A6 */	mtlr r0
 /* 80144040 0013F560  38 21 00 10 */	addi r1, r1, 0x10
-/* 80144044 0013F564  4E 80 00 20 */	blr 
+/* 80144044 0013F564  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

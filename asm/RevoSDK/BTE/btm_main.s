@@ -25,7 +25,7 @@ glabel btm_init
 /* 800E8FB8 000E44D8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800E8FBC 000E44DC  7C 08 03 A6 */	mtlr r0
 /* 800E8FC0 000E44E0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E8FC4 000E44E4  4E 80 00 20 */	blr 
+/* 800E8FC4 000E44E4  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

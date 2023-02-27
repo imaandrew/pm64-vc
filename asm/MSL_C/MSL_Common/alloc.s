@@ -12,7 +12,7 @@ glabel Block_subBlock
 /* 8015EC58 0015A178  38 00 00 00 */	li r0, 0
 /* 8015EC5C 0015A17C  90 03 00 08 */	stw r0, 8(r3)
 /* 8015EC60 0015A180  38 60 00 00 */	li r3, 0
-/* 8015EC64 0015A184  4E 80 00 20 */	blr 
+/* 8015EC64 0015A184  4E 80 00 20 */	blr
 .L_8015EC68:
 /* 8015EC68 0015A188  80 06 00 00 */	lwz r0, 0(r6)
 /* 8015EC6C 0015A18C  7C C7 33 78 */	mr r7, r6
@@ -36,7 +36,7 @@ glabel Block_subBlock
 /* 8015ECAC 0015A1CC  90 05 00 00 */	stw r0, 0(r5)
 .L_8015ECB0:
 /* 8015ECB0 0015A1D0  38 60 00 00 */	li r3, 0
-/* 8015ECB4 0015A1D4  4E 80 00 20 */	blr 
+/* 8015ECB4 0015A1D4  4E 80 00 20 */	blr
 .L_8015ECB8:
 /* 8015ECB8 0015A1D8  7C 00 20 40 */	cmplw r0, r4
 /* 8015ECBC 0015A1DC  41 80 FF C0 */	blt .L_8015EC7C
@@ -147,7 +147,7 @@ glabel Block_subBlock
 /* 8015EE38 0015A358  90 05 00 00 */	stw r0, 0(r5)
 .L_8015EE3C:
 /* 8015EE3C 0015A35C  7C E3 3B 78 */	mr r3, r7
-/* 8015EE40 0015A360  4E 80 00 20 */	blr 
+/* 8015EE40 0015A360  4E 80 00 20 */	blr
 
 glabel Block_link
 /* 8015EE44 0015A364  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -240,7 +240,7 @@ glabel Block_link
 /* 8015EF84 0015A4A4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8015EF88 0015A4A8  7C 08 03 A6 */	mtlr r0
 /* 8015EF8C 0015A4AC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015EF90 0015A4B0  4E 80 00 20 */	blr 
+/* 8015EF90 0015A4B0  4E 80 00 20 */	blr
 
 glabel SubBlock_merge_next
 /* 8015EF94 0015A4B4  80 A3 00 00 */	lwz r5, 0(r3)
@@ -248,7 +248,7 @@ glabel SubBlock_merge_next
 /* 8015EF9C 0015A4BC  7C C3 38 2E */	lwzx r6, r3, r7
 /* 8015EFA0 0015A4C0  7D 03 3A 14 */	add r8, r3, r7
 /* 8015EFA4 0015A4C4  54 C0 07 BD */	rlwinm. r0, r6, 0, 0x1e, 0x1e
-/* 8015EFA8 0015A4C8  4C 82 00 20 */	bnelr 
+/* 8015EFA8 0015A4C8  4C 82 00 20 */	bnelr
 /* 8015EFAC 0015A4CC  54 C0 00 38 */	rlwinm r0, r6, 0, 0, 0x1c
 /* 8015EFB0 0015A4D0  54 A5 07 7E */	clrlwi r5, r5, 0x1d
 /* 8015EFB4 0015A4D4  7C C7 02 14 */	add r6, r7, r0
@@ -289,7 +289,7 @@ glabel SubBlock_merge_next
 /* 8015F02C 0015A54C  80 08 00 0C */	lwz r0, 0xc(r8)
 /* 8015F030 0015A550  80 68 00 08 */	lwz r3, 8(r8)
 /* 8015F034 0015A554  90 03 00 0C */	stw r0, 0xc(r3)
-/* 8015F038 0015A558  4E 80 00 20 */	blr 
+/* 8015F038 0015A558  4E 80 00 20 */	blr
 
 glabel allocate_from_var_pools
 /* 8015F03C 0015A55C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -451,7 +451,7 @@ glabel allocate_from_var_pools
 /* 8015F26C 0015A78C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8015F270 0015A790  7C 08 03 A6 */	mtlr r0
 /* 8015F274 0015A794  38 21 00 20 */	addi r1, r1, 0x20
-/* 8015F278 0015A798  4E 80 00 20 */	blr 
+/* 8015F278 0015A798  4E 80 00 20 */	blr
 
 glabel soft_allocate_from_var_pools
 /* 8015F27C 0015A79C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -514,7 +514,7 @@ glabel soft_allocate_from_var_pools
 /* 8015F348 0015A868  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8015F34C 0015A86C  7C 08 03 A6 */	mtlr r0
 /* 8015F350 0015A870  38 21 00 20 */	addi r1, r1, 0x20
-/* 8015F354 0015A874  4E 80 00 20 */	blr 
+/* 8015F354 0015A874  4E 80 00 20 */	blr
 
 glabel FixBlock_construct
 /* 8015F358 0015A878  3D 20 80 18 */	lis r9, lbl_80178450@ha
@@ -593,7 +593,7 @@ glabel FixBlock_construct
 /* 8015F46C 0015A98C  90 0A 00 04 */	stw r0, 4(r10)
 /* 8015F470 0015A990  90 E3 00 0C */	stw r7, 0xc(r3)
 /* 8015F474 0015A994  90 03 00 10 */	stw r0, 0x10(r3)
-/* 8015F478 0015A998  4E 80 00 20 */	blr 
+/* 8015F478 0015A998  4E 80 00 20 */	blr
 
 glabel allocate_from_fixed_pools
 /* 8015F47C 0015A99C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -743,7 +743,7 @@ glabel allocate_from_fixed_pools
 /* 8015F674 0015AB94  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8015F678 0015AB98  7C 08 03 A6 */	mtlr r0
 /* 8015F67C 0015AB9C  38 21 00 40 */	addi r1, r1, 0x40
-/* 8015F680 0015ABA0  4E 80 00 20 */	blr 
+/* 8015F680 0015ABA0  4E 80 00 20 */	blr
 
 glabel deallocate_from_fixed_pools
 /* 8015F684 0015ABA4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -881,7 +881,7 @@ glabel deallocate_from_fixed_pools
 /* 8015F860 0015AD80  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8015F864 0015AD84  7C 08 03 A6 */	mtlr r0
 /* 8015F868 0015AD88  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015F86C 0015AD8C  4E 80 00 20 */	blr 
+/* 8015F86C 0015AD8C  4E 80 00 20 */	blr
 
 glabel malloc
 /* 8015F870 0015AD90  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -928,7 +928,7 @@ glabel malloc
 /* 8015F900 0015AE20  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8015F904 0015AE24  7C 08 03 A6 */	mtlr r0
 /* 8015F908 0015AE28  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015F90C 0015AE2C  4E 80 00 20 */	blr 
+/* 8015F90C 0015AE2C  4E 80 00 20 */	blr
 
 glabel free
 /* 8015F910 0015AE30  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1015,7 +1015,7 @@ glabel free
 /* 8015FA30 0015AF50  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8015FA34 0015AF54  7C 08 03 A6 */	mtlr r0
 /* 8015FA38 0015AF58  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015FA3C 0015AF5C  4E 80 00 20 */	blr 
+/* 8015FA3C 0015AF5C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

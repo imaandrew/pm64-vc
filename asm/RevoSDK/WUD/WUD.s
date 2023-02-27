@@ -17,12 +17,12 @@ glabel App_MEMalloc
 /* 800D4EC8 000D03E8  38 84 1E C0 */	addi r4, r4, lbl_801F1EC0@l
 /* 800D4ECC 000D03EC  81 84 06 F4 */	lwz r12, 0x6f4(r4)
 /* 800D4ED0 000D03F0  7D 89 03 A6 */	mtctr r12
-/* 800D4ED4 000D03F4  4E 80 04 21 */	bctrl 
+/* 800D4ED4 000D03F4  4E 80 04 21 */	bctrl
 /* 800D4ED8 000D03F8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D4EDC 000D03FC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800D4EE0 000D0400  7C 08 03 A6 */	mtlr r0
 /* 800D4EE4 000D0404  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D4EE8 000D0408  4E 80 00 20 */	blr 
+/* 800D4EE8 000D0408  4E 80 00 20 */	blr
 
 glabel App_MEMfree
 /* 800D4EEC 000D040C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -39,12 +39,12 @@ glabel App_MEMfree
 /* 800D4F18 000D0438  38 84 1E C0 */	addi r4, r4, lbl_801F1EC0@l
 /* 800D4F1C 000D043C  81 84 06 F8 */	lwz r12, 0x6f8(r4)
 /* 800D4F20 000D0440  7D 89 03 A6 */	mtctr r12
-/* 800D4F24 000D0444  4E 80 04 21 */	bctrl 
+/* 800D4F24 000D0444  4E 80 04 21 */	bctrl
 /* 800D4F28 000D0448  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D4F2C 000D044C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800D4F30 000D0450  7C 08 03 A6 */	mtlr r0
 /* 800D4F34 000D0454  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D4F38 000D0458  4E 80 00 20 */	blr 
+/* 800D4F38 000D0458  4E 80 00 20 */	blr
 
 glabel SyncFlushCallback
 /* 800D4F3C 000D045C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -78,7 +78,7 @@ glabel SyncFlushCallback
 /* 800D4FA4 000D04C4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800D4FA8 000D04C8  7C 08 03 A6 */	mtlr r0
 /* 800D4FAC 000D04CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D4FB0 000D04D0  4E 80 00 20 */	blr 
+/* 800D4FB0 000D04D0  4E 80 00 20 */	blr
 
 glabel DeleteFlushCallback
 /* 800D4FB4 000D04D4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -103,7 +103,7 @@ glabel DeleteFlushCallback
 /* 800D4FFC 000D051C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800D5000 000D0520  7C 08 03 A6 */	mtlr r0
 /* 800D5004 000D0524  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D5008 000D0528  4E 80 00 20 */	blr 
+/* 800D5008 000D0528  4E 80 00 20 */	blr
 
 glabel ShutFlushCallback
 /* 800D500C 000D052C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -127,14 +127,14 @@ glabel ShutFlushCallback
 /* 800D5054 000D0574  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800D5058 000D0578  7C 08 03 A6 */	mtlr r0
 /* 800D505C 000D057C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D5060 000D0580  4E 80 00 20 */	blr 
+/* 800D5060 000D0580  4E 80 00 20 */	blr
 
 glabel _resumeSmpSync
 /* 800D5064 000D0584  3C 60 80 1F */	lis r3, lbl_801F1EC0@ha
 /* 800D5068 000D0588  38 00 00 01 */	li r0, 1
 /* 800D506C 000D058C  38 63 1E C0 */	addi r3, r3, lbl_801F1EC0@l
 /* 800D5070 000D0590  98 03 00 0C */	stb r0, 0xc(r3)
-/* 800D5074 000D0594  4E 80 00 20 */	blr 
+/* 800D5074 000D0594  4E 80 00 20 */	blr
 
 glabel WUDiIsSyncDisabled
 /* 800D5078 000D0598  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -231,7 +231,7 @@ glabel WUDiIsSyncDisabled
 /* 800D51C0 000D06E0  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800D51C4 000D06E4  7C 08 03 A6 */	mtlr r0
 /* 800D51C8 000D06E8  38 21 00 30 */	addi r1, r1, 0x30
-/* 800D51CC 000D06EC  4E 80 00 20 */	blr 
+/* 800D51CC 000D06EC  4E 80 00 20 */	blr
 
 glabel WUDiSaveDeviceToNand
 /* 800D51D0 000D06F0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -304,7 +304,7 @@ glabel WUDiSaveDeviceToNand
 /* 800D52CC 000D07EC  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800D52D0 000D07F0  7C 08 03 A6 */	mtlr r0
 /* 800D52D4 000D07F4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D52D8 000D07F8  4E 80 00 20 */	blr 
+/* 800D52D8 000D07F8  4E 80 00 20 */	blr
 
 glabel WUDiSyncDone
 /* 800D52DC 000D07FC  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -389,7 +389,7 @@ glabel WUDiSyncDone
 /* 800D53FC 000D091C  88 9D 06 E6 */	lbz r4, 0x6e6(r29)
 /* 800D5400 000D0920  38 60 00 01 */	li r3, 1
 /* 800D5404 000D0924  7D 89 03 A6 */	mtctr r12
-/* 800D5408 000D0928  4E 80 04 21 */	bctrl 
+/* 800D5408 000D0928  4E 80 04 21 */	bctrl
 .L_800D540C:
 /* 800D540C 000D092C  3C 60 80 1A */	lis r3, lbl_801992D0@ha
 /* 800D5410 000D0930  38 63 92 D0 */	addi r3, r3, lbl_801992D0@l
@@ -404,7 +404,7 @@ glabel WUDiSyncDone
 /* 800D5430 000D0950  83 81 00 20 */	lwz r28, 0x20(r1)
 /* 800D5434 000D0954  7C 08 03 A6 */	mtlr r0
 /* 800D5438 000D0958  38 21 00 30 */	addi r1, r1, 0x30
-/* 800D543C 000D095C  4E 80 00 20 */	blr 
+/* 800D543C 000D095C  4E 80 00 20 */	blr
 
 glabel SyncHandler
 /* 800D5440 000D0960  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -998,7 +998,7 @@ glabel SyncHandler
 /* 800D5C6C 000D118C  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 800D5C70 000D1190  7C 08 03 A6 */	mtlr r0
 /* 800D5C74 000D1194  38 21 00 60 */	addi r1, r1, 0x60
-/* 800D5C78 000D1198  4E 80 00 20 */	blr 
+/* 800D5C78 000D1198  4E 80 00 20 */	blr
 
 glabel SyncHandler0
 /* 800D5C7C 000D119C  3D 00 80 1F */	lis r8, lbl_801F2C60@ha
@@ -1052,7 +1052,7 @@ glabel WUDiTerminateDevice
 /* 800D5D24 000D1244  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D5D28 000D1248  7C 08 03 A6 */	mtlr r0
 /* 800D5D2C 000D124C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D5D30 000D1250  4E 80 00 20 */	blr 
+/* 800D5D30 000D1250  4E 80 00 20 */	blr
 
 glabel WUDiDeleteDevice
 /* 800D5D34 000D1254  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1105,7 +1105,7 @@ glabel WUDiDeleteDevice
 /* 800D5DD8 000D12F8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800D5DDC 000D12FC  7C 08 03 A6 */	mtlr r0
 /* 800D5DE0 000D1300  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D5DE4 000D1304  4E 80 00 20 */	blr 
+/* 800D5DE4 000D1304  4E 80 00 20 */	blr
 
 glabel DeleteAllHandler
 /* 800D5DE8 000D1308  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1126,7 +1126,7 @@ glabel DeleteAllHandler
 /* 800D5E24 000D1344  38 63 93 DC */	addi r3, r3, lbl_801993DC@l
 /* 800D5E28 000D1348  7C 63 00 2E */	lwzx r3, r3, r0
 /* 800D5E2C 000D134C  7C 69 03 A6 */	mtctr r3
-/* 800D5E30 000D1350  4E 80 04 20 */	bctr 
+/* 800D5E30 000D1350  4E 80 04 20 */	bctr
 
 glabel lbl_800D5E34
 /* 800D5E34 000D1354  38 60 00 00 */	li r3, 0
@@ -1185,7 +1185,7 @@ glabel lbl_800D5EAC
 /* 800D5EE8 000D1408  41 82 00 10 */	beq .L_800D5EF8
 /* 800D5EEC 000D140C  38 60 00 01 */	li r3, 1
 /* 800D5EF0 000D1410  7D 89 03 A6 */	mtctr r12
-/* 800D5EF4 000D1414  4E 80 04 21 */	bctrl 
+/* 800D5EF4 000D1414  4E 80 04 21 */	bctrl
 .L_800D5EF8:
 /* 800D5EF8 000D1418  38 00 00 00 */	li r0, 0
 /* 800D5EFC 000D141C  98 1D 00 0D */	stb r0, 0xd(r29)
@@ -1197,7 +1197,7 @@ glabel lbl_800D5F00
 /* 800D5F0C 000D142C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800D5F10 000D1430  7C 08 03 A6 */	mtlr r0
 /* 800D5F14 000D1434  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D5F18 000D1438  4E 80 00 20 */	blr 
+/* 800D5F18 000D1438  4E 80 00 20 */	blr
 
 glabel DeleteAllHandler0
 /* 800D5F1C 000D143C  3D 00 80 1F */	lis r8, lbl_801F2C60@ha
@@ -1285,7 +1285,7 @@ glabel WUDiClearUnregisteredDevice
 /* 800D6040 000D1560  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D6044 000D1564  7C 08 03 A6 */	mtlr r0
 /* 800D6048 000D1568  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D604C 000D156C  4E 80 00 20 */	blr 
+/* 800D604C 000D156C  4E 80 00 20 */	blr
 
 glabel EnableStackHandler
 /* 800D6050 000D1570  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1414,7 +1414,7 @@ glabel EnableStackHandler
 /* 800D6214 000D1734  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 800D6218 000D1738  7C 08 03 A6 */	mtlr r0
 /* 800D621C 000D173C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D6220 000D1740  4E 80 00 20 */	blr 
+/* 800D6220 000D1740  4E 80 00 20 */	blr
 
 glabel EnableStackHandler0
 /* 800D6224 000D1744  3D 00 80 1F */	lis r8, lbl_801F2C60@ha
@@ -1502,7 +1502,7 @@ glabel WUDiGetRegisteredDevice
 /* 800D6358 000D1878  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800D635C 000D187C  7C 08 03 A6 */	mtlr r0
 /* 800D6360 000D1880  38 21 00 40 */	addi r1, r1, 0x40
-/* 800D6364 000D1884  4E 80 00 20 */	blr 
+/* 800D6364 000D1884  4E 80 00 20 */	blr
 
 glabel InitHandler
 /* 800D6368 000D1888  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1567,7 +1567,7 @@ glabel InitHandler
 /* 800D643C 000D195C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800D6440 000D1960  7C 08 03 A6 */	mtlr r0
 /* 800D6444 000D1964  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D6448 000D1968  4E 80 00 20 */	blr 
+/* 800D6448 000D1968  4E 80 00 20 */	blr
 
 glabel InitHandler0
 /* 800D644C 000D196C  3D 00 80 1F */	lis r8, lbl_801F2C60@ha
@@ -1616,7 +1616,7 @@ glabel ShutdownHandler
 /* 800D64E0 000D1A00  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800D64E4 000D1A04  7C 08 03 A6 */	mtlr r0
 /* 800D64E8 000D1A08  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D64EC 000D1A0C  4E 80 00 20 */	blr 
+/* 800D64EC 000D1A0C  4E 80 00 20 */	blr
 
 glabel ShutdownHandler0
 /* 800D64F0 000D1A10  3D 00 80 1F */	lis r8, lbl_801F2C60@ha
@@ -1873,7 +1873,7 @@ glabel InitCore
 /* 800D688C 000D1DAC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800D6890 000D1DB0  7C 08 03 A6 */	mtlr r0
 /* 800D6894 000D1DB4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D6898 000D1DB8  4E 80 00 20 */	blr 
+/* 800D6898 000D1DB8  4E 80 00 20 */	blr
 
 glabel WUDInit
 /* 800D689C 000D1DBC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1939,7 +1939,7 @@ glabel WUDInit
 /* 800D6984 000D1EA4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800D6988 000D1EA8  7C 08 03 A6 */	mtlr r0
 /* 800D698C 000D1EAC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D6990 000D1EB0  4E 80 00 20 */	blr 
+/* 800D6990 000D1EB0  4E 80 00 20 */	blr
 
 glabel WUDRegisterAllocator
 /* 800D6994 000D1EB4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1960,7 +1960,7 @@ glabel WUDRegisterAllocator
 /* 800D69D0 000D1EF0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800D69D4 000D1EF4  7C 08 03 A6 */	mtlr r0
 /* 800D69D8 000D1EF8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D69DC 000D1EFC  4E 80 00 20 */	blr 
+/* 800D69DC 000D1EFC  4E 80 00 20 */	blr
 
 glabel WUDShutdown
 /* 800D69E0 000D1F00  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2066,7 +2066,7 @@ glabel WUDShutdown
 /* 800D6B5C 000D207C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D6B60 000D2080  7C 08 03 A6 */	mtlr r0
 /* 800D6B64 000D2084  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D6B68 000D2088  4E 80 00 20 */	blr 
+/* 800D6B68 000D2088  4E 80 00 20 */	blr
 
 glabel WUDGetStatus
 /* 800D6B6C 000D208C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2083,7 +2083,7 @@ glabel WUDGetStatus
 /* 800D6B98 000D20B8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D6B9C 000D20BC  7C 08 03 A6 */	mtlr r0
 /* 800D6BA0 000D20C0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D6BA4 000D20C4  4E 80 00 20 */	blr 
+/* 800D6BA4 000D20C4  4E 80 00 20 */	blr
 
 glabel WUDGetBufferStatus
 /* 800D6BA8 000D20C8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2103,7 +2103,7 @@ glabel WUDGetBufferStatus
 /* 800D6BE0 000D2100  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D6BE4 000D2104  7C 08 03 A6 */	mtlr r0
 /* 800D6BE8 000D2108  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D6BEC 000D210C  4E 80 00 20 */	blr 
+/* 800D6BEC 000D210C  4E 80 00 20 */	blr
 
 glabel WUDSetSniffMode
 /* 800D6BF0 000D2110  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2134,7 +2134,7 @@ glabel WUDSetSniffMode
 /* 800D6C4C 000D216C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D6C50 000D2170  7C 08 03 A6 */	mtlr r0
 /* 800D6C54 000D2174  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D6C58 000D2178  4E 80 00 20 */	blr 
+/* 800D6C58 000D2178  4E 80 00 20 */	blr
 
 glabel WUDSetSyncDeviceCallback
 /* 800D6C5C 000D217C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2159,7 +2159,7 @@ glabel WUDSetSyncDeviceCallback
 /* 800D6CA8 000D21C8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D6CAC 000D21CC  7C 08 03 A6 */	mtlr r0
 /* 800D6CB0 000D21D0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D6CB4 000D21D4  4E 80 00 20 */	blr 
+/* 800D6CB4 000D21D4  4E 80 00 20 */	blr
 
 glabel StartSyncDevice
 /* 800D6CB8 000D21D8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2241,7 +2241,7 @@ glabel StartSyncDevice
 /* 800D6DDC 000D22FC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D6DE0 000D2300  7C 08 03 A6 */	mtlr r0
 /* 800D6DE4 000D2304  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D6DE8 000D2308  4E 80 00 20 */	blr 
+/* 800D6DE8 000D2308  4E 80 00 20 */	blr
 
 glabel WPADStartSimpleSync
 /* 800D6DEC 000D230C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2271,7 +2271,7 @@ glabel WPADStartSimpleSync
 /* 800D6E4C 000D236C  38 60 FF FF */	li r3, -1
 /* 800D6E50 000D2370  38 80 00 00 */	li r4, 0
 /* 800D6E54 000D2374  7D 89 03 A6 */	mtctr r12
-/* 800D6E58 000D2378  4E 80 04 21 */	bctrl 
+/* 800D6E58 000D2378  4E 80 04 21 */	bctrl
 .L_800D6E5C:
 /* 800D6E5C 000D237C  7F E3 FB 78 */	mr r3, r31
 /* 800D6E60 000D2380  83 E1 00 0C */	lwz r31, 0xc(r1)
@@ -2279,7 +2279,7 @@ glabel WPADStartSimpleSync
 /* 800D6E68 000D2388  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D6E6C 000D238C  7C 08 03 A6 */	mtlr r0
 /* 800D6E70 000D2390  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D6E74 000D2394  4E 80 00 20 */	blr 
+/* 800D6E74 000D2394  4E 80 00 20 */	blr
 
 glabel WUDStopSyncSimple
 /* 800D6E78 000D2398  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2322,7 +2322,7 @@ glabel WUDStopSyncSimple
 /* 800D6F00 000D2420  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D6F04 000D2424  7C 08 03 A6 */	mtlr r0
 /* 800D6F08 000D2428  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D6F0C 000D242C  4E 80 00 20 */	blr 
+/* 800D6F0C 000D242C  4E 80 00 20 */	blr
 
 glabel WUDSetDisableChannel
 /* 800D6F10 000D2430  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2390,7 +2390,7 @@ glabel WUDSetDisableChannel
 /* 800D6FEC 000D250C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800D6FF0 000D2510  7C 08 03 A6 */	mtlr r0
 /* 800D6FF4 000D2514  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D6FF8 000D2518  4E 80 00 20 */	blr 
+/* 800D6FF8 000D2518  4E 80 00 20 */	blr
 
 glabel WUDSetHidRecvCallback
 /* 800D6FFC 000D251C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2415,7 +2415,7 @@ glabel WUDSetHidRecvCallback
 /* 800D7048 000D2568  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D704C 000D256C  7C 08 03 A6 */	mtlr r0
 /* 800D7050 000D2570  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D7054 000D2574  4E 80 00 20 */	blr 
+/* 800D7054 000D2574  4E 80 00 20 */	blr
 
 glabel WUDSetHidConnCallback
 /* 800D7058 000D2578  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2440,7 +2440,7 @@ glabel WUDSetHidConnCallback
 /* 800D70A4 000D25C4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D70A8 000D25C8  7C 08 03 A6 */	mtlr r0
 /* 800D70AC 000D25CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D70B0 000D25D0  4E 80 00 20 */	blr 
+/* 800D70B0 000D25D0  4E 80 00 20 */	blr
 
 glabel WUDSetVisibility
 /* 800D70B4 000D25D4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2464,7 +2464,7 @@ glabel WUDSetVisibility
 /* 800D70FC 000D261C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800D7100 000D2620  7C 08 03 A6 */	mtlr r0
 /* 800D7104 000D2624  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D7108 000D2628  4E 80 00 20 */	blr 
+/* 800D7108 000D2628  4E 80 00 20 */	blr
 .L_800D710C:
 /* 800D710C 000D262C  48 00 04 80 */	b WUDiInitSub
 
@@ -2570,7 +2570,7 @@ glabel remove_patch_cb
 /* 800D7278 000D2798  80 01 01 14 */	lwz r0, 0x114(r1)
 /* 800D727C 000D279C  7C 08 03 A6 */	mtlr r0
 /* 800D7280 000D27A0  38 21 01 10 */	addi r1, r1, 0x110
-/* 800D7284 000D27A4  4E 80 00 20 */	blr 
+/* 800D7284 000D27A4  4E 80 00 20 */	blr
 
 glabel write_patch_cb
 /* 800D7288 000D27A8  94 21 FD F0 */	stwu r1, -0x210(r1)
@@ -2722,7 +2722,7 @@ glabel write_patch_cb
 /* 800D74A8 000D29C8  83 C1 02 08 */	lwz r30, 0x208(r1)
 /* 800D74AC 000D29CC  7C 08 03 A6 */	mtlr r0
 /* 800D74B0 000D29D0  38 21 02 10 */	addi r1, r1, 0x210
-/* 800D74B4 000D29D4  4E 80 00 20 */	blr 
+/* 800D74B4 000D29D4  4E 80 00 20 */	blr
 
 glabel install_patch_cb
 /* 800D74B8 000D29D8  94 21 FE F0 */	stwu r1, -0x110(r1)
@@ -2781,7 +2781,7 @@ glabel install_patch_cb
 /* 800D757C 000D2A9C  83 C1 01 08 */	lwz r30, 0x108(r1)
 /* 800D7580 000D2AA0  7C 08 03 A6 */	mtlr r0
 /* 800D7584 000D2AA4  38 21 01 10 */	addi r1, r1, 0x110
-/* 800D7588 000D2AA8  4E 80 00 20 */	blr 
+/* 800D7588 000D2AA8  4E 80 00 20 */	blr
 
 glabel WUDiInitSub
 /* 800D758C 000D2AAC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2871,7 +2871,7 @@ glabel WUDiInitSub
 /* 800D76D4 000D2BF4  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800D76D8 000D2BF8  7C 08 03 A6 */	mtlr r0
 /* 800D76DC 000D2BFC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D76E0 000D2C00  4E 80 00 20 */	blr 
+/* 800D76E0 000D2C00  4E 80 00 20 */	blr
 
 glabel WUDiRegisterDevice
 /* 800D76E4 000D2C04  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -2947,7 +2947,7 @@ glabel WUDiRegisterDevice
 /* 800D77EC 000D2D0C  83 A1 00 24 */	lwz r29, 0x24(r1)
 /* 800D77F0 000D2D10  7C 08 03 A6 */	mtlr r0
 /* 800D77F4 000D2D14  38 21 00 30 */	addi r1, r1, 0x30
-/* 800D77F8 000D2D18  4E 80 00 20 */	blr 
+/* 800D77F8 000D2D18  4E 80 00 20 */	blr
 
 glabel WUDiRemoveDevice
 /* 800D77FC 000D2D1C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3034,7 +3034,7 @@ glabel WUDiRemoveDevice
 /* 800D7930 000D2E50  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800D7934 000D2E54  7C 08 03 A6 */	mtlr r0
 /* 800D7938 000D2E58  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D793C 000D2E5C  4E 80 00 20 */	blr 
+/* 800D793C 000D2E5C  4E 80 00 20 */	blr
 
 glabel WUDiGetDevInfo
 /* 800D7940 000D2E60  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3096,7 +3096,7 @@ glabel WUDiGetDevInfo
 /* 800D7A08 000D2F28  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D7A0C 000D2F2C  7C 08 03 A6 */	mtlr r0
 /* 800D7A10 000D2F30  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D7A14 000D2F34  4E 80 00 20 */	blr 
+/* 800D7A14 000D2F34  4E 80 00 20 */	blr
 
 glabel WUDiGetNewDevInfo
 /* 800D7A18 000D2F38  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3150,7 +3150,7 @@ glabel WUDiGetNewDevInfo
 /* 800D7AC8 000D2FE8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D7ACC 000D2FEC  7C 08 03 A6 */	mtlr r0
 /* 800D7AD0 000D2FF0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D7AD4 000D2FF4  4E 80 00 20 */	blr 
+/* 800D7AD4 000D2FF4  4E 80 00 20 */	blr
 
 glabel WUDiMoveTopSmpDevInfoPtr
 /* 800D7AD8 000D2FF8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3227,7 +3227,7 @@ glabel WUDiMoveTopSmpDevInfoPtr
 /* 800D7BE0 000D3100  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D7BE4 000D3104  7C 08 03 A6 */	mtlr r0
 /* 800D7BE8 000D3108  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D7BEC 000D310C  4E 80 00 20 */	blr 
+/* 800D7BEC 000D310C  4E 80 00 20 */	blr
 
 glabel WUDiMoveBottomSmpDevInfoPtr
 /* 800D7BF0 000D3110  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3304,7 +3304,7 @@ glabel WUDiMoveBottomSmpDevInfoPtr
 /* 800D7CF8 000D3218  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D7CFC 000D321C  7C 08 03 A6 */	mtlr r0
 /* 800D7D00 000D3220  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D7D04 000D3224  4E 80 00 20 */	blr 
+/* 800D7D04 000D3224  4E 80 00 20 */	blr
 
 glabel WUDiMoveTopOfDisconnectedSmpDevice
 /* 800D7D08 000D3228  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -3400,7 +3400,7 @@ glabel WUDiMoveTopOfDisconnectedSmpDevice
 /* 800D7E50 000D3370  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800D7E54 000D3374  7C 08 03 A6 */	mtlr r0
 /* 800D7E58 000D3378  38 21 00 30 */	addi r1, r1, 0x30
-/* 800D7E5C 000D337C  4E 80 00 20 */	blr 
+/* 800D7E5C 000D337C  4E 80 00 20 */	blr
 
 glabel WUDiMoveTopStdDevInfoPtr
 /* 800D7E60 000D3380  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3477,7 +3477,7 @@ glabel WUDiMoveTopStdDevInfoPtr
 /* 800D7F68 000D3488  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D7F6C 000D348C  7C 08 03 A6 */	mtlr r0
 /* 800D7F70 000D3490  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D7F74 000D3494  4E 80 00 20 */	blr 
+/* 800D7F74 000D3494  4E 80 00 20 */	blr
 
 glabel WUDiMoveBottomStdDevInfoPtr
 /* 800D7F78 000D3498  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -3554,7 +3554,7 @@ glabel WUDiMoveBottomStdDevInfoPtr
 /* 800D8080 000D35A0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D8084 000D35A4  7C 08 03 A6 */	mtlr r0
 /* 800D8088 000D35A8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D808C 000D35AC  4E 80 00 20 */	blr 
+/* 800D808C 000D35AC  4E 80 00 20 */	blr
 
 glabel WUDiMoveTopOfDisconnectedStdDevice
 /* 800D8090 000D35B0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -3650,7 +3650,7 @@ glabel WUDiMoveTopOfDisconnectedStdDevice
 /* 800D81D8 000D36F8  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800D81DC 000D36FC  7C 08 03 A6 */	mtlr r0
 /* 800D81E0 000D3700  38 21 00 30 */	addi r1, r1, 0x30
-/* 800D81E4 000D3704  4E 80 00 20 */	blr 
+/* 800D81E4 000D3704  4E 80 00 20 */	blr
 .L_800D81E8:
 /* 800D81E8 000D3708  2C 03 00 00 */	cmpwi r3, 0
 /* 800D81EC 000D370C  3C 60 80 1F */	lis r3, lbl_801F1EC0@ha
@@ -3659,14 +3659,14 @@ glabel WUDiMoveTopOfDisconnectedStdDevice
 /* 800D81F8 000D3718  38 00 00 00 */	li r0, 0
 /* 800D81FC 000D371C  90 0D 92 D0 */	stw r0, lbl_80247750@sda21(r13)
 /* 800D8200 000D3720  98 03 07 08 */	stb r0, 0x708(r3)
-/* 800D8204 000D3724  4E 80 00 20 */	blr 
+/* 800D8204 000D3724  4E 80 00 20 */	blr
 
 glabel CleanupCallback
 /* 800D8208 000D3728  3C 60 80 1A */	lis r3, lbl_801998AC@ha
 /* 800D820C 000D372C  38 63 98 AC */	addi r3, r3, lbl_801998AC@l
 /* 800D8210 000D3730  4C C6 31 82 */	crclr 6
 /* 800D8214 000D3734  48 00 15 44 */	b WUD_DEBUGPrint
-/* 800D8218 000D3738  4E 80 00 20 */	blr 
+/* 800D8218 000D3738  4E 80 00 20 */	blr
 
 glabel WUDSecurityCallback
 /* 800D821C 000D373C  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -3691,7 +3691,7 @@ glabel WUDSecurityCallback
 /* 800D8268 000D3788  38 63 9B 28 */	addi r3, r3, lbl_80199B28@l
 /* 800D826C 000D378C  7C 63 00 2E */	lwzx r3, r3, r0
 /* 800D8270 000D3790  7C 69 03 A6 */	mtctr r3
-/* 800D8274 000D3794  4E 80 04 20 */	bctr 
+/* 800D8274 000D3794  4E 80 04 20 */	bctr
 
 glabel lbl_800D8278
 /* 800D8278 000D3798  7F 84 E3 78 */	mr r4, r28
@@ -4043,7 +4043,7 @@ glabel lbl_800D874C
 /* 800D8760 000D3C80  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 800D8764 000D3C84  7C 08 03 A6 */	mtlr r0
 /* 800D8768 000D3C88  38 21 00 60 */	addi r1, r1, 0x60
-/* 800D876C 000D3C8C  4E 80 00 20 */	blr 
+/* 800D876C 000D3C8C  4E 80 00 20 */	blr
 
 glabel WUDSearchCallback
 /* 800D8770 000D3C90  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -4179,7 +4179,7 @@ glabel WUDSearchCallback
 /* 800D894C 000D3E6C  83 81 00 20 */	lwz r28, 0x20(r1)
 /* 800D8950 000D3E70  7C 08 03 A6 */	mtlr r0
 /* 800D8954 000D3E74  38 21 00 30 */	addi r1, r1, 0x30
-/* 800D8958 000D3E78  4E 80 00 20 */	blr 
+/* 800D8958 000D3E78  4E 80 00 20 */	blr
 
 glabel WUDVendorSpecificCallback
 /* 800D895C 000D3E7C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -4248,7 +4248,7 @@ glabel WUDVendorSpecificCallback
 /* 800D8A48 000D3F68  7F E3 FB 78 */	mr r3, r31
 /* 800D8A4C 000D3F6C  38 80 00 00 */	li r4, 0
 /* 800D8A50 000D3F70  7D 89 03 A6 */	mtctr r12
-/* 800D8A54 000D3F74  4E 80 04 21 */	bctrl 
+/* 800D8A54 000D3F74  4E 80 04 21 */	bctrl
 /* 800D8A58 000D3F78  48 00 02 1C */	b .L_800D8C74
 .L_800D8A5C:
 /* 800D8A5C 000D3F7C  38 7E 04 1C */	addi r3, r30, 0x41c
@@ -4271,7 +4271,7 @@ glabel WUDVendorSpecificCallback
 /* 800D8AA0 000D3FC0  38 60 FF FF */	li r3, -1
 /* 800D8AA4 000D3FC4  38 80 00 00 */	li r4, 0
 /* 800D8AA8 000D3FC8  7D 89 03 A6 */	mtctr r12
-/* 800D8AAC 000D3FCC  4E 80 04 21 */	bctrl 
+/* 800D8AAC 000D3FCC  4E 80 04 21 */	bctrl
 /* 800D8AB0 000D3FD0  48 00 01 C4 */	b .L_800D8C74
 .L_800D8AB4:
 /* 800D8AB4 000D3FD4  38 7E 0B 10 */	addi r3, r30, 0xb10
@@ -4314,7 +4314,7 @@ glabel WUDVendorSpecificCallback
 /* 800D8B40 000D4060  7F EC FB 78 */	mr r12, r31
 /* 800D8B44 000D4064  7F A3 EB 78 */	mr r3, r29
 /* 800D8B48 000D4068  7D 89 03 A6 */	mtctr r12
-/* 800D8B4C 000D406C  4E 80 04 21 */	bctrl 
+/* 800D8B4C 000D406C  4E 80 04 21 */	bctrl
 /* 800D8B50 000D4070  48 00 01 24 */	b .L_800D8C74
 .L_800D8B54:
 /* 800D8B54 000D4074  3F A0 80 1F */	lis r29, lbl_801F1EC0@ha
@@ -4401,7 +4401,7 @@ glabel WUDVendorSpecificCallback
 /* 800D8C84 000D41A4  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800D8C88 000D41A8  7C 08 03 A6 */	mtlr r0
 /* 800D8C8C 000D41AC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D8C90 000D41B0  4E 80 00 20 */	blr 
+/* 800D8C90 000D41B0  4E 80 00 20 */	blr
 
 glabel WUDDeviceStatusCallback
 /* 800D8C94 000D41B4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -4424,7 +4424,7 @@ glabel WUDDeviceStatusCallback
 /* 800D8CD4 000D41F4  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800D8CD8 000D41F8  7C 08 03 A6 */	mtlr r0
 /* 800D8CDC 000D41FC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D8CE0 000D4200  4E 80 00 20 */	blr 
+/* 800D8CE0 000D4200  4E 80 00 20 */	blr
 
 glabel WUDStoredLinkKeyCallback
 /* 800D8CE4 000D4204  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -4629,7 +4629,7 @@ glabel WUDStoredLinkKeyCallback
 /* 800D8FC0 000D44E0  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 800D8FC4 000D44E4  7C 08 03 A6 */	mtlr r0
 /* 800D8FC8 000D44E8  38 21 00 60 */	addi r1, r1, 0x60
-/* 800D8FCC 000D44EC  4E 80 00 20 */	blr 
+/* 800D8FCC 000D44EC  4E 80 00 20 */	blr
 
 glabel WUDPowerManagerCallback
 /* 800D8FD0 000D44F0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -4697,7 +4697,7 @@ glabel WUDPowerManagerCallback
 /* 800D90B4 000D45D4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D90B8 000D45D8  7C 08 03 A6 */	mtlr r0
 /* 800D90BC 000D45DC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D90C0 000D45E0  4E 80 00 20 */	blr 
+/* 800D90C0 000D45E0  4E 80 00 20 */	blr
 
 glabel _WUDGetDevAddr
 /* 800D90C4 000D45E4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -4722,7 +4722,7 @@ glabel _WUDGetDevAddr
 /* 800D9108 000D4628  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D910C 000D462C  7C 08 03 A6 */	mtlr r0
 /* 800D9110 000D4630  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D9114 000D4634  4E 80 00 20 */	blr 
+/* 800D9114 000D4634  4E 80 00 20 */	blr
 
 glabel _WUDGetQueuedSize
 /* 800D9118 000D4638  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -4749,7 +4749,7 @@ glabel _WUDGetQueuedSize
 /* 800D9164 000D4684  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D9168 000D4688  7C 08 03 A6 */	mtlr r0
 /* 800D916C 000D468C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D9170 000D4690  4E 80 00 20 */	blr 
+/* 800D9170 000D4690  4E 80 00 20 */	blr
 
 glabel _WUDGetNotAckedSize
 /* 800D9174 000D4694  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -4776,7 +4776,7 @@ glabel _WUDGetNotAckedSize
 /* 800D91C0 000D46E0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D91C4 000D46E4  7C 08 03 A6 */	mtlr r0
 /* 800D91C8 000D46E8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D91CC 000D46EC  4E 80 00 20 */	blr 
+/* 800D91CC 000D46EC  4E 80 00 20 */	blr
 
 glabel _WUDGetLinkNumber
 /* 800D91D0 000D46F0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -4793,7 +4793,7 @@ glabel _WUDGetLinkNumber
 /* 800D91FC 000D471C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D9200 000D4720  7C 08 03 A6 */	mtlr r0
 /* 800D9204 000D4724  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D9208 000D4728  4E 80 00 20 */	blr 
+/* 800D9208 000D4728  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

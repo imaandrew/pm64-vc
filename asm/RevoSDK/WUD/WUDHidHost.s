@@ -21,7 +21,7 @@ glabel WUDHidHostCallback
 /* 800D9248 000D4768  38 A5 A1 A8 */	addi r5, r5, lbl_8019A1A8@l
 /* 800D924C 000D476C  7C A5 00 2E */	lwzx r5, r5, r0
 /* 800D9250 000D4770  7C A9 03 A6 */	mtctr r5
-/* 800D9254 000D4774  4E 80 04 20 */	bctr 
+/* 800D9254 000D4774  4E 80 04 20 */	bctr
 
 glabel lbl_800D9258
 /* 800D9258 000D4778  38 7D 00 00 */	addi r3, r29, 0
@@ -136,7 +136,7 @@ glabel lbl_800D9284
 /* 800D93DC 000D48FC  88 7E 00 07 */	lbz r3, 7(r30)
 /* 800D93E0 000D4900  38 80 00 01 */	li r4, 1
 /* 800D93E4 000D4904  7D 89 03 A6 */	mtctr r12
-/* 800D93E8 000D4908  4E 80 04 21 */	bctrl 
+/* 800D93E8 000D4908  4E 80 04 21 */	bctrl
 /* 800D93EC 000D490C  48 00 02 EC */	b lbl_800D96D8
 .L_800D93F0:
 /* 800D93F0 000D4910  38 7D 00 70 */	addi r3, r29, 0x70
@@ -226,7 +226,7 @@ glabel lbl_800D9470
 /* 800D9528 000D4A48  88 7E 00 01 */	lbz r3, 1(r30)
 /* 800D952C 000D4A4C  38 80 00 00 */	li r4, 0
 /* 800D9530 000D4A50  7D 89 03 A6 */	mtctr r12
-/* 800D9534 000D4A54  4E 80 04 21 */	bctrl 
+/* 800D9534 000D4A54  4E 80 04 21 */	bctrl
 /* 800D9538 000D4A58  48 00 01 A0 */	b lbl_800D96D8
 
 glabel lbl_800D953C
@@ -365,7 +365,7 @@ glabel lbl_800D96D8
 /* 800D96E4 000D4C04  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800D96E8 000D4C08  7C 08 03 A6 */	mtlr r0
 /* 800D96EC 000D4C0C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D96F0 000D4C10  4E 80 00 20 */	blr 
+/* 800D96F0 000D4C10  4E 80 00 20 */	blr
 
 glabel bta_hh_co_data
 /* 800D96F4 000D4C14  28 08 00 03 */	cmplwi r8, 3
@@ -374,16 +374,16 @@ glabel bta_hh_co_data
 /* 800D9700 000D4C20  40 82 00 18 */	bne .L_800D9718
 /* 800D9704 000D4C24  81 86 06 EC */	lwz r12, 0x6ec(r6)
 /* 800D9708 000D4C28  2C 0C 00 00 */	cmpwi r12, 0
-/* 800D970C 000D4C2C  4D 82 00 20 */	beqlr 
+/* 800D970C 000D4C2C  4D 82 00 20 */	beqlr
 /* 800D9710 000D4C30  7D 89 03 A6 */	mtctr r12
-/* 800D9714 000D4C34  4E 80 04 20 */	bctr 
+/* 800D9714 000D4C34  4E 80 04 20 */	bctr
 .L_800D9718:
 /* 800D9718 000D4C38  3C 60 80 1A */	lis r3, lbl_8019A1E8@ha
 /* 800D971C 000D4C3C  7D 04 43 78 */	mr r4, r8
 /* 800D9720 000D4C40  38 63 A1 E8 */	addi r3, r3, lbl_8019A1E8@l
 /* 800D9724 000D4C44  4C C6 31 82 */	crclr 6
 /* 800D9728 000D4C48  48 00 00 30 */	b WUD_DEBUGPrint
-/* 800D972C 000D4C4C  4E 80 00 20 */	blr 
+/* 800D972C 000D4C4C  4E 80 00 20 */	blr
 
 glabel bta_hh_co_open
 /* 800D9730 000D4C50  3C 60 80 1A */	lis r3, lbl_8019A200@ha
@@ -399,5 +399,5 @@ glabel bta_hh_co_close
 
 glabel bta_dm_co_get_compress_memory
 /* 800D9750 000D4C70  38 60 00 00 */	li r3, 0
-/* 800D9754 000D4C74  4E 80 00 20 */	blr 
+/* 800D9754 000D4C74  4E 80 00 20 */	blr
 

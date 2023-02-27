@@ -96,7 +96,7 @@ glabel __ct__Q36nw4hbm3lyt7PictureFPCQ46nw4hbm3lyt3res7PictureRCQ36nw4hbm3lyt11R
 /* 80120518 0011BA38  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8012051C 0011BA3C  7C 08 03 A6 */	mtlr r0
 /* 80120520 0011BA40  38 21 00 20 */	addi r1, r1, 0x20
-/* 80120524 0011BA44  4E 80 00 20 */	blr 
+/* 80120524 0011BA44  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt7PictureFv
 /* 80120528 0011BA48  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -122,7 +122,7 @@ glabel __dt__Q36nw4hbm3lyt7PictureFv
 /* 80120578 0011BA98  38 80 FF FF */	li r4, -1
 /* 8012057C 0011BA9C  81 8C 00 08 */	lwz r12, 8(r12)
 /* 80120580 0011BAA0  7D 89 03 A6 */	mtctr r12
-/* 80120584 0011BAA4  4E 80 04 21 */	bctrl 
+/* 80120584 0011BAA4  4E 80 04 21 */	bctrl
 /* 80120588 0011BAA8  3C 60 80 23 */	lis r3, lbl_80229138@ha
 /* 8012058C 0011BAAC  80 9E 00 28 */	lwz r4, 0x28(r30)
 /* 80120590 0011BAB0  80 63 91 38 */	lwz r3, lbl_80229138@l(r3)
@@ -152,7 +152,7 @@ glabel __dt__Q36nw4hbm3lyt7PictureFv
 /* 801205E8 0011BB08  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801205EC 0011BB0C  7C 08 03 A6 */	mtlr r0
 /* 801205F0 0011BB10  38 21 00 10 */	addi r1, r1, 0x10
-/* 801205F4 0011BB14  4E 80 00 20 */	blr 
+/* 801205F4 0011BB14  4E 80 00 20 */	blr
 
 glabel Append__Q36nw4hbm3lyt7PictureFP10TPLPalette
 /* 801205F8 0011BB18  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -168,12 +168,12 @@ glabel Append__Q36nw4hbm3lyt7PictureFP10TPLPalette
 /* 80120620 0011BB40  38 81 00 08 */	addi r4, r1, 8
 /* 80120624 0011BB44  81 8C 00 68 */	lwz r12, 0x68(r12)
 /* 80120628 0011BB48  7D 89 03 A6 */	mtctr r12
-/* 8012062C 0011BB4C  4E 80 04 21 */	bctrl 
+/* 8012062C 0011BB4C  4E 80 04 21 */	bctrl
 /* 80120630 0011BB50  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80120634 0011BB54  83 E1 00 2C */	lwz r31, 0x2c(r1)
 /* 80120638 0011BB58  7C 08 03 A6 */	mtlr r0
 /* 8012063C 0011BB5C  38 21 00 30 */	addi r1, r1, 0x30
-/* 80120640 0011BB60  4E 80 00 20 */	blr 
+/* 80120640 0011BB60  4E 80 00 20 */	blr
 
 glabel Append__Q36nw4hbm3lyt7PictureFRC9_GXTexObj
 /* 80120644 0011BB64  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -293,7 +293,7 @@ glabel Append__Q36nw4hbm3lyt7PictureFRC9_GXTexObj
 /* 801207F8 0011BD18  83 A1 00 24 */	lwz r29, 0x24(r1)
 /* 801207FC 0011BD1C  7C 08 03 A6 */	mtlr r0
 /* 80120800 0011BD20  38 21 00 30 */	addi r1, r1, 0x30
-/* 80120804 0011BD24  4E 80 00 20 */	blr 
+/* 80120804 0011BD24  4E 80 00 20 */	blr
 
 glabel GetVtxColor__Q36nw4hbm3lyt7PictureCFUl
 /* 80120808 0011BD28  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -331,7 +331,7 @@ glabel GetVtxColor__Q36nw4hbm3lyt7PictureCFUl
 /* 80120884 0011BDA4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80120888 0011BDA8  7C 08 03 A6 */	mtlr r0
 /* 8012088C 0011BDAC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80120890 0011BDB0  4E 80 00 20 */	blr 
+/* 80120890 0011BDB0  4E 80 00 20 */	blr
 
 glabel SetVtxColor__Q36nw4hbm3lyt7PictureFUlQ36nw4hbm2ut5Color
 /* 80120894 0011BDB4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -369,7 +369,7 @@ glabel SetVtxColor__Q36nw4hbm3lyt7PictureFUlQ36nw4hbm2ut5Color
 /* 80120910 0011BE30  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80120914 0011BE34  7C 08 03 A6 */	mtlr r0
 /* 80120918 0011BE38  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012091C 0011BE3C  4E 80 00 20 */	blr 
+/* 8012091C 0011BE3C  4E 80 00 20 */	blr
 
 glabel GetVtxColorElement__Q36nw4hbm3lyt7PictureCFUl
 /* 80120920 0011BE40  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -399,7 +399,7 @@ glabel GetVtxColorElement__Q36nw4hbm3lyt7PictureCFUl
 /* 8012097C 0011BE9C  88 63 00 D4 */	lbz r3, 0xd4(r3)
 /* 80120980 0011BEA0  7C 08 03 A6 */	mtlr r0
 /* 80120984 0011BEA4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80120988 0011BEA8  4E 80 00 20 */	blr 
+/* 80120988 0011BEA8  4E 80 00 20 */	blr
 
 glabel SetVtxColorElement__Q36nw4hbm3lyt7PictureFUlUc
 /* 8012098C 0011BEAC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -432,7 +432,7 @@ glabel SetVtxColorElement__Q36nw4hbm3lyt7PictureFUlUc
 /* 801209F4 0011BF14  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801209F8 0011BF18  7C 08 03 A6 */	mtlr r0
 /* 801209FC 0011BF1C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80120A00 0011BF20  4E 80 00 20 */	blr 
+/* 80120A00 0011BF20  4E 80 00 20 */	blr
 
 glabel DrawSelf__Q36nw4hbm3lyt7PictureFRCQ36nw4hbm3lyt8DrawInfo
 /* 80120A04 0011BF24  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -449,7 +449,7 @@ glabel DrawSelf__Q36nw4hbm3lyt7PictureFRCQ36nw4hbm3lyt8DrawInfo
 /* 80120A30 0011BF50  81 83 00 00 */	lwz r12, 0(r3)
 /* 80120A34 0011BF54  81 8C 00 60 */	lwz r12, 0x60(r12)
 /* 80120A38 0011BF58  7D 89 03 A6 */	mtctr r12
-/* 80120A3C 0011BF5C  4E 80 04 21 */	bctrl 
+/* 80120A3C 0011BF5C  4E 80 04 21 */	bctrl
 /* 80120A40 0011BF60  8B BC 00 CE */	lbz r29, 0xce(r28)
 /* 80120A44 0011BF64  38 7C 00 D4 */	addi r3, r28, 0xd4
 /* 80120A48 0011BF68  7F A4 EB 78 */	mr r4, r29
@@ -460,7 +460,7 @@ glabel DrawSelf__Q36nw4hbm3lyt7PictureFRCQ36nw4hbm3lyt8DrawInfo
 /* 80120A5C 0011BF7C  81 83 00 00 */	lwz r12, 0(r3)
 /* 80120A60 0011BF80  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80120A64 0011BF84  7D 89 03 A6 */	mtctr r12
-/* 80120A68 0011BF88  4E 80 04 21 */	bctrl 
+/* 80120A68 0011BF88  4E 80 04 21 */	bctrl
 /* 80120A6C 0011BF8C  88 9C 00 E5 */	lbz r4, 0xe5(r28)
 /* 80120A70 0011BF90  7C 7D 1B 78 */	mr r29, r3
 /* 80120A74 0011BF94  4B FF 8E 8D */	bl SetVertexFormat__Q36nw4hbm3lyt6detailFbUc
@@ -492,19 +492,19 @@ glabel DrawSelf__Q36nw4hbm3lyt7PictureFRCQ36nw4hbm3lyt8DrawInfo
 /* 80120AD0 0011BFF0  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80120AD4 0011BFF4  7C 08 03 A6 */	mtlr r0
 /* 80120AD8 0011BFF8  38 21 00 20 */	addi r1, r1, 0x20
-/* 80120ADC 0011BFFC  4E 80 00 20 */	blr 
+/* 80120ADC 0011BFFC  4E 80 00 20 */	blr
 
 glabel GetRuntimeTypeInfo__Q36nw4hbm3lyt7PictureCFv
 /* 80120AE0 0011C000  3C 60 80 23 */	lis r3, lbl_80229148@ha
 /* 80120AE4 0011C004  38 63 91 48 */	addi r3, r3, lbl_80229148@l
-/* 80120AE8 0011C008  4E 80 00 20 */	blr 
+/* 80120AE8 0011C008  4E 80 00 20 */	blr
 
 glabel __sinit_lyt_picture_cpp
 /* 80120AEC 0011C00C  3C 80 80 23 */	lis r4, lbl_80229140@ha
 /* 80120AF0 0011C010  3C 60 80 23 */	lis r3, lbl_80229148@ha
 /* 80120AF4 0011C014  38 84 91 40 */	addi r4, r4, lbl_80229140@l
 /* 80120AF8 0011C018  90 83 91 48 */	stw r4, lbl_80229148@l(r3)
-/* 80120AFC 0011C01C  4E 80 00 20 */	blr 
+/* 80120AFC 0011C01C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 # First two might not be here

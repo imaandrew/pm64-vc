@@ -94,7 +94,7 @@ glabel sdp_db_service_search
 /* 80102F58 000FE478  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80102F5C 000FE47C  7C 08 03 A6 */	mtlr r0
 /* 80102F60 000FE480  38 21 00 30 */	addi r1, r1, 0x30
-/* 80102F64 000FE484  4E 80 00 20 */	blr 
+/* 80102F64 000FE484  4E 80 00 20 */	blr
 
 glabel find_uuid_in_seq
 /* 80102F68 000FE488  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -155,7 +155,7 @@ glabel find_uuid_in_seq
 /* 80103030 000FE550  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80103034 000FE554  7C 08 03 A6 */	mtlr r0
 /* 80103038 000FE558  38 21 00 30 */	addi r1, r1, 0x30
-/* 8010303C 000FE55C  4E 80 00 20 */	blr 
+/* 8010303C 000FE55C  4E 80 00 20 */	blr
 
 glabel sdp_db_find_record
 /* 80103040 000FE560  3C A0 80 22 */	lis r5, lbl_80224220@ha
@@ -177,13 +177,13 @@ glabel sdp_db_find_record
 /* 8010307C 000FE59C  7C 00 18 40 */	cmplw r0, r3
 /* 80103080 000FE5A0  40 82 00 0C */	bne .L_8010308C
 /* 80103084 000FE5A4  7C C3 33 78 */	mr r3, r6
-/* 80103088 000FE5A8  4E 80 00 20 */	blr 
+/* 80103088 000FE5A8  4E 80 00 20 */	blr
 .L_8010308C:
 /* 8010308C 000FE5AC  38 C6 02 98 */	addi r6, r6, 0x298
 /* 80103090 000FE5B0  42 00 FF E8 */	bdnz .L_80103078
 .L_80103094:
 /* 80103094 000FE5B4  38 60 00 00 */	li r3, 0
-/* 80103098 000FE5B8  4E 80 00 20 */	blr 
+/* 80103098 000FE5B8  4E 80 00 20 */	blr
 
 glabel sdp_db_find_attr_in_rec
 /* 8010309C 000FE5BC  A0 C3 00 08 */	lhz r6, 8(r3)
@@ -195,7 +195,7 @@ glabel sdp_db_find_attr_in_rec
 /* 801030B0 000FE5D0  7C 00 20 40 */	cmplw r0, r4
 /* 801030B4 000FE5D4  41 80 00 0C */	blt .L_801030C0
 /* 801030B8 000FE5D8  7C 00 28 40 */	cmplw r0, r5
-/* 801030BC 000FE5DC  4C 81 00 20 */	blelr 
+/* 801030BC 000FE5DC  4C 81 00 20 */	blelr
 .L_801030C0:
 /* 801030C0 000FE5E0  38 E7 00 01 */	addi r7, r7, 1
 /* 801030C4 000FE5E4  38 63 00 0C */	addi r3, r3, 0xc
@@ -204,7 +204,7 @@ glabel sdp_db_find_attr_in_rec
 /* 801030CC 000FE5EC  7C 00 30 40 */	cmplw r0, r6
 /* 801030D0 000FE5F0  41 80 FF DC */	blt .L_801030AC
 /* 801030D4 000FE5F4  38 60 00 00 */	li r3, 0
-/* 801030D8 000FE5F8  4E 80 00 20 */	blr 
+/* 801030D8 000FE5F8  4E 80 00 20 */	blr
 
 glabel SDP_CreateRecord
 /* 801030DC 000FE5FC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -266,7 +266,7 @@ glabel SDP_CreateRecord
 /* 801031AC 000FE6CC  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 801031B0 000FE6D0  7C 08 03 A6 */	mtlr r0
 /* 801031B4 000FE6D4  38 21 00 20 */	addi r1, r1, 0x20
-/* 801031B8 000FE6D8  4E 80 00 20 */	blr 
+/* 801031B8 000FE6D8  4E 80 00 20 */	blr
 
 glabel SDP_DeleteRecord
 /* 801031BC 000FE6DC  3C 80 80 22 */	lis r4, lbl_80224220@ha
@@ -285,7 +285,7 @@ glabel SDP_DeleteRecord
 /* 801031EC 000FE70C  B0 04 12 22 */	sth r0, 0x1222(r4)
 /* 801031F0 000FE710  90 04 12 1C */	stw r0, 0x121c(r4)
 /* 801031F4 000FE714  98 04 12 20 */	stb r0, 0x1220(r4)
-/* 801031F8 000FE718  4E 80 00 20 */	blr 
+/* 801031F8 000FE718  4E 80 00 20 */	blr
 .L_801031FC:
 /* 801031FC 000FE71C  39 20 00 00 */	li r9, 0
 /* 80103200 000FE720  48 00 00 BC */	b .L_801032BC
@@ -339,7 +339,7 @@ glabel SDP_DeleteRecord
 /* 801032A8 000FE7C8  98 05 12 20 */	stb r0, 0x1220(r5)
 .L_801032AC:
 /* 801032AC 000FE7CC  38 60 00 01 */	li r3, 1
-/* 801032B0 000FE7D0  4E 80 00 20 */	blr 
+/* 801032B0 000FE7D0  4E 80 00 20 */	blr
 .L_801032B4:
 /* 801032B4 000FE7D4  39 29 00 01 */	addi r9, r9, 1
 /* 801032B8 000FE7D8  39 4A 02 98 */	addi r10, r10, 0x298
@@ -348,7 +348,7 @@ glabel SDP_DeleteRecord
 /* 801032C0 000FE7E0  7C 00 20 40 */	cmplw r0, r4
 /* 801032C4 000FE7E4  41 80 FF 40 */	blt .L_80103204
 /* 801032C8 000FE7E8  38 60 00 00 */	li r3, 0
-/* 801032CC 000FE7EC  4E 80 00 20 */	blr 
+/* 801032CC 000FE7EC  4E 80 00 20 */	blr
 
 glabel SDP_AddAttribute
 /* 801032D0 000FE7F0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -598,7 +598,7 @@ glabel SDP_AddAttribute
 /* 80103658 000FEB78  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8010365C 000FEB7C  7C 08 03 A6 */	mtlr r0
 /* 80103660 000FEB80  38 21 00 30 */	addi r1, r1, 0x30
-/* 80103664 000FEB84  4E 80 00 20 */	blr 
+/* 80103664 000FEB84  4E 80 00 20 */	blr
 
 glabel SDP_AddUuidSequence
 /* 80103668 000FEB88  94 21 FF 40 */	stwu r1, -0xc0(r1)
@@ -657,7 +657,7 @@ glabel SDP_AddUuidSequence
 /* 80103730 000FEC50  83 A1 00 B4 */	lwz r29, 0xb4(r1)
 /* 80103734 000FEC54  7C 08 03 A6 */	mtlr r0
 /* 80103738 000FEC58  38 21 00 C0 */	addi r1, r1, 0xc0
-/* 8010373C 000FEC5C  4E 80 00 20 */	blr 
+/* 8010373C 000FEC5C  4E 80 00 20 */	blr
 
 glabel SDP_AddServiceClassIdList
 /* 80103740 000FEC60  94 21 FF 50 */	stwu r1, -0xb0(r1)
@@ -758,7 +758,7 @@ glabel SDP_AddServiceClassIdList
 /* 801038AC 000FEDCC  80 01 00 B4 */	lwz r0, 0xb4(r1)
 /* 801038B0 000FEDD0  7C 08 03 A6 */	mtlr r0
 /* 801038B4 000FEDD4  38 21 00 B0 */	addi r1, r1, 0xb0
-/* 801038B8 000FEDD8  4E 80 00 20 */	blr 
+/* 801038B8 000FEDD8  4E 80 00 20 */	blr
 
 glabel SDP_DeleteAttribute
 /* 801038BC 000FEDDC  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -922,5 +922,5 @@ glabel SDP_DeleteAttribute
 /* 80103AE8 000FF008  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80103AEC 000FF00C  7C 08 03 A6 */	mtlr r0
 /* 80103AF0 000FF010  38 21 00 30 */	addi r1, r1, 0x30
-/* 80103AF4 000FF014  4E 80 00 20 */	blr 
+/* 80103AF4 000FF014  4E 80 00 20 */	blr
 

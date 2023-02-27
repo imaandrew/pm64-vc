@@ -50,7 +50,7 @@ glabel _savefpr_23
 /* 8015C8B4 00157DD4  DB AB FF E8 */	stfd f29, -0x18(r11)
 /* 8015C8B8 00157DD8  DB CB FF F0 */	stfd f30, -0x10(r11)
 /* 8015C8BC 00157DDC  DB EB FF F8 */	stfd f31, -8(r11)
-/* 8015C8C0 00157DE0  4E 80 00 20 */	blr 
+/* 8015C8C0 00157DE0  4E 80 00 20 */	blr
 
 glabel __restore_fpr
 /* 8015C8C4 00157DE4  C9 CB FF 70 */	lfd f14, -0x90(r11)
@@ -73,7 +73,7 @@ glabel _restfpr_23
 /* 8015C900 00157E20  CB AB FF E8 */	lfd f29, -0x18(r11)
 /* 8015C904 00157E24  CB CB FF F0 */	lfd f30, -0x10(r11)
 /* 8015C908 00157E28  CB EB FF F8 */	lfd f31, -8(r11)
-/* 8015C90C 00157E2C  4E 80 00 20 */	blr 
+/* 8015C90C 00157E2C  4E 80 00 20 */	blr
 
 glabel _savegpr_14
 /* 8015C910 00157E30  91 CB FF B8 */	stw r14, -0x48(r11)
@@ -120,7 +120,7 @@ glabel _savegpr_27
 /* 8015C94C 00157E6C  93 AB FF F4 */	stw r29, -0xc(r11)
 /* 8015C950 00157E70  93 CB FF F8 */	stw r30, -8(r11)
 /* 8015C954 00157E74  93 EB FF FC */	stw r31, -4(r11)
-/* 8015C958 00157E78  4E 80 00 20 */	blr 
+/* 8015C958 00157E78  4E 80 00 20 */	blr
 
 glabel _restgpr_14
 /* 8015C95C 00157E7C  81 CB FF B8 */	lwz r14, -0x48(r11)
@@ -167,7 +167,7 @@ glabel _restgpr_27
 /* 8015C998 00157EB8  83 AB FF F4 */	lwz r29, -0xc(r11)
 /* 8015C99C 00157EBC  83 CB FF F8 */	lwz r30, -8(r11)
 /* 8015C9A0 00157EC0  83 EB FF FC */	lwz r31, -4(r11)
-/* 8015C9A4 00157EC4  4E 80 00 20 */	blr 
+/* 8015C9A4 00157EC4  4E 80 00 20 */	blr
 
 glabel __div2u
 /* 8015C9A8 00157EC8  2C 03 00 00 */	cmpwi r3, 0
@@ -233,11 +233,11 @@ glabel __div2u
 /* 8015CA78 00157F98  42 00 FF D8 */	bdnz .L_8015CA50
 /* 8015CA7C 00157F9C  7C 84 21 14 */	adde r4, r4, r4
 /* 8015CA80 00157FA0  7C 63 19 14 */	adde r3, r3, r3
-/* 8015CA84 00157FA4  4E 80 00 20 */	blr 
+/* 8015CA84 00157FA4  4E 80 00 20 */	blr
 .L_8015CA88:
 /* 8015CA88 00157FA8  38 80 00 00 */	li r4, 0
 /* 8015CA8C 00157FAC  38 60 00 00 */	li r3, 0
-/* 8015CA90 00157FB0  4E 80 00 20 */	blr 
+/* 8015CA90 00157FB0  4E 80 00 20 */	blr
 
 glabel __div2i
 /* 8015CA94 00157FB4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -330,7 +330,7 @@ glabel __div2i
 /* 8015CBC0 001580E0  38 60 00 00 */	li r3, 0
 .L_8015CBC4:
 /* 8015CBC4 001580E4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015CBC8 001580E8  4E 80 00 20 */	blr 
+/* 8015CBC8 001580E8  4E 80 00 20 */	blr
 
 glabel __mod2u
 /* 8015CBCC 001580EC  2C 03 00 00 */	cmpwi r3, 0
@@ -396,9 +396,9 @@ glabel __mod2u
 /* 8015CC9C 001581BC  42 00 FF D8 */	bdnz .L_8015CC74
 /* 8015CCA0 001581C0  7D 04 43 78 */	mr r4, r8
 /* 8015CCA4 001581C4  7C E3 3B 78 */	mr r3, r7
-/* 8015CCA8 001581C8  4E 80 00 20 */	blr 
+/* 8015CCA8 001581C8  4E 80 00 20 */	blr
 .L_8015CCAC:
-/* 8015CCAC 001581CC  4E 80 00 20 */	blr 
+/* 8015CCAC 001581CC  4E 80 00 20 */	blr
 
 glabel __mod2i
 /* 8015CCB0 001581D0  2F 83 00 00 */	cmpwi cr7, r3, 0
@@ -479,7 +479,7 @@ glabel __mod2i
 /* 8015CDB0 001582D0  20 84 00 00 */	subfic r4, r4, 0
 /* 8015CDB4 001582D4  7C 63 01 90 */	subfze r3, r3
 .L_8015CDB8:
-/* 8015CDB8 001582D8  4E 80 00 20 */	blr 
+/* 8015CDB8 001582D8  4E 80 00 20 */	blr
 
 glabel __shl2i
 /* 8015CDBC 001582DC  21 05 00 20 */	subfic r8, r5, 0x20
@@ -490,7 +490,7 @@ glabel __shl2i
 /* 8015CDD0 001582F0  7C 8A 48 30 */	slw r10, r4, r9
 /* 8015CDD4 001582F4  7C 63 53 78 */	or r3, r3, r10
 /* 8015CDD8 001582F8  7C 84 28 30 */	slw r4, r4, r5
-/* 8015CDDC 001582FC  4E 80 00 20 */	blr 
+/* 8015CDDC 001582FC  4E 80 00 20 */	blr
 
 glabel __shr2u
 /* 8015CDE0 00158300  21 05 00 20 */	subfic r8, r5, 0x20
@@ -501,7 +501,7 @@ glabel __shr2u
 /* 8015CDF4 00158314  7C 6A 4C 30 */	srw r10, r3, r9
 /* 8015CDF8 00158318  7C 84 53 78 */	or r4, r4, r10
 /* 8015CDFC 0015831C  7C 63 2C 30 */	srw r3, r3, r5
-/* 8015CE00 00158320  4E 80 00 20 */	blr 
+/* 8015CE00 00158320  4E 80 00 20 */	blr
 
 glabel __shr2i
 /* 8015CE04 00158324  21 05 00 20 */	subfic r8, r5, 0x20
@@ -514,7 +514,7 @@ glabel __shr2i
 /* 8015CE20 00158340  7C 84 53 78 */	or r4, r4, r10
 .L_8015CE24:
 /* 8015CE24 00158344  7C 63 2E 30 */	sraw r3, r3, r5
-/* 8015CE28 00158348  4E 80 00 20 */	blr 
+/* 8015CE28 00158348  4E 80 00 20 */	blr
 
 glabel __cvt_sll_dbl
 /* 8015CE2C 0015834C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -564,7 +564,7 @@ glabel __cvt_sll_dbl
 /* 8015CECC 001583EC  90 81 00 0C */	stw r4, 0xc(r1)
 /* 8015CED0 001583F0  C8 21 00 08 */	lfd f1, 8(r1)
 /* 8015CED4 001583F4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015CED8 001583F8  4E 80 00 20 */	blr 
+/* 8015CED8 001583F8  4E 80 00 20 */	blr
 
 glabel __cvt_sll_flt
 /* 8015CEDC 001583FC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -615,7 +615,7 @@ glabel __cvt_sll_flt
 /* 8015CF80 001584A0  C8 21 00 08 */	lfd f1, 8(r1)
 /* 8015CF84 001584A4  FC 20 08 18 */	frsp f1, f1
 /* 8015CF88 001584A8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015CF8C 001584AC  4E 80 00 20 */	blr 
+/* 8015CF8C 001584AC  4E 80 00 20 */	blr
 
 glabel __cvt_dbl_usll
 /* 8015CF90 001584B0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -674,7 +674,7 @@ glabel __cvt_dbl_usll
 /* 8015D050 00158570  7C 63 01 90 */	subfze r3, r3
 .L_8015D054:
 /* 8015D054 00158574  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015D058 00158578  4E 80 00 20 */	blr 
+/* 8015D058 00158578  4E 80 00 20 */	blr
 
 glabel __cvt_dbl_ull
 /* 8015D05C 0015857C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -723,5 +723,5 @@ glabel __cvt_dbl_ull
 /* 8015D0F8 00158618  7C 84 28 30 */	slw r4, r4, r5
 .L_8015D0FC:
 /* 8015D0FC 0015861C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015D100 00158620  4E 80 00 20 */	blr 
+/* 8015D100 00158620  4E 80 00 20 */	blr
 

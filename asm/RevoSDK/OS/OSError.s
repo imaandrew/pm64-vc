@@ -38,7 +38,7 @@ glabel OSReport
 /* 80091928 0008CE48  83 E1 00 7C */	lwz r31, 0x7c(r1)
 /* 8009192C 0008CE4C  7C 08 03 A6 */	mtlr r0
 /* 80091930 0008CE50  38 21 00 80 */	addi r1, r1, 0x80
-/* 80091934 0008CE54  4E 80 00 20 */	blr 
+/* 80091934 0008CE54  4E 80 00 20 */	blr
 
 glabel OSVReport
 /* 80091938 0008CE58  48 0D 31 24 */	b vprintf
@@ -122,7 +122,7 @@ glabel OSPanic
 /* 80091A58 0008CF78  83 81 00 80 */	lwz r28, 0x80(r1)
 /* 80091A5C 0008CF7C  7C 08 03 A6 */	mtlr r0
 /* 80091A60 0008CF80  38 21 00 90 */	addi r1, r1, 0x90
-/* 80091A64 0008CF84  4E 80 00 20 */	blr 
+/* 80091A64 0008CF84  4E 80 00 20 */	blr
 
 glabel OSSetErrorHandler
 /* 80091A68 0008CF88  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -295,7 +295,7 @@ glabel OSSetErrorHandler
 /* 80091CE0 0008D200  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80091CE4 0008D204  7C 08 03 A6 */	mtlr r0
 /* 80091CE8 0008D208  38 21 00 20 */	addi r1, r1, 0x20
-/* 80091CEC 0008D20C  4E 80 00 20 */	blr 
+/* 80091CEC 0008D20C  4E 80 00 20 */	blr
 
 glabel __OSUnhandledException
 /* 80091CF0 0008D210  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -362,7 +362,7 @@ glabel __OSUnhandledException
 /* 80091DDC 0008D2FC  38 E7 3E 50 */	addi r7, r7, lbl_801B3E50@l
 /* 80091DE0 0008D300  81 87 00 40 */	lwz r12, 0x40(r7)
 /* 80091DE4 0008D304  7D 89 03 A6 */	mtctr r12
-/* 80091DE8 0008D308  4E 80 04 21 */	bctrl 
+/* 80091DE8 0008D308  4E 80 04 21 */	bctrl
 /* 80091DEC 0008D30C  80 9A 01 9C */	lwz r4, 0x19c(r26)
 /* 80091DF0 0008D310  38 60 00 00 */	li r3, 0
 /* 80091DF4 0008D314  38 18 F8 FF */	addi r0, r24, -1793
@@ -399,7 +399,7 @@ glabel __OSUnhandledException
 /* 80091E64 0008D384  4C C6 31 82 */	crclr 6
 /* 80091E68 0008D388  7D 98 B8 2E */	lwzx r12, r24, r23
 /* 80091E6C 0008D38C  7D 89 03 A6 */	mtctr r12
-/* 80091E70 0008D390  4E 80 04 21 */	bctrl 
+/* 80091E70 0008D390  4E 80 04 21 */	bctrl
 /* 80091E74 0008D394  48 00 5D 81 */	bl OSEnableScheduler
 /* 80091E78 0008D398  48 00 62 89 */	bl __OSReschedule
 /* 80091E7C 0008D39C  7F 43 D3 78 */	mr r3, r26
@@ -437,7 +437,7 @@ glabel __OSUnhandledException
 /* 80091EF0 0008D410  38 63 34 FC */	addi r3, r3, lbl_801834FC@l
 /* 80091EF4 0008D414  7C 63 00 2E */	lwzx r3, r3, r0
 /* 80091EF8 0008D418  7C 69 03 A6 */	mtctr r3
-/* 80091EFC 0008D41C  4E 80 04 20 */	bctr 
+/* 80091EFC 0008D41C  4E 80 04 20 */	bctr
 
 glabel lbl_80091F00
 /* 80091F00 0008D420  80 9A 01 98 */	lwz r4, 0x198(r26)
@@ -505,7 +505,7 @@ glabel lbl_80091FA8
 /* 80091FD0 0008D4F0  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80091FD4 0008D4F4  7C 08 03 A6 */	mtlr r0
 /* 80091FD8 0008D4F8  38 21 00 30 */	addi r1, r1, 0x30
-/* 80091FDC 0008D4FC  4E 80 00 20 */	blr 
+/* 80091FDC 0008D4FC  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

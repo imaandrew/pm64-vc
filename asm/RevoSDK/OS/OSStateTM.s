@@ -52,7 +52,7 @@ glabel OSSetResetCallback
 /* 80099788 00094CA8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009978C 00094CAC  7C 08 03 A6 */	mtlr r0
 /* 80099790 00094CB0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80099794 00094CB4  4E 80 00 20 */	blr 
+/* 80099794 00094CB4  4E 80 00 20 */	blr
 
 glabel OSSetPowerCallback
 /* 80099798 00094CB8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -104,7 +104,7 @@ glabel OSSetPowerCallback
 /* 80099844 00094D64  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80099848 00094D68  7C 08 03 A6 */	mtlr r0
 /* 8009984C 00094D6C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80099850 00094D70  4E 80 00 20 */	blr 
+/* 80099850 00094D70  4E 80 00 20 */	blr
 
 glabel __OSInitSTM
 /* 80099854 00094D74  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -182,7 +182,7 @@ glabel __OSInitSTM
 /* 8009995C 00094E7C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80099960 00094E80  7C 08 03 A6 */	mtlr r0
 /* 80099964 00094E84  38 21 00 10 */	addi r1, r1, 0x10
-/* 80099968 00094E88  4E 80 00 20 */	blr 
+/* 80099968 00094E88  4E 80 00 20 */	blr
 
 glabel __OSShutdownToSBY
 /* 8009996C 00094E8C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -316,7 +316,7 @@ glabel __OSSetVIForceDimming
 /* 80099B3C 0009505C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80099B40 00095060  7C 08 03 A6 */	mtlr r0
 /* 80099B44 00095064  38 21 00 20 */	addi r1, r1, 0x20
-/* 80099B48 00095068  4E 80 00 20 */	blr 
+/* 80099B48 00095068  4E 80 00 20 */	blr
 
 glabel __OSUnRegisterStateEvent
 /* 80099B4C 0009506C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -351,19 +351,19 @@ glabel __OSUnRegisterStateEvent
 /* 80099BB4 000950D4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80099BB8 000950D8  7C 08 03 A6 */	mtlr r0
 /* 80099BBC 000950DC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80099BC0 000950E0  4E 80 00 20 */	blr 
+/* 80099BC0 000950E0  4E 80 00 20 */	blr
 
 glabel __OSVIDimReplyHandler
 /* 80099BC4 000950E4  38 00 00 00 */	li r0, 0
 /* 80099BC8 000950E8  38 60 00 00 */	li r3, 0
 /* 80099BCC 000950EC  90 0D 8D 3C */	stw r0, lbl_802471BC@sda21(r13)
-/* 80099BD0 000950F0  4E 80 00 20 */	blr 
+/* 80099BD0 000950F0  4E 80 00 20 */	blr
 
 glabel __OSDefaultResetCallback
-/* 80099BD4 000950F4  4E 80 00 20 */	blr 
+/* 80099BD4 000950F4  4E 80 00 20 */	blr
 
 glabel __OSDefaultPowerCallback
-/* 80099BD8 000950F8  4E 80 00 20 */	blr 
+/* 80099BD8 000950F8  4E 80 00 20 */	blr
 
 glabel __OSStateEventHandler
 /* 80099BDC 000950FC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -407,7 +407,7 @@ glabel __OSStateEventHandler
 /* 80099C68 00095188  90 0D 8D 28 */	stw r0, lbl_802471A8@sda21(r13)
 /* 80099C6C 0009518C  90 8D 8D 44 */	stw r4, lbl_802471C4@sda21(r13)
 /* 80099C70 00095190  7D 89 03 A6 */	mtctr r12
-/* 80099C74 00095194  4E 80 04 21 */	bctrl 
+/* 80099C74 00095194  4E 80 04 21 */	bctrl
 /* 80099C78 00095198  7F E3 FB 78 */	mr r3, r31
 /* 80099C7C 0009519C  4B FF B6 61 */	bl OSRestoreInterrupts
 .L_80099C80:
@@ -448,7 +448,7 @@ glabel __OSStateEventHandler
 /* 80099CFC 0009521C  7C 7F 1B 78 */	mr r31, r3
 /* 80099D00 00095220  90 8D 8D 40 */	stw r4, lbl_802471C0@sda21(r13)
 /* 80099D04 00095224  7D 89 03 A6 */	mtctr r12
-/* 80099D08 00095228  4E 80 04 21 */	bctrl 
+/* 80099D08 00095228  4E 80 04 21 */	bctrl
 /* 80099D0C 0009522C  7F E3 FB 78 */	mr r3, r31
 /* 80099D10 00095230  4B FF B5 CD */	bl OSRestoreInterrupts
 .L_80099D14:
@@ -457,7 +457,7 @@ glabel __OSStateEventHandler
 /* 80099D1C 0009523C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80099D20 00095240  7C 08 03 A6 */	mtlr r0
 /* 80099D24 00095244  38 21 00 10 */	addi r1, r1, 0x10
-/* 80099D28 00095248  4E 80 00 20 */	blr 
+/* 80099D28 00095248  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

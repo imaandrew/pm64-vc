@@ -93,7 +93,7 @@ glabel hidh_conn_reg
 /* 800F3B14 000EF034  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F3B18 000EF038  7C 08 03 A6 */	mtlr r0
 /* 800F3B1C 000EF03C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F3B20 000EF040  4E 80 00 20 */	blr 
+/* 800F3B20 000EF040  4E 80 00 20 */	blr
 
 glabel hidh_conn_disconnect
 /* 800F3B24 000EF044  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -141,7 +141,7 @@ glabel hidh_conn_disconnect
 /* 800F3BB8 000EF0D8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F3BBC 000EF0DC  7C 08 03 A6 */	mtlr r0
 /* 800F3BC0 000EF0E0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F3BC4 000EF0E4  4E 80 00 20 */	blr 
+/* 800F3BC4 000EF0E4  4E 80 00 20 */	blr
 
 glabel hidh_sec_check_complete_term
 /* 800F3BC8 000EF0E8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -225,7 +225,7 @@ glabel hidh_sec_check_complete_term
 /* 800F3CE8 000EF208  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F3CEC 000EF20C  7C 08 03 A6 */	mtlr r0
 /* 800F3CF0 000EF210  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F3CF4 000EF214  4E 80 00 20 */	blr 
+/* 800F3CF4 000EF214  4E 80 00 20 */	blr
 
 glabel hidh_l2cif_connect_ind
 /* 800F3CF8 000EF218  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -391,7 +391,7 @@ glabel hidh_l2cif_connect_ind
 /* 800F3F40 000EF460  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800F3F44 000EF464  7C 08 03 A6 */	mtlr r0
 /* 800F3F48 000EF468  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F3F4C 000EF46C  4E 80 00 20 */	blr 
+/* 800F3F4C 000EF46C  4E 80 00 20 */	blr
 
 glabel hidh_proc_repage_timeout
 /* 800F3F50 000EF470  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -449,7 +449,7 @@ glabel hidh_proc_repage_timeout
 /* 800F401C 000EF53C  7C 07 00 16 */	mulhwu r0, r7, r0
 /* 800F4020 000EF540  54 03 E6 3E */	rlwinm r3, r0, 0x1c, 0x18, 0x1f
 /* 800F4024 000EF544  7D 89 03 A6 */	mtctr r12
-/* 800F4028 000EF548  4E 80 04 21 */	bctrl 
+/* 800F4028 000EF548  4E 80 04 21 */	bctrl
 /* 800F402C 000EF54C  48 00 00 08 */	b .L_800F4034
 .L_800F4030:
 /* 800F4030 000EF550  9B DC 00 10 */	stb r30, 0x10(r28)
@@ -471,7 +471,7 @@ glabel hidh_proc_repage_timeout
 /* 800F406C 000EF58C  7C A7 02 14 */	add r5, r7, r0
 /* 800F4070 000EF590  88 A5 00 0C */	lbz r5, 0xc(r5)
 /* 800F4074 000EF594  7D 89 03 A6 */	mtctr r12
-/* 800F4078 000EF598  4E 80 04 21 */	bctrl 
+/* 800F4078 000EF598  4E 80 04 21 */	bctrl
 /* 800F407C 000EF59C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F4080 000EF5A0  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 800F4084 000EF5A4  83 C1 00 18 */	lwz r30, 0x18(r1)
@@ -479,7 +479,7 @@ glabel hidh_proc_repage_timeout
 /* 800F408C 000EF5AC  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800F4090 000EF5B0  7C 08 03 A6 */	mtlr r0
 /* 800F4094 000EF5B4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F4098 000EF5B8  4E 80 00 20 */	blr 
+/* 800F4098 000EF5B8  4E 80 00 20 */	blr
 
 glabel hidh_sec_check_complete_orig
 /* 800F409C 000EF5BC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -575,7 +575,7 @@ glabel hidh_sec_check_complete_orig
 /* 800F41E8 000EF708  38 A0 02 00 */	li r5, 0x200
 /* 800F41EC 000EF70C  38 C0 00 00 */	li r6, 0
 /* 800F41F0 000EF710  7D 89 03 A6 */	mtctr r12
-/* 800F41F4 000EF714  4E 80 04 21 */	bctrl 
+/* 800F41F4 000EF714  4E 80 04 21 */	bctrl
 /* 800F41F8 000EF718  48 00 00 A0 */	b .L_800F4298
 .L_800F41FC:
 /* 800F41FC 000EF71C  38 00 00 02 */	li r0, 2
@@ -628,7 +628,7 @@ glabel hidh_sec_check_complete_orig
 /* 800F42A0 000EF7C0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F42A4 000EF7C4  7C 08 03 A6 */	mtlr r0
 /* 800F42A8 000EF7C8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F42AC 000EF7CC  4E 80 00 20 */	blr 
+/* 800F42AC 000EF7CC  4E 80 00 20 */	blr
 
 glabel hidh_l2cif_connect_cfm
 /* 800F42B0 000EF7D0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -815,7 +815,7 @@ glabel hidh_l2cif_connect_cfm
 /* 800F4540 000EFA60  38 80 00 01 */	li r4, 1
 /* 800F4544 000EFA64  38 C0 00 00 */	li r6, 0
 /* 800F4548 000EFA68  7D 89 03 A6 */	mtctr r12
-/* 800F454C 000EFA6C  4E 80 04 21 */	bctrl 
+/* 800F454C 000EFA6C  4E 80 04 21 */	bctrl
 /* 800F4550 000EFA70  48 00 00 88 */	b .L_800F45D8
 .L_800F4554:
 /* 800F4554 000EFA74  7C 03 30 40 */	cmplw r3, r6
@@ -861,7 +861,7 @@ glabel hidh_l2cif_connect_cfm
 /* 800F45E8 000EFB08  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800F45EC 000EFB0C  7C 08 03 A6 */	mtlr r0
 /* 800F45F0 000EFB10  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F45F4 000EFB14  4E 80 00 20 */	blr 
+/* 800F45F4 000EFB14  4E 80 00 20 */	blr
 
 glabel hidh_l2cif_config_ind
 /* 800F45F8 000EFB18  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1039,7 +1039,7 @@ glabel hidh_l2cif_config_ind
 /* 800F4870 000EFD90  81 86 03 40 */	lwz r12, 0x340(r6)
 /* 800F4874 000EFD94  38 C0 00 00 */	li r6, 0
 /* 800F4878 000EFD98  7D 89 03 A6 */	mtctr r12
-/* 800F487C 000EFD9C  4E 80 04 21 */	bctrl 
+/* 800F487C 000EFD9C  4E 80 04 21 */	bctrl
 .L_800F4880:
 /* 800F4880 000EFDA0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F4884 000EFDA4  83 E1 00 1C */	lwz r31, 0x1c(r1)
@@ -1048,7 +1048,7 @@ glabel hidh_l2cif_config_ind
 /* 800F4890 000EFDB0  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800F4894 000EFDB4  7C 08 03 A6 */	mtlr r0
 /* 800F4898 000EFDB8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F489C 000EFDBC  4E 80 00 20 */	blr 
+/* 800F489C 000EFDBC  4E 80 00 20 */	blr
 
 glabel hidh_l2cif_config_cfm
 /* 800F48A0 000EFDC0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1220,7 +1220,7 @@ glabel hidh_l2cif_config_cfm
 /* 800F4B00 000F0020  38 80 00 01 */	li r4, 1
 /* 800F4B04 000F0024  38 C0 00 00 */	li r6, 0
 /* 800F4B08 000F0028  7D 89 03 A6 */	mtctr r12
-/* 800F4B0C 000F002C  4E 80 04 21 */	bctrl 
+/* 800F4B0C 000F002C  4E 80 04 21 */	bctrl
 /* 800F4B10 000F0030  48 00 00 84 */	b .L_800F4B94
 .L_800F4B14:
 /* 800F4B14 000F0034  A0 1D 00 04 */	lhz r0, 4(r29)
@@ -1256,14 +1256,14 @@ glabel hidh_l2cif_config_cfm
 /* 800F4B84 000F00A4  81 86 03 40 */	lwz r12, 0x340(r6)
 /* 800F4B88 000F00A8  38 C0 00 00 */	li r6, 0
 /* 800F4B8C 000F00AC  7D 89 03 A6 */	mtctr r12
-/* 800F4B90 000F00B0  4E 80 04 21 */	bctrl 
+/* 800F4B90 000F00B0  4E 80 04 21 */	bctrl
 .L_800F4B94:
 /* 800F4B94 000F00B4  39 61 00 20 */	addi r11, r1, 0x20
 /* 800F4B98 000F00B8  48 06 7D F9 */	bl _restgpr_27
 /* 800F4B9C 000F00BC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F4BA0 000F00C0  7C 08 03 A6 */	mtlr r0
 /* 800F4BA4 000F00C4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F4BA8 000F00C8  4E 80 00 20 */	blr 
+/* 800F4BA8 000F00C8  4E 80 00 20 */	blr
 
 glabel hidh_l2cif_disconnect_ind
 /* 800F4BAC 000F00CC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1451,14 +1451,14 @@ glabel hidh_l2cif_disconnect_ind
 /* 800F4E48 000F0368  81 84 03 40 */	lwz r12, 0x340(r4)
 /* 800F4E4C 000F036C  38 80 00 01 */	li r4, 1
 /* 800F4E50 000F0370  7D 89 03 A6 */	mtctr r12
-/* 800F4E54 000F0374  4E 80 04 21 */	bctrl 
+/* 800F4E54 000F0374  4E 80 04 21 */	bctrl
 .L_800F4E58:
 /* 800F4E58 000F0378  39 61 00 20 */	addi r11, r1, 0x20
 /* 800F4E5C 000F037C  48 06 7B 35 */	bl _restgpr_27
 /* 800F4E60 000F0380  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F4E64 000F0384  7C 08 03 A6 */	mtlr r0
 /* 800F4E68 000F0388  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F4E6C 000F038C  4E 80 00 20 */	blr 
+/* 800F4E6C 000F038C  4E 80 00 20 */	blr
 
 glabel hidh_l2cif_disconnect_cfm
 /* 800F4E70 000F0390  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1610,7 +1610,7 @@ glabel hidh_l2cif_disconnect_cfm
 /* 800F508C 000F05AC  81 87 03 40 */	lwz r12, 0x340(r7)
 /* 800F5090 000F05B0  A0 BE 00 0A */	lhz r5, 0xa(r30)
 /* 800F5094 000F05B4  7D 89 03 A6 */	mtctr r12
-/* 800F5098 000F05B8  4E 80 04 21 */	bctrl 
+/* 800F5098 000F05B8  4E 80 04 21 */	bctrl
 .L_800F509C:
 /* 800F509C 000F05BC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F50A0 000F05C0  83 E1 00 1C */	lwz r31, 0x1c(r1)
@@ -1618,7 +1618,7 @@ glabel hidh_l2cif_disconnect_cfm
 /* 800F50A8 000F05C8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F50AC 000F05CC  7C 08 03 A6 */	mtlr r0
 /* 800F50B0 000F05D0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F50B4 000F05D4  4E 80 00 20 */	blr 
+/* 800F50B4 000F05D4  4E 80 00 20 */	blr
 
 glabel hidh_l2cif_cong_ind
 /* 800F50B8 000F05D8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1757,7 +1757,7 @@ glabel hidh_l2cif_cong_ind
 /* 800F52A0 000F07C0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F52A4 000F07C4  7C 08 03 A6 */	mtlr r0
 /* 800F52A8 000F07C8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F52AC 000F07CC  4E 80 00 20 */	blr 
+/* 800F52AC 000F07CC  4E 80 00 20 */	blr
 
 glabel hidh_l2cif_data_ind
 /* 800F52B0 000F07D0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1905,7 +1905,7 @@ glabel hidh_l2cif_data_ind
 /* 800F54BC 000F09DC  38 80 00 07 */	li r4, 7
 /* 800F54C0 000F09E0  38 C0 00 00 */	li r6, 0
 /* 800F54C4 000F09E4  7D 89 03 A6 */	mtctr r12
-/* 800F54C8 000F09E8  4E 80 04 21 */	bctrl 
+/* 800F54C8 000F09E8  4E 80 04 21 */	bctrl
 /* 800F54CC 000F09EC  7F C3 F3 78 */	mr r3, r30
 /* 800F54D0 000F09F0  4B FE 4A 41 */	bl GKI_freebuf
 /* 800F54D4 000F09F4  48 00 01 58 */	b .L_800F562C
@@ -1959,7 +1959,7 @@ glabel hidh_l2cif_data_ind
 /* 800F5578 000F0A98  38 A0 00 00 */	li r5, 0
 /* 800F557C 000F0A9C  38 C0 00 00 */	li r6, 0
 /* 800F5580 000F0AA0  7D 89 03 A6 */	mtctr r12
-/* 800F5584 000F0AA4  4E 80 04 21 */	bctrl 
+/* 800F5584 000F0AA4  4E 80 04 21 */	bctrl
 .L_800F5588:
 /* 800F5588 000F0AA8  7F C3 F3 78 */	mr r3, r30
 /* 800F558C 000F0AAC  4B FE 49 85 */	bl GKI_freebuf
@@ -1982,7 +1982,7 @@ glabel hidh_l2cif_data_ind
 /* 800F55C8 000F0AE8  81 86 03 40 */	lwz r12, 0x340(r6)
 /* 800F55CC 000F0AEC  7F C6 F3 78 */	mr r6, r30
 /* 800F55D0 000F0AF0  7D 89 03 A6 */	mtctr r12
-/* 800F55D4 000F0AF4  4E 80 04 21 */	bctrl 
+/* 800F55D4 000F0AF4  4E 80 04 21 */	bctrl
 /* 800F55D8 000F0AF8  48 00 00 54 */	b .L_800F562C
 .L_800F55DC:
 /* 800F55DC 000F0AFC  57 E3 06 3E */	clrlwi r3, r31, 0x18
@@ -2002,7 +2002,7 @@ glabel hidh_l2cif_data_ind
 /* 800F5610 000F0B30  81 86 03 40 */	lwz r12, 0x340(r6)
 /* 800F5614 000F0B34  7F C6 F3 78 */	mr r6, r30
 /* 800F5618 000F0B38  7D 89 03 A6 */	mtctr r12
-/* 800F561C 000F0B3C  4E 80 04 21 */	bctrl 
+/* 800F561C 000F0B3C  4E 80 04 21 */	bctrl
 /* 800F5620 000F0B40  48 00 00 0C */	b .L_800F562C
 .L_800F5624:
 /* 800F5624 000F0B44  7F C3 F3 78 */	mr r3, r30
@@ -2014,7 +2014,7 @@ glabel hidh_l2cif_data_ind
 /* 800F5638 000F0B58  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F563C 000F0B5C  7C 08 03 A6 */	mtlr r0
 /* 800F5640 000F0B60  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F5644 000F0B64  4E 80 00 20 */	blr 
+/* 800F5644 000F0B64  4E 80 00 20 */	blr
 
 glabel hidh_conn_snd_data
 /* 800F5648 000F0B68  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -2208,7 +2208,7 @@ glabel hidh_conn_snd_data
 /* 800F58D4 000F0DF4  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 800F58D8 000F0DF8  7C 08 03 A6 */	mtlr r0
 /* 800F58DC 000F0DFC  38 21 00 50 */	addi r1, r1, 0x50
-/* 800F58E0 000F0E00  4E 80 00 20 */	blr 
+/* 800F58E0 000F0E00  4E 80 00 20 */	blr
 glabel lbl_800F58E4
 /* 800F58E4 000F0E04  94 21 FF E0 */	stwu r1, -0x20(r1)
 /* 800F58E8 000F0E08  7C 08 02 A6 */	mflr r0
@@ -2264,7 +2264,7 @@ glabel lbl_800F58E4
 /* 800F59A8 000F0EC8  7C 07 00 16 */	mulhwu r0, r7, r0
 /* 800F59AC 000F0ECC  54 03 E6 3E */	rlwinm r3, r0, 0x1c, 0x18, 0x1f
 /* 800F59B0 000F0ED0  7D 89 03 A6 */	mtctr r12
-/* 800F59B4 000F0ED4  4E 80 04 21 */	bctrl 
+/* 800F59B4 000F0ED4  4E 80 04 21 */	bctrl
 /* 800F59B8 000F0ED8  48 00 00 08 */	b .L_800F59C0
 .L_800F59BC:
 /* 800F59BC 000F0EDC  9B FD 00 10 */	stb r31, 0x10(r29)
@@ -2277,7 +2277,7 @@ glabel lbl_800F58E4
 /* 800F59D0 000F0EF0  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F59D4 000F0EF4  7C 08 03 A6 */	mtlr r0
 /* 800F59D8 000F0EF8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F59DC 000F0EFC  4E 80 00 20 */	blr 
+/* 800F59DC 000F0EFC  4E 80 00 20 */	blr
 
 glabel hidh_conn_dereg
 /* 800F59E0 000F0F00  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2290,7 +2290,7 @@ glabel hidh_conn_dereg
 /* 800F59FC 000F0F1C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F5A00 000F0F20  7C 08 03 A6 */	mtlr r0
 /* 800F5A04 000F0F24  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F5A08 000F0F28  4E 80 00 20 */	blr 
+/* 800F5A08 000F0F28  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -71,7 +71,7 @@ glabel l2c_init
 /* 800F8D44 000F4264  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F8D48 000F4268  7C 08 03 A6 */	mtlr r0
 /* 800F8D4C 000F426C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F8D50 000F4270  4E 80 00 20 */	blr 
+/* 800F8D50 000F4270  4E 80 00 20 */	blr
 
 glabel l2c_rcv_acl_data
 /* 800F8D54 000F4274  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -295,7 +295,7 @@ glabel l2c_rcv_acl_data
 /* 800F9074 000F4594  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800F9078 000F4598  7C 08 03 A6 */	mtlr r0
 /* 800F907C 000F459C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F9080 000F45A0  4E 80 00 20 */	blr 
+/* 800F9080 000F45A0  4E 80 00 20 */	blr
 
 glabel process_l2cap_cmd
 /* 800F9084 000F45A4  94 21 FF 60 */	stwu r1, -0xa0(r1)
@@ -351,7 +351,7 @@ glabel lbl_800F90D0
 /* 800F9140 000F4660  54 E0 10 3A */	slwi r0, r7, 2
 /* 800F9144 000F4664  7C 63 00 2E */	lwzx r3, r3, r0
 /* 800F9148 000F4668  7C 69 03 A6 */	mtctr r3
-/* 800F914C 000F466C  4E 80 04 20 */	bctr 
+/* 800F914C 000F466C  4E 80 04 20 */	bctr
 
 glabel lbl_800F9150
 /* 800F9150 000F4670  88 10 00 05 */	lbz r0, 5(r16)
@@ -988,7 +988,7 @@ glabel lbl_800F9A5C
 /* 800F9A68 000F4F88  93 EF 00 54 */	stw r31, 0x54(r15)
 /* 800F9A6C 000F4F8C  38 60 00 00 */	li r3, 0
 /* 800F9A70 000F4F90  7D 89 03 A6 */	mtctr r12
-/* 800F9A74 000F4F94  4E 80 04 21 */	bctrl 
+/* 800F9A74 000F4F94  4E 80 04 21 */	bctrl
 /* 800F9A78 000F4F98  4B FF F6 58 */	b lbl_800F90D0
 
 glabel lbl_800F9A7C
@@ -1025,7 +1025,7 @@ glabel lbl_800F9AA0
 /* 800F9AE4 000F5004  80 01 00 A4 */	lwz r0, 0xa4(r1)
 /* 800F9AE8 000F5008  7C 08 03 A6 */	mtlr r0
 /* 800F9AEC 000F500C  38 21 00 A0 */	addi r1, r1, 0xa0
-/* 800F9AF0 000F5010  4E 80 00 20 */	blr 
+/* 800F9AF0 000F5010  4E 80 00 20 */	blr
 
 glabel l2c_process_timeout
 /* 800F9AF4 000F5014  A0 03 00 14 */	lhz r0, 0x14(r3)
@@ -1035,11 +1035,11 @@ glabel l2c_process_timeout
 /* 800F9B04 000F5024  2C 00 00 02 */	cmpwi r0, 2
 /* 800F9B08 000F5028  41 82 00 18 */	beq .L_800F9B20
 /* 800F9B0C 000F502C  40 80 00 1C */	bge .L_800F9B28
-/* 800F9B10 000F5030  4E 80 00 20 */	blr 
+/* 800F9B10 000F5030  4E 80 00 20 */	blr
 .L_800F9B14:
 /* 800F9B14 000F5034  2C 00 00 49 */	cmpwi r0, 0x49
-/* 800F9B18 000F5038  4D 82 00 20 */	beqlr 
-/* 800F9B1C 000F503C  4E 80 00 20 */	blr 
+/* 800F9B18 000F5038  4D 82 00 20 */	beqlr
+/* 800F9B1C 000F503C  4E 80 00 20 */	blr
 .L_800F9B20:
 /* 800F9B20 000F5040  80 63 00 10 */	lwz r3, 0x10(r3)
 /* 800F9B24 000F5044  4B FF E4 FC */	b lbl_800F8020
@@ -1051,7 +1051,7 @@ glabel l2c_process_timeout
 .L_800F9B38:
 /* 800F9B38 000F5058  38 60 00 01 */	li r3, 1
 /* 800F9B3C 000F505C  48 00 00 08 */	b l2c_process_held_packets
-/* 800F9B40 000F5060  4E 80 00 20 */	blr 
+/* 800F9B40 000F5060  4E 80 00 20 */	blr
 
 glabel l2c_process_held_packets
 /* 800F9B44 000F5064  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1135,5 +1135,5 @@ glabel l2c_process_held_packets
 /* 800F9C60 000F5180  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F9C64 000F5184  7C 08 03 A6 */	mtlr r0
 /* 800F9C68 000F5188  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F9C6C 000F518C  4E 80 00 20 */	blr 
+/* 800F9C6C 000F518C  4E 80 00 20 */	blr
 

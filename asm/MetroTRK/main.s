@@ -11,7 +11,7 @@ glabel gdev_cc_initinterrupts
 /* 80173C84 0016F1A4  38 60 00 00 */	li r3, 0
 /* 80173C88 0016F1A8  7C 08 03 A6 */	mtlr r0
 /* 80173C8C 0016F1AC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80173C90 0016F1B0  4E 80 00 20 */	blr 
+/* 80173C90 0016F1B0  4E 80 00 20 */	blr
 
 glabel gdev_cc_peek
 /* 80173C94 0016F1B4  94 21 FA F0 */	stwu r1, -0x510(r1)
@@ -45,7 +45,7 @@ glabel gdev_cc_peek
 /* 80173CF4 0016F214  83 E1 05 0C */	lwz r31, 0x50c(r1)
 /* 80173CF8 0016F218  7C 08 03 A6 */	mtlr r0
 /* 80173CFC 0016F21C  38 21 05 10 */	addi r1, r1, 0x510
-/* 80173D00 0016F220  4E 80 00 20 */	blr 
+/* 80173D00 0016F220  4E 80 00 20 */	blr
 
 glabel gdev_cc_post_stop
 /* 80173D04 0016F224  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -56,7 +56,7 @@ glabel gdev_cc_post_stop
 /* 80173D18 0016F238  38 60 00 00 */	li r3, 0
 /* 80173D1C 0016F23C  7C 08 03 A6 */	mtlr r0
 /* 80173D20 0016F240  38 21 00 10 */	addi r1, r1, 0x10
-/* 80173D24 0016F244  4E 80 00 20 */	blr 
+/* 80173D24 0016F244  4E 80 00 20 */	blr
 
 glabel gdev_cc_pre_continue
 /* 80173D28 0016F248  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -67,7 +67,7 @@ glabel gdev_cc_pre_continue
 /* 80173D3C 0016F25C  38 60 00 00 */	li r3, 0
 /* 80173D40 0016F260  7C 08 03 A6 */	mtlr r0
 /* 80173D44 0016F264  38 21 00 10 */	addi r1, r1, 0x10
-/* 80173D48 0016F268  4E 80 00 20 */	blr 
+/* 80173D48 0016F268  4E 80 00 20 */	blr
 
 glabel gdev_cc_write
 /* 80173D4C 0016F26C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -102,7 +102,7 @@ glabel gdev_cc_write
 /* 80173DB0 0016F2D0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80173DB4 0016F2D4  7C 08 03 A6 */	mtlr r0
 /* 80173DB8 0016F2D8  38 21 00 10 */	addi r1, r1, 0x10
-/* 80173DBC 0016F2DC  4E 80 00 20 */	blr 
+/* 80173DBC 0016F2DC  4E 80 00 20 */	blr
 
 glabel gdev_cc_read
 /* 80173DC0 0016F2E0  94 21 FA E0 */	stwu r1, -0x520(r1)
@@ -154,27 +154,27 @@ glabel gdev_cc_read
 /* 80173E64 0016F384  80 01 05 24 */	lwz r0, 0x524(r1)
 /* 80173E68 0016F388  7C 08 03 A6 */	mtlr r0
 /* 80173E6C 0016F38C  38 21 05 20 */	addi r1, r1, 0x520
-/* 80173E70 0016F390  4E 80 00 20 */	blr 
+/* 80173E70 0016F390  4E 80 00 20 */	blr
 
 glabel gdev_cc_close
 /* 80173E74 0016F394  38 60 00 00 */	li r3, 0
-/* 80173E78 0016F398  4E 80 00 20 */	blr 
+/* 80173E78 0016F398  4E 80 00 20 */	blr
 
 glabel gdev_cc_open
 /* 80173E7C 0016F39C  80 0D 93 70 */	lwz r0, lbl_802477F0@sda21(r13)
 /* 80173E80 0016F3A0  2C 00 00 00 */	cmpwi r0, 0
 /* 80173E84 0016F3A4  41 82 00 0C */	beq .L_80173E90
 /* 80173E88 0016F3A8  38 60 D8 EB */	li r3, -10005
-/* 80173E8C 0016F3AC  4E 80 00 20 */	blr 
+/* 80173E8C 0016F3AC  4E 80 00 20 */	blr
 .L_80173E90:
 /* 80173E90 0016F3B0  38 00 00 01 */	li r0, 1
 /* 80173E94 0016F3B4  38 60 00 00 */	li r3, 0
 /* 80173E98 0016F3B8  90 0D 93 70 */	stw r0, lbl_802477F0@sda21(r13)
-/* 80173E9C 0016F3BC  4E 80 00 20 */	blr 
+/* 80173E9C 0016F3BC  4E 80 00 20 */	blr
 
 glabel gdev_cc_shutdown
 /* 80173EA0 0016F3C0  38 60 00 00 */	li r3, 0
-/* 80173EA4 0016F3C4  4E 80 00 20 */	blr 
+/* 80173EA4 0016F3C4  4E 80 00 20 */	blr
 
 glabel gdev_cc_initialize
 /* 80173EA8 0016F3C8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -191,12 +191,12 @@ glabel gdev_cc_initialize
 /* 80173ED4 0016F3F4  38 60 00 00 */	li r3, 0
 /* 80173ED8 0016F3F8  7C 08 03 A6 */	mtlr r0
 /* 80173EDC 0016F3FC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80173EE0 0016F400  4E 80 00 20 */	blr 
+/* 80173EE0 0016F400  4E 80 00 20 */	blr
 
 glabel OutputData
 /* 80173EE4 0016F404  2C 04 00 00 */	cmpwi r4, 0
 /* 80173EE8 0016F408  38 A0 00 00 */	li r5, 0
-/* 80173EEC 0016F40C  4C 81 00 20 */	blelr 
+/* 80173EEC 0016F40C  4C 81 00 20 */	blelr
 /* 80173EF0 0016F410  2C 04 00 08 */	cmpwi r4, 8
 /* 80173EF4 0016F414  38 64 FF F8 */	addi r3, r4, -8
 /* 80173EF8 0016F418  40 81 00 20 */	ble .L_80173F18
@@ -212,10 +212,10 @@ glabel OutputData
 /* 80173F18 0016F438  7C 05 20 50 */	subf r0, r5, r4
 /* 80173F1C 0016F43C  7C 09 03 A6 */	mtctr r0
 /* 80173F20 0016F440  7C 05 20 00 */	cmpw r5, r4
-/* 80173F24 0016F444  4C 80 00 20 */	bgelr 
+/* 80173F24 0016F444  4C 80 00 20 */	bgelr
 .L_80173F28:
 /* 80173F28 0016F448  42 00 00 00 */	bdnz .L_80173F28
-/* 80173F2C 0016F44C  4E 80 00 20 */	blr 
+/* 80173F2C 0016F44C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

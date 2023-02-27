@@ -151,7 +151,7 @@ glabel AllocUsedBlockFromFreeBlock_
 /* 800B7370 000B2890  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B7374 000B2894  7C 08 03 A6 */	mtlr r0
 /* 800B7378 000B2898  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B737C 000B289C  4E 80 00 20 */	blr 
+/* 800B737C 000B289C  4E 80 00 20 */	blr
 
 glabel AllocFromHead_
 /* 800B7380 000B28A0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -214,7 +214,7 @@ glabel AllocFromHead_
 /* 800B744C 000B296C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B7450 000B2970  7C 08 03 A6 */	mtlr r0
 /* 800B7454 000B2974  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B7458 000B2978  4E 80 00 20 */	blr 
+/* 800B7458 000B2978  4E 80 00 20 */	blr
 
 glabel AllocFromTail_
 /* 800B745C 000B297C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -272,7 +272,7 @@ glabel AllocFromTail_
 /* 800B7514 000B2A34  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B7518 000B2A38  7C 08 03 A6 */	mtlr r0
 /* 800B751C 000B2A3C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7520 000B2A40  4E 80 00 20 */	blr 
+/* 800B7520 000B2A40  4E 80 00 20 */	blr
 
 glabel RecycleRegion_
 /* 800B7524 000B2A44  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -383,7 +383,7 @@ glabel RecycleRegion_
 /* 800B7680 000B2BA0  38 60 00 01 */	li r3, 1
 .L_800B7684:
 /* 800B7684 000B2BA4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7688 000B2BA8  4E 80 00 20 */	blr 
+/* 800B7688 000B2BA8  4E 80 00 20 */	blr
 
 glabel MEMCreateExpHeapEx
 /* 800B768C 000B2BAC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -432,7 +432,7 @@ glabel MEMCreateExpHeapEx
 /* 800B772C 000B2C4C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800B7730 000B2C50  7C 08 03 A6 */	mtlr r0
 /* 800B7734 000B2C54  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7738 000B2C58  4E 80 00 20 */	blr 
+/* 800B7738 000B2C58  4E 80 00 20 */	blr
 
 glabel MEMDestroyExpHeap
 /* 800B773C 000B2C5C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -446,7 +446,7 @@ glabel MEMDestroyExpHeap
 /* 800B775C 000B2C7C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B7760 000B2C80  7C 08 03 A6 */	mtlr r0
 /* 800B7764 000B2C84  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7768 000B2C88  4E 80 00 20 */	blr 
+/* 800B7768 000B2C88  4E 80 00 20 */	blr
 
 glabel MEMAllocFromExpHeapEx
 /* 800B776C 000B2C8C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -497,7 +497,7 @@ glabel MEMAllocFromExpHeapEx
 /* 800B780C 000B2D2C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B7810 000B2D30  7C 08 03 A6 */	mtlr r0
 /* 800B7814 000B2D34  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B7818 000B2D38  4E 80 00 20 */	blr 
+/* 800B7818 000B2D38  4E 80 00 20 */	blr
 
 glabel MEMFreeToExpHeap
 /* 800B781C 000B2D3C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -556,5 +556,5 @@ glabel MEMFreeToExpHeap
 /* 800B78D8 000B2DF8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B78DC 000B2DFC  7C 08 03 A6 */	mtlr r0
 /* 800B78E0 000B2E00  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B78E4 000B2E04  4E 80 00 20 */	blr 
+/* 800B78E4 000B2E04  4E 80 00 20 */	blr
 

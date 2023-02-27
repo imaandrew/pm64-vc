@@ -18,7 +18,7 @@ glabel __init_cpp_exceptions_tmp
 /* 8015D130 00158650  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8015D134 00158654  7C 08 03 A6 */	mtlr r0
 /* 8015D138 00158658  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015D13C 0015865C  4E 80 00 20 */	blr 
+/* 8015D13C 0015865C  4E 80 00 20 */	blr
 
 glabel __fini_cpp_exceptions_tmp
 /* 8015D140 00158660  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -34,5 +34,5 @@ glabel __fini_cpp_exceptions_tmp
 /* 8015D164 00158684  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8015D168 00158688  7C 08 03 A6 */	mtlr r0
 /* 8015D16C 0015868C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015D170 00158690  4E 80 00 20 */	blr 
+/* 8015D170 00158690  4E 80 00 20 */	blr
 

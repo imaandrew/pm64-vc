@@ -11,7 +11,7 @@ glabel MWExitCriticalSection
 /* 801741AC 0016F6CC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801741B0 0016F6D0  7C 08 03 A6 */	mtlr r0
 /* 801741B4 0016F6D4  38 21 00 10 */	addi r1, r1, 0x10
-/* 801741B8 0016F6D8  4E 80 00 20 */	blr 
+/* 801741B8 0016F6D8  4E 80 00 20 */	blr
 
 glabel MWEnterCriticalSection
 /* 801741BC 0016F6DC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -25,8 +25,8 @@ glabel MWEnterCriticalSection
 /* 801741DC 0016F6FC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 801741E0 0016F700  7C 08 03 A6 */	mtlr r0
 /* 801741E4 0016F704  38 21 00 10 */	addi r1, r1, 0x10
-/* 801741E8 0016F708  4E 80 00 20 */	blr 
+/* 801741E8 0016F708  4E 80 00 20 */	blr
 
 glabel MWInitializeCriticalSection
-/* 801741EC 0016F70C  4E 80 00 20 */	blr 
+/* 801741EC 0016F70C  4E 80 00 20 */	blr
 

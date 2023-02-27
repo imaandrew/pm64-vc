@@ -9,7 +9,7 @@ glabel SIBusy
 /* 8009CD14 00098234  38 04 00 01 */	addi r0, r4, 1
 /* 8009CD18 00098238  7C 60 03 78 */	or r0, r3, r0
 /* 8009CD1C 0009823C  54 03 0F FE */	srwi r3, r0, 0x1f
-/* 8009CD20 00098240  4E 80 00 20 */	blr 
+/* 8009CD20 00098240  4E 80 00 20 */	blr
 
 glabel SIIsChanBusy
 /* 8009CD24 00098244  3C 80 80 1C */	lis r4, lbl_801C57C0@ha
@@ -27,7 +27,7 @@ glabel SIIsChanBusy
 /* 8009CD50 00098270  38 A0 00 01 */	li r5, 1
 .L_8009CD54:
 /* 8009CD54 00098274  7C A3 2B 78 */	mr r3, r5
-/* 8009CD58 00098278  4E 80 00 20 */	blr 
+/* 8009CD58 00098278  4E 80 00 20 */	blr
 
 glabel CompleteTransfer
 /* 8009CD5C 0009827C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -230,7 +230,7 @@ glabel CompleteTransfer
 /* 8009D040 00098560  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009D044 00098564  7C 08 03 A6 */	mtlr r0
 /* 8009D048 00098568  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009D04C 0009856C  4E 80 00 20 */	blr 
+/* 8009D04C 0009856C  4E 80 00 20 */	blr
 
 glabel SIInterruptHandler
 /* 8009D050 00098570  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -309,7 +309,7 @@ glabel SIInterruptHandler
 /* 8009D168 00098688  7E E4 BB 78 */	mr r4, r23
 /* 8009D16C 0009868C  7F E5 FB 78 */	mr r5, r31
 /* 8009D170 00098690  7D 89 03 A6 */	mtctr r12
-/* 8009D174 00098694  4E 80 04 21 */	bctrl 
+/* 8009D174 00098694  4E 80 04 21 */	bctrl
 .L_8009D178:
 /* 8009D178 00098698  3C A0 CD 00 */	lis r5, 0xCD006438@ha
 /* 8009D17C 0009869C  3C 60 80 19 */	lis r3, lbl_80190378@ha
@@ -490,7 +490,7 @@ glabel SIInterruptHandler
 /* 8009D404 00098924  7F C3 F3 78 */	mr r3, r30
 /* 8009D408 00098928  7F E4 FB 78 */	mr r4, r31
 /* 8009D40C 0009892C  7D 89 03 A6 */	mtctr r12
-/* 8009D410 00098930  4E 80 04 21 */	bctrl 
+/* 8009D410 00098930  4E 80 04 21 */	bctrl
 .L_8009D414:
 /* 8009D414 00098934  3A 52 00 01 */	addi r18, r18, 1
 /* 8009D418 00098938  3A 31 00 04 */	addi r17, r17, 4
@@ -502,7 +502,7 @@ glabel SIInterruptHandler
 /* 8009D42C 0009894C  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 8009D430 00098950  7C 08 03 A6 */	mtlr r0
 /* 8009D434 00098954  38 21 00 50 */	addi r1, r1, 0x50
-/* 8009D438 00098958  4E 80 00 20 */	blr 
+/* 8009D438 00098958  4E 80 00 20 */	blr
 
 glabel SIEnablePollingInterrupt
 /* 8009D43C 0009895C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -536,7 +536,7 @@ glabel SIEnablePollingInterrupt
 /* 8009D4A4 000989C4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009D4A8 000989C8  7C 08 03 A6 */	mtlr r0
 /* 8009D4AC 000989CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009D4B0 000989D0  4E 80 00 20 */	blr 
+/* 8009D4B0 000989D0  4E 80 00 20 */	blr
 
 glabel PADSetSamplingCallback
 /* 8009D4B4 000989D4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -601,7 +601,7 @@ glabel PADSetSamplingCallback
 /* 8009D58C 00098AAC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8009D590 00098AB0  7C 08 03 A6 */	mtlr r0
 /* 8009D594 00098AB4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009D598 00098AB8  4E 80 00 20 */	blr 
+/* 8009D598 00098AB8  4E 80 00 20 */	blr
 
 glabel SIInit
 /* 8009D59C 00098ABC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -653,7 +653,7 @@ glabel SIInit
 /* 8009D64C 00098B6C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009D650 00098B70  7C 08 03 A6 */	mtlr r0
 /* 8009D654 00098B74  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009D658 00098B78  4E 80 00 20 */	blr 
+/* 8009D658 00098B78  4E 80 00 20 */	blr
 
 glabel __SITransfer
 /* 8009D65C 00098B7C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -769,7 +769,7 @@ glabel __SITransfer
 /* 8009D7FC 00098D1C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009D800 00098D20  7C 08 03 A6 */	mtlr r0
 /* 8009D804 00098D24  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009D808 00098D28  4E 80 00 20 */	blr 
+/* 8009D808 00098D28  4E 80 00 20 */	blr
 
 glabel SIGetStatus
 /* 8009D80C 00098D2C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -802,14 +802,14 @@ glabel SIGetStatus
 /* 8009D874 00098D94  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009D878 00098D98  7C 08 03 A6 */	mtlr r0
 /* 8009D87C 00098D9C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009D880 00098DA0  4E 80 00 20 */	blr 
+/* 8009D880 00098DA0  4E 80 00 20 */	blr
 
 glabel SISetCommand
 /* 8009D884 00098DA4  1C 63 00 0C */	mulli r3, r3, 0xc
 /* 8009D888 00098DA8  3C 00 CD 00 */	lis r0, 0xcd00
 /* 8009D88C 00098DAC  7C 60 1A 14 */	add r3, r0, r3
 /* 8009D890 00098DB0  90 83 64 00 */	stw r4, 0x6400(r3)
-/* 8009D894 00098DB4  4E 80 00 20 */	blr 
+/* 8009D894 00098DB4  4E 80 00 20 */	blr
 
 glabel SISetXY
 /* 8009D898 00098DB8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -834,7 +834,7 @@ glabel SISetXY
 /* 8009D8E4 00098E04  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009D8E8 00098E08  7C 08 03 A6 */	mtlr r0
 /* 8009D8EC 00098E0C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009D8F0 00098E10  4E 80 00 20 */	blr 
+/* 8009D8F0 00098E10  4E 80 00 20 */	blr
 
 glabel SIEnablePolling
 /* 8009D8F4 00098E14  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -872,7 +872,7 @@ glabel SIEnablePolling
 /* 8009D96C 00098E8C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8009D970 00098E90  7C 08 03 A6 */	mtlr r0
 /* 8009D974 00098E94  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009D978 00098E98  4E 80 00 20 */	blr 
+/* 8009D978 00098E98  4E 80 00 20 */	blr
 
 glabel SIDisablePolling
 /* 8009D97C 00098E9C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -903,7 +903,7 @@ glabel SIDisablePolling
 /* 8009D9D8 00098EF8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8009D9DC 00098EFC  7C 08 03 A6 */	mtlr r0
 /* 8009D9E0 00098F00  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009D9E4 00098F04  4E 80 00 20 */	blr 
+/* 8009D9E4 00098F04  4E 80 00 20 */	blr
 
 glabel SIGetResponse
 /* 8009D9E8 00098F08  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -981,7 +981,7 @@ glabel SIGetResponse
 /* 8009DAFC 0009901C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009DB00 00099020  7C 08 03 A6 */	mtlr r0
 /* 8009DB04 00099024  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009DB08 00099028  4E 80 00 20 */	blr 
+/* 8009DB08 00099028  4E 80 00 20 */	blr
 
 glabel AlarmHandler
 /* 8009DB0C 0009902C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1019,7 +1019,7 @@ glabel AlarmHandler
 /* 8009DB88 000990A8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8009DB8C 000990AC  7C 08 03 A6 */	mtlr r0
 /* 8009DB90 000990B0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009DB94 000990B4  4E 80 00 20 */	blr 
+/* 8009DB94 000990B4  4E 80 00 20 */	blr
 
 glabel SITransfer
 /* 8009DB98 000990B8  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1119,7 +1119,7 @@ glabel SITransfer
 /* 8009DCF4 00099214  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8009DCF8 00099218  7C 08 03 A6 */	mtlr r0
 /* 8009DCFC 0009921C  38 21 00 40 */	addi r1, r1, 0x40
-/* 8009DD00 00099220  4E 80 00 20 */	blr 
+/* 8009DD00 00099220  4E 80 00 20 */	blr
 
 glabel GetTypeCallback
 /* 8009DD04 00099224  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1179,7 +1179,7 @@ glabel GetTypeCallback
 /* 8009DDD4 000992F4  7F 84 E3 78 */	mr r4, r28
 /* 8009DDD8 000992F8  93 7E 00 00 */	stw r27, 0(r30)
 /* 8009DDDC 000992FC  7D 89 03 A6 */	mtctr r12
-/* 8009DDE0 00099300  4E 80 04 21 */	bctrl 
+/* 8009DDE0 00099300  4E 80 04 21 */	bctrl
 .L_8009DDE4:
 /* 8009DDE4 00099304  3B BD 00 01 */	addi r29, r29, 1
 /* 8009DDE8 00099308  3B DE 00 04 */	addi r30, r30, 4
@@ -1293,7 +1293,7 @@ glabel GetTypeCallback
 /* 8009DF7C 0009949C  7F 84 E3 78 */	mr r4, r28
 /* 8009DF80 000994A0  93 7E 00 00 */	stw r27, 0(r30)
 /* 8009DF84 000994A4  7D 89 03 A6 */	mtctr r12
-/* 8009DF88 000994A8  4E 80 04 21 */	bctrl 
+/* 8009DF88 000994A8  4E 80 04 21 */	bctrl
 .L_8009DF8C:
 /* 8009DF8C 000994AC  3B BD 00 01 */	addi r29, r29, 1
 /* 8009DF90 000994B0  3B DE 00 04 */	addi r30, r30, 4
@@ -1305,7 +1305,7 @@ glabel GetTypeCallback
 /* 8009DFA4 000994C4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009DFA8 000994C8  7C 08 03 A6 */	mtlr r0
 /* 8009DFAC 000994CC  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009DFB0 000994D0  4E 80 00 20 */	blr 
+/* 8009DFB0 000994D0  4E 80 00 20 */	blr
 
 glabel SIGetType
 /* 8009DFB4 000994D4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1422,7 +1422,7 @@ glabel SIGetType
 /* 8009E158 00099678  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009E15C 0009967C  7C 08 03 A6 */	mtlr r0
 /* 8009E160 00099680  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009E164 00099684  4E 80 00 20 */	blr 
+/* 8009E164 00099684  4E 80 00 20 */	blr
 
 glabel SIGetTypeAsync
 /* 8009E168 00099688  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1485,7 +1485,7 @@ glabel SIGetTypeAsync
 /* 8009E23C 0009975C  7F 83 E3 78 */	mr r3, r28
 /* 8009E240 00099760  7F C4 F3 78 */	mr r4, r30
 /* 8009E244 00099764  7D 89 03 A6 */	mtctr r12
-/* 8009E248 00099768  4E 80 04 21 */	bctrl 
+/* 8009E248 00099768  4E 80 04 21 */	bctrl
 .L_8009E24C:
 /* 8009E24C 0009976C  7F E3 FB 78 */	mr r3, r31
 /* 8009E250 00099770  4B FF 70 8D */	bl OSRestoreInterrupts
@@ -1497,7 +1497,7 @@ glabel SIGetTypeAsync
 /* 8009E268 00099788  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009E26C 0009978C  7C 08 03 A6 */	mtlr r0
 /* 8009E270 00099790  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009E274 00099794  4E 80 00 20 */	blr 
+/* 8009E274 00099794  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

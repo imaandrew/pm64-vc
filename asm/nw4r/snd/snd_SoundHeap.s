@@ -20,7 +20,7 @@ glabel __ct__Q36nw4hbm3snd9SoundHeapFv
 /* 8013C8F4 00137E14  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013C8F8 00137E18  7C 08 03 A6 */	mtlr r0
 /* 8013C8FC 00137E1C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C900 00137E20  4E 80 00 20 */	blr 
+/* 8013C900 00137E20  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3snd9SoundHeapFv
 /* 8013C904 00137E24  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -51,7 +51,7 @@ glabel __dt__Q36nw4hbm3snd9SoundHeapFv
 /* 8013C964 00137E84  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013C968 00137E88  7C 08 03 A6 */	mtlr r0
 /* 8013C96C 00137E8C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C970 00137E90  4E 80 00 20 */	blr 
+/* 8013C970 00137E90  4E 80 00 20 */	blr
 
 glabel Create__Q36nw4hbm3snd9SoundHeapFPvUl
 /* 8013C974 00137E94  38 63 00 1C */	addi r3, r3, 0x1c
@@ -89,7 +89,7 @@ glabel Alloc__Q36nw4hbm3snd9SoundHeapFUl
 /* 8013C9E4 00137F04  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8013C9E8 00137F08  7C 08 03 A6 */	mtlr r0
 /* 8013C9EC 00137F0C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8013C9F0 00137F10  4E 80 00 20 */	blr 
+/* 8013C9F0 00137F10  4E 80 00 20 */	blr
 
 glabel DisposeCallbackFunc__Q36nw4hbm3snd9SoundHeapFPvUlPv
 /* 8013C9F4 00137F14  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -112,5 +112,5 @@ glabel DisposeCallbackFunc__Q36nw4hbm3snd9SoundHeapFPvUlPv
 /* 8013CA38 00137F58  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8013CA3C 00137F5C  7C 08 03 A6 */	mtlr r0
 /* 8013CA40 00137F60  38 21 00 20 */	addi r1, r1, 0x20
-/* 8013CA44 00137F64  4E 80 00 20 */	blr 
+/* 8013CA44 00137F64  4E 80 00 20 */	blr
 

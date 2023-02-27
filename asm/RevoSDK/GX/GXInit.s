@@ -70,19 +70,19 @@ glabel __GXDefaultTexRegionCallback
 /* 800A3610 0009EB30  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800A3614 0009EB34  7C 08 03 A6 */	mtlr r0
 /* 800A3618 0009EB38  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A361C 0009EB3C  4E 80 00 20 */	blr 
+/* 800A361C 0009EB3C  4E 80 00 20 */	blr
 
 glabel __GXDefaultTlutRegionCallback
 /* 800A3620 0009EB40  28 03 00 14 */	cmplwi r3, 0x14
 /* 800A3624 0009EB44  41 80 00 0C */	blt .L_800A3630
 /* 800A3628 0009EB48  38 60 00 00 */	li r3, 0
-/* 800A362C 0009EB4C  4E 80 00 20 */	blr 
+/* 800A362C 0009EB4C  4E 80 00 20 */	blr
 .L_800A3630:
 /* 800A3630 0009EB50  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
 /* 800A3634 0009EB54  54 60 20 36 */	slwi r0, r3, 4
 /* 800A3638 0009EB58  7C 64 02 14 */	add r3, r4, r0
 /* 800A363C 0009EB5C  38 63 03 D8 */	addi r3, r3, 0x3d8
-/* 800A3640 0009EB60  4E 80 00 20 */	blr 
+/* 800A3640 0009EB60  4E 80 00 20 */	blr
 
 glabel __GXShutdown
 /* 800A3644 0009EB64  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -182,7 +182,7 @@ glabel __GXShutdown
 /* 800A37A0 0009ECC0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800A37A4 0009ECC4  7C 08 03 A6 */	mtlr r0
 /* 800A37A8 0009ECC8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A37AC 0009ECCC  4E 80 00 20 */	blr 
+/* 800A37AC 0009ECCC  4E 80 00 20 */	blr
 
 glabel __GXInitRevisionBits
 /* 800A37B0 0009ECD0  38 00 00 02 */	li r0, 2
@@ -261,7 +261,7 @@ glabel __GXInitRevisionBits
 /* 800A38D0 0009EDF0  90 C7 80 00 */	stw r6, -0x8000(r7)
 /* 800A38D4 0009EDF4  98 07 80 00 */	stb r0, -0x8000(r7)
 /* 800A38D8 0009EDF8  90 87 80 00 */	stw r4, -0x8000(r7)
-/* 800A38DC 0009EDFC  4E 80 00 20 */	blr 
+/* 800A38DC 0009EDFC  4E 80 00 20 */	blr
 
 glabel GXInit
 /* 800A38E0 0009EE00  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -590,7 +590,7 @@ glabel GXInit
 /* 800A3DD4 0009F2F4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800A3DD8 0009F2F8  7C 08 03 A6 */	mtlr r0
 /* 800A3DDC 0009F2FC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A3DE0 0009F300  4E 80 00 20 */	blr 
+/* 800A3DE0 0009F300  4E 80 00 20 */	blr
 
 glabel __GXInitGX
 /* 800A3DE4 0009F304  94 21 FF 60 */	stwu r1, -0xa0(r1)
@@ -1185,7 +1185,7 @@ glabel __GXInitGX
 /* 800A46E4 0009FC04  83 81 00 90 */	lwz r28, 0x90(r1)
 /* 800A46E8 0009FC08  7C 08 03 A6 */	mtlr r0
 /* 800A46EC 0009FC0C  38 21 00 A0 */	addi r1, r1, 0xa0
-/* 800A46F0 0009FC10  4E 80 00 20 */	blr 
+/* 800A46F0 0009FC10  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

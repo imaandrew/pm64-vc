@@ -77,7 +77,7 @@ glabel __OSLoadFPUContext
 /* 8009113C 0008C65C  CB C4 01 80 */	lfd f30, 0x180(r4)
 /* 80091140 0008C660  CB E4 01 88 */	lfd f31, 0x188(r4)
 .L_80091144:
-/* 80091144 0008C664  4E 80 00 20 */	blr 
+/* 80091144 0008C664  4E 80 00 20 */	blr
 
 glabel __OSSaveFPUContext
 /* 80091148 0008C668  A0 65 01 A2 */	lhz r3, 0x1a2(r5)
@@ -154,7 +154,7 @@ glabel __OSSaveFPUContext
 /* 80091264 0008C784  F3 C5 02 B8 */	psq_st f30, 696(r5), 0, qr0
 /* 80091268 0008C788  F3 E5 02 C0 */	psq_st f31, 704(r5), 0, qr0
 .L_8009126C:
-/* 8009126C 0008C78C  4E 80 00 20 */	blr 
+/* 8009126C 0008C78C  4E 80 00 20 */	blr
 
 glabel OSSaveFPUContext
 /* 80091270 0008C790  38 A3 00 00 */	addi r5, r3, 0
@@ -174,7 +174,7 @@ glabel OSSetCurrentContext
 /* 800912A0 0008C7C0  7C C0 00 A6 */	mfmsr r6
 /* 800912A4 0008C7C4  60 C6 00 02 */	ori r6, r6, 2
 /* 800912A8 0008C7C8  7C C0 01 24 */	mtmsr r6
-/* 800912AC 0008C7CC  4E 80 00 20 */	blr 
+/* 800912AC 0008C7CC  4E 80 00 20 */	blr
 .L_800912B0:
 /* 800912B0 0008C7D0  80 C3 01 9C */	lwz r6, 0x19c(r3)
 /* 800912B4 0008C7D4  54 C6 04 E2 */	rlwinm r6, r6, 0, 0x13, 0x11
@@ -183,13 +183,13 @@ glabel OSSetCurrentContext
 /* 800912C0 0008C7E0  54 C6 04 E2 */	rlwinm r6, r6, 0, 0x13, 0x11
 /* 800912C4 0008C7E4  60 C6 00 02 */	ori r6, r6, 2
 /* 800912C8 0008C7E8  7C C0 01 24 */	mtmsr r6
-/* 800912CC 0008C7EC  4C 00 01 2C */	isync 
-/* 800912D0 0008C7F0  4E 80 00 20 */	blr 
+/* 800912CC 0008C7EC  4C 00 01 2C */	isync
+/* 800912D0 0008C7F0  4E 80 00 20 */	blr
 
 glabel OSGetCurrentContext
 /* 800912D4 0008C7F4  3C 60 80 00 */	lis r3, 0x800000D4@ha
 /* 800912D8 0008C7F8  80 63 00 D4 */	lwz r3, 0x800000D4@l(r3)
-/* 800912DC 0008C7FC  4E 80 00 20 */	blr 
+/* 800912DC 0008C7FC  4E 80 00 20 */	blr
 
 glabel OSSaveContext
 /* 800912E0 0008C800  BD A3 00 34 */	stmw r13, 0x34(r3)
@@ -223,7 +223,7 @@ glabel OSSaveContext
 /* 80091350 0008C870  38 00 00 01 */	li r0, 1
 /* 80091354 0008C874  90 03 00 0C */	stw r0, 0xc(r3)
 /* 80091358 0008C878  38 60 00 00 */	li r3, 0
-/* 8009135C 0008C87C  4E 80 00 20 */	blr 
+/* 8009135C 0008C87C  4E 80 00 20 */	blr
 
 glabel OSLoadContext
 /* 80091360 0008C880  3C 80 80 09 */	lis r4, OSDisableInterrupts@ha
@@ -282,11 +282,11 @@ glabel OSLoadContext
 /* 80091428 0008C948  7C 9B 03 A6 */	mtspr 0x1b, r4
 /* 8009142C 0008C94C  80 83 00 10 */	lwz r4, 0x10(r3)
 /* 80091430 0008C950  80 63 00 0C */	lwz r3, 0xc(r3)
-/* 80091434 0008C954  4C 00 00 64 */	rfi 
+/* 80091434 0008C954  4C 00 00 64 */	rfi
 
 glabel OSGetStackPointer
 /* 80091438 0008C958  7C 23 0B 78 */	mr r3, r1
-/* 8009143C 0008C95C  4E 80 00 20 */	blr 
+/* 8009143C 0008C95C  4E 80 00 20 */	blr
 
 glabel OSSwitchFiber
 /* 80091440 0008C960  7C 08 02 A6 */	mflr r0
@@ -295,12 +295,12 @@ glabel OSSwitchFiber
 /* 8009144C 0008C96C  7C 81 23 78 */	mr r1, r4
 /* 80091450 0008C970  90 05 00 04 */	stw r0, 4(r5)
 /* 80091454 0008C974  7C 68 03 A6 */	mtlr r3
-/* 80091458 0008C978  4E 80 00 21 */	blrl 
+/* 80091458 0008C978  4E 80 00 21 */	blrl
 /* 8009145C 0008C97C  80 A1 00 00 */	lwz r5, 0(r1)
 /* 80091460 0008C980  80 05 00 04 */	lwz r0, 4(r5)
 /* 80091464 0008C984  7C 08 03 A6 */	mtlr r0
 /* 80091468 0008C988  7C A1 2B 78 */	mr r1, r5
-/* 8009146C 0008C98C  4E 80 00 20 */	blr 
+/* 8009146C 0008C98C  4E 80 00 20 */	blr
 
 glabel OSSwitchFiberEx
 /* 80091470 0008C990  7C 08 02 A6 */	mflr r0
@@ -309,12 +309,12 @@ glabel OSSwitchFiberEx
 /* 8009147C 0008C99C  7D 01 43 78 */	mr r1, r8
 /* 80091480 0008C9A0  90 09 00 04 */	stw r0, 4(r9)
 /* 80091484 0008C9A4  7C E8 03 A6 */	mtlr r7
-/* 80091488 0008C9A8  4E 80 00 21 */	blrl 
+/* 80091488 0008C9A8  4E 80 00 21 */	blrl
 /* 8009148C 0008C9AC  80 A1 00 00 */	lwz r5, 0(r1)
 /* 80091490 0008C9B0  80 05 00 04 */	lwz r0, 4(r5)
 /* 80091494 0008C9B4  7C 08 03 A6 */	mtlr r0
 /* 80091498 0008C9B8  7C A1 2B 78 */	mr r1, r5
-/* 8009149C 0008C9BC  4E 80 00 20 */	blr 
+/* 8009149C 0008C9BC  4E 80 00 20 */	blr
 
 glabel OSClearContext
 /* 800914A0 0008C9C0  38 A0 00 00 */	li r5, 0
@@ -323,9 +323,9 @@ glabel OSClearContext
 /* 800914AC 0008C9CC  B0 A3 01 A2 */	sth r5, 0x1a2(r3)
 /* 800914B0 0008C9D0  80 04 00 D8 */	lwz r0, 0x800000D8@l(r4)
 /* 800914B4 0008C9D4  7C 03 00 40 */	cmplw r3, r0
-/* 800914B8 0008C9D8  4C 82 00 20 */	bnelr 
+/* 800914B8 0008C9D8  4C 82 00 20 */	bnelr
 /* 800914BC 0008C9DC  90 A4 00 D8 */	stw r5, 0xd8(r4)
-/* 800914C0 0008C9E0  4E 80 00 20 */	blr 
+/* 800914C0 0008C9E0  4E 80 00 20 */	blr
 
 glabel OSInitContext
 /* 800914C4 0008C9E4  90 83 01 98 */	stw r4, 0x198(r3)
@@ -538,13 +538,13 @@ glabel OSDumpContext
 /* 800917D0 0008CCF0  80 01 02 F4 */	lwz r0, 0x2f4(r1)
 /* 800917D4 0008CCF4  7C 08 03 A6 */	mtlr r0
 /* 800917D8 0008CCF8  38 21 02 F0 */	addi r1, r1, 0x2f0
-/* 800917DC 0008CCFC  4E 80 00 20 */	blr 
+/* 800917DC 0008CCFC  4E 80 00 20 */	blr
 
 glabel OSSwitchFPUContext
 /* 800917E0 0008CD00  7C A0 00 A6 */	mfmsr r5
 /* 800917E4 0008CD04  60 A5 20 00 */	ori r5, r5, 0x2000
 /* 800917E8 0008CD08  7C A0 01 24 */	mtmsr r5
-/* 800917EC 0008CD0C  4C 00 01 2C */	isync 
+/* 800917EC 0008CD0C  4C 00 01 2C */	isync
 /* 800917F0 0008CD10  80 A4 01 9C */	lwz r5, 0x19c(r4)
 /* 800917F4 0008CD14  60 A5 20 00 */	ori r5, r5, 0x2000
 /* 800917F8 0008CD18  7C BB 03 A6 */	mtspr 0x1b, r5
@@ -575,7 +575,7 @@ glabel OSSwitchFPUContext
 /* 80091854 0008CD74  80 A4 00 14 */	lwz r5, 0x14(r4)
 /* 80091858 0008CD78  80 64 00 0C */	lwz r3, 0xc(r4)
 /* 8009185C 0008CD7C  80 84 00 10 */	lwz r4, 0x10(r4)
-/* 80091860 0008CD80  4C 00 00 64 */	rfi 
+/* 80091860 0008CD80  4C 00 00 64 */	rfi
 
 glabel __OSContextInit
 /* 80091864 0008CD84  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -595,5 +595,5 @@ glabel __OSContextInit
 /* 8009189C 0008CDBC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800918A0 0008CDC0  7C 08 03 A6 */	mtlr r0
 /* 800918A4 0008CDC4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800918A8 0008CDC8  4E 80 00 20 */	blr 
+/* 800918A8 0008CDC8  4E 80 00 20 */	blr
 

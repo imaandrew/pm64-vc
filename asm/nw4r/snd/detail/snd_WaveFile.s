@@ -4,7 +4,7 @@
 
 glabel __ct__Q46nw4hbm3snd6detail14WaveFileReaderFPCQ56nw4hbm3snd6detail8WaveFile8WaveInfo
 /* 80143250 0013E770  90 83 00 00 */	stw r4, 0(r3)
-/* 80143254 0013E774  4E 80 00 20 */	blr 
+/* 80143254 0013E774  4E 80 00 20 */	blr
 
 glabel ReadWaveParam__Q46nw4hbm3snd6detail14WaveFileReaderCFPQ46nw4hbm3snd6detail8WaveDataPCv
 /* 80143258 0013E778  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -151,5 +151,5 @@ glabel ReadWaveParam__Q46nw4hbm3snd6detail14WaveFileReaderCFPQ46nw4hbm3snd6detai
 /* 80143470 0013E990  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80143474 0013E994  7C 08 03 A6 */	mtlr r0
 /* 80143478 0013E998  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014347C 0013E99C  4E 80 00 20 */	blr 
+/* 8014347C 0013E99C  4E 80 00 20 */	blr
 

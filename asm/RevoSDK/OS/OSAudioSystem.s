@@ -145,7 +145,7 @@ glabel __AIClockInit
 /* 80090988 0008BEA8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8009098C 0008BEAC  7C 08 03 A6 */	mtlr r0
 /* 80090990 0008BEB0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80090994 0008BEB4  4E 80 00 20 */	blr 
+/* 80090994 0008BEB4  4E 80 00 20 */	blr
 
 glabel __OSInitAudioSystem
 /* 80090998 0008BEB8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -273,7 +273,7 @@ glabel __OSInitAudioSystem
 /* 80090B50 0008C070  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80090B54 0008C074  7C 08 03 A6 */	mtlr r0
 /* 80090B58 0008C078  38 21 00 10 */	addi r1, r1, 0x10
-/* 80090B5C 0008C07C  4E 80 00 20 */	blr 
+/* 80090B5C 0008C07C  4E 80 00 20 */	blr
 
 glabel __OSStopAudioSystem
 /* 80090B60 0008C080  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -334,5 +334,5 @@ glabel __OSStopAudioSystem
 /* 80090C1C 0008C13C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80090C20 0008C140  7C 08 03 A6 */	mtlr r0
 /* 80090C24 0008C144  38 21 00 10 */	addi r1, r1, 0x10
-/* 80090C28 0008C148  4E 80 00 20 */	blr 
+/* 80090C28 0008C148  4E 80 00 20 */	blr
 

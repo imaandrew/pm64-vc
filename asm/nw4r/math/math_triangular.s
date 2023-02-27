@@ -34,7 +34,7 @@ glabel SinFIdx__Q26nw4hbm4mathFf
 /* 801263BC 001218DC  FC 20 08 50 */	fneg f1, f1
 .L_801263C0:
 /* 801263C0 001218E0  38 21 00 10 */	addi r1, r1, 0x10
-/* 801263C4 001218E4  4E 80 00 20 */	blr 
+/* 801263C4 001218E4  4E 80 00 20 */	blr
 
 glabel CosFIdx__Q26nw4hbm4mathFf
 /* 801263C8 001218E8  3C 60 80 17 */	lis r3, lbl_80176590@ha
@@ -62,7 +62,7 @@ glabel CosFIdx__Q26nw4hbm4mathFf
 /* 80126418 00121938  EC 22 00 72 */	fmuls f1, f2, f1
 /* 8012641C 0012193C  EC 20 08 2A */	fadds f1, f0, f1
 /* 80126420 00121940  38 21 00 10 */	addi r1, r1, 0x10
-/* 80126424 00121944  4E 80 00 20 */	blr 
+/* 80126424 00121944  4E 80 00 20 */	blr
 
 glabel Atan2FIdx__Q26nw4hbm4mathFff
 /* 80126428 00121948  3C 60 80 17 */	lis r3, lbl_80176590@ha
@@ -183,5 +183,5 @@ glabel Atan2FIdx__Q26nw4hbm4mathFff
 /* 801265CC 00121AEC  EC 24 00 2A */	fadds f1, f4, f0
 .L_801265D0:
 /* 801265D0 00121AF0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801265D4 00121AF4  4E 80 00 20 */	blr 
+/* 801265D4 00121AF4  4E 80 00 20 */	blr
 

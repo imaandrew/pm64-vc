@@ -47,7 +47,7 @@ glabel __close_all
 /* 8015FAD4 0015AFF4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8015FAD8 0015AFF8  7C 08 03 A6 */	mtlr r0
 /* 8015FADC 0015AFFC  38 21 00 20 */	addi r1, r1, 0x20
-/* 8015FAE0 0015B000  4E 80 00 20 */	blr 
+/* 8015FAE0 0015B000  4E 80 00 20 */	blr
 
 glabel __flush_all
 /* 8015FAE4 0015B004  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -79,7 +79,7 @@ glabel __flush_all
 /* 8015FB40 0015B060  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8015FB44 0015B064  7C 08 03 A6 */	mtlr r0
 /* 8015FB48 0015B068  38 21 00 10 */	addi r1, r1, 0x10
-/* 8015FB4C 0015B06C  4E 80 00 20 */	blr 
+/* 8015FB4C 0015B06C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -410,7 +410,7 @@ glabel btu_hcif_process_event
 /* 800EE000 000E9520  83 81 00 30 */	lwz r28, 0x30(r1)
 /* 800EE004 000E9524  7C 08 03 A6 */	mtlr r0
 /* 800EE008 000E9528  38 21 00 40 */	addi r1, r1, 0x40
-/* 800EE00C 000E952C  4E 80 00 20 */	blr 
+/* 800EE00C 000E952C  4E 80 00 20 */	blr
 
 glabel btu_hcif_send_cmd
 /* 800EE010 000E9530  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -519,7 +519,7 @@ glabel btu_hcif_send_cmd
 /* 800EE18C 000E96AC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800EE190 000E96B0  7C 08 03 A6 */	mtlr r0
 /* 800EE194 000E96B4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EE198 000E96B8  4E 80 00 20 */	blr 
+/* 800EE198 000E96B8  4E 80 00 20 */	blr
 
 glabel btu_hcif_connection_comp_evt
 /* 800EE19C 000E96BC  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -578,7 +578,7 @@ glabel btu_hcif_connection_comp_evt
 /* 800EE268 000E9788  83 C1 00 28 */	lwz r30, 0x28(r1)
 /* 800EE26C 000E978C  7C 08 03 A6 */	mtlr r0
 /* 800EE270 000E9790  38 21 00 30 */	addi r1, r1, 0x30
-/* 800EE274 000E9794  4E 80 00 20 */	blr 
+/* 800EE274 000E9794  4E 80 00 20 */	blr
 
 glabel btu_hcif_connection_request_evt
 /* 800EE278 000E9798  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -617,7 +617,7 @@ glabel btu_hcif_connection_request_evt
 /* 800EE2F4 000E9814  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800EE2F8 000E9818  7C 08 03 A6 */	mtlr r0
 /* 800EE2FC 000E981C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EE300 000E9820  4E 80 00 20 */	blr 
+/* 800EE300 000E9820  4E 80 00 20 */	blr
 
 glabel btu_hcif_qos_setup_comp_evt
 /* 800EE304 000E9824  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -683,7 +683,7 @@ glabel btu_hcif_qos_setup_comp_evt
 /* 800EE3F4 000E9914  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800EE3F8 000E9918  7C 08 03 A6 */	mtlr r0
 /* 800EE3FC 000E991C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EE400 000E9920  4E 80 00 20 */	blr 
+/* 800EE400 000E9920  4E 80 00 20 */	blr
 
 glabel btu_hcif_esco_connection_comp_evt
 /* 800EE404 000E9924  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -741,7 +741,7 @@ glabel btu_hcif_esco_connection_comp_evt
 /* 800EE4D4 000E99F4  83 C1 00 28 */	lwz r30, 0x28(r1)
 /* 800EE4D8 000E99F8  7C 08 03 A6 */	mtlr r0
 /* 800EE4DC 000E99FC  38 21 00 30 */	addi r1, r1, 0x30
-/* 800EE4E0 000E9A00  4E 80 00 20 */	blr 
+/* 800EE4E0 000E9A00  4E 80 00 20 */	blr
 
 glabel btu_hcif_hdl_command_complete
 /* 800EE4E4 000E9A04  2C 03 0C 14 */	cmpwi r3, 0xc14
@@ -847,11 +847,11 @@ glabel btu_hcif_hdl_command_complete
 /* 800EE61C 000E9B3C  54 63 04 2A */	rlwinm r3, r3, 0, 0x10, 0x15
 /* 800EE620 000E9B40  3C 03 00 00 */	addis r0, r3, 0
 /* 800EE624 000E9B44  28 00 FC 00 */	cmplwi r0, 0xfc00
-/* 800EE628 000E9B48  4C 82 00 20 */	bnelr 
+/* 800EE628 000E9B48  4C 82 00 20 */	bnelr
 /* 800EE62C 000E9B4C  7C 83 23 78 */	mr r3, r4
 /* 800EE630 000E9B50  7C C4 33 78 */	mr r4, r6
 /* 800EE634 000E9B54  4B FF 86 2C */	b btm_vsc_complete
-/* 800EE638 000E9B58  4E 80 00 20 */	blr 
+/* 800EE638 000E9B58  4E 80 00 20 */	blr
 
 glabel btu_hcif_command_complete_evt
 /* 800EE63C 000E9B5C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -928,7 +928,7 @@ glabel btu_hcif_command_complete_evt
 /* 800EE744 000E9C64  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800EE748 000E9C68  7C 08 03 A6 */	mtlr r0
 /* 800EE74C 000E9C6C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EE750 000E9C70  4E 80 00 20 */	blr 
+/* 800EE750 000E9C70  4E 80 00 20 */	blr
 
 glabel btu_hcif_hdl_command_status
 /* 800EE754 000E9C74  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1072,7 +1072,7 @@ glabel btu_hcif_hdl_command_status
 /* 800EE944 000E9E64  83 C1 00 28 */	lwz r30, 0x28(r1)
 /* 800EE948 000E9E68  7C 08 03 A6 */	mtlr r0
 /* 800EE94C 000E9E6C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800EE950 000E9E70  4E 80 00 20 */	blr 
+/* 800EE950 000E9E70  4E 80 00 20 */	blr
 
 glabel btu_hcif_command_status_evt
 /* 800EE954 000E9E74  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1152,7 +1152,7 @@ glabel btu_hcif_command_status_evt
 /* 800EEA6C 000E9F8C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800EEA70 000E9F90  7C 08 03 A6 */	mtlr r0
 /* 800EEA74 000E9F94  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EEA78 000E9F98  4E 80 00 20 */	blr 
+/* 800EEA78 000E9F98  4E 80 00 20 */	blr
 
 glabel btu_hcif_cmd_timeout
 /* 800EEA7C 000E9F9C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1249,7 +1249,7 @@ glabel btu_hcif_cmd_timeout
 /* 800EEBC4 000EA0E4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800EEBC8 000EA0E8  7C 08 03 A6 */	mtlr r0
 /* 800EEBCC 000EA0EC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EEBD0 000EA0F0  4E 80 00 20 */	blr 
+/* 800EEBD0 000EA0F0  4E 80 00 20 */	blr
 
 glabel btu_hcif_link_key_notification_evt
 /* 800EEBD4 000EA0F4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1307,5 +1307,5 @@ glabel btu_hcif_link_key_notification_evt
 /* 800EECA4 000EA1C4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800EECA8 000EA1C8  7C 08 03 A6 */	mtlr r0
 /* 800EECAC 000EA1CC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EECB0 000EA1D0  4E 80 00 20 */	blr 
+/* 800EECB0 000EA1D0  4E 80 00 20 */	blr
 

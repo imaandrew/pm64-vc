@@ -35,7 +35,7 @@ glabel GetInstance__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013EA18 00139F38  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013EA1C 00139F3C  7C 08 03 A6 */	mtlr r0
 /* 8013EA20 00139F40  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013EA24 00139F44  4E 80 00 20 */	blr 
+/* 8013EA24 00139F44  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013EA28 00139F48  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -63,7 +63,7 @@ glabel __dt__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013EA78 00139F98  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013EA7C 00139F9C  7C 08 03 A6 */	mtlr r0
 /* 8013EA80 00139FA0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013EA84 00139FA4  4E 80 00 20 */	blr 
+/* 8013EA84 00139FA4  4E 80 00 20 */	blr
 
 glabel Create__Q46nw4hbm3snd6detail11SoundThreadFl
 /* 8013EA88 00139FA8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -147,7 +147,7 @@ glabel Create__Q46nw4hbm3snd6detail11SoundThreadFl
 /* 8013EBAC 0013A0CC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8013EBB0 0013A0D0  7C 08 03 A6 */	mtlr r0
 /* 8013EBB4 0013A0D4  38 21 00 20 */	addi r1, r1, 0x20
-/* 8013EBB8 0013A0D8  4E 80 00 20 */	blr 
+/* 8013EBB8 0013A0D8  4E 80 00 20 */	blr
 
 glabel Shutdown__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013EBBC 0013A0DC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -217,7 +217,7 @@ glabel Shutdown__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013ECA8 0013A1C8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8013ECAC 0013A1CC  7C 08 03 A6 */	mtlr r0
 /* 8013ECB0 0013A1D0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013ECB4 0013A1D4  4E 80 00 20 */	blr 
+/* 8013ECB4 0013A1D4  4E 80 00 20 */	blr
 
 glabel AxCallback__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013ECB8 0013A1D8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -258,7 +258,7 @@ glabel AxCallback__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013ED40 0013A260  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8013ED44 0013A264  7C 08 03 A6 */	mtlr r0
 /* 8013ED48 0013A268  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013ED4C 0013A26C  4E 80 00 20 */	blr 
+/* 8013ED4C 0013A26C  4E 80 00 20 */	blr
 
 glabel SoundThreadFunc__Q46nw4hbm3snd6detail11SoundThreadFPv
 /* 8013ED50 0013A270  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -285,7 +285,7 @@ glabel SoundThreadFunc__Q46nw4hbm3snd6detail11SoundThreadFPv
 /* 8013EDA4 0013A2C4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013EDA8 0013A2C8  7C 08 03 A6 */	mtlr r0
 /* 8013EDAC 0013A2CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013EDB0 0013A2D0  4E 80 00 20 */	blr 
+/* 8013EDB0 0013A2D0  4E 80 00 20 */	blr
 
 glabel SoundThreadProc__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013EDB4 0013A2D4  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -332,7 +332,7 @@ glabel SoundThreadProc__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013EE4C 0013A36C  7F 23 CB 78 */	mr r3, r25
 /* 8013EE50 0013A370  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8013EE54 0013A374  7D 89 03 A6 */	mtctr r12
-/* 8013EE58 0013A378  4E 80 04 21 */	bctrl 
+/* 8013EE58 0013A378  4E 80 04 21 */	bctrl
 .L_8013EE5C:
 /* 8013EE5C 0013A37C  7C 1F F0 40 */	cmplw r31, r30
 /* 8013EE60 0013A380  40 82 FF C8 */	bne .L_8013EE28
@@ -364,7 +364,7 @@ glabel SoundThreadProc__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013EEC0 0013A3E0  7F 23 CB 78 */	mr r3, r25
 /* 8013EEC4 0013A3E4  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013EEC8 0013A3E8  7D 89 03 A6 */	mtctr r12
-/* 8013EECC 0013A3EC  4E 80 04 21 */	bctrl 
+/* 8013EECC 0013A3EC  4E 80 04 21 */	bctrl
 .L_8013EED0:
 /* 8013EED0 0013A3F0  7C 1E F8 40 */	cmplw r30, r31
 /* 8013EED4 0013A3F4  40 82 FF C8 */	bne .L_8013EE9C
@@ -383,7 +383,7 @@ glabel SoundThreadProc__Q46nw4hbm3snd6detail11SoundThreadFv
 /* 8013EF04 0013A424  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8013EF08 0013A428  7C 08 03 A6 */	mtlr r0
 /* 8013EF0C 0013A42C  38 21 00 30 */	addi r1, r1, 0x30
-/* 8013EF10 0013A430  4E 80 00 20 */	blr 
+/* 8013EF10 0013A430  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

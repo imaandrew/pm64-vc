@@ -6,13 +6,13 @@ glabel SystemCallVector
 /* 80097854 00092D74  7D 30 FA A6 */	mfspr r9, 0x3f0
 /* 80097858 00092D78  61 2A 00 08 */	ori r10, r9, 8
 /* 8009785C 00092D7C  7D 50 FB A6 */	mtspr 0x3f0, r10
-/* 80097860 00092D80  4C 00 01 2C */	isync 
+/* 80097860 00092D80  4C 00 01 2C */	isync
 /* 80097864 00092D84  7C 00 04 AC */	sync 0
 /* 80097868 00092D88  7D 30 FB A6 */	mtspr 0x3f0, r9
-/* 8009786C 00092D8C  4C 00 00 64 */	rfi 
+/* 8009786C 00092D8C  4C 00 00 64 */	rfi
 
 glabel __OSSystemCallVectorEnd
-/* 80097870 00092D90  60 00 00 00 */	nop 
+/* 80097870 00092D90  60 00 00 00 */	nop
 
 glabel __OSInitSystemCall
 /* 80097874 00092D94  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -38,5 +38,5 @@ glabel __OSInitSystemCall
 /* 800978C4 00092DE4  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800978C8 00092DE8  7C 08 03 A6 */	mtlr r0
 /* 800978CC 00092DEC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800978D0 00092DF0  4E 80 00 20 */	blr 
+/* 800978D0 00092DF0  4E 80 00 20 */	blr
 

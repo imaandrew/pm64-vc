@@ -112,7 +112,7 @@ glabel DoDrawConsole___Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPQ36nw4hbm2
 /* 80116204 00111724  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80116208 00111728  7C 08 03 A6 */	mtlr r0
 /* 8011620C 0011172C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80116210 00111730  4E 80 00 20 */	blr 
+/* 80116210 00111730  4E 80 00 20 */	blr
 
 glabel Console_DrawDirect__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHead
 /* 80116214 00111734  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -163,7 +163,7 @@ glabel Console_DrawDirect__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHead
 /* 801162C0 001117E0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 801162C4 001117E4  7C 08 03 A6 */	mtlr r0
 /* 801162C8 001117E8  38 21 00 10 */	addi r1, r1, 0x10
-/* 801162CC 001117EC  4E 80 00 20 */	blr 
+/* 801162CC 001117EC  4E 80 00 20 */	blr
 
 glabel PrintToBuffer___Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPCUc
 /* 801162D0 001117F0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -433,7 +433,7 @@ glabel PrintToBuffer___Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPCUc
 /* 80116684 00111BA4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80116688 00111BA8  7C 08 03 A6 */	mtlr r0
 /* 8011668C 00111BAC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80116690 00111BB0  4E 80 00 20 */	blr 
+/* 80116690 00111BB0  4E 80 00 20 */	blr
 
 glabel Console_VFPrintf__Q26nw4hbm2dbFQ36nw4hbm2db17ConsoleOutputTypePQ46nw4hbm2db6detail11ConsoleHeadPCcP16__va_list_struct
 /* 80116694 00111BB4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -495,7 +495,7 @@ glabel Console_VFPrintf__Q26nw4hbm2dbFQ36nw4hbm2db17ConsoleOutputTypePQ46nw4hbm2
 /* 80116764 00111C84  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80116768 00111C88  7C 08 03 A6 */	mtlr r0
 /* 8011676C 00111C8C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80116770 00111C90  4E 80 00 20 */	blr 
+/* 80116770 00111C90  4E 80 00 20 */	blr
 
 glabel Console_Printf__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPCce
 /* 80116774 00111C94  94 21 FF 70 */	stwu r1, -0x90(r1)
@@ -574,7 +574,7 @@ glabel Console_Printf__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPCce
 /* 8011688C 00111DAC  83 A1 00 84 */	lwz r29, 0x84(r1)
 /* 80116890 00111DB0  7C 08 03 A6 */	mtlr r0
 /* 80116894 00111DB4  38 21 00 90 */	addi r1, r1, 0x90
-/* 80116898 00111DB8  4E 80 00 20 */	blr 
+/* 80116898 00111DB8  4E 80 00 20 */	blr
 
 glabel Console_GetTotalLines__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHead
 /* 8011689C 00111DBC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -629,7 +629,7 @@ glabel Console_GetTotalLines__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHead
 /* 80116950 00111E70  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80116954 00111E74  7C 08 03 A6 */	mtlr r0
 /* 80116958 00111E78  38 21 00 10 */	addi r1, r1, 0x10
-/* 8011695C 00111E7C  4E 80 00 20 */	blr 
+/* 8011695C 00111E7C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

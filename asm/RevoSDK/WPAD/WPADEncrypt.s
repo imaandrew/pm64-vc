@@ -447,7 +447,7 @@ glabel WPADiCreateKey
 /* 800D01E4 000CB704  80 01 00 A4 */	lwz r0, 0xa4(r1)
 /* 800D01E8 000CB708  7C 08 03 A6 */	mtlr r0
 /* 800D01EC 000CB70C  38 21 00 A0 */	addi r1, r1, 0xa0
-/* 800D01F0 000CB710  4E 80 00 20 */	blr 
+/* 800D01F0 000CB710  4E 80 00 20 */	blr
 
 glabel WPADiCreateKeyFor3rd
 /* 800D01F4 000CB714  94 21 FF 60 */	stwu r1, -0xa0(r1)
@@ -896,7 +896,7 @@ glabel WPADiCreateKeyFor3rd
 /* 800D08DC 000CBDFC  80 01 00 A4 */	lwz r0, 0xa4(r1)
 /* 800D08E0 000CBE00  7C 08 03 A6 */	mtlr r0
 /* 800D08E4 000CBE04  38 21 00 A0 */	addi r1, r1, 0xa0
-/* 800D08E8 000CBE08  4E 80 00 20 */	blr 
+/* 800D08E8 000CBE08  4E 80 00 20 */	blr
 
 glabel WPADiDecode
 /* 800D08EC 000CBE0C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1078,7 +1078,7 @@ glabel WPADiDecode
 /* 800D0B9C 000CC0BC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800D0BA0 000CC0C0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800D0BA4 000CC0C4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D0BA8 000CC0C8  4E 80 00 20 */	blr 
+/* 800D0BA8 000CC0C8  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

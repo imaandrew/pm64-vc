@@ -33,7 +33,7 @@ glabel __ct__Q36nw4hbm3lyt8DrawInfoFv
 /* 8011A398 001158B8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8011A39C 001158BC  7C 08 03 A6 */	mtlr r0
 /* 8011A3A0 001158C0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8011A3A4 001158C4  4E 80 00 20 */	blr 
+/* 8011A3A4 001158C4  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt8DrawInfoFv
 /* 8011A3A8 001158C8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -52,5 +52,5 @@ glabel __dt__Q36nw4hbm3lyt8DrawInfoFv
 /* 8011A3D8 001158F8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8011A3DC 001158FC  7C 08 03 A6 */	mtlr r0
 /* 8011A3E0 00115900  38 21 00 10 */	addi r1, r1, 0x10
-/* 8011A3E4 00115904  4E 80 00 20 */	blr 
+/* 8011A3E4 00115904  4E 80 00 20 */	blr
 

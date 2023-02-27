@@ -52,7 +52,7 @@ glabel Assertion_Printf___Q24nw4r2dbFPCce
 /* 80115B0C 0011102C  83 C1 00 78 */	lwz r30, 0x78(r1)
 /* 80115B10 00111030  7C 08 03 A6 */	mtlr r0
 /* 80115B14 00111034  38 21 00 80 */	addi r1, r1, 0x80
-/* 80115B18 00111038  4E 80 00 20 */	blr 
+/* 80115B18 00111038  4E 80 00 20 */	blr
 
 glabel ShowStack___Q24nw4r2dbFUl
 /* 80115B1C 0011103C  94 21 FE D0 */	stwu r1, -0x130(r1)
@@ -133,7 +133,7 @@ glabel ShowStack___Q24nw4r2dbFUl
 /* 80115C28 00111148  80 01 01 34 */	lwz r0, 0x134(r1)
 /* 80115C2C 0011114C  7C 08 03 A6 */	mtlr r0
 /* 80115C30 00111150  38 21 01 30 */	addi r1, r1, 0x130
-/* 80115C34 00111154  4E 80 00 20 */	blr 
+/* 80115C34 00111154  4E 80 00 20 */	blr
 
 glabel VPanic__Q24nw4r2dbFPCciPCcP16__va_list_structb
 /* 80115C38 00111158  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -240,7 +240,7 @@ glabel VPanic__Q24nw4r2dbFPCciPCcP16__va_list_structb
 /* 80115DB0 001112D0  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80115DB4 001112D4  7C 08 03 A6 */	mtlr r0
 /* 80115DB8 001112D8  38 21 00 30 */	addi r1, r1, 0x30
-/* 80115DBC 001112DC  4E 80 00 20 */	blr 
+/* 80115DBC 001112DC  4E 80 00 20 */	blr
 
 glabel Panic__Q36nw4hbm2db6detailFPCciPCce
 /* 80115DC0 001112E0  94 21 FF 80 */	stwu r1, -0x80(r1)
@@ -278,7 +278,7 @@ glabel Panic__Q36nw4hbm2db6detailFPCciPCce
 /* 80115E3C 0011135C  83 E1 00 7C */	lwz r31, 0x7c(r1)
 /* 80115E40 00111360  7C 08 03 A6 */	mtlr r0
 /* 80115E44 00111364  38 21 00 80 */	addi r1, r1, 0x80
-/* 80115E48 00111368  4E 80 00 20 */	blr 
+/* 80115E48 00111368  4E 80 00 20 */	blr
 
 glabel Warning__Q36nw4hbm2db6detailFPCciPCce
 /* 80115E4C 0011136C  94 21 FF 70 */	stwu r1, -0x90(r1)
@@ -410,7 +410,7 @@ glabel Warning__Q36nw4hbm2db6detailFPCciPCce
 /* 80116020 00111540  80 01 00 94 */	lwz r0, 0x94(r1)
 /* 80116024 00111544  7C 08 03 A6 */	mtlr r0
 /* 80116028 00111548  38 21 00 90 */	addi r1, r1, 0x90
-/* 8011602C 0011154C  4E 80 00 20 */	blr 
+/* 8011602C 0011154C  4E 80 00 20 */	blr
 
 glabel WarningAlarmFunc___Q26nw4hbm2dbFP7OSAlarmP9OSContext
 /* 80116030 00111550  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -435,7 +435,7 @@ glabel WarningAlarmFunc___Q26nw4hbm2dbFP7OSAlarmP9OSContext
 /* 80116078 00111598  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8011607C 0011159C  7C 08 03 A6 */	mtlr r0
 /* 80116080 001115A0  38 21 00 10 */	addi r1, r1, 0x10
-/* 80116084 001115A4  4E 80 00 20 */	blr 
+/* 80116084 001115A4  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

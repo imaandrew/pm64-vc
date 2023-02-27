@@ -85,7 +85,7 @@ glabel __ct__Q36nw4hbm3snd18SoundArchivePlayerFv
 /* 80139244 00134764  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139248 00134768  7C 08 03 A6 */	mtlr r0
 /* 8013924C 0013476C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139250 00134770  4E 80 00 20 */	blr 
+/* 80139250 00134770  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail14NoteOnCallbackFv
 /* 80139254 00134774  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -104,7 +104,7 @@ glabel __dt__Q46nw4hbm3snd6detail14NoteOnCallbackFv
 /* 80139284 001347A4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139288 001347A8  7C 08 03 A6 */	mtlr r0
 /* 8013928C 001347AC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139290 001347B0  4E 80 00 20 */	blr 
+/* 80139290 001347B0  4E 80 00 20 */	blr
 
 glabel __dt__Q56nw4hbm3snd6detail8WsdTrack11WsdCallbackFv
 /* 80139294 001347B4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -123,7 +123,7 @@ glabel __dt__Q56nw4hbm3snd6detail8WsdTrack11WsdCallbackFv
 /* 801392C4 001347E4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801392C8 001347E8  7C 08 03 A6 */	mtlr r0
 /* 801392CC 001347EC  38 21 00 10 */	addi r1, r1, 0x10
-/* 801392D0 001347F0  4E 80 00 20 */	blr 
+/* 801392D0 001347F0  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail17SeqTrackAllocatorFv
 /* 801392D4 001347F4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -142,7 +142,7 @@ glabel __dt__Q46nw4hbm3snd6detail17SeqTrackAllocatorFv
 /* 80139304 00134824  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139308 00134828  7C 08 03 A6 */	mtlr r0
 /* 8013930C 0013482C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139310 00134830  4E 80 00 20 */	blr 
+/* 80139310 00134830  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer15SeqLoadCallbackFv
 /* 80139314 00134834  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -161,7 +161,7 @@ glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer15SeqLoadCallbackFv
 /* 80139344 00134864  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139348 00134868  7C 08 03 A6 */	mtlr r0
 /* 8013934C 0013486C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139350 00134870  4E 80 00 20 */	blr 
+/* 80139350 00134870  4E 80 00 20 */	blr
 
 glabel __dt__Q56nw4hbm3snd6detail8SeqSound15SeqLoadCallbackFv
 /* 80139354 00134874  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -180,7 +180,7 @@ glabel __dt__Q56nw4hbm3snd6detail8SeqSound15SeqLoadCallbackFv
 /* 80139384 001348A4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139388 001348A8  7C 08 03 A6 */	mtlr r0
 /* 8013938C 001348AC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139390 001348B0  4E 80 00 20 */	blr 
+/* 80139390 001348B0  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer17SeqNoteOnCallbackFv
 /* 80139394 001348B4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -199,7 +199,7 @@ glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer17SeqNoteOnCallbackFv
 /* 801393C4 001348E4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801393C8 001348E8  7C 08 03 A6 */	mtlr r0
 /* 801393CC 001348EC  38 21 00 10 */	addi r1, r1, 0x10
-/* 801393D0 001348F0  4E 80 00 20 */	blr 
+/* 801393D0 001348F0  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer11WsdCallbackFv
 /* 801393D4 001348F4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -218,7 +218,7 @@ glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer11WsdCallbackFv
 /* 80139404 00134924  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139408 00134928  7C 08 03 A6 */	mtlr r0
 /* 8013940C 0013492C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139410 00134930  4E 80 00 20 */	blr 
+/* 80139410 00134930  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackFv
 /* 80139414 00134934  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -237,7 +237,7 @@ glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackFv
 /* 80139444 00134964  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139448 00134968  7C 08 03 A6 */	mtlr r0
 /* 8013944C 0013496C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139450 00134970  4E 80 00 20 */	blr 
+/* 80139450 00134970  4E 80 00 20 */	blr
 
 glabel __dt__Q56nw4hbm3snd6detail10StrmPlayer12StrmCallbackFv
 /* 80139454 00134974  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -256,7 +256,7 @@ glabel __dt__Q56nw4hbm3snd6detail10StrmPlayer12StrmCallbackFv
 /* 80139484 001349A4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139488 001349A8  7C 08 03 A6 */	mtlr r0
 /* 8013948C 001349AC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139490 001349B0  4E 80 00 20 */	blr 
+/* 80139490 001349B0  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm2ut43LinkList__Q46nw4hbm3snd6detail8SeqSound84__Fv
 /* 80139494 001349B4  38 00 00 00 */	li r0, 0
@@ -266,7 +266,7 @@ glabel __ct__Q36nw4hbm2ut43LinkList__Q46nw4hbm3snd6detail8SeqSound84__Fv
 /* 801394A4 001349C4  90 03 00 00 */	stw r0, 0(r3)
 /* 801394A8 001349C8  90 83 00 04 */	stw r4, 4(r3)
 /* 801394AC 001349CC  90 83 00 08 */	stw r4, 8(r3)
-/* 801394B0 001349D0  4E 80 00 20 */	blr 
+/* 801394B0 001349D0  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut43LinkList__Q46nw4hbm3snd6detail8SeqSound84__Fv
 /* 801394B4 001349D4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -291,7 +291,7 @@ glabel __dt__Q36nw4hbm2ut43LinkList__Q46nw4hbm3snd6detail8SeqSound84__Fv
 /* 801394FC 00134A1C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139500 00134A20  7C 08 03 A6 */	mtlr r0
 /* 80139504 00134A24  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139508 00134A28  4E 80 00 20 */	blr 
+/* 80139508 00134A28  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail9StrmSound84__Fv
 /* 8013950C 00134A2C  38 00 00 00 */	li r0, 0
@@ -301,7 +301,7 @@ glabel __ct__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail9StrmSound84__Fv
 /* 8013951C 00134A3C  90 03 00 00 */	stw r0, 0(r3)
 /* 80139520 00134A40  90 83 00 04 */	stw r4, 4(r3)
 /* 80139524 00134A44  90 83 00 08 */	stw r4, 8(r3)
-/* 80139528 00134A48  4E 80 00 20 */	blr 
+/* 80139528 00134A48  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail9StrmSound84__Fv
 /* 8013952C 00134A4C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -326,7 +326,7 @@ glabel __dt__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail9StrmSound84__Fv
 /* 80139574 00134A94  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80139578 00134A98  7C 08 03 A6 */	mtlr r0
 /* 8013957C 00134A9C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80139580 00134AA0  4E 80 00 20 */	blr 
+/* 80139580 00134AA0  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail9WaveSound84__Fv
 /* 80139584 00134AA4  38 00 00 00 */	li r0, 0
@@ -336,7 +336,7 @@ glabel __ct__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail9WaveSound84__Fv
 /* 80139594 00134AB4  90 03 00 00 */	stw r0, 0(r3)
 /* 80139598 00134AB8  90 83 00 04 */	stw r4, 4(r3)
 /* 8013959C 00134ABC  90 83 00 08 */	stw r4, 8(r3)
-/* 801395A0 00134AC0  4E 80 00 20 */	blr 
+/* 801395A0 00134AC0  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail9WaveSound84__Fv
 /* 801395A4 00134AC4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -361,7 +361,7 @@ glabel __dt__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail9WaveSound84__Fv
 /* 801395EC 00134B0C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801395F0 00134B10  7C 08 03 A6 */	mtlr r0
 /* 801395F4 00134B14  38 21 00 10 */	addi r1, r1, 0x10
-/* 801395F8 00134B18  4E 80 00 20 */	blr 
+/* 801395F8 00134B18  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3snd18SoundArchivePlayerFv
 /* 801395FC 00134B1C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -413,7 +413,7 @@ glabel __dt__Q36nw4hbm3snd18SoundArchivePlayerFv
 /* 801396A4 00134BC4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801396A8 00134BC8  7C 08 03 A6 */	mtlr r0
 /* 801396AC 00134BCC  38 21 00 10 */	addi r1, r1, 0x10
-/* 801396B0 00134BD0  4E 80 00 20 */	blr 
+/* 801396B0 00134BD0  4E 80 00 20 */	blr
 
 glabel Setup__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3snd12SoundArchivePvUlPvUl
 /* 801396B4 00134BD4  94 21 FF 80 */	stwu r1, -0x80(r1)
@@ -541,7 +541,7 @@ glabel Setup__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3snd12SoundArchivePvU
 /* 80139864 00134D84  80 01 00 84 */	lwz r0, 0x84(r1)
 /* 80139868 00134D88  7C 08 03 A6 */	mtlr r0
 /* 8013986C 00134D8C  38 21 00 80 */	addi r1, r1, 0x80
-/* 80139870 00134D90  4E 80 00 20 */	blr 
+/* 80139870 00134D90  4E 80 00 20 */	blr
 
 glabel Shutdown__Q36nw4hbm3snd18SoundArchivePlayerFv
 /* 80139874 00134D94  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -635,7 +635,7 @@ glabel Shutdown__Q36nw4hbm3snd18SoundArchivePlayerFv
 /* 801399C0 00134EE0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801399C4 00134EE4  7C 08 03 A6 */	mtlr r0
 /* 801399C8 00134EE8  38 21 00 20 */	addi r1, r1, 0x20
-/* 801399CC 00134EEC  4E 80 00 20 */	blr 
+/* 801399CC 00134EEC  4E 80 00 20 */	blr
 
 glabel GetRequiredMemSize__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3snd12SoundArchive
 /* 801399D0 00134EF0  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -729,7 +729,7 @@ glabel GetRequiredMemSize__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3snd12So
 /* 80139B14 00135034  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80139B18 00135038  7C 08 03 A6 */	mtlr r0
 /* 80139B1C 0013503C  38 21 00 40 */	addi r1, r1, 0x40
-/* 80139B20 00135040  4E 80 00 20 */	blr 
+/* 80139B20 00135040  4E 80 00 20 */	blr
 
 glabel GetRequiredStrmBufferSize__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3snd12SoundArchive
 /* 80139B24 00135044  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -762,7 +762,7 @@ glabel GetRequiredStrmBufferSize__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3
 /* 80139B88 001350A8  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80139B8C 001350AC  7C 08 03 A6 */	mtlr r0
 /* 80139B90 001350B0  38 21 00 30 */	addi r1, r1, 0x30
-/* 80139B94 001350B4  4E 80 00 20 */	blr 
+/* 80139B94 001350B4  4E 80 00 20 */	blr
 
 glabel SetupMram__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3snd12SoundArchivePvUl
 /* 80139B98 001350B8  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -1050,7 +1050,7 @@ glabel SetupMram__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3snd12SoundArchiv
 /* 80139F84 001354A4  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 80139F88 001354A8  7C 08 03 A6 */	mtlr r0
 /* 80139F8C 001354AC  38 21 00 50 */	addi r1, r1, 0x50
-/* 80139F90 001354B0  4E 80 00 20 */	blr 
+/* 80139F90 001354B0  4E 80 00 20 */	blr
 
 glabel SetupSoundPlayer__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3snd12SoundArchivePPvPv
 /* 80139F94 001354B4  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1167,7 +1167,7 @@ glabel SetupSoundPlayer__Q36nw4hbm3snd18SoundArchivePlayerFPCQ36nw4hbm3snd12Soun
 /* 8013A11C 0013563C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8013A120 00135640  7C 08 03 A6 */	mtlr r0
 /* 8013A124 00135644  38 21 00 40 */	addi r1, r1, 0x40
-/* 8013A128 00135648  4E 80 00 20 */	blr 
+/* 8013A128 00135648  4E 80 00 20 */	blr
 
 glabel Update__Q36nw4hbm3snd18SoundArchivePlayerFv
 /* 8013A12C 0013564C  94 21 ED 90 */	stwu r1, -0x1270(r1)
@@ -1677,7 +1677,7 @@ glabel Update__Q36nw4hbm3snd18SoundArchivePlayerFv
 /* 8013A840 00135D60  80 01 12 74 */	lwz r0, 0x1274(r1)
 /* 8013A844 00135D64  7C 08 03 A6 */	mtlr r0
 /* 8013A848 00135D68  38 21 12 70 */	addi r1, r1, 0x1270
-/* 8013A84C 00135D6C  4E 80 00 20 */	blr 
+/* 8013A84C 00135D6C  4E 80 00 20 */	blr
 
 glabel GetSoundPlayer__Q36nw4hbm3snd18SoundArchivePlayerFUl
 /* 8013A850 00135D70  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1708,7 +1708,7 @@ glabel GetSoundPlayer__Q36nw4hbm3snd18SoundArchivePlayerFUl
 /* 8013A8B0 00135DD0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013A8B4 00135DD4  7C 08 03 A6 */	mtlr r0
 /* 8013A8B8 00135DD8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013A8BC 00135DDC  4E 80 00 20 */	blr 
+/* 8013A8BC 00135DDC  4E 80 00 20 */	blr
 
 glabel detail_GetFileAddress__Q36nw4hbm3snd18SoundArchivePlayerCFUl
 /* 8013A8C0 00135DE0  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -1722,7 +1722,7 @@ glabel detail_GetFileAddress__Q36nw4hbm3snd18SoundArchivePlayerCFUl
 /* 8013A8E0 00135E00  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013A8E4 00135E04  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8013A8E8 00135E08  7D 89 03 A6 */	mtctr r12
-/* 8013A8EC 00135E0C  4E 80 04 21 */	bctrl 
+/* 8013A8EC 00135E0C  4E 80 04 21 */	bctrl
 /* 8013A8F0 00135E10  2C 03 00 00 */	cmpwi r3, 0
 /* 8013A8F4 00135E14  41 82 00 08 */	beq .L_8013A8FC
 /* 8013A8F8 00135E18  48 00 01 10 */	b .L_8013AA08
@@ -1734,7 +1734,7 @@ glabel detail_GetFileAddress__Q36nw4hbm3snd18SoundArchivePlayerCFUl
 /* 8013A90C 00135E2C  7F 64 DB 78 */	mr r4, r27
 /* 8013A910 00135E30  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8013A914 00135E34  7D 89 03 A6 */	mtctr r12
-/* 8013A918 00135E38  4E 80 04 21 */	bctrl 
+/* 8013A918 00135E38  4E 80 04 21 */	bctrl
 /* 8013A91C 00135E3C  2C 03 00 00 */	cmpwi r3, 0
 /* 8013A920 00135E40  41 82 00 08 */	beq .L_8013A928
 /* 8013A924 00135E44  48 00 00 E4 */	b .L_8013AA08
@@ -1809,7 +1809,7 @@ glabel detail_GetFileAddress__Q36nw4hbm3snd18SoundArchivePlayerCFUl
 /* 8013AA10 00135F30  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 8013AA14 00135F34  7C 08 03 A6 */	mtlr r0
 /* 8013AA18 00135F38  38 21 00 50 */	addi r1, r1, 0x50
-/* 8013AA1C 00135F3C  4E 80 00 20 */	blr 
+/* 8013AA1C 00135F3C  4E 80 00 20 */	blr
 
 glabel detail_GetFileWaveDataAddress__Q36nw4hbm3snd18SoundArchivePlayerCFUl
 /* 8013AA20 00135F40  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -1823,7 +1823,7 @@ glabel detail_GetFileWaveDataAddress__Q36nw4hbm3snd18SoundArchivePlayerCFUl
 /* 8013AA40 00135F60  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013AA44 00135F64  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013AA48 00135F68  7D 89 03 A6 */	mtctr r12
-/* 8013AA4C 00135F6C  4E 80 04 21 */	bctrl 
+/* 8013AA4C 00135F6C  4E 80 04 21 */	bctrl
 /* 8013AA50 00135F70  2C 03 00 00 */	cmpwi r3, 0
 /* 8013AA54 00135F74  41 82 00 08 */	beq .L_8013AA5C
 /* 8013AA58 00135F78  48 00 01 10 */	b .L_8013AB68
@@ -1835,7 +1835,7 @@ glabel detail_GetFileWaveDataAddress__Q36nw4hbm3snd18SoundArchivePlayerCFUl
 /* 8013AA6C 00135F8C  7F 64 DB 78 */	mr r4, r27
 /* 8013AA70 00135F90  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8013AA74 00135F94  7D 89 03 A6 */	mtctr r12
-/* 8013AA78 00135F98  4E 80 04 21 */	bctrl 
+/* 8013AA78 00135F98  4E 80 04 21 */	bctrl
 /* 8013AA7C 00135F9C  2C 03 00 00 */	cmpwi r3, 0
 /* 8013AA80 00135FA0  41 82 00 08 */	beq .L_8013AA88
 /* 8013AA84 00135FA4  48 00 00 E4 */	b .L_8013AB68
@@ -1910,7 +1910,7 @@ glabel detail_GetFileWaveDataAddress__Q36nw4hbm3snd18SoundArchivePlayerCFUl
 /* 8013AB70 00136090  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 8013AB74 00136094  7C 08 03 A6 */	mtlr r0
 /* 8013AB78 00136098  38 21 00 50 */	addi r1, r1, 0x50
-/* 8013AB7C 0013609C  4E 80 00 20 */	blr 
+/* 8013AB7C 0013609C  4E 80 00 20 */	blr
 
 glabel detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11SoundHandleUlPQ56nw4hbm3snd6detail10BasicSound14AmbientArgInfoPQ46nw4hbm3snd6detail19ExternalSoundPlayerbPCQ46nw4hbm3snd14SoundStartable9StartInfo
 /* 8013AB80 001360A0  94 21 FD 80 */	stwu r1, -0x280(r1)
@@ -2056,7 +2056,7 @@ glabel detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11Soun
 /* 8013AD74 00136294  7F E3 FB 78 */	mr r3, r31
 /* 8013AD78 00136298  81 8C 00 28 */	lwz r12, 0x28(r12)
 /* 8013AD7C 0013629C  7D 89 03 A6 */	mtctr r12
-/* 8013AD80 001362A0  4E 80 04 21 */	bctrl 
+/* 8013AD80 001362A0  4E 80 04 21 */	bctrl
 /* 8013AD84 001362A4  7E 83 A3 78 */	mr r3, r20
 /* 8013AD88 001362A8  48 00 02 98 */	b .L_8013B020
 /* 8013AD8C 001362AC  48 00 02 84 */	b .L_8013B010
@@ -2083,7 +2083,7 @@ glabel detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11Soun
 /* 8013ADD4 001362F4  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013ADD8 001362F8  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013ADDC 001362FC  7D 89 03 A6 */	mtctr r12
-/* 8013ADE0 00136300  4E 80 04 21 */	bctrl 
+/* 8013ADE0 00136300  4E 80 04 21 */	bctrl
 /* 8013ADE4 00136304  7F 03 C3 78 */	mr r3, r24
 /* 8013ADE8 00136308  7E E4 BB 78 */	mr r4, r23
 /* 8013ADEC 0013630C  7F 25 CB 78 */	mr r5, r25
@@ -2133,7 +2133,7 @@ glabel detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11Soun
 /* 8013AE90 001363B0  EC 21 10 28 */	fsubs f1, f1, f2
 /* 8013AE94 001363B4  EC 21 00 24 */	fdivs f1, f1, f0
 /* 8013AE98 001363B8  7D 89 03 A6 */	mtctr r12
-/* 8013AE9C 001363BC  4E 80 04 21 */	bctrl 
+/* 8013AE9C 001363BC  4E 80 04 21 */	bctrl
 /* 8013AEA0 001363C0  3B 40 00 00 */	li r26, 0
 .L_8013AEA4:
 /* 8013AEA4 001363C4  2C 1A 00 00 */	cmpwi r26, 0
@@ -2142,7 +2142,7 @@ glabel detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11Soun
 /* 8013AEB0 001363D0  7F E3 FB 78 */	mr r3, r31
 /* 8013AEB4 001363D4  81 8C 00 28 */	lwz r12, 0x28(r12)
 /* 8013AEB8 001363D8  7D 89 03 A6 */	mtctr r12
-/* 8013AEBC 001363DC  4E 80 04 21 */	bctrl 
+/* 8013AEBC 001363DC  4E 80 04 21 */	bctrl
 /* 8013AEC0 001363E0  7F 43 D3 78 */	mr r3, r26
 /* 8013AEC4 001363E4  48 00 01 5C */	b .L_8013B020
 /* 8013AEC8 001363E8  48 00 01 48 */	b .L_8013B010
@@ -2216,7 +2216,7 @@ glabel detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11Soun
 /* 8013AFC0 001364E0  EC 21 10 28 */	fsubs f1, f1, f2
 /* 8013AFC4 001364E4  EC 21 00 24 */	fdivs f1, f1, f0
 /* 8013AFC8 001364E8  7D 89 03 A6 */	mtctr r12
-/* 8013AFCC 001364EC  4E 80 04 21 */	bctrl 
+/* 8013AFCC 001364EC  4E 80 04 21 */	bctrl
 /* 8013AFD0 001364F0  80 81 00 14 */	lwz r4, 0x14(r1)
 /* 8013AFD4 001364F4  7F E3 FB 78 */	mr r3, r31
 /* 8013AFD8 001364F8  48 00 92 FD */	bl SetChannelPriority__Q46nw4hbm3snd6detail9WaveSoundFi
@@ -2228,7 +2228,7 @@ glabel detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11Soun
 /* 8013AFEC 0013650C  7F E3 FB 78 */	mr r3, r31
 /* 8013AFF0 00136510  81 8C 00 28 */	lwz r12, 0x28(r12)
 /* 8013AFF4 00136514  7D 89 03 A6 */	mtctr r12
-/* 8013AFF8 00136518  4E 80 04 21 */	bctrl 
+/* 8013AFF8 00136518  4E 80 04 21 */	bctrl
 /* 8013AFFC 0013651C  7F 43 D3 78 */	mr r3, r26
 /* 8013B000 00136520  48 00 00 20 */	b .L_8013B020
 /* 8013B004 00136524  48 00 00 0C */	b .L_8013B010
@@ -2246,7 +2246,7 @@ glabel detail_SetupSound__Q36nw4hbm3snd18SoundArchivePlayerFPQ36nw4hbm3snd11Soun
 /* 8013B028 00136548  80 01 02 84 */	lwz r0, 0x284(r1)
 /* 8013B02C 0013654C  7C 08 03 A6 */	mtlr r0
 /* 8013B030 00136550  38 21 02 80 */	addi r1, r1, 0x280
-/* 8013B034 00136554  4E 80 00 20 */	blr 
+/* 8013B034 00136554  4E 80 00 20 */	blr
 
 glabel PrepareSeqImpl__Q36nw4hbm3snd18SoundArchivePlayerFPQ46nw4hbm3snd6detail8SeqSoundPCQ46nw4hbm3snd12SoundArchive9SoundInfoPCQ46nw4hbm3snd12SoundArchive12SeqSoundInfoi
 /* 8013B038 00136558  94 21 FD C0 */	stwu r1, -0x240(r1)
@@ -2299,7 +2299,7 @@ glabel PrepareSeqImpl__Q36nw4hbm3snd18SoundArchivePlayerFPQ46nw4hbm3snd6detail8S
 /* 8013B0EC 0013660C  7F E3 FB 78 */	mr r3, r31
 /* 8013B0F0 00136610  81 8C 00 40 */	lwz r12, 0x40(r12)
 /* 8013B0F4 00136614  7D 89 03 A6 */	mtctr r12
-/* 8013B0F8 00136618  4E 80 04 21 */	bctrl 
+/* 8013B0F8 00136618  4E 80 04 21 */	bctrl
 /* 8013B0FC 0013661C  7C 1E 18 40 */	cmplw r30, r3
 /* 8013B100 00136620  40 80 00 28 */	bge .L_8013B128
 /* 8013B104 00136624  2C 1F 00 00 */	cmpwi r31, 0
@@ -2308,7 +2308,7 @@ glabel PrepareSeqImpl__Q36nw4hbm3snd18SoundArchivePlayerFPQ46nw4hbm3snd6detail8S
 /* 8013B110 00136630  7F E3 FB 78 */	mr r3, r31
 /* 8013B114 00136634  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013B118 00136638  7D 89 03 A6 */	mtctr r12
-/* 8013B11C 0013663C  4E 80 04 21 */	bctrl 
+/* 8013B11C 0013663C  4E 80 04 21 */	bctrl
 .L_8013B120:
 /* 8013B120 00136640  38 60 00 05 */	li r3, 5
 /* 8013B124 00136644  48 00 00 E8 */	b .L_8013B20C
@@ -2319,7 +2319,7 @@ glabel PrepareSeqImpl__Q36nw4hbm3snd18SoundArchivePlayerFPQ46nw4hbm3snd6detail8S
 /* 8013B134 00136654  7F E3 FB 78 */	mr r3, r31
 /* 8013B138 00136658  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013B13C 0013665C  7D 89 03 A6 */	mtctr r12
-/* 8013B140 00136660  4E 80 04 21 */	bctrl 
+/* 8013B140 00136660  4E 80 04 21 */	bctrl
 .L_8013B144:
 /* 8013B144 00136664  80 97 00 68 */	lwz r4, 0x68(r23)
 /* 8013B148 00136668  7F 03 C3 78 */	mr r3, r24
@@ -2351,7 +2351,7 @@ glabel PrepareSeqImpl__Q36nw4hbm3snd18SoundArchivePlayerFPQ46nw4hbm3snd6detail8S
 /* 8013B1AC 001366CC  EC 21 10 28 */	fsubs f1, f1, f2
 /* 8013B1B0 001366D0  EC 21 00 24 */	fdivs f1, f1, f0
 /* 8013B1B4 001366D4  7D 89 03 A6 */	mtctr r12
-/* 8013B1B8 001366D8  4E 80 04 21 */	bctrl 
+/* 8013B1B8 001366D8  4E 80 04 21 */	bctrl
 /* 8013B1BC 001366DC  80 9A 00 0C */	lwz r4, 0xc(r26)
 /* 8013B1C0 001366E0  7F 03 C3 78 */	mr r3, r24
 /* 8013B1C4 001366E4  4B FF 9F ED */	bl SetChannelPriority__Q46nw4hbm3snd6detail8SeqSoundFi
@@ -2380,7 +2380,7 @@ glabel PrepareSeqImpl__Q36nw4hbm3snd18SoundArchivePlayerFPQ46nw4hbm3snd6detail8S
 /* 8013B214 00136734  80 01 02 44 */	lwz r0, 0x244(r1)
 /* 8013B218 00136738  7C 08 03 A6 */	mtlr r0
 /* 8013B21C 0013673C  38 21 02 40 */	addi r1, r1, 0x240
-/* 8013B220 00136740  4E 80 00 20 */	blr 
+/* 8013B220 00136740  4E 80 00 20 */	blr
 
 glabel LoadGroup__Q36nw4hbm3snd18SoundArchivePlayerFUlPQ36nw4hbm3snd22SoundMemoryAllocatableUl
 /* 8013B224 00136744  94 21 FD B0 */	stwu r1, -0x250(r1)
@@ -2548,12 +2548,12 @@ glabel LoadGroup__Q36nw4hbm3snd18SoundArchivePlayerFUlPQ36nw4hbm3snd22SoundMemor
 /* 8013B45C 0013697C  80 01 02 54 */	lwz r0, 0x254(r1)
 /* 8013B460 00136980  7C 08 03 A6 */	mtlr r0
 /* 8013B464 00136984  38 21 02 50 */	addi r1, r1, 0x250
-/* 8013B468 00136988  4E 80 00 20 */	blr 
+/* 8013B468 00136988  4E 80 00 20 */	blr
 
 glabel InvalidateData__Q36nw4hbm3snd18SoundArchivePlayerFPCvPCv
 /* 8013B46C 0013698C  80 03 00 14 */	lwz r0, 0x14(r3)
 /* 8013B470 00136990  2C 00 00 00 */	cmpwi r0, 0
-/* 8013B474 00136994  4D 82 00 20 */	beqlr 
+/* 8013B474 00136994  4D 82 00 20 */	beqlr
 /* 8013B478 00136998  39 20 00 00 */	li r9, 0
 /* 8013B47C 0013699C  38 E0 00 00 */	li r7, 0
 /* 8013B480 001369A0  38 C0 00 00 */	li r6, 0
@@ -2574,12 +2574,12 @@ glabel InvalidateData__Q36nw4hbm3snd18SoundArchivePlayerFPCvPCv
 /* 8013B4B0 001369D0  80 08 00 00 */	lwz r0, 0(r8)
 /* 8013B4B4 001369D4  7C 09 00 40 */	cmplw r9, r0
 /* 8013B4B8 001369D8  41 80 FF D0 */	blt .L_8013B488
-/* 8013B4BC 001369DC  4E 80 00 20 */	blr 
+/* 8013B4BC 001369DC  4E 80 00 20 */	blr
 
 glabel InvalidateWaveData__Q36nw4hbm3snd18SoundArchivePlayerFPCvPCv
 /* 8013B4C0 001369E0  80 03 00 14 */	lwz r0, 0x14(r3)
 /* 8013B4C4 001369E4  2C 00 00 00 */	cmpwi r0, 0
-/* 8013B4C8 001369E8  4D 82 00 20 */	beqlr 
+/* 8013B4C8 001369E8  4D 82 00 20 */	beqlr
 /* 8013B4CC 001369EC  39 20 00 00 */	li r9, 0
 /* 8013B4D0 001369F0  38 E0 00 00 */	li r7, 0
 /* 8013B4D4 001369F4  38 C0 00 00 */	li r6, 0
@@ -2600,7 +2600,7 @@ glabel InvalidateWaveData__Q36nw4hbm3snd18SoundArchivePlayerFPCvPCv
 /* 8013B504 00136A24  80 08 00 00 */	lwz r0, 0(r8)
 /* 8013B508 00136A28  7C 09 00 40 */	cmplw r9, r0
 /* 8013B50C 00136A2C  41 80 FF D0 */	blt .L_8013B4DC
-/* 8013B510 00136A30  4E 80 00 20 */	blr 
+/* 8013B510 00136A30  4E 80 00 20 */	blr
 
 glabel LoadData__Q46nw4hbm3snd18SoundArchivePlayer15SeqLoadCallbackCFPFbPCvlPv_vPvUl
 /* 8013B514 00136A34  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -2718,7 +2718,7 @@ glabel LoadData__Q46nw4hbm3snd18SoundArchivePlayer15SeqLoadCallbackCFPFbPCvlPv_v
 /* 8013B6A8 00136BC8  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 8013B6AC 00136BCC  7C 08 03 A6 */	mtlr r0
 /* 8013B6B0 00136BD0  38 21 00 50 */	addi r1, r1, 0x50
-/* 8013B6B4 00136BD4  4E 80 00 20 */	blr 
+/* 8013B6B4 00136BD4  4E 80 00 20 */	blr
 
 glabel CancelLoading__Q46nw4hbm3snd18SoundArchivePlayer15SeqLoadCallbackCFUl
 /* 8013B6B8 00136BD8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2733,7 +2733,7 @@ glabel CancelLoading__Q46nw4hbm3snd18SoundArchivePlayer15SeqLoadCallbackCFUl
 /* 8013B6DC 00136BFC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8013B6E0 00136C00  7C 08 03 A6 */	mtlr r0
 /* 8013B6E4 00136C04  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013B6E8 00136C08  4E 80 00 20 */	blr 
+/* 8013B6E8 00136C08  4E 80 00 20 */	blr
 
 glabel NoteOn__Q46nw4hbm3snd18SoundArchivePlayer17SeqNoteOnCallbackFPQ46nw4hbm3snd6detail9SeqPlayeriRCQ46nw4hbm3snd6detail10NoteOnInfo
 /* 8013B6EC 00136C0C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -2840,7 +2840,7 @@ glabel NoteOn__Q46nw4hbm3snd18SoundArchivePlayer17SeqNoteOnCallbackFPQ46nw4hbm3s
 /* 8013B858 00136D78  83 81 00 30 */	lwz r28, 0x30(r1)
 /* 8013B85C 00136D7C  7C 08 03 A6 */	mtlr r0
 /* 8013B860 00136D80  38 21 00 40 */	addi r1, r1, 0x40
-/* 8013B864 00136D84  4E 80 00 20 */	blr 
+/* 8013B864 00136D84  4E 80 00 20 */	blr
 
 glabel GetWaveSoundData__Q46nw4hbm3snd18SoundArchivePlayer11WsdCallbackCFPQ46nw4hbm3snd6detail13WaveSoundInfoPQ46nw4hbm3snd6detail17WaveSoundNoteInfoPQ46nw4hbm3snd6detail8WaveDataPCviiUl
 /* 8013B868 00136D88  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -2924,7 +2924,7 @@ glabel GetWaveSoundData__Q46nw4hbm3snd18SoundArchivePlayer11WsdCallbackCFPQ46nw4
 /* 8013B980 00136EA0  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8013B984 00136EA4  7C 08 03 A6 */	mtlr r0
 /* 8013B988 00136EA8  38 21 00 40 */	addi r1, r1, 0x40
-/* 8013B98C 00136EAC  4E 80 00 20 */	blr 
+/* 8013B98C 00136EAC  4E 80 00 20 */	blr
 
 glabel LoadHeader__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackCFPFbPCQ56nw4hbm3snd6detail10StrmPlayer10StrmHeaderPv_vPvUlUl
 /* 8013B990 00136EB0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -3015,7 +3015,7 @@ glabel LoadHeader__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackCFPFbPCQ56nw4h
 /* 8013BAC4 00136FE4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8013BAC8 00136FE8  7C 08 03 A6 */	mtlr r0
 /* 8013BACC 00136FEC  38 21 00 30 */	addi r1, r1, 0x30
-/* 8013BAD0 00136FF0  4E 80 00 20 */	blr 
+/* 8013BAD0 00136FF0  4E 80 00 20 */	blr
 
 glabel LoadStream__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackCFPvUlliUllbRQ56nw4hbm3snd6detail10StrmPlayer11LoadCommandUlUl
 /* 8013BAD4 00136FF4  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -3114,7 +3114,7 @@ glabel LoadStream__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackCFPvUlliUllbRQ
 /* 8013BC28 00137148  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 8013BC2C 0013714C  7C 08 03 A6 */	mtlr r0
 /* 8013BC30 00137150  38 21 00 60 */	addi r1, r1, 0x60
-/* 8013BC34 00137154  4E 80 00 20 */	blr 
+/* 8013BC34 00137154  4E 80 00 20 */	blr
 
 glabel CancelLoading__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackCFUlUl
 /* 8013BC38 00137158  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3129,7 +3129,7 @@ glabel CancelLoading__Q46nw4hbm3snd18SoundArchivePlayer12StrmCallbackCFUlUl
 /* 8013BC5C 0013717C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8013BC60 00137180  7C 08 03 A6 */	mtlr r0
 /* 8013BC64 00137184  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013BC68 00137188  4E 80 00 20 */	blr 
+/* 8013BC68 00137188  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail4TaskFv
 /* 8013BC6C 0013718C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3148,7 +3148,7 @@ glabel __dt__Q46nw4hbm3snd6detail4TaskFv
 /* 8013BC9C 001371BC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013BCA0 001371C0  7C 08 03 A6 */	mtlr r0
 /* 8013BCA4 001371C4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013BCA8 001371C8  4E 80 00 20 */	blr 
+/* 8013BCA8 001371C8  4E 80 00 20 */	blr
 
 glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
 /* 8013BCAC 001371CC  94 21 FD C0 */	stwu r1, -0x240(r1)
@@ -3190,7 +3190,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
 /* 8013BD3C 0013725C  38 80 00 00 */	li r4, 0
 /* 8013BD40 00137260  38 A0 00 00 */	li r5, 0
 /* 8013BD44 00137264  7D 89 03 A6 */	mtctr r12
-/* 8013BD48 00137268  4E 80 04 21 */	bctrl 
+/* 8013BD48 00137268  4E 80 04 21 */	bctrl
 .L_8013BD4C:
 /* 8013BD4C 0013726C  38 61 00 10 */	addi r3, r1, 0x10
 /* 8013BD50 00137270  38 80 FF FF */	li r4, -1
@@ -3210,7 +3210,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
 /* 8013BD84 001372A4  80 DD 00 28 */	lwz r6, 0x28(r29)
 /* 8013BD88 001372A8  38 60 00 01 */	li r3, 1
 /* 8013BD8C 001372AC  7D 89 03 A6 */	mtctr r12
-/* 8013BD90 001372B0  4E 80 04 21 */	bctrl 
+/* 8013BD90 001372B0  4E 80 04 21 */	bctrl
 .L_8013BD94:
 /* 8013BD94 001372B4  38 61 00 10 */	addi r3, r1, 0x10
 /* 8013BD98 001372B8  38 80 FF FF */	li r4, -1
@@ -3222,7 +3222,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
 /* 8013BDAC 001372CC  83 A1 02 34 */	lwz r29, 0x234(r1)
 /* 8013BDB0 001372D0  7C 08 03 A6 */	mtlr r0
 /* 8013BDB4 001372D4  38 21 02 40 */	addi r1, r1, 0x240
-/* 8013BDB8 001372D8  4E 80 00 20 */	blr 
+/* 8013BDB8 001372D8  4E 80 00 20 */	blr
 
 glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
 /* 8013BDBC 001372DC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3246,7 +3246,7 @@ glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
 /* 8013BE00 00137320  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8013BE04 00137324  7C 08 03 A6 */	mtlr r0
 /* 8013BE08 00137328  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013BE0C 0013732C  4E 80 00 20 */	blr 
+/* 8013BE0C 0013732C  4E 80 00 20 */	blr
 
 glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013BE10 00137330  94 21 FC 20 */	stwu r1, -0x3e0(r1)
@@ -3291,20 +3291,20 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013BEA8 001373C8  38 60 00 00 */	li r3, 0
 /* 8013BEAC 001373CC  38 80 00 00 */	li r4, 0
 /* 8013BEB0 001373D0  7D 89 03 A6 */	mtctr r12
-/* 8013BEB4 001373D4  4E 80 04 21 */	bctrl 
+/* 8013BEB4 001373D4  4E 80 04 21 */	bctrl
 /* 8013BEB8 001373D8  48 00 01 D8 */	b .L_8013C090
 .L_8013BEBC:
 /* 8013BEBC 001373DC  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013BEC0 001373E0  81 8C 00 50 */	lwz r12, 0x50(r12)
 /* 8013BEC4 001373E4  7D 89 03 A6 */	mtctr r12
-/* 8013BEC8 001373E8  4E 80 04 21 */	bctrl 
+/* 8013BEC8 001373E8  4E 80 04 21 */	bctrl
 /* 8013BECC 001373EC  2C 03 00 00 */	cmpwi r3, 0
 /* 8013BED0 001373F0  41 82 00 20 */	beq .L_8013BEF0
 /* 8013BED4 001373F4  80 7F 00 10 */	lwz r3, 0x10(r31)
 /* 8013BED8 001373F8  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013BEDC 001373FC  81 8C 00 2C */	lwz r12, 0x2c(r12)
 /* 8013BEE0 00137400  7D 89 03 A6 */	mtctr r12
-/* 8013BEE4 00137404  4E 80 04 21 */	bctrl 
+/* 8013BEE4 00137404  4E 80 04 21 */	bctrl
 /* 8013BEE8 00137408  2C 03 00 00 */	cmpwi r3, 0
 /* 8013BEEC 0013740C  40 82 00 44 */	bne .L_8013BF30
 .L_8013BEF0:
@@ -3312,7 +3312,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013BEF4 00137414  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013BEF8 00137418  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013BEFC 0013741C  7D 89 03 A6 */	mtctr r12
-/* 8013BF00 00137420  4E 80 04 21 */	bctrl 
+/* 8013BF00 00137420  4E 80 04 21 */	bctrl
 /* 8013BF04 00137424  81 9F 00 1C */	lwz r12, 0x1c(r31)
 /* 8013BF08 00137428  38 00 00 00 */	li r0, 0
 /* 8013BF0C 0013742C  90 1F 00 10 */	stw r0, 0x10(r31)
@@ -3322,7 +3322,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013BF1C 0013743C  38 60 00 00 */	li r3, 0
 /* 8013BF20 00137440  38 80 00 00 */	li r4, 0
 /* 8013BF24 00137444  7D 89 03 A6 */	mtctr r12
-/* 8013BF28 00137448  4E 80 04 21 */	bctrl 
+/* 8013BF28 00137448  4E 80 04 21 */	bctrl
 /* 8013BF2C 0013744C  48 00 01 64 */	b .L_8013C090
 .L_8013BF30:
 /* 8013BF30 00137450  88 1E 02 00 */	lbz r0, 0x200(r30)
@@ -3350,7 +3350,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013BF84 001374A4  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013BF88 001374A8  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013BF8C 001374AC  7D 89 03 A6 */	mtctr r12
-/* 8013BF90 001374B0  4E 80 04 21 */	bctrl 
+/* 8013BF90 001374B0  4E 80 04 21 */	bctrl
 /* 8013BF94 001374B4  81 9F 00 1C */	lwz r12, 0x1c(r31)
 /* 8013BF98 001374B8  38 00 00 00 */	li r0, 0
 /* 8013BF9C 001374BC  90 1F 00 10 */	stw r0, 0x10(r31)
@@ -3360,7 +3360,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013BFAC 001374CC  38 60 00 00 */	li r3, 0
 /* 8013BFB0 001374D0  38 80 00 00 */	li r4, 0
 /* 8013BFB4 001374D4  7D 89 03 A6 */	mtctr r12
-/* 8013BFB8 001374D8  4E 80 04 21 */	bctrl 
+/* 8013BFB8 001374D8  4E 80 04 21 */	bctrl
 .L_8013BFBC:
 /* 8013BFBC 001374DC  7F A3 EB 78 */	mr r3, r29
 /* 8013BFC0 001374E0  4B F5 A5 BD */	bl OSUnlockMutex
@@ -3373,7 +3373,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013BFD8 001374F8  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013BFDC 001374FC  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013BFE0 00137500  7D 89 03 A6 */	mtctr r12
-/* 8013BFE4 00137504  4E 80 04 21 */	bctrl 
+/* 8013BFE4 00137504  4E 80 04 21 */	bctrl
 /* 8013BFE8 00137508  38 00 00 00 */	li r0, 0
 /* 8013BFEC 0013750C  7F C3 F3 78 */	mr r3, r30
 /* 8013BFF0 00137510  90 1F 00 10 */	stw r0, 0x10(r31)
@@ -3419,7 +3419,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013C078 00137598  80 BF 00 20 */	lwz r5, 0x20(r31)
 /* 8013C07C 0013759C  38 60 00 01 */	li r3, 1
 /* 8013C080 001375A0  7D 89 03 A6 */	mtctr r12
-/* 8013C084 001375A4  4E 80 04 21 */	bctrl 
+/* 8013C084 001375A4  4E 80 04 21 */	bctrl
 .L_8013C088:
 /* 8013C088 001375A8  7F A3 EB 78 */	mr r3, r29
 /* 8013C08C 001375AC  4B F5 A4 F1 */	bl OSUnlockMutex
@@ -3431,7 +3431,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013C0A0 001375C0  83 81 03 D0 */	lwz r28, 0x3d0(r1)
 /* 8013C0A4 001375C4  7C 08 03 A6 */	mtlr r0
 /* 8013C0A8 001375C8  38 21 03 E0 */	addi r1, r1, 0x3e0
-/* 8013C0AC 001375CC  4E 80 00 20 */	blr 
+/* 8013C0AC 001375CC  4E 80 00 20 */	blr
 
 glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013C0B0 001375D0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3451,14 +3451,14 @@ glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013C0E8 00137608  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C0EC 0013760C  81 8C 00 54 */	lwz r12, 0x54(r12)
 /* 8013C0F0 00137610  7D 89 03 A6 */	mtctr r12
-/* 8013C0F4 00137614  4E 80 04 21 */	bctrl 
+/* 8013C0F4 00137614  4E 80 04 21 */	bctrl
 /* 8013C0F8 00137618  2C 03 00 00 */	cmpwi r3, 0
 /* 8013C0FC 0013761C  41 82 00 54 */	beq .L_8013C150
 /* 8013C100 00137620  80 7E 00 10 */	lwz r3, 0x10(r30)
 /* 8013C104 00137624  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C108 00137628  81 8C 00 28 */	lwz r12, 0x28(r12)
 /* 8013C10C 0013762C  7D 89 03 A6 */	mtctr r12
-/* 8013C110 00137630  4E 80 04 21 */	bctrl 
+/* 8013C110 00137630  4E 80 04 21 */	bctrl
 /* 8013C114 00137634  2C 03 00 00 */	cmpwi r3, 0
 /* 8013C118 00137638  41 82 00 24 */	beq .L_8013C13C
 /* 8013C11C 0013763C  80 7E 00 10 */	lwz r3, 0x10(r30)
@@ -3467,14 +3467,14 @@ glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013C128 00137648  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C12C 0013764C  81 8C 00 4C */	lwz r12, 0x4c(r12)
 /* 8013C130 00137650  7D 89 03 A6 */	mtctr r12
-/* 8013C134 00137654  4E 80 04 21 */	bctrl 
+/* 8013C134 00137654  4E 80 04 21 */	bctrl
 /* 8013C138 00137658  48 00 00 18 */	b .L_8013C150
 .L_8013C13C:
 /* 8013C13C 0013765C  80 7E 00 10 */	lwz r3, 0x10(r30)
 /* 8013C140 00137660  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C144 00137664  81 8C 00 48 */	lwz r12, 0x48(r12)
 /* 8013C148 00137668  7D 89 03 A6 */	mtctr r12
-/* 8013C14C 0013766C  4E 80 04 21 */	bctrl 
+/* 8013C14C 0013766C  4E 80 04 21 */	bctrl
 .L_8013C150:
 /* 8013C150 00137670  7F E3 FB 78 */	mr r3, r31
 /* 8013C154 00137674  4B F5 A4 29 */	bl OSUnlockMutex
@@ -3483,7 +3483,7 @@ glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013C160 00137680  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8013C164 00137684  7C 08 03 A6 */	mtlr r0
 /* 8013C168 00137688  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C16C 0013768C  4E 80 00 20 */	blr 
+/* 8013C16C 0013768C  4E 80 00 20 */	blr
 
 glabel __ct__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFPvUlliUllbRQ56nw4hbm3snd6detail10StrmPlayer11LoadCommandRCQ36nw4hbm3snd12SoundArchiveUlUlR7OSMutex
 /* 8013C170 00137690  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -3553,7 +3553,7 @@ glabel __ct__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFPvUlliUllbRQ56n
 /* 8013C264 00137784  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8013C268 00137788  7C 08 03 A6 */	mtlr r0
 /* 8013C26C 0013778C  38 21 00 30 */	addi r1, r1, 0x30
-/* 8013C270 00137790  4E 80 00 20 */	blr 
+/* 8013C270 00137790  4E 80 00 20 */	blr
 
 glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C274 00137794  94 21 FD D0 */	stwu r1, -0x230(r1)
@@ -3586,20 +3586,20 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C2E0 00137800  38 80 00 00 */	li r4, 0
 /* 8013C2E4 00137804  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8013C2E8 00137808  7D 89 03 A6 */	mtctr r12
-/* 8013C2EC 0013780C  4E 80 04 21 */	bctrl 
+/* 8013C2EC 0013780C  4E 80 04 21 */	bctrl
 /* 8013C2F0 00137810  48 00 02 90 */	b .L_8013C580
 .L_8013C2F4:
 /* 8013C2F4 00137814  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C2F8 00137818  81 8C 00 50 */	lwz r12, 0x50(r12)
 /* 8013C2FC 0013781C  7D 89 03 A6 */	mtctr r12
-/* 8013C300 00137820  4E 80 04 21 */	bctrl 
+/* 8013C300 00137820  4E 80 04 21 */	bctrl
 /* 8013C304 00137824  2C 03 00 00 */	cmpwi r3, 0
 /* 8013C308 00137828  41 82 00 20 */	beq .L_8013C328
 /* 8013C30C 0013782C  80 7C 00 14 */	lwz r3, 0x14(r28)
 /* 8013C310 00137830  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C314 00137834  81 8C 00 2C */	lwz r12, 0x2c(r12)
 /* 8013C318 00137838  7D 89 03 A6 */	mtctr r12
-/* 8013C31C 0013783C  4E 80 04 21 */	bctrl 
+/* 8013C31C 0013783C  4E 80 04 21 */	bctrl
 /* 8013C320 00137840  2C 03 00 00 */	cmpwi r3, 0
 /* 8013C324 00137844  40 82 00 44 */	bne .L_8013C368
 .L_8013C328:
@@ -3607,7 +3607,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C32C 0013784C  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C330 00137850  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013C334 00137854  7D 89 03 A6 */	mtctr r12
-/* 8013C338 00137858  4E 80 04 21 */	bctrl 
+/* 8013C338 00137858  4E 80 04 21 */	bctrl
 /* 8013C33C 0013785C  80 7C 00 10 */	lwz r3, 0x10(r28)
 /* 8013C340 00137860  38 00 00 00 */	li r0, 0
 /* 8013C344 00137864  90 1C 00 14 */	stw r0, 0x14(r28)
@@ -3617,7 +3617,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C354 00137874  38 80 00 00 */	li r4, 0
 /* 8013C358 00137878  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8013C35C 0013787C  7D 89 03 A6 */	mtctr r12
-/* 8013C360 00137880  4E 80 04 21 */	bctrl 
+/* 8013C360 00137880  4E 80 04 21 */	bctrl
 /* 8013C364 00137884  48 00 02 1C */	b .L_8013C580
 .L_8013C368:
 /* 8013C368 00137888  83 BC 00 14 */	lwz r29, 0x14(r28)
@@ -3627,7 +3627,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C378 00137898  7F A3 EB 78 */	mr r3, r29
 /* 8013C37C 0013789C  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8013C380 001378A0  7D 89 03 A6 */	mtctr r12
-/* 8013C384 001378A4  4E 80 04 21 */	bctrl 
+/* 8013C384 001378A4  4E 80 04 21 */	bctrl
 /* 8013C388 001378A8  48 00 00 18 */	b .L_8013C3A0
 .L_8013C38C:
 /* 8013C38C 001378AC  7C 03 F0 40 */	cmplw r3, r30
@@ -3658,14 +3658,14 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C3D8 001378F8  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C3DC 001378FC  81 8C 00 44 */	lwz r12, 0x44(r12)
 /* 8013C3E0 00137900  7D 89 03 A6 */	mtctr r12
-/* 8013C3E4 00137904  4E 80 04 21 */	bctrl 
+/* 8013C3E4 00137904  4E 80 04 21 */	bctrl
 /* 8013C3E8 00137908  80 7C 00 14 */	lwz r3, 0x14(r28)
 /* 8013C3EC 0013790C  80 9C 00 20 */	lwz r4, 0x20(r28)
 /* 8013C3F0 00137910  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C3F4 00137914  80 BC 00 24 */	lwz r5, 0x24(r28)
 /* 8013C3F8 00137918  81 8C 00 14 */	lwz r12, 0x14(r12)
 /* 8013C3FC 0013791C  7D 89 03 A6 */	mtctr r12
-/* 8013C400 00137920  4E 80 04 21 */	bctrl 
+/* 8013C400 00137920  4E 80 04 21 */	bctrl
 /* 8013C404 00137924  83 DC 00 3C */	lwz r30, 0x3c(r28)
 /* 8013C408 00137928  7C 7D 1B 78 */	mr r29, r3
 /* 8013C40C 0013792C  7F C3 F3 78 */	mr r3, r30
@@ -3674,7 +3674,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C418 00137938  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C41C 0013793C  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8013C420 00137940  7D 89 03 A6 */	mtctr r12
-/* 8013C424 00137944  4E 80 04 21 */	bctrl 
+/* 8013C424 00137944  4E 80 04 21 */	bctrl
 /* 8013C428 00137948  38 00 00 00 */	li r0, 0
 /* 8013C42C 0013794C  7F C3 F3 78 */	mr r3, r30
 /* 8013C430 00137950  90 1C 00 14 */	stw r0, 0x14(r28)
@@ -3704,7 +3704,7 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C48C 001379AC  38 80 00 00 */	li r4, 0
 /* 8013C490 001379B0  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8013C494 001379B4  7D 89 03 A6 */	mtctr r12
-/* 8013C498 001379B8  4E 80 04 21 */	bctrl 
+/* 8013C498 001379B8  4E 80 04 21 */	bctrl
 /* 8013C49C 001379BC  48 00 00 E4 */	b .L_8013C580
 .L_8013C4A0:
 /* 8013C4A0 001379C0  83 DC 00 20 */	lwz r30, 0x20(r28)
@@ -3767,14 +3767,14 @@ glabel Execute__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C570 00137A90  38 80 00 01 */	li r4, 1
 /* 8013C574 00137A94  81 8C 00 08 */	lwz r12, 8(r12)
 /* 8013C578 00137A98  7D 89 03 A6 */	mtctr r12
-/* 8013C57C 00137A9C  4E 80 04 21 */	bctrl 
+/* 8013C57C 00137A9C  4E 80 04 21 */	bctrl
 .L_8013C580:
 /* 8013C580 00137AA0  39 61 02 30 */	addi r11, r1, 0x230
 /* 8013C584 00137AA4  48 02 04 05 */	bl _restgpr_25
 /* 8013C588 00137AA8  80 01 02 34 */	lwz r0, 0x234(r1)
 /* 8013C58C 00137AAC  7C 08 03 A6 */	mtlr r0
 /* 8013C590 00137AB0  38 21 02 30 */	addi r1, r1, 0x230
-/* 8013C594 00137AB4  4E 80 00 20 */	blr 
+/* 8013C594 00137AB4  4E 80 00 20 */	blr
 
 glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C598 00137AB8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3794,14 +3794,14 @@ glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C5D0 00137AF0  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C5D4 00137AF4  81 8C 00 54 */	lwz r12, 0x54(r12)
 /* 8013C5D8 00137AF8  7D 89 03 A6 */	mtctr r12
-/* 8013C5DC 00137AFC  4E 80 04 21 */	bctrl 
+/* 8013C5DC 00137AFC  4E 80 04 21 */	bctrl
 /* 8013C5E0 00137B00  2C 03 00 00 */	cmpwi r3, 0
 /* 8013C5E4 00137B04  41 82 00 54 */	beq .L_8013C638
 /* 8013C5E8 00137B08  80 7E 00 14 */	lwz r3, 0x14(r30)
 /* 8013C5EC 00137B0C  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C5F0 00137B10  81 8C 00 28 */	lwz r12, 0x28(r12)
 /* 8013C5F4 00137B14  7D 89 03 A6 */	mtctr r12
-/* 8013C5F8 00137B18  4E 80 04 21 */	bctrl 
+/* 8013C5F8 00137B18  4E 80 04 21 */	bctrl
 /* 8013C5FC 00137B1C  2C 03 00 00 */	cmpwi r3, 0
 /* 8013C600 00137B20  41 82 00 24 */	beq .L_8013C624
 /* 8013C604 00137B24  80 7E 00 14 */	lwz r3, 0x14(r30)
@@ -3810,14 +3810,14 @@ glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C610 00137B30  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C614 00137B34  81 8C 00 4C */	lwz r12, 0x4c(r12)
 /* 8013C618 00137B38  7D 89 03 A6 */	mtctr r12
-/* 8013C61C 00137B3C  4E 80 04 21 */	bctrl 
+/* 8013C61C 00137B3C  4E 80 04 21 */	bctrl
 /* 8013C620 00137B40  48 00 00 18 */	b .L_8013C638
 .L_8013C624:
 /* 8013C624 00137B44  80 7E 00 14 */	lwz r3, 0x14(r30)
 /* 8013C628 00137B48  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013C62C 00137B4C  81 8C 00 48 */	lwz r12, 0x48(r12)
 /* 8013C630 00137B50  7D 89 03 A6 */	mtctr r12
-/* 8013C634 00137B54  4E 80 04 21 */	bctrl 
+/* 8013C634 00137B54  4E 80 04 21 */	bctrl
 .L_8013C638:
 /* 8013C638 00137B58  7F E3 FB 78 */	mr r3, r31
 /* 8013C63C 00137B5C  4B F5 9F 41 */	bl OSUnlockMutex
@@ -3826,7 +3826,7 @@ glabel Cancel__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C648 00137B68  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8013C64C 00137B6C  7C 08 03 A6 */	mtlr r0
 /* 8013C650 00137B70  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C654 00137B74  4E 80 00 20 */	blr 
+/* 8013C654 00137B74  4E 80 00 20 */	blr
 
 glabel detail_ConvertLabelStringToSoundId__Q36nw4hbm3snd18SoundArchivePlayerFPCc
 /* 8013C658 00137B78  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3855,7 +3855,7 @@ glabel detail_ConvertLabelStringToSoundId__Q36nw4hbm3snd18SoundArchivePlayerFPCc
 /* 8013C6B0 00137BD0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8013C6B4 00137BD4  7C 08 03 A6 */	mtlr r0
 /* 8013C6B8 00137BD8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C6BC 00137BDC  4E 80 00 20 */	blr 
+/* 8013C6BC 00137BDC  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail10PlayerHeapFv
 /* 8013C6C0 00137BE0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3880,7 +3880,7 @@ glabel __dt__Q46nw4hbm3snd6detail10PlayerHeapFv
 /* 8013C708 00137C28  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013C70C 00137C2C  7C 08 03 A6 */	mtlr r0
 /* 8013C710 00137C30  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C714 00137C34  4E 80 00 20 */	blr 
+/* 8013C714 00137C34  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
 /* 8013C718 00137C38  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3899,7 +3899,7 @@ glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer11SeqLoadTaskFv
 /* 8013C748 00137C68  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013C74C 00137C6C  7C 08 03 A6 */	mtlr r0
 /* 8013C750 00137C70  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C754 00137C74  4E 80 00 20 */	blr 
+/* 8013C754 00137C74  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013C758 00137C78  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3918,7 +3918,7 @@ glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer18StrmHeaderLoadTaskFv
 /* 8013C788 00137CA8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013C78C 00137CAC  7C 08 03 A6 */	mtlr r0
 /* 8013C790 00137CB0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C794 00137CB4  4E 80 00 20 */	blr 
+/* 8013C794 00137CB4  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C798 00137CB8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -3937,7 +3937,7 @@ glabel __dt__Q46nw4hbm3snd18SoundArchivePlayer16StrmDataLoadTaskFv
 /* 8013C7C8 00137CE8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013C7CC 00137CEC  7C 08 03 A6 */	mtlr r0
 /* 8013C7D0 00137CF0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C7D4 00137CF4  4E 80 00 20 */	blr 
+/* 8013C7D4 00137CF4  4E 80 00 20 */	blr
 
 glabel __detail_ConvertLabelStringToSoundId__Q36nw4hbm3snd18SoundArchivePlayerFPCc
 /* 8013C7D8 00137CF8  38 63 FF F4 */	addi r3, r3, -12

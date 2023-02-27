@@ -6,7 +6,7 @@ glabel __ct__Q36nw4hbm2ut19TagProcessorBase_c_Fv
 /* 8015201C 0014D53C  3C 80 80 1B */	lis r4, lbl_801ACD34@ha
 /* 80152020 0014D540  38 84 CD 34 */	addi r4, r4, lbl_801ACD34@l
 /* 80152024 0014D544  90 83 00 00 */	stw r4, 0(r3)
-/* 80152028 0014D548  4E 80 00 20 */	blr 
+/* 80152028 0014D548  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut19TagProcessorBase_c_Fv
 /* 8015202C 0014D54C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -25,7 +25,7 @@ glabel __dt__Q36nw4hbm2ut19TagProcessorBase_c_Fv
 /* 8015205C 0014D57C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80152060 0014D580  7C 08 03 A6 */	mtlr r0
 /* 80152064 0014D584  38 21 00 10 */	addi r1, r1, 0x10
-/* 80152068 0014D588  4E 80 00 20 */	blr 
+/* 80152068 0014D588  4E 80 00 20 */	blr
 
 glabel Process__Q36nw4hbm2ut19TagProcessorBase_c_FUsPQ36nw4hbm2ut15PrintContext_c_
 /* 8015206C 0014D58C  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -273,7 +273,7 @@ glabel Process__Q36nw4hbm2ut19TagProcessorBase_c_FUsPQ36nw4hbm2ut15PrintContext_
 /* 801523E0 0014D900  83 81 00 20 */	lwz r28, 0x20(r1)
 /* 801523E4 0014D904  7C 08 03 A6 */	mtlr r0
 /* 801523E8 0014D908  38 21 00 50 */	addi r1, r1, 0x50
-/* 801523EC 0014D90C  4E 80 00 20 */	blr 
+/* 801523EC 0014D90C  4E 80 00 20 */	blr
 
 glabel CalcRect__Q36nw4hbm2ut19TagProcessorBase_c_FPQ36nw4hbm2ut4RectUsPQ36nw4hbm2ut15PrintContext_c_
 /* 801523F0 0014D910  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -637,13 +637,13 @@ glabel CalcRect__Q36nw4hbm2ut19TagProcessorBase_c_FPQ36nw4hbm2ut4RectUsPQ36nw4hb
 /* 80152918 0014DE38  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 8015291C 0014DE3C  7C 08 03 A6 */	mtlr r0
 /* 80152920 0014DE40  38 21 00 60 */	addi r1, r1, 0x60
-/* 80152924 0014DE44  4E 80 00 20 */	blr 
+/* 80152924 0014DE44  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm2ut19TagProcessorBase_w_Fv
 /* 80152928 0014DE48  3C 80 80 1B */	lis r4, lbl_801ACD20@ha
 /* 8015292C 0014DE4C  38 84 CD 20 */	addi r4, r4, lbl_801ACD20@l
 /* 80152930 0014DE50  90 83 00 00 */	stw r4, 0(r3)
-/* 80152934 0014DE54  4E 80 00 20 */	blr 
+/* 80152934 0014DE54  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut19TagProcessorBase_w
 /* 80152938 0014DE58  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -662,7 +662,7 @@ glabel __dt__Q36nw4hbm2ut19TagProcessorBase_w
 /* 80152968 0014DE88  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8015296C 0014DE8C  7C 08 03 A6 */	mtlr r0
 /* 80152970 0014DE90  38 21 00 10 */	addi r1, r1, 0x10
-/* 80152974 0014DE94  4E 80 00 20 */	blr 
+/* 80152974 0014DE94  4E 80 00 20 */	blr
 
 glabel Process__Q36nw4hbm2ut19TagProcessorBase_w_FUsPQ36nw4hbm2ut15PrintContext_w_
 /* 80152978 0014DE98  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -910,7 +910,7 @@ glabel Process__Q36nw4hbm2ut19TagProcessorBase_w_FUsPQ36nw4hbm2ut15PrintContext_
 /* 80152CEC 0014E20C  83 81 00 20 */	lwz r28, 0x20(r1)
 /* 80152CF0 0014E210  7C 08 03 A6 */	mtlr r0
 /* 80152CF4 0014E214  38 21 00 50 */	addi r1, r1, 0x50
-/* 80152CF8 0014E218  4E 80 00 20 */	blr 
+/* 80152CF8 0014E218  4E 80 00 20 */	blr
 
 glabel CalcRect__Q36nw4hbm2ut19TagProcessorBase_w_FPQ36nw4hbm2ut4RectUsPQ36nw4hbm2ut15PrintContext_w_
 /* 80152CFC 0014E21C  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -1274,5 +1274,5 @@ glabel CalcRect__Q36nw4hbm2ut19TagProcessorBase_w_FPQ36nw4hbm2ut4RectUsPQ36nw4hb
 /* 80153224 0014E744  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 80153228 0014E748  7C 08 03 A6 */	mtlr r0
 /* 8015322C 0014E74C  38 21 00 60 */	addi r1, r1, 0x60
-/* 80153230 0014E750  4E 80 00 20 */	blr 
+/* 80153230 0014E750  4E 80 00 20 */	blr
 

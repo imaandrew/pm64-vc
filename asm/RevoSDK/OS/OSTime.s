@@ -8,11 +8,11 @@ glabel OSGetTime
 /* 80098DD0 000942F0  7C AD 42 E6 */	mftbu r5
 /* 80098DD4 000942F4  7C 03 28 00 */	cmpw r3, r5
 /* 80098DD8 000942F8  40 82 FF F0 */	bne OSGetTime
-/* 80098DDC 000942FC  4E 80 00 20 */	blr 
+/* 80098DDC 000942FC  4E 80 00 20 */	blr
 
 glabel OSGetTick
 /* 80098DE0 00094300  7C 6C 42 E6 */	mftb r3, 0x10c
-/* 80098DE4 00094304  4E 80 00 20 */	blr 
+/* 80098DE4 00094304  4E 80 00 20 */	blr
 
 glabel __OSGetSystemTime
 /* 80098DE8 00094308  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -39,7 +39,7 @@ glabel __OSGetSystemTime
 /* 80098E3C 0009435C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80098E40 00094360  7C 08 03 A6 */	mtlr r0
 /* 80098E44 00094364  38 21 00 20 */	addi r1, r1, 0x20
-/* 80098E48 00094368  4E 80 00 20 */	blr 
+/* 80098E48 00094368  4E 80 00 20 */	blr
 
 glabel __OSTimeToSystemTime
 /* 80098E4C 0009436C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -63,7 +63,7 @@ glabel __OSTimeToSystemTime
 /* 80098E94 000943B4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80098E98 000943B8  7C 08 03 A6 */	mtlr r0
 /* 80098E9C 000943BC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80098EA0 000943C0  4E 80 00 20 */	blr 
+/* 80098EA0 000943C0  4E 80 00 20 */	blr
 
 glabel GetDates
 /* 80098EA4 000943C4  3C E0 92 49 */	lis r7, 0x92492493@ha
@@ -167,7 +167,7 @@ glabel lbl_80098F04
 /* 80099004 00094524  7C 63 00 50 */	subf r3, r3, r0
 /* 80099008 00094528  38 03 00 01 */	addi r0, r3, 1
 /* 8009900C 0009452C  90 04 00 0C */	stw r0, 0xc(r4)
-/* 80099010 00094530  4E 80 00 20 */	blr 
+/* 80099010 00094530  4E 80 00 20 */	blr
 
 glabel OSTicksToCalendarTime
 /* 80099014 00094534  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -285,7 +285,7 @@ glabel OSTicksToCalendarTime
 /* 800991CC 000946EC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800991D0 000946F0  7C 08 03 A6 */	mtlr r0
 /* 800991D4 000946F4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800991D8 000946F8  4E 80 00 20 */	blr 
+/* 800991D8 000946F8  4E 80 00 20 */	blr
 
 glabel OSCalendarTimeToTicks
 /* 800991DC 000946FC  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -462,5 +462,5 @@ glabel OSCalendarTimeToTicks
 /* 8009946C 0009498C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80099470 00094990  7C 08 03 A6 */	mtlr r0
 /* 80099474 00094994  38 21 00 40 */	addi r1, r1, 0x40
-/* 80099478 00094998  4E 80 00 20 */	blr 
+/* 80099478 00094998  4E 80 00 20 */	blr
 

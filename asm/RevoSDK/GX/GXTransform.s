@@ -19,7 +19,7 @@ glabel __GXSetProjection
 /* 800A96DC 000A4BFC  F0 05 00 00 */	psq_st f0, 0(r5), 0, qr0
 /* 800A96E0 000A4C00  80 03 05 28 */	lwz r0, 0x528(r3)
 /* 800A96E4 000A4C04  90 04 80 00 */	stw r0, -0x8000(r4)
-/* 800A96E8 000A4C08  4E 80 00 20 */	blr 
+/* 800A96E8 000A4C08  4E 80 00 20 */	blr
 
 glabel GXSetProjection
 /* 800A96EC 000A4C0C  80 A2 86 40 */	lwz r5, lbl_80247E40@sda21(r2)
@@ -48,7 +48,7 @@ glabel GXSetProjection
 /* 800A9740 000A4C60  80 05 05 FC */	lwz r0, 0x5fc(r5)
 /* 800A9744 000A4C64  64 00 08 00 */	oris r0, r0, 0x800
 /* 800A9748 000A4C68  90 05 05 FC */	stw r0, 0x5fc(r5)
-/* 800A974C 000A4C6C  4E 80 00 20 */	blr 
+/* 800A974C 000A4C6C  4E 80 00 20 */	blr
 
 glabel GXSetProjectionv
 /* 800A9750 000A4C70  C0 22 86 E0 */	lfs f1, lbl_80247EE0@sda21(r2)
@@ -71,7 +71,7 @@ glabel GXSetProjectionv
 /* 800A978C 000A4CAC  80 04 05 FC */	lwz r0, 0x5fc(r4)
 /* 800A9790 000A4CB0  64 00 08 00 */	oris r0, r0, 0x800
 /* 800A9794 000A4CB4  90 04 05 FC */	stw r0, 0x5fc(r4)
-/* 800A9798 000A4CB8  4E 80 00 20 */	blr 
+/* 800A9798 000A4CB8  4E 80 00 20 */	blr
 
 glabel GXLoadPosMtxImm
 /* 800A979C 000A4CBC  3C A0 CC 01 */	lis r5, 0xCC008000@ha
@@ -93,7 +93,7 @@ glabel GXLoadPosMtxImm
 /* 800A97DC 000A4CFC  F0 44 00 00 */	psq_st f2, 0(r4), 0, qr0
 /* 800A97E0 000A4D00  F0 24 00 00 */	psq_st f1, 0(r4), 0, qr0
 /* 800A97E4 000A4D04  F0 04 00 00 */	psq_st f0, 0(r4), 0, qr0
-/* 800A97E8 000A4D08  4E 80 00 20 */	blr 
+/* 800A97E8 000A4D08  4E 80 00 20 */	blr
 
 glabel GXLoadNrmMtxImm
 /* 800A97EC 000A4D0C  54 80 10 3A */	slwi r0, r4, 2
@@ -117,7 +117,7 @@ glabel GXLoadNrmMtxImm
 /* 800A9834 000A4D54  D0 45 80 00 */	stfs f2, -0x8000(r5)
 /* 800A9838 000A4D58  F0 24 00 00 */	psq_st f1, 0(r4), 0, qr0
 /* 800A983C 000A4D5C  D0 05 80 00 */	stfs f0, -0x8000(r5)
-/* 800A9840 000A4D60  4E 80 00 20 */	blr 
+/* 800A9840 000A4D60  4E 80 00 20 */	blr
 
 glabel GXSetCurrentMtx
 /* 800A9844 000A4D64  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
@@ -127,7 +127,7 @@ glabel GXSetCurrentMtx
 /* 800A9854 000A4D74  80 04 05 FC */	lwz r0, 0x5fc(r4)
 /* 800A9858 000A4D78  64 00 04 00 */	oris r0, r0, 0x400
 /* 800A985C 000A4D7C  90 04 05 FC */	stw r0, 0x5fc(r4)
-/* 800A9860 000A4D80  4E 80 00 20 */	blr 
+/* 800A9860 000A4D80  4E 80 00 20 */	blr
 
 glabel GXLoadTexMtxImm
 /* 800A9864 000A4D84  28 04 00 40 */	cmplwi r4, 0x40
@@ -168,7 +168,7 @@ glabel GXLoadTexMtxImm
 /* 800A98E0 000A4E00  F0 44 00 00 */	psq_st f2, 0(r4), 0, qr0
 /* 800A98E4 000A4E04  F0 24 00 00 */	psq_st f1, 0(r4), 0, qr0
 /* 800A98E8 000A4E08  F0 04 00 00 */	psq_st f0, 0(r4), 0, qr0
-/* 800A98EC 000A4E0C  4E 80 00 20 */	blr 
+/* 800A98EC 000A4E0C  4E 80 00 20 */	blr
 .L_800A98F0:
 /* 800A98F0 000A4E10  38 84 80 00 */	addi r4, r4, -32768
 /* 800A98F4 000A4E14  E0 63 00 00 */	psq_l f3, 0(r3), 0, qr0
@@ -179,7 +179,7 @@ glabel GXLoadTexMtxImm
 /* 800A9908 000A4E28  F0 44 00 00 */	psq_st f2, 0(r4), 0, qr0
 /* 800A990C 000A4E2C  F0 24 00 00 */	psq_st f1, 0(r4), 0, qr0
 /* 800A9910 000A4E30  F0 04 00 00 */	psq_st f0, 0(r4), 0, qr0
-/* 800A9914 000A4E34  4E 80 00 20 */	blr 
+/* 800A9914 000A4E34  4E 80 00 20 */	blr
 
 glabel __GXSetViewport
 /* 800A9918 000A4E38  80 C2 86 40 */	lwz r6, lbl_80247E40@sda21(r2)
@@ -217,7 +217,7 @@ glabel __GXSetViewport
 /* 800A9998 000A4EB8  D0 84 80 00 */	stfs f4, -0x8000(r4)
 /* 800A999C 000A4EBC  D0 24 80 00 */	stfs f1, -0x8000(r4)
 /* 800A99A0 000A4EC0  D0 04 80 00 */	stfs f0, -0x8000(r4)
-/* 800A99A4 000A4EC4  4E 80 00 20 */	blr 
+/* 800A99A4 000A4EC4  4E 80 00 20 */	blr
 
 glabel GXSetViewportJitter
 /* 800A99A8 000A4EC8  2C 03 00 00 */	cmpwi r3, 0
@@ -235,7 +235,7 @@ glabel GXSetViewportJitter
 /* 800A99D4 000A4EF4  80 03 05 FC */	lwz r0, 0x5fc(r3)
 /* 800A99D8 000A4EF8  64 00 10 00 */	oris r0, r0, 0x1000
 /* 800A99DC 000A4EFC  90 03 05 FC */	stw r0, 0x5fc(r3)
-/* 800A99E0 000A4F00  4E 80 00 20 */	blr 
+/* 800A99E0 000A4F00  4E 80 00 20 */	blr
 
 glabel GXSetViewport
 /* 800A99E4 000A4F04  80 62 86 40 */	lwz r3, lbl_80247E40@sda21(r2)
@@ -248,7 +248,7 @@ glabel GXSetViewport
 /* 800A9A00 000A4F20  80 03 05 FC */	lwz r0, 0x5fc(r3)
 /* 800A9A04 000A4F24  64 00 10 00 */	oris r0, r0, 0x1000
 /* 800A9A08 000A4F28  90 03 05 FC */	stw r0, 0x5fc(r3)
-/* 800A9A0C 000A4F2C  4E 80 00 20 */	blr 
+/* 800A9A0C 000A4F2C  4E 80 00 20 */	blr
 
 glabel GXGetViewportv
 /* 800A9A10 000A4F30  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
@@ -258,7 +258,7 @@ glabel GXGetViewportv
 /* 800A9A20 000A4F40  F0 43 00 00 */	psq_st f2, 0(r3), 0, qr0
 /* 800A9A24 000A4F44  F0 23 00 08 */	psq_st f1, 8(r3), 0, qr0
 /* 800A9A28 000A4F48  F0 03 00 10 */	psq_st f0, 16(r3), 0, qr0
-/* 800A9A2C 000A4F4C  4E 80 00 20 */	blr 
+/* 800A9A2C 000A4F4C  4E 80 00 20 */	blr
 
 glabel GXSetZScaleOffset
 /* 800A9A30 000A4F50  C0 62 86 F0 */	lfs f3, lbl_80247EF0@sda21(r2)
@@ -272,7 +272,7 @@ glabel GXSetZScaleOffset
 /* 800A9A50 000A4F70  80 03 05 FC */	lwz r0, 0x5fc(r3)
 /* 800A9A54 000A4F74  64 00 10 00 */	oris r0, r0, 0x1000
 /* 800A9A58 000A4F78  90 03 05 FC */	stw r0, 0x5fc(r3)
-/* 800A9A5C 000A4F7C  4E 80 00 20 */	blr 
+/* 800A9A5C 000A4F7C  4E 80 00 20 */	blr
 
 glabel GXSetScissor
 /* 800A9A60 000A4F80  81 02 86 40 */	lwz r8, lbl_80247E40@sda21(r2)
@@ -300,7 +300,7 @@ glabel GXSetScissor
 /* 800A9AB8 000A4FD8  80 68 01 4C */	lwz r3, 0x14c(r8)
 /* 800A9ABC 000A4FDC  90 67 80 00 */	stw r3, -0x8000(r7)
 /* 800A9AC0 000A4FE0  B0 08 00 02 */	sth r0, 2(r8)
-/* 800A9AC4 000A4FE4  4E 80 00 20 */	blr 
+/* 800A9AC4 000A4FE4  4E 80 00 20 */	blr
 
 glabel GXSetScissorBoxOffset
 /* 800A9AC8 000A4FE8  38 03 01 56 */	addi r0, r3, 0x156
@@ -317,7 +317,7 @@ glabel GXSetScissorBoxOffset
 /* 800A9AF4 000A5014  90 C5 80 00 */	stw r6, -0x8000(r5)
 /* 800A9AF8 000A5018  38 00 00 00 */	li r0, 0
 /* 800A9AFC 000A501C  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A9B00 000A5020  4E 80 00 20 */	blr 
+/* 800A9B00 000A5020  4E 80 00 20 */	blr
 
 glabel GXSetClipMode
 /* 800A9B04 000A5024  3C C0 CC 01 */	lis r6, 0xCC008000@ha
@@ -329,7 +329,7 @@ glabel GXSetClipMode
 /* 800A9B1C 000A503C  90 A6 80 00 */	stw r5, -0x8000(r6)
 /* 800A9B20 000A5040  90 66 80 00 */	stw r3, -0x8000(r6)
 /* 800A9B24 000A5044  B0 04 00 02 */	sth r0, 2(r4)
-/* 800A9B28 000A5048  4E 80 00 20 */	blr 
+/* 800A9B28 000A5048  4E 80 00 20 */	blr
 
 glabel __GXSetMatrixIndex
 /* 800A9B2C 000A504C  2C 03 00 05 */	cmpwi r3, 5
@@ -367,5 +367,5 @@ glabel __GXSetMatrixIndex
 .L_800A9BA8:
 /* 800A9BA8 000A50C8  38 00 00 01 */	li r0, 1
 /* 800A9BAC 000A50CC  B0 06 00 02 */	sth r0, 2(r6)
-/* 800A9BB0 000A50D0  4E 80 00 20 */	blr 
+/* 800A9BB0 000A50D0  4E 80 00 20 */	blr
 

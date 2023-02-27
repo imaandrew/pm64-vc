@@ -41,7 +41,7 @@ glabel doTransactionCallback
 .L_800AFBD0:
 /* 800AFBD0 000AB0F0  81 84 00 00 */	lwz r12, 0(r4)
 /* 800AFBD4 000AB0F4  7D 89 03 A6 */	mtctr r12
-/* 800AFBD8 000AB0F8  4E 80 04 21 */	bctrl 
+/* 800AFBD8 000AB0F8  4E 80 04 21 */	bctrl
 /* 800AFBDC 000AB0FC  38 00 00 00 */	li r0, 0
 /* 800AFBE0 000AB100  98 0D 8F A9 */	stb r0, lbl_80247429@sda21(r13)
 .L_800AFBE4:
@@ -52,7 +52,7 @@ glabel doTransactionCallback
 /* 800AFBF4 000AB114  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800AFBF8 000AB118  7C 08 03 A6 */	mtlr r0
 /* 800AFBFC 000AB11C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800AFC00 000AB120  4E 80 00 20 */	blr 
+/* 800AFC00 000AB120  4E 80 00 20 */	blr
 
 glabel doCoverCallback
 /* 800AFC04 000AB124  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -93,7 +93,7 @@ glabel doCoverCallback
 .L_800AFC8C:
 /* 800AFC8C 000AB1AC  81 84 00 00 */	lwz r12, 0(r4)
 /* 800AFC90 000AB1B0  7D 89 03 A6 */	mtctr r12
-/* 800AFC94 000AB1B4  4E 80 04 21 */	bctrl 
+/* 800AFC94 000AB1B4  4E 80 04 21 */	bctrl
 /* 800AFC98 000AB1B8  38 00 00 00 */	li r0, 0
 /* 800AFC9C 000AB1BC  98 0D 8F A9 */	stb r0, lbl_80247429@sda21(r13)
 .L_800AFCA0:
@@ -104,7 +104,7 @@ glabel doCoverCallback
 /* 800AFCB0 000AB1D0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800AFCB4 000AB1D4  7C 08 03 A6 */	mtlr r0
 /* 800AFCB8 000AB1D8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800AFCBC 000AB1DC  4E 80 00 20 */	blr 
+/* 800AFCBC 000AB1DC  4E 80 00 20 */	blr
 
 glabel DVDLowInit
 /* 800AFCC0 000AB1E0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -276,7 +276,7 @@ glabel DVDLowInit
 /* 800AFF14 000AB434  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800AFF18 000AB438  7C 08 03 A6 */	mtlr r0
 /* 800AFF1C 000AB43C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800AFF20 000AB440  4E 80 00 20 */	blr 
+/* 800AFF20 000AB440  4E 80 00 20 */	blr
 
 glabel DVDLowReadDiskID
 /* 800AFF24 000AB444  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -385,7 +385,7 @@ glabel DVDLowReadDiskID
 /* 800B009C 000AB5BC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800B00A0 000AB5C0  7C 08 03 A6 */	mtlr r0
 /* 800B00A4 000AB5C4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B00A8 000AB5C8  4E 80 00 20 */	blr 
+/* 800B00A8 000AB5C8  4E 80 00 20 */	blr
 
 glabel DVDLowOpenPartition
 /* 800B00AC 000AB5CC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -556,7 +556,7 @@ glabel DVDLowOpenPartition
 /* 800B0304 000AB824  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800B0308 000AB828  7C 08 03 A6 */	mtlr r0
 /* 800B030C 000AB82C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B0310 000AB830  4E 80 00 20 */	blr 
+/* 800B0310 000AB830  4E 80 00 20 */	blr
 
 glabel DVDLowClosePartition
 /* 800B0314 000AB834  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -655,7 +655,7 @@ glabel DVDLowClosePartition
 /* 800B0468 000AB988  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B046C 000AB98C  7C 08 03 A6 */	mtlr r0
 /* 800B0470 000AB990  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B0474 000AB994  4E 80 00 20 */	blr 
+/* 800B0474 000AB994  4E 80 00 20 */	blr
 
 glabel DVDLowUnencryptedRead
 /* 800B0478 000AB998  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -766,7 +766,7 @@ glabel DVDLowUnencryptedRead
 /* 800B05FC 000ABB1C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B0600 000ABB20  7C 08 03 A6 */	mtlr r0
 /* 800B0604 000ABB24  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B0608 000ABB28  4E 80 00 20 */	blr 
+/* 800B0608 000ABB28  4E 80 00 20 */	blr
 
 glabel DVDLowStopMotor
 /* 800B060C 000ABB2C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -877,7 +877,7 @@ glabel DVDLowStopMotor
 /* 800B0790 000ABCB0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B0794 000ABCB4  7C 08 03 A6 */	mtlr r0
 /* 800B0798 000ABCB8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B079C 000ABCBC  4E 80 00 20 */	blr 
+/* 800B079C 000ABCBC  4E 80 00 20 */	blr
 
 glabel DVDLowInquiry
 /* 800B07A0 000ABCC0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -977,7 +977,7 @@ glabel DVDLowInquiry
 /* 800B08F8 000ABE18  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B08FC 000ABE1C  7C 08 03 A6 */	mtlr r0
 /* 800B0900 000ABE20  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B0904 000ABE24  4E 80 00 20 */	blr 
+/* 800B0904 000ABE24  4E 80 00 20 */	blr
 
 glabel DVDLowRequestError
 /* 800B0908 000ABE28  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1077,12 +1077,12 @@ glabel DVDLowRequestError
 /* 800B0A60 000ABF80  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B0A64 000ABF84  7C 08 03 A6 */	mtlr r0
 /* 800B0A68 000ABF88  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B0A6C 000ABF8C  4E 80 00 20 */	blr 
+/* 800B0A6C 000ABF8C  4E 80 00 20 */	blr
 
 glabel DVDLowSetSpinupFlag
 /* 800B0A70 000ABF90  90 6D 8F B8 */	stw r3, lbl_80247438@sda21(r13)
 /* 800B0A74 000ABF94  38 60 00 01 */	li r3, 1
-/* 800B0A78 000ABF98  4E 80 00 20 */	blr 
+/* 800B0A78 000ABF98  4E 80 00 20 */	blr
 
 glabel DVDLowReset
 /* 800B0A7C 000ABF9C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1187,7 +1187,7 @@ glabel DVDLowReset
 /* 800B0BE8 000AC108  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B0BEC 000AC10C  7C 08 03 A6 */	mtlr r0
 /* 800B0BF0 000AC110  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B0BF4 000AC114  4E 80 00 20 */	blr 
+/* 800B0BF4 000AC114  4E 80 00 20 */	blr
 
 glabel DVDLowAudioBufferConfig
 /* 800B0BF8 000AC118  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1298,7 +1298,7 @@ glabel DVDLowAudioBufferConfig
 /* 800B0D7C 000AC29C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B0D80 000AC2A0  7C 08 03 A6 */	mtlr r0
 /* 800B0D84 000AC2A4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B0D88 000AC2A8  4E 80 00 20 */	blr 
+/* 800B0D88 000AC2A8  4E 80 00 20 */	blr
 
 glabel DVDLowSetMaximumRotation
 /* 800B0D8C 000AC2AC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1404,7 +1404,7 @@ glabel DVDLowSetMaximumRotation
 /* 800B0EFC 000AC41C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B0F00 000AC420  7C 08 03 A6 */	mtlr r0
 /* 800B0F04 000AC424  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B0F08 000AC428  4E 80 00 20 */	blr 
+/* 800B0F08 000AC428  4E 80 00 20 */	blr
 
 glabel DVDLowRead
 /* 800B0F0C 000AC42C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1523,7 +1523,7 @@ glabel DVDLowRead
 /* 800B10AC 000AC5CC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B10B0 000AC5D0  7C 08 03 A6 */	mtlr r0
 /* 800B10B4 000AC5D4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B10B8 000AC5D8  4E 80 00 20 */	blr 
+/* 800B10B8 000AC5D8  4E 80 00 20 */	blr
 
 glabel DVDLowSeek
 /* 800B10BC 000AC5DC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1628,13 +1628,13 @@ glabel DVDLowSeek
 /* 800B1228 000AC748  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B122C 000AC74C  7C 08 03 A6 */	mtlr r0
 /* 800B1230 000AC750  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B1234 000AC754  4E 80 00 20 */	blr 
+/* 800B1234 000AC754  4E 80 00 20 */	blr
 
 glabel func_800B1238
 /* 800B1238 000AC758  3C 60 80 1D */	lis r3, lbl_801CB0A0@ha
 /* 800B123C 000AC75C  38 63 B0 A0 */	addi r3, r3, lbl_801CB0A0@l
 /* 800B1240 000AC760  80 63 00 04 */	lwz r3, 4(r3)
-/* 800B1244 000AC764  4E 80 00 20 */	blr 
+/* 800B1244 000AC764  4E 80 00 20 */	blr
 
 glabel DVDLowGetCoverRegister
 /* 800B1248 000AC768  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1734,20 +1734,20 @@ glabel DVDLowGetCoverRegister
 /* 800B13A0 000AC8C0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B13A4 000AC8C4  7C 08 03 A6 */	mtlr r0
 /* 800B13A8 000AC8C8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B13AC 000AC8CC  4E 80 00 20 */	blr 
+/* 800B13AC 000AC8CC  4E 80 00 20 */	blr
 
 glabel DVDLowGetImmBufferReg
 /* 800B13B0 000AC8D0  3C 60 80 1D */	lis r3, lbl_801CB0A0@ha
 /* 800B13B4 000AC8D4  80 63 B0 A0 */	lwz r3, lbl_801CB0A0@l(r3)
-/* 800B13B8 000AC8D8  4E 80 00 20 */	blr 
+/* 800B13B8 000AC8D8  4E 80 00 20 */	blr
 
 glabel DVDLowUnmaskStatusInterrupts
 /* 800B13BC 000AC8DC  38 60 00 01 */	li r3, 1
-/* 800B13C0 000AC8E0  4E 80 00 20 */	blr 
+/* 800B13C0 000AC8E0  4E 80 00 20 */	blr
 
 glabel DVDLowMaskCoverInterrupt
 /* 800B13C4 000AC8E4  38 60 00 01 */	li r3, 1
-/* 800B13C8 000AC8E8  4E 80 00 20 */	blr 
+/* 800B13C8 000AC8E8  4E 80 00 20 */	blr
 
 glabel DVDLowClearCoverInterrupt
 /* 800B13CC 000AC8EC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1846,10 +1846,10 @@ glabel DVDLowClearCoverInterrupt
 /* 800B1520 000ACA40  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B1524 000ACA44  7C 08 03 A6 */	mtlr r0
 /* 800B1528 000ACA48  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B152C 000ACA4C  4E 80 00 20 */	blr 
+/* 800B152C 000ACA4C  4E 80 00 20 */	blr
 glabel lbl_800B1530
 /* 800B1530 000ACA50  38 60 00 00 */	li r3, 0
-/* 800B1534 000ACA54  4E 80 00 20 */	blr 
+/* 800B1534 000ACA54  4E 80 00 20 */	blr
 
 glabel func_800B1538
 /* 800B1538 000ACA58  94 21 FF 60 */	stwu r1, -0xa0(r1)
@@ -1908,7 +1908,7 @@ glabel func_800B1538
 /* 800B1604 000ACB24  83 C1 00 88 */	lwz r30, 0x88(r1)
 /* 800B1608 000ACB28  7C 08 03 A6 */	mtlr r0
 /* 800B160C 000ACB2C  38 21 00 A0 */	addi r1, r1, 0xa0
-/* 800B1610 000ACB30  4E 80 00 20 */	blr 
+/* 800B1610 000ACB30  4E 80 00 20 */	blr
 
 glabel func_800B1614
 /* 800B1614 000ACB34  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2007,7 +2007,7 @@ glabel func_800B1614
 /* 800B1760 000ACC80  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B1764 000ACC84  7C 08 03 A6 */	mtlr r0
 /* 800B1768 000ACC88  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B176C 000ACC8C  4E 80 00 20 */	blr 
+/* 800B176C 000ACC8C  4E 80 00 20 */	blr
 
 glabel func_800B1770
 /* 800B1770 000ACC90  2C 03 00 00 */	cmpwi r3, 0
@@ -2018,12 +2018,12 @@ glabel func_800B1770
 /* 800B1784 000ACCA4  B0 03 00 00 */	sth r0, 0(r3)
 .L_800B1788:
 /* 800B1788 000ACCA8  2C 04 00 00 */	cmpwi r4, 0
-/* 800B178C 000ACCAC  4D 82 00 20 */	beqlr 
+/* 800B178C 000ACCAC  4D 82 00 20 */	beqlr
 /* 800B1790 000ACCB0  A8 0D 8F D8 */	lha r0, lbl_80247458@sda21(r13)
 /* 800B1794 000ACCB4  7C 00 26 70 */	srawi r0, r0, 4
 /* 800B1798 000ACCB8  7C 00 01 94 */	addze r0, r0
 /* 800B179C 000ACCBC  B0 04 00 00 */	sth r0, 0(r4)
-/* 800B17A0 000ACCC0  4E 80 00 20 */	blr 
+/* 800B17A0 000ACCC0  4E 80 00 20 */	blr
 
 glabel func_800B17A4
 /* 800B17A4 000ACCC4  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -2085,7 +2085,7 @@ glabel func_800B17A4
 /* 800B1884 000ACDA4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800B1888 000ACDA8  7C 08 03 A6 */	mtlr r0
 /* 800B188C 000ACDAC  38 21 00 30 */	addi r1, r1, 0x30
-/* 800B1890 000ACDB0  4E 80 00 20 */	blr 
+/* 800B1890 000ACDB0  4E 80 00 20 */	blr
 
 glabel func_800B1894
 /* 800B1894 000ACDB4  94 21 FF 50 */	stwu r1, -0xb0(r1)
@@ -2258,7 +2258,7 @@ glabel func_800B1894
 /* 800B1B1C 000AD03C  80 01 00 B4 */	lwz r0, 0xb4(r1)
 /* 800B1B20 000AD040  7C 08 03 A6 */	mtlr r0
 /* 800B1B24 000AD044  38 21 00 B0 */	addi r1, r1, 0xb0
-/* 800B1B28 000AD048  4E 80 00 20 */	blr 
+/* 800B1B28 000AD048  4E 80 00 20 */	blr
 
 glabel func_800B1B2C
 /* 800B1B2C 000AD04C  94 21 FE 70 */	stwu r1, -0x190(r1)
@@ -2312,7 +2312,7 @@ glabel func_800B1B2C
 /* 800B1BE8 000AD108  83 81 01 80 */	lwz r28, 0x180(r1)
 /* 800B1BEC 000AD10C  7C 08 03 A6 */	mtlr r0
 /* 800B1BF0 000AD110  38 21 01 90 */	addi r1, r1, 0x190
-/* 800B1BF4 000AD114  4E 80 00 20 */	blr 
+/* 800B1BF4 000AD114  4E 80 00 20 */	blr
 
 glabel func_800B1BF8
 /* 800B1BF8 000AD118  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -2360,7 +2360,7 @@ glabel func_800B1BF8
 /* 800B1C8C 000AD1AC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B1C90 000AD1B0  7C 08 03 A6 */	mtlr r0
 /* 800B1C94 000AD1B4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B1C98 000AD1B8  4E 80 00 20 */	blr 
+/* 800B1C98 000AD1B8  4E 80 00 20 */	blr
 
 glabel func_800B1C9C
 /* 800B1C9C 000AD1BC  38 C0 00 01 */	li r6, 1
@@ -2386,7 +2386,7 @@ glabel func_800B1C9C
 /* 800B1CE0 000AD200  38 06 00 0F */	addi r0, r6, 0xf
 /* 800B1CE4 000AD204  7C 00 26 70 */	srawi r0, r0, 4
 /* 800B1CE8 000AD208  7C 60 01 94 */	addze r3, r0
-/* 800B1CEC 000AD20C  4E 80 00 20 */	blr 
+/* 800B1CEC 000AD20C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -6,7 +6,7 @@ glabel __ct__Q46nw4hbm3snd6detail14StrmFileReaderFv
 /* 8013F15C 0013A67C  38 00 00 00 */	li r0, 0
 /* 8013F160 0013A680  90 03 00 00 */	stw r0, 0(r3)
 /* 8013F164 0013A684  90 03 00 04 */	stw r0, 4(r3)
-/* 8013F168 0013A688  4E 80 00 20 */	blr 
+/* 8013F168 0013A688  4E 80 00 20 */	blr
 
 glabel ReadStrmInfo__Q46nw4hbm3snd6detail14StrmFileReaderCFPQ46nw4hbm3snd6detail8StrmInfo
 /* 8013F16C 0013A68C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -85,7 +85,7 @@ glabel ReadStrmInfo__Q46nw4hbm3snd6detail14StrmFileReaderCFPQ46nw4hbm3snd6detail
 /* 8013F288 0013A7A8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013F28C 0013A7AC  7C 08 03 A6 */	mtlr r0
 /* 8013F290 0013A7B0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013F294 0013A7B4  4E 80 00 20 */	blr 
+/* 8013F294 0013A7B4  4E 80 00 20 */	blr
 
 glabel ReadAdpcmInfo__Q46nw4hbm3snd6detail14StrmFileReaderCFPQ46nw4hbm3snd6detail9AdpcmInfoi
 /* 8013F298 0013A7B8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -247,7 +247,7 @@ glabel ReadAdpcmInfo__Q46nw4hbm3snd6detail14StrmFileReaderCFPQ46nw4hbm3snd6detai
 /* 8013F4E8 0013AA08  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8013F4EC 0013AA0C  7C 08 03 A6 */	mtlr r0
 /* 8013F4F0 0013AA10  38 21 00 20 */	addi r1, r1, 0x20
-/* 8013F4F4 0013AA14  4E 80 00 20 */	blr 
+/* 8013F4F4 0013AA14  4E 80 00 20 */	blr
 
 glabel LoadFileHeader__Q46nw4hbm3snd6detail14StrmFileLoaderFPvUl
 /* 8013F4F8 0013AA18  94 21 FF 80 */	stwu r1, -0x80(r1)
@@ -266,7 +266,7 @@ glabel LoadFileHeader__Q46nw4hbm3snd6detail14StrmFileLoaderFPvUl
 /* 8013F52C 0013AA4C  81 8C 00 44 */	lwz r12, 0x44(r12)
 /* 8013F530 0013AA50  38 A0 00 00 */	li r5, 0
 /* 8013F534 0013AA54  7D 89 03 A6 */	mtctr r12
-/* 8013F538 0013AA58  4E 80 04 21 */	bctrl 
+/* 8013F538 0013AA58  4E 80 04 21 */	bctrl
 /* 8013F53C 0013AA5C  80 7B 00 00 */	lwz r3, 0(r27)
 /* 8013F540 0013AA60  38 01 00 27 */	addi r0, r1, 0x27
 /* 8013F544 0013AA64  54 1E 00 34 */	rlwinm r30, r0, 0, 0, 0x1a
@@ -275,7 +275,7 @@ glabel LoadFileHeader__Q46nw4hbm3snd6detail14StrmFileLoaderFPvUl
 /* 8013F550 0013AA70  7F C4 F3 78 */	mr r4, r30
 /* 8013F554 0013AA74  81 8C 00 14 */	lwz r12, 0x14(r12)
 /* 8013F558 0013AA78  7D 89 03 A6 */	mtctr r12
-/* 8013F55C 0013AA7C  4E 80 04 21 */	bctrl 
+/* 8013F55C 0013AA7C  4E 80 04 21 */	bctrl
 /* 8013F560 0013AA80  28 03 00 40 */	cmplwi r3, 0x40
 /* 8013F564 0013AA84  41 82 00 0C */	beq .L_8013F570
 /* 8013F568 0013AA88  38 60 00 00 */	li r3, 0
@@ -356,14 +356,14 @@ glabel LoadFileHeader__Q46nw4hbm3snd6detail14StrmFileLoaderFPvUl
 /* 8013F66C 0013AB8C  81 8C 00 44 */	lwz r12, 0x44(r12)
 /* 8013F670 0013AB90  7F A6 02 14 */	add r29, r6, r0
 /* 8013F674 0013AB94  7D 89 03 A6 */	mtctr r12
-/* 8013F678 0013AB98  4E 80 04 21 */	bctrl 
+/* 8013F678 0013AB98  4E 80 04 21 */	bctrl
 /* 8013F67C 0013AB9C  80 7B 00 00 */	lwz r3, 0(r27)
 /* 8013F680 0013ABA0  7F 84 E3 78 */	mr r4, r28
 /* 8013F684 0013ABA4  7F A5 EB 78 */	mr r5, r29
 /* 8013F688 0013ABA8  81 83 00 00 */	lwz r12, 0(r3)
 /* 8013F68C 0013ABAC  81 8C 00 14 */	lwz r12, 0x14(r12)
 /* 8013F690 0013ABB0  7D 89 03 A6 */	mtctr r12
-/* 8013F694 0013ABB4  4E 80 04 21 */	bctrl 
+/* 8013F694 0013ABB4  4E 80 04 21 */	bctrl
 /* 8013F698 0013ABB8  7C 03 E8 40 */	cmplw r3, r29
 /* 8013F69C 0013ABBC  41 82 00 0C */	beq .L_8013F6A8
 /* 8013F6A0 0013ABC0  38 60 00 00 */	li r3, 0
@@ -481,5 +481,5 @@ glabel LoadFileHeader__Q46nw4hbm3snd6detail14StrmFileLoaderFPvUl
 /* 8013F82C 0013AD4C  80 01 00 84 */	lwz r0, 0x84(r1)
 /* 8013F830 0013AD50  7C 08 03 A6 */	mtlr r0
 /* 8013F834 0013AD54  38 21 00 80 */	addi r1, r1, 0x80
-/* 8013F838 0013AD58  4E 80 00 20 */	blr 
+/* 8013F838 0013AD58  4E 80 00 20 */	blr
 

@@ -41,7 +41,7 @@ glabel WaitMicroTime
 /* 800A0E00 0009C320  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800A0E04 0009C324  7C 08 03 A6 */	mtlr r0
 /* 800A0E08 0009C328  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A0E0C 0009C32C  4E 80 00 20 */	blr 
+/* 800A0E0C 0009C32C  4E 80 00 20 */	blr
 
 glabel sendSlaveAddr
 /* 800A0E10 0009C330  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -296,7 +296,7 @@ glabel sendSlaveAddr
 /* 800A11B4 0009C6D4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800A11B8 0009C6D8  7C 08 03 A6 */	mtlr r0
 /* 800A11BC 0009C6DC  38 21 00 30 */	addi r1, r1, 0x30
-/* 800A11C0 0009C6E0  4E 80 00 20 */	blr 
+/* 800A11C0 0009C6E0  4E 80 00 20 */	blr
 
 glabel __VISendI2CData
 /* 800A11C4 0009C6E4  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -697,5 +697,5 @@ glabel __VISendI2CData
 /* 800A1784 0009CCA4  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800A1788 0009CCA8  7C 08 03 A6 */	mtlr r0
 /* 800A178C 0009CCAC  38 21 00 40 */	addi r1, r1, 0x40
-/* 800A1790 0009CCB0  4E 80 00 20 */	blr 
+/* 800A1790 0009CCB0  4E 80 00 20 */	blr
 

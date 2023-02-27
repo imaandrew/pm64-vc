@@ -5,7 +5,7 @@
 glabel __AXGetStudio
 /* 800B43E0 000AF900  3C 60 80 1D */	lis r3, lbl_801CF320@ha
 /* 800B43E4 000AF904  38 63 F3 20 */	addi r3, r3, lbl_801CF320@l
-/* 800B43E8 000AF908  4E 80 00 20 */	blr 
+/* 800B43E8 000AF908  4E 80 00 20 */	blr
 
 glabel __AXDepopFadeMain
 /* 800B43EC 000AF90C  3C C0 2A AB */	lis r6, 0x2AAAAAAB@ha
@@ -31,13 +31,13 @@ glabel __AXDepopFadeMain
 /* 800B4434 000AF954  7C 86 20 50 */	subf r4, r6, r4
 /* 800B4438 000AF958  90 83 00 00 */	stw r4, 0(r3)
 /* 800B443C 000AF95C  B0 05 00 00 */	sth r0, 0(r5)
-/* 800B4440 000AF960  4E 80 00 20 */	blr 
+/* 800B4440 000AF960  4E 80 00 20 */	blr
 .L_800B4444:
 /* 800B4444 000AF964  38 00 00 00 */	li r0, 0
 /* 800B4448 000AF968  90 03 00 00 */	stw r0, 0(r3)
 /* 800B444C 000AF96C  90 04 00 00 */	stw r0, 0(r4)
 /* 800B4450 000AF970  B0 05 00 00 */	sth r0, 0(r5)
-/* 800B4454 000AF974  4E 80 00 20 */	blr 
+/* 800B4454 000AF974  4E 80 00 20 */	blr
 
 glabel __AXDepopFadeRmt
 /* 800B4458 000AF978  3C C0 38 E4 */	lis r6, 0x38E38E39@ha
@@ -63,13 +63,13 @@ glabel __AXDepopFadeRmt
 /* 800B44A0 000AF9C0  7C 86 20 50 */	subf r4, r6, r4
 /* 800B44A4 000AF9C4  90 83 00 00 */	stw r4, 0(r3)
 /* 800B44A8 000AF9C8  B0 05 00 00 */	sth r0, 0(r5)
-/* 800B44AC 000AF9CC  4E 80 00 20 */	blr 
+/* 800B44AC 000AF9CC  4E 80 00 20 */	blr
 .L_800B44B0:
 /* 800B44B0 000AF9D0  38 00 00 00 */	li r0, 0
 /* 800B44B4 000AF9D4  90 03 00 00 */	stw r0, 0(r3)
 /* 800B44B8 000AF9D8  90 04 00 00 */	stw r0, 0(r4)
 /* 800B44BC 000AF9DC  B0 05 00 00 */	sth r0, 0(r5)
-/* 800B44C0 000AF9E0  4E 80 00 20 */	blr 
+/* 800B44C0 000AF9E0  4E 80 00 20 */	blr
 
 glabel __AXPrintStudio
 /* 800B44C4 000AF9E4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -165,7 +165,7 @@ glabel __AXPrintStudio
 /* 800B462C 000AFB4C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800B4630 000AFB50  7C 08 03 A6 */	mtlr r0
 /* 800B4634 000AFB54  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B4638 000AFB58  4E 80 00 20 */	blr 
+/* 800B4638 000AFB58  4E 80 00 20 */	blr
 
 glabel __AXSPBInit
 /* 800B463C 000AFB5C  38 00 00 00 */	li r0, 0
@@ -189,10 +189,10 @@ glabel __AXSPBInit
 /* 800B4684 000AFBA4  90 0D 91 24 */	stw r0, lbl_802475A4@sda21(r13)
 /* 800B4688 000AFBA8  90 0D 91 28 */	stw r0, lbl_802475A8@sda21(r13)
 /* 800B468C 000AFBAC  90 0D 91 2C */	stw r0, lbl_802475AC@sda21(r13)
-/* 800B4690 000AFBB0  4E 80 00 20 */	blr 
+/* 800B4690 000AFBB0  4E 80 00 20 */	blr
 
 glabel __AXSPBQuit
-/* 800B4694 000AFBB4  4E 80 00 20 */	blr 
+/* 800B4694 000AFBB4  4E 80 00 20 */	blr
 
 glabel __AXDepopVoice
 /* 800B4698 000AFBB8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -285,7 +285,7 @@ glabel __AXDepopVoice
 /* 800B47F4 000AFD14  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B47F8 000AFD18  7C 08 03 A6 */	mtlr r0
 /* 800B47FC 000AFD1C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B4800 000AFD20  4E 80 00 20 */	blr 
+/* 800B4800 000AFD20  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

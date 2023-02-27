@@ -97,7 +97,7 @@ glabel CreateImpl__Q46nw4hbm3snd6detail8PoolImplFPvUlUl
 /* 80130808 0012BD28  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8013080C 0012BD2C  7C 08 03 A6 */	mtlr r0
 /* 80130810 0012BD30  38 21 00 20 */	addi r1, r1, 0x20
-/* 80130814 0012BD34  4E 80 00 20 */	blr 
+/* 80130814 0012BD34  4E 80 00 20 */	blr
 
 glabel DestroyImpl__Q46nw4hbm3snd6detail8PoolImplFPvUl
 /* 80130818 0012BD38  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -145,7 +145,7 @@ glabel DestroyImpl__Q46nw4hbm3snd6detail8PoolImplFPvUl
 /* 801308AC 0012BDCC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 801308B0 0012BDD0  7C 08 03 A6 */	mtlr r0
 /* 801308B4 0012BDD4  38 21 00 20 */	addi r1, r1, 0x20
-/* 801308B8 0012BDD8  4E 80 00 20 */	blr 
+/* 801308B8 0012BDD8  4E 80 00 20 */	blr
 
 glabel AllocImpl__Q46nw4hbm3snd6detail8PoolImplFv
 /* 801308BC 0012BDDC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -172,7 +172,7 @@ glabel AllocImpl__Q46nw4hbm3snd6detail8PoolImplFv
 /* 80130908 0012BE28  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8013090C 0012BE2C  7C 08 03 A6 */	mtlr r0
 /* 80130910 0012BE30  38 21 00 10 */	addi r1, r1, 0x10
-/* 80130914 0012BE34  4E 80 00 20 */	blr 
+/* 80130914 0012BE34  4E 80 00 20 */	blr
 
 glabel FreeImpl__Q46nw4hbm3snd6detail8PoolImplFPv
 /* 80130918 0012BE38  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -192,5 +192,5 @@ glabel FreeImpl__Q46nw4hbm3snd6detail8PoolImplFPv
 /* 80130950 0012BE70  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80130954 0012BE74  7C 08 03 A6 */	mtlr r0
 /* 80130958 0012BE78  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013095C 0012BE7C  4E 80 00 20 */	blr 
+/* 8013095C 0012BE7C  4E 80 00 20 */	blr
 

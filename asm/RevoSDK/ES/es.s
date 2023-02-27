@@ -17,7 +17,7 @@ glabel ESOpen
 /* 80107654 00102B74  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80107658 00102B78  7C 08 03 A6 */	mtlr r0
 /* 8010765C 00102B7C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80107660 00102B80  4E 80 00 20 */	blr 
+/* 80107660 00102B80  4E 80 00 20 */	blr
 
 glabel contentInitHandleNAND
 /* 80107664 00102B84  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -303,7 +303,7 @@ glabel contentInitHandleNAND
 /* 80107A50 00102F70  80 0A 00 04 */	lwz r0, 4(r10)
 /* 80107A54 00102F74  7C 08 03 A6 */	mtlr r0
 /* 80107A58 00102F78  7D 41 53 78 */	mr r1, r10
-/* 80107A5C 00102F7C  4E 80 00 20 */	blr 
+/* 80107A5C 00102F7C  4E 80 00 20 */	blr
 
 glabel ARCGetFile
 /* 80107A60 00102F80  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -334,7 +334,7 @@ glabel ARCGetFile
 /* 80107ABC 00102FDC  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 80107AC0 00102FE0  7C 08 03 A6 */	mtlr r0
 /* 80107AC4 00102FE4  38 21 00 20 */	addi r1, r1, 0x20
-/* 80107AC8 00102FE8  4E 80 00 20 */	blr 
+/* 80107AC8 00102FE8  4E 80 00 20 */	blr
 
 glabel contentFastOpenNAND
 /* 80107ACC 00102FEC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -365,14 +365,14 @@ glabel contentFastOpenNAND
 /* 80107B28 00103048  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 80107B2C 0010304C  7C 08 03 A6 */	mtlr r0
 /* 80107B30 00103050  38 21 00 20 */	addi r1, r1, 0x20
-/* 80107B34 00103054  4E 80 00 20 */	blr 
+/* 80107B34 00103054  4E 80 00 20 */	blr
 
 glabel contentConvertPathToEntrynumNAND
 /* 80107B38 00103058  4B FB 6C A8 */	b ARCConvertPathToEntrynum
 
 glabel contentGetLengthNAND
 /* 80107B3C 0010305C  80 63 00 08 */	lwz r3, 8(r3)
-/* 80107B40 00103060  4E 80 00 20 */	blr 
+/* 80107B40 00103060  4E 80 00 20 */	blr
 
 glabel contentSeekNAND
 /* 80107B44 00103064  2C 05 00 01 */	cmpwi r5, 1
@@ -396,17 +396,17 @@ glabel contentSeekNAND
 /* 80107B80 001030A0  48 00 00 0C */	b .L_80107B8C
 .L_80107B84:
 /* 80107B84 001030A4  38 60 EC 6F */	li r3, -5009
-/* 80107B88 001030A8  4E 80 00 20 */	blr 
+/* 80107B88 001030A8  4E 80 00 20 */	blr
 .L_80107B8C:
 /* 80107B8C 001030AC  80 03 00 08 */	lwz r0, 8(r3)
 /* 80107B90 001030B0  7C 04 00 40 */	cmplw r4, r0
 /* 80107B94 001030B4  40 81 00 0C */	ble .L_80107BA0
 /* 80107B98 001030B8  38 60 EC 6F */	li r3, -5009
-/* 80107B9C 001030BC  4E 80 00 20 */	blr 
+/* 80107B9C 001030BC  4E 80 00 20 */	blr
 .L_80107BA0:
 /* 80107BA0 001030C0  90 83 00 0C */	stw r4, 0xc(r3)
 /* 80107BA4 001030C4  38 60 00 00 */	li r3, 0
-/* 80107BA8 001030C8  4E 80 00 20 */	blr 
+/* 80107BA8 001030C8  4E 80 00 20 */	blr
 
 glabel contentReadNAND
 /* 80107BAC 001030CC  94 21 FD 70 */	stwu r1, -0x290(r1)
@@ -490,11 +490,11 @@ glabel contentReadNAND
 /* 80107CC4 001031E4  83 A1 02 84 */	lwz r29, 0x284(r1)
 /* 80107CC8 001031E8  7C 08 03 A6 */	mtlr r0
 /* 80107CCC 001031EC  38 21 02 90 */	addi r1, r1, 0x290
-/* 80107CD0 001031F0  4E 80 00 20 */	blr 
+/* 80107CD0 001031F0  4E 80 00 20 */	blr
 
 glabel contentCloseNAND
 /* 80107CD4 001031F4  38 60 00 00 */	li r3, 0
-/* 80107CD8 001031F8  4E 80 00 20 */	blr 
+/* 80107CD8 001031F8  4E 80 00 20 */	blr
 
 glabel contentReleaseHandleNAND
 /* 80107CDC 001031FC  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -575,7 +575,7 @@ glabel contentReleaseHandleNAND
 /* 80107DE8 00103308  80 0A 00 04 */	lwz r0, 4(r10)
 /* 80107DEC 0010330C  7C 08 03 A6 */	mtlr r0
 /* 80107DF0 00103310  7D 41 53 78 */	mr r1, r10
-/* 80107DF4 00103314  4E 80 00 20 */	blr 
+/* 80107DF4 00103314  4E 80 00 20 */	blr
 
 glabel contentOpenDirNAND
 /* 80107DF8 00103318  4B FB 6E B8 */	b ARCOpenDir
@@ -624,7 +624,7 @@ glabel ES_ReadContent
 /* 80107E8C 001033AC  80 0A 00 04 */	lwz r0, 4(r10)
 /* 80107E90 001033B0  7C 08 03 A6 */	mtlr r0
 /* 80107E94 001033B4  7D 41 53 78 */	mr r1, r10
-/* 80107E98 001033B8  4E 80 00 20 */	blr 
+/* 80107E98 001033B8  4E 80 00 20 */	blr
 
 glabel ES_SeekContent
 /* 80107E9C 001033BC  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -663,5 +663,5 @@ glabel ES_SeekContent
 /* 80107F18 00103438  80 0A 00 04 */	lwz r0, 4(r10)
 /* 80107F1C 0010343C  7C 08 03 A6 */	mtlr r0
 /* 80107F20 00103440  7D 41 53 78 */	mr r1, r10
-/* 80107F24 00103444  4E 80 00 20 */	blr 
+/* 80107F24 00103444  4E 80 00 20 */	blr
 

@@ -11,7 +11,7 @@ glabel TRKDestructEvent
 /* 8016EBC0 0016A0E0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8016EBC4 0016A0E4  7C 08 03 A6 */	mtlr r0
 /* 8016EBC8 0016A0E8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8016EBCC 0016A0EC  4E 80 00 20 */	blr 
+/* 8016EBCC 0016A0EC  4E 80 00 20 */	blr
 
 glabel TRKConstructEvent
 /* 8016EBD0 0016A0F0  90 83 00 00 */	stw r4, 0(r3)
@@ -19,7 +19,7 @@ glabel TRKConstructEvent
 /* 8016EBD8 0016A0F8  38 00 FF FF */	li r0, -1
 /* 8016EBDC 0016A0FC  90 83 00 04 */	stw r4, 4(r3)
 /* 8016EBE0 0016A100  90 03 00 08 */	stw r0, 8(r3)
-/* 8016EBE4 0016A104  4E 80 00 20 */	blr 
+/* 8016EBE4 0016A104  4E 80 00 20 */	blr
 
 glabel TRKPostEvent
 /* 8016EBE8 0016A108  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -80,7 +80,7 @@ glabel TRKPostEvent
 /* 8016ECB8 0016A1D8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8016ECBC 0016A1DC  7C 08 03 A6 */	mtlr r0
 /* 8016ECC0 0016A1E0  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016ECC4 0016A1E4  4E 80 00 20 */	blr 
+/* 8016ECC4 0016A1E4  4E 80 00 20 */	blr
 
 glabel TRKGetNextEvent
 /* 8016ECC8 0016A1E8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -129,7 +129,7 @@ glabel TRKGetNextEvent
 /* 8016ED6C 0016A28C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8016ED70 0016A290  7C 08 03 A6 */	mtlr r0
 /* 8016ED74 0016A294  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016ED78 0016A298  4E 80 00 20 */	blr 
+/* 8016ED78 0016A298  4E 80 00 20 */	blr
 
 glabel TRKInitializeEventQueue
 /* 8016ED7C 0016A29C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -153,7 +153,7 @@ glabel TRKInitializeEventQueue
 /* 8016EDC4 0016A2E4  38 60 00 00 */	li r3, 0
 /* 8016EDC8 0016A2E8  7C 08 03 A6 */	mtlr r0
 /* 8016EDCC 0016A2EC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8016EDD0 0016A2F0  4E 80 00 20 */	blr 
+/* 8016EDD0 0016A2F0  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

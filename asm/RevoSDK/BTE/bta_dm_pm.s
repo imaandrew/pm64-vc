@@ -29,7 +29,7 @@ glabel bta_dm_init_pm
 /* 800E082C 000DBD4C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800E0830 000DBD50  7C 08 03 A6 */	mtlr r0
 /* 800E0834 000DBD54  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E0838 000DBD58  4E 80 00 20 */	blr 
+/* 800E0838 000DBD58  4E 80 00 20 */	blr
 
 glabel bta_dm_disable_pm
 /* 800E083C 000DBD5C  3C 80 80 22 */	lis r4, lbl_802201F4@ha
@@ -286,7 +286,7 @@ glabel bta_dm_pm_cback
 /* 800E0BC4 000DC0E4  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800E0BC8 000DC0E8  7C 08 03 A6 */	mtlr r0
 /* 800E0BCC 000DC0EC  38 21 00 40 */	addi r1, r1, 0x40
-/* 800E0BD0 000DC0F0  4E 80 00 20 */	blr 
+/* 800E0BD0 000DC0F0  4E 80 00 20 */	blr
 
 glabel bta_dm_pm_set_mode
 /* 800E0BD4 000DC0F4  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -531,7 +531,7 @@ glabel bta_dm_pm_set_mode
 /* 800E0F44 000DC464  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 800E0F48 000DC468  7C 08 03 A6 */	mtlr r0
 /* 800E0F4C 000DC46C  38 21 00 50 */	addi r1, r1, 0x50
-/* 800E0F50 000DC470  4E 80 00 20 */	blr 
+/* 800E0F50 000DC470  4E 80 00 20 */	blr
 
 glabel bta_dm_pm_btm_cback
 /* 800E0F54 000DC474  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -564,7 +564,7 @@ glabel bta_dm_pm_btm_cback
 /* 800E0FBC 000DC4DC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800E0FC0 000DC4E0  7C 08 03 A6 */	mtlr r0
 /* 800E0FC4 000DC4E4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E0FC8 000DC4E8  4E 80 00 20 */	blr 
+/* 800E0FC8 000DC4E8  4E 80 00 20 */	blr
 
 glabel bta_dm_pm_timer_cback
 /* 800E0FCC 000DC4EC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -633,7 +633,7 @@ glabel bta_dm_pm_timer_cback
 /* 800E10B4 000DC5D4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800E10B8 000DC5D8  7C 08 03 A6 */	mtlr r0
 /* 800E10BC 000DC5DC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E10C0 000DC5E0  4E 80 00 20 */	blr 
+/* 800E10C0 000DC5E0  4E 80 00 20 */	blr
 
 glabel bta_dm_pm_btm_status
 /* 800E10C4 000DC5E4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -716,7 +716,7 @@ glabel bta_dm_pm_btm_status
 /* 800E11D4 000DC6F4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800E11D8 000DC6F8  7C 08 03 A6 */	mtlr r0
 /* 800E11DC 000DC6FC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E11E0 000DC700  4E 80 00 20 */	blr 
+/* 800E11E0 000DC700  4E 80 00 20 */	blr
 
 glabel bta_dm_pm_timer
 /* 800E11E4 000DC704  38 80 00 01 */	li r4, 1

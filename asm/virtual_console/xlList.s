@@ -73,7 +73,7 @@ glabel xlListMake
 /* 80085520 00080A40  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80085524 00080A44  7C 08 03 A6 */	mtlr r0
 /* 80085528 00080A48  38 21 00 20 */	addi r1, r1, 0x20
-/* 8008552C 00080A4C  4E 80 00 20 */	blr 
+/* 8008552C 00080A4C  4E 80 00 20 */	blr
 
 glabel xlListFree
 /* 80085530 00080A50  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -125,7 +125,7 @@ glabel xlListFree
 /* 800855D0 00080AF0  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800855D4 00080AF4  7C 08 03 A6 */	mtlr r0
 /* 800855D8 00080AF8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800855DC 00080AFC  4E 80 00 20 */	blr 
+/* 800855DC 00080AFC  4E 80 00 20 */	blr
 
 glabel xlListMakeItem
 /* 800855E0 00080B00  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -175,7 +175,7 @@ glabel xlListMakeItem
 /* 8008567C 00080B9C  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 80085680 00080BA0  7C 08 03 A6 */	mtlr r0
 /* 80085684 00080BA4  38 21 00 20 */	addi r1, r1, 0x20
-/* 80085688 00080BA8  4E 80 00 20 */	blr 
+/* 80085688 00080BA8  4E 80 00 20 */	blr
 
 glabel xlListFreeItem
 /* 8008568C 00080BAC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -225,7 +225,7 @@ glabel xlListFreeItem
 /* 80085724 00080C44  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 80085728 00080C48  7C 08 03 A6 */	mtlr r0
 /* 8008572C 00080C4C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80085730 00080C50  4E 80 00 20 */	blr 
+/* 80085730 00080C50  4E 80 00 20 */	blr
 
 glabel xlListTestItem
 /* 80085734 00080C54  3C A0 80 1B */	lis r5, lbl_801B0778@ha
@@ -256,7 +256,7 @@ glabel xlListTestItem
 /* 80085784 00080CA4  40 82 00 0C */	bne .L_80085790
 .L_80085788:
 /* 80085788 00080CA8  38 60 00 00 */	li r3, 0
-/* 8008578C 00080CAC  4E 80 00 20 */	blr 
+/* 8008578C 00080CAC  4E 80 00 20 */	blr
 .L_80085790:
 /* 80085790 00080CB0  80 63 00 08 */	lwz r3, 8(r3)
 /* 80085794 00080CB4  48 00 00 1C */	b .L_800857B0
@@ -265,14 +265,14 @@ glabel xlListTestItem
 /* 8008579C 00080CBC  7C 04 00 40 */	cmplw r4, r0
 /* 800857A0 00080CC0  40 82 00 0C */	bne .L_800857AC
 /* 800857A4 00080CC4  38 60 00 01 */	li r3, 1
-/* 800857A8 00080CC8  4E 80 00 20 */	blr 
+/* 800857A8 00080CC8  4E 80 00 20 */	blr
 .L_800857AC:
 /* 800857AC 00080CCC  80 63 00 00 */	lwz r3, 0(r3)
 .L_800857B0:
 /* 800857B0 00080CD0  2C 03 00 00 */	cmpwi r3, 0
 /* 800857B4 00080CD4  40 82 FF E4 */	bne .L_80085798
 /* 800857B8 00080CD8  38 60 00 00 */	li r3, 0
-/* 800857BC 00080CDC  4E 80 00 20 */	blr 
+/* 800857BC 00080CDC  4E 80 00 20 */	blr
 
 glabel xlListSetup
 /* 800857C0 00080CE0  3C A0 80 1B */	lis r5, lbl_801B0778@ha
@@ -284,11 +284,11 @@ glabel xlListSetup
 /* 800857D8 00080CF8  90 05 07 78 */	stw r0, 0x778(r5)
 /* 800857DC 00080CFC  90 C4 00 0C */	stw r6, 0xc(r4)
 /* 800857E0 00080D00  90 C4 00 08 */	stw r6, 8(r4)
-/* 800857E4 00080D04  4E 80 00 20 */	blr 
+/* 800857E4 00080D04  4E 80 00 20 */	blr
 
 glabel xlListReset
 /* 800857E8 00080D08  38 60 00 01 */	li r3, 1
-/* 800857EC 00080D0C  4E 80 00 20 */	blr 
+/* 800857EC 00080D0C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

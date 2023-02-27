@@ -4,11 +4,11 @@
 
 glabel __TRK_get_MSR
 /* 8017148C 0016C9AC  7C 60 00 A6 */	mfmsr r3
-/* 80171490 0016C9B0  4E 80 00 20 */	blr 
+/* 80171490 0016C9B0  4E 80 00 20 */	blr
 
 glabel __TRK_set_MSR
 /* 80171494 0016C9B4  7C 60 01 24 */	mtmsr r3
-/* 80171498 0016C9B8  4E 80 00 20 */	blr 
+/* 80171498 0016C9B8  4E 80 00 20 */	blr
 
 glabel TRK_ppc_memcpy
 /* 8017149C 0016C9BC  7D 00 00 A6 */	mfmsr r8
@@ -27,7 +27,7 @@ glabel TRK_ppc_memcpy
 .L_801714CC:
 /* 801714CC 0016C9EC  7D 00 01 24 */	mtmsr r8
 /* 801714D0 0016C9F0  7C 00 04 AC */	sync 0
-/* 801714D4 0016C9F4  4E 80 00 20 */	blr 
+/* 801714D4 0016C9F4  4E 80 00 20 */	blr
 
 glabel TRKInterruptHandler
 /* 801714D8 0016C9F8  7C 5A 03 A6 */	mtspr 0x1a, r2
@@ -80,7 +80,7 @@ glabel TRKInterruptHandler
 /* 80171590 0016CAB0  7C 6F F1 20 */	mtcrf 0xff, r3
 /* 80171594 0016CAB4  80 62 00 0C */	lwz r3, 0xc(r2)
 /* 80171598 0016CAB8  80 42 00 08 */	lwz r2, 8(r2)
-/* 8017159C 0016CABC  4C 00 00 64 */	rfi 
+/* 8017159C 0016CABC  4C 00 00 64 */	rfi
 .L_801715A0:
 /* 801715A0 0016CAC0  3C 40 80 24 */	lis r2, lbl_802459C0@h
 /* 801715A4 0016CAC4  60 42 59 C0 */	ori r2, r2, lbl_802459C0@l
@@ -175,7 +175,7 @@ glabel TRKExceptionHandler
 /* 801716F8 0016CC18  7C 6F F1 20 */	mtcrf 0xff, r3
 /* 801716FC 0016CC1C  7C 51 42 A6 */	mfspr r2, 0x111
 /* 80171700 0016CC20  7C 72 42 A6 */	mfspr r3, 0x112
-/* 80171704 0016CC24  4C 00 00 64 */	rfi 
+/* 80171704 0016CC24  4C 00 00 64 */	rfi
 
 glabel TRKSwapAndGo
 /* 80171708 0016CC28  3C 60 80 24 */	lis r3, lbl_802459C4@h
@@ -227,7 +227,7 @@ glabel TRKSwapAndGo
 /* 801717BC 0016CCDC  80 02 00 00 */	lwz r0, 0(r2)
 /* 801717C0 0016CCE0  80 22 00 04 */	lwz r1, 4(r2)
 /* 801717C4 0016CCE4  80 42 00 08 */	lwz r2, 8(r2)
-/* 801717C8 0016CCE8  4C 00 00 64 */	rfi 
+/* 801717C8 0016CCE8  4C 00 00 64 */	rfi
 
 glabel TRKInterruptHandlerEnableInterrupts
 /* 801717CC 0016CCEC  3C 40 80 24 */	lis r2, lbl_802459C4@h
@@ -261,7 +261,7 @@ glabel ReadFPSCR
 /* 80171834 0016CD54  E3 E1 00 20 */	psq_l f31, 32(r1), 0, qr0
 /* 80171838 0016CD58  CB E1 00 10 */	lfd f31, 0x10(r1)
 /* 8017183C 0016CD5C  38 21 00 40 */	addi r1, r1, 0x40
-/* 80171840 0016CD60  4E 80 00 20 */	blr 
+/* 80171840 0016CD60  4E 80 00 20 */	blr
 
 glabel WriteFPSCR
 /* 80171844 0016CD64  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -272,13 +272,13 @@ glabel WriteFPSCR
 /* 80171858 0016CD78  E3 E1 00 20 */	psq_l f31, 32(r1), 0, qr0
 /* 8017185C 0016CD7C  CB E1 00 10 */	lfd f31, 0x10(r1)
 /* 80171860 0016CD80  38 21 00 40 */	addi r1, r1, 0x40
-/* 80171864 0016CD84  4E 80 00 20 */	blr 
+/* 80171864 0016CD84  4E 80 00 20 */	blr
 
 glabel TRKTargetSetInputPendingPtr
 /* 80171868 0016CD88  3C 80 80 24 */	lis r4, lbl_802459C4@ha
 /* 8017186C 0016CD8C  38 84 59 C4 */	addi r4, r4, lbl_802459C4@l
 /* 80171870 0016CD90  90 64 00 A0 */	stw r3, 0xa0(r4)
-/* 80171874 0016CD94  4E 80 00 20 */	blr 
+/* 80171874 0016CD94  4E 80 00 20 */	blr
 
 glabel TRKTargetStop
 /* 80171878 0016CD98  3C 60 80 24 */	lis r3, lbl_802459C4@ha
@@ -286,19 +286,19 @@ glabel TRKTargetStop
 /* 80171880 0016CDA0  38 83 59 C4 */	addi r4, r3, lbl_802459C4@l
 /* 80171884 0016CDA4  38 60 00 00 */	li r3, 0
 /* 80171888 0016CDA8  90 04 00 98 */	stw r0, 0x98(r4)
-/* 8017188C 0016CDAC  4E 80 00 20 */	blr 
+/* 8017188C 0016CDAC  4E 80 00 20 */	blr
 
 glabel TRKTargetSetStopped
 /* 80171890 0016CDB0  3C 80 80 24 */	lis r4, lbl_802459C4@ha
 /* 80171894 0016CDB4  38 84 59 C4 */	addi r4, r4, lbl_802459C4@l
 /* 80171898 0016CDB8  90 64 00 98 */	stw r3, 0x98(r4)
-/* 8017189C 0016CDBC  4E 80 00 20 */	blr 
+/* 8017189C 0016CDBC  4E 80 00 20 */	blr
 
 glabel TRKTargetStopped
 /* 801718A0 0016CDC0  3C 60 80 24 */	lis r3, lbl_802459C4@ha
 /* 801718A4 0016CDC4  38 63 59 C4 */	addi r3, r3, lbl_802459C4@l
 /* 801718A8 0016CDC8  80 63 00 98 */	lwz r3, 0x98(r3)
-/* 801718AC 0016CDCC  4E 80 00 20 */	blr 
+/* 801718AC 0016CDCC  4E 80 00 20 */	blr
 
 glabel TRKTargetSupportRequest
 /* 801718B0 0016CDD0  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -438,19 +438,19 @@ glabel TRKTargetSupportRequest
 /* 80171AA0 0016CFC0  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80171AA4 0016CFC4  7C 08 03 A6 */	mtlr r0
 /* 80171AA8 0016CFC8  38 21 00 40 */	addi r1, r1, 0x40
-/* 80171AAC 0016CFCC  4E 80 00 20 */	blr 
+/* 80171AAC 0016CFCC  4E 80 00 20 */	blr
 
 glabel TRKTargetGetPC
 /* 80171AB0 0016CFD0  3C 60 80 24 */	lis r3, lbl_80245A68@ha
 /* 80171AB4 0016CFD4  38 63 5A 68 */	addi r3, r3, lbl_80245A68@l
 /* 80171AB8 0016CFD8  80 63 00 80 */	lwz r3, 0x80(r3)
-/* 80171ABC 0016CFDC  4E 80 00 20 */	blr 
+/* 80171ABC 0016CFDC  4E 80 00 20 */	blr
 
 glabel TRKTargetStepOutOfRange
 /* 80171AC0 0016CFE0  2C 05 00 00 */	cmpwi r5, 0
 /* 80171AC4 0016CFE4  41 82 00 0C */	beq .L_80171AD0
 /* 80171AC8 0016CFE8  38 60 07 03 */	li r3, 0x703
-/* 80171ACC 0016CFEC  4E 80 00 20 */	blr 
+/* 80171ACC 0016CFEC  4E 80 00 20 */	blr
 .L_80171AD0:
 /* 80171AD0 0016CFF0  3C A0 80 24 */	lis r5, lbl_80245A68@ha
 /* 80171AD4 0016CFF4  38 E0 00 01 */	li r7, 1
@@ -480,13 +480,13 @@ glabel TRKTargetStepOutOfRange
 /* 80171B2C 0016D04C  38 83 59 C4 */	addi r4, r3, lbl_802459C4@l
 /* 80171B30 0016D050  38 60 00 00 */	li r3, 0
 /* 80171B34 0016D054  90 04 00 98 */	stw r0, 0x98(r4)
-/* 80171B38 0016D058  4E 80 00 20 */	blr 
+/* 80171B38 0016D058  4E 80 00 20 */	blr
 
 glabel TRKTargetSingleStep
 /* 80171B3C 0016D05C  2C 04 00 00 */	cmpwi r4, 0
 /* 80171B40 0016D060  41 82 00 0C */	beq .L_80171B4C
 /* 80171B44 0016D064  38 60 07 03 */	li r3, 0x703
-/* 80171B48 0016D068  4E 80 00 20 */	blr 
+/* 80171B48 0016D068  4E 80 00 20 */	blr
 .L_80171B4C:
 /* 80171B4C 0016D06C  3C 80 80 24 */	lis r4, lbl_80245A68@ha
 /* 80171B50 0016D070  3C A0 80 1B */	lis r5, lbl_801ADF2C@ha
@@ -512,7 +512,7 @@ glabel TRKTargetSingleStep
 /* 80171B98 0016D0B8  38 83 59 C4 */	addi r4, r3, lbl_802459C4@l
 /* 80171B9C 0016D0BC  38 60 00 00 */	li r3, 0
 /* 80171BA0 0016D0C0  90 04 00 98 */	stw r0, 0x98(r4)
-/* 80171BA4 0016D0C4  4E 80 00 20 */	blr 
+/* 80171BA4 0016D0C4  4E 80 00 20 */	blr
 
 glabel TRKTargetAddExceptionInfo
 /* 80171BA8 0016D0C8  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -547,7 +547,7 @@ glabel TRKTargetAddExceptionInfo
 /* 80171C1C 0016D13C  83 E1 00 5C */	lwz r31, 0x5c(r1)
 /* 80171C20 0016D140  7C 08 03 A6 */	mtlr r0
 /* 80171C24 0016D144  38 21 00 60 */	addi r1, r1, 0x60
-/* 80171C28 0016D148  4E 80 00 20 */	blr 
+/* 80171C28 0016D148  4E 80 00 20 */	blr
 
 glabel TRKTargetAddStopInfo
 /* 80171C2C 0016D14C  94 21 FF A0 */	stwu r1, -0x60(r1)
@@ -584,7 +584,7 @@ glabel TRKTargetAddStopInfo
 /* 80171CA8 0016D1C8  83 E1 00 5C */	lwz r31, 0x5c(r1)
 /* 80171CAC 0016D1CC  7C 08 03 A6 */	mtlr r0
 /* 80171CB0 0016D1D0  38 21 00 60 */	addi r1, r1, 0x60
-/* 80171CB4 0016D1D4  4E 80 00 20 */	blr 
+/* 80171CB4 0016D1D4  4E 80 00 20 */	blr
 
 glabel TRKTargetInterrupt
 /* 80171CB8 0016D1D8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -682,7 +682,7 @@ glabel TRKTargetInterrupt
 /* 80171E04 0016D324  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80171E08 0016D328  7C 08 03 A6 */	mtlr r0
 /* 80171E0C 0016D32C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80171E10 0016D330  4E 80 00 20 */	blr 
+/* 80171E10 0016D330  4E 80 00 20 */	blr
 
 glabel TRKPostInterruptEvent
 /* 80171E14 0016D334  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -733,7 +733,7 @@ glabel TRKPostInterruptEvent
 /* 80171EB0 0016D3D0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80171EB4 0016D3D4  7C 08 03 A6 */	mtlr r0
 /* 80171EB8 0016D3D8  38 21 00 20 */	addi r1, r1, 0x20
-/* 80171EBC 0016D3DC  4E 80 00 20 */	blr 
+/* 80171EBC 0016D3DC  4E 80 00 20 */	blr
 
 glabel TRKTargetAccessExtended2
 /* 80171EC0 0016D3E0  94 21 FE D0 */	stwu r1, -0x130(r1)
@@ -800,7 +800,7 @@ glabel TRKTargetAccessExtended2
 /* 80171FB0 0016D4D0  38 83 5F 2C */	addi r4, r3, lbl_80245F2C@l
 /* 80171FB4 0016D4D4  38 61 00 08 */	addi r3, r1, 8
 /* 80171FB8 0016D4D8  7D 89 03 A6 */	mtctr r12
-/* 80171FBC 0016D4DC  4E 80 04 21 */	bctrl 
+/* 80171FBC 0016D4DC  4E 80 04 21 */	bctrl
 /* 80171FC0 0016D4E0  3C 60 80 18 */	lis r3, lbl_801795B0@ha
 /* 80171FC4 0016D4E4  80 A1 00 08 */	lwz r5, 8(r1)
 /* 80171FC8 0016D4E8  3B A3 95 B0 */	addi r29, r3, lbl_801795B0@l
@@ -842,7 +842,7 @@ glabel TRKTargetAccessExtended2
 /* 80172058 0016D578  38 83 5F 2C */	addi r4, r3, lbl_80245F2C@l
 /* 8017205C 0016D57C  38 61 00 08 */	addi r3, r1, 8
 /* 80172060 0016D580  7D 89 03 A6 */	mtctr r12
-/* 80172064 0016D584  4E 80 04 21 */	bctrl 
+/* 80172064 0016D584  4E 80 04 21 */	bctrl
 /* 80172068 0016D588  3C 60 80 18 */	lis r3, lbl_801795B0@ha
 /* 8017206C 0016D58C  3C 80 7C 91 */	lis r4, 0x7C90E3A6@ha
 /* 80172070 0016D590  3B A3 95 B0 */	addi r29, r3, lbl_801795B0@l
@@ -883,7 +883,7 @@ glabel TRKTargetAccessExtended2
 /* 801720FC 0016D61C  38 83 5F 2C */	addi r4, r3, lbl_80245F2C@l
 /* 80172100 0016D620  38 61 00 08 */	addi r3, r1, 8
 /* 80172104 0016D624  7D 89 03 A6 */	mtctr r12
-/* 80172108 0016D628  4E 80 04 21 */	bctrl 
+/* 80172108 0016D628  4E 80 04 21 */	bctrl
 /* 8017210C 0016D62C  38 00 00 00 */	li r0, 0
 /* 80172110 0016D630  57 7E A8 14 */	slwi r30, r27, 0x15
 /* 80172114 0016D634  90 19 00 00 */	stw r0, 0(r25)
@@ -931,7 +931,7 @@ glabel TRKTargetAccessExtended2
 /* 801721B4 0016D6D4  38 83 5F 2C */	addi r4, r3, lbl_80245F2C@l
 /* 801721B8 0016D6D8  38 61 00 0C */	addi r3, r1, 0xc
 /* 801721BC 0016D6DC  7D 89 03 A6 */	mtctr r12
-/* 801721C0 0016D6E0  4E 80 04 21 */	bctrl 
+/* 801721C0 0016D6E0  4E 80 04 21 */	bctrl
 /* 801721C4 0016D6E4  80 A1 00 0C */	lwz r5, 0xc(r1)
 /* 801721C8 0016D6E8  7F 03 C3 78 */	mr r3, r24
 /* 801721CC 0016D6EC  80 C1 00 10 */	lwz r6, 0x10(r1)
@@ -979,7 +979,7 @@ glabel TRKTargetAccessExtended2
 /* 8017226C 0016D78C  38 83 5F 2C */	addi r4, r3, lbl_80245F2C@l
 /* 80172270 0016D790  38 61 00 0C */	addi r3, r1, 0xc
 /* 80172274 0016D794  7D 89 03 A6 */	mtctr r12
-/* 80172278 0016D798  4E 80 04 21 */	bctrl 
+/* 80172278 0016D798  4E 80 04 21 */	bctrl
 /* 8017227C 0016D79C  38 60 00 00 */	li r3, 0
 .L_80172280:
 /* 80172280 0016D7A0  80 99 00 00 */	lwz r4, 0(r25)
@@ -1015,7 +1015,7 @@ glabel TRKTargetAccessExtended2
 /* 801722E8 0016D808  80 01 01 34 */	lwz r0, 0x134(r1)
 /* 801722EC 0016D80C  7C 08 03 A6 */	mtlr r0
 /* 801722F0 0016D810  38 21 01 30 */	addi r1, r1, 0x130
-/* 801722F4 0016D814  4E 80 00 20 */	blr 
+/* 801722F4 0016D814  4E 80 00 20 */	blr
 
 glabel TRKTargetAccessExtended1
 /* 801722F8 0016D818  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1116,7 +1116,7 @@ glabel TRKTargetAccessExtended1
 /* 80172458 0016D978  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 8017245C 0016D97C  7C 08 03 A6 */	mtlr r0
 /* 80172460 0016D980  38 21 00 20 */	addi r1, r1, 0x20
-/* 80172464 0016D984  4E 80 00 20 */	blr 
+/* 80172464 0016D984  4E 80 00 20 */	blr
 
 glabel TRKTargetAccessFP
 /* 80172468 0016D988  94 21 FF 10 */	stwu r1, -0xf0(r1)
@@ -1202,7 +1202,7 @@ glabel TRKTargetAccessFP
 /* 8017259C 0016DABC  38 83 5F 2C */	addi r4, r3, lbl_80245F2C@l
 /* 801725A0 0016DAC0  38 61 00 08 */	addi r3, r1, 8
 /* 801725A4 0016DAC4  7D 89 03 A6 */	mtctr r12
-/* 801725A8 0016DAC8  4E 80 04 21 */	bctrl 
+/* 801725A8 0016DAC8  4E 80 04 21 */	bctrl
 /* 801725AC 0016DACC  48 00 01 40 */	b .L_801726EC
 .L_801725B0:
 /* 801725B0 0016DAD0  40 82 00 44 */	bne .L_801725F4
@@ -1280,7 +1280,7 @@ glabel TRKTargetAccessFP
 /* 801726B8 0016DBD8  38 83 5F 2C */	addi r4, r3, lbl_80245F2C@l
 /* 801726BC 0016DBDC  38 61 00 08 */	addi r3, r1, 8
 /* 801726C0 0016DBE0  7D 89 03 A6 */	mtctr r12
-/* 801726C4 0016DBE4  4E 80 04 21 */	bctrl 
+/* 801726C4 0016DBE4  4E 80 04 21 */	bctrl
 /* 801726C8 0016DBE8  2C 1F 00 00 */	cmpwi r31, 0
 /* 801726CC 0016DBEC  41 82 00 20 */	beq .L_801726EC
 /* 801726D0 0016DBF0  80 61 00 08 */	lwz r3, 8(r1)
@@ -1342,7 +1342,7 @@ glabel TRKTargetAccessFP
 /* 801727A4 0016DCC4  38 83 5F 2C */	addi r4, r3, lbl_80245F2C@l
 /* 801727A8 0016DCC8  38 61 00 08 */	addi r3, r1, 8
 /* 801727AC 0016DCCC  7D 89 03 A6 */	mtctr r12
-/* 801727B0 0016DCD0  4E 80 04 21 */	bctrl 
+/* 801727B0 0016DCD0  4E 80 04 21 */	bctrl
 /* 801727B4 0016DCD4  3A 80 00 00 */	li r20, 0
 /* 801727B8 0016DCD8  48 00 01 40 */	b .L_801728F8
 .L_801727BC:
@@ -1421,7 +1421,7 @@ glabel TRKTargetAccessFP
 /* 801728C4 0016DDE4  38 83 5F 2C */	addi r4, r3, lbl_80245F2C@l
 /* 801728C8 0016DDE8  38 61 00 08 */	addi r3, r1, 8
 /* 801728CC 0016DDEC  7D 89 03 A6 */	mtctr r12
-/* 801728D0 0016DDF0  4E 80 04 21 */	bctrl 
+/* 801728D0 0016DDF0  4E 80 04 21 */	bctrl
 /* 801728D4 0016DDF4  2C 1F 00 00 */	cmpwi r31, 0
 /* 801728D8 0016DDF8  3A 80 00 00 */	li r20, 0
 /* 801728DC 0016DDFC  41 82 00 1C */	beq .L_801728F8
@@ -1467,7 +1467,7 @@ glabel TRKTargetAccessFP
 /* 80172964 0016DE84  80 01 00 F4 */	lwz r0, 0xf4(r1)
 /* 80172968 0016DE88  7C 08 03 A6 */	mtlr r0
 /* 8017296C 0016DE8C  38 21 00 F0 */	addi r1, r1, 0xf0
-/* 80172970 0016DE90  4E 80 00 20 */	blr 
+/* 80172970 0016DE90  4E 80 00 20 */	blr
 
 glabel TRKTargetAccessDefault
 /* 80172974 0016DE94  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1535,7 +1535,7 @@ glabel TRKTargetAccessDefault
 /* 80172A58 0016DF78  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 80172A5C 0016DF7C  7C 08 03 A6 */	mtlr r0
 /* 80172A60 0016DF80  38 21 00 20 */	addi r1, r1, 0x20
-/* 80172A64 0016DF84  4E 80 00 20 */	blr 
+/* 80172A64 0016DF84  4E 80 00 20 */	blr
 
 glabel TRKTargetReadInstruction
 /* 80172A68 0016DF88  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1557,7 +1557,7 @@ glabel TRKTargetReadInstruction
 /* 80172AA4 0016DFC4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80172AA8 0016DFC8  7C 08 03 A6 */	mtlr r0
 /* 80172AAC 0016DFCC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80172AB0 0016DFD0  4E 80 00 20 */	blr 
+/* 80172AB0 0016DFD0  4E 80 00 20 */	blr
 
 glabel TRKTargetAccessMemory
 /* 80172AB4 0016DFD4  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1646,7 +1646,7 @@ glabel TRKTargetAccessMemory
 /* 80172BF0 0016E110  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80172BF4 0016E114  7C 08 03 A6 */	mtlr r0
 /* 80172BF8 0016E118  38 21 00 40 */	addi r1, r1, 0x40
-/* 80172BFC 0016E11C  4E 80 00 20 */	blr 
+/* 80172BFC 0016E11C  4E 80 00 20 */	blr
 
 glabel TRKValidMemory32
 /* 80172C00 0016E120  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1836,7 +1836,7 @@ glabel TRKValidMemory32
 /* 80172E94 0016E3B4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80172E98 0016E3B8  7C 08 03 A6 */	mtlr r0
 /* 80172E9C 0016E3BC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80172EA0 0016E3C0  4E 80 00 20 */	blr 
+/* 80172EA0 0016E3C0  4E 80 00 20 */	blr
 /* 80172EA4 0016E3C4  00 00 00 00 */	.4byte 0x00000000  /* unknown instruction */
 /* 80172EA8 0016E3C8  00 00 00 00 */	.4byte 0x00000000  /* unknown instruction */
 /* 80172EAC 0016E3CC  00 00 00 00 */	.4byte 0x00000000  /* unknown instruction */

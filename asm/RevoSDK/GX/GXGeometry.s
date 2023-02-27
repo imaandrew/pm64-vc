@@ -184,7 +184,7 @@ glabel __GXSetDirtyState
 /* 800A673C 000A1C5C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A6740 000A1C60  7C 08 03 A6 */	mtlr r0
 /* 800A6744 000A1C64  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A6748 000A1C68  4E 80 00 20 */	blr 
+/* 800A6748 000A1C68  4E 80 00 20 */	blr
 
 glabel GXBegin
 /* 800A674C 000A1C6C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -276,7 +276,7 @@ glabel GXBegin
 /* 800A6888 000A1DA8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800A688C 000A1DAC  7C 08 03 A6 */	mtlr r0
 /* 800A6890 000A1DB0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A6894 000A1DB4  4E 80 00 20 */	blr 
+/* 800A6894 000A1DB4  4E 80 00 20 */	blr
 
 glabel GXSetLineWidth
 /* 800A6898 000A1DB8  81 02 86 40 */	lwz r8, lbl_80247E40@sda21(r2)
@@ -291,7 +291,7 @@ glabel GXSetLineWidth
 /* 800A68BC 000A1DDC  80 68 00 7C */	lwz r3, 0x7c(r8)
 /* 800A68C0 000A1DE0  90 65 80 00 */	stw r3, -0x8000(r5)
 /* 800A68C4 000A1DE4  B0 08 00 02 */	sth r0, 2(r8)
-/* 800A68C8 000A1DE8  4E 80 00 20 */	blr 
+/* 800A68C8 000A1DE8  4E 80 00 20 */	blr
 
 glabel GXSetPointSize
 /* 800A68CC 000A1DEC  81 02 86 40 */	lwz r8, lbl_80247E40@sda21(r2)
@@ -306,7 +306,7 @@ glabel GXSetPointSize
 /* 800A68F0 000A1E10  80 68 00 7C */	lwz r3, 0x7c(r8)
 /* 800A68F4 000A1E14  90 65 80 00 */	stw r3, -0x8000(r5)
 /* 800A68F8 000A1E18  B0 08 00 02 */	sth r0, 2(r8)
-/* 800A68FC 000A1E1C  4E 80 00 20 */	blr 
+/* 800A68FC 000A1E1C  4E 80 00 20 */	blr
 
 glabel GXEnableTexOffsets
 /* 800A6900 000A1E20  81 22 86 40 */	lwz r9, lbl_80247E40@sda21(r2)
@@ -323,7 +323,7 @@ glabel GXEnableTexOffsets
 /* 800A692C 000A1E4C  80 68 01 08 */	lwz r3, 0x108(r8)
 /* 800A6930 000A1E50  90 66 80 00 */	stw r3, -0x8000(r6)
 /* 800A6934 000A1E54  B0 09 00 02 */	sth r0, 2(r9)
-/* 800A6938 000A1E58  4E 80 00 20 */	blr 
+/* 800A6938 000A1E58  4E 80 00 20 */	blr
 
 glabel GXSetCullMode
 /* 800A693C 000A1E5C  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
@@ -335,7 +335,7 @@ glabel GXSetCullMode
 /* 800A6954 000A1E74  80 04 05 FC */	lwz r0, 0x5fc(r4)
 /* 800A6958 000A1E78  60 00 00 04 */	ori r0, r0, 4
 /* 800A695C 000A1E7C  90 04 05 FC */	stw r0, 0x5fc(r4)
-/* 800A6960 000A1E80  4E 80 00 20 */	blr 
+/* 800A6960 000A1E80  4E 80 00 20 */	blr
 
 glabel GXSetCoPlanar
 /* 800A6964 000A1E84  80 E2 86 40 */	lwz r7, lbl_80247E40@sda21(r2)
@@ -350,5 +350,5 @@ glabel GXSetCoPlanar
 /* 800A6988 000A1EA8  98 A4 80 00 */	stb r5, -0x8000(r4)
 /* 800A698C 000A1EAC  80 07 02 54 */	lwz r0, 0x254(r7)
 /* 800A6990 000A1EB0  90 04 80 00 */	stw r0, -0x8000(r4)
-/* 800A6994 000A1EB4  4E 80 00 20 */	blr 
+/* 800A6994 000A1EB4  4E 80 00 20 */	blr
 

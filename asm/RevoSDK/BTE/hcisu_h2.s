@@ -256,7 +256,7 @@ glabel hcisu_h2_recieve_msg
 /* 800DB780 000D6CA0  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 800DB784 000D6CA4  7C 08 03 A6 */	mtlr r0
 /* 800DB788 000D6CA8  38 21 00 60 */	addi r1, r1, 0x60
-/* 800DB78C 000D6CAC  4E 80 00 20 */	blr 
+/* 800DB78C 000D6CAC  4E 80 00 20 */	blr
 
 glabel hcisu_h2_send_msg_now
 /* 800DB790 000D6CB0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -374,7 +374,7 @@ glabel hcisu_h2_send_msg_now
 /* 800DB92C 000D6E4C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DB930 000D6E50  7C 08 03 A6 */	mtlr r0
 /* 800DB934 000D6E54  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DB938 000D6E58  4E 80 00 20 */	blr 
+/* 800DB938 000D6E58  4E 80 00 20 */	blr
 
 glabel hcisu_h2_init
 /* 800DB93C 000D6E5C  3C C0 80 22 */	lis r6, lbl_8021C780@ha
@@ -387,7 +387,7 @@ glabel hcisu_h2_init
 /* 800DB958 000D6E78  98 66 00 1F */	stb r3, 0x1f(r6)
 /* 800DB95C 000D6E7C  98 86 00 20 */	stb r4, 0x20(r6)
 /* 800DB960 000D6E80  B0 A6 00 12 */	sth r5, 0x12(r6)
-/* 800DB964 000D6E84  4E 80 00 20 */	blr 
+/* 800DB964 000D6E84  4E 80 00 20 */	blr
 
 glabel hcisu_h2_open
 /* 800DB968 000D6E88  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -415,7 +415,7 @@ glabel hcisu_h2_open
 /* 800DB9C0 000D6EE0  38 60 00 01 */	li r3, 1
 /* 800DB9C4 000D6EE4  7C 08 03 A6 */	mtlr r0
 /* 800DB9C8 000D6EE8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DB9CC 000D6EEC  4E 80 00 20 */	blr 
+/* 800DB9CC 000D6EEC  4E 80 00 20 */	blr
 
 glabel hcisu_h2_close
 /* 800DB9D0 000D6EF0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -430,7 +430,7 @@ glabel hcisu_h2_close
 /* 800DB9F4 000D6F14  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800DB9F8 000D6F18  7C 08 03 A6 */	mtlr r0
 /* 800DB9FC 000D6F1C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DBA00 000D6F20  4E 80 00 20 */	blr 
+/* 800DBA00 000D6F20  4E 80 00 20 */	blr
 
 glabel hcisu_h2_send
 /* 800DBA04 000D6F24  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -444,7 +444,7 @@ glabel hcisu_h2_send
 /* 800DBA24 000D6F44  38 60 00 01 */	li r3, 1
 /* 800DBA28 000D6F48  7C 08 03 A6 */	mtlr r0
 /* 800DBA2C 000D6F4C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DBA30 000D6F50  4E 80 00 20 */	blr 
+/* 800DBA30 000D6F50  4E 80 00 20 */	blr
 
 glabel hcisu_h2_handle_event
 /* 800DBA34 000D6F54  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -461,7 +461,7 @@ glabel hcisu_h2_handle_event
 /* 800DBA60 000D6F80  38 60 00 00 */	li r3, 0
 /* 800DBA64 000D6F84  7C 08 03 A6 */	mtlr r0
 /* 800DBA68 000D6F88  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DBA6C 000D6F8C  4E 80 00 20 */	blr 
+/* 800DBA6C 000D6F8C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

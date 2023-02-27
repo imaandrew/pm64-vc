@@ -24,7 +24,7 @@ glabel lbl_80130BEC
 /* 80130C1C 0012C13C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80130C20 0012C140  7C 08 03 A6 */	mtlr r0
 /* 80130C24 0012C144  38 21 00 10 */	addi r1, r1, 0x10
-/* 80130C28 0012C148  4E 80 00 20 */	blr 
+/* 80130C28 0012C148  4E 80 00 20 */	blr
 
 glabel lbl_80130C2C
 /* 80130C2C 0012C14C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -43,22 +43,22 @@ glabel lbl_80130C2C
 /* 80130C5C 0012C17C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80130C60 0012C180  7C 08 03 A6 */	mtlr r0
 /* 80130C64 0012C184  38 21 00 10 */	addi r1, r1, 0x10
-/* 80130C68 0012C188  4E 80 00 20 */	blr 
+/* 80130C68 0012C188  4E 80 00 20 */	blr
 
 glabel CanWrite__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
 /* 80130C6C 0012C18C  38 60 00 01 */	li r3, 1
-/* 80130C70 0012C190  4E 80 00 20 */	blr 
+/* 80130C70 0012C190  4E 80 00 20 */	blr
 
 glabel CanRead__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
 /* 80130C74 0012C194  38 60 00 01 */	li r3, 1
-/* 80130C78 0012C198  4E 80 00 20 */	blr 
+/* 80130C78 0012C198  4E 80 00 20 */	blr
 
 glabel CanAsync__Q44nw4r3snd18MemorySoundArchive16MemoryFileStreamCFv
 /* 80130C7C 0012C19C  38 60 00 01 */	li r3, 1
-/* 80130C80 0012C1A0  4E 80 00 20 */	blr 
+/* 80130C80 0012C1A0  4E 80 00 20 */	blr
 
 glabel lbl_80130C84
 /* 80130C84 0012C1A4  3C 60 80 24 */	lis r3, lbl_80243B90@ha
 /* 80130C88 0012C1A8  38 63 3B 90 */	addi r3, r3, lbl_80243B90@l
-/* 80130C8C 0012C1AC  4E 80 00 20 */	blr 
+/* 80130C8C 0012C1AC  4E 80 00 20 */	blr
 

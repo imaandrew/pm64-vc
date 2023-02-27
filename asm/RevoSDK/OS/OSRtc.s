@@ -84,7 +84,7 @@ glabel WriteSramCallback
 /* 80096EF0 00092410  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80096EF4 00092414  7C 08 03 A6 */	mtlr r0
 /* 80096EF8 00092418  38 21 00 20 */	addi r1, r1, 0x20
-/* 80096EFC 0009241C  4E 80 00 20 */	blr 
+/* 80096EFC 0009241C  4E 80 00 20 */	blr
 
 glabel __OSInitSram
 /* 80096F00 00092420  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -225,7 +225,7 @@ glabel __OSInitSram
 /* 800970F0 00092610  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 800970F4 00092614  7C 08 03 A6 */	mtlr r0
 /* 800970F8 00092618  38 21 00 20 */	addi r1, r1, 0x20
-/* 800970FC 0009261C  4E 80 00 20 */	blr 
+/* 800970FC 0009261C  4E 80 00 20 */	blr
 
 glabel UnlockSram
 /* 80097100 00092620  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -423,13 +423,13 @@ glabel UnlockSram
 /* 800973D0 000928F0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800973D4 000928F4  7C 08 03 A6 */	mtlr r0
 /* 800973D8 000928F8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800973DC 000928FC  4E 80 00 20 */	blr 
+/* 800973DC 000928FC  4E 80 00 20 */	blr
 
 glabel __OSSyncSram
 /* 800973E0 00092900  3C 60 80 1C */	lis r3, lbl_801C4900@ha
 /* 800973E4 00092904  38 63 49 00 */	addi r3, r3, lbl_801C4900@l
 /* 800973E8 00092908  80 63 00 4C */	lwz r3, 0x4c(r3)
-/* 800973EC 0009290C  4E 80 00 20 */	blr 
+/* 800973EC 0009290C  4E 80 00 20 */	blr
 
 glabel __OSReadROM
 /* 800973F0 00092910  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -507,7 +507,7 @@ glabel __OSReadROM
 /* 80097504 00092A24  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80097508 00092A28  7C 08 03 A6 */	mtlr r0
 /* 8009750C 00092A2C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80097510 00092A30  4E 80 00 20 */	blr 
+/* 80097510 00092A30  4E 80 00 20 */	blr
 
 glabel OSGetWirelessID
 /* 80097514 00092A34  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -541,7 +541,7 @@ glabel OSGetWirelessID
 /* 8009757C 00092A9C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80097580 00092AA0  7C 08 03 A6 */	mtlr r0
 /* 80097584 00092AA4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80097588 00092AA8  4E 80 00 20 */	blr 
+/* 80097588 00092AA8  4E 80 00 20 */	blr
 
 glabel OSSetWirelessID
 /* 8009758C 00092AAC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -586,7 +586,7 @@ glabel OSSetWirelessID
 /* 80097618 00092B38  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8009761C 00092B3C  7C 08 03 A6 */	mtlr r0
 /* 80097620 00092B40  38 21 00 10 */	addi r1, r1, 0x10
-/* 80097624 00092B44  4E 80 00 20 */	blr 
+/* 80097624 00092B44  4E 80 00 20 */	blr
 
 glabel __OSGetRTCFlags
 /* 80097628 00092B48  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -662,7 +662,7 @@ glabel __OSGetRTCFlags
 /* 80097734 00092C54  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 80097738 00092C58  7C 08 03 A6 */	mtlr r0
 /* 8009773C 00092C5C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80097740 00092C60  4E 80 00 20 */	blr 
+/* 80097740 00092C60  4E 80 00 20 */	blr
 
 glabel __OSClearRTCFlags
 /* 80097744 00092C64  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -735,7 +735,7 @@ glabel __OSClearRTCFlags
 /* 80097844 00092D64  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 80097848 00092D68  7C 08 03 A6 */	mtlr r0
 /* 8009784C 00092D6C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80097850 00092D70  4E 80 00 20 */	blr 
+/* 80097850 00092D70  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -32,7 +32,7 @@ glabel __ct__Q36nw4hbm3snd13RemoteSpeakerFv
 /* 80132A70 0012DF90  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80132A74 0012DF94  7C 08 03 A6 */	mtlr r0
 /* 80132A78 0012DF98  38 21 00 10 */	addi r1, r1, 0x10
-/* 80132A7C 0012DF9C  4E 80 00 20 */	blr 
+/* 80132A7C 0012DF9C  4E 80 00 20 */	blr
 
 glabel InitParam__Q36nw4hbm3snd13RemoteSpeakerFv
 /* 80132A80 0012DFA0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -66,7 +66,7 @@ glabel InitParam__Q36nw4hbm3snd13RemoteSpeakerFv
 /* 80132AF0 0012E010  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80132AF4 0012E014  7C 08 03 A6 */	mtlr r0
 /* 80132AF8 0012E018  38 21 00 10 */	addi r1, r1, 0x10
-/* 80132AFC 0012E01C  4E 80 00 20 */	blr 
+/* 80132AFC 0012E01C  4E 80 00 20 */	blr
 
 glabel Update__Q36nw4hbm3snd13RemoteSpeakerFPCs
 /* 80132B00 0012E020  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -297,7 +297,7 @@ glabel Update__Q36nw4hbm3snd13RemoteSpeakerFPCs
 /* 80132E18 0012E338  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80132E1C 0012E33C  7C 08 03 A6 */	mtlr r0
 /* 80132E20 0012E340  38 21 00 40 */	addi r1, r1, 0x40
-/* 80132E24 0012E344  4E 80 00 20 */	blr 
+/* 80132E24 0012E344  4E 80 00 20 */	blr
 
 glabel ContinueAlarmHandler__Q36nw4hbm3snd13RemoteSpeakerFP7OSAlarmP9OSContext
 /* 80132E28 0012E348  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -330,7 +330,7 @@ glabel ContinueAlarmHandler__Q36nw4hbm3snd13RemoteSpeakerFP7OSAlarmP9OSContext
 /* 80132E94 0012E3B4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80132E98 0012E3B8  7C 08 03 A6 */	mtlr r0
 /* 80132E9C 0012E3BC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80132EA0 0012E3C0  4E 80 00 20 */	blr 
+/* 80132EA0 0012E3C0  4E 80 00 20 */	blr
 
 glabel IntervalAlarmHandler__Q36nw4hbm3snd13RemoteSpeakerFP7OSAlarmP9OSContext
 /* 80132EA4 0012E3C4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -362,5 +362,5 @@ glabel IntervalAlarmHandler__Q36nw4hbm3snd13RemoteSpeakerFP7OSAlarmP9OSContext
 /* 80132F08 0012E428  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80132F0C 0012E42C  7C 08 03 A6 */	mtlr r0
 /* 80132F10 0012E430  38 21 00 10 */	addi r1, r1, 0x10
-/* 80132F14 0012E434  4E 80 00 20 */	blr 
+/* 80132F14 0012E434  4E 80 00 20 */	blr
 

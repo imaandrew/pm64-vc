@@ -24,7 +24,7 @@ glabel AXInit
 /* 800B2330 000AD850  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B2334 000AD854  7C 08 03 A6 */	mtlr r0
 /* 800B2338 000AD858  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B233C 000AD85C  4E 80 00 20 */	blr 
+/* 800B233C 000AD85C  4E 80 00 20 */	blr
 
 glabel AXQuit
 /* 800B2340 000AD860  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -45,11 +45,11 @@ glabel AXQuit
 /* 800B2378 000AD898  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B237C 000AD89C  7C 08 03 A6 */	mtlr r0
 /* 800B2380 000AD8A0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B2384 000AD8A4  4E 80 00 20 */	blr 
+/* 800B2384 000AD8A4  4E 80 00 20 */	blr
 
 glabel func_800B2388
 /* 800B2388 000AD8A8  80 6D 90 28 */	lwz r3, lbl_802474A8@sda21(r13)
-/* 800B238C 000AD8AC  4E 80 00 20 */	blr 
+/* 800B238C 000AD8AC  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

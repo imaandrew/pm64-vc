@@ -46,7 +46,7 @@ glabel SCInit
 /* 800BC298 000B77B8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800BC29C 000B77BC  7C 08 03 A6 */	mtlr r0
 /* 800BC2A0 000B77C0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BC2A4 000B77C4  4E 80 00 20 */	blr 
+/* 800BC2A4 000B77C4  4E 80 00 20 */	blr
 
 glabel SCCheckStatus
 /* 800BC2A8 000B77C8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -125,7 +125,7 @@ glabel SCCheckStatus
 /* 800BC3B4 000B78D4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BC3B8 000B78D8  7C 08 03 A6 */	mtlr r0
 /* 800BC3BC 000B78DC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BC3C0 000B78E0  4E 80 00 20 */	blr 
+/* 800BC3C0 000B78E0  4E 80 00 20 */	blr
 
 glabel SCReloadConfFileAsync
 /* 800BC3C4 000B78E4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -198,7 +198,7 @@ glabel SCReloadConfFileAsync
 /* 800BC4C8 000B79E8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800BC4CC 000B79EC  7C 08 03 A6 */	mtlr r0
 /* 800BC4D0 000B79F0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BC4D4 000B79F4  4E 80 00 20 */	blr 
+/* 800BC4D4 000B79F4  4E 80 00 20 */	blr
 
 glabel OpenCallbackFromReload
 /* 800BC4D8 000B79F8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -256,7 +256,7 @@ glabel OpenCallbackFromReload
 /* 800BC598 000B7AB8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800BC59C 000B7ABC  7C 08 03 A6 */	mtlr r0
 /* 800BC5A0 000B7AC0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BC5A4 000B7AC4  4E 80 00 20 */	blr 
+/* 800BC5A4 000B7AC4  4E 80 00 20 */	blr
 
 glabel ReadCallbackFromReload
 /* 800BC5A8 000B7AC8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -321,7 +321,7 @@ glabel ReadCallbackFromReload
 /* 800BC680 000B7BA0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800BC684 000B7BA4  7C 08 03 A6 */	mtlr r0
 /* 800BC688 000B7BA8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BC68C 000B7BAC  4E 80 00 20 */	blr 
+/* 800BC68C 000B7BAC  4E 80 00 20 */	blr
 
 glabel CloseCallbackFromReload
 /* 800BC690 000B7BB0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -362,7 +362,7 @@ glabel CloseCallbackFromReload
 /* 800BC70C 000B7C2C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800BC710 000B7C30  7C 08 03 A6 */	mtlr r0
 /* 800BC714 000B7C34  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BC718 000B7C38  4E 80 00 20 */	blr 
+/* 800BC718 000B7C38  4E 80 00 20 */	blr
 
 glabel FinishFromReload
 /* 800BC71C 000B7C3C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -438,7 +438,7 @@ glabel FinishFromReload
 /* 800BC820 000B7D40  41 82 00 14 */	beq .L_800BC834
 /* 800BC824 000B7D44  80 7F 01 5C */	lwz r3, 0x15c(r31)
 /* 800BC828 000B7D48  7D 89 03 A6 */	mtctr r12
-/* 800BC82C 000B7D4C  4E 80 04 21 */	bctrl 
+/* 800BC82C 000B7D4C  4E 80 04 21 */	bctrl
 /* 800BC830 000B7D50  93 DF 01 58 */	stw r30, 0x158(r31)
 .L_800BC834:
 /* 800BC834 000B7D54  9B 8D 91 B0 */	stb r28, lbl_80247630@sda21(r13)
@@ -450,7 +450,7 @@ glabel FinishFromReload
 /* 800BC848 000B7D68  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800BC84C 000B7D6C  7C 08 03 A6 */	mtlr r0
 /* 800BC850 000B7D70  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BC854 000B7D74  4E 80 00 20 */	blr 
+/* 800BC854 000B7D74  4E 80 00 20 */	blr
 .L_800BC858:
 /* 800BC858 000B7D78  4B FF FE C4 */	b FinishFromReload
 
@@ -615,7 +615,7 @@ glabel ParseConfBuf
 /* 800BCA98 000B7FB8  80 01 00 64 */	lwz r0, 0x64(r1)
 /* 800BCA9C 000B7FBC  7C 08 03 A6 */	mtlr r0
 /* 800BCAA0 000B7FC0  38 21 00 60 */	addi r1, r1, 0x60
-/* 800BCAA4 000B7FC4  4E 80 00 20 */	blr 
+/* 800BCAA4 000B7FC4  4E 80 00 20 */	blr
 
 glabel UnpackItem
 /* 800BCAA8 000B7FC8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -733,7 +733,7 @@ glabel UnpackItem
 /* 800BCC30 000B8150  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800BCC34 000B8154  7C 08 03 A6 */	mtlr r0
 /* 800BCC38 000B8158  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BCC3C 000B815C  4E 80 00 20 */	blr 
+/* 800BCC3C 000B815C  4E 80 00 20 */	blr
 
 glabel DeleteItemByID
 /* 800BCC40 000B8160  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -844,7 +844,7 @@ glabel DeleteItemByID
 /* 800BCDC0 000B82E0  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800BCDC4 000B82E4  7C 08 03 A6 */	mtlr r0
 /* 800BCDC8 000B82E8  38 21 00 30 */	addi r1, r1, 0x30
-/* 800BCDCC 000B82EC  4E 80 00 20 */	blr 
+/* 800BCDCC 000B82EC  4E 80 00 20 */	blr
 
 glabel CreateItemByID
 /* 800BCDD0 000B82F0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1021,7 +1021,7 @@ glabel CreateItemByID
 /* 800BD038 000B8558  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800BD03C 000B855C  7C 08 03 A6 */	mtlr r0
 /* 800BD040 000B8560  38 21 00 30 */	addi r1, r1, 0x30
-/* 800BD044 000B8564  4E 80 00 20 */	blr 
+/* 800BD044 000B8564  4E 80 00 20 */	blr
 
 glabel SCFindByteArrayItem
 /* 800BD048 000B8568  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1082,7 +1082,7 @@ glabel SCFindByteArrayItem
 /* 800BD118 000B8638  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800BD11C 000B863C  7C 08 03 A6 */	mtlr r0
 /* 800BD120 000B8640  38 21 00 40 */	addi r1, r1, 0x40
-/* 800BD124 000B8644  4E 80 00 20 */	blr 
+/* 800BD124 000B8644  4E 80 00 20 */	blr
 glabel lbl_800BD128
 /* 800BD128 000B8648  94 21 FF C0 */	stwu r1, -0x40(r1)
 /* 800BD12C 000B864C  7C 08 02 A6 */	mflr r0
@@ -1162,7 +1162,7 @@ glabel lbl_800BD128
 /* 800BD23C 000B875C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800BD240 000B8760  7C 08 03 A6 */	mtlr r0
 /* 800BD244 000B8764  38 21 00 40 */	addi r1, r1, 0x40
-/* 800BD248 000B8768  4E 80 00 20 */	blr 
+/* 800BD248 000B8768  4E 80 00 20 */	blr
 
 glabel SCReplaceIntegerItem
 /* 800BD24C 000B876C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1240,7 +1240,7 @@ glabel SCReplaceIntegerItem
 /* 800BD354 000B8874  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800BD358 000B8878  7C 08 03 A6 */	mtlr r0
 /* 800BD35C 000B887C  38 21 00 40 */	addi r1, r1, 0x40
-/* 800BD360 000B8880  4E 80 00 20 */	blr 
+/* 800BD360 000B8880  4E 80 00 20 */	blr
 
 glabel SCFindU8Item
 /* 800BD364 000B8884  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1298,7 +1298,7 @@ glabel SCFindU8Item
 /* 800BD428 000B8948  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800BD42C 000B894C  7C 08 03 A6 */	mtlr r0
 /* 800BD430 000B8950  38 21 00 40 */	addi r1, r1, 0x40
-/* 800BD434 000B8954  4E 80 00 20 */	blr 
+/* 800BD434 000B8954  4E 80 00 20 */	blr
 
 glabel SCFindS8Item
 /* 800BD438 000B8958  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1356,7 +1356,7 @@ glabel SCFindS8Item
 /* 800BD4FC 000B8A1C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800BD500 000B8A20  7C 08 03 A6 */	mtlr r0
 /* 800BD504 000B8A24  38 21 00 40 */	addi r1, r1, 0x40
-/* 800BD508 000B8A28  4E 80 00 20 */	blr 
+/* 800BD508 000B8A28  4E 80 00 20 */	blr
 
 glabel SCFindU32Item
 /* 800BD50C 000B8A2C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1414,7 +1414,7 @@ glabel SCFindU32Item
 /* 800BD5D0 000B8AF0  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800BD5D4 000B8AF4  7C 08 03 A6 */	mtlr r0
 /* 800BD5D8 000B8AF8  38 21 00 40 */	addi r1, r1, 0x40
-/* 800BD5DC 000B8AFC  4E 80 00 20 */	blr 
+/* 800BD5DC 000B8AFC  4E 80 00 20 */	blr
 glabel lbl_800BD5E0
 /* 800BD5E0 000B8B00  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 800BD5E4 000B8B04  7C 08 02 A6 */	mflr r0
@@ -1426,7 +1426,7 @@ glabel lbl_800BD5E0
 /* 800BD5FC 000B8B1C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800BD600 000B8B20  7C 08 03 A6 */	mtlr r0
 /* 800BD604 000B8B24  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BD608 000B8B28  4E 80 00 20 */	blr 
+/* 800BD608 000B8B28  4E 80 00 20 */	blr
 
 glabel __SCFlushSyncCallback
 /* 800BD60C 000B8B2C  3C 60 80 1E */	lis r3, lbl_801E4EA0@ha
@@ -1490,7 +1490,7 @@ glabel SCFlushAsync
 /* 800BD6DC 000B8BFC  80 7D 01 84 */	lwz r3, 0x184(r29)
 /* 800BD6E0 000B8C00  93 DD 01 80 */	stw r30, 0x180(r29)
 /* 800BD6E4 000B8C04  7D 89 03 A6 */	mtctr r12
-/* 800BD6E8 000B8C08  4E 80 04 21 */	bctrl 
+/* 800BD6E8 000B8C08  4E 80 04 21 */	bctrl
 /* 800BD6EC 000B8C0C  80 1D 00 00 */	lwz r0, 0(r29)
 /* 800BD6F0 000B8C10  7C 00 F0 40 */	cmplw r0, r30
 /* 800BD6F4 000B8C14  41 82 00 0C */	beq .L_800BD700
@@ -1548,7 +1548,7 @@ glabel SCFlushAsync
 /* 800BD7B4 000B8CD4  80 7D 01 84 */	lwz r3, 0x184(r29)
 /* 800BD7B8 000B8CD8  93 FD 01 80 */	stw r31, 0x180(r29)
 /* 800BD7BC 000B8CDC  7D 89 03 A6 */	mtctr r12
-/* 800BD7C0 000B8CE0  4E 80 04 21 */	bctrl 
+/* 800BD7C0 000B8CE0  4E 80 04 21 */	bctrl
 /* 800BD7C4 000B8CE4  80 1D 00 00 */	lwz r0, 0(r29)
 /* 800BD7C8 000B8CE8  7C 00 F8 40 */	cmplw r0, r31
 /* 800BD7CC 000B8CEC  41 82 00 0C */	beq .L_800BD7D8
@@ -1570,7 +1570,7 @@ glabel SCFlushAsync
 /* 800BD7FC 000B8D1C  7F CC F3 78 */	mr r12, r30
 /* 800BD800 000B8D20  7C 03 03 78 */	mr r3, r0
 /* 800BD804 000B8D24  7D 89 03 A6 */	mtctr r12
-/* 800BD808 000B8D28  4E 80 04 21 */	bctrl 
+/* 800BD808 000B8D28  4E 80 04 21 */	bctrl
 .L_800BD80C:
 /* 800BD80C 000B8D2C  7F E3 FB 78 */	mr r3, r31
 /* 800BD810 000B8D30  4B FD 7A CD */	bl OSRestoreInterrupts
@@ -1582,7 +1582,7 @@ glabel SCFlushAsync
 /* 800BD824 000B8D44  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800BD828 000B8D48  7C 08 03 A6 */	mtlr r0
 /* 800BD82C 000B8D4C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BD830 000B8D50  4E 80 00 20 */	blr 
+/* 800BD830 000B8D50  4E 80 00 20 */	blr
 
 glabel MyNandCallback
 /* 800BD834 000B8D54  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1600,7 +1600,7 @@ glabel MyNandCallback
 /* 800BD864 000B8D84  38 84 6E F8 */	addi r4, r4, lbl_80196EF8@l
 /* 800BD868 000B8D88  7C 84 00 2E */	lwzx r4, r4, r0
 /* 800BD86C 000B8D8C  7C 89 03 A6 */	mtctr r4
-/* 800BD870 000B8D90  4E 80 04 20 */	bctr 
+/* 800BD870 000B8D90  4E 80 04 20 */	bctr
 
 glabel lbl_800BD874
 /* 800BD874 000B8D94  2C 03 00 00 */	cmpwi r3, 0
@@ -1761,7 +1761,7 @@ glabel lbl_800BDA60
 /* 800BDA8C 000B8FAC  80 7E 01 84 */	lwz r3, 0x184(r30)
 /* 800BDA90 000B8FB0  93 FE 01 80 */	stw r31, 0x180(r30)
 /* 800BDA94 000B8FB4  7D 89 03 A6 */	mtctr r12
-/* 800BDA98 000B8FB8  4E 80 04 21 */	bctrl 
+/* 800BDA98 000B8FB8  4E 80 04 21 */	bctrl
 /* 800BDA9C 000B8FBC  80 1E 00 00 */	lwz r0, 0(r30)
 /* 800BDAA0 000B8FC0  7C 00 F8 40 */	cmplw r0, r31
 /* 800BDAA4 000B8FC4  41 82 00 0C */	beq .L_800BDAB0
@@ -1804,7 +1804,7 @@ glabel lbl_800BDA60
 /* 800BDB28 000B9048  80 7E 01 84 */	lwz r3, 0x184(r30)
 /* 800BDB2C 000B904C  93 FE 01 80 */	stw r31, 0x180(r30)
 /* 800BDB30 000B9050  7D 89 03 A6 */	mtctr r12
-/* 800BDB34 000B9054  4E 80 04 21 */	bctrl 
+/* 800BDB34 000B9054  4E 80 04 21 */	bctrl
 /* 800BDB38 000B9058  80 1E 00 00 */	lwz r0, 0(r30)
 /* 800BDB3C 000B905C  7C 00 F8 40 */	cmplw r0, r31
 /* 800BDB40 000B9060  41 82 00 0C */	beq .L_800BDB4C
@@ -1819,7 +1819,7 @@ glabel lbl_800BDA60
 /* 800BDB5C 000B907C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800BDB60 000B9080  7C 08 03 A6 */	mtlr r0
 /* 800BDB64 000B9084  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDB68 000B9088  4E 80 00 20 */	blr 
+/* 800BDB68 000B9088  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

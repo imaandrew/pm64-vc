@@ -16,7 +16,7 @@ glabel __DVDClearWaitingQueue
 /* 800AF3E8 000AA908  90 86 00 14 */	stw r4, 0x14(r6)
 /* 800AF3EC 000AA90C  90 66 00 18 */	stw r3, 0x18(r6)
 /* 800AF3F0 000AA910  90 66 00 1C */	stw r3, 0x1c(r6)
-/* 800AF3F4 000AA914  4E 80 00 20 */	blr 
+/* 800AF3F4 000AA914  4E 80 00 20 */	blr
 
 glabel __DVDPushWaitingQueue
 /* 800AF3F8 000AA918  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -44,7 +44,7 @@ glabel __DVDPushWaitingQueue
 /* 800AF450 000AA970  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800AF454 000AA974  7C 08 03 A6 */	mtlr r0
 /* 800AF458 000AA978  38 21 00 10 */	addi r1, r1, 0x10
-/* 800AF45C 000AA97C  4E 80 00 20 */	blr 
+/* 800AF45C 000AA97C  4E 80 00 20 */	blr
 
 glabel __DVDPopWaitingQueue
 /* 800AF460 000AA980  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -89,7 +89,7 @@ glabel __DVDPopWaitingQueue
 /* 800AF4F0 000AAA10  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800AF4F4 000AAA14  7C 08 03 A6 */	mtlr r0
 /* 800AF4F8 000AAA18  38 21 00 10 */	addi r1, r1, 0x10
-/* 800AF4FC 000AAA1C  4E 80 00 20 */	blr 
+/* 800AF4FC 000AAA1C  4E 80 00 20 */	blr
 
 glabel __DVDCheckWaitingQueue
 /* 800AF500 000AAA20  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -116,7 +116,7 @@ glabel __DVDCheckWaitingQueue
 /* 800AF548 000AAA68  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800AF54C 000AAA6C  7C 08 03 A6 */	mtlr r0
 /* 800AF550 000AAA70  38 21 00 10 */	addi r1, r1, 0x10
-/* 800AF554 000AAA74  4E 80 00 20 */	blr 
+/* 800AF554 000AAA74  4E 80 00 20 */	blr
 
 glabel __DVDGetNextWaitingQueue
 /* 800AF558 000AAA78  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -145,7 +145,7 @@ glabel __DVDGetNextWaitingQueue
 /* 800AF5A8 000AAAC8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800AF5AC 000AAACC  7C 08 03 A6 */	mtlr r0
 /* 800AF5B0 000AAAD0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800AF5B4 000AAAD4  4E 80 00 20 */	blr 
+/* 800AF5B4 000AAAD4  4E 80 00 20 */	blr
 
 glabel __DVDDequeueWaitingQueue
 /* 800AF5B8 000AAAD8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -174,7 +174,7 @@ glabel __DVDDequeueWaitingQueue
 /* 800AF608 000AAB28  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800AF60C 000AAB2C  7C 08 03 A6 */	mtlr r0
 /* 800AF610 000AAB30  38 21 00 10 */	addi r1, r1, 0x10
-/* 800AF614 000AAB34  4E 80 00 20 */	blr 
+/* 800AF614 000AAB34  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

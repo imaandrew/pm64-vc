@@ -142,7 +142,7 @@ glabel gki_init_free_queue
 /* 800D99B8 000D4ED8  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800D99BC 000D4EDC  7C 08 03 A6 */	mtlr r0
 /* 800D99C0 000D4EE0  38 21 00 40 */	addi r1, r1, 0x40
-/* 800D99C4 000D4EE4  4E 80 00 20 */	blr 
+/* 800D99C4 000D4EE4  4E 80 00 20 */	blr
 
 glabel gki_buffer_init
 /* 800D99C8 000D4EE8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -317,14 +317,14 @@ glabel gki_buffer_init
 /* 800D9C64 000D5184  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D9C68 000D5188  7C 08 03 A6 */	mtlr r0
 /* 800D9C6C 000D518C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D9C70 000D5190  4E 80 00 20 */	blr 
+/* 800D9C70 000D5190  4E 80 00 20 */	blr
 
 glabel GKI_init_q
 /* 800D9C74 000D5194  38 00 00 00 */	li r0, 0
 /* 800D9C78 000D5198  90 03 00 04 */	stw r0, 4(r3)
 /* 800D9C7C 000D519C  90 03 00 00 */	stw r0, 0(r3)
 /* 800D9C80 000D51A0  B0 03 00 08 */	sth r0, 8(r3)
-/* 800D9C84 000D51A4  4E 80 00 20 */	blr 
+/* 800D9C84 000D51A4  4E 80 00 20 */	blr
 
 glabel GKI_getbuf
 /* 800D9C88 000D51A8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -441,7 +441,7 @@ glabel GKI_getbuf
 /* 800D9E18 000D5338  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800D9E1C 000D533C  7C 08 03 A6 */	mtlr r0
 /* 800D9E20 000D5340  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D9E24 000D5344  4E 80 00 20 */	blr 
+/* 800D9E24 000D5344  4E 80 00 20 */	blr
 
 glabel GKI_getpoolbuf
 /* 800D9E28 000D5348  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -506,7 +506,7 @@ glabel GKI_getpoolbuf
 /* 800D9F00 000D5420  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800D9F04 000D5424  7C 08 03 A6 */	mtlr r0
 /* 800D9F08 000D5428  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D9F0C 000D542C  4E 80 00 20 */	blr 
+/* 800D9F0C 000D542C  4E 80 00 20 */	blr
 
 glabel GKI_freebuf
 /* 800D9F10 000D5430  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -613,14 +613,14 @@ glabel GKI_freebuf
 /* 800DA070 000D5590  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800DA074 000D5594  7C 08 03 A6 */	mtlr r0
 /* 800DA078 000D5598  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DA07C 000D559C  4E 80 00 20 */	blr 
+/* 800DA07C 000D559C  4E 80 00 20 */	blr
 
 glabel GKI_get_buf_size
 /* 800DA080 000D55A0  38 63 FF F8 */	addi r3, r3, -8
 /* 800DA084 000D55A4  54 60 07 FF */	clrlwi. r0, r3, 0x1f
 /* 800DA088 000D55A8  41 82 00 0C */	beq .L_800DA094
 /* 800DA08C 000D55AC  38 60 00 00 */	li r3, 0
-/* 800DA090 000D55B0  4E 80 00 20 */	blr 
+/* 800DA090 000D55B0  4E 80 00 20 */	blr
 .L_800DA094:
 /* 800DA094 000D55B4  88 03 00 04 */	lbz r0, 4(r3)
 /* 800DA098 000D55B8  28 00 00 09 */	cmplwi r0, 9
@@ -631,10 +631,10 @@ glabel GKI_get_buf_size
 /* 800DA0AC 000D55CC  3C 63 00 03 */	addis r3, r3, 3
 /* 800DA0B0 000D55D0  7C 63 02 14 */	add r3, r3, r0
 /* 800DA0B4 000D55D4  A0 63 89 E8 */	lhz r3, -0x7618(r3)
-/* 800DA0B8 000D55D8  4E 80 00 20 */	blr 
+/* 800DA0B8 000D55D8  4E 80 00 20 */	blr
 .L_800DA0BC:
 /* 800DA0BC 000D55DC  38 60 00 00 */	li r3, 0
-/* 800DA0C0 000D55E0  4E 80 00 20 */	blr 
+/* 800DA0C0 000D55E0  4E 80 00 20 */	blr
 
 glabel GKI_send_msg
 /* 800DA0C4 000D55E4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -759,7 +759,7 @@ glabel GKI_send_msg
 /* 800DA270 000D5790  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800DA274 000D5794  7C 08 03 A6 */	mtlr r0
 /* 800DA278 000D5798  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DA27C 000D579C  4E 80 00 20 */	blr 
+/* 800DA27C 000D579C  4E 80 00 20 */	blr
 
 glabel GKI_read_mbox
 /* 800DA280 000D57A0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -809,7 +809,7 @@ glabel GKI_read_mbox
 /* 800DA320 000D5840  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800DA324 000D5844  7C 08 03 A6 */	mtlr r0
 /* 800DA328 000D5848  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DA32C 000D584C  4E 80 00 20 */	blr 
+/* 800DA32C 000D584C  4E 80 00 20 */	blr
 
 glabel GKI_enqueue
 /* 800DA330 000D5850  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -900,7 +900,7 @@ glabel GKI_enqueue
 /* 800DA45C 000D597C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800DA460 000D5980  7C 08 03 A6 */	mtlr r0
 /* 800DA464 000D5984  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DA468 000D5988  4E 80 00 20 */	blr 
+/* 800DA468 000D5988  4E 80 00 20 */	blr
 
 glabel GKI_enqueue_head
 /* 800DA46C 000D598C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -992,7 +992,7 @@ glabel GKI_enqueue_head
 /* 800DA59C 000D5ABC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800DA5A0 000D5AC0  7C 08 03 A6 */	mtlr r0
 /* 800DA5A4 000D5AC4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DA5A8 000D5AC8  4E 80 00 20 */	blr 
+/* 800DA5A8 000D5AC8  4E 80 00 20 */	blr
 
 glabel GKI_dequeue
 /* 800DA5AC 000D5ACC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1039,7 +1039,7 @@ glabel GKI_dequeue
 /* 800DA63C 000D5B5C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800DA640 000D5B60  7C 08 03 A6 */	mtlr r0
 /* 800DA644 000D5B64  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DA648 000D5B68  4E 80 00 20 */	blr 
+/* 800DA648 000D5B68  4E 80 00 20 */	blr
 
 glabel GKI_remove_from_queue
 /* 800DA64C 000D5B6C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1096,27 +1096,27 @@ glabel GKI_remove_from_queue
 /* 800DA700 000D5C20  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800DA704 000D5C24  7C 08 03 A6 */	mtlr r0
 /* 800DA708 000D5C28  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DA70C 000D5C2C  4E 80 00 20 */	blr 
+/* 800DA70C 000D5C2C  4E 80 00 20 */	blr
 
 glabel GKI_getfirst
 /* 800DA710 000D5C30  80 63 00 00 */	lwz r3, 0(r3)
-/* 800DA714 000D5C34  4E 80 00 20 */	blr 
+/* 800DA714 000D5C34  4E 80 00 20 */	blr
 
 glabel GKI_getnext
 /* 800DA718 000D5C38  80 63 FF F8 */	lwz r3, -8(r3)
 /* 800DA71C 000D5C3C  2C 03 00 00 */	cmpwi r3, 0
 /* 800DA720 000D5C40  41 82 00 0C */	beq .L_800DA72C
 /* 800DA724 000D5C44  38 63 00 08 */	addi r3, r3, 8
-/* 800DA728 000D5C48  4E 80 00 20 */	blr 
+/* 800DA728 000D5C48  4E 80 00 20 */	blr
 .L_800DA72C:
 /* 800DA72C 000D5C4C  38 60 00 00 */	li r3, 0
-/* 800DA730 000D5C50  4E 80 00 20 */	blr 
+/* 800DA730 000D5C50  4E 80 00 20 */	blr
 
 glabel GKI_queue_is_empty
 /* 800DA734 000D5C54  A0 03 00 08 */	lhz r0, 8(r3)
 /* 800DA738 000D5C58  7C 00 00 34 */	cntlzw r0, r0
 /* 800DA73C 000D5C5C  54 03 DE 3E */	rlwinm r3, r0, 0x1b, 0x18, 0x1f
-/* 800DA740 000D5C60  4E 80 00 20 */	blr 
+/* 800DA740 000D5C60  4E 80 00 20 */	blr
 
 glabel GKI_create_pool
 /* 800DA744 000D5C64  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1348,7 +1348,7 @@ glabel GKI_create_pool
 /* 800DAA7C 000D5F9C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DAA80 000D5FA0  7C 08 03 A6 */	mtlr r0
 /* 800DAA84 000D5FA4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DAA88 000D5FA8  4E 80 00 20 */	blr 
+/* 800DAA88 000D5FA8  4E 80 00 20 */	blr
 
 glabel GKI_delete_pool
 /* 800DAA8C 000D5FAC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1447,7 +1447,7 @@ glabel GKI_delete_pool
 /* 800DABDC 000D60FC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DABE0 000D6100  7C 08 03 A6 */	mtlr r0
 /* 800DABE4 000D6104  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DABE8 000D6108  4E 80 00 20 */	blr 
+/* 800DABE8 000D6108  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

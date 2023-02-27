@@ -97,7 +97,7 @@ glabel MEMCreateUnitHeapEx
 /* 800B7D20 000B3240  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B7D24 000B3244  7C 08 03 A6 */	mtlr r0
 /* 800B7D28 000B3248  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B7D2C 000B324C  4E 80 00 20 */	blr 
+/* 800B7D2C 000B324C  4E 80 00 20 */	blr
 
 glabel MEMAllocFromUnitHeap
 /* 800B7D30 000B3250  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -140,7 +140,7 @@ glabel MEMAllocFromUnitHeap
 /* 800B7DB4 000B32D4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B7DB8 000B32D8  7C 08 03 A6 */	mtlr r0
 /* 800B7DBC 000B32DC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7DC0 000B32E0  4E 80 00 20 */	blr 
+/* 800B7DC0 000B32E0  4E 80 00 20 */	blr
 
 glabel MEMFreeToUnitHeap
 /* 800B7DC4 000B32E4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -172,7 +172,7 @@ glabel MEMFreeToUnitHeap
 /* 800B7E24 000B3344  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800B7E28 000B3348  7C 08 03 A6 */	mtlr r0
 /* 800B7E2C 000B334C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7E30 000B3350  4E 80 00 20 */	blr 
+/* 800B7E30 000B3350  4E 80 00 20 */	blr
 
 glabel MEMCountFreeBlockForUnitHeap
 /* 800B7E34 000B3354  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -208,7 +208,7 @@ glabel MEMCountFreeBlockForUnitHeap
 /* 800B7E9C 000B33BC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800B7EA0 000B33C0  7C 08 03 A6 */	mtlr r0
 /* 800B7EA4 000B33C4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800B7EA8 000B33C8  4E 80 00 20 */	blr 
+/* 800B7EA8 000B33C8  4E 80 00 20 */	blr
 
 glabel lbl_800B7EAC
 /* 800B7EAC 000B33CC  7C 65 1B 78 */	mr r5, r3
@@ -227,5 +227,5 @@ glabel lbl_800B7EC4
 /* 800B7ED0 000B33F0  4B FF FA CC */	b MEMAllocFromFrmHeapEx
 
 glabel lbl_800B7ED4
-/* 800B7ED4 000B33F4  4E 80 00 20 */	blr 
+/* 800B7ED4 000B33F4  4E 80 00 20 */	blr
 

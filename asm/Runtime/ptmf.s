@@ -13,11 +13,11 @@ glabel __ptmf_cmpr
 /* 8015C7D4 00157CF4  7C 05 30 00 */	cmpw r5, r6
 /* 8015C7D8 00157CF8  7F 07 40 00 */	cmpw cr6, r7, r8
 /* 8015C7DC 00157CFC  7F 89 50 00 */	cmpw cr7, r9, r10
-/* 8015C7E0 00157D00  4C 82 00 20 */	bnelr 
+/* 8015C7E0 00157D00  4C 82 00 20 */	bnelr
 /* 8015C7E4 00157D04  4C 9A 00 20 */	bnelr cr6
 /* 8015C7E8 00157D08  4C 9E 00 20 */	bnelr cr7
 /* 8015C7EC 00157D0C  38 60 00 00 */	li r3, 0
-/* 8015C7F0 00157D10  4E 80 00 20 */	blr 
+/* 8015C7F0 00157D10  4E 80 00 20 */	blr
 
 glabel __ptmf_scall
 /* 8015C7F4 00157D14  80 0C 00 00 */	lwz r0, 0(r12)
@@ -30,5 +30,5 @@ glabel __ptmf_scall
 /* 8015C810 00157D30  7D 8C 58 2E */	lwzx r12, r12, r11
 .L_8015C814:
 /* 8015C814 00157D34  7D 89 03 A6 */	mtctr r12
-/* 8015C818 00157D38  4E 80 04 20 */	bctr 
+/* 8015C818 00157D38  4E 80 04 20 */	bctr
 

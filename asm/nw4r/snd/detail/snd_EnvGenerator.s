@@ -18,7 +18,7 @@ glabel __ct__Q46nw4hbm3snd6detail12EnvGeneratorFv
 /* 8012F464 0012A984  D0 43 00 0C */	stfs f2, 0xc(r3)
 /* 8012F468 0012A988  D0 03 00 04 */	stfs f0, 4(r3)
 /* 8012F46C 0012A98C  90 03 00 00 */	stw r0, 0(r3)
-/* 8012F470 0012A990  4E 80 00 20 */	blr 
+/* 8012F470 0012A990  4E 80 00 20 */	blr
 
 glabel Init__Q46nw4hbm3snd6detail12EnvGeneratorFv
 /* 8012F474 0012A994  3C C0 80 17 */	lis r6, lbl_801767E8@ha
@@ -36,7 +36,7 @@ glabel Init__Q46nw4hbm3snd6detail12EnvGeneratorFv
 /* 8012F4A4 0012A9C4  D0 43 00 0C */	stfs f2, 0xc(r3)
 /* 8012F4A8 0012A9C8  D0 03 00 04 */	stfs f0, 4(r3)
 /* 8012F4AC 0012A9CC  90 03 00 00 */	stw r0, 0(r3)
-/* 8012F4B0 0012A9D0  4E 80 00 20 */	blr 
+/* 8012F4B0 0012A9D0  4E 80 00 20 */	blr
 
 glabel Reset__Q46nw4hbm3snd6detail12EnvGeneratorFv
 /* 8012F4B4 0012A9D4  3C 80 80 17 */	lis r4, lbl_801767CC@ha
@@ -44,7 +44,7 @@ glabel Reset__Q46nw4hbm3snd6detail12EnvGeneratorFv
 /* 8012F4BC 0012A9DC  C0 04 67 CC */	lfs f0, lbl_801767CC@l(r4)
 /* 8012F4C0 0012A9E0  90 03 00 00 */	stw r0, 0(r3)
 /* 8012F4C4 0012A9E4  D0 03 00 04 */	stfs f0, 4(r3)
-/* 8012F4C8 0012A9E8  4E 80 00 20 */	blr 
+/* 8012F4C8 0012A9E8  4E 80 00 20 */	blr
 
 glabel GetValue__Q46nw4hbm3snd6detail12EnvGeneratorCFv
 /* 8012F4CC 0012A9EC  80 03 00 00 */	lwz r0, 0(r3)
@@ -179,7 +179,7 @@ glabel Update__Q46nw4hbm3snd6detail12EnvGeneratorFi
 /* 8012F69C 0012ABBC  83 81 00 20 */	lwz r28, 0x20(r1)
 /* 8012F6A0 0012ABC0  7C 08 03 A6 */	mtlr r0
 /* 8012F6A4 0012ABC4  38 21 00 30 */	addi r1, r1, 0x30
-/* 8012F6A8 0012ABC8  4E 80 00 20 */	blr 
+/* 8012F6A8 0012ABC8  4E 80 00 20 */	blr
 
 glabel SetAttack__Q46nw4hbm3snd6detail12EnvGeneratorFi
 /* 8012F6AC 0012ABCC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -219,7 +219,7 @@ glabel SetAttack__Q46nw4hbm3snd6detail12EnvGeneratorFi
 /* 8012F72C 0012AC4C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012F730 0012AC50  7C 08 03 A6 */	mtlr r0
 /* 8012F734 0012AC54  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012F738 0012AC58  4E 80 00 20 */	blr 
+/* 8012F738 0012AC58  4E 80 00 20 */	blr
 
 glabel SetDecay__Q46nw4hbm3snd6detail12EnvGeneratorFi
 /* 8012F73C 0012AC5C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -319,7 +319,7 @@ glabel SetDecay__Q46nw4hbm3snd6detail12EnvGeneratorFi
 /* 8012F894 0012ADB4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8012F898 0012ADB8  7C 08 03 A6 */	mtlr r0
 /* 8012F89C 0012ADBC  38 21 00 30 */	addi r1, r1, 0x30
-/* 8012F8A0 0012ADC0  4E 80 00 20 */	blr 
+/* 8012F8A0 0012ADC0  4E 80 00 20 */	blr
 
 glabel SetSustain__Q46nw4hbm3snd6detail12EnvGeneratorFi
 /* 8012F8A4 0012ADC4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -355,7 +355,7 @@ glabel SetSustain__Q46nw4hbm3snd6detail12EnvGeneratorFi
 /* 8012F914 0012AE34  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012F918 0012AE38  7C 08 03 A6 */	mtlr r0
 /* 8012F91C 0012AE3C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012F920 0012AE40  4E 80 00 20 */	blr 
+/* 8012F920 0012AE40  4E 80 00 20 */	blr
 
 glabel SetRelease__Q46nw4hbm3snd6detail12EnvGeneratorFi
 /* 8012F924 0012AE44  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -455,5 +455,5 @@ glabel SetRelease__Q46nw4hbm3snd6detail12EnvGeneratorFi
 /* 8012FA7C 0012AF9C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8012FA80 0012AFA0  7C 08 03 A6 */	mtlr r0
 /* 8012FA84 0012AFA4  38 21 00 30 */	addi r1, r1, 0x30
-/* 8012FA88 0012AFA8  4E 80 00 20 */	blr 
+/* 8012FA88 0012AFA8  4E 80 00 20 */	blr
 

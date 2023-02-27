@@ -11,7 +11,7 @@ glabel GetStepCurveValue__27lyt_animation_cppFfPCQ46nw4hbm3lyt3res7StepKeyUl
 /* 80117CEC 0011320C  40 82 00 0C */	bne .L_80117CF8
 .L_80117CF0:
 /* 80117CF0 00113210  A0 63 00 04 */	lhz r3, 4(r3)
-/* 80117CF4 00113214  4E 80 00 20 */	blr 
+/* 80117CF4 00113214  4E 80 00 20 */	blr
 .L_80117CF8:
 /* 80117CF8 00113218  54 80 18 38 */	slwi r0, r4, 3
 /* 80117CFC 0011321C  7C A3 02 14 */	add r5, r3, r0
@@ -20,7 +20,7 @@ glabel GetStepCurveValue__27lyt_animation_cppFfPCQ46nw4hbm3lyt3res7StepKeyUl
 /* 80117D08 00113228  4C 41 13 82 */	cror 2, 1, 2
 /* 80117D0C 0011322C  40 82 00 0C */	bne .L_80117D18
 /* 80117D10 00113230  A0 65 FF FC */	lhz r3, -4(r5)
-/* 80117D14 00113234  4E 80 00 20 */	blr 
+/* 80117D14 00113234  4E 80 00 20 */	blr
 .L_80117D18:
 /* 80117D18 00113238  38 A4 FF FF */	addi r5, r4, -1
 /* 80117D1C 0011323C  38 C0 00 00 */	li r6, 0
@@ -66,12 +66,12 @@ glabel GetStepCurveValue__27lyt_animation_cppFfPCQ46nw4hbm3lyt3res7StepKeyUl
 /* 80117DA8 001132C8  41 82 00 10 */	beq .L_80117DB8
 /* 80117DAC 001132CC  7C 63 2A 14 */	add r3, r3, r5
 /* 80117DB0 001132D0  A0 63 00 04 */	lhz r3, 4(r3)
-/* 80117DB4 001132D4  4E 80 00 20 */	blr 
+/* 80117DB4 001132D4  4E 80 00 20 */	blr
 .L_80117DB8:
 /* 80117DB8 001132D8  54 C0 18 38 */	slwi r0, r6, 3
 /* 80117DBC 001132DC  7C 63 02 14 */	add r3, r3, r0
 /* 80117DC0 001132E0  A0 63 00 04 */	lhz r3, 4(r3)
-/* 80117DC4 001132E4  4E 80 00 20 */	blr 
+/* 80117DC4 001132E4  4E 80 00 20 */	blr
 
 glabel GetHermiteCurveValue__27lyt_animation_cppFfPCQ46nw4hbm3lyt3res10HermiteKeyUl
 /* 80117DC8 001132E8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -197,7 +197,7 @@ glabel GetHermiteCurveValue__27lyt_animation_cppFfPCQ46nw4hbm3lyt3res10HermiteKe
 /* 80117F7C 0011349C  E3 E1 00 18 */	psq_l f31, 24(r1), 0, qr0
 /* 80117F80 001134A0  CB E1 00 10 */	lfd f31, 0x10(r1)
 /* 80117F84 001134A4  38 21 00 20 */	addi r1, r1, 0x20
-/* 80117F88 001134A8  4E 80 00 20 */	blr 
+/* 80117F88 001134A8  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt13AnimTransformFv
 /* 80117F8C 001134AC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -216,12 +216,12 @@ glabel __dt__Q36nw4hbm3lyt13AnimTransformFv
 /* 80117FBC 001134DC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80117FC0 001134E0  7C 08 03 A6 */	mtlr r0
 /* 80117FC4 001134E4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80117FC8 001134E8  4E 80 00 20 */	blr 
+/* 80117FC8 001134E8  4E 80 00 20 */	blr
 
 glabel GetFrameSize__Q36nw4hbm3lyt13AnimTransformCFv
 /* 80117FCC 001134EC  80 63 00 0C */	lwz r3, 0xc(r3)
 /* 80117FD0 001134F0  A0 63 00 08 */	lhz r3, 8(r3)
-/* 80117FD4 001134F4  4E 80 00 20 */	blr 
+/* 80117FD4 001134F4  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm3lyt18AnimTransformBasicFv
 /* 80117FD8 001134F8  3C 80 80 17 */	lis r4, lbl_801764E0@ha
@@ -237,7 +237,7 @@ glabel __ct__Q36nw4hbm3lyt18AnimTransformBasicFv
 /* 80118000 00113520  90 03 00 14 */	stw r0, 0x14(r3)
 /* 80118004 00113524  90 03 00 18 */	stw r0, 0x18(r3)
 /* 80118008 00113528  B0 03 00 1C */	sth r0, 0x1c(r3)
-/* 8011800C 0011352C  4E 80 00 20 */	blr 
+/* 8011800C 0011352C  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt18AnimTransformBasicFv
 /* 80118010 00113530  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -277,7 +277,7 @@ glabel __dt__Q36nw4hbm3lyt18AnimTransformBasicFv
 /* 8011808C 001135AC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80118090 001135B0  7C 08 03 A6 */	mtlr r0
 /* 80118094 001135B4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80118098 001135B8  4E 80 00 20 */	blr 
+/* 80118098 001135B8  4E 80 00 20 */	blr
 
 glabel SetResource__Q36nw4hbm3lyt18AnimTransformBasicFPCQ46nw4hbm3lyt3res14AnimationBlockPQ36nw4hbm3lyt16ResourceAccessor
 /* 8011809C 001135BC  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -337,7 +337,7 @@ glabel SetResource__Q36nw4hbm3lyt18AnimTransformBasicFPCQ46nw4hbm3lyt3res14Anima
 /* 80118168 00113688  38 C0 00 00 */	li r6, 0
 /* 8011816C 0011368C  7C BB 02 14 */	add r5, r27, r0
 /* 80118170 00113690  7D 89 03 A6 */	mtctr r12
-/* 80118174 00113694  4E 80 04 21 */	bctrl 
+/* 80118174 00113694  4E 80 04 21 */	bctrl
 /* 80118178 00113698  80 9D 00 14 */	lwz r4, 0x14(r29)
 /* 8011817C 0011369C  3B 5A 00 04 */	addi r26, r26, 4
 /* 80118180 001136A0  3B 18 00 01 */	addi r24, r24, 1
@@ -388,7 +388,7 @@ glabel SetResource__Q36nw4hbm3lyt18AnimTransformBasicFPCQ46nw4hbm3lyt3res14Anima
 /* 8011821C 0011373C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80118220 00113740  7C 08 03 A6 */	mtlr r0
 /* 80118224 00113744  38 21 00 30 */	addi r1, r1, 0x30
-/* 80118228 00113748  4E 80 00 20 */	blr 
+/* 80118228 00113748  4E 80 00 20 */	blr
 
 glabel Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt4Paneb
 /* 8011822C 0011374C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -416,7 +416,7 @@ glabel Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt4Paneb
 /* 80118280 001137A0  7F A5 EB 78 */	mr r5, r29
 /* 80118284 001137A4  81 8C 00 3C */	lwz r12, 0x3c(r12)
 /* 80118288 001137A8  7D 89 03 A6 */	mtctr r12
-/* 8011828C 001137AC  4E 80 04 21 */	bctrl 
+/* 8011828C 001137AC  4E 80 04 21 */	bctrl
 /* 80118290 001137B0  2C 03 00 00 */	cmpwi r3, 0
 /* 80118294 001137B4  41 82 00 68 */	beq .L_801182FC
 /* 80118298 001137B8  80 1B 00 18 */	lwz r0, 0x18(r27)
@@ -434,7 +434,7 @@ glabel Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt4Paneb
 /* 801182C4 001137E4  7F A5 EB 78 */	mr r5, r29
 /* 801182C8 001137E8  81 8C 00 40 */	lwz r12, 0x40(r12)
 /* 801182CC 001137EC  7D 89 03 A6 */	mtctr r12
-/* 801182D0 001137F0  4E 80 04 21 */	bctrl 
+/* 801182D0 001137F0  4E 80 04 21 */	bctrl
 /* 801182D4 001137F4  2C 03 00 00 */	cmpwi r3, 0
 /* 801182D8 001137F8  41 82 00 24 */	beq .L_801182FC
 /* 801182DC 001137FC  80 1B 00 18 */	lwz r0, 0x18(r27)
@@ -458,7 +458,7 @@ glabel Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt4Paneb
 /* 8011831C 0011383C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80118320 00113840  7C 08 03 A6 */	mtlr r0
 /* 80118324 00113844  38 21 00 20 */	addi r1, r1, 0x20
-/* 80118328 00113848  4E 80 00 20 */	blr 
+/* 80118328 00113848  4E 80 00 20 */	blr
 
 glabel Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt8Material
 /* 8011832C 0011384C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -510,7 +510,7 @@ glabel Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt8Material
 /* 801183D8 001138F8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801183DC 001138FC  7C 08 03 A6 */	mtlr r0
 /* 801183E0 00113900  38 21 00 20 */	addi r1, r1, 0x20
-/* 801183E4 00113904  4E 80 00 20 */	blr 
+/* 801183E4 00113904  4E 80 00 20 */	blr
 
 glabel Animate__Q36nw4hbm3lyt18AnimTransformBasicFUlPQ36nw4hbm3lyt4Pane
 /* 801183E8 00113908  94 21 FF 80 */	stwu r1, -0x80(r1)
@@ -695,7 +695,7 @@ glabel Animate__Q36nw4hbm3lyt18AnimTransformBasicFUlPQ36nw4hbm3lyt4Pane
 /* 80118670 00113B90  81 8C 00 30 */	lwz r12, 0x30(r12)
 /* 80118674 00113B94  88 92 00 01 */	lbz r4, 1(r18)
 /* 80118678 00113B98  7D 89 03 A6 */	mtctr r12
-/* 8011867C 00113B9C  4E 80 04 21 */	bctrl 
+/* 8011867C 00113B9C  4E 80 04 21 */	bctrl
 /* 80118680 00113BA0  3A D6 00 04 */	addi r22, r22, 4
 /* 80118684 00113BA4  3B 5A 00 01 */	addi r26, r26, 1
 .L_80118688:
@@ -720,7 +720,7 @@ glabel Animate__Q36nw4hbm3lyt18AnimTransformBasicFUlPQ36nw4hbm3lyt4Pane
 /* 801186C8 00113BE8  80 01 00 84 */	lwz r0, 0x84(r1)
 /* 801186CC 00113BEC  7C 08 03 A6 */	mtlr r0
 /* 801186D0 00113BF0  38 21 00 80 */	addi r1, r1, 0x80
-/* 801186D4 00113BF4  4E 80 00 20 */	blr 
+/* 801186D4 00113BF4  4E 80 00 20 */	blr
 
 glabel Animate__Q36nw4hbm3lyt18AnimTransformBasicFUlPQ36nw4hbm3lyt8Material
 /* 801186D8 00113BF8  94 21 FF 70 */	stwu r1, -0x90(r1)
@@ -1047,7 +1047,7 @@ glabel Animate__Q36nw4hbm3lyt18AnimTransformBasicFUlPQ36nw4hbm3lyt8Material
 /* 80118B58 00114078  80 01 00 94 */	lwz r0, 0x94(r1)
 /* 80118B5C 0011407C  7C 08 03 A6 */	mtlr r0
 /* 80118B60 00114080  38 21 00 90 */	addi r1, r1, 0x90
-/* 80118B64 00114084  4E 80 00 20 */	blr 
+/* 80118B64 00114084  4E 80 00 20 */	blr
 
 glabel FindAnimationLink__Q36nw4hbm3lyt6detailFPQ36nw4hbm2ut40LinkList__Q36nw4hbm3lyt13AnimationLink__PQ36nw4hbm3lyt13AnimTransform
 /* 80118B68 00114088  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1126,5 +1126,5 @@ glabel FindAnimationLink__Q36nw4hbm3lyt6detailFPQ36nw4hbm2ut40LinkList__Q36nw4hb
 /* 80118C68 00114188  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80118C6C 0011418C  7C 08 03 A6 */	mtlr r0
 /* 80118C70 00114190  38 21 00 20 */	addi r1, r1, 0x20
-/* 80118C74 00114194  4E 80 00 20 */	blr 
+/* 80118C74 00114194  4E 80 00 20 */	blr
 

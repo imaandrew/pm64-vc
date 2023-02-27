@@ -7,19 +7,19 @@ glabel DirectPrint_IsActive__Q26nw4hbm2dbFv
 /* 801169A4 00111EC4  38 60 00 00 */	li r3, 0
 /* 801169A8 00111EC8  80 04 8E BC */	lwz r0, lbl_80228EBC@l(r4)
 /* 801169AC 00111ECC  2C 00 00 00 */	cmpwi r0, 0
-/* 801169B0 00111ED0  4D 82 00 20 */	beqlr 
+/* 801169B0 00111ED0  4D 82 00 20 */	beqlr
 /* 801169B4 00111ED4  3C 80 80 23 */	lis r4, lbl_80228E98@ha
 /* 801169B8 00111ED8  80 04 8E 98 */	lwz r0, lbl_80228E98@l(r4)
 /* 801169BC 00111EDC  2C 00 00 00 */	cmpwi r0, 0
-/* 801169C0 00111EE0  4D 82 00 20 */	beqlr 
+/* 801169C0 00111EE0  4D 82 00 20 */	beqlr
 /* 801169C4 00111EE4  38 60 00 01 */	li r3, 1
-/* 801169C8 00111EE8  4E 80 00 20 */	blr 
+/* 801169C8 00111EE8  4E 80 00 20 */	blr
 
 glabel DirectPrint_EraseXfb__Q26nw4hbm2dbFiiii
 /* 801169CC 00111EEC  3C E0 80 23 */	lis r7, lbl_80228E98@ha
 /* 801169D0 00111EF0  80 07 8E 98 */	lwz r0, lbl_80228E98@l(r7)
 /* 801169D4 00111EF4  2C 00 00 00 */	cmpwi r0, 0
-/* 801169D8 00111EF8  4D 82 00 20 */	beqlr 
+/* 801169D8 00111EF8  4D 82 00 20 */	beqlr
 /* 801169DC 00111EFC  39 07 8E 98 */	addi r8, r7, lbl_80228E98@l
 /* 801169E0 00111F00  38 E0 01 90 */	li r7, 0x190
 /* 801169E4 00111F04  A1 28 00 08 */	lhz r9, 8(r8)
@@ -125,7 +125,7 @@ glabel DirectPrint_EraseXfb__Q26nw4hbm2dbFiiii
 .L_80116B4C:
 /* 80116B4C 0011206C  7C 0B 30 00 */	cmpw r11, r6
 /* 80116B50 00112070  41 80 FF 50 */	blt .L_80116AA0
-/* 80116B54 00112074  4E 80 00 20 */	blr 
+/* 80116B54 00112074  4E 80 00 20 */	blr
 
 glabel DirectPrint_StoreCache__Q26nw4hbm2dbFv
 /* 80116B58 00112078  3C 60 80 23 */	lis r3, lbl_80228E98@ha
@@ -204,7 +204,7 @@ glabel DirectPrint_DrawString__Q26nw4hbm2dbFiibPCce
 /* 80116C68 00112188  83 81 01 80 */	lwz r28, 0x180(r1)
 /* 80116C6C 0011218C  7C 08 03 A6 */	mtlr r0
 /* 80116C70 00112190  38 21 01 90 */	addi r1, r1, 0x190
-/* 80116C74 00112194  4E 80 00 20 */	blr 
+/* 80116C74 00112194  4E 80 00 20 */	blr
 
 glabel DrawStringToXfb___Q26nw4hbm2dbFiiPCcbb
 /* 80116C78 00112198  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -309,7 +309,7 @@ glabel DrawStringToXfb___Q26nw4hbm2dbFiiPCcbb
 /* 80116DE0 00112300  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80116DE4 00112304  7C 08 03 A6 */	mtlr r0
 /* 80116DE8 00112308  38 21 00 40 */	addi r1, r1, 0x40
-/* 80116DEC 0011230C  4E 80 00 20 */	blr 
+/* 80116DEC 0011230C  4E 80 00 20 */	blr
 
 glabel DrawStringLineToXfb___Q26nw4hbm2dbFiiPCci
 /* 80116DF0 00112310  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -394,7 +394,7 @@ glabel DrawStringLineToXfb___Q26nw4hbm2dbFiiPCci
 /* 80116EFC 0011241C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80116F00 00112420  7C 08 03 A6 */	mtlr r0
 /* 80116F04 00112424  38 21 00 20 */	addi r1, r1, 0x20
-/* 80116F08 00112428  4E 80 00 20 */	blr 
+/* 80116F08 00112428  4E 80 00 20 */	blr
 
 glabel DrawCharToXfb___Q26nw4hbm2dbFiii
 /* 80116F0C 0011242C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -598,7 +598,7 @@ glabel DrawCharToXfb___Q26nw4hbm2dbFiii
 /* 801171B4 001126D4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801171B8 001126D8  7C 08 03 A6 */	mtlr r0
 /* 801171BC 001126DC  38 21 00 20 */	addi r1, r1, 0x20
-/* 801171C0 001126E0  4E 80 00 20 */	blr 
+/* 801171C0 001126E0  4E 80 00 20 */	blr
 
 glabel DirectPrint_SetupFB__Q36nw4hbm2db6detailFPC16_GXRenderModeObj
 /* 801171C4 001126E4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -729,7 +729,7 @@ glabel DirectPrint_SetupFB__Q36nw4hbm2db6detailFPC16_GXRenderModeObj
 /* 8011738C 001128AC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80117390 001128B0  7C 08 03 A6 */	mtlr r0
 /* 80117394 001128B4  38 21 00 20 */	addi r1, r1, 0x20
-/* 80117398 001128B8  4E 80 00 20 */	blr 
+/* 80117398 001128B8  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

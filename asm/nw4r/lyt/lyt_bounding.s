@@ -17,7 +17,7 @@ glabel __ct__Q36nw4hbm3lyt8BoundingFPCQ46nw4hbm3lyt3res8BoundingRCQ36nw4hbm3lyt1
 /* 80119398 001148B8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8011939C 001148BC  7C 08 03 A6 */	mtlr r0
 /* 801193A0 001148C0  38 21 00 10 */	addi r1, r1, 0x10
-/* 801193A4 001148C4  4E 80 00 20 */	blr 
+/* 801193A4 001148C4  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3lyt8BoundingFv
 /* 801193A8 001148C8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -42,7 +42,7 @@ glabel __dt__Q36nw4hbm3lyt8BoundingFv
 /* 801193F0 00114910  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801193F4 00114914  7C 08 03 A6 */	mtlr r0
 /* 801193F8 00114918  38 21 00 10 */	addi r1, r1, 0x10
-/* 801193FC 0011491C  4E 80 00 20 */	blr 
+/* 801193FC 0011491C  4E 80 00 20 */	blr
 
 glabel DrawSelf__Q36nw4hbm3lyt8BoundingFRCQ36nw4hbm3lyt8DrawInfo
 /* 80119400 00114920  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -56,7 +56,7 @@ glabel DrawSelf__Q36nw4hbm3lyt8BoundingFRCQ36nw4hbm3lyt8DrawInfo
 /* 80119420 00114940  81 83 00 00 */	lwz r12, 0(r3)
 /* 80119424 00114944  81 8C 00 60 */	lwz r12, 0x60(r12)
 /* 80119428 00114948  7D 89 03 A6 */	mtctr r12
-/* 8011942C 0011494C  4E 80 04 21 */	bctrl 
+/* 8011942C 0011494C  4E 80 04 21 */	bctrl
 /* 80119430 00114950  3C 80 00 FF */	lis r4, 0x00FF00FF@ha
 /* 80119434 00114954  7F E3 FB 78 */	mr r3, r31
 /* 80119438 00114958  38 04 00 FF */	addi r0, r4, 0x00FF00FF@l
@@ -73,19 +73,19 @@ glabel DrawSelf__Q36nw4hbm3lyt8BoundingFRCQ36nw4hbm3lyt8DrawInfo
 /* 80119460 00114980  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 80119464 00114984  7C 08 03 A6 */	mtlr r0
 /* 80119468 00114988  38 21 00 20 */	addi r1, r1, 0x20
-/* 8011946C 0011498C  4E 80 00 20 */	blr 
+/* 8011946C 0011498C  4E 80 00 20 */	blr
 
 glabel GetRuntimeTypeInfo__Q36nw4hbm3lyt8BoundingCFv
 /* 80119470 00114990  3C 60 80 23 */	lis r3, lbl_80229108@ha
 /* 80119474 00114994  38 63 91 08 */	addi r3, r3, lbl_80229108@l
-/* 80119478 00114998  4E 80 00 20 */	blr 
+/* 80119478 00114998  4E 80 00 20 */	blr
 
 glabel __sinit_lyt_bounding_cpp
 /* 8011947C 0011499C  3C 80 80 23 */	lis r4, lbl_80229140@ha
 /* 80119480 001149A0  3C 60 80 23 */	lis r3, lbl_80229108@ha
 /* 80119484 001149A4  38 84 91 40 */	addi r4, r4, lbl_80229140@l
 /* 80119488 001149A8  90 83 91 08 */	stw r4, lbl_80229108@l(r3)
-/* 8011948C 001149AC  4E 80 00 20 */	blr 
+/* 8011948C 001149AC  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

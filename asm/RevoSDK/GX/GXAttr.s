@@ -10,7 +10,7 @@ glabel GXSetVtxDesc
 /* 800A50C0 000A05E0  38 A5 10 D0 */	addi r5, r5, lbl_801910D0@l
 /* 800A50C4 000A05E4  7C A5 00 2E */	lwzx r5, r5, r0
 /* 800A50C8 000A05E8  7C A9 03 A6 */	mtctr r5
-/* 800A50CC 000A05EC  4E 80 04 20 */	bctr 
+/* 800A50CC 000A05EC  4E 80 04 20 */	bctr
 
 glabel lbl_800A50D0
 /* 800A50D0 000A05F0  80 62 86 40 */	lwz r3, lbl_80247E40@sda21(r2)
@@ -206,7 +206,7 @@ glabel lbl_800A52C4
 /* 800A5304 000A0824  80 04 05 FC */	lwz r0, 0x5fc(r4)
 /* 800A5308 000A0828  60 00 00 08 */	ori r0, r0, 8
 /* 800A530C 000A082C  90 04 05 FC */	stw r0, 0x5fc(r4)
-/* 800A5310 000A0830  4E 80 00 20 */	blr 
+/* 800A5310 000A0830  4E 80 00 20 */	blr
 
 glabel __GXSetVCD
 /* 800A5314 000A0834  3C A0 CC 01 */	lis r5, 0xCC008000@ha
@@ -254,7 +254,7 @@ glabel __GXSetVCD
 /* 800A53B4 000A08D4  38 00 00 01 */	li r0, 1
 /* 800A53B8 000A08D8  90 86 80 00 */	stw r4, -0x8000(r6)
 /* 800A53BC 000A08DC  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A53C0 000A08E0  4E 80 00 20 */	blr 
+/* 800A53C0 000A08E0  4E 80 00 20 */	blr
 
 glabel __GXCalculateVLim
 /* 800A53C4 000A08E4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -333,7 +333,7 @@ glabel __GXCalculateVLim
 .L_800A54E4:
 /* 800A54E4 000A0A04  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800A54E8 000A0A08  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A54EC 000A0A0C  4E 80 00 20 */	blr 
+/* 800A54EC 000A0A0C  4E 80 00 20 */	blr
 
 glabel GXClearVtxDesc
 /* 800A54F0 000A0A10  80 A2 86 40 */	lwz r5, lbl_80247E40@sda21(r2)
@@ -348,7 +348,7 @@ glabel GXClearVtxDesc
 /* 800A5514 000A0A34  80 05 05 FC */	lwz r0, 0x5fc(r5)
 /* 800A5518 000A0A38  60 00 00 08 */	ori r0, r0, 8
 /* 800A551C 000A0A3C  90 05 05 FC */	stw r0, 0x5fc(r5)
-/* 800A5520 000A0A40  4E 80 00 20 */	blr 
+/* 800A5520 000A0A40  4E 80 00 20 */	blr
 
 glabel GXSetVtxAttrFmt
 /* 800A5524 000A0A44  38 04 FF F7 */	addi r0, r4, -9
@@ -362,7 +362,7 @@ glabel GXSetVtxAttrFmt
 /* 800A5544 000A0A64  38 84 11 38 */	addi r4, r4, lbl_80191138@l
 /* 800A5548 000A0A68  7C 84 00 2E */	lwzx r4, r4, r0
 /* 800A554C 000A0A6C  7C 89 03 A6 */	mtctr r4
-/* 800A5550 000A0A70  4E 80 04 20 */	bctr 
+/* 800A5550 000A0A70  4E 80 04 20 */	bctr
 
 glabel lbl_800A5554
 /* 800A5554 000A0A74  80 08 00 1C */	lwz r0, 0x1c(r8)
@@ -481,7 +481,7 @@ glabel lbl_800A5694
 /* 800A56B4 000A0BD4  88 65 05 FB */	lbz r3, 0x5fb(r5)
 /* 800A56B8 000A0BD8  7C 60 03 78 */	or r0, r3, r0
 /* 800A56BC 000A0BDC  98 05 05 FB */	stb r0, 0x5fb(r5)
-/* 800A56C0 000A0BE0  4E 80 00 20 */	blr 
+/* 800A56C0 000A0BE0  4E 80 00 20 */	blr
 
 glabel GXSetVtxAttrFmtv
 /* 800A56C4 000A0BE4  80 C2 86 40 */	lwz r6, lbl_80247E40@sda21(r2)
@@ -501,7 +501,7 @@ glabel GXSetVtxAttrFmtv
 /* 800A56F8 000A0C18  54 00 10 3A */	slwi r0, r0, 2
 /* 800A56FC 000A0C1C  7C C6 00 2E */	lwzx r6, r6, r0
 /* 800A5700 000A0C20  7C C9 03 A6 */	mtctr r6
-/* 800A5704 000A0C24  4E 80 04 20 */	bctr 
+/* 800A5704 000A0C24  4E 80 04 20 */	bctr
 
 glabel lbl_800A5708
 /* 800A5708 000A0C28  80 08 00 1C */	lwz r0, 0x1c(r8)
@@ -625,7 +625,7 @@ glabel lbl_800A5848
 /* 800A5878 000A0D98  88 65 05 FB */	lbz r3, 0x5fb(r5)
 /* 800A587C 000A0D9C  7C 60 03 78 */	or r0, r3, r0
 /* 800A5880 000A0DA0  98 05 05 FB */	stb r0, 0x5fb(r5)
-/* 800A5884 000A0DA4  4E 80 00 20 */	blr 
+/* 800A5884 000A0DA4  4E 80 00 20 */	blr
 
 glabel __GXSetVAT
 /* 800A5888 000A0DA8  81 02 86 40 */	lwz r8, lbl_80247E40@sda21(r2)
@@ -663,7 +663,7 @@ glabel lbl_800A58F8
 /* 800A58F8 000A0E18  3C 60 CC 01 */	lis r3, 0xCC008000@ha
 /* 800A58FC 000A0E1C  98 03 80 00 */	stb r0, 0xCC008000@l(r3)
 /* 800A5900 000A0E20  98 08 05 FB */	stb r0, 0x5fb(r8)
-/* 800A5904 000A0E24  4E 80 00 20 */	blr 
+/* 800A5904 000A0E24  4E 80 00 20 */	blr
 
 glabel GXSetArray
 /* 800A5908 000A0E28  2C 03 00 19 */	cmpwi r3, 0x19
@@ -682,13 +682,13 @@ glabel GXSetArray
 /* 800A5938 000A0E58  98 E6 80 00 */	stb r7, -0x8000(r6)
 /* 800A593C 000A0E5C  98 06 80 00 */	stb r0, -0x8000(r6)
 /* 800A5940 000A0E60  90 A6 80 00 */	stw r5, -0x8000(r6)
-/* 800A5944 000A0E64  4E 80 00 20 */	blr 
+/* 800A5944 000A0E64  4E 80 00 20 */	blr
 
 glabel GXInvalidateVtxCache
 /* 800A5948 000A0E68  38 00 00 48 */	li r0, 0x48
 /* 800A594C 000A0E6C  3C 60 CC 01 */	lis r3, 0xCC008000@ha
 /* 800A5950 000A0E70  98 03 80 00 */	stb r0, 0xCC008000@l(r3)
-/* 800A5954 000A0E74  4E 80 00 20 */	blr 
+/* 800A5954 000A0E74  4E 80 00 20 */	blr
 
 glabel GXSetTexCoordGen2
 /* 800A5958 000A0E78  28 05 00 14 */	cmplwi r5, 0x14
@@ -701,7 +701,7 @@ glabel GXSetTexCoordGen2
 /* 800A5974 000A0E94  39 29 11 DC */	addi r9, r9, lbl_801911DC@l
 /* 800A5978 000A0E98  7D 29 00 2E */	lwzx r9, r9, r0
 /* 800A597C 000A0E9C  7D 29 03 A6 */	mtctr r9
-/* 800A5980 000A0EA0  4E 80 04 20 */	bctr 
+/* 800A5980 000A0EA0  4E 80 04 20 */	bctr
 
 glabel lbl_800A5984
 /* 800A5984 000A0EA4  39 40 00 00 */	li r10, 0
@@ -831,7 +831,7 @@ glabel lbl_800A5A00
 /* 800A5AE4 000A1004  38 63 11 C0 */	addi r3, r3, lbl_801911C0@l
 /* 800A5AE8 000A1008  7C 63 48 2E */	lwzx r3, r3, r9
 /* 800A5AEC 000A100C  7C 69 03 A6 */	mtctr r3
-/* 800A5AF0 000A1010  4E 80 04 20 */	bctr 
+/* 800A5AF0 000A1010  4E 80 04 20 */	bctr
 
 glabel lbl_800A5AF4
 /* 800A5AF4 000A1014  80 0A 00 80 */	lwz r0, 0x80(r10)
@@ -882,7 +882,7 @@ glabel lbl_800A5B54
 /* 800A5B70 000A1090  80 0A 05 FC */	lwz r0, 0x5fc(r10)
 /* 800A5B74 000A1094  64 00 04 00 */	oris r0, r0, 0x400
 /* 800A5B78 000A1098  90 0A 05 FC */	stw r0, 0x5fc(r10)
-/* 800A5B7C 000A109C  4E 80 00 20 */	blr 
+/* 800A5B7C 000A109C  4E 80 00 20 */	blr
 
 glabel GXSetNumTexGens
 /* 800A5B80 000A10A0  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
@@ -893,5 +893,5 @@ glabel GXSetNumTexGens
 /* 800A5B94 000A10B4  64 00 02 00 */	oris r0, r0, 0x200
 /* 800A5B98 000A10B8  60 00 00 04 */	ori r0, r0, 4
 /* 800A5B9C 000A10BC  90 04 05 FC */	stw r0, 0x5fc(r4)
-/* 800A5BA0 000A10C0  4E 80 00 20 */	blr 
+/* 800A5BA0 000A10C0  4E 80 00 20 */	blr
 

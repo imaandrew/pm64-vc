@@ -14,8 +14,8 @@ glabel DetachSound__Q36nw4hbm3snd15WaveSoundHandleFv
 .L_801444F8:
 /* 801444F8 0013FA18  80 03 00 00 */	lwz r0, 0(r3)
 /* 801444FC 0013FA1C  2C 00 00 00 */	cmpwi r0, 0
-/* 80144500 0013FA20  4D 82 00 20 */	beqlr 
+/* 80144500 0013FA20  4D 82 00 20 */	beqlr
 /* 80144504 0013FA24  38 00 00 00 */	li r0, 0
 /* 80144508 0013FA28  90 03 00 00 */	stw r0, 0(r3)
-/* 8014450C 0013FA2C  4E 80 00 20 */	blr 
+/* 8014450C 0013FA2C  4E 80 00 20 */	blr
 

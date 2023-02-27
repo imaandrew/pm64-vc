@@ -73,7 +73,7 @@ glabel HandlePositionFileSupportRequest
 /* 80170D1C 0016C23C  83 81 00 60 */	lwz r28, 0x60(r1)
 /* 80170D20 0016C240  7C 08 03 A6 */	mtlr r0
 /* 80170D24 0016C244  38 21 00 70 */	addi r1, r1, 0x70
-/* 80170D28 0016C248  4E 80 00 20 */	blr 
+/* 80170D28 0016C248  4E 80 00 20 */	blr
 
 glabel HandleCloseFileSupportRequest
 /* 80170D2C 0016C24C  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -137,7 +137,7 @@ glabel HandleCloseFileSupportRequest
 /* 80170E04 0016C324  83 A1 00 64 */	lwz r29, 0x64(r1)
 /* 80170E08 0016C328  7C 08 03 A6 */	mtlr r0
 /* 80170E0C 0016C32C  38 21 00 70 */	addi r1, r1, 0x70
-/* 80170E10 0016C330  4E 80 00 20 */	blr 
+/* 80170E10 0016C330  4E 80 00 20 */	blr
 
 glabel HandleOpenFileSupportRequest
 /* 80170E14 0016C334  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -213,7 +213,7 @@ glabel HandleOpenFileSupportRequest
 /* 80170F20 0016C440  80 01 00 74 */	lwz r0, 0x74(r1)
 /* 80170F24 0016C444  7C 08 03 A6 */	mtlr r0
 /* 80170F28 0016C448  38 21 00 70 */	addi r1, r1, 0x70
-/* 80170F2C 0016C44C  4E 80 00 20 */	blr 
+/* 80170F2C 0016C44C  4E 80 00 20 */	blr
 
 glabel TRKRequestSend
 /* 80170F30 0016C450  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -324,7 +324,7 @@ glabel TRKRequestSend
 /* 801710A0 0016C5C0  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 801710A4 0016C5C4  7C 08 03 A6 */	mtlr r0
 /* 801710A8 0016C5C8  38 21 00 30 */	addi r1, r1, 0x30
-/* 801710AC 0016C5CC  4E 80 00 20 */	blr 
+/* 801710AC 0016C5CC  4E 80 00 20 */	blr
 
 glabel TRKSuppAccessFile
 /* 801710B0 0016C5D0  94 21 FF 70 */	stwu r1, -0x90(r1)
@@ -478,5 +478,5 @@ glabel TRKSuppAccessFile
 /* 801712C0 0016C7E0  80 01 00 94 */	lwz r0, 0x94(r1)
 /* 801712C4 0016C7E4  7C 08 03 A6 */	mtlr r0
 /* 801712C8 0016C7E8  38 21 00 90 */	addi r1, r1, 0x90
-/* 801712CC 0016C7EC  4E 80 00 20 */	blr 
+/* 801712CC 0016C7EC  4E 80 00 20 */	blr
 

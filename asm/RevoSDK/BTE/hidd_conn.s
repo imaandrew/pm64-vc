@@ -54,5 +54,5 @@ glabel hidd_conn_initiate
 /* 800F27F8 000EDD18  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F27FC 000EDD1C  7C 08 03 A6 */	mtlr r0
 /* 800F2800 000EDD20  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F2804 000EDD24  4E 80 00 20 */	blr 
+/* 800F2804 000EDD24  4E 80 00 20 */	blr
 

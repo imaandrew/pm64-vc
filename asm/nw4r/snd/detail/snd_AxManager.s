@@ -357,7 +357,7 @@ glabel __ct__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126B14 00122034  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80126B18 00122038  7C 08 03 A6 */	mtlr r0
 /* 80126B1C 0012203C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80126B20 00122040  4E 80 00 20 */	blr 
+/* 80126B20 00122040  4E 80 00 20 */	blr
 
 glabel __ct__Q36nw4hbm2ut32LinkList__Q36nw4hbm3snd6FxBase__Fv
 /* 80126B24 00122044  38 00 00 00 */	li r0, 0
@@ -367,7 +367,7 @@ glabel __ct__Q36nw4hbm2ut32LinkList__Q36nw4hbm3snd6FxBase__Fv
 /* 80126B34 00122054  90 03 00 00 */	stw r0, 0(r3)
 /* 80126B38 00122058  90 83 00 04 */	stw r4, 4(r3)
 /* 80126B3C 0012205C  90 83 00 08 */	stw r4, 8(r3)
-/* 80126B40 00122060  4E 80 00 20 */	blr 
+/* 80126B40 00122060  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut32LinkList__Q36nw4hbm3snd6FxBase__Fv
 /* 80126B44 00122064  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -392,7 +392,7 @@ glabel __dt__Q36nw4hbm2ut32LinkList__Q36nw4hbm3snd6FxBase__Fv
 /* 80126B8C 001220AC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80126B90 001220B0  7C 08 03 A6 */	mtlr r0
 /* 80126B94 001220B4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80126B98 001220B8  4E 80 00 20 */	blr 
+/* 80126B98 001220B8  4E 80 00 20 */	blr
 
 glabel GetInstance__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126B9C 001220BC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -419,7 +419,7 @@ glabel GetInstance__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126BEC 0012210C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80126BF0 00122110  7C 08 03 A6 */	mtlr r0
 /* 80126BF4 00122114  38 21 00 10 */	addi r1, r1, 0x10
-/* 80126BF8 00122118  4E 80 00 20 */	blr 
+/* 80126BF8 00122118  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126BFC 0012211C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -470,7 +470,7 @@ glabel __dt__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126CA0 001221C0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80126CA4 001221C4  7C 08 03 A6 */	mtlr r0
 /* 80126CA8 001221C8  38 21 00 10 */	addi r1, r1, 0x10
-/* 80126CAC 001221CC  4E 80 00 20 */	blr 
+/* 80126CAC 001221CC  4E 80 00 20 */	blr
 
 glabel Init__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126CB0 001221D0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -572,7 +572,7 @@ glabel Init__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126E20 00122340  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80126E24 00122344  7C 08 03 A6 */	mtlr r0
 /* 80126E28 00122348  38 21 00 30 */	addi r1, r1, 0x30
-/* 80126E2C 0012234C  4E 80 00 20 */	blr 
+/* 80126E2C 0012234C  4E 80 00 20 */	blr
 
 glabel Shutdown__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126E30 00122350  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -661,7 +661,7 @@ glabel Shutdown__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126F6C 0012248C  80 BA 01 10 */	lwz r5, 0x110(r26)
 /* 80126F70 00122490  38 80 00 02 */	li r4, 2
 /* 80126F74 00122494  7D 89 03 A6 */	mtctr r12
-/* 80126F78 00122498  4E 80 04 21 */	bctrl 
+/* 80126F78 00122498  4E 80 04 21 */	bctrl
 .L_80126F7C:
 /* 80126F7C 0012249C  80 1F 00 14 */	lwz r0, 0x14(r31)
 /* 80126F80 001224A0  2C 00 00 00 */	cmpwi r0, 0
@@ -686,7 +686,7 @@ glabel Shutdown__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80126FC0 001224E0  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80126FC4 001224E4  7C 08 03 A6 */	mtlr r0
 /* 80126FC8 001224E8  38 21 00 30 */	addi r1, r1, 0x30
-/* 80126FCC 001224EC  4E 80 00 20 */	blr 
+/* 80126FCC 001224EC  4E 80 00 20 */	blr
 
 glabel GetOutputVolume__Q46nw4hbm3snd6detail9AxManagerCFv
 /* 80126FD0 001224F0  3C A3 00 01 */	addis r5, r3, 1
@@ -771,7 +771,7 @@ glabel GetOutputVolume__Q46nw4hbm3snd6detail9AxManagerCFv
 .L_801270F8:
 /* 801270F8 00122618  EC 21 00 32 */	fmuls f1, f1, f0
 /* 801270FC 0012261C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80127100 00122620  4E 80 00 20 */	blr 
+/* 80127100 00122620  4E 80 00 20 */	blr
 
 glabel Update__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80127104 00122624  94 21 FF 80 */	stwu r1, -0x80(r1)
@@ -1123,7 +1123,7 @@ glabel Update__Q46nw4hbm3snd6detail9AxManagerFv
 /* 801275CC 00122AEC  80 01 00 84 */	lwz r0, 0x84(r1)
 /* 801275D0 00122AF0  7C 08 03 A6 */	mtlr r0
 /* 801275D4 00122AF4  38 21 00 80 */	addi r1, r1, 0x80
-/* 801275D8 00122AF8  4E 80 00 20 */	blr 
+/* 801275D8 00122AF8  4E 80 00 20 */	blr
 
 glabel GetZeroBufferAddress__Q46nw4hbm3snd6detail9AxManagerFv
 /* 801275DC 00122AFC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1147,7 +1147,7 @@ glabel GetZeroBufferAddress__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80127620 00122B40  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80127624 00122B44  7C 08 03 A6 */	mtlr r0
 /* 80127628 00122B48  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012762C 00122B4C  4E 80 00 20 */	blr 
+/* 8012762C 00122B4C  4E 80 00 20 */	blr
 
 glabel RegisterCallback__Q46nw4hbm3snd6detail9AxManagerFPQ56nw4hbm3snd6detail9AxManager16CallbackListNodePFv_v
 /* 80127630 00122B50  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1188,7 +1188,7 @@ glabel RegisterCallback__Q46nw4hbm3snd6detail9AxManagerFPQ56nw4hbm3snd6detail9Ax
 /* 801276B8 00122BD8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801276BC 00122BDC  7C 08 03 A6 */	mtlr r0
 /* 801276C0 00122BE0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801276C4 00122BE4  4E 80 00 20 */	blr 
+/* 801276C4 00122BE4  4E 80 00 20 */	blr
 
 glabel UnregisterCallback__Q46nw4hbm3snd6detail9AxManagerFPQ56nw4hbm3snd6detail9AxManager16CallbackListNode
 /* 801276C8 00122BE8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1222,7 +1222,7 @@ glabel UnregisterCallback__Q46nw4hbm3snd6detail9AxManagerFPQ56nw4hbm3snd6detail9
 /* 80127734 00122C54  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80127738 00122C58  7C 08 03 A6 */	mtlr r0
 /* 8012773C 00122C5C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80127740 00122C60  4E 80 00 20 */	blr 
+/* 80127740 00122C60  4E 80 00 20 */	blr
 
 glabel SetOutputMode__Q46nw4hbm3snd6detail9AxManagerFQ36nw4hbm3snd10OutputMode
 /* 80127744 00122C64  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1304,11 +1304,11 @@ glabel SetOutputMode__Q46nw4hbm3snd6detail9AxManagerFQ36nw4hbm3snd10OutputMode
 /* 80127848 00122D68  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8012784C 00122D6C  7C 08 03 A6 */	mtlr r0
 /* 80127850 00122D70  38 21 00 20 */	addi r1, r1, 0x20
-/* 80127854 00122D74  4E 80 00 20 */	blr 
+/* 80127854 00122D74  4E 80 00 20 */	blr
 
 glabel GetOutputMode__Q46nw4hbm3snd6detail9AxManagerFv
 /* 80127858 00122D78  80 63 00 00 */	lwz r3, 0(r3)
-/* 8012785C 00122D7C  4E 80 00 20 */	blr 
+/* 8012785C 00122D7C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -153,7 +153,7 @@ glabel GXSetFog
 /* 800A92C0 000A47E0  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800A92C4 000A47E4  7C 08 03 A6 */	mtlr r0
 /* 800A92C8 000A47E8  38 21 00 40 */	addi r1, r1, 0x40
-/* 800A92CC 000A47EC  4E 80 00 20 */	blr 
+/* 800A92CC 000A47EC  4E 80 00 20 */	blr
 
 glabel GXSetFogRangeAdj
 /* 800A92D0 000A47F0  2C 03 00 00 */	cmpwi r3, 0
@@ -229,7 +229,7 @@ glabel GXSetFogRangeAdj
 /* 800A93E4 000A4904  90 C4 80 00 */	stw r6, -0x8000(r4)
 /* 800A93E8 000A4908  38 00 00 00 */	li r0, 0
 /* 800A93EC 000A490C  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A93F0 000A4910  4E 80 00 20 */	blr 
+/* 800A93F0 000A4910  4E 80 00 20 */	blr
 
 glabel GXSetBlendMode
 /* 800A93F4 000A4914  81 42 86 40 */	lwz r10, lbl_80247E40@sda21(r2)
@@ -251,7 +251,7 @@ glabel GXSetBlendMode
 /* 800A9434 000A4954  91 27 80 00 */	stw r9, -0x8000(r7)
 /* 800A9438 000A4958  91 2A 02 20 */	stw r9, 0x220(r10)
 /* 800A943C 000A495C  B0 0A 00 02 */	sth r0, 2(r10)
-/* 800A9440 000A4960  4E 80 00 20 */	blr 
+/* 800A9440 000A4960  4E 80 00 20 */	blr
 
 glabel GXSetColorUpdate
 /* 800A9444 000A4964  80 E2 86 40 */	lwz r7, lbl_80247E40@sda21(r2)
@@ -264,7 +264,7 @@ glabel GXSetColorUpdate
 /* 800A9460 000A4980  90 C4 80 00 */	stw r6, -0x8000(r4)
 /* 800A9464 000A4984  90 C7 02 20 */	stw r6, 0x220(r7)
 /* 800A9468 000A4988  B0 07 00 02 */	sth r0, 2(r7)
-/* 800A946C 000A498C  4E 80 00 20 */	blr 
+/* 800A946C 000A498C  4E 80 00 20 */	blr
 
 glabel GXSetAlphaUpdate
 /* 800A9470 000A4990  80 E2 86 40 */	lwz r7, lbl_80247E40@sda21(r2)
@@ -277,7 +277,7 @@ glabel GXSetAlphaUpdate
 /* 800A948C 000A49AC  90 C4 80 00 */	stw r6, -0x8000(r4)
 /* 800A9490 000A49B0  90 C7 02 20 */	stw r6, 0x220(r7)
 /* 800A9494 000A49B4  B0 07 00 02 */	sth r0, 2(r7)
-/* 800A9498 000A49B8  4E 80 00 20 */	blr 
+/* 800A9498 000A49B8  4E 80 00 20 */	blr
 
 glabel GXSetZMode
 /* 800A949C 000A49BC  81 22 86 40 */	lwz r9, lbl_80247E40@sda21(r2)
@@ -292,7 +292,7 @@ glabel GXSetZMode
 /* 800A94C0 000A49E0  91 06 80 00 */	stw r8, -0x8000(r6)
 /* 800A94C4 000A49E4  91 09 02 28 */	stw r8, 0x228(r9)
 /* 800A94C8 000A49E8  B0 09 00 02 */	sth r0, 2(r9)
-/* 800A94CC 000A49EC  4E 80 00 20 */	blr 
+/* 800A94CC 000A49EC  4E 80 00 20 */	blr
 
 glabel GXSetZCompLoc
 /* 800A94D0 000A49F0  80 E2 86 40 */	lwz r7, lbl_80247E40@sda21(r2)
@@ -306,7 +306,7 @@ glabel GXSetZCompLoc
 /* 800A94F0 000A4A10  80 67 02 2C */	lwz r3, 0x22c(r7)
 /* 800A94F4 000A4A14  90 64 80 00 */	stw r3, -0x8000(r4)
 /* 800A94F8 000A4A18  B0 07 00 02 */	sth r0, 2(r7)
-/* 800A94FC 000A4A1C  4E 80 00 20 */	blr 
+/* 800A94FC 000A4A1C  4E 80 00 20 */	blr
 
 glabel GXSetPixelFmt
 /* 800A9500 000A4A20  81 22 86 40 */	lwz r9, lbl_80247E40@sda21(r2)
@@ -352,7 +352,7 @@ glabel GXSetPixelFmt
 .L_800A959C:
 /* 800A959C 000A4ABC  38 00 00 00 */	li r0, 0
 /* 800A95A0 000A4AC0  B0 09 00 02 */	sth r0, 2(r9)
-/* 800A95A4 000A4AC4  4E 80 00 20 */	blr 
+/* 800A95A4 000A4AC4  4E 80 00 20 */	blr
 
 glabel GXSetDither
 /* 800A95A8 000A4AC8  80 E2 86 40 */	lwz r7, lbl_80247E40@sda21(r2)
@@ -365,7 +365,7 @@ glabel GXSetDither
 /* 800A95C4 000A4AE4  90 C4 80 00 */	stw r6, -0x8000(r4)
 /* 800A95C8 000A4AE8  90 C7 02 20 */	stw r6, 0x220(r7)
 /* 800A95CC 000A4AEC  B0 07 00 02 */	sth r0, 2(r7)
-/* 800A95D0 000A4AF0  4E 80 00 20 */	blr 
+/* 800A95D0 000A4AF0  4E 80 00 20 */	blr
 
 glabel GXSetDstAlpha
 /* 800A95D4 000A4AF4  81 02 86 40 */	lwz r8, lbl_80247E40@sda21(r2)
@@ -379,7 +379,7 @@ glabel GXSetDstAlpha
 /* 800A95F4 000A4B14  90 E5 80 00 */	stw r7, -0x8000(r5)
 /* 800A95F8 000A4B18  90 E8 02 24 */	stw r7, 0x224(r8)
 /* 800A95FC 000A4B1C  B0 08 00 02 */	sth r0, 2(r8)
-/* 800A9600 000A4B20  4E 80 00 20 */	blr 
+/* 800A9600 000A4B20  4E 80 00 20 */	blr
 
 glabel GXSetFieldMask
 /* 800A9604 000A4B24  3C A0 CC 01 */	lis r5, 0xCC008000@ha
@@ -394,7 +394,7 @@ glabel GXSetFieldMask
 /* 800A9628 000A4B48  38 00 00 00 */	li r0, 0
 /* 800A962C 000A4B4C  90 C5 80 00 */	stw r6, -0x8000(r5)
 /* 800A9630 000A4B50  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A9634 000A4B54  4E 80 00 20 */	blr 
+/* 800A9634 000A4B54  4E 80 00 20 */	blr
 
 glabel GXSetFieldMode
 /* 800A9638 000A4B58  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -424,5 +424,5 @@ glabel GXSetFieldMode
 /* 800A9698 000A4BB8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800A969C 000A4BBC  7C 08 03 A6 */	mtlr r0
 /* 800A96A0 000A4BC0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A96A4 000A4BC4  4E 80 00 20 */	blr 
+/* 800A96A4 000A4BC4  4E 80 00 20 */	blr
 

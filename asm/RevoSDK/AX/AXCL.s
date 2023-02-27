@@ -4,7 +4,7 @@
 
 glabel __AXGetCommandListCycles
 /* 800B3124 000AE644  80 6D 90 8C */	lwz r3, lbl_8024750C@sda21(r13)
-/* 800B3128 000AE648  4E 80 00 20 */	blr 
+/* 800B3128 000AE648  4E 80 00 20 */	blr
 
 glabel __AXGetCommandListAddress
 /* 800B312C 000AE64C  80 8D 90 98 */	lwz r4, lbl_80247518@sda21(r13)
@@ -18,7 +18,7 @@ glabel __AXGetCommandListAddress
 /* 800B314C 000AE66C  7C 05 02 14 */	add r0, r5, r0
 /* 800B3150 000AE670  90 8D 90 98 */	stw r4, lbl_80247518@sda21(r13)
 /* 800B3154 000AE674  90 0D 90 94 */	stw r0, lbl_80247514@sda21(r13)
-/* 800B3158 000AE678  4E 80 00 20 */	blr 
+/* 800B3158 000AE678  4E 80 00 20 */	blr
 
 glabel __AXNextFrame
 /* 800B315C 000AE67C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -659,7 +659,7 @@ glabel lbl_800B3A90
 /* 800B3B0C 000AF02C  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800B3B10 000AF030  7C 08 03 A6 */	mtlr r0
 /* 800B3B14 000AF034  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B3B18 000AF038  4E 80 00 20 */	blr 
+/* 800B3B18 000AF038  4E 80 00 20 */	blr
 
 glabel __AXClInit
 /* 800B3B1C 000AF03C  3C 80 80 1D */	lis r4, lbl_801CE420@ha
@@ -676,38 +676,38 @@ glabel __AXClInit
 /* 800B3B48 000AF068  B0 0D 90 84 */	sth r0, lbl_80247504@sda21(r13)
 /* 800B3B4C 000AF06C  B0 0D 90 82 */	sth r0, lbl_80247502@sda21(r13)
 /* 800B3B50 000AF070  B0 0D 90 80 */	sth r0, lbl_80247500@sda21(r13)
-/* 800B3B54 000AF074  4E 80 00 20 */	blr 
+/* 800B3B54 000AF074  4E 80 00 20 */	blr
 
 glabel __AXClQuit
-/* 800B3B58 000AF078  4E 80 00 20 */	blr 
+/* 800B3B58 000AF078  4E 80 00 20 */	blr
 
 glabel AXSetMode
 /* 800B3B5C 000AF07C  90 6D 90 90 */	stw r3, lbl_80247510@sda21(r13)
-/* 800B3B60 000AF080  4E 80 00 20 */	blr 
+/* 800B3B60 000AF080  4E 80 00 20 */	blr
 
 glabel AXGetAuxAReturnVolume
 /* 800B3B64 000AF084  A0 6D 90 84 */	lhz r3, lbl_80247504@sda21(r13)
-/* 800B3B68 000AF088  4E 80 00 20 */	blr 
+/* 800B3B68 000AF088  4E 80 00 20 */	blr
 
 glabel AXGetAuxBReturnVolume
 /* 800B3B6C 000AF08C  A0 6D 90 82 */	lhz r3, lbl_80247502@sda21(r13)
-/* 800B3B70 000AF090  4E 80 00 20 */	blr 
+/* 800B3B70 000AF090  4E 80 00 20 */	blr
 
 glabel AXGetAuxCReturnVolume
 /* 800B3B74 000AF094  A0 6D 90 80 */	lhz r3, lbl_80247500@sda21(r13)
-/* 800B3B78 000AF098  4E 80 00 20 */	blr 
+/* 800B3B78 000AF098  4E 80 00 20 */	blr
 
 glabel AXSetAuxAReturnVolume
 /* 800B3B7C 000AF09C  B0 6D 90 84 */	sth r3, lbl_80247504@sda21(r13)
-/* 800B3B80 000AF0A0  4E 80 00 20 */	blr 
+/* 800B3B80 000AF0A0  4E 80 00 20 */	blr
 
 glabel AXSetAuxBReturnVolume
 /* 800B3B84 000AF0A4  B0 6D 90 82 */	sth r3, lbl_80247502@sda21(r13)
-/* 800B3B88 000AF0A8  4E 80 00 20 */	blr 
+/* 800B3B88 000AF0A8  4E 80 00 20 */	blr
 
 glabel AXSetAuxCReturnVolume
 /* 800B3B8C 000AF0AC  B0 6D 90 80 */	sth r3, lbl_80247500@sda21(r13)
-/* 800B3B90 000AF0B0  4E 80 00 20 */	blr 
+/* 800B3B90 000AF0B0  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -8,11 +8,11 @@ glabel MapFile_Exists__Q26nw4hbm2dbFv
 /* 801173A4 001128C4  7C 03 00 D0 */	neg r0, r3
 /* 801173A8 001128C8  7C 00 1B 78 */	or r0, r0, r3
 /* 801173AC 001128CC  54 03 0F FE */	srwi r3, r0, 0x1f
-/* 801173B0 001128D0  4E 80 00 20 */	blr 
+/* 801173B0 001128D0  4E 80 00 20 */	blr
 
 glabel GetCharOnMem___Q26nw4hbm2dbFPCUc
 /* 801173B4 001128D4  88 63 00 00 */	lbz r3, 0(r3)
-/* 801173B8 001128D8  4E 80 00 20 */	blr 
+/* 801173B8 001128D8  4E 80 00 20 */	blr
 
 glabel GetCharOnDvd___Q26nw4hbm2dbFPCUc
 /* 801173BC 001128DC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -87,7 +87,7 @@ glabel GetCharOnDvd___Q26nw4hbm2dbFPCUc
 /* 801174B8 001129D8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801174BC 001129DC  7C 08 03 A6 */	mtlr r0
 /* 801174C0 001129E0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801174C4 001129E4  4E 80 00 20 */	blr 
+/* 801174C4 001129E4  4E 80 00 20 */	blr
 
 glabel SearchParam___Q26nw4hbm2dbFPUcUlUc
 /* 801174C8 001129E8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -121,7 +121,7 @@ glabel SearchParam___Q26nw4hbm2dbFPUcUlUc
 /* 8011752C 00112A4C  81 9F 91 04 */	lwz r12, lbl_80229104@l(r31)
 /* 80117530 00112A50  7F 63 DB 78 */	mr r3, r27
 /* 80117534 00112A54  7D 89 03 A6 */	mtctr r12
-/* 80117538 00112A58  4E 80 04 21 */	bctrl 
+/* 80117538 00112A58  4E 80 04 21 */	bctrl
 /* 8011753C 00112A5C  54 60 06 3F */	clrlwi. r0, r3, 0x18
 /* 80117540 00112A60  41 82 00 0C */	beq .L_8011754C
 /* 80117544 00112A64  2C 00 00 0A */	cmpwi r0, 0xa
@@ -155,7 +155,7 @@ glabel SearchParam___Q26nw4hbm2dbFPUcUlUc
 /* 8011759C 00112ABC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801175A0 00112AC0  7C 08 03 A6 */	mtlr r0
 /* 801175A4 00112AC4  38 21 00 20 */	addi r1, r1, 0x20
-/* 801175A8 00112AC8  4E 80 00 20 */	blr 
+/* 801175A8 00112AC8  4E 80 00 20 */	blr
 
 glabel XStrToU32___Q26nw4hbm2dbFPCUc
 /* 801175AC 00112ACC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -193,7 +193,7 @@ glabel XStrToU32___Q26nw4hbm2dbFPCUc
 /* 80117620 00112B40  81 9E 91 04 */	lwz r12, lbl_80229104@l(r30)
 /* 80117624 00112B44  7F 83 E3 78 */	mr r3, r28
 /* 80117628 00112B48  7D 89 03 A6 */	mtctr r12
-/* 8011762C 00112B4C  4E 80 04 21 */	bctrl 
+/* 8011762C 00112B4C  4E 80 04 21 */	bctrl
 /* 80117630 00112B50  54 64 06 3E */	clrlwi r4, r3, 0x18
 /* 80117634 00112B54  2C 04 00 30 */	cmpwi r4, 0x30
 /* 80117638 00112B58  41 80 00 14 */	blt .L_8011764C
@@ -238,7 +238,7 @@ glabel XStrToU32___Q26nw4hbm2dbFPCUc
 /* 801176BC 00112BDC  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801176C0 00112BE0  7C 08 03 A6 */	mtlr r0
 /* 801176C4 00112BE4  38 21 00 20 */	addi r1, r1, 0x20
-/* 801176C8 00112BE8  4E 80 00 20 */	blr 
+/* 801176C8 00112BE8  4E 80 00 20 */	blr
 
 glabel CopySymbol___Q26nw4hbm2dbFPCUcPUcUlUc
 /* 801176CC 00112BEC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -286,7 +286,7 @@ glabel CopySymbol___Q26nw4hbm2dbFPCUcPUcUlUc
 /* 80117764 00112C84  7F 43 D3 78 */	mr r3, r26
 /* 80117768 00112C88  7D 89 03 A6 */	mtctr r12
 /* 8011776C 00112C8C  3B 5A 00 01 */	addi r26, r26, 1
-/* 80117770 00112C90  4E 80 04 21 */	bctrl 
+/* 80117770 00112C90  4E 80 04 21 */	bctrl
 /* 80117774 00112C94  54 60 06 3E */	clrlwi r0, r3, 0x18
 /* 80117778 00112C98  7C 00 E0 40 */	cmplw r0, r28
 /* 8011777C 00112C9C  41 82 00 14 */	beq .L_80117790
@@ -314,7 +314,7 @@ glabel CopySymbol___Q26nw4hbm2dbFPCUcPUcUlUc
 /* 801177C8 00112CE8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801177CC 00112CEC  7C 08 03 A6 */	mtlr r0
 /* 801177D0 00112CF0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801177D4 00112CF4  4E 80 00 20 */	blr 
+/* 801177D4 00112CF4  4E 80 00 20 */	blr
 
 glabel QuerySymbolToMapFile___Q26nw4hbm2dbFPUcPC12OSModuleInfoUlPUcUl
 /* 801177D8 00112CF8  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -392,7 +392,7 @@ glabel QuerySymbolToMapFile___Q26nw4hbm2dbFPUcPC12OSModuleInfoUlPUcUl
 /* 801178D4 00112DF4  81 9F 91 04 */	lwz r12, -0x6efc(r31)
 /* 801178D8 00112DF8  7E E3 BB 78 */	mr r3, r23
 /* 801178DC 00112DFC  7D 89 03 A6 */	mtctr r12
-/* 801178E0 00112E00  4E 80 04 21 */	bctrl 
+/* 801178E0 00112E00  4E 80 04 21 */	bctrl
 /* 801178E4 00112E04  54 60 06 3F */	clrlwi. r0, r3, 0x18
 /* 801178E8 00112E08  40 82 FF CC */	bne .L_801178B4
 /* 801178EC 00112E0C  3A E0 00 00 */	li r23, 0
@@ -405,7 +405,7 @@ glabel QuerySymbolToMapFile___Q26nw4hbm2dbFPUcPC12OSModuleInfoUlPUcUl
 /* 80117900 00112E20  81 9F 91 04 */	lwz r12, -0x6efc(r31)
 /* 80117904 00112E24  7E E3 BB 78 */	mr r3, r23
 /* 80117908 00112E28  7D 89 03 A6 */	mtctr r12
-/* 8011790C 00112E2C  4E 80 04 21 */	bctrl 
+/* 8011790C 00112E2C  4E 80 04 21 */	bctrl
 /* 80117910 00112E30  54 60 06 3E */	clrlwi r0, r3, 0x18
 /* 80117914 00112E34  2C 00 00 2E */	cmpwi r0, 0x2e
 /* 80117918 00112E38  40 82 FF 64 */	bne .L_8011787C
@@ -439,7 +439,7 @@ glabel QuerySymbolToMapFile___Q26nw4hbm2dbFPUcPC12OSModuleInfoUlPUcUl
 /* 80117974 00112E94  81 9F 91 04 */	lwz r12, -0x6efc(r31)
 /* 80117978 00112E98  7E E3 BB 78 */	mr r3, r23
 /* 8011797C 00112E9C  7D 89 03 A6 */	mtctr r12
-/* 80117980 00112EA0  4E 80 04 21 */	bctrl 
+/* 80117980 00112EA0  4E 80 04 21 */	bctrl
 /* 80117984 00112EA4  54 60 06 3F */	clrlwi. r0, r3, 0x18
 /* 80117988 00112EA8  40 82 FF CC */	bne .L_80117954
 /* 8011798C 00112EAC  3A E0 00 00 */	li r23, 0
@@ -483,7 +483,7 @@ glabel QuerySymbolToMapFile___Q26nw4hbm2dbFPUcPC12OSModuleInfoUlPUcUl
 /* 80117A0C 00112F2C  81 9F 91 04 */	lwz r12, -0x6efc(r31)
 /* 80117A10 00112F30  7E E3 BB 78 */	mr r3, r23
 /* 80117A14 00112F34  7D 89 03 A6 */	mtctr r12
-/* 80117A18 00112F38  4E 80 04 21 */	bctrl 
+/* 80117A18 00112F38  4E 80 04 21 */	bctrl
 /* 80117A1C 00112F3C  54 60 06 3F */	clrlwi. r0, r3, 0x18
 /* 80117A20 00112F40  40 82 FF CC */	bne .L_801179EC
 /* 80117A24 00112F44  3A E0 00 00 */	li r23, 0
@@ -530,7 +530,7 @@ glabel QuerySymbolToMapFile___Q26nw4hbm2dbFPUcPC12OSModuleInfoUlPUcUl
 .L_80117AC0:
 /* 80117AC0 00112FE0  81 9F 91 04 */	lwz r12, -0x6efc(r31)
 /* 80117AC4 00112FE4  7D 89 03 A6 */	mtctr r12
-/* 80117AC8 00112FE8  4E 80 04 21 */	bctrl 
+/* 80117AC8 00112FE8  4E 80 04 21 */	bctrl
 /* 80117ACC 00112FEC  54 60 06 3E */	clrlwi r0, r3, 0x18
 /* 80117AD0 00112FF0  2C 00 00 2E */	cmpwi r0, 0x2e
 /* 80117AD4 00112FF4  41 82 FE E0 */	beq .L_801179B4
@@ -557,7 +557,7 @@ glabel QuerySymbolToMapFile___Q26nw4hbm2dbFPUcPC12OSModuleInfoUlPUcUl
 /* 80117B1C 0011303C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80117B20 00113040  7C 08 03 A6 */	mtlr r0
 /* 80117B24 00113044  38 21 00 30 */	addi r1, r1, 0x30
-/* 80117B28 00113048  4E 80 00 20 */	blr 
+/* 80117B28 00113048  4E 80 00 20 */	blr
 
 glabel QuerySymbolToSingleMapFile___Q26nw4hbm2dbFPQ36nw4hbm2db7MapFileUlPUcUl
 /* 80117B2C 0011304C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -637,7 +637,7 @@ glabel QuerySymbolToSingleMapFile___Q26nw4hbm2dbFPQ36nw4hbm2db7MapFileUlPUcUl
 /* 80117C40 00113160  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80117C44 00113164  7C 08 03 A6 */	mtlr r0
 /* 80117C48 00113168  38 21 00 20 */	addi r1, r1, 0x20
-/* 80117C4C 0011316C  4E 80 00 20 */	blr 
+/* 80117C4C 0011316C  4E 80 00 20 */	blr
 
 glabel MapFile_QuerySymbol__Q26nw4hbm2dbFUlPUcUl
 /* 80117C50 00113170  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -677,7 +677,7 @@ glabel MapFile_QuerySymbol__Q26nw4hbm2dbFUlPUcUl
 /* 80117CC8 001131E8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80117CCC 001131EC  7C 08 03 A6 */	mtlr r0
 /* 80117CD0 001131F0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80117CD4 001131F4  4E 80 00 20 */	blr 
+/* 80117CD4 001131F4  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

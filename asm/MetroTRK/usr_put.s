@@ -3,7 +3,7 @@
 .section .text, "ax"
 
 glabel usr_put_initialize
-/* 8016F96C 0016AE8C  4E 80 00 20 */	blr 
+/* 8016F96C 0016AE8C  4E 80 00 20 */	blr
 
 glabel usr_puts_serial
 /* 8016F970 0016AE90  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -42,5 +42,5 @@ glabel usr_puts_serial
 /* 8016F9E8 0016AF08  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8016F9EC 0016AF0C  7C 08 03 A6 */	mtlr r0
 /* 8016F9F0 0016AF10  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016F9F4 0016AF14  4E 80 00 20 */	blr 
+/* 8016F9F4 0016AF14  4E 80 00 20 */	blr
 

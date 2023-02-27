@@ -32,7 +32,7 @@ glabel btm_discovery_db_init
 /* 800E7408 000E2928  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800E740C 000E292C  7C 08 03 A6 */	mtlr r0
 /* 800E7410 000E2930  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E7414 000E2934  4E 80 00 20 */	blr 
+/* 800E7414 000E2934  4E 80 00 20 */	blr
 
 glabel btm_discovery_db_reset
 /* 800E7418 000E2938  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -54,7 +54,7 @@ glabel btm_discovery_db_reset
 /* 800E7458 000E2978  41 82 00 10 */	beq .L_800E7468
 /* 800E745C 000E297C  38 60 00 00 */	li r3, 0
 /* 800E7460 000E2980  7D 89 03 A6 */	mtctr r12
-/* 800E7464 000E2984  4E 80 04 21 */	bctrl 
+/* 800E7464 000E2984  4E 80 04 21 */	bctrl
 .L_800E7468:
 /* 800E7468 000E2988  3F E0 80 22 */	lis r31, lbl_80220558@ha
 /* 800E746C 000E298C  38 80 00 00 */	li r4, 0
@@ -81,8 +81,8 @@ glabel btm_discovery_db_reset
 /* 800E74C0 000E29E0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800E74C4 000E29E4  7C 08 03 A6 */	mtlr r0
 /* 800E74C8 000E29E8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E74CC 000E29EC  4E 80 00 20 */	blr 
+/* 800E74CC 000E29EC  4E 80 00 20 */	blr
 
 glabel btm_discovery_timeout
-/* 800E74D0 000E29F0  4E 80 00 20 */	blr 
+/* 800E74D0 000E29F0  4E 80 00 20 */	blr
 

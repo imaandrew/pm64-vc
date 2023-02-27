@@ -13,7 +13,7 @@ glabel Init__Q46nw4hbm3snd6detail8LfoParamFv
 /* 8013097C 0012BE9C  98 A3 00 0C */	stb r5, 0xc(r3)
 /* 80130980 0012BEA0  D0 03 00 04 */	stfs f0, 4(r3)
 /* 80130984 0012BEA4  90 03 00 08 */	stw r0, 8(r3)
-/* 80130988 0012BEA8  4E 80 00 20 */	blr 
+/* 80130988 0012BEA8  4E 80 00 20 */	blr
 
 glabel Reset__Q46nw4hbm3snd6detail3LfoFv
 /* 8013098C 0012BEAC  3C 80 80 17 */	lis r4, lbl_801769F8@ha
@@ -21,7 +21,7 @@ glabel Reset__Q46nw4hbm3snd6detail3LfoFv
 /* 80130994 0012BEB4  C0 04 69 F8 */	lfs f0, lbl_801769F8@l(r4)
 /* 80130998 0012BEB8  90 03 00 10 */	stw r0, 0x10(r3)
 /* 8013099C 0012BEBC  D0 03 00 14 */	stfs f0, 0x14(r3)
-/* 801309A0 0012BEC0  4E 80 00 20 */	blr 
+/* 801309A0 0012BEC0  4E 80 00 20 */	blr
 
 glabel Update__Q46nw4hbm3snd6detail3LfoFi
 /* 801309A4 0012BEC4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -67,7 +67,7 @@ glabel Update__Q46nw4hbm3snd6detail3LfoFi
 /* 80130A3C 0012BF5C  D0 03 00 14 */	stfs f0, 0x14(r3)
 .L_80130A40:
 /* 80130A40 0012BF60  38 21 00 20 */	addi r1, r1, 0x20
-/* 80130A44 0012BF64  4E 80 00 20 */	blr 
+/* 80130A44 0012BF64  4E 80 00 20 */	blr
 
 glabel GetValue__Q46nw4hbm3snd6detail3LfoCFv
 /* 80130A48 0012BF68  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -180,5 +180,5 @@ glabel GetValue__Q46nw4hbm3snd6detail3LfoCFv
 /* 80130BD0 0012C0F0  83 A1 00 24 */	lwz r29, 0x24(r1)
 /* 80130BD4 0012C0F4  7C 08 03 A6 */	mtlr r0
 /* 80130BD8 0012C0F8  38 21 00 30 */	addi r1, r1, 0x30
-/* 80130BDC 0012C0FC  4E 80 00 20 */	blr 
+/* 80130BDC 0012C0FC  4E 80 00 20 */	blr
 

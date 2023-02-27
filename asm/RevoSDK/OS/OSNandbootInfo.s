@@ -92,7 +92,7 @@ glabel __OSWriteNandbootInfo
 /* 8009AD58 00096278  83 E1 00 9C */	lwz r31, 0x9c(r1)
 /* 8009AD5C 0009627C  7C 08 03 A6 */	mtlr r0
 /* 8009AD60 00096280  38 21 00 A0 */	addi r1, r1, 0xa0
-/* 8009AD64 00096284  4E 80 00 20 */	blr 
+/* 8009AD64 00096284  4E 80 00 20 */	blr
 
 glabel __OSReadNandbootInfo
 /* 8009AD68 00096288  94 21 FF 60 */	stwu r1, -0xa0(r1)
@@ -201,5 +201,5 @@ glabel __OSReadNandbootInfo
 /* 8009AEF0 00096410  83 C1 00 98 */	lwz r30, 0x98(r1)
 /* 8009AEF4 00096414  7C 08 03 A6 */	mtlr r0
 /* 8009AEF8 00096418  38 21 00 A0 */	addi r1, r1, 0xa0
-/* 8009AEFC 0009641C  4E 80 00 20 */	blr 
+/* 8009AEFC 0009641C  4E 80 00 20 */	blr
 

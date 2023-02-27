@@ -10,7 +10,7 @@ glabel __GetImageTileCount
 /* 800A7824 000A2D44  39 29 13 60 */	addi r9, r9, lbl_80191360@l
 /* 800A7828 000A2D48  7D 29 00 2E */	lwzx r9, r9, r0
 /* 800A782C 000A2D4C  7D 29 03 A6 */	mtctr r9
-/* 800A7830 000A2D50  4E 80 04 20 */	bctr 
+/* 800A7830 000A2D50  4E 80 04 20 */	bctr
 
 glabel lbl_800A7834
 /* 800A7834 000A2D54  39 60 00 03 */	li r11, 3
@@ -63,7 +63,7 @@ glabel lbl_800A7858
 /* 800A78C4 000A2DE4  54 03 0F FE */	srwi r3, r0, 0x1f
 /* 800A78C8 000A2DE8  38 03 00 01 */	addi r0, r3, 1
 /* 800A78CC 000A2DEC  90 08 00 00 */	stw r0, 0(r8)
-/* 800A78D0 000A2DF0  4E 80 00 20 */	blr 
+/* 800A78D0 000A2DF0  4E 80 00 20 */	blr
 
 glabel GXInitTexObj
 /* 800A78D4 000A2DF4  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -152,7 +152,7 @@ glabel GXInitTexObj
 /* 800A7A08 000A2F28  38 63 14 54 */	addi r3, r3, lbl_80191454@l
 /* 800A7A0C 000A2F2C  7C 63 00 2E */	lwzx r3, r3, r0
 /* 800A7A10 000A2F30  7C 69 03 A6 */	mtctr r3
-/* 800A7A14 000A2F34  4E 80 04 20 */	bctr 
+/* 800A7A14 000A2F34  4E 80 04 20 */	bctr
 
 glabel lbl_800A7A18
 /* 800A7A18 000A2F38  38 00 00 01 */	li r0, 1
@@ -215,7 +215,7 @@ glabel lbl_800A7A7C
 /* 800A7AD0 000A2FF0  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800A7AD4 000A2FF4  7C 08 03 A6 */	mtlr r0
 /* 800A7AD8 000A2FF8  38 21 00 40 */	addi r1, r1, 0x40
-/* 800A7ADC 000A2FFC  4E 80 00 20 */	blr 
+/* 800A7ADC 000A2FFC  4E 80 00 20 */	blr
 
 glabel GXInitTexObjCI
 /* 800A7AE0 000A3000  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -235,7 +235,7 @@ glabel GXInitTexObjCI
 /* 800A7B18 000A3038  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A7B1C 000A303C  7C 08 03 A6 */	mtlr r0
 /* 800A7B20 000A3040  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A7B24 000A3044  4E 80 00 20 */	blr 
+/* 800A7B24 000A3044  4E 80 00 20 */	blr
 
 glabel GXInitTexObjLOD
 /* 800A7B28 000A3048  C0 02 86 88 */	lfs f0, lbl_80247E88@sda21(r2)
@@ -308,18 +308,18 @@ glabel GXInitTexObjLOD
 /* 800A7C1C 000A313C  50 80 44 2E */	rlwimi r0, r4, 8, 0x10, 0x17
 /* 800A7C20 000A3140  90 03 00 04 */	stw r0, 4(r3)
 /* 800A7C24 000A3144  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A7C28 000A3148  4E 80 00 20 */	blr 
+/* 800A7C28 000A3148  4E 80 00 20 */	blr
 
 glabel GXInitTexObjWrapMode
 /* 800A7C2C 000A314C  80 03 00 00 */	lwz r0, 0(r3)
 /* 800A7C30 000A3150  50 80 07 BE */	rlwimi r0, r4, 0, 0x1e, 0x1f
 /* 800A7C34 000A3154  50 A0 17 3A */	rlwimi r0, r5, 2, 0x1c, 0x1d
 /* 800A7C38 000A3158  90 03 00 00 */	stw r0, 0(r3)
-/* 800A7C3C 000A315C  4E 80 00 20 */	blr 
+/* 800A7C3C 000A315C  4E 80 00 20 */	blr
 
 glabel GXInitTexObjTlut
 /* 800A7C40 000A3160  90 83 00 18 */	stw r4, 0x18(r3)
-/* 800A7C44 000A3164  4E 80 00 20 */	blr 
+/* 800A7C44 000A3164  4E 80 00 20 */	blr
 
 glabel GXInitTexObjFilter
 /* 800A7C48 000A3168  38 05 FF FF */	addi r0, r5, -1
@@ -331,48 +331,48 @@ glabel GXInitTexObjFilter
 /* 800A7C60 000A3180  7C 05 20 AE */	lbzx r0, r5, r4
 /* 800A7C64 000A3184  50 06 2E 34 */	rlwimi r6, r0, 5, 0x18, 0x1a
 /* 800A7C68 000A3188  90 C3 00 00 */	stw r6, 0(r3)
-/* 800A7C6C 000A318C  4E 80 00 20 */	blr 
+/* 800A7C6C 000A318C  4E 80 00 20 */	blr
 
 glabel GXGetTexObjWidth
 /* 800A7C70 000A3190  90 83 00 10 */	stw r4, 0x10(r3)
-/* 800A7C74 000A3194  4E 80 00 20 */	blr 
+/* 800A7C74 000A3194  4E 80 00 20 */	blr
 
 glabel func_800A7C78
 /* 800A7C78 000A3198  80 63 00 10 */	lwz r3, 0x10(r3)
-/* 800A7C7C 000A319C  4E 80 00 20 */	blr 
+/* 800A7C7C 000A319C  4E 80 00 20 */	blr
 
 glabel func_800A7C80
 /* 800A7C80 000A31A0  80 03 00 08 */	lwz r0, 8(r3)
 /* 800A7C84 000A31A4  54 03 05 BE */	clrlwi r3, r0, 0x16
 /* 800A7C88 000A31A8  38 03 00 01 */	addi r0, r3, 1
 /* 800A7C8C 000A31AC  54 03 04 3E */	clrlwi r3, r0, 0x10
-/* 800A7C90 000A31B0  4E 80 00 20 */	blr 
+/* 800A7C90 000A31B0  4E 80 00 20 */	blr
 
 glabel func_800A7C94
 /* 800A7C94 000A31B4  80 03 00 08 */	lwz r0, 8(r3)
 /* 800A7C98 000A31B8  54 03 B5 BE */	rlwinm r3, r0, 0x16, 0x16, 0x1f
 /* 800A7C9C 000A31BC  38 03 00 01 */	addi r0, r3, 1
 /* 800A7CA0 000A31C0  54 03 04 3E */	clrlwi r3, r0, 0x10
-/* 800A7CA4 000A31C4  4E 80 00 20 */	blr 
+/* 800A7CA4 000A31C4  4E 80 00 20 */	blr
 
 glabel GXGetTexObjFmt
 /* 800A7CA8 000A31C8  80 63 00 14 */	lwz r3, 0x14(r3)
-/* 800A7CAC 000A31CC  4E 80 00 20 */	blr 
+/* 800A7CAC 000A31CC  4E 80 00 20 */	blr
 
 glabel GXGetTexObjWrapS
 /* 800A7CB0 000A31D0  80 03 00 00 */	lwz r0, 0(r3)
 /* 800A7CB4 000A31D4  54 03 07 BE */	clrlwi r3, r0, 0x1e
-/* 800A7CB8 000A31D8  4E 80 00 20 */	blr 
+/* 800A7CB8 000A31D8  4E 80 00 20 */	blr
 
 glabel GXGetTexObjWrapT
 /* 800A7CBC 000A31DC  80 03 00 00 */	lwz r0, 0(r3)
 /* 800A7CC0 000A31E0  54 03 F7 BE */	rlwinm r3, r0, 0x1e, 0x1e, 0x1f
-/* 800A7CC4 000A31E4  4E 80 00 20 */	blr 
+/* 800A7CC4 000A31E4  4E 80 00 20 */	blr
 
 glabel GXGetTexObjMipMap
 /* 800A7CC8 000A31E8  88 03 00 1F */	lbz r0, 0x1f(r3)
 /* 800A7CCC 000A31EC  54 03 07 FE */	clrlwi r3, r0, 0x1f
-/* 800A7CD0 000A31F0  4E 80 00 20 */	blr 
+/* 800A7CD0 000A31F0  4E 80 00 20 */	blr
 
 glabel GXLoadTexObjPreLoaded
 /* 800A7CD4 000A31F4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -435,7 +435,7 @@ glabel GXLoadTexObjPreLoaded
 /* 800A7DB8 000A32D8  80 63 00 18 */	lwz r3, 0x18(r3)
 /* 800A7DBC 000A32DC  81 84 05 1C */	lwz r12, 0x51c(r4)
 /* 800A7DC0 000A32E0  7D 89 03 A6 */	mtctr r12
-/* 800A7DC4 000A32E4  4E 80 04 21 */	bctrl 
+/* 800A7DC4 000A32E4  4E 80 04 21 */	bctrl
 /* 800A7DC8 000A32E8  38 8D 83 30 */	addi r4, r13, lbl_802467B0@sda21
 /* 800A7DCC 000A32EC  80 03 00 04 */	lwz r0, 4(r3)
 /* 800A7DD0 000A32F0  7C 84 F8 AE */	lbzx r4, r4, r31
@@ -464,7 +464,7 @@ glabel GXLoadTexObjPreLoaded
 /* 800A7E28 000A3348  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800A7E2C 000A334C  7C 08 03 A6 */	mtlr r0
 /* 800A7E30 000A3350  38 21 00 20 */	addi r1, r1, 0x20
-/* 800A7E34 000A3354  4E 80 00 20 */	blr 
+/* 800A7E34 000A3354  4E 80 00 20 */	blr
 
 glabel GXLoadTexObj
 /* 800A7E38 000A3358  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -477,7 +477,7 @@ glabel GXLoadTexObj
 /* 800A7E54 000A3374  7C 7E 1B 78 */	mr r30, r3
 /* 800A7E58 000A3378  81 85 05 18 */	lwz r12, 0x518(r5)
 /* 800A7E5C 000A337C  7D 89 03 A6 */	mtctr r12
-/* 800A7E60 000A3380  4E 80 04 21 */	bctrl 
+/* 800A7E60 000A3380  4E 80 04 21 */	bctrl
 /* 800A7E64 000A3384  7C 64 1B 78 */	mr r4, r3
 /* 800A7E68 000A3388  7F C3 F3 78 */	mr r3, r30
 /* 800A7E6C 000A338C  7F E5 FB 78 */	mr r5, r31
@@ -487,7 +487,7 @@ glabel GXLoadTexObj
 /* 800A7E7C 000A339C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800A7E80 000A33A0  7C 08 03 A6 */	mtlr r0
 /* 800A7E84 000A33A4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A7E88 000A33A8  4E 80 00 20 */	blr 
+/* 800A7E88 000A33A8  4E 80 00 20 */	blr
 
 glabel GXInitTlutObj
 /* 800A7E8C 000A33AC  80 E3 00 04 */	lwz r7, 4(r3)
@@ -499,7 +499,7 @@ glabel GXInitTlutObj
 /* 800A7EA4 000A33C4  50 07 C0 0E */	rlwimi r7, r0, 0x18, 0, 7
 /* 800A7EA8 000A33C8  90 83 00 00 */	stw r4, 0(r3)
 /* 800A7EAC 000A33CC  90 E3 00 04 */	stw r7, 4(r3)
-/* 800A7EB0 000A33D0  4E 80 00 20 */	blr 
+/* 800A7EB0 000A33D0  4E 80 00 20 */	blr
 
 glabel GXLoadTlut
 /* 800A7EB4 000A33D4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -512,7 +512,7 @@ glabel GXLoadTlut
 /* 800A7ED0 000A33F0  7C 83 23 78 */	mr r3, r4
 /* 800A7ED4 000A33F4  81 85 05 1C */	lwz r12, 0x51c(r5)
 /* 800A7ED8 000A33F8  7D 89 03 A6 */	mtctr r12
-/* 800A7EDC 000A33FC  4E 80 04 21 */	bctrl 
+/* 800A7EDC 000A33FC  4E 80 04 21 */	bctrl
 /* 800A7EE0 000A3400  7C 7F 1B 78 */	mr r31, r3
 /* 800A7EE4 000A3404  48 00 0B 1D */	bl __GXFlushTextureState
 /* 800A7EE8 000A3408  3C 60 CC 01 */	lis r3, 0xCC008000@ha
@@ -538,7 +538,7 @@ glabel GXLoadTlut
 /* 800A7F38 000A3458  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A7F3C 000A345C  7C 08 03 A6 */	mtlr r0
 /* 800A7F40 000A3460  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A7F44 000A3464  4E 80 00 20 */	blr 
+/* 800A7F44 000A3464  4E 80 00 20 */	blr
 
 glabel GXInitTexCacheRegion
 /* 800A7F48 000A3468  2C 06 00 01 */	cmpwi r6, 1
@@ -596,7 +596,7 @@ glabel GXInitTexCacheRegion
 /* 800A7FEC 000A350C  50 C5 92 DA */	rlwimi r5, r6, 0x12, 0xb, 0xd
 /* 800A7FF0 000A3510  98 03 00 0D */	stb r0, 0xd(r3)
 /* 800A7FF4 000A3514  90 A3 00 04 */	stw r5, 4(r3)
-/* 800A7FF8 000A3518  4E 80 00 20 */	blr 
+/* 800A7FF8 000A3518  4E 80 00 20 */	blr
 
 glabel GXInitTlutRegion
 /* 800A7FFC 000A351C  3C 04 FF F8 */	addis r0, r4, 0xfff8
@@ -606,7 +606,7 @@ glabel GXInitTlutRegion
 /* 800A800C 000A352C  50 A4 52 EA */	rlwimi r4, r5, 0xa, 0xb, 0x15
 /* 800A8010 000A3530  50 04 C0 0E */	rlwimi r4, r0, 0x18, 0, 7
 /* 800A8014 000A3534  90 83 00 00 */	stw r4, 0(r3)
-/* 800A8018 000A3538  4E 80 00 20 */	blr 
+/* 800A8018 000A3538  4E 80 00 20 */	blr
 
 glabel GXInvalidateTexAll
 /* 800A801C 000A353C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -626,21 +626,21 @@ glabel GXInvalidateTexAll
 /* 800A8054 000A3574  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A8058 000A3578  7C 08 03 A6 */	mtlr r0
 /* 800A805C 000A357C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A8060 000A3580  4E 80 00 20 */	blr 
+/* 800A8060 000A3580  4E 80 00 20 */	blr
 
 glabel GXSetTexRegionCallback
 /* 800A8064 000A3584  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
 /* 800A8068 000A3588  7C 60 1B 78 */	mr r0, r3
 /* 800A806C 000A358C  80 64 05 18 */	lwz r3, 0x518(r4)
 /* 800A8070 000A3590  90 04 05 18 */	stw r0, 0x518(r4)
-/* 800A8074 000A3594  4E 80 00 20 */	blr 
+/* 800A8074 000A3594  4E 80 00 20 */	blr
 
 glabel GXSetTlutRegionCallback
 /* 800A8078 000A3598  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
 /* 800A807C 000A359C  7C 60 1B 78 */	mr r0, r3
 /* 800A8080 000A35A0  80 64 05 1C */	lwz r3, 0x51c(r4)
 /* 800A8084 000A35A4  90 04 05 1C */	stw r0, 0x51c(r4)
-/* 800A8088 000A35A8  4E 80 00 20 */	blr 
+/* 800A8088 000A35A8  4E 80 00 20 */	blr
 
 glabel __SetSURegs
 /* 800A808C 000A35AC  81 62 86 40 */	lwz r11, lbl_80247E40@sda21(r2)
@@ -678,7 +678,7 @@ glabel __SetSURegs
 /* 800A810C 000A362C  80 69 01 28 */	lwz r3, 0x128(r9)
 /* 800A8110 000A3630  90 65 80 00 */	stw r3, -0x8000(r5)
 /* 800A8114 000A3634  B0 0B 00 02 */	sth r0, 2(r11)
-/* 800A8118 000A3638  4E 80 00 20 */	blr 
+/* 800A8118 000A3638  4E 80 00 20 */	blr
 
 glabel __GXSetSUTexRegs
 /* 800A811C 000A363C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -785,7 +785,7 @@ glabel __GXSetSUTexRegs
 /* 800A8274 000A3794  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800A8278 000A3798  7C 08 03 A6 */	mtlr r0
 /* 800A827C 000A379C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800A8280 000A37A0  4E 80 00 20 */	blr 
+/* 800A8280 000A37A0  4E 80 00 20 */	blr
 
 glabel __GXSetTmemConfig
 /* 800A8284 000A37A4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1004,5 +1004,5 @@ glabel __GXSetTmemConfig
 /* 800A85C8 000A3AE8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800A85CC 000A3AEC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800A85D0 000A3AF0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A85D4 000A3AF4  4E 80 00 20 */	blr 
+/* 800A85D4 000A3AF4  4E 80 00 20 */	blr
 

@@ -94,7 +94,7 @@ glabel FindContainHeap_
 /* 800B6E40 000B2360  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800B6E44 000B2364  7C 08 03 A6 */	mtlr r0
 /* 800B6E48 000B2368  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B6E4C 000B236C  4E 80 00 20 */	blr 
+/* 800B6E4C 000B236C  4E 80 00 20 */	blr
 
 glabel MEMiInitHeapHead
 /* 800B6E50 000B2370  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -222,7 +222,7 @@ glabel MEMiInitHeapHead
 /* 800B7000 000B2520  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B7004 000B2524  7C 08 03 A6 */	mtlr r0
 /* 800B7008 000B2528  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B700C 000B252C  4E 80 00 20 */	blr 
+/* 800B700C 000B252C  4E 80 00 20 */	blr
 
 glabel MEMiFinalizeHeap
 /* 800B7010 000B2530  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -328,7 +328,7 @@ glabel MEMiFinalizeHeap
 /* 800B716C 000B268C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800B7170 000B2690  7C 08 03 A6 */	mtlr r0
 /* 800B7174 000B2694  38 21 00 20 */	addi r1, r1, 0x20
-/* 800B7178 000B2698  4E 80 00 20 */	blr 
+/* 800B7178 000B2698  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

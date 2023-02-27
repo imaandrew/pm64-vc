@@ -37,7 +37,7 @@ glabel BTA_HhEnable
 /* 800E29B0 000DDED0  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800E29B4 000DDED4  7C 08 03 A6 */	mtlr r0
 /* 800E29B8 000DDED8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E29BC 000DDEDC  4E 80 00 20 */	blr 
+/* 800E29BC 000DDEDC  4E 80 00 20 */	blr
 
 glabel BTA_HhDisable
 /* 800E29C0 000DDEE0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -54,7 +54,7 @@ glabel BTA_HhDisable
 /* 800E29E8 000DDF08  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800E29EC 000DDF0C  7C 08 03 A6 */	mtlr r0
 /* 800E29F0 000DDF10  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E29F4 000DDF14  4E 80 00 20 */	blr 
+/* 800E29F4 000DDF14  4E 80 00 20 */	blr
 
 glabel BTA_HhClose
 /* 800E29F8 000DDF18  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -82,7 +82,7 @@ glabel BTA_HhClose
 /* 800E2A4C 000DDF6C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800E2A50 000DDF70  7C 08 03 A6 */	mtlr r0
 /* 800E2A54 000DDF74  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E2A58 000DDF78  4E 80 00 20 */	blr 
+/* 800E2A58 000DDF78  4E 80 00 20 */	blr
 
 glabel BTA_HhOpen
 /* 800E2A5C 000DDF7C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -131,7 +131,7 @@ glabel BTA_HhOpen
 /* 800E2B00 000DE020  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800E2B04 000DE024  7C 08 03 A6 */	mtlr r0
 /* 800E2B08 000DE028  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E2B0C 000DE02C  4E 80 00 20 */	blr 
+/* 800E2B0C 000DE02C  4E 80 00 20 */	blr
 
 glabel BTA_HhSendData
 /* 800E2B10 000DE030  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -170,7 +170,7 @@ glabel BTA_HhSendData
 /* 800E2B90 000DE0B0  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800E2B94 000DE0B4  7C 08 03 A6 */	mtlr r0
 /* 800E2B98 000DE0B8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E2B9C 000DE0BC  4E 80 00 20 */	blr 
+/* 800E2B9C 000DE0BC  4E 80 00 20 */	blr
 
 glabel BTA_HhAddDev
 /* 800E2BA0 000DE0C0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -215,7 +215,7 @@ glabel BTA_HhAddDev
 /* 800E2C38 000DE158  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800E2C3C 000DE15C  7C 08 03 A6 */	mtlr r0
 /* 800E2C40 000DE160  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E2C44 000DE164  4E 80 00 20 */	blr 
+/* 800E2C44 000DE164  4E 80 00 20 */	blr
 
 glabel BTA_HhRemoveDev
 /* 800E2C48 000DE168  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -245,7 +245,7 @@ glabel BTA_HhRemoveDev
 /* 800E2CA4 000DE1C4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800E2CA8 000DE1C8  7C 08 03 A6 */	mtlr r0
 /* 800E2CAC 000DE1CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E2CB0 000DE1D0  4E 80 00 20 */	blr 
+/* 800E2CB0 000DE1D0  4E 80 00 20 */	blr
 
 glabel BTA_HhGetAclQueueInfo
 /* 800E2CB4 000DE1D4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -269,5 +269,5 @@ glabel BTA_HhGetAclQueueInfo
 /* 800E2CF8 000DE218  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800E2CFC 000DE21C  7C 08 03 A6 */	mtlr r0
 /* 800E2D00 000DE220  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E2D04 000DE224  4E 80 00 20 */	blr 
+/* 800E2D04 000DE224  4E 80 00 20 */	blr
 

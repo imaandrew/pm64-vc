@@ -37,12 +37,12 @@ glabel Init__Q46nw4hbm3snd6detail8WsdTrackFPQ46nw4hbm3snd6detail9WsdPlayer
 /* 80145BD8 001410F8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80145BDC 001410FC  7C 08 03 A6 */	mtlr r0
 /* 80145BE0 00141100  38 21 00 10 */	addi r1, r1, 0x10
-/* 80145BE4 00141104  4E 80 00 20 */	blr 
+/* 80145BE4 00141104  4E 80 00 20 */	blr
 
 glabel Start__Q46nw4hbm3snd6detail8WsdTrackFPCvi
 /* 80145BE8 00141108  90 83 00 00 */	stw r4, 0(r3)
 /* 80145BEC 0014110C  90 A3 00 04 */	stw r5, 4(r3)
-/* 80145BF0 00141110  4E 80 00 20 */	blr 
+/* 80145BF0 00141110  4E 80 00 20 */	blr
 
 glabel Close__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 80145BF4 00141114  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -69,7 +69,7 @@ glabel Close__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 80145C40 00141160  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80145C44 00141164  7C 08 03 A6 */	mtlr r0
 /* 80145C48 00141168  38 21 00 10 */	addi r1, r1, 0x10
-/* 80145C4C 0014116C  4E 80 00 20 */	blr 
+/* 80145C4C 0014116C  4E 80 00 20 */	blr
 
 glabel ParseNextTick__Q46nw4hbm3snd6detail8WsdTrackFPCQ56nw4hbm3snd6detail8WsdTrack11WsdCallbackUlb
 /* 80145C50 00141170  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -137,7 +137,7 @@ glabel ParseNextTick__Q46nw4hbm3snd6detail8WsdTrackFPCQ56nw4hbm3snd6detail8WsdTr
 /* 80145D2C 0014124C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80145D30 00141250  7C 08 03 A6 */	mtlr r0
 /* 80145D34 00141254  38 21 00 20 */	addi r1, r1, 0x20
-/* 80145D38 00141258  4E 80 00 20 */	blr 
+/* 80145D38 00141258  4E 80 00 20 */	blr
 
 glabel ReleaseAllChannel__Q46nw4hbm3snd6detail8WsdTrackFi
 /* 80145D3C 0014125C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -199,7 +199,7 @@ glabel ReleaseAllChannel__Q46nw4hbm3snd6detail8WsdTrackFi
 /* 80145E04 00141324  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80145E08 00141328  7C 08 03 A6 */	mtlr r0
 /* 80145E0C 0014132C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80145E10 00141330  4E 80 00 20 */	blr 
+/* 80145E10 00141330  4E 80 00 20 */	blr
 
 glabel PauseAllChannel__Q46nw4hbm3snd6detail8WsdTrackFb
 /* 80145E14 00141334  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -234,7 +234,7 @@ glabel PauseAllChannel__Q46nw4hbm3snd6detail8WsdTrackFb
 /* 80145E7C 0014139C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80145E80 001413A0  7C 08 03 A6 */	mtlr r0
 /* 80145E84 001413A4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80145E88 001413A8  4E 80 00 20 */	blr 
+/* 80145E88 001413A8  4E 80 00 20 */	blr
 
 glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 80145E8C 001413AC  94 21 FE A0 */	stwu r1, -0x160(r1)
@@ -279,14 +279,14 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 80145F28 00141448  90 01 00 48 */	stw r0, 0x48(r1)
 /* 80145F2C 0014144C  C3 F7 00 00 */	lfs f31, 0(r23)
 /* 80145F30 00141450  7D 89 03 A6 */	mtctr r12
-/* 80145F34 00141454  4E 80 04 21 */	bctrl 
+/* 80145F34 00141454  4E 80 04 21 */	bctrl
 /* 80145F38 00141458  80 7E 00 2C */	lwz r3, 0x2c(r30)
 /* 80145F3C 0014145C  EF FF 00 72 */	fmuls f31, f31, f1
 /* 80145F40 00141460  C3 D7 00 00 */	lfs f30, 0(r23)
 /* 80145F44 00141464  81 83 00 00 */	lwz r12, 0(r3)
 /* 80145F48 00141468  81 8C 00 48 */	lwz r12, 0x48(r12)
 /* 80145F4C 0014146C  7D 89 03 A6 */	mtctr r12
-/* 80145F50 00141470  4E 80 04 21 */	bctrl 
+/* 80145F50 00141470  4E 80 04 21 */	bctrl
 /* 80145F54 00141474  EF DE 00 72 */	fmuls f30, f30, f1
 /* 80145F58 00141478  C0 1E 00 20 */	lfs f0, 0x20(r30)
 /* 80145F5C 0014147C  88 7E 00 24 */	lbz r3, 0x24(r30)
@@ -321,7 +321,7 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 80145FC8 001414E8  81 8C 00 4C */	lwz r12, 0x4c(r12)
 /* 80145FCC 001414EC  EF BD 00 32 */	fmuls f29, f29, f0
 /* 80145FD0 001414F0  7D 89 03 A6 */	mtctr r12
-/* 80145FD4 001414F4  4E 80 04 21 */	bctrl 
+/* 80145FD4 001414F4  4E 80 04 21 */	bctrl
 /* 80145FD8 001414F8  88 7E 00 25 */	lbz r3, 0x25(r30)
 /* 80145FDC 001414FC  EF BD 08 2A */	fadds f29, f29, f1
 /* 80145FE0 00141500  C3 97 00 04 */	lfs f28, 4(r23)
@@ -357,28 +357,28 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 80146050 00141570  EC 01 00 32 */	fmuls f0, f1, f0
 /* 80146054 00141574  EF 9C 00 2A */	fadds f28, f28, f0
 /* 80146058 00141578  7D 89 03 A6 */	mtctr r12
-/* 8014605C 0014157C  4E 80 04 21 */	bctrl 
+/* 8014605C 0014157C  4E 80 04 21 */	bctrl
 /* 80146060 00141580  80 7E 00 2C */	lwz r3, 0x2c(r30)
 /* 80146064 00141584  EF 9C 08 2A */	fadds f28, f28, f1
 /* 80146068 00141588  C3 77 00 04 */	lfs f27, 4(r23)
 /* 8014606C 0014158C  81 83 00 00 */	lwz r12, 0(r3)
 /* 80146070 00141590  81 8C 00 54 */	lwz r12, 0x54(r12)
 /* 80146074 00141594  7D 89 03 A6 */	mtctr r12
-/* 80146078 00141598  4E 80 04 21 */	bctrl 
+/* 80146078 00141598  4E 80 04 21 */	bctrl
 /* 8014607C 0014159C  80 7E 00 2C */	lwz r3, 0x2c(r30)
 /* 80146080 001415A0  EF 7B 08 2A */	fadds f27, f27, f1
 /* 80146084 001415A4  C3 57 00 04 */	lfs f26, 4(r23)
 /* 80146088 001415A8  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014608C 001415AC  81 8C 00 58 */	lwz r12, 0x58(r12)
 /* 80146090 001415B0  7D 89 03 A6 */	mtctr r12
-/* 80146094 001415B4  4E 80 04 21 */	bctrl 
+/* 80146094 001415B4  4E 80 04 21 */	bctrl
 /* 80146098 001415B8  80 7E 00 2C */	lwz r3, 0x2c(r30)
 /* 8014609C 001415BC  EF 5A 08 2A */	fadds f26, f26, f1
 /* 801460A0 001415C0  C3 37 00 04 */	lfs f25, 4(r23)
 /* 801460A4 001415C4  81 83 00 00 */	lwz r12, 0(r3)
 /* 801460A8 001415C8  81 8C 00 5C */	lwz r12, 0x5c(r12)
 /* 801460AC 001415CC  7D 89 03 A6 */	mtctr r12
-/* 801460B0 001415D0  4E 80 04 21 */	bctrl 
+/* 801460B0 001415D0  4E 80 04 21 */	bctrl
 /* 801460B4 001415D4  88 1E 00 29 */	lbz r0, 0x29(r30)
 /* 801460B8 001415D8  EF 39 08 2A */	fadds f25, f25, f1
 /* 801460BC 001415DC  80 7E 00 2C */	lwz r3, 0x2c(r30)
@@ -394,7 +394,7 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 801460E4 00141604  EC 00 C0 28 */	fsubs f0, f0, f24
 /* 801460E8 00141608  EF 18 00 2A */	fadds f24, f24, f0
 /* 801460EC 0014160C  7D 89 03 A6 */	mtctr r12
-/* 801460F0 00141610  4E 80 04 21 */	bctrl 
+/* 801460F0 00141610  4E 80 04 21 */	bctrl
 /* 801460F4 00141614  88 9E 00 26 */	lbz r4, 0x26(r30)
 /* 801460F8 00141618  EF 18 08 2A */	fadds f24, f24, f1
 /* 801460FC 0014161C  88 7E 00 27 */	lbz r3, 0x27(r30)
@@ -423,7 +423,7 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 80146154 00141674  EC 00 08 2A */	fadds f0, f0, f1
 /* 80146158 00141678  D0 14 00 00 */	stfs f0, 0(r20)
 /* 8014615C 0014167C  7D 89 03 A6 */	mtctr r12
-/* 80146160 00141680  4E 80 04 21 */	bctrl 
+/* 80146160 00141680  4E 80 04 21 */	bctrl
 /* 80146164 00141684  C0 14 00 00 */	lfs f0, 0(r20)
 /* 80146168 00141688  3A D6 00 01 */	addi r22, r22, 1
 /* 8014616C 0014168C  2C 16 00 03 */	cmpwi r22, 3
@@ -443,7 +443,7 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 801461A0 001416C0  81 83 00 00 */	lwz r12, 0(r3)
 /* 801461A4 001416C4  81 8C 00 90 */	lwz r12, 0x90(r12)
 /* 801461A8 001416C8  7D 89 03 A6 */	mtctr r12
-/* 801461AC 001416CC  4E 80 04 21 */	bctrl 
+/* 801461AC 001416CC  4E 80 04 21 */	bctrl
 /* 801461B0 001416D0  80 7E 00 2C */	lwz r3, 0x2c(r30)
 /* 801461B4 001416D4  7E C4 B3 78 */	mr r4, r22
 /* 801461B8 001416D8  C0 14 00 00 */	lfs f0, 0(r20)
@@ -453,7 +453,7 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 801461C8 001416E8  81 8C 00 94 */	lwz r12, 0x94(r12)
 /* 801461CC 001416EC  D0 14 00 00 */	stfs f0, 0(r20)
 /* 801461D0 001416F0  7D 89 03 A6 */	mtctr r12
-/* 801461D4 001416F4  4E 80 04 21 */	bctrl 
+/* 801461D4 001416F4  4E 80 04 21 */	bctrl
 /* 801461D8 001416F8  C0 15 00 00 */	lfs f0, 0(r21)
 /* 801461DC 001416FC  3A D6 00 01 */	addi r22, r22, 1
 /* 801461E0 00141700  2C 16 00 04 */	cmpwi r22, 4
@@ -487,13 +487,13 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 8014624C 0014176C  81 83 00 00 */	lwz r12, 0(r3)
 /* 80146250 00141770  81 8C 00 7C */	lwz r12, 0x7c(r12)
 /* 80146254 00141774  7D 89 03 A6 */	mtctr r12
-/* 80146258 00141778  4E 80 04 21 */	bctrl 
+/* 80146258 00141778  4E 80 04 21 */	bctrl
 /* 8014625C 0014177C  90 7F 00 5C */	stw r3, 0x5c(r31)
 /* 80146260 00141780  80 7E 00 2C */	lwz r3, 0x2c(r30)
 /* 80146264 00141784  81 83 00 00 */	lwz r12, 0(r3)
 /* 80146268 00141788  81 8C 00 80 */	lwz r12, 0x80(r12)
 /* 8014626C 0014178C  7D 89 03 A6 */	mtctr r12
-/* 80146270 00141790  4E 80 04 21 */	bctrl 
+/* 80146270 00141790  4E 80 04 21 */	bctrl
 /* 80146274 00141794  D0 3F 00 60 */	stfs f1, 0x60(r31)
 /* 80146278 00141798  7F F6 FB 78 */	mr r22, r31
 /* 8014627C 0014179C  3A A1 00 20 */	addi r21, r1, 0x20
@@ -509,7 +509,7 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 801462A0 001417C0  81 83 00 00 */	lwz r12, 0(r3)
 /* 801462A4 001417C4  81 8C 00 8C */	lwz r12, 0x8c(r12)
 /* 801462A8 001417C8  7D 89 03 A6 */	mtctr r12
-/* 801462AC 001417CC  4E 80 04 21 */	bctrl 
+/* 801462AC 001417CC  4E 80 04 21 */	bctrl
 /* 801462B0 001417D0  FE E0 08 90 */	fmr f23, f1
 /* 801462B4 001417D4  2C 13 00 00 */	cmpwi r19, 0
 /* 801462B8 001417D8  38 00 00 00 */	li r0, 0
@@ -627,7 +627,7 @@ glabel UpdateChannel__Q46nw4hbm3snd6detail8WsdTrackFv
 /* 8014645C 0014197C  80 01 01 64 */	lwz r0, 0x164(r1)
 /* 80146460 00141980  7C 08 03 A6 */	mtlr r0
 /* 80146464 00141984  38 21 01 60 */	addi r1, r1, 0x160
-/* 80146468 00141988  4E 80 00 20 */	blr 
+/* 80146468 00141988  4E 80 00 20 */	blr
 
 glabel Parse__Q46nw4hbm3snd6detail8WsdTrackFPCQ56nw4hbm3snd6detail8WsdTrack11WsdCallbackUlb
 /* 8014646C 0014198C  94 21 FF 40 */	stwu r1, -0xc0(r1)
@@ -668,7 +668,7 @@ glabel Parse__Q46nw4hbm3snd6detail8WsdTrackFPCQ56nw4hbm3snd6detail8WsdTrack11Wsd
 /* 801464F4 00141A14  81 1D 00 04 */	lwz r8, 4(r29)
 /* 801464F8 00141A18  39 20 00 00 */	li r9, 0
 /* 801464FC 00141A1C  7D 89 03 A6 */	mtctr r12
-/* 80146500 00141A20  4E 80 04 21 */	bctrl 
+/* 80146500 00141A20  4E 80 04 21 */	bctrl
 /* 80146504 00141A24  2C 03 00 00 */	cmpwi r3, 0
 /* 80146508 00141A28  40 82 00 0C */	bne .L_80146514
 /* 8014650C 00141A2C  38 60 FF FF */	li r3, -1
@@ -731,7 +731,7 @@ glabel Parse__Q46nw4hbm3snd6detail8WsdTrackFPCQ56nw4hbm3snd6detail8WsdTrack11Wsd
 /* 801465D8 00141AF8  83 A1 00 B4 */	lwz r29, 0xb4(r1)
 /* 801465DC 00141AFC  7C 08 03 A6 */	mtlr r0
 /* 801465E0 00141B00  38 21 00 C0 */	addi r1, r1, 0xc0
-/* 801465E4 00141B04  4E 80 00 20 */	blr 
+/* 801465E4 00141B04  4E 80 00 20 */	blr
 
 glabel ChannelCallbackFunc__Q46nw4hbm3snd6detail8WsdTrackFPQ46nw4hbm3snd6detail7ChannelQ56nw4hbm3snd6detail7Channel21ChannelCallbackStatusUl
 /* 801465E8 00141B08  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -807,5 +807,5 @@ glabel ChannelCallbackFunc__Q46nw4hbm3snd6detail8WsdTrackFPQ46nw4hbm3snd6detail7
 /* 801466E0 00141C00  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 801466E4 00141C04  7C 08 03 A6 */	mtlr r0
 /* 801466E8 00141C08  38 21 00 20 */	addi r1, r1, 0x20
-/* 801466EC 00141C0C  4E 80 00 20 */	blr 
+/* 801466EC 00141C0C  4E 80 00 20 */	blr
 

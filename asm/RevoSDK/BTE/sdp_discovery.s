@@ -68,7 +68,7 @@ glabel sdpu_build_uuid_seq
 /* 80103BD4 000FF0F4  7D 63 5B 78 */	mr r3, r11
 /* 80103BD8 000FF0F8  38 04 FF FF */	addi r0, r4, -1
 /* 80103BDC 000FF0FC  98 0A 00 00 */	stb r0, 0(r10)
-/* 80103BE0 000FF100  4E 80 00 20 */	blr 
+/* 80103BE0 000FF100  4E 80 00 20 */	blr
 
 glabel sdp_snd_service_search_req
 /* 80103BE4 000FF104  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -149,7 +149,7 @@ glabel sdp_snd_service_search_req
 /* 80103D04 000FF224  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80103D08 000FF228  7C 08 03 A6 */	mtlr r0
 /* 80103D0C 000FF22C  38 21 00 30 */	addi r1, r1, 0x30
-/* 80103D10 000FF230  4E 80 00 20 */	blr 
+/* 80103D10 000FF230  4E 80 00 20 */	blr
 
 glabel sdp_disc_connected
 /* 80103D14 000FF234  88 03 04 75 */	lbz r0, 0x475(r3)
@@ -254,7 +254,7 @@ glabel sdp_disc_server_rsp
 /* 80103E78 000FF398  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80103E7C 000FF39C  7C 08 03 A6 */	mtlr r0
 /* 80103E80 000FF3A0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80103E84 000FF3A4  4E 80 00 20 */	blr 
+/* 80103E84 000FF3A4  4E 80 00 20 */	blr
 
 glabel process_service_search_rsp
 /* 80103E88 000FF3A8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -345,7 +345,7 @@ glabel process_service_search_rsp
 /* 80103FC0 000FF4E0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80103FC4 000FF4E4  7C 08 03 A6 */	mtlr r0
 /* 80103FC8 000FF4E8  38 21 00 10 */	addi r1, r1, 0x10
-/* 80103FCC 000FF4EC  4E 80 00 20 */	blr 
+/* 80103FCC 000FF4EC  4E 80 00 20 */	blr
 
 glabel process_service_attr_rsp
 /* 80103FD0 000FF4F0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -529,7 +529,7 @@ glabel process_service_attr_rsp
 /* 80104268 000FF788  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8010426C 000FF78C  7C 08 03 A6 */	mtlr r0
 /* 80104270 000FF790  38 21 00 30 */	addi r1, r1, 0x30
-/* 80104274 000FF794  4E 80 00 20 */	blr 
+/* 80104274 000FF794  4E 80 00 20 */	blr
 
 glabel process_service_search_attr_rsp
 /* 80104278 000FF798  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -726,7 +726,7 @@ glabel process_service_search_attr_rsp
 /* 8010453C 000FFA5C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80104540 000FFA60  7C 08 03 A6 */	mtlr r0
 /* 80104544 000FFA64  38 21 00 30 */	addi r1, r1, 0x30
-/* 80104548 000FFA68  4E 80 00 20 */	blr 
+/* 80104548 000FFA68  4E 80 00 20 */	blr
 
 glabel save_attr_seq
 /* 8010454C 000FFA6C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -864,7 +864,7 @@ glabel save_attr_seq
 /* 80104728 000FFC48  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8010472C 000FFC4C  7C 08 03 A6 */	mtlr r0
 /* 80104730 000FFC50  38 21 00 30 */	addi r1, r1, 0x30
-/* 80104734 000FFC54  4E 80 00 20 */	blr 
+/* 80104734 000FFC54  4E 80 00 20 */	blr
 
 glabel add_record
 /* 80104738 000FFC58  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -911,7 +911,7 @@ glabel add_record
 /* 801047C8 000FFCE8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 801047CC 000FFCEC  7C 08 03 A6 */	mtlr r0
 /* 801047D0 000FFCF0  38 21 00 10 */	addi r1, r1, 0x10
-/* 801047D4 000FFCF4  4E 80 00 20 */	blr 
+/* 801047D4 000FFCF4  4E 80 00 20 */	blr
 
 glabel add_attr
 /* 801047D8 000FFCF8  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -966,7 +966,7 @@ glabel add_attr
 /* 80104894 000FFDB4  38 A5 02 78 */	addi r5, r5, lbl_801A0278@l
 /* 80104898 000FFDB8  7C A5 20 2E */	lwzx r5, r5, r4
 /* 8010489C 000FFDBC  7C A9 03 A6 */	mtctr r5
-/* 801048A0 000FFDC0  4E 80 04 20 */	bctr 
+/* 801048A0 000FFDC0  4E 80 04 20 */	bctr
 
 glabel lbl_801048A4
 /* 801048A4 000FFDC4  2C 1C 00 00 */	cmpwi r28, 0
@@ -1324,5 +1324,5 @@ glabel lbl_80104CD8
 /* 80104D60 00100280  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80104D64 00100284  7C 08 03 A6 */	mtlr r0
 /* 80104D68 00100288  38 21 00 40 */	addi r1, r1, 0x40
-/* 80104D6C 0010028C  4E 80 00 20 */	blr 
+/* 80104D6C 0010028C  4E 80 00 20 */	blr
 

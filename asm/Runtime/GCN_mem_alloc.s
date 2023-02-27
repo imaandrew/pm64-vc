@@ -49,7 +49,7 @@ glabel __sys_alloc
 /* 8015EB78 0015A098  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8015EB7C 0015A09C  7C 08 03 A6 */	mtlr r0
 /* 8015EB80 0015A0A0  38 21 00 20 */	addi r1, r1, 0x20
-/* 8015EB84 0015A0A4  4E 80 00 20 */	blr 
+/* 8015EB84 0015A0A4  4E 80 00 20 */	blr
 
 glabel __sys_free
 /* 8015EB88 0015A0A8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -98,5 +98,5 @@ glabel __sys_free
 /* 8015EC30 0015A150  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8015EC34 0015A154  7C 08 03 A6 */	mtlr r0
 /* 8015EC38 0015A158  38 21 00 20 */	addi r1, r1, 0x20
-/* 8015EC3C 0015A15C  4E 80 00 20 */	blr 
+/* 8015EC3C 0015A15C  4E 80 00 20 */	blr
 

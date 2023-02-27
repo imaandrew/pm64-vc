@@ -85,7 +85,7 @@ glabel GXAdjustForOverscan
 /* 800A6AC0 000A1FE0  A0 03 00 0C */	lhz r0, 0xc(r3)
 /* 800A6AC4 000A1FE4  7C 00 32 14 */	add r0, r0, r6
 /* 800A6AC8 000A1FE8  B0 04 00 0C */	sth r0, 0xc(r4)
-/* 800A6ACC 000A1FEC  4E 80 00 20 */	blr 
+/* 800A6ACC 000A1FEC  4E 80 00 20 */	blr
 
 glabel GXSetDispCopySrc
 /* 800A6AD0 000A1FF0  38 E0 00 00 */	li r7, 0
@@ -103,7 +103,7 @@ glabel GXSetDispCopySrc
 /* 800A6B00 000A2020  90 E5 02 30 */	stw r7, 0x230(r5)
 /* 800A6B04 000A2024  50 03 C0 0E */	rlwimi r3, r0, 0x18, 0, 7
 /* 800A6B08 000A2028  90 65 02 34 */	stw r3, 0x234(r5)
-/* 800A6B0C 000A202C  4E 80 00 20 */	blr 
+/* 800A6B0C 000A202C  4E 80 00 20 */	blr
 
 glabel GXSetTexCopySrc
 /* 800A6B10 000A2030  38 E0 00 00 */	li r7, 0
@@ -121,7 +121,7 @@ glabel GXSetTexCopySrc
 /* 800A6B40 000A2060  90 E5 02 40 */	stw r7, 0x240(r5)
 /* 800A6B44 000A2064  50 03 C0 0E */	rlwimi r3, r0, 0x18, 0, 7
 /* 800A6B48 000A2068  90 65 02 44 */	stw r3, 0x244(r5)
-/* 800A6B4C 000A206C  4E 80 00 20 */	blr 
+/* 800A6B4C 000A206C  4E 80 00 20 */	blr
 
 glabel GXSetDispCopyDst
 /* 800A6B50 000A2070  54 60 0C 3C */	rlwinm r0, r3, 1, 0x10, 0x1e
@@ -132,7 +132,7 @@ glabel GXSetDispCopyDst
 /* 800A6B64 000A2084  38 00 00 4D */	li r0, 0x4d
 /* 800A6B68 000A2088  50 03 C0 0E */	rlwimi r3, r0, 0x18, 0, 7
 /* 800A6B6C 000A208C  90 64 02 38 */	stw r3, 0x238(r4)
-/* 800A6B70 000A2090  4E 80 00 20 */	blr 
+/* 800A6B70 000A2090  4E 80 00 20 */	blr
 
 glabel GXSetCopyDst
 /* 800A6B74 000A2094  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -209,7 +209,7 @@ glabel GXSetCopyDst
 /* 800A6C80 000A21A0  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800A6C84 000A21A4  7C 08 03 A6 */	mtlr r0
 /* 800A6C88 000A21A8  38 21 00 30 */	addi r1, r1, 0x30
-/* 800A6C8C 000A21AC  4E 80 00 20 */	blr 
+/* 800A6C8C 000A21AC  4E 80 00 20 */	blr
 
 glabel GXSetDispCopyFrame2Field
 /* 800A6C90 000A21B0  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
@@ -219,7 +219,7 @@ glabel GXSetDispCopyFrame2Field
 /* 800A6CA0 000A21C0  80 04 02 4C */	lwz r0, 0x24c(r4)
 /* 800A6CA4 000A21C4  54 00 05 22 */	rlwinm r0, r0, 0, 0x14, 0x11
 /* 800A6CA8 000A21C8  90 04 02 4C */	stw r0, 0x24c(r4)
-/* 800A6CAC 000A21CC  4E 80 00 20 */	blr 
+/* 800A6CAC 000A21CC  4E 80 00 20 */	blr
 
 glabel GXSetCopyClamp
 /* 800A6CB0 000A21D0  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
@@ -231,7 +231,7 @@ glabel GXSetCopyClamp
 /* 800A6CC8 000A21E8  50 60 07 FE */	rlwimi r0, r3, 0, 0x1f, 0x1f
 /* 800A6CCC 000A21EC  50 60 07 BC */	rlwimi r0, r3, 0, 0x1e, 0x1e
 /* 800A6CD0 000A21F0  90 04 02 4C */	stw r0, 0x24c(r4)
-/* 800A6CD4 000A21F4  4E 80 00 20 */	blr 
+/* 800A6CD4 000A21F4  4E 80 00 20 */	blr
 
 glabel GXGetNumXfbLines
 /* 800A6CD8 000A21F8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -272,7 +272,7 @@ glabel GXGetNumXfbLines
 /* 800A6D54 000A2274  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A6D58 000A2278  7C 08 03 A6 */	mtlr r0
 /* 800A6D5C 000A227C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A6D60 000A2280  4E 80 00 20 */	blr 
+/* 800A6D60 000A2280  4E 80 00 20 */	blr
 
 glabel GXGetYScaleFactor
 /* 800A6D64 000A2284  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -428,7 +428,7 @@ glabel GXGetYScaleFactor
 /* 800A6F84 000A24A4  80 01 00 74 */	lwz r0, 0x74(r1)
 /* 800A6F88 000A24A8  7C 08 03 A6 */	mtlr r0
 /* 800A6F8C 000A24AC  38 21 00 70 */	addi r1, r1, 0x70
-/* 800A6F90 000A24B0  4E 80 00 20 */	blr 
+/* 800A6F90 000A24B0  4E 80 00 20 */	blr
 
 glabel GXSetDispCopyYScale
 /* 800A6F94 000A24B4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -485,7 +485,7 @@ glabel GXSetDispCopyYScale
 /* 800A7050 000A2570  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800A7054 000A2574  7C 08 03 A6 */	mtlr r0
 /* 800A7058 000A2578  38 21 00 10 */	addi r1, r1, 0x10
-/* 800A705C 000A257C  4E 80 00 20 */	blr 
+/* 800A705C 000A257C  4E 80 00 20 */	blr
 
 glabel GXSetCopyClear
 /* 800A7060 000A2580  88 C3 00 00 */	lbz r6, 0(r3)
@@ -517,7 +517,7 @@ glabel GXSetCopyClear
 /* 800A70C8 000A25E8  99 07 80 00 */	stb r8, -0x8000(r7)
 /* 800A70CC 000A25EC  90 A7 80 00 */	stw r5, -0x8000(r7)
 /* 800A70D0 000A25F0  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A70D4 000A25F4  4E 80 00 20 */	blr 
+/* 800A70D4 000A25F4  4E 80 00 20 */	blr
 
 glabel GXSetCopyFilter
 /* 800A70D8 000A25F8  2C 03 00 00 */	cmpwi r3, 0
@@ -644,14 +644,14 @@ glabel GXSetCopyFilter
 /* 800A72AC 000A27CC  98 A4 80 00 */	stb r5, -0x8000(r4)
 /* 800A72B0 000A27D0  91 84 80 00 */	stw r12, -0x8000(r4)
 /* 800A72B4 000A27D4  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A72B8 000A27D8  4E 80 00 20 */	blr 
+/* 800A72B8 000A27D8  4E 80 00 20 */	blr
 
 glabel GXSetDispCopyGamma
 /* 800A72BC 000A27DC  80 82 86 40 */	lwz r4, lbl_80247E40@sda21(r2)
 /* 800A72C0 000A27E0  80 04 02 3C */	lwz r0, 0x23c(r4)
 /* 800A72C4 000A27E4  50 60 3D F0 */	rlwimi r0, r3, 7, 0x17, 0x18
 /* 800A72C8 000A27E8  90 04 02 3C */	stw r0, 0x23c(r4)
-/* 800A72CC 000A27EC  4E 80 00 20 */	blr 
+/* 800A72CC 000A27EC  4E 80 00 20 */	blr
 
 glabel GXCopyDisp
 /* 800A72D0 000A27F0  2C 04 00 00 */	cmpwi r4, 0
@@ -737,7 +737,7 @@ glabel GXCopyDisp
 .L_800A7400:
 /* 800A7400 000A2920  38 00 00 00 */	li r0, 0
 /* 800A7404 000A2924  B0 05 00 02 */	sth r0, 2(r5)
-/* 800A7408 000A2928  4E 80 00 20 */	blr 
+/* 800A7408 000A2928  4E 80 00 20 */	blr
 
 glabel GXCopyTex
 /* 800A740C 000A292C  2C 04 00 00 */	cmpwi r4, 0
@@ -832,7 +832,7 @@ glabel GXCopyTex
 .L_800A7558:
 /* 800A7558 000A2A78  38 00 00 00 */	li r0, 0
 /* 800A755C 000A2A7C  B0 09 00 02 */	sth r0, 2(r9)
-/* 800A7560 000A2A80  4E 80 00 20 */	blr 
+/* 800A7560 000A2A80  4E 80 00 20 */	blr
 
 glabel GXClearBoundingBox
 /* 800A7564 000A2A84  3C A0 CC 01 */	lis r5, 0xCC008000@ha
@@ -848,5 +848,5 @@ glabel GXClearBoundingBox
 /* 800A758C 000A2AAC  38 00 00 00 */	li r0, 0
 /* 800A7590 000A2AB0  90 85 80 00 */	stw r4, -0x8000(r5)
 /* 800A7594 000A2AB4  B0 03 00 02 */	sth r0, 2(r3)
-/* 800A7598 000A2AB8  4E 80 00 20 */	blr 
+/* 800A7598 000A2AB8  4E 80 00 20 */	blr
 

@@ -69,7 +69,7 @@ glabel TRKReadBuffer_ui32
 /* 8016F064 0016A584  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8016F068 0016A588  7C 08 03 A6 */	mtlr r0
 /* 8016F06C 0016A58C  38 21 00 30 */	addi r1, r1, 0x30
-/* 8016F070 0016A590  4E 80 00 20 */	blr 
+/* 8016F070 0016A590  4E 80 00 20 */	blr
 
 glabel TRKReadBuffer_ui8
 /* 8016F074 0016A594  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -113,7 +113,7 @@ glabel TRKReadBuffer_ui8
 /* 8016F0FC 0016A61C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8016F100 0016A620  7C 08 03 A6 */	mtlr r0
 /* 8016F104 0016A624  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016F108 0016A628  4E 80 00 20 */	blr 
+/* 8016F108 0016A628  4E 80 00 20 */	blr
 
 glabel TRKReadBuffer1_ui64
 /* 8016F10C 0016A62C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -177,7 +177,7 @@ glabel TRKReadBuffer1_ui64
 /* 8016F1E4 0016A704  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8016F1E8 0016A708  7C 08 03 A6 */	mtlr r0
 /* 8016F1EC 0016A70C  38 21 00 30 */	addi r1, r1, 0x30
-/* 8016F1F0 0016A710  4E 80 00 20 */	blr 
+/* 8016F1F0 0016A710  4E 80 00 20 */	blr
 
 glabel TRKAppendBuffer_ui32
 /* 8016F1F4 0016A714  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -250,7 +250,7 @@ glabel TRKAppendBuffer_ui32
 /* 8016F2E0 0016A800  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8016F2E4 0016A804  7C 08 03 A6 */	mtlr r0
 /* 8016F2E8 0016A808  38 21 00 30 */	addi r1, r1, 0x30
-/* 8016F2EC 0016A80C  4E 80 00 20 */	blr 
+/* 8016F2EC 0016A80C  4E 80 00 20 */	blr
 
 glabel TRKAppendBuffer_ui8
 /* 8016F2F0 0016A810  39 20 00 00 */	li r9, 0
@@ -283,7 +283,7 @@ glabel TRKAppendBuffer_ui8
 /* 8016F34C 0016A86C  41 80 FF B0 */	blt .L_8016F2FC
 .L_8016F350:
 /* 8016F350 0016A870  7C 03 03 78 */	mr r3, r0
-/* 8016F354 0016A874  4E 80 00 20 */	blr 
+/* 8016F354 0016A874  4E 80 00 20 */	blr
 
 glabel TRKAppendBuffer1_ui64
 /* 8016F358 0016A878  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -353,7 +353,7 @@ glabel TRKAppendBuffer1_ui64
 /* 8016F444 0016A964  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8016F448 0016A968  7C 08 03 A6 */	mtlr r0
 /* 8016F44C 0016A96C  38 21 00 30 */	addi r1, r1, 0x30
-/* 8016F450 0016A970  4E 80 00 20 */	blr 
+/* 8016F450 0016A970  4E 80 00 20 */	blr
 
 glabel TRKReadBuffer
 /* 8016F454 0016A974  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -393,7 +393,7 @@ glabel TRKReadBuffer
 /* 8016F4D0 0016A9F0  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8016F4D4 0016A9F4  7C 08 03 A6 */	mtlr r0
 /* 8016F4D8 0016A9F8  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016F4DC 0016A9FC  4E 80 00 20 */	blr 
+/* 8016F4DC 0016A9FC  4E 80 00 20 */	blr
 
 glabel TRKAppendBuffer
 /* 8016F4E0 0016AA00  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -441,7 +441,7 @@ glabel TRKAppendBuffer
 /* 8016F574 0016AA94  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8016F578 0016AA98  7C 08 03 A6 */	mtlr r0
 /* 8016F57C 0016AA9C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016F580 0016AAA0  4E 80 00 20 */	blr 
+/* 8016F580 0016AAA0  4E 80 00 20 */	blr
 
 glabel TRKSetBufferPosition
 /* 8016F584 0016AAA4  28 04 08 80 */	cmplwi r4, 0x880
@@ -457,7 +457,7 @@ glabel TRKSetBufferPosition
 /* 8016F5A8 0016AAC8  90 83 00 08 */	stw r4, 8(r3)
 .L_8016F5AC:
 /* 8016F5AC 0016AACC  7C A3 2B 78 */	mr r3, r5
-/* 8016F5B0 0016AAD0  4E 80 00 20 */	blr 
+/* 8016F5B0 0016AAD0  4E 80 00 20 */	blr
 
 glabel TRKResetBuffer
 /* 8016F5B4 0016AAD4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -476,7 +476,7 @@ glabel TRKResetBuffer
 /* 8016F5E4 0016AB04  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8016F5E8 0016AB08  7C 08 03 A6 */	mtlr r0
 /* 8016F5EC 0016AB0C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8016F5F0 0016AB10  4E 80 00 20 */	blr 
+/* 8016F5F0 0016AB10  4E 80 00 20 */	blr
 
 glabel TRKReleaseBuffer
 /* 8016F5F4 0016AB14  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -504,7 +504,7 @@ glabel TRKReleaseBuffer
 /* 8016F648 0016AB68  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8016F64C 0016AB6C  7C 08 03 A6 */	mtlr r0
 /* 8016F650 0016AB70  38 21 00 10 */	addi r1, r1, 0x10
-/* 8016F654 0016AB74  4E 80 00 20 */	blr 
+/* 8016F654 0016AB74  4E 80 00 20 */	blr
 
 glabel TRKGetBuffer
 /* 8016F658 0016AB78  2C 03 00 00 */	cmpwi r3, 0
@@ -518,7 +518,7 @@ glabel TRKGetBuffer
 /* 8016F678 0016AB98  7C 00 22 14 */	add r0, r0, r4
 .L_8016F67C:
 /* 8016F67C 0016AB9C  7C 03 03 78 */	mr r3, r0
-/* 8016F680 0016ABA0  4E 80 00 20 */	blr 
+/* 8016F680 0016ABA0  4E 80 00 20 */	blr
 
 glabel TRKGetFreeBuffer
 /* 8016F684 0016ABA4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -575,7 +575,7 @@ glabel TRKGetFreeBuffer
 /* 8016F73C 0016AC5C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8016F740 0016AC60  7C 08 03 A6 */	mtlr r0
 /* 8016F744 0016AC64  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016F748 0016AC68  4E 80 00 20 */	blr 
+/* 8016F748 0016AC68  4E 80 00 20 */	blr
 
 glabel TRKInitializeMessageBuffers
 /* 8016F74C 0016AC6C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -607,7 +607,7 @@ glabel TRKInitializeMessageBuffers
 /* 8016F7B0 0016ACD0  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8016F7B4 0016ACD4  7C 08 03 A6 */	mtlr r0
 /* 8016F7B8 0016ACD8  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016F7BC 0016ACDC  4E 80 00 20 */	blr 
+/* 8016F7BC 0016ACDC  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

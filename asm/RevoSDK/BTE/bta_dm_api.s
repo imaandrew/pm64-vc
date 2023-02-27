@@ -38,7 +38,7 @@ glabel BTA_EnableBluetooth
 /* 800E0280 000DB7A0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800E0284 000DB7A4  7C 08 03 A6 */	mtlr r0
 /* 800E0288 000DB7A8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E028C 000DB7AC  4E 80 00 20 */	blr 
+/* 800E028C 000DB7AC  4E 80 00 20 */	blr
 
 glabel BTA_DisableBluetooth
 /* 800E0290 000DB7B0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -55,7 +55,7 @@ glabel BTA_DisableBluetooth
 /* 800E02B8 000DB7D8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800E02BC 000DB7DC  7C 08 03 A6 */	mtlr r0
 /* 800E02C0 000DB7E0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E02C4 000DB7E4  4E 80 00 20 */	blr 
+/* 800E02C4 000DB7E4  4E 80 00 20 */	blr
 
 glabel BTA_DmIsDeviceUp
 /* 800E02C8 000DB7E8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -71,7 +71,7 @@ glabel BTA_DmIsDeviceUp
 /* 800E02F0 000DB810  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800E02F4 000DB814  7C 08 03 A6 */	mtlr r0
 /* 800E02F8 000DB818  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E02FC 000DB81C  4E 80 00 20 */	blr 
+/* 800E02FC 000DB81C  4E 80 00 20 */	blr
 
 glabel BTA_DmSetDeviceName
 /* 800E0300 000DB820  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -99,7 +99,7 @@ glabel BTA_DmSetDeviceName
 /* 800E0354 000DB874  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800E0358 000DB878  7C 08 03 A6 */	mtlr r0
 /* 800E035C 000DB87C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E0360 000DB880  4E 80 00 20 */	blr 
+/* 800E0360 000DB880  4E 80 00 20 */	blr
 
 glabel BTA_DmSetVisibility
 /* 800E0364 000DB884  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -124,7 +124,7 @@ glabel BTA_DmSetVisibility
 /* 800E03AC 000DB8CC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800E03B0 000DB8D0  7C 08 03 A6 */	mtlr r0
 /* 800E03B4 000DB8D4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E03B8 000DB8D8  4E 80 00 20 */	blr 
+/* 800E03B8 000DB8D8  4E 80 00 20 */	blr
 
 glabel BTA_DmSearch
 /* 800E03BC 000DB8DC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -160,7 +160,7 @@ glabel BTA_DmSearch
 /* 800E0430 000DB950  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800E0434 000DB954  7C 08 03 A6 */	mtlr r0
 /* 800E0438 000DB958  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E043C 000DB95C  4E 80 00 20 */	blr 
+/* 800E043C 000DB95C  4E 80 00 20 */	blr
 
 glabel BTA_DmSearchCancel
 /* 800E0440 000DB960  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -177,7 +177,7 @@ glabel BTA_DmSearchCancel
 /* 800E0468 000DB988  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800E046C 000DB98C  7C 08 03 A6 */	mtlr r0
 /* 800E0470 000DB990  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E0474 000DB994  4E 80 00 20 */	blr 
+/* 800E0474 000DB994  4E 80 00 20 */	blr
 
 glabel BTA_DmPinReply
 /* 800E0478 000DB998  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -216,7 +216,7 @@ glabel BTA_DmPinReply
 /* 800E04F4 000DBA14  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800E04F8 000DBA18  7C 08 03 A6 */	mtlr r0
 /* 800E04FC 000DBA1C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E0500 000DBA20  4E 80 00 20 */	blr 
+/* 800E0500 000DBA20  4E 80 00 20 */	blr
 
 glabel BTA_DmAddDevice
 /* 800E0504 000DBA24  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -282,7 +282,7 @@ glabel BTA_DmAddDevice
 /* 800E05E4 000DBB04  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800E05E8 000DBB08  7C 08 03 A6 */	mtlr r0
 /* 800E05EC 000DBB0C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800E05F0 000DBB10  4E 80 00 20 */	blr 
+/* 800E05F0 000DBB10  4E 80 00 20 */	blr
 
 glabel BTA_DmRemoveDevice
 /* 800E05F4 000DBB14  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -302,7 +302,7 @@ glabel BTA_DmRemoveDevice
 /* 800E062C 000DBB4C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800E0630 000DBB50  7C 08 03 A6 */	mtlr r0
 /* 800E0634 000DBB54  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E0638 000DBB58  4E 80 00 20 */	blr 
+/* 800E0638 000DBB58  4E 80 00 20 */	blr
 
 glabel BTA_DmSendHciReset
 /* 800E063C 000DBB5C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -319,5 +319,5 @@ glabel BTA_DmSendHciReset
 /* 800E0664 000DBB84  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800E0668 000DBB88  7C 08 03 A6 */	mtlr r0
 /* 800E066C 000DBB8C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E0670 000DBB90  4E 80 00 20 */	blr 
+/* 800E0670 000DBB90  4E 80 00 20 */	blr
 

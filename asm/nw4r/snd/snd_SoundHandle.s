@@ -35,7 +35,7 @@ glabel detail_AttachSound__Q36nw4hbm3snd11SoundHandleFPQ46nw4hbm3snd6detail10Bas
 /* 8013C85C 00137D7C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8013C860 00137D80  7C 08 03 A6 */	mtlr r0
 /* 8013C864 00137D84  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013C868 00137D88  4E 80 00 20 */	blr 
+/* 8013C868 00137D88  4E 80 00 20 */	blr
 
 glabel DetachSound__Q36nw4hbm3snd11SoundHandleFv
 /* 8013C86C 00137D8C  80 83 00 00 */	lwz r4, 0(r3)
@@ -56,8 +56,8 @@ glabel DetachSound__Q36nw4hbm3snd11SoundHandleFv
 .L_8013C8A4:
 /* 8013C8A4 00137DC4  80 03 00 00 */	lwz r0, 0(r3)
 /* 8013C8A8 00137DC8  2C 00 00 00 */	cmpwi r0, 0
-/* 8013C8AC 00137DCC  4D 82 00 20 */	beqlr 
+/* 8013C8AC 00137DCC  4D 82 00 20 */	beqlr
 /* 8013C8B0 00137DD0  38 00 00 00 */	li r0, 0
 /* 8013C8B4 00137DD4  90 03 00 00 */	stw r0, 0(r3)
-/* 8013C8B8 00137DD8  4E 80 00 20 */	blr 
+/* 8013C8B8 00137DD8  4E 80 00 20 */	blr
 

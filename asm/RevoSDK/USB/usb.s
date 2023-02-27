@@ -46,7 +46,7 @@ glabel USB_LOG
 /* 800D3E94 000CF3B4  83 E1 00 7C */	lwz r31, 0x7c(r1)
 /* 800D3E98 000CF3B8  7C 08 03 A6 */	mtlr r0
 /* 800D3E9C 000CF3BC  38 21 00 80 */	addi r1, r1, 0x80
-/* 800D3EA0 000CF3C0  4E 80 00 20 */	blr 
+/* 800D3EA0 000CF3C0  4E 80 00 20 */	blr
 
 glabel USB_ERR
 /* 800D3EA4 000CF3C4  94 21 FF 80 */	stwu r1, -0x80(r1)
@@ -93,7 +93,7 @@ glabel USB_ERR
 /* 800D3F40 000CF460  83 E1 00 7C */	lwz r31, 0x7c(r1)
 /* 800D3F44 000CF464  7C 08 03 A6 */	mtlr r0
 /* 800D3F48 000CF468  38 21 00 80 */	addi r1, r1, 0x80
-/* 800D3F4C 000CF46C  4E 80 00 20 */	blr 
+/* 800D3F4C 000CF46C  4E 80 00 20 */	blr
 
 glabel IUSB_OpenLib
 /* 800D3F50 000CF470  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -161,11 +161,11 @@ glabel IUSB_OpenLib
 /* 800D4038 000CF558  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D403C 000CF55C  7C 08 03 A6 */	mtlr r0
 /* 800D4040 000CF560  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D4044 000CF564  4E 80 00 20 */	blr 
+/* 800D4044 000CF564  4E 80 00 20 */	blr
 
 glabel IUSB_CloseLib
 /* 800D4048 000CF568  38 60 00 00 */	li r3, 0
-/* 800D404C 000CF56C  4E 80 00 20 */	blr 
+/* 800D404C 000CF56C  4E 80 00 20 */	blr
 
 glabel _intrBlkCtrlIsoCb
 /* 800D4050 000CF570  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -239,7 +239,7 @@ glabel _intrBlkCtrlIsoCb
 /* 800D414C 000CF66C  7F 43 D3 78 */	mr r3, r26
 /* 800D4150 000CF670  80 9B 00 04 */	lwz r4, 4(r27)
 /* 800D4154 000CF674  7D 89 03 A6 */	mtctr r12
-/* 800D4158 000CF678  4E 80 04 21 */	bctrl 
+/* 800D4158 000CF678  4E 80 04 21 */	bctrl
 .L_800D415C:
 /* 800D415C 000CF67C  2C 1B 00 00 */	cmpwi r27, 0
 /* 800D4160 000CF680  41 82 00 30 */	beq .L_800D4190
@@ -261,7 +261,7 @@ glabel _intrBlkCtrlIsoCb
 /* 800D419C 000CF6BC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D41A0 000CF6C0  7C 08 03 A6 */	mtlr r0
 /* 800D41A4 000CF6C4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D41A8 000CF6C8  4E 80 00 20 */	blr 
+/* 800D41A8 000CF6C8  4E 80 00 20 */	blr
 
 glabel IUSB_OpenDeviceIds
 /* 800D41AC 000CF6CC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -345,7 +345,7 @@ glabel IUSB_OpenDeviceIds
 /* 800D42D0 000CF7F0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D42D4 000CF7F4  7C 08 03 A6 */	mtlr r0
 /* 800D42D8 000CF7F8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D42DC 000CF7FC  4E 80 00 20 */	blr 
+/* 800D42DC 000CF7FC  4E 80 00 20 */	blr
 
 glabel IUSB_CloseDeviceAsync
 /* 800D42E0 000CF800  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -419,7 +419,7 @@ glabel IUSB_CloseDeviceAsync
 /* 800D43E4 000CF904  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D43E8 000CF908  7C 08 03 A6 */	mtlr r0
 /* 800D43EC 000CF90C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D43F0 000CF910  4E 80 00 20 */	blr 
+/* 800D43F0 000CF910  4E 80 00 20 */	blr
 
 glabel __IntrBlkMsgInt
 /* 800D43F4 000CF914  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -636,7 +636,7 @@ glabel __IntrBlkMsgInt
 /* 800D4710 000CFC30  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800D4714 000CFC34  7C 08 03 A6 */	mtlr r0
 /* 800D4718 000CFC38  38 21 00 40 */	addi r1, r1, 0x40
-/* 800D471C 000CFC3C  4E 80 00 20 */	blr 
+/* 800D471C 000CFC3C  4E 80 00 20 */	blr
 
 glabel IUSB_ReadIntrMsgAsync
 /* 800D4720 000CFC40  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -667,7 +667,7 @@ glabel IUSB_ReadIntrMsgAsync
 /* 800D4784 000CFCA4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D4788 000CFCA8  7C 08 03 A6 */	mtlr r0
 /* 800D478C 000CFCAC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D4790 000CFCB0  4E 80 00 20 */	blr 
+/* 800D4790 000CFCB0  4E 80 00 20 */	blr
 
 glabel IUSB_ReadBlkMsgAsync
 /* 800D4794 000CFCB4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -698,7 +698,7 @@ glabel IUSB_ReadBlkMsgAsync
 /* 800D47F8 000CFD18  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D47FC 000CFD1C  7C 08 03 A6 */	mtlr r0
 /* 800D4800 000CFD20  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D4804 000CFD24  4E 80 00 20 */	blr 
+/* 800D4804 000CFD24  4E 80 00 20 */	blr
 
 glabel IUSB_WriteBlkMsgAsync
 /* 800D4808 000CFD28  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -729,7 +729,7 @@ glabel IUSB_WriteBlkMsgAsync
 /* 800D486C 000CFD8C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800D4870 000CFD90  7C 08 03 A6 */	mtlr r0
 /* 800D4874 000CFD94  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D4878 000CFD98  4E 80 00 20 */	blr 
+/* 800D4878 000CFD98  4E 80 00 20 */	blr
 
 glabel __CtrlMsgInt
 /* 800D487C 000CFD9C  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -1111,7 +1111,7 @@ glabel __CtrlMsgInt
 /* 800D4E00 000D0320  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 800D4E04 000D0324  7C 08 03 A6 */	mtlr r0
 /* 800D4E08 000D0328  38 21 00 50 */	addi r1, r1, 0x50
-/* 800D4E0C 000D032C  4E 80 00 20 */	blr 
+/* 800D4E0C 000D032C  4E 80 00 20 */	blr
 
 glabel IUSB_WriteCtrlMsgAsync
 /* 800D4E10 000D0330  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1148,7 +1148,7 @@ glabel IUSB_WriteCtrlMsgAsync
 /* 800D4E8C 000D03AC  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 800D4E90 000D03B0  7C 08 03 A6 */	mtlr r0
 /* 800D4E94 000D03B4  38 21 00 40 */	addi r1, r1, 0x40
-/* 800D4E98 000D03B8  4E 80 00 20 */	blr 
+/* 800D4E98 000D03B8  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

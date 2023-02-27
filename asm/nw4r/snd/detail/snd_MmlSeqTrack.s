@@ -32,7 +32,7 @@ glabel __ct__Q46nw4hbm3snd6detail11MmlSeqTrackFv
 /* 80131F14 0012D434  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80131F18 0012D438  7C 08 03 A6 */	mtlr r0
 /* 80131F1C 0012D43C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80131F20 0012D440  4E 80 00 20 */	blr 
+/* 80131F20 0012D440  4E 80 00 20 */	blr
 
 glabel Parse__Q46nw4hbm3snd6detail11MmlSeqTrackFb
 /* 80131F24 0012D444  7C 60 1B 78 */	mr r0, r3
@@ -58,5 +58,5 @@ glabel __dt__Q46nw4hbm3snd6detail11MmlSeqTrackFv
 /* 80131F68 0012D488  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80131F6C 0012D48C  7C 08 03 A6 */	mtlr r0
 /* 80131F70 0012D490  38 21 00 10 */	addi r1, r1, 0x10
-/* 80131F74 0012D494  4E 80 00 20 */	blr 
+/* 80131F74 0012D494  4E 80 00 20 */	blr
 

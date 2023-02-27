@@ -6,7 +6,7 @@ glabel OSSetCurrentHeap
 /* 800905F8 0008BB18  80 0D 82 38 */	lwz r0, lbl_802466B8@sda21(r13)
 /* 800905FC 0008BB1C  90 6D 82 38 */	stw r3, lbl_802466B8@sda21(r13)
 /* 80090600 0008BB20  7C 03 03 78 */	mr r3, r0
-/* 80090604 0008BB24  4E 80 00 20 */	blr 
+/* 80090604 0008BB24  4E 80 00 20 */	blr
 
 glabel OSInitAlloc
 /* 80090608 0008BB28  1C E5 00 0C */	mulli r7, r5, 0xc
@@ -38,7 +38,7 @@ glabel OSInitAlloc
 /* 80090668 0008BB88  90 8D 82 38 */	stw r4, lbl_802466B8@sda21(r13)
 /* 8009066C 0008BB8C  54 03 00 34 */	rlwinm r3, r0, 0, 0, 0x1a
 /* 80090670 0008BB90  90 6D 8C 9C */	stw r3, lbl_8024711C@sda21(r13)
-/* 80090674 0008BB94  4E 80 00 20 */	blr 
+/* 80090674 0008BB94  4E 80 00 20 */	blr
 
 glabel OSCreateHeap
 /* 80090678 0008BB98  80 CD 8C A0 */	lwz r6, lbl_80247120@sda21(r13)
@@ -63,14 +63,14 @@ glabel OSCreateHeap
 /* 800906C0 0008BBE0  90 07 00 08 */	stw r0, 8(r7)
 /* 800906C4 0008BBE4  90 E5 00 04 */	stw r7, 4(r5)
 /* 800906C8 0008BBE8  90 85 00 08 */	stw r4, 8(r5)
-/* 800906CC 0008BBEC  4E 80 00 20 */	blr 
+/* 800906CC 0008BBEC  4E 80 00 20 */	blr
 .L_800906D0:
 /* 800906D0 0008BBF0  38 A5 00 0C */	addi r5, r5, 0xc
 /* 800906D4 0008BBF4  38 63 00 01 */	addi r3, r3, 1
 /* 800906D8 0008BBF8  42 00 FF C4 */	bdnz .L_8009069C
 .L_800906DC:
 /* 800906DC 0008BBFC  38 60 FF FF */	li r3, -1
-/* 800906E0 0008BC00  4E 80 00 20 */	blr 
+/* 800906E0 0008BC00  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

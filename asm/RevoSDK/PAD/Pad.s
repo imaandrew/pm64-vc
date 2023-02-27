@@ -115,7 +115,7 @@ glabel UpdateOrigin
 /* 800C245C 000BD97C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800C2460 000BD980  7C 08 03 A6 */	mtlr r0
 /* 800C2464 000BD984  38 21 00 10 */	addi r1, r1, 0x10
-/* 800C2468 000BD988  4E 80 00 20 */	blr 
+/* 800C2468 000BD988  4E 80 00 20 */	blr
 
 glabel PADOriginCallback
 /* 800C246C 000BD98C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -167,7 +167,7 @@ glabel PADOriginCallback
 /* 800C251C 000BDA3C  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 800C2520 000BDA40  7C 08 03 A6 */	mtlr r0
 /* 800C2524 000BDA44  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C2528 000BDA48  4E 80 00 20 */	blr 
+/* 800C2528 000BDA48  4E 80 00 20 */	blr
 
 glabel PADOriginUpdateCallback
 /* 800C252C 000BDA4C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -221,7 +221,7 @@ glabel PADOriginUpdateCallback
 /* 800C25E4 000BDB04  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800C25E8 000BDB08  7C 08 03 A6 */	mtlr r0
 /* 800C25EC 000BDB0C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C25F0 000BDB10  4E 80 00 20 */	blr 
+/* 800C25F0 000BDB10  4E 80 00 20 */	blr
 
 glabel PADProbeCallback
 /* 800C25F4 000BDB14  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -278,7 +278,7 @@ glabel PADProbeCallback
 /* 800C26B8 000BDBD8  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 800C26BC 000BDBDC  7C 08 03 A6 */	mtlr r0
 /* 800C26C0 000BDBE0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C26C4 000BDBE4  4E 80 00 20 */	blr 
+/* 800C26C4 000BDBE4  4E 80 00 20 */	blr
 
 glabel PADTypeAndStatusCallback
 /* 800C26C8 000BDBE8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -490,7 +490,7 @@ glabel PADTypeAndStatusCallback
 /* 800C29D8 000BDEF8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800C29DC 000BDEFC  7C 08 03 A6 */	mtlr r0
 /* 800C29E0 000BDF00  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C29E4 000BDF04  4E 80 00 20 */	blr 
+/* 800C29E4 000BDF04  4E 80 00 20 */	blr
 
 glabel PADReceiveCheckCallback
 /* 800C29E8 000BDF08  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -573,7 +573,7 @@ glabel PADReceiveCheckCallback
 /* 800C2B14 000BE034  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800C2B18 000BE038  7C 08 03 A6 */	mtlr r0
 /* 800C2B1C 000BE03C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C2B20 000BE040  4E 80 00 20 */	blr 
+/* 800C2B20 000BE040  4E 80 00 20 */	blr
 
 glabel PADReset
 /* 800C2B24 000BE044  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -643,7 +643,7 @@ glabel PADReset
 /* 800C2C1C 000BE13C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800C2C20 000BE140  7C 08 03 A6 */	mtlr r0
 /* 800C2C24 000BE144  38 21 00 10 */	addi r1, r1, 0x10
-/* 800C2C28 000BE148  4E 80 00 20 */	blr 
+/* 800C2C28 000BE148  4E 80 00 20 */	blr
 
 glabel PADRecalibrate
 /* 800C2C2C 000BE14C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -714,7 +714,7 @@ glabel PADRecalibrate
 /* 800C2D28 000BE248  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800C2D2C 000BE24C  7C 08 03 A6 */	mtlr r0
 /* 800C2D30 000BE250  38 21 00 10 */	addi r1, r1, 0x10
-/* 800C2D34 000BE254  4E 80 00 20 */	blr 
+/* 800C2D34 000BE254  4E 80 00 20 */	blr
 
 glabel PADInit
 /* 800C2D38 000BE258  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -812,7 +812,7 @@ glabel PADInit
 /* 800C2E84 000BE3A4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800C2E88 000BE3A8  7C 08 03 A6 */	mtlr r0
 /* 800C2E8C 000BE3AC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800C2E90 000BE3B0  4E 80 00 20 */	blr 
+/* 800C2E90 000BE3B0  4E 80 00 20 */	blr
 
 glabel PADRead
 /* 800C2E94 000BE3B4  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -973,7 +973,7 @@ glabel PADRead
 /* 800C30D4 000BE5F4  7E 64 9B 78 */	mr r4, r19
 /* 800C30D8 000BE5F8  38 A1 00 08 */	addi r5, r1, 8
 /* 800C30DC 000BE5FC  7D 89 03 A6 */	mtctr r12
-/* 800C30E0 000BE600  4E 80 04 21 */	bctrl 
+/* 800C30E0 000BE600  4E 80 04 21 */	bctrl
 /* 800C30E4 000BE604  A0 13 00 00 */	lhz r0, 0(r19)
 /* 800C30E8 000BE608  54 00 04 A5 */	rlwinm. r0, r0, 0, 0x12, 0x12
 /* 800C30EC 000BE60C  41 82 00 40 */	beq .L_800C312C
@@ -1011,7 +1011,7 @@ glabel PADRead
 /* 800C3164 000BE684  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 800C3168 000BE688  7C 08 03 A6 */	mtlr r0
 /* 800C316C 000BE68C  38 21 00 50 */	addi r1, r1, 0x50
-/* 800C3170 000BE690  4E 80 00 20 */	blr 
+/* 800C3170 000BE690  4E 80 00 20 */	blr
 
 glabel SPEC0_MakeStatus
 /* 800C3174 000BE694  38 00 00 00 */	li r0, 0
@@ -1085,7 +1085,7 @@ glabel SPEC0_MakeStatus
 /* 800C327C 000BE79C  98 C4 00 03 */	stb r6, 3(r4)
 /* 800C3280 000BE7A0  98 A4 00 04 */	stb r5, 4(r4)
 /* 800C3284 000BE7A4  98 04 00 05 */	stb r0, 5(r4)
-/* 800C3288 000BE7A8  4E 80 00 20 */	blr 
+/* 800C3288 000BE7A8  4E 80 00 20 */	blr
 
 glabel SPEC1_MakeStatus
 /* 800C328C 000BE7AC  38 00 00 00 */	li r0, 0
@@ -1159,7 +1159,7 @@ glabel SPEC1_MakeStatus
 /* 800C3394 000BE8B4  98 C4 00 03 */	stb r6, 3(r4)
 /* 800C3398 000BE8B8  98 A4 00 04 */	stb r5, 4(r4)
 /* 800C339C 000BE8BC  98 04 00 05 */	stb r0, 5(r4)
-/* 800C33A0 000BE8C0  4E 80 00 20 */	blr 
+/* 800C33A0 000BE8C0  4E 80 00 20 */	blr
 
 glabel SPEC2_MakeStatus
 /* 800C33A4 000BE8C4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1536,7 +1536,7 @@ glabel SPEC2_MakeStatus
 /* 800C3914 000BEE34  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800C3918 000BEE38  7C 08 03 A6 */	mtlr r0
 /* 800C391C 000BEE3C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800C3920 000BEE40  4E 80 00 20 */	blr 
+/* 800C3920 000BEE40  4E 80 00 20 */	blr
 
 glabel OnShutdown
 /* 800C3924 000BEE44  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1594,7 +1594,7 @@ glabel OnShutdown
 /* 800C39DC 000BEEFC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800C39E0 000BEF00  7C 08 03 A6 */	mtlr r0
 /* 800C39E4 000BEF04  38 21 00 10 */	addi r1, r1, 0x10
-/* 800C39E8 000BEF08  4E 80 00 20 */	blr 
+/* 800C39E8 000BEF08  4E 80 00 20 */	blr
 
 glabel SamplingHandler
 /* 800C39EC 000BEF0C  94 21 FD 20 */	stwu r1, -0x2e0(r1)
@@ -1611,7 +1611,7 @@ glabel SamplingHandler
 /* 800C3A18 000BEF38  4B FC D8 61 */	bl OSSetCurrentContext
 /* 800C3A1C 000BEF3C  81 8D 92 14 */	lwz r12, lbl_80247694@sda21(r13)
 /* 800C3A20 000BEF40  7D 89 03 A6 */	mtctr r12
-/* 800C3A24 000BEF44  4E 80 04 21 */	bctrl 
+/* 800C3A24 000BEF44  4E 80 04 21 */	bctrl
 /* 800C3A28 000BEF48  38 61 00 08 */	addi r3, r1, 8
 /* 800C3A2C 000BEF4C  4B FC DA 75 */	bl OSClearContext
 /* 800C3A30 000BEF50  7F E3 FB 78 */	mr r3, r31
@@ -1621,7 +1621,7 @@ glabel SamplingHandler
 /* 800C3A3C 000BEF5C  83 E1 02 DC */	lwz r31, 0x2dc(r1)
 /* 800C3A40 000BEF60  7C 08 03 A6 */	mtlr r0
 /* 800C3A44 000BEF64  38 21 02 E0 */	addi r1, r1, 0x2e0
-/* 800C3A48 000BEF68  4E 80 00 20 */	blr 
+/* 800C3A48 000BEF68  4E 80 00 20 */	blr
 
 glabel __PADDisableRecalibration
 /* 800C3A4C 000BEF6C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1647,7 +1647,7 @@ glabel __PADDisableRecalibration
 /* 800C3A98 000BEFB8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800C3A9C 000BEFBC  7C 08 03 A6 */	mtlr r0
 /* 800C3AA0 000BEFC0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800C3AA4 000BEFC4  4E 80 00 20 */	blr 
+/* 800C3AA4 000BEFC4  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

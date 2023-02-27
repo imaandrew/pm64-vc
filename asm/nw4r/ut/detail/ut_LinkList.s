@@ -85,7 +85,7 @@ glabel __dt__Q46nw4hbm2ut6detail12LinkListImplFv
 /* 8014C028 00147548  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8014C02C 0014754C  7C 08 03 A6 */	mtlr r0
 /* 8014C030 00147550  38 21 00 30 */	addi r1, r1, 0x30
-/* 8014C034 00147554  4E 80 00 20 */	blr 
+/* 8014C034 00147554  4E 80 00 20 */	blr
 
 glabel Erase__Q46nw4hbm2ut6detail12LinkListImplFQ56nw4hbm2ut6detail12LinkListImpl8Iterator
 /* 8014C038 00147558  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -174,7 +174,7 @@ glabel Erase__Q46nw4hbm2ut6detail12LinkListImplFQ56nw4hbm2ut6detail12LinkListImp
 /* 8014C164 00147684  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8014C168 00147688  7C 08 03 A6 */	mtlr r0
 /* 8014C16C 0014768C  38 21 00 30 */	addi r1, r1, 0x30
-/* 8014C170 00147690  4E 80 00 20 */	blr 
+/* 8014C170 00147690  4E 80 00 20 */	blr
 
 glabel Clear__Q46nw4hbm2ut6detail12LinkListImplFv
 /* 8014C174 00147694  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -250,7 +250,7 @@ glabel Clear__Q46nw4hbm2ut6detail12LinkListImplFv
 /* 8014C270 00147790  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8014C274 00147794  7C 08 03 A6 */	mtlr r0
 /* 8014C278 00147798  38 21 00 30 */	addi r1, r1, 0x30
-/* 8014C27C 0014779C  4E 80 00 20 */	blr 
+/* 8014C27C 0014779C  4E 80 00 20 */	blr
 
 glabel Insert__Q46nw4hbm2ut6detail12LinkListImplFQ56nw4hbm2ut6detail12LinkListImpl8IteratorPQ36nw4hbm2ut12LinkListNode
 /* 8014C280 001477A0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -320,7 +320,7 @@ glabel Insert__Q46nw4hbm2ut6detail12LinkListImplFQ56nw4hbm2ut6detail12LinkListIm
 /* 8014C36C 0014788C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014C370 00147890  7C 08 03 A6 */	mtlr r0
 /* 8014C374 00147894  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014C378 00147898  4E 80 00 20 */	blr 
+/* 8014C378 00147898  4E 80 00 20 */	blr
 
 glabel Erase__Q46nw4hbm2ut6detail12LinkListImplFPQ36nw4hbm2ut12LinkListNode
 /* 8014C37C 0014789C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -390,5 +390,5 @@ glabel Erase__Q46nw4hbm2ut6detail12LinkListImplFPQ36nw4hbm2ut12LinkListNode
 /* 8014C468 00147988  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014C46C 0014798C  7C 08 03 A6 */	mtlr r0
 /* 8014C470 00147990  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014C474 00147994  4E 80 00 20 */	blr 
+/* 8014C474 00147994  4E 80 00 20 */	blr
 

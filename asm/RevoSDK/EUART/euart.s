@@ -70,7 +70,7 @@ glabel EUARTInit
 /* 800D3B78 000CF098  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 800D3B7C 000CF09C  7C 08 03 A6 */	mtlr r0
 /* 800D3B80 000CF0A0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800D3B84 000CF0A4  4E 80 00 20 */	blr 
+/* 800D3B84 000CF0A4  4E 80 00 20 */	blr
 
 glabel InitializeUART
 /* 800D3B88 000CF0A8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -92,7 +92,7 @@ glabel InitializeUART
 /* 800D3BC0 000CF0E0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800D3BC4 000CF0E4  7C 08 03 A6 */	mtlr r0
 /* 800D3BC8 000CF0E8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800D3BCC 000CF0EC  4E 80 00 20 */	blr 
+/* 800D3BCC 000CF0EC  4E 80 00 20 */	blr
 
 glabel WriteUARTN
 /* 800D3BD0 000CF0F0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -251,7 +251,7 @@ glabel WriteUARTN
 /* 800D3DEC 000CF30C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800D3DF0 000CF310  7C 08 03 A6 */	mtlr r0
 /* 800D3DF4 000CF314  38 21 00 30 */	addi r1, r1, 0x30
-/* 800D3DF8 000CF318  4E 80 00 20 */	blr 
+/* 800D3DF8 000CF318  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

@@ -236,7 +236,7 @@ glabel SDP_InitDiscoveryDb
 /* 8010232C 000FD84C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80102330 000FD850  7C 08 03 A6 */	mtlr r0
 /* 80102334 000FD854  38 21 00 20 */	addi r1, r1, 0x20
-/* 80102338 000FD858  4E 80 00 20 */	blr 
+/* 80102338 000FD858  4E 80 00 20 */	blr
 
 glabel SDP_ServiceSearchRequest
 /* 8010233C 000FD85C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -263,7 +263,7 @@ glabel SDP_ServiceSearchRequest
 /* 80102388 000FD8A8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8010238C 000FD8AC  7C 08 03 A6 */	mtlr r0
 /* 80102390 000FD8B0  38 21 00 10 */	addi r1, r1, 0x10
-/* 80102394 000FD8B4  4E 80 00 20 */	blr 
+/* 80102394 000FD8B4  4E 80 00 20 */	blr
 
 glabel SDP_ServiceSearchAttributeRequest
 /* 80102398 000FD8B8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -292,7 +292,7 @@ glabel SDP_ServiceSearchAttributeRequest
 /* 801023EC 000FD90C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 801023F0 000FD910  7C 08 03 A6 */	mtlr r0
 /* 801023F4 000FD914  38 21 00 10 */	addi r1, r1, 0x10
-/* 801023F8 000FD918  4E 80 00 20 */	blr 
+/* 801023F8 000FD918  4E 80 00 20 */	blr
 
 glabel SDP_FindAttributeInRec
 /* 801023FC 000FD91C  80 63 00 00 */	lwz r3, 0(r3)
@@ -300,13 +300,13 @@ glabel SDP_FindAttributeInRec
 .L_80102404:
 /* 80102404 000FD924  A0 03 00 04 */	lhz r0, 4(r3)
 /* 80102408 000FD928  7C 00 20 40 */	cmplw r0, r4
-/* 8010240C 000FD92C  4D 82 00 20 */	beqlr 
+/* 8010240C 000FD92C  4D 82 00 20 */	beqlr
 /* 80102410 000FD930  80 63 00 00 */	lwz r3, 0(r3)
 .L_80102414:
 /* 80102414 000FD934  2C 03 00 00 */	cmpwi r3, 0
 /* 80102418 000FD938  40 82 FF EC */	bne .L_80102404
 /* 8010241C 000FD93C  38 60 00 00 */	li r3, 0
-/* 80102420 000FD940  4E 80 00 20 */	blr 
+/* 80102420 000FD940  4E 80 00 20 */	blr
 
 glabel SDP_FindServiceInDb
 /* 80102424 000FD944  2C 05 00 00 */	cmpwi r5, 0
@@ -339,7 +339,7 @@ glabel SDP_FindServiceInDb
 /* 80102480 000FD9A0  40 82 00 10 */	bne .L_80102490
 /* 80102484 000FD9A4  A0 06 00 08 */	lhz r0, 8(r6)
 /* 80102488 000FD9A8  7C 00 20 40 */	cmplw r0, r4
-/* 8010248C 000FD9AC  4D 82 00 20 */	beqlr 
+/* 8010248C 000FD9AC  4D 82 00 20 */	beqlr
 .L_80102490:
 /* 80102490 000FD9B0  80 C6 00 00 */	lwz r6, 0(r6)
 .L_80102494:
@@ -358,7 +358,7 @@ glabel SDP_FindServiceInDb
 /* 801024C0 000FD9E0  40 82 00 10 */	bne .L_801024D0
 /* 801024C4 000FD9E4  A0 06 00 08 */	lhz r0, 8(r6)
 /* 801024C8 000FD9E8  7C 00 20 40 */	cmplw r0, r4
-/* 801024CC 000FD9EC  4D 82 00 20 */	beqlr 
+/* 801024CC 000FD9EC  4D 82 00 20 */	beqlr
 .L_801024D0:
 /* 801024D0 000FD9F0  80 C6 00 00 */	lwz r6, 0(r6)
 .L_801024D4:
@@ -370,7 +370,7 @@ glabel SDP_FindServiceInDb
 /* 801024E0 000FDA00  2C 03 00 00 */	cmpwi r3, 0
 /* 801024E4 000FDA04  40 82 FF 58 */	bne .L_8010243C
 /* 801024E8 000FDA08  38 60 00 00 */	li r3, 0
-/* 801024EC 000FDA0C  4E 80 00 20 */	blr 
+/* 801024EC 000FDA0C  4E 80 00 20 */	blr
 
 glabel SDP_FindServiceUUIDInDb
 /* 801024F0 000FDA10  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -450,7 +450,7 @@ glabel SDP_FindServiceUUIDInDb
 /* 801025E8 000FDB08  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 801025EC 000FDB0C  7C 08 03 A6 */	mtlr r0
 /* 801025F0 000FDB10  38 21 00 20 */	addi r1, r1, 0x20
-/* 801025F4 000FDB14  4E 80 00 20 */	blr 
+/* 801025F4 000FDB14  4E 80 00 20 */	blr
 
 glabel SDP_SetLocalDiRecord
 /* 801025F8 000FDB18  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -687,7 +687,7 @@ glabel SDP_SetLocalDiRecord
 /* 80102948 000FDE68  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8010294C 000FDE6C  7C 08 03 A6 */	mtlr r0
 /* 80102950 000FDE70  38 21 00 20 */	addi r1, r1, 0x20
-/* 80102954 000FDE74  4E 80 00 20 */	blr 
+/* 80102954 000FDE74  4E 80 00 20 */	blr
 
 glabel SDP_GetLocalDiRecord
 /* 80102958 000FDE78  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1015,7 +1015,7 @@ glabel SDP_GetLocalDiRecord
 /* 80102DF8 000FE318  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80102DFC 000FE31C  7C 08 03 A6 */	mtlr r0
 /* 80102E00 000FE320  38 21 00 20 */	addi r1, r1, 0x20
-/* 80102E04 000FE324  4E 80 00 20 */	blr 
+/* 80102E04 000FE324  4E 80 00 20 */	blr
 
 glabel SDP_SetTraceLevel
 /* 80102E08 000FE328  28 03 00 FF */	cmplwi r3, 0xff
@@ -1027,5 +1027,5 @@ glabel SDP_SetTraceLevel
 /* 80102E1C 000FE33C  3C 60 80 22 */	lis r3, lbl_80224220@ha
 /* 80102E20 000FE340  38 63 42 20 */	addi r3, r3, lbl_80224220@l
 /* 80102E24 000FE344  88 63 46 30 */	lbz r3, 0x4630(r3)
-/* 80102E28 000FE348  4E 80 00 20 */	blr 
+/* 80102E28 000FE348  4E 80 00 20 */	blr
 

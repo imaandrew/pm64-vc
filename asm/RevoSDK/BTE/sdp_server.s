@@ -94,7 +94,7 @@ glabel sdp_server_handle_client_req
 /* 80105A20 00100F40  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80105A24 00100F44  7C 08 03 A6 */	mtlr r0
 /* 80105A28 00100F48  38 21 00 20 */	addi r1, r1, 0x20
-/* 80105A2C 00100F4C  4E 80 00 20 */	blr 
+/* 80105A2C 00100F4C  4E 80 00 20 */	blr
 
 glabel process_service_search
 /* 80105A30 00100F50  94 21 FE 30 */	stwu r1, -0x1d0(r1)
@@ -378,7 +378,7 @@ glabel process_service_search
 /* 80105E30 00101350  80 01 01 D4 */	lwz r0, 0x1d4(r1)
 /* 80105E34 00101354  7C 08 03 A6 */	mtlr r0
 /* 80105E38 00101358  38 21 01 D0 */	addi r1, r1, 0x1d0
-/* 80105E3C 0010135C  4E 80 00 20 */	blr 
+/* 80105E3C 0010135C  4E 80 00 20 */	blr
 
 glabel process_service_attr_req
 /* 80105E40 00101360  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -626,7 +626,7 @@ glabel process_service_attr_req
 /* 801061C0 001016E0  80 01 00 74 */	lwz r0, 0x74(r1)
 /* 801061C4 001016E4  7C 08 03 A6 */	mtlr r0
 /* 801061C8 001016E8  38 21 00 70 */	addi r1, r1, 0x70
-/* 801061CC 001016EC  4E 80 00 20 */	blr 
+/* 801061CC 001016EC  4E 80 00 20 */	blr
 
 glabel process_service_search_attr_req
 /* 801061D0 001016F0  94 21 FE 10 */	stwu r1, -0x1f0(r1)
@@ -917,5 +917,5 @@ glabel process_service_search_attr_req
 /* 801065DC 00101AFC  80 01 01 F4 */	lwz r0, 0x1f4(r1)
 /* 801065E0 00101B00  7C 08 03 A6 */	mtlr r0
 /* 801065E4 00101B04  38 21 01 F0 */	addi r1, r1, 0x1f0
-/* 801065E8 00101B08  4E 80 00 20 */	blr 
+/* 801065E8 00101B08  4E 80 00 20 */	blr
 

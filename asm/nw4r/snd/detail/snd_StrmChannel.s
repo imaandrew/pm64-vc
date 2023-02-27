@@ -46,7 +46,7 @@ glabel Setup__Q46nw4hbm3snd6detail14StrmBufferPoolFPvUli
 /* 8013EFAC 0013A4CC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8013EFB0 0013A4D0  7C 08 03 A6 */	mtlr r0
 /* 8013EFB4 0013A4D4  38 21 00 20 */	addi r1, r1, 0x20
-/* 8013EFB8 0013A4D8  4E 80 00 20 */	blr 
+/* 8013EFB8 0013A4D8  4E 80 00 20 */	blr
 
 glabel Shutdown__Q46nw4hbm3snd6detail14StrmBufferPoolFv
 /* 8013EFBC 0013A4DC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -65,7 +65,7 @@ glabel Shutdown__Q46nw4hbm3snd6detail14StrmBufferPoolFv
 /* 8013EFF0 0013A510  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8013EFF4 0013A514  7C 08 03 A6 */	mtlr r0
 /* 8013EFF8 0013A518  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013EFFC 0013A51C  4E 80 00 20 */	blr 
+/* 8013EFFC 0013A51C  4E 80 00 20 */	blr
 
 glabel Alloc__Q46nw4hbm3snd6detail14StrmBufferPoolFv
 /* 8013F000 0013A520  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -131,7 +131,7 @@ glabel Alloc__Q46nw4hbm3snd6detail14StrmBufferPoolFv
 /* 8013F0D4 0013A5F4  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8013F0D8 0013A5F8  7C 08 03 A6 */	mtlr r0
 /* 8013F0DC 0013A5FC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013F0E0 0013A600  4E 80 00 20 */	blr 
+/* 8013F0E0 0013A600  4E 80 00 20 */	blr
 
 glabel Free__Q46nw4hbm3snd6detail14StrmBufferPoolFPv
 /* 8013F0E4 0013A604  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -163,5 +163,5 @@ glabel Free__Q46nw4hbm3snd6detail14StrmBufferPoolFPv
 /* 8013F14C 0013A66C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8013F150 0013A670  7C 08 03 A6 */	mtlr r0
 /* 8013F154 0013A674  38 21 00 10 */	addi r1, r1, 0x10
-/* 8013F158 0013A678  4E 80 00 20 */	blr 
+/* 8013F158 0013A678  4E 80 00 20 */	blr
 

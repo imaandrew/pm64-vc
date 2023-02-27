@@ -30,7 +30,7 @@ glabel List_Init__Q26nw4hbm2utFPQ36nw4hbm2ut4ListUs
 /* 8014C4D4 001479F4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014C4D8 001479F8  7C 08 03 A6 */	mtlr r0
 /* 8014C4DC 001479FC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014C4E0 00147A00  4E 80 00 20 */	blr 
+/* 8014C4E0 00147A00  4E 80 00 20 */	blr
 
 glabel List_Append__Q26nw4hbm2utFPQ36nw4hbm2ut4ListPv
 /* 8014C4E4 00147A04  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -110,7 +110,7 @@ glabel List_Append__Q26nw4hbm2utFPQ36nw4hbm2ut4ListPv
 /* 8014C5F4 00147B14  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8014C5F8 00147B18  7C 08 03 A6 */	mtlr r0
 /* 8014C5FC 00147B1C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014C600 00147B20  4E 80 00 20 */	blr 
+/* 8014C600 00147B20  4E 80 00 20 */	blr
 
 glabel List_Remove__Q26nw4hbm2utFPQ36nw4hbm2ut4ListPv
 /* 8014C604 00147B24  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -175,7 +175,7 @@ glabel List_Remove__Q26nw4hbm2utFPQ36nw4hbm2ut4ListPv
 /* 8014C6D8 00147BF8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014C6DC 00147BFC  7C 08 03 A6 */	mtlr r0
 /* 8014C6E0 00147C00  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014C6E4 00147C04  4E 80 00 20 */	blr 
+/* 8014C6E4 00147C04  4E 80 00 20 */	blr
 
 glabel List_GetNext__Q26nw4hbm2utFPCQ36nw4hbm2ut4ListPCv
 /* 8014C6E8 00147C08  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -209,7 +209,7 @@ glabel List_GetNext__Q26nw4hbm2utFPCQ36nw4hbm2ut4ListPCv
 /* 8014C74C 00147C6C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8014C750 00147C70  7C 08 03 A6 */	mtlr r0
 /* 8014C754 00147C74  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014C758 00147C78  4E 80 00 20 */	blr 
+/* 8014C758 00147C78  4E 80 00 20 */	blr
 
 glabel List_GetNth__Q26nw4hbm2utFPCQ36nw4hbm2ut4ListUs
 /* 8014C75C 00147C7C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -268,5 +268,5 @@ glabel List_GetNth__Q26nw4hbm2utFPCQ36nw4hbm2ut4ListUs
 /* 8014C810 00147D30  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014C814 00147D34  7C 08 03 A6 */	mtlr r0
 /* 8014C818 00147D38  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014C81C 00147D3C  4E 80 00 20 */	blr 
+/* 8014C81C 00147D3C  4E 80 00 20 */	blr
 

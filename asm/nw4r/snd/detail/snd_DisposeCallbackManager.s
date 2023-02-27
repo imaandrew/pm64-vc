@@ -38,7 +38,7 @@ glabel GetInstance__Q46nw4hbm3snd6detail22DisposeCallbackManagerFv
 /* 8012EFDC 0012A4FC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012EFE0 0012A500  7C 08 03 A6 */	mtlr r0
 /* 8012EFE4 0012A504  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012EFE8 0012A508  4E 80 00 20 */	blr 
+/* 8012EFE8 0012A508  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail22DisposeCallbackManagerFv
 /* 8012EFEC 0012A50C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -65,7 +65,7 @@ glabel __dt__Q46nw4hbm3snd6detail22DisposeCallbackManagerFv
 /* 8012F038 0012A558  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012F03C 0012A55C  7C 08 03 A6 */	mtlr r0
 /* 8012F040 0012A560  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012F044 0012A564  4E 80 00 20 */	blr 
+/* 8012F044 0012A564  4E 80 00 20 */	blr
 
 glabel RegisterDisposeCallback__Q46nw4hbm3snd6detail22DisposeCallbackManagerFPQ46nw4hbm3snd6detail15DisposeCallback
 /* 8012F048 0012A568  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -104,7 +104,7 @@ glabel RegisterDisposeCallback__Q46nw4hbm3snd6detail22DisposeCallbackManagerFPQ4
 /* 8012F0C8 0012A5E8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8012F0CC 0012A5EC  7C 08 03 A6 */	mtlr r0
 /* 8012F0D0 0012A5F0  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012F0D4 0012A5F4  4E 80 00 20 */	blr 
+/* 8012F0D4 0012A5F4  4E 80 00 20 */	blr
 
 glabel UnregisterDisposeCallback__Q46nw4hbm3snd6detail22DisposeCallbackManagerFPQ46nw4hbm3snd6detail15DisposeCallback
 /* 8012F0D8 0012A5F8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -138,7 +138,7 @@ glabel UnregisterDisposeCallback__Q46nw4hbm3snd6detail22DisposeCallbackManagerFP
 /* 8012F144 0012A664  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8012F148 0012A668  7C 08 03 A6 */	mtlr r0
 /* 8012F14C 0012A66C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012F150 0012A670  4E 80 00 20 */	blr 
+/* 8012F150 0012A670  4E 80 00 20 */	blr
 
 glabel Dispose__Q46nw4hbm3snd6detail22DisposeCallbackManagerFPvUlPv
 /* 8012F154 0012A674  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -199,7 +199,7 @@ glabel Dispose__Q46nw4hbm3snd6detail22DisposeCallbackManagerFPvUlPv
 /* 8012F224 0012A744  7F A5 EB 78 */	mr r5, r29
 /* 8012F228 0012A748  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 8012F22C 0012A74C  7D 89 03 A6 */	mtctr r12
-/* 8012F230 0012A750  4E 80 04 21 */	bctrl 
+/* 8012F230 0012A750  4E 80 04 21 */	bctrl
 .L_8012F234:
 /* 8012F234 0012A754  4B F6 60 81 */	bl OSDisableInterrupts
 /* 8012F238 0012A758  88 1F 00 00 */	lbz r0, 0(r31)
@@ -229,7 +229,7 @@ glabel Dispose__Q46nw4hbm3snd6detail22DisposeCallbackManagerFPvUlPv
 /* 8012F294 0012A7B4  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8012F298 0012A7B8  7C 08 03 A6 */	mtlr r0
 /* 8012F29C 0012A7BC  38 21 00 40 */	addi r1, r1, 0x40
-/* 8012F2A0 0012A7C0  4E 80 00 20 */	blr 
+/* 8012F2A0 0012A7C0  4E 80 00 20 */	blr
 
 glabel DisposeWave__Q46nw4hbm3snd6detail22DisposeCallbackManagerFPvUlPv
 /* 8012F2A4 0012A7C4  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -290,7 +290,7 @@ glabel DisposeWave__Q46nw4hbm3snd6detail22DisposeCallbackManagerFPvUlPv
 /* 8012F374 0012A894  7F A5 EB 78 */	mr r5, r29
 /* 8012F378 0012A898  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8012F37C 0012A89C  7D 89 03 A6 */	mtctr r12
-/* 8012F380 0012A8A0  4E 80 04 21 */	bctrl 
+/* 8012F380 0012A8A0  4E 80 04 21 */	bctrl
 .L_8012F384:
 /* 8012F384 0012A8A4  4B F6 5F 31 */	bl OSDisableInterrupts
 /* 8012F388 0012A8A8  88 1F 00 00 */	lbz r0, 0(r31)
@@ -320,7 +320,7 @@ glabel DisposeWave__Q46nw4hbm3snd6detail22DisposeCallbackManagerFPvUlPv
 /* 8012F3E4 0012A904  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8012F3E8 0012A908  7C 08 03 A6 */	mtlr r0
 /* 8012F3EC 0012A90C  38 21 00 40 */	addi r1, r1, 0x40
-/* 8012F3F0 0012A910  4E 80 00 20 */	blr 
+/* 8012F3F0 0012A910  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

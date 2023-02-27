@@ -9,7 +9,7 @@ glabel Seek__Q36nw4hbm2ut10FileStreamFlUl
 /* 8014B878 00146D98  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014B87C 00146D9C  81 8C 00 50 */	lwz r12, 0x50(r12)
 /* 8014B880 00146DA0  7D 89 03 A6 */	mtctr r12
-/* 8014B884 00146DA4  4E 80 04 21 */	bctrl 
+/* 8014B884 00146DA4  4E 80 04 21 */	bctrl
 /* 8014B888 00146DA8  2C 03 00 00 */	cmpwi r3, 0
 /* 8014B88C 00146DAC  40 82 00 20 */	bne .L_8014B8AC
 /* 8014B890 00146DB0  3C 60 80 1B */	lis r3, lbl_801ABAC0@ha
@@ -23,7 +23,7 @@ glabel Seek__Q36nw4hbm2ut10FileStreamFlUl
 /* 8014B8AC 00146DCC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014B8B0 00146DD0  7C 08 03 A6 */	mtlr r0
 /* 8014B8B4 00146DD4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014B8B8 00146DD8  4E 80 00 20 */	blr 
+/* 8014B8B8 00146DD8  4E 80 00 20 */	blr
 
 glabel Cancel__Q36nw4hbm2ut10FileStreamFv
 /* 8014B8BC 00146DDC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -32,7 +32,7 @@ glabel Cancel__Q36nw4hbm2ut10FileStreamFv
 /* 8014B8C8 00146DE8  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014B8CC 00146DEC  81 8C 00 54 */	lwz r12, 0x54(r12)
 /* 8014B8D0 00146DF0  7D 89 03 A6 */	mtctr r12
-/* 8014B8D4 00146DF4  4E 80 04 21 */	bctrl 
+/* 8014B8D4 00146DF4  4E 80 04 21 */	bctrl
 /* 8014B8D8 00146DF8  2C 03 00 00 */	cmpwi r3, 0
 /* 8014B8DC 00146DFC  40 82 00 20 */	bne .L_8014B8FC
 /* 8014B8E0 00146E00  3C 60 80 1B */	lis r3, lbl_801ABAC0@ha
@@ -46,7 +46,7 @@ glabel Cancel__Q36nw4hbm2ut10FileStreamFv
 /* 8014B8FC 00146E1C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014B900 00146E20  7C 08 03 A6 */	mtlr r0
 /* 8014B904 00146E24  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014B908 00146E28  4E 80 00 20 */	blr 
+/* 8014B908 00146E28  4E 80 00 20 */	blr
 
 glabel CancelAsync__Q36nw4hbm2ut10FileStreamFPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014B90C 00146E2C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -60,7 +60,7 @@ glabel CancelAsync__Q36nw4hbm2ut10FileStreamFPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014B92C 00146E4C  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014B930 00146E50  81 8C 00 54 */	lwz r12, 0x54(r12)
 /* 8014B934 00146E54  7D 89 03 A6 */	mtctr r12
-/* 8014B938 00146E58  4E 80 04 21 */	bctrl 
+/* 8014B938 00146E58  4E 80 04 21 */	bctrl
 /* 8014B93C 00146E5C  2C 03 00 00 */	cmpwi r3, 0
 /* 8014B940 00146E60  40 82 00 18 */	bne .L_8014B958
 /* 8014B944 00146E64  38 7F 00 00 */	addi r3, r31, 0
@@ -73,7 +73,7 @@ glabel CancelAsync__Q36nw4hbm2ut10FileStreamFPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014B95C 00146E7C  7F C3 F3 78 */	mr r3, r30
 /* 8014B960 00146E80  81 8C 00 28 */	lwz r12, 0x28(r12)
 /* 8014B964 00146E84  7D 89 03 A6 */	mtctr r12
-/* 8014B968 00146E88  4E 80 04 21 */	bctrl 
+/* 8014B968 00146E88  4E 80 04 21 */	bctrl
 /* 8014B96C 00146E8C  2C 03 00 00 */	cmpwi r3, 0
 /* 8014B970 00146E90  40 82 00 18 */	bne .L_8014B988
 /* 8014B974 00146E94  38 7F 00 00 */	addi r3, r31, 0
@@ -88,7 +88,7 @@ glabel CancelAsync__Q36nw4hbm2ut10FileStreamFPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014B994 00146EB4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014B998 00146EB8  7C 08 03 A6 */	mtlr r0
 /* 8014B99C 00146EBC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014B9A0 00146EC0  4E 80 00 20 */	blr 
+/* 8014B9A0 00146EC0  4E 80 00 20 */	blr
 
 glabel Skip__Q44nw4r2ut10FileStream12FilePositionFl
 /* 8014B9A4 00146EC4  2C 04 00 00 */	cmpwi r4, 0
@@ -119,7 +119,7 @@ glabel Skip__Q44nw4r2ut10FileStream12FilePositionFl
 /* 8014B9FC 00146F1C  90 C3 00 04 */	stw r6, 4(r3)
 .L_8014BA00:
 /* 8014BA00 00146F20  80 63 00 04 */	lwz r3, 4(r3)
-/* 8014BA04 00146F24  4E 80 00 20 */	blr 
+/* 8014BA04 00146F24  4E 80 00 20 */	blr
 
 glabel Append__Q44nw4r2ut10FileStream12FilePositionFl
 /* 8014BA08 00146F28  80 A3 00 04 */	lwz r5, 4(r3)
@@ -144,7 +144,7 @@ glabel Append__Q44nw4r2ut10FileStream12FilePositionFl
 /* 8014BA4C 00146F6C  90 A3 00 00 */	stw r5, 0(r3)
 .L_8014BA50:
 /* 8014BA50 00146F70  80 63 00 04 */	lwz r3, 4(r3)
-/* 8014BA54 00146F74  4E 80 00 20 */	blr 
+/* 8014BA54 00146F74  4E 80 00 20 */	blr
 
 glabel Seek__Q44nw4r2ut10FileStream12FilePositionFlUl
 /* 8014BA58 00146F78  2C 05 00 01 */	cmpwi r5, 1
@@ -166,7 +166,7 @@ glabel Seek__Q44nw4r2ut10FileStream12FilePositionFlUl
 /* 8014BA8C 00146FAC  90 03 00 04 */	stw r0, 4(r3)
 .L_8014BA90:
 /* 8014BA90 00146FB0  2C 04 00 00 */	cmpwi r4, 0
-/* 8014BA94 00146FB4  4D 82 00 20 */	beqlr 
+/* 8014BA94 00146FB4  4D 82 00 20 */	beqlr
 /* 8014BA98 00146FB8  80 03 00 04 */	lwz r0, 4(r3)
 /* 8014BA9C 00146FBC  38 A0 00 00 */	li r5, 0
 /* 8014BAA0 00146FC0  80 C3 00 00 */	lwz r6, 0(r3)
@@ -191,14 +191,14 @@ glabel Seek__Q44nw4r2ut10FileStream12FilePositionFlUl
 /* 8014BAE4 00147004  7C E6 3B 78 */	mr r6, r7
 .L_8014BAE8:
 /* 8014BAE8 00147008  90 C3 00 04 */	stw r6, 4(r3)
-/* 8014BAEC 0014700C  4E 80 00 20 */	blr 
+/* 8014BAEC 0014700C  4E 80 00 20 */	blr
 
 glabel __sinit_ut_FileStream_cpp
 /* 8014BAF0 00147010  3C 80 80 24 */	lis r4, lbl_80243B98@ha
 /* 8014BAF4 00147014  3C 60 80 24 */	lis r3, lbl_80243B90@ha
 /* 8014BAF8 00147018  38 84 3B 98 */	addi r4, r4, lbl_80243B98@l
 /* 8014BAFC 0014701C  90 83 3B 90 */	stw r4, lbl_80243B90@l(r3)
-/* 8014BB00 00147020  4E 80 00 20 */	blr 
+/* 8014BB00 00147020  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

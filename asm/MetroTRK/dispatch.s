@@ -20,7 +20,7 @@ glabel TRKDispatchMessage
 /* 8016FA30 0016AF50  38 63 DE 68 */	addi r3, r3, lbl_801ADE68@l
 /* 8016FA34 0016AF54  7C 03 00 2E */	lwzx r0, r3, r0
 /* 8016FA38 0016AF58  7C 09 03 A6 */	mtctr r0
-/* 8016FA3C 0016AF5C  4E 80 04 20 */	bctr 
+/* 8016FA3C 0016AF5C  4E 80 04 20 */	bctr
 
 glabel lbl_8016FA40
 /* 8016FA40 0016AF60  7F C3 F3 78 */	mr r3, r30
@@ -112,9 +112,9 @@ glabel lbl_8016FB1C
 /* 8016FB28 0016B048  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8016FB2C 0016B04C  7C 08 03 A6 */	mtlr r0
 /* 8016FB30 0016B050  38 21 00 10 */	addi r1, r1, 0x10
-/* 8016FB34 0016B054  4E 80 00 20 */	blr 
+/* 8016FB34 0016B054  4E 80 00 20 */	blr
 
 glabel TRKInitializeDispatcher
 /* 8016FB38 0016B058  38 60 00 00 */	li r3, 0
-/* 8016FB3C 0016B05C  4E 80 00 20 */	blr 
+/* 8016FB3C 0016B05C  4E 80 00 20 */	blr
 

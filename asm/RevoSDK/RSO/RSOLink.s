@@ -3,13 +3,13 @@
 .section .text, "ax"
 
 glabel func_80107F28
-/* 80107F28 00103448  4E 80 00 20 */	blr 
+/* 80107F28 00103448  4E 80 00 20 */	blr
 
 glabel func_80107F2C
-/* 80107F2C 0010344C  4E 80 00 20 */	blr 
+/* 80107F2C 0010344C  4E 80 00 20 */	blr
 
 glabel func_80107F30
-/* 80107F30 00103450  4E 80 00 20 */	blr 
+/* 80107F30 00103450  4E 80 00 20 */	blr
 
 glabel LocateObject
 /* 80107F34 00103454  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -252,7 +252,7 @@ glabel LocateObject
 /* 8010829C 001037BC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 801082A0 001037C0  7C 08 03 A6 */	mtlr r0
 /* 801082A4 001037C4  38 21 00 30 */	addi r1, r1, 0x30
-/* 801082A8 001037C8  4E 80 00 20 */	blr 
+/* 801082A8 001037C8  4E 80 00 20 */	blr
 
 glabel RSOStaticLocateObject
 /* 801082AC 001037CC  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -320,7 +320,7 @@ glabel RSOStaticLocateObject
 /* 801083A0 001038C0  38 75 0A 60 */	addi r3, r21, lbl_801A0A60@l
 /* 801083A4 001038C4  7C 63 78 2E */	lwzx r3, r3, r15
 /* 801083A8 001038C8  7C 69 03 A6 */	mtctr r3
-/* 801083AC 001038CC  4E 80 04 20 */	bctr 
+/* 801083AC 001038CC  4E 80 04 20 */	bctr
 
 glabel lbl_801083B0
 /* 801083B0 001038D0  92 D0 00 00 */	stw r22, 0(r16)
@@ -487,7 +487,7 @@ glabel lbl_80108450
 /* 801085A8 00103AC8  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 801085AC 00103ACC  7C 08 03 A6 */	mtlr r0
 /* 801085B0 00103AD0  38 21 00 50 */	addi r1, r1, 0x50
-/* 801085B4 00103AD4  4E 80 00 20 */	blr 
+/* 801085B4 00103AD4  4E 80 00 20 */	blr
 
 glabel RSOLink
 /* 801085B8 00103AD8  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -572,7 +572,7 @@ glabel RSOLink
 /* 801086D8 00103BF8  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 801086DC 00103BFC  7C 08 03 A6 */	mtlr r0
 /* 801086E0 00103C00  38 21 00 30 */	addi r1, r1, 0x30
-/* 801086E4 00103C04  4E 80 00 20 */	blr 
+/* 801086E4 00103C04  4E 80 00 20 */	blr
 
 glabel FindExportIndex
 /* 801086E8 00103C08  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -718,7 +718,7 @@ glabel FindExportIndex
 /* 801088C8 00103DE8  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 801088CC 00103DEC  7C 08 03 A6 */	mtlr r0
 /* 801088D0 00103DF0  38 21 00 30 */	addi r1, r1, 0x30
-/* 801088D4 00103DF4  4E 80 00 20 */	blr 
+/* 801088D4 00103DF4  4E 80 00 20 */	blr
 
 glabel RSOFindExportSymbolAddr
 /* 801088D8 00103DF8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -746,7 +746,7 @@ glabel RSOFindExportSymbolAddr
 /* 80108928 00103E48  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8010892C 00103E4C  7C 08 03 A6 */	mtlr r0
 /* 80108930 00103E50  38 21 00 10 */	addi r1, r1, 0x10
-/* 80108934 00103E54  4E 80 00 20 */	blr 
+/* 80108934 00103E54  4E 80 00 20 */	blr
 
 glabel func_80108938
 /* 80108938 00103E58  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -768,7 +768,7 @@ glabel func_80108938
 /* 80108970 00103E90  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80108974 00103E94  7C 08 03 A6 */	mtlr r0
 /* 80108978 00103E98  38 21 00 10 */	addi r1, r1, 0x10
-/* 8010897C 00103E9C  4E 80 00 20 */	blr 
+/* 8010897C 00103E9C  4E 80 00 20 */	blr
 
 glabel RSORelocate
 /* 80108980 00103EA0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -899,7 +899,7 @@ glabel RSORelocate
 /* 80108B3C 0010405C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80108B40 00104060  7C 08 03 A6 */	mtlr r0
 /* 80108B44 00104064  38 21 00 10 */	addi r1, r1, 0x10
-/* 80108B48 00104068  4E 80 00 20 */	blr 
+/* 80108B48 00104068  4E 80 00 20 */	blr
 
 glabel RSORelocateSmallDataSection
 /* 80108B4C 0010406C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1073,7 +1073,7 @@ glabel RSORelocateSmallDataSection
 /* 80108D8C 001042AC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80108D90 001042B0  7C 08 03 A6 */	mtlr r0
 /* 80108D94 001042B4  38 21 00 30 */	addi r1, r1, 0x30
-/* 80108D98 001042B8  4E 80 00 20 */	blr 
+/* 80108D98 001042B8  4E 80 00 20 */	blr
 
 glabel RSOLinkInit
 /* 80108D9C 001042BC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1105,7 +1105,7 @@ glabel RSOLinkInit
 /* 80108DFC 0010431C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80108E00 00104320  7C 08 03 A6 */	mtlr r0
 /* 80108E04 00104324  38 21 00 10 */	addi r1, r1, 0x10
-/* 80108E08 00104328  4E 80 00 20 */	blr 
+/* 80108E08 00104328  4E 80 00 20 */	blr
 
 glabel LinkList
 /* 80108E0C 0010432C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1170,7 +1170,7 @@ glabel LinkList
 /* 80108EDC 001043FC  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80108EE0 00104400  7C 08 03 A6 */	mtlr r0
 /* 80108EE4 00104404  38 21 00 20 */	addi r1, r1, 0x20
-/* 80108EE8 00104408  4E 80 00 20 */	blr 
+/* 80108EE8 00104408  4E 80 00 20 */	blr
 
 glabel RSOLinkList
 /* 80108EEC 0010440C  38 A0 00 00 */	li r5, 0
@@ -1189,14 +1189,14 @@ glabel func_80108EF4
 /* 80108F14 00104434  48 00 00 14 */	b .L_80108F28
 .L_80108F18:
 /* 80108F18 00104438  38 60 00 00 */	li r3, 0
-/* 80108F1C 0010443C  4E 80 00 20 */	blr 
+/* 80108F1C 0010443C  4E 80 00 20 */	blr
 .L_80108F20:
 /* 80108F20 00104440  80 63 00 30 */	lwz r3, 0x30(r3)
-/* 80108F24 00104444  4E 80 00 20 */	blr 
+/* 80108F24 00104444  4E 80 00 20 */	blr
 .L_80108F28:
 /* 80108F28 00104448  80 63 00 38 */	lwz r3, 0x38(r3)
-/* 80108F2C 0010444C  4E 80 00 20 */	blr 
+/* 80108F2C 0010444C  4E 80 00 20 */	blr
 .L_80108F30:
 /* 80108F30 00104450  38 60 00 00 */	li r3, 0
-/* 80108F34 00104454  4E 80 00 20 */	blr 
+/* 80108F34 00104454  4E 80 00 20 */	blr
 

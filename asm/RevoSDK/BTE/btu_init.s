@@ -13,7 +13,7 @@ glabel btu_init_core
 /* 800EECD0 000EA1F0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800EECD4 000EA1F4  7C 08 03 A6 */	mtlr r0
 /* 800EECD8 000EA1F8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800EECDC 000EA1FC  4E 80 00 20 */	blr 
+/* 800EECDC 000EA1FC  4E 80 00 20 */	blr
 
 glabel BTE_Init
 /* 800EECE0 000EA200  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -34,5 +34,5 @@ glabel BTE_Init
 /* 800EED1C 000EA23C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800EED20 000EA240  7C 08 03 A6 */	mtlr r0
 /* 800EED24 000EA244  38 21 00 10 */	addi r1, r1, 0x10
-/* 800EED28 000EA248  4E 80 00 20 */	blr 
+/* 800EED28 000EA248  4E 80 00 20 */	blr
 

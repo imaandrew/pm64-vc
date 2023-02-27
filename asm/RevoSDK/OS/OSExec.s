@@ -106,7 +106,7 @@ glabel PackArgs
 /* 80092150 0008D670  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80092154 0008D674  7C 08 03 A6 */	mtlr r0
 /* 80092158 0008D678  38 21 00 30 */	addi r1, r1, 0x30
-/* 8009215C 0008D67C  4E 80 00 20 */	blr 
+/* 8009215C 0008D67C  4E 80 00 20 */	blr
 
 glabel Run
 /* 80092160 0008D680  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -116,19 +116,19 @@ glabel Run
 /* 80092170 0008D690  7C 7F 1B 78 */	mr r31, r3
 /* 80092174 0008D694  4B FF EB E5 */	bl ICFlashInvalidate
 /* 80092178 0008D698  7C 00 04 AC */	sync 0
-/* 8009217C 0008D69C  4C 00 01 2C */	isync 
+/* 8009217C 0008D69C  4C 00 01 2C */	isync
 /* 80092180 0008D6A0  7F E9 03 A6 */	mtctr r31
-/* 80092184 0008D6A4  4E 80 04 20 */	bctr 
+/* 80092184 0008D6A4  4E 80 04 20 */	bctr
 /* 80092188 0008D6A8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8009218C 0008D6AC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80092190 0008D6B0  7C 08 03 A6 */	mtlr r0
 /* 80092194 0008D6B4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80092198 0008D6B8  4E 80 00 20 */	blr 
+/* 80092198 0008D6B8  4E 80 00 20 */	blr
 
 glabel Callback
 /* 8009219C 0008D6BC  38 00 00 01 */	li r0, 1
 /* 800921A0 0008D6C0  90 0D 8C CC */	stw r0, lbl_8024714C@sda21(r13)
-/* 800921A4 0008D6C4  4E 80 00 20 */	blr 
+/* 800921A4 0008D6C4  4E 80 00 20 */	blr
 
 glabel __OSGetExecParams
 /* 800921A8 0008D6C8  3C A0 80 00 */	lis r5, 0x800030F0@ha
@@ -140,11 +140,11 @@ glabel __OSGetExecParams
 .L_800921C0:
 /* 800921C0 0008D6E0  38 00 00 00 */	li r0, 0
 /* 800921C4 0008D6E4  90 03 00 00 */	stw r0, 0(r3)
-/* 800921C8 0008D6E8  4E 80 00 20 */	blr 
+/* 800921C8 0008D6E8  4E 80 00 20 */	blr
 
 glabel callback
 /* 800921CC 0008D6EC  90 6D 8C B4 */	stw r3, lbl_80247134@sda21(r13)
-/* 800921D0 0008D6F0  4E 80 00 20 */	blr 
+/* 800921D0 0008D6F0  4E 80 00 20 */	blr
 
 glabel __OSReLaunchFirmware
 /* 800921D4 0008D6F4  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -495,7 +495,7 @@ glabel __OSReLaunchFirmware
 /* 800926BC 0008DBDC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800926C0 0008DBE0  7C 08 03 A6 */	mtlr r0
 /* 800926C4 0008DBE4  38 21 00 30 */	addi r1, r1, 0x30
-/* 800926C8 0008DBE8  4E 80 00 20 */	blr 
+/* 800926C8 0008DBE8  4E 80 00 20 */	blr
 
 glabel __OSLaunchMenu
 /* 800926CC 0008DBEC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -564,7 +564,7 @@ glabel __OSLaunchMenu
 /* 800927B8 0008DCD8  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 800927BC 0008DCDC  7C 08 03 A6 */	mtlr r0
 /* 800927C0 0008DCE0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800927C4 0008DCE4  4E 80 00 20 */	blr 
+/* 800927C4 0008DCE4  4E 80 00 20 */	blr
 
 # below func is either __OSRelaunchTitle __OSLaunchTitle LaunchCommon OSLaunchTitlev OSLaunchTitlel or OSReturnToLastTitle
 glabel __OSRelaunchTitle
@@ -656,7 +656,7 @@ glabel __OSRelaunchTitle
 /* 80092904 0008DE24  83 EA FF FC */	lwz r31, -4(r10)
 /* 80092908 0008DE28  7C 08 03 A6 */	mtlr r0
 /* 8009290C 0008DE2C  7D 41 53 78 */	mr r1, r10
-/* 80092910 0008DE30  4E 80 00 20 */	blr 
+/* 80092910 0008DE30  4E 80 00 20 */	blr
 
 glabel __OSBootDolSimple
 /* 80092914 0008DE34  94 21 FE 40 */	stwu r1, -0x1c0(r1)
@@ -939,7 +939,7 @@ glabel __OSBootDolSimple
 /* 80092CFC 0008E21C  38 A1 00 10 */	addi r5, r1, 0x10
 /* 80092D00 0008E220  81 9F 00 10 */	lwz r12, 0x10(r31)
 /* 80092D04 0008E224  7D 89 03 A6 */	mtctr r12
-/* 80092D08 0008E228  4E 80 04 21 */	bctrl 
+/* 80092D08 0008E228  4E 80 04 21 */	bctrl
 /* 80092D0C 0008E22C  38 60 00 1C */	li r3, 0x1c
 /* 80092D10 0008E230  38 80 00 01 */	li r4, 1
 /* 80092D14 0008E234  4B FF DA 31 */	bl OSAllocFromMEM1ArenaLo
@@ -953,7 +953,7 @@ glabel __OSBootDolSimple
 /* 80092D34 0008E254  38 63 18 AC */	addi r3, r3, OSReport@l
 /* 80092D38 0008E258  81 81 00 08 */	lwz r12, 8(r1)
 /* 80092D3C 0008E25C  7D 89 03 A6 */	mtctr r12
-/* 80092D40 0008E260  4E 80 04 21 */	bctrl 
+/* 80092D40 0008E260  4E 80 04 21 */	bctrl
 /* 80092D44 0008E264  7F 43 D3 78 */	mr r3, r26
 /* 80092D48 0008E268  4B FF D9 F5 */	bl OSSetArenaLo
 /* 80092D4C 0008E26C  48 00 00 60 */	b .L_80092DAC
@@ -990,12 +990,12 @@ glabel __OSBootDolSimple
 /* 80092DB4 0008E2D4  38 81 00 18 */	addi r4, r1, 0x18
 /* 80092DB8 0008E2D8  38 A1 00 1C */	addi r5, r1, 0x1c
 /* 80092DBC 0008E2DC  7D 89 03 A6 */	mtctr r12
-/* 80092DC0 0008E2E0  4E 80 04 21 */	bctrl 
+/* 80092DC0 0008E2E0  4E 80 04 21 */	bctrl
 /* 80092DC4 0008E2E4  2C 03 00 00 */	cmpwi r3, 0
 /* 80092DC8 0008E2E8  40 82 FF 88 */	bne .L_80092D50
 /* 80092DCC 0008E2EC  81 81 00 10 */	lwz r12, 0x10(r1)
 /* 80092DD0 0008E2F0  7D 89 03 A6 */	mtctr r12
-/* 80092DD4 0008E2F4  4E 80 04 21 */	bctrl 
+/* 80092DD4 0008E2F4  4E 80 04 21 */	bctrl
 /* 80092DD8 0008E2F8  7C 7A 1B 78 */	mr r26, r3
 /* 80092DDC 0008E2FC  38 60 00 1C */	li r3, 0x1c
 /* 80092DE0 0008E300  38 80 00 01 */	li r4, 1
@@ -1112,7 +1112,7 @@ glabel __OSBootDolSimple
 /* 80092F70 0008E490  80 01 01 C4 */	lwz r0, 0x1c4(r1)
 /* 80092F74 0008E494  7C 08 03 A6 */	mtlr r0
 /* 80092F78 0008E498  38 21 01 C0 */	addi r1, r1, 0x1c0
-/* 80092F7C 0008E49C  4E 80 00 20 */	blr 
+/* 80092F7C 0008E49C  4E 80 00 20 */	blr
 
 glabel __OSBootDol
 /* 80092F80 0008E4A0  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1244,7 +1244,7 @@ glabel __OSBootDol
 /* 80093150 0008E670  83 A1 00 34 */	lwz r29, 0x34(r1)
 /* 80093154 0008E674  7C 08 03 A6 */	mtlr r0
 /* 80093158 0008E678  38 21 00 40 */	addi r1, r1, 0x40
-/* 8009315C 0008E67C  4E 80 00 20 */	blr 
+/* 8009315C 0008E67C  4E 80 00 20 */	blr
 
 glabel _ES_GetTicketViews
 /* 80093160 0008E680  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -1324,7 +1324,7 @@ glabel _ES_GetTicketViews
 /* 80093270 0008E790  83 EA FF FC */	lwz r31, -4(r10)
 /* 80093274 0008E794  7C 08 03 A6 */	mtlr r0
 /* 80093278 0008E798  7D 41 53 78 */	mr r1, r10
-/* 8009327C 0008E79C  4E 80 00 20 */	blr 
+/* 8009327C 0008E79C  4E 80 00 20 */	blr
 
 glabel _ES_LaunchTitle
 /* 80093280 0008E7A0  54 2B 06 FE */	clrlwi r11, r1, 0x1b
@@ -1365,7 +1365,7 @@ glabel _ES_LaunchTitle
 /* 80093300 0008E820  80 0A 00 04 */	lwz r0, 4(r10)
 /* 80093304 0008E824  7C 08 03 A6 */	mtlr r0
 /* 80093308 0008E828  7D 41 53 78 */	mr r1, r10
-/* 8009330C 0008E82C  4E 80 00 20 */	blr 
+/* 8009330C 0008E82C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

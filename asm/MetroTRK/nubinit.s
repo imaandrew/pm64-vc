@@ -12,7 +12,7 @@ glabel TRKNubWelcome
 /* 8016EDEC 0016A30C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8016EDF0 0016A310  7C 08 03 A6 */	mtlr r0
 /* 8016EDF4 0016A314  38 21 00 10 */	addi r1, r1, 0x10
-/* 8016EDF8 0016A318  4E 80 00 20 */	blr 
+/* 8016EDF8 0016A318  4E 80 00 20 */	blr
 
 glabel TRKTerminateNub
 /* 8016EDFC 0016A31C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -23,7 +23,7 @@ glabel TRKTerminateNub
 /* 8016EE10 0016A330  38 60 00 00 */	li r3, 0
 /* 8016EE14 0016A334  7C 08 03 A6 */	mtlr r0
 /* 8016EE18 0016A338  38 21 00 10 */	addi r1, r1, 0x10
-/* 8016EE1C 0016A33C  4E 80 00 20 */	blr 
+/* 8016EE1C 0016A33C  4E 80 00 20 */	blr
 
 glabel TRKInitializeNub
 /* 8016EE20 0016A340  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -113,5 +113,5 @@ glabel TRKInitializeNub
 /* 8016EF48 0016A468  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 8016EF4C 0016A46C  7C 08 03 A6 */	mtlr r0
 /* 8016EF50 0016A470  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016EF54 0016A474  4E 80 00 20 */	blr 
+/* 8016EF54 0016A474  4E 80 00 20 */	blr
 

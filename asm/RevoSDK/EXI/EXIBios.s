@@ -74,7 +74,7 @@ glabel SetExiInterruptMask
 /* 8009B094 000965B4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009B098 000965B8  7C 08 03 A6 */	mtlr r0
 /* 8009B09C 000965BC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009B0A0 000965C0  4E 80 00 20 */	blr 
+/* 8009B0A0 000965C0  4E 80 00 20 */	blr
 
 glabel EXIImm
 /* 8009B0A4 000965C4  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -245,7 +245,7 @@ glabel EXIImm
 /* 8009B310 00096830  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8009B314 00096834  7C 08 03 A6 */	mtlr r0
 /* 8009B318 00096838  38 21 00 30 */	addi r1, r1, 0x30
-/* 8009B31C 0009683C  4E 80 00 20 */	blr 
+/* 8009B31C 0009683C  4E 80 00 20 */	blr
 
 glabel EXIImmEx
 /* 8009B320 00096840  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -294,7 +294,7 @@ glabel EXIImmEx
 /* 8009B3B4 000968D4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009B3B8 000968D8  7C 08 03 A6 */	mtlr r0
 /* 8009B3BC 000968DC  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009B3C0 000968E0  4E 80 00 20 */	blr 
+/* 8009B3C0 000968E0  4E 80 00 20 */	blr
 
 glabel EXIDma
 /* 8009B3C4 000968E4  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -362,7 +362,7 @@ glabel EXIDma
 /* 8009B4AC 000969CC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8009B4B0 000969D0  7C 08 03 A6 */	mtlr r0
 /* 8009B4B4 000969D4  38 21 00 30 */	addi r1, r1, 0x30
-/* 8009B4B8 000969D8  4E 80 00 20 */	blr 
+/* 8009B4B8 000969D8  4E 80 00 20 */	blr
 
 glabel EXISync
 /* 8009B4BC 000969DC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -535,7 +535,7 @@ glabel EXISync
 /* 8009B728 00096C48  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009B72C 00096C4C  7C 08 03 A6 */	mtlr r0
 /* 8009B730 00096C50  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009B734 00096C54  4E 80 00 20 */	blr 
+/* 8009B734 00096C54  4E 80 00 20 */	blr
 
 glabel EXISetExiCallback
 /* 8009B738 00096C58  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -572,7 +572,7 @@ glabel EXISetExiCallback
 /* 8009B7AC 00096CCC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009B7B0 00096CD0  7C 08 03 A6 */	mtlr r0
 /* 8009B7B4 00096CD4  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009B7B8 00096CD8  4E 80 00 20 */	blr 
+/* 8009B7B8 00096CD8  4E 80 00 20 */	blr
 
 glabel __EXIProbe
 /* 8009B7BC 00096CDC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -678,7 +678,7 @@ glabel __EXIProbe
 /* 8009B92C 00096E4C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009B930 00096E50  7C 08 03 A6 */	mtlr r0
 /* 8009B934 00096E54  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009B938 00096E58  4E 80 00 20 */	blr 
+/* 8009B938 00096E58  4E 80 00 20 */	blr
 
 glabel EXIAttach
 /* 8009B93C 00096E5C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -756,7 +756,7 @@ glabel EXIAttach
 /* 8009BA44 00096F64  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8009BA48 00096F68  7C 08 03 A6 */	mtlr r0
 /* 8009BA4C 00096F6C  38 21 00 30 */	addi r1, r1, 0x30
-/* 8009BA50 00096F70  4E 80 00 20 */	blr 
+/* 8009BA50 00096F70  4E 80 00 20 */	blr
 
 glabel EXIDetach
 /* 8009BA54 00096F74  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -807,7 +807,7 @@ glabel EXIDetach
 /* 8009BAFC 0009701C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009BB00 00097020  7C 08 03 A6 */	mtlr r0
 /* 8009BB04 00097024  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009BB08 00097028  4E 80 00 20 */	blr 
+/* 8009BB08 00097028  4E 80 00 20 */	blr
 
 glabel EXISelect
 /* 8009BB0C 0009702C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -892,7 +892,7 @@ glabel EXISelect
 /* 8009BC2C 0009714C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009BC30 00097150  7C 08 03 A6 */	mtlr r0
 /* 8009BC34 00097154  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009BC38 00097158  4E 80 00 20 */	blr 
+/* 8009BC38 00097158  4E 80 00 20 */	blr
 
 glabel EXIDeselect
 /* 8009BC3C 0009715C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -964,7 +964,7 @@ glabel EXIDeselect
 /* 8009BD2C 0009724C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009BD30 00097250  7C 08 03 A6 */	mtlr r0
 /* 8009BD34 00097254  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009BD38 00097258  4E 80 00 20 */	blr 
+/* 8009BD38 00097258  4E 80 00 20 */	blr
 
 glabel EXIInterruptHandler
 /* 8009BD3C 0009725C  94 21 FD 20 */	stwu r1, -0x2e0(r1)
@@ -1001,7 +1001,7 @@ glabel EXIInterruptHandler
 /* 8009BDB8 000972D8  7F A4 EB 78 */	mr r4, r29
 /* 8009BDBC 000972DC  7F CC F3 78 */	mr r12, r30
 /* 8009BDC0 000972E0  7D 89 03 A6 */	mtctr r12
-/* 8009BDC4 000972E4  4E 80 04 21 */	bctrl 
+/* 8009BDC4 000972E4  4E 80 04 21 */	bctrl
 /* 8009BDC8 000972E8  38 61 00 08 */	addi r3, r1, 8
 /* 8009BDCC 000972EC  4B FF 56 D5 */	bl OSClearContext
 /* 8009BDD0 000972F0  7F A3 EB 78 */	mr r3, r29
@@ -1013,7 +1013,7 @@ glabel EXIInterruptHandler
 /* 8009BDE4 00097304  80 01 02 E4 */	lwz r0, 0x2e4(r1)
 /* 8009BDE8 00097308  7C 08 03 A6 */	mtlr r0
 /* 8009BDEC 0009730C  38 21 02 E0 */	addi r1, r1, 0x2e0
-/* 8009BDF0 00097310  4E 80 00 20 */	blr 
+/* 8009BDF0 00097310  4E 80 00 20 */	blr
 
 glabel TCInterruptHandler
 /* 8009BDF4 00097314  94 21 FD 10 */	stwu r1, -0x2f0(r1)
@@ -1145,7 +1145,7 @@ glabel TCInterruptHandler
 /* 8009BFD4 000974F4  7F 64 DB 78 */	mr r4, r27
 /* 8009BFD8 000974F8  7F 8C E3 78 */	mr r12, r28
 /* 8009BFDC 000974FC  7D 89 03 A6 */	mtctr r12
-/* 8009BFE0 00097500  4E 80 04 21 */	bctrl 
+/* 8009BFE0 00097500  4E 80 04 21 */	bctrl
 /* 8009BFE4 00097504  38 61 00 08 */	addi r3, r1, 8
 /* 8009BFE8 00097508  4B FF 54 B9 */	bl OSClearContext
 /* 8009BFEC 0009750C  7F 63 DB 78 */	mr r3, r27
@@ -1156,7 +1156,7 @@ glabel TCInterruptHandler
 /* 8009BFFC 0009751C  80 01 02 F4 */	lwz r0, 0x2f4(r1)
 /* 8009C000 00097520  7C 08 03 A6 */	mtlr r0
 /* 8009C004 00097524  38 21 02 F0 */	addi r1, r1, 0x2f0
-/* 8009C008 00097528  4E 80 00 20 */	blr 
+/* 8009C008 00097528  4E 80 00 20 */	blr
 
 glabel EXTInterruptHandler
 /* 8009C00C 0009752C  94 21 FD 20 */	stwu r1, -0x2e0(r1)
@@ -1198,7 +1198,7 @@ glabel EXTInterruptHandler
 /* 8009C09C 000975BC  7F 84 E3 78 */	mr r4, r28
 /* 8009C0A0 000975C0  7F AC EB 78 */	mr r12, r29
 /* 8009C0A4 000975C4  7D 89 03 A6 */	mtctr r12
-/* 8009C0A8 000975C8  4E 80 04 21 */	bctrl 
+/* 8009C0A8 000975C8  4E 80 04 21 */	bctrl
 /* 8009C0AC 000975CC  38 61 00 08 */	addi r3, r1, 8
 /* 8009C0B0 000975D0  4B FF 53 F1 */	bl OSClearContext
 /* 8009C0B4 000975D4  7F 83 E3 78 */	mr r3, r28
@@ -1211,7 +1211,7 @@ glabel EXTInterruptHandler
 /* 8009C0CC 000975EC  80 01 02 E4 */	lwz r0, 0x2e4(r1)
 /* 8009C0D0 000975F0  7C 08 03 A6 */	mtlr r0
 /* 8009C0D4 000975F4  38 21 02 E0 */	addi r1, r1, 0x2e0
-/* 8009C0D8 000975F8  4E 80 00 20 */	blr 
+/* 8009C0D8 000975F8  4E 80 00 20 */	blr
 
 glabel EXIInit
 /* 8009C0DC 000975FC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1330,7 +1330,7 @@ glabel EXIInit
 /* 8009C290 000977B0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009C294 000977B4  7C 08 03 A6 */	mtlr r0
 /* 8009C298 000977B8  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009C29C 000977BC  4E 80 00 20 */	blr 
+/* 8009C29C 000977BC  4E 80 00 20 */	blr
 
 glabel EXILock
 /* 8009C2A0 000977C0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1401,7 +1401,7 @@ glabel EXILock
 /* 8009C38C 000978AC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009C390 000978B0  7C 08 03 A6 */	mtlr r0
 /* 8009C394 000978B4  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009C398 000978B8  4E 80 00 20 */	blr 
+/* 8009C398 000978B8  4E 80 00 20 */	blr
 
 glabel EXIUnlock
 /* 8009C39C 000978BC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1448,7 +1448,7 @@ glabel EXIUnlock
 /* 8009C438 00097958  38 80 00 00 */	li r4, 0
 /* 8009C43C 0009795C  7F AC EB 78 */	mr r12, r29
 /* 8009C440 00097960  7D 89 03 A6 */	mtctr r12
-/* 8009C444 00097964  4E 80 04 21 */	bctrl 
+/* 8009C444 00097964  4E 80 04 21 */	bctrl
 .L_8009C448:
 /* 8009C448 00097968  7F C3 F3 78 */	mr r3, r30
 /* 8009C44C 0009796C  4B FF 8E 91 */	bl OSRestoreInterrupts
@@ -1461,7 +1461,7 @@ glabel EXIUnlock
 /* 8009C464 00097984  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009C468 00097988  7C 08 03 A6 */	mtlr r0
 /* 8009C46C 0009798C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009C470 00097990  4E 80 00 20 */	blr 
+/* 8009C470 00097990  4E 80 00 20 */	blr
 
 glabel UnlockedHandler
 /* 8009C474 00097994  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1473,7 +1473,7 @@ glabel UnlockedHandler
 /* 8009C48C 000979AC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009C490 000979B0  7C 08 03 A6 */	mtlr r0
 /* 8009C494 000979B4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009C498 000979B8  4E 80 00 20 */	blr 
+/* 8009C498 000979B8  4E 80 00 20 */	blr
 
 glabel EXIGetID
 /* 8009C49C 000979BC  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1660,7 +1660,7 @@ glabel EXIGetID
 /* 8009C740 00097C60  38 80 00 00 */	li r4, 0
 /* 8009C744 00097C64  7F 0C C3 78 */	mr r12, r24
 /* 8009C748 00097C68  7D 89 03 A6 */	mtctr r12
-/* 8009C74C 00097C6C  4E 80 04 21 */	bctrl 
+/* 8009C74C 00097C6C  4E 80 04 21 */	bctrl
 .L_8009C750:
 /* 8009C750 00097C70  7E E3 BB 78 */	mr r3, r23
 /* 8009C754 00097C74  4B FF 8B 89 */	bl OSRestoreInterrupts
@@ -1731,7 +1731,7 @@ glabel EXIGetID
 /* 8009C838 00097D58  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8009C83C 00097D5C  7C 08 03 A6 */	mtlr r0
 /* 8009C840 00097D60  38 21 00 40 */	addi r1, r1, 0x40
-/* 8009C844 00097D64  4E 80 00 20 */	blr 
+/* 8009C844 00097D64  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

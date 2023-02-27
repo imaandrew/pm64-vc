@@ -36,7 +36,7 @@ glabel PlayRecordCallback
 /* 80099DE4 00095304  38 84 01 04 */	addi r4, r4, lbl_80190104@l
 /* 80099DE8 00095308  7C 84 00 2E */	lwzx r4, r4, r0
 /* 80099DEC 0009530C  7C 89 03 A6 */	mtctr r4
-/* 80099DF0 00095310  4E 80 04 20 */	bctr 
+/* 80099DF0 00095310  4E 80 04 20 */	bctr
 
 glabel lbl_80099DF4
 /* 80099DF4 00095314  38 00 00 01 */	li r0, 1
@@ -348,7 +348,7 @@ glabel lbl_80099F7C
 /* 8009A224 00095744  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8009A228 00095748  7C 08 03 A6 */	mtlr r0
 /* 8009A22C 0009574C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009A230 00095750  4E 80 00 20 */	blr 
+/* 8009A230 00095750  4E 80 00 20 */	blr
 
 glabel __OSStartPlayRecord
 /* 8009A234 00095754  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -372,7 +372,7 @@ glabel __OSStartPlayRecord
 /* 8009A278 00095798  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8009A27C 0009579C  7C 08 03 A6 */	mtlr r0
 /* 8009A280 000957A0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009A284 000957A4  4E 80 00 20 */	blr 
+/* 8009A284 000957A4  4E 80 00 20 */	blr
 
 glabel __OSStopPlayRecord
 /* 8009A288 000957A8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -509,7 +509,7 @@ glabel __OSStopPlayRecord
 /* 8009A460 00095980  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8009A464 00095984  7C 08 03 A6 */	mtlr r0
 /* 8009A468 00095988  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009A46C 0009598C  4E 80 00 20 */	blr 
+/* 8009A46C 0009598C  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -21,7 +21,7 @@ glabel ptim_init
 /* 800DDCE4 000D9204  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800DDCE8 000D9208  7C 08 03 A6 */	mtlr r0
 /* 800DDCEC 000D920C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DDCF0 000D9210  4E 80 00 20 */	blr 
+/* 800DDCF0 000D9210  4E 80 00 20 */	blr
 
 glabel ptim_timer_update
 /* 800DDCF4 000D9214  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -42,7 +42,7 @@ glabel ptim_timer_update
 /* 800DDD2C 000D924C  41 82 00 14 */	beq .L_800DDD40
 /* 800DDD30 000D9250  7F E3 FB 78 */	mr r3, r31
 /* 800DDD34 000D9254  7D 89 03 A6 */	mtctr r12
-/* 800DDD38 000D9258  4E 80 04 21 */	bctrl 
+/* 800DDD38 000D9258  4E 80 04 21 */	bctrl
 /* 800DDD3C 000D925C  48 00 00 2C */	b .L_800DDD68
 .L_800DDD40:
 /* 800DDD40 000D9260  A0 1F 00 14 */	lhz r0, 0x14(r31)
@@ -73,7 +73,7 @@ glabel ptim_timer_update
 /* 800DDD98 000D92B8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800DDD9C 000D92BC  7C 08 03 A6 */	mtlr r0
 /* 800DDDA0 000D92C0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DDDA4 000D92C4  4E 80 00 20 */	blr 
+/* 800DDDA4 000D92C4  4E 80 00 20 */	blr
 
 glabel ptim_start_timer
 /* 800DDDA8 000D92C8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -116,7 +116,7 @@ glabel ptim_start_timer
 /* 800DDE38 000D9358  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800DDE3C 000D935C  7C 08 03 A6 */	mtlr r0
 /* 800DDE40 000D9360  38 21 00 20 */	addi r1, r1, 0x20
-/* 800DDE44 000D9364  4E 80 00 20 */	blr 
+/* 800DDE44 000D9364  4E 80 00 20 */	blr
 
 glabel prim_stop_timer
 /* 800DDE48 000D9368  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -135,5 +135,5 @@ glabel prim_stop_timer
 /* 800DDE78 000D9398  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800DDE7C 000D939C  7C 08 03 A6 */	mtlr r0
 /* 800DDE80 000D93A0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800DDE84 000D93A4  4E 80 00 20 */	blr 
+/* 800DDE84 000D93A4  4E 80 00 20 */	blr
 

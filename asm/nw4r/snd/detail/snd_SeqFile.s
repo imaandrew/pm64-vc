@@ -98,7 +98,7 @@ glabel __ct__Q46nw4hbm3snd6detail13SeqFileReaderFPCv
 /* 80133348 0012E868  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8013334C 0012E86C  7C 08 03 A6 */	mtlr r0
 /* 80133350 0012E870  38 21 00 20 */	addi r1, r1, 0x20
-/* 80133354 0012E874  4E 80 00 20 */	blr 
+/* 80133354 0012E874  4E 80 00 20 */	blr
 
 glabel GetBaseAddress__Q46nw4hbm3snd6detail13SeqFileReaderCFv
 /* 80133358 0012E878  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -124,5 +124,5 @@ glabel GetBaseAddress__Q46nw4hbm3snd6detail13SeqFileReaderCFv
 /* 801333A4 0012E8C4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801333A8 0012E8C8  7C 08 03 A6 */	mtlr r0
 /* 801333AC 0012E8CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 801333B0 0012E8D0  4E 80 00 20 */	blr 
+/* 801333B0 0012E8D0  4E 80 00 20 */	blr
 

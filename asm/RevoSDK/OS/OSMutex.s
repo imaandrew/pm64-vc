@@ -16,7 +16,7 @@ glabel OSInitMutex
 /* 80096490 000919B0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80096494 000919B4  7C 08 03 A6 */	mtlr r0
 /* 80096498 000919B8  38 21 00 10 */	addi r1, r1, 0x10
-/* 8009649C 000919BC  4E 80 00 20 */	blr 
+/* 8009649C 000919BC  4E 80 00 20 */	blr
 
 glabel OSLockMutex
 /* 800964A0 000919C0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -79,7 +79,7 @@ glabel OSLockMutex
 /* 8009656C 00091A8C  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80096570 00091A90  7C 08 03 A6 */	mtlr r0
 /* 80096574 00091A94  38 21 00 20 */	addi r1, r1, 0x20
-/* 80096578 00091A98  4E 80 00 20 */	blr 
+/* 80096578 00091A98  4E 80 00 20 */	blr
 
 glabel OSUnlockMutex
 /* 8009657C 00091A9C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -137,7 +137,7 @@ glabel OSUnlockMutex
 /* 80096634 00091B54  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80096638 00091B58  7C 08 03 A6 */	mtlr r0
 /* 8009663C 00091B5C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80096640 00091B60  4E 80 00 20 */	blr 
+/* 80096640 00091B60  4E 80 00 20 */	blr
 
 glabel __OSUnlockAllMutex
 /* 80096644 00091B64  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -170,5 +170,5 @@ glabel __OSUnlockAllMutex
 /* 800966A0 00091BC0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800966A4 00091BC4  7C 08 03 A6 */	mtlr r0
 /* 800966A8 00091BC8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800966AC 00091BCC  4E 80 00 20 */	blr 
+/* 800966AC 00091BCC  4E 80 00 20 */	blr
 

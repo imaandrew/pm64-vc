@@ -25,7 +25,7 @@ glabel SCGetAspectRatio
 /* 800BDBB0 000B90D0  88 61 00 08 */	lbz r3, 8(r1)
 /* 800BDBB4 000B90D4  7C 08 03 A6 */	mtlr r0
 /* 800BDBB8 000B90D8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDBBC 000B90DC  4E 80 00 20 */	blr 
+/* 800BDBBC 000B90DC  4E 80 00 20 */	blr
 
 glabel SCGetDisplayOffsetH
 /* 800BDBC0 000B90E0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -59,7 +59,7 @@ glabel SCGetDisplayOffsetH
 /* 800BDC24 000B9144  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800BDC28 000B9148  7C 08 03 A6 */	mtlr r0
 /* 800BDC2C 000B914C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDC30 000B9150  4E 80 00 20 */	blr 
+/* 800BDC30 000B9150  4E 80 00 20 */	blr
 
 glabel SCGetIdleMode
 /* 800BDC34 000B9154  38 80 00 02 */	li r4, 2
@@ -96,7 +96,7 @@ glabel SCGetLanguage
 /* 800BDC9C 000B91BC  88 61 00 08 */	lbz r3, 8(r1)
 /* 800BDCA0 000B91C0  7C 08 03 A6 */	mtlr r0
 /* 800BDCA4 000B91C4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDCA8 000B91C8  4E 80 00 20 */	blr 
+/* 800BDCA8 000B91C8  4E 80 00 20 */	blr
 
 glabel SCGetProgressiveMode
 /* 800BDCAC 000B91CC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -121,7 +121,7 @@ glabel SCGetProgressiveMode
 /* 800BDCF0 000B9210  88 61 00 08 */	lbz r3, 8(r1)
 /* 800BDCF4 000B9214  7C 08 03 A6 */	mtlr r0
 /* 800BDCF8 000B9218  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDCFC 000B921C  4E 80 00 20 */	blr 
+/* 800BDCFC 000B921C  4E 80 00 20 */	blr
 
 glabel SCGetScreenSaverMode
 /* 800BDD00 000B9220  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -146,7 +146,7 @@ glabel SCGetScreenSaverMode
 /* 800BDD44 000B9264  88 61 00 08 */	lbz r3, 8(r1)
 /* 800BDD48 000B9268  7C 08 03 A6 */	mtlr r0
 /* 800BDD4C 000B926C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDD50 000B9270  4E 80 00 20 */	blr 
+/* 800BDD50 000B9270  4E 80 00 20 */	blr
 
 glabel SCGetSoundMode
 /* 800BDD54 000B9274  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -175,7 +175,7 @@ glabel SCGetSoundMode
 /* 800BDDA8 000B92C8  88 61 00 08 */	lbz r3, 8(r1)
 /* 800BDDAC 000B92CC  7C 08 03 A6 */	mtlr r0
 /* 800BDDB0 000B92D0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDDB4 000B92D4  4E 80 00 20 */	blr 
+/* 800BDDB4 000B92D4  4E 80 00 20 */	blr
 
 glabel SCGetCounterBias
 /* 800BDDB8 000B92D8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -194,7 +194,7 @@ glabel SCGetCounterBias
 /* 800BDDE8 000B9308  80 61 00 08 */	lwz r3, 8(r1)
 /* 800BDDEC 000B930C  7C 08 03 A6 */	mtlr r0
 /* 800BDDF0 000B9310  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDDF4 000B9314  4E 80 00 20 */	blr 
+/* 800BDDF4 000B9314  4E 80 00 20 */	blr
 
 glabel SCGetBtDeviceInfoArray
 /* 800BDDF8 000B9318  38 80 04 61 */	li r4, 0x461
@@ -235,7 +235,7 @@ glabel SCGetBtDpdSensibility
 /* 800BDE68 000B9388  80 61 00 08 */	lwz r3, 8(r1)
 /* 800BDE6C 000B938C  7C 08 03 A6 */	mtlr r0
 /* 800BDE70 000B9390  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDE74 000B9394  4E 80 00 20 */	blr 
+/* 800BDE74 000B9394  4E 80 00 20 */	blr
 
 glabel SCGetWpadMotorMode
 /* 800BDE78 000B9398  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -260,7 +260,7 @@ glabel SCGetWpadMotorMode
 /* 800BDEBC 000B93DC  88 61 00 08 */	lbz r3, 8(r1)
 /* 800BDEC0 000B93E0  7C 08 03 A6 */	mtlr r0
 /* 800BDEC4 000B93E4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDEC8 000B93E8  4E 80 00 20 */	blr 
+/* 800BDEC8 000B93E8  4E 80 00 20 */	blr
 
 glabel SCReplaceU8Item
 /* 800BDECC 000B93EC  38 80 00 1F */	li r4, 0x1f
@@ -289,7 +289,7 @@ glabel SCGetWpadSensorBarPosition
 /* 800BDF18 000B9438  88 61 00 08 */	lbz r3, 8(r1)
 /* 800BDF1C 000B943C  7C 08 03 A6 */	mtlr r0
 /* 800BDF20 000B9440  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDF24 000B9444  4E 80 00 20 */	blr 
+/* 800BDF24 000B9444  4E 80 00 20 */	blr
 
 glabel SCGetWpadSpeakerVolume
 /* 800BDF28 000B9448  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -314,7 +314,7 @@ glabel SCGetWpadSpeakerVolume
 /* 800BDF6C 000B948C  88 61 00 08 */	lbz r3, 8(r1)
 /* 800BDF70 000B9490  7C 08 03 A6 */	mtlr r0
 /* 800BDF74 000B9494  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BDF78 000B9498  4E 80 00 20 */	blr 
+/* 800BDF78 000B9498  4E 80 00 20 */	blr
 
 glabel SCSetWpadSpeakerVolume
 /* 800BDF7C 000B949C  38 80 00 1E */	li r4, 0x1e

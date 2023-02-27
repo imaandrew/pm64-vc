@@ -43,7 +43,7 @@ glabel ARCInitHandle
 /* 800BE4DC 000B99FC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800BE4E0 000B9A00  7C 08 03 A6 */	mtlr r0
 /* 800BE4E4 000B9A04  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BE4E8 000B9A08  4E 80 00 20 */	blr 
+/* 800BE4E8 000B9A08  4E 80 00 20 */	blr
 
 glabel ARCOpen
 /* 800BE4EC 000B9A0C  94 21 FF 60 */	stwu r1, -0xa0(r1)
@@ -240,7 +240,7 @@ glabel ARCOpen
 /* 800BE780 000B9CA0  80 01 00 A4 */	lwz r0, 0xa4(r1)
 /* 800BE784 000B9CA4  7C 08 03 A6 */	mtlr r0
 /* 800BE788 000B9CA8  38 21 00 A0 */	addi r1, r1, 0xa0
-/* 800BE78C 000B9CAC  4E 80 00 20 */	blr 
+/* 800BE78C 000B9CAC  4E 80 00 20 */	blr
 
 glabel ARCFastOpen
 /* 800BE790 000B9CB0  2C 04 00 00 */	cmpwi r4, 0
@@ -255,7 +255,7 @@ glabel ARCFastOpen
 /* 800BE7B4 000B9CD4  41 82 00 0C */	beq .L_800BE7C0
 .L_800BE7B8:
 /* 800BE7B8 000B9CD8  38 60 00 00 */	li r3, 0
-/* 800BE7BC 000B9CDC  4E 80 00 20 */	blr 
+/* 800BE7BC 000B9CDC  4E 80 00 20 */	blr
 .L_800BE7C0:
 /* 800BE7C0 000B9CE0  90 65 00 00 */	stw r3, 0(r5)
 /* 800BE7C4 000B9CE4  7C 86 22 14 */	add r4, r6, r4
@@ -264,7 +264,7 @@ glabel ARCFastOpen
 /* 800BE7D0 000B9CF0  90 05 00 04 */	stw r0, 4(r5)
 /* 800BE7D4 000B9CF4  80 04 00 08 */	lwz r0, 8(r4)
 /* 800BE7D8 000B9CF8  90 05 00 08 */	stw r0, 8(r5)
-/* 800BE7DC 000B9CFC  4E 80 00 20 */	blr 
+/* 800BE7DC 000B9CFC  4E 80 00 20 */	blr
 
 glabel ARCConvertPathToEntrynum
 /* 800BE7E0 000B9D00  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -452,7 +452,7 @@ glabel ARCConvertPathToEntrynum
 /* 800BEA34 000B9F54  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800BEA38 000B9F58  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800BEA3C 000B9F5C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BEA40 000B9F60  4E 80 00 20 */	blr 
+/* 800BEA40 000B9F60  4E 80 00 20 */	blr
 
 glabel ARCEntrynumIsDir
 /* 800BEA44 000B9F64  1C 04 00 0C */	mulli r0, r4, 0xc
@@ -462,7 +462,7 @@ glabel ARCEntrynumIsDir
 /* 800BEA54 000B9F74  7C 03 00 D0 */	neg r0, r3
 /* 800BEA58 000B9F78  7C 00 1B 78 */	or r0, r0, r3
 /* 800BEA5C 000B9F7C  54 03 0F FE */	srwi r3, r0, 0x1f
-/* 800BEA60 000B9F80  4E 80 00 20 */	blr 
+/* 800BEA60 000B9F80  4E 80 00 20 */	blr
 
 glabel entryToPath
 /* 800BEA64 000B9F84  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -596,26 +596,26 @@ glabel entryToPath
 /* 800BEC1C 000BA13C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800BEC20 000BA140  7C 08 03 A6 */	mtlr r0
 /* 800BEC24 000BA144  38 21 00 20 */	addi r1, r1, 0x20
-/* 800BEC28 000BA148  4E 80 00 20 */	blr 
+/* 800BEC28 000BA148  4E 80 00 20 */	blr
 
 glabel ARCGetStartAddrInMenu
 /* 800BEC2C 000BA14C  80 83 00 00 */	lwz r4, 0(r3)
 /* 800BEC30 000BA150  80 03 00 04 */	lwz r0, 4(r3)
 /* 800BEC34 000BA154  80 64 00 00 */	lwz r3, 0(r4)
 /* 800BEC38 000BA158  7C 63 02 14 */	add r3, r3, r0
-/* 800BEC3C 000BA15C  4E 80 00 20 */	blr 
+/* 800BEC3C 000BA15C  4E 80 00 20 */	blr
 
 glabel ARCGetStartOffset
 /* 800BEC40 000BA160  80 63 00 04 */	lwz r3, 4(r3)
-/* 800BEC44 000BA164  4E 80 00 20 */	blr 
+/* 800BEC44 000BA164  4E 80 00 20 */	blr
 
 glabel ARCGetLength
 /* 800BEC48 000BA168  80 63 00 08 */	lwz r3, 8(r3)
-/* 800BEC4C 000BA16C  4E 80 00 20 */	blr 
+/* 800BEC4C 000BA16C  4E 80 00 20 */	blr
 
 glabel ARCClose
 /* 800BEC50 000BA170  38 60 00 01 */	li r3, 1
-/* 800BEC54 000BA174  4E 80 00 20 */	blr 
+/* 800BEC54 000BA174  4E 80 00 20 */	blr
 
 glabel ARCChangeDir
 /* 800BEC58 000BA178  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -642,7 +642,7 @@ glabel ARCChangeDir
 /* 800BECA0 000BA1C0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800BECA4 000BA1C4  7C 08 03 A6 */	mtlr r0
 /* 800BECA8 000BA1C8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BECAC 000BA1CC  4E 80 00 20 */	blr 
+/* 800BECAC 000BA1CC  4E 80 00 20 */	blr
 
 glabel ARCOpenDir
 /* 800BECB0 000BA1D0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -678,7 +678,7 @@ glabel ARCOpenDir
 /* 800BED1C 000BA23C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800BED20 000BA240  7C 08 03 A6 */	mtlr r0
 /* 800BED24 000BA244  38 21 00 10 */	addi r1, r1, 0x10
-/* 800BED28 000BA248  4E 80 00 20 */	blr 
+/* 800BED28 000BA248  4E 80 00 20 */	blr
 
 glabel ARCReadDir
 /* 800BED2C 000BA24C  80 E3 00 08 */	lwz r7, 8(r3)
@@ -695,7 +695,7 @@ glabel ARCReadDir
 /* 800BED54 000BA274  41 81 00 0C */	bgt .L_800BED60
 .L_800BED58:
 /* 800BED58 000BA278  38 60 00 00 */	li r3, 0
-/* 800BED5C 000BA27C  4E 80 00 20 */	blr 
+/* 800BED5C 000BA27C  4E 80 00 20 */	blr
 .L_800BED60:
 /* 800BED60 000BA280  91 24 00 00 */	stw r9, 0(r4)
 /* 800BED64 000BA284  90 E4 00 04 */	stw r7, 4(r4)
@@ -732,9 +732,9 @@ glabel ARCReadDir
 .L_800BEDD8:
 /* 800BEDD8 000BA2F8  90 03 00 08 */	stw r0, 8(r3)
 /* 800BEDDC 000BA2FC  38 60 00 01 */	li r3, 1
-/* 800BEDE0 000BA300  4E 80 00 20 */	blr 
+/* 800BEDE0 000BA300  4E 80 00 20 */	blr
 
 glabel ARCCloseDir
 /* 800BEDE4 000BA304  38 60 00 01 */	li r3, 1
-/* 800BEDE8 000BA308  4E 80 00 20 */	blr 
+/* 800BEDE8 000BA308  4E 80 00 20 */	blr
 

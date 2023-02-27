@@ -13,7 +13,7 @@ glabel EqualsPaneName__Q36nw4hbm3lyt6detailFPCcPCc
 /* 801194AC 001149CC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801194B0 001149D0  7C 08 03 A6 */	mtlr r0
 /* 801194B4 001149D4  38 21 00 10 */	addi r1, r1, 0x10
-/* 801194B8 001149D8  4E 80 00 20 */	blr 
+/* 801194B8 001149D8  4E 80 00 20 */	blr
 
 glabel EqualsMaterialName__Q36nw4hbm3lyt6detailFPCcPCc
 /* 801194BC 001149DC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -26,7 +26,7 @@ glabel EqualsMaterialName__Q36nw4hbm3lyt6detailFPCcPCc
 /* 801194D8 001149F8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 801194DC 001149FC  7C 08 03 A6 */	mtlr r0
 /* 801194E0 00114A00  38 21 00 10 */	addi r1, r1, 0x10
-/* 801194E4 00114A04  4E 80 00 20 */	blr 
+/* 801194E4 00114A04  4E 80 00 20 */	blr
 
 glabel TestFileHeader__Q36nw4hbm3lyt6detailFRCQ46nw4hbm3lyt3res16BinaryFileHeader
 /* 801194E8 00114A08  A0 03 00 04 */	lhz r0, 4(r3)
@@ -39,7 +39,7 @@ glabel TestFileHeader__Q36nw4hbm3lyt6detailFRCQ46nw4hbm3lyt3res16BinaryFileHeade
 /* 80119504 00114A24  38 80 00 01 */	li r4, 1
 .L_80119508:
 /* 80119508 00114A28  7C 83 23 78 */	mr r3, r4
-/* 8011950C 00114A2C  4E 80 00 20 */	blr 
+/* 8011950C 00114A2C  4E 80 00 20 */	blr
 
 glabel TestFileHeader__Q36nw4hbm3lyt6detailFRCQ46nw4hbm3lyt3res16BinaryFileHeaderUl
 /* 80119510 00114A30  80 03 00 00 */	lwz r0, 0(r3)
@@ -55,14 +55,14 @@ glabel TestFileHeader__Q36nw4hbm3lyt6detailFRCQ46nw4hbm3lyt3res16BinaryFileHeade
 /* 80119538 00114A58  38 A0 00 01 */	li r5, 1
 .L_8011953C:
 /* 8011953C 00114A5C  7C A3 2B 78 */	mr r3, r5
-/* 80119540 00114A60  4E 80 00 20 */	blr 
+/* 80119540 00114A60  4E 80 00 20 */	blr
 
 glabel __ct__Q46nw4hbm3lyt6detail11TexCoordAryFv
 /* 80119544 00114A64  38 00 00 00 */	li r0, 0
 /* 80119548 00114A68  98 03 00 00 */	stb r0, 0(r3)
 /* 8011954C 00114A6C  98 03 00 01 */	stb r0, 1(r3)
 /* 80119550 00114A70  90 03 00 04 */	stw r0, 4(r3)
-/* 80119554 00114A74  4E 80 00 20 */	blr 
+/* 80119554 00114A74  4E 80 00 20 */	blr
 
 glabel Free__Q46nw4hbm3lyt6detail11TexCoordAryFv
 /* 80119558 00114A78  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -85,7 +85,7 @@ glabel Free__Q46nw4hbm3lyt6detail11TexCoordAryFv
 /* 80119598 00114AB8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8011959C 00114ABC  7C 08 03 A6 */	mtlr r0
 /* 801195A0 00114AC0  38 21 00 10 */	addi r1, r1, 0x10
-/* 801195A4 00114AC4  4E 80 00 20 */	blr 
+/* 801195A4 00114AC4  4E 80 00 20 */	blr
 
 glabel Reserve__Q46nw4hbm3lyt6detail11TexCoordAryFUc
 /* 801195A8 00114AC8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -133,15 +133,15 @@ glabel Reserve__Q46nw4hbm3lyt6detail11TexCoordAryFUc
 /* 80119644 00114B64  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80119648 00114B68  7C 08 03 A6 */	mtlr r0
 /* 8011964C 00114B6C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80119650 00114B70  4E 80 00 20 */	blr 
+/* 80119650 00114B70  4E 80 00 20 */	blr
 
 glabel SetSize__Q46nw4hbm3lyt6detail11TexCoordAryFUc
 /* 80119654 00114B74  80 03 00 04 */	lwz r0, 4(r3)
 /* 80119658 00114B78  2C 00 00 00 */	cmpwi r0, 0
-/* 8011965C 00114B7C  4D 82 00 20 */	beqlr 
+/* 8011965C 00114B7C  4D 82 00 20 */	beqlr
 /* 80119660 00114B80  88 03 00 00 */	lbz r0, 0(r3)
 /* 80119664 00114B84  7C 04 00 40 */	cmplw r4, r0
-/* 80119668 00114B88  4D 81 00 20 */	bgtlr 
+/* 80119668 00114B88  4D 81 00 20 */	bgtlr
 /* 8011966C 00114B8C  3D 00 80 23 */	lis r8, lbl_80229110@ha
 /* 80119670 00114B90  88 08 91 10 */	lbz r0, lbl_80229110@l(r8)
 /* 80119674 00114B94  7C 00 07 75 */	extsb. r0, r0
@@ -200,7 +200,7 @@ glabel SetSize__Q46nw4hbm3lyt6detail11TexCoordAryFUc
 /* 80119740 00114C60  42 00 FF BC */	bdnz .L_801196FC
 .L_80119744:
 /* 80119744 00114C64  98 83 00 01 */	stb r4, 1(r3)
-/* 80119748 00114C68  4E 80 00 20 */	blr 
+/* 80119748 00114C68  4E 80 00 20 */	blr
 
 glabel Copy__Q46nw4hbm3lyt6detail11TexCoordAryFPCvUc
 /* 8011974C 00114C6C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -268,13 +268,13 @@ glabel Copy__Q46nw4hbm3lyt6detail11TexCoordAryFPCvUc
 /* 80119834 00114D54  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80119838 00114D58  7C 08 03 A6 */	mtlr r0
 /* 8011983C 00114D5C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80119840 00114D60  4E 80 00 20 */	blr 
+/* 80119840 00114D60  4E 80 00 20 */	blr
 
 glabel IsModulateVertexColor__Q36nw4hbm3lyt6detailFPQ36nw4hbm2ut5ColorUc
 /* 80119844 00114D64  28 04 00 FF */	cmplwi r4, 0xff
 /* 80119848 00114D68  41 82 00 0C */	beq .L_80119854
 /* 8011984C 00114D6C  38 60 00 01 */	li r3, 1
-/* 80119850 00114D70  4E 80 00 20 */	blr 
+/* 80119850 00114D70  4E 80 00 20 */	blr
 .L_80119854:
 /* 80119854 00114D74  2C 03 00 00 */	cmpwi r3, 0
 /* 80119858 00114D78  41 82 00 4C */	beq .L_801198A4
@@ -296,10 +296,10 @@ glabel IsModulateVertexColor__Q36nw4hbm3lyt6detailFPQ36nw4hbm2ut5ColorUc
 /* 80119898 00114DB8  41 82 00 0C */	beq .L_801198A4
 .L_8011989C:
 /* 8011989C 00114DBC  38 60 00 01 */	li r3, 1
-/* 801198A0 00114DC0  4E 80 00 20 */	blr 
+/* 801198A0 00114DC0  4E 80 00 20 */	blr
 .L_801198A4:
 /* 801198A4 00114DC4  38 60 00 00 */	li r3, 0
-/* 801198A8 00114DC8  4E 80 00 20 */	blr 
+/* 801198A8 00114DC8  4E 80 00 20 */	blr
 
 glabel MultipleAlpha__Q36nw4hbm3lyt6detailFQ36nw4hbm2ut5ColorUc
 /* 801198AC 00114DCC  89 04 00 00 */	lbz r8, 0(r4)
@@ -311,7 +311,7 @@ glabel MultipleAlpha__Q36nw4hbm3lyt6detailFQ36nw4hbm2ut5ColorUc
 /* 801198C4 00114DE4  98 E3 00 01 */	stb r7, 1(r3)
 /* 801198C8 00114DE8  98 C3 00 02 */	stb r6, 2(r3)
 /* 801198CC 00114DEC  98 03 00 03 */	stb r0, 3(r3)
-/* 801198D0 00114DF0  4D 82 00 20 */	beqlr 
+/* 801198D0 00114DF0  4D 82 00 20 */	beqlr
 /* 801198D4 00114DF4  88 04 00 03 */	lbz r0, 3(r4)
 /* 801198D8 00114DF8  3C 80 80 81 */	lis r4, 0x80808081@ha
 /* 801198DC 00114DFC  38 84 80 81 */	addi r4, r4, 0x80808081@l
@@ -322,7 +322,7 @@ glabel MultipleAlpha__Q36nw4hbm3lyt6detailFQ36nw4hbm2ut5ColorUc
 /* 801198F0 00114E10  54 04 0F FE */	srwi r4, r0, 0x1f
 /* 801198F4 00114E14  7C 00 22 14 */	add r0, r0, r4
 /* 801198F8 00114E18  98 03 00 03 */	stb r0, 3(r3)
-/* 801198FC 00114E1C  4E 80 00 20 */	blr 
+/* 801198FC 00114E1C  4E 80 00 20 */	blr
 
 glabel SetVertexFormat__Q36nw4hbm3lyt6detailFbUc
 /* 80119900 00114E20  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -387,7 +387,7 @@ glabel SetVertexFormat__Q36nw4hbm3lyt6detailFbUc
 /* 801199D4 00114EF4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 801199D8 00114EF8  7C 08 03 A6 */	mtlr r0
 /* 801199DC 00114EFC  38 21 00 20 */	addi r1, r1, 0x20
-/* 801199E0 00114F00  4E 80 00 20 */	blr 
+/* 801199E0 00114F00  4E 80 00 20 */	blr
 
 glabel DrawQuad__Q36nw4hbm3lyt6detailFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt4SizeUcPA4_CQ36nw4hbm4math4VEC2PCQ36nw4hbm2ut5Color
 /* 801199E4 00114F04  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -759,7 +759,7 @@ glabel lbl_80119B3C
 /* 80119F34 00115454  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80119F38 00115458  7C 08 03 A6 */	mtlr r0
 /* 80119F3C 0011545C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80119F40 00115460  4E 80 00 20 */	blr 
+/* 80119F40 00115460  4E 80 00 20 */	blr
 
 glabel DrawQuad__Q36nw4hbm3lyt6detailFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt4SizeUcPA4_CQ36nw4hbm4math4VEC2PCQ36nw4hbm2ut5ColorUc
 /* 80119F44 00115464  94 21 FF B0 */	stwu r1, -0x50(r1)
@@ -825,7 +825,7 @@ glabel DrawQuad__Q36nw4hbm3lyt6detailFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt4SizeU
 /* 8011A02C 0011554C  80 01 00 54 */	lwz r0, 0x54(r1)
 /* 8011A030 00115550  7C 08 03 A6 */	mtlr r0
 /* 8011A034 00115554  38 21 00 50 */	addi r1, r1, 0x50
-/* 8011A038 00115558  4E 80 00 20 */	blr 
+/* 8011A038 00115558  4E 80 00 20 */	blr
 
 glabel DrawLine__Q36nw4hbm3lyt6detailFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt4SizeQ36nw4hbm2ut5Color
 /* 8011A03C 0011555C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -935,7 +935,7 @@ glabel DrawLine__Q36nw4hbm3lyt6detailFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt4SizeQ
 /* 8011A1DC 001156FC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8011A1E0 00115700  7C 08 03 A6 */	mtlr r0
 /* 8011A1E4 00115704  38 21 00 20 */	addi r1, r1, 0x20
-/* 8011A1E8 00115708  4E 80 00 20 */	blr 
+/* 8011A1E8 00115708  4E 80 00 20 */	blr
 
 glabel InitGXTexObjFromTPL__Q36nw4hbm3lyt6detailFP9_GXTexObjP10TPLPaletteUl
 /* 8011A1EC 0011570C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1020,7 +1020,7 @@ glabel InitGXTexObjFromTPL__Q36nw4hbm3lyt6detailFP9_GXTexObjP10TPLPaletteUl
 /* 8011A31C 0011583C  83 A1 00 24 */	lwz r29, 0x24(r1)
 /* 8011A320 00115840  7C 08 03 A6 */	mtlr r0
 /* 8011A324 00115844  38 21 00 30 */	addi r1, r1, 0x30
-/* 8011A328 00115848  4E 80 00 20 */	blr 
+/* 8011A328 00115848  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

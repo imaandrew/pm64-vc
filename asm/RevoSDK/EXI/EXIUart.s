@@ -102,7 +102,7 @@ glabel ProbeBarnacle
 /* 8009C9B0 00097ED0  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8009C9B4 00097ED4  7C 08 03 A6 */	mtlr r0
 /* 8009C9B8 00097ED8  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009C9BC 00097EDC  4E 80 00 20 */	blr 
+/* 8009C9BC 00097EDC  4E 80 00 20 */	blr
 
 glabel __OSEnableBarnacle
 /* 8009C9C0 00097EE0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -224,7 +224,7 @@ glabel __OSEnableBarnacle
 /* 8009CB6C 0009808C  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 8009CB70 00098090  7C 08 03 A6 */	mtlr r0
 /* 8009CB74 00098094  38 21 00 20 */	addi r1, r1, 0x20
-/* 8009CB78 00098098  4E 80 00 20 */	blr 
+/* 8009CB78 00098098  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

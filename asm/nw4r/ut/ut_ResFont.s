@@ -17,7 +17,7 @@ glabel __ct__Q36nw4hbm2ut7ResFontFv
 /* 8014D850 00148D70  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014D854 00148D74  7C 08 03 A6 */	mtlr r0
 /* 8014D858 00148D78  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014D85C 00148D7C  4E 80 00 20 */	blr 
+/* 8014D85C 00148D7C  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm2ut7ResFontFv
 /* 8014D860 00148D80  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -42,7 +42,7 @@ glabel __dt__Q36nw4hbm2ut7ResFontFv
 /* 8014D8A8 00148DC8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014D8AC 00148DCC  7C 08 03 A6 */	mtlr r0
 /* 8014D8B0 00148DD0  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014D8B4 00148DD4  4E 80 00 20 */	blr 
+/* 8014D8B4 00148DD4  4E 80 00 20 */	blr
 
 glabel SetResource__Q36nw4hbm2ut7ResFontFPv
 /* 8014D8B8 00148DD8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -344,7 +344,7 @@ glabel SetResource__Q36nw4hbm2ut7ResFontFPv
 /* 8014DCDC 001491FC  7F 43 D3 78 */	mr r3, r26
 /* 8014DCE0 00149200  81 8C 00 54 */	lwz r12, 0x54(r12)
 /* 8014DCE4 00149204  7D 89 03 A6 */	mtctr r12
-/* 8014DCE8 00149208  4E 80 04 21 */	bctrl 
+/* 8014DCE8 00149208  4E 80 04 21 */	bctrl
 /* 8014DCEC 0014920C  7C 64 1B 78 */	mr r4, r3
 /* 8014DCF0 00149210  7F 43 D3 78 */	mr r3, r26
 /* 8014DCF4 00149214  4B FF DE 11 */	bl InitReaderFunc__Q36nw4hbm2ut4FontFQ36nw4hbm2ut12FontEncoding
@@ -355,7 +355,7 @@ glabel SetResource__Q36nw4hbm2ut7ResFontFPv
 /* 8014DD04 00149224  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014DD08 00149228  7C 08 03 A6 */	mtlr r0
 /* 8014DD0C 0014922C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014DD10 00149230  4E 80 00 20 */	blr 
+/* 8014DD10 00149230  4E 80 00 20 */	blr
 
 glabel Rebuild__Q36nw4hbm2ut7ResFontFPQ36nw4hbm2ut16BinaryFileHeader
 /* 8014DD14 00149234  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1153,5 +1153,5 @@ glabel Rebuild__Q36nw4hbm2ut7ResFontFPQ36nw4hbm2ut16BinaryFileHeader
 /* 8014E82C 00149D4C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8014E830 00149D50  7C 08 03 A6 */	mtlr r0
 /* 8014E834 00149D54  38 21 00 40 */	addi r1, r1, 0x40
-/* 8014E838 00149D58  4E 80 00 20 */	blr 
+/* 8014E838 00149D58  4E 80 00 20 */	blr
 

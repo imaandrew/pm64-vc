@@ -30,14 +30,14 @@ glabel NandAsyncCallback___Q34nw4r2ut14NandFileStreamFlP16NANDCommandBlock
 /* 8014C87C 00147D9C  7F C3 F3 78 */	mr r3, r30
 /* 8014C880 00147DA0  80 A4 00 10 */	lwz r5, 0x10(r4)
 /* 8014C884 00147DA4  7D 89 03 A6 */	mtctr r12
-/* 8014C888 00147DA8  4E 80 04 21 */	bctrl 
+/* 8014C888 00147DA8  4E 80 04 21 */	bctrl
 .L_8014C88C:
 /* 8014C88C 00147DAC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014C890 00147DB0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8014C894 00147DB4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8014C898 00147DB8  7C 08 03 A6 */	mtlr r0
 /* 8014C89C 00147DBC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014C8A0 00147DC0  4E 80 00 20 */	blr 
+/* 8014C8A0 00147DC0  4E 80 00 20 */	blr
 
 glabel __ct__Q34nw4r2ut14NandFileStreamFPCcUl
 /* 8014C8A4 00147DC4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -90,7 +90,7 @@ glabel __ct__Q34nw4r2ut14NandFileStreamFPCcUl
 /* 8014C95C 00147E7C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014C960 00147E80  7C 08 03 A6 */	mtlr r0
 /* 8014C964 00147E84  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014C968 00147E88  4E 80 00 20 */	blr 
+/* 8014C968 00147E88  4E 80 00 20 */	blr
 
 glabel __ct__Q34nw4r2ut14NandFileStreamFPC12NANDFileInfoUlb
 /* 8014C96C 00147E8C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -120,7 +120,7 @@ glabel __ct__Q34nw4r2ut14NandFileStreamFPC12NANDFileInfoUlb
 /* 8014C9CC 00147EEC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014C9D0 00147EF0  7C 08 03 A6 */	mtlr r0
 /* 8014C9D4 00147EF4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014C9D8 00147EF8  4E 80 00 20 */	blr 
+/* 8014C9D8 00147EF8  4E 80 00 20 */	blr
 
 glabel __dt__Q34nw4r2ut14NandFileStreamFv
 /* 8014C9DC 00147EFC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -141,7 +141,7 @@ glabel __dt__Q34nw4r2ut14NandFileStreamFv
 /* 8014CA18 00147F38  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014CA1C 00147F3C  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8014CA20 00147F40  7D 89 03 A6 */	mtctr r12
-/* 8014CA24 00147F44  4E 80 04 21 */	bctrl 
+/* 8014CA24 00147F44  4E 80 04 21 */	bctrl
 .L_8014CA28:
 /* 8014CA28 00147F48  2C 1F 00 00 */	cmpwi r31, 0
 /* 8014CA2C 00147F4C  40 81 00 0C */	ble .L_8014CA38
@@ -154,7 +154,7 @@ glabel __dt__Q34nw4r2ut14NandFileStreamFv
 /* 8014CA44 00147F64  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014CA48 00147F68  7C 08 03 A6 */	mtlr r0
 /* 8014CA4C 00147F6C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014CA50 00147F70  4E 80 00 20 */	blr 
+/* 8014CA50 00147F70  4E 80 00 20 */	blr
 
 glabel Open__Q34nw4r2ut14NandFileStreamFPCcUl
 /* 8014CA54 00147F74  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -183,7 +183,7 @@ glabel Open__Q34nw4r2ut14NandFileStreamFPCcUl
 /* 8014CAAC 00147FCC  7F A3 EB 78 */	mr r3, r29
 /* 8014CAB0 00147FD0  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8014CAB4 00147FD4  7D 89 03 A6 */	mtctr r12
-/* 8014CAB8 00147FD8  4E 80 04 21 */	bctrl 
+/* 8014CAB8 00147FD8  4E 80 04 21 */	bctrl
 .L_8014CABC:
 /* 8014CABC 00147FDC  57 E3 07 FE */	clrlwi r3, r31, 0x1f
 /* 8014CAC0 00147FE0  57 E0 FF FE */	rlwinm r0, r31, 0x1f, 0x1f, 0x1f
@@ -230,7 +230,7 @@ glabel Open__Q34nw4r2ut14NandFileStreamFPCcUl
 /* 8014CB54 00148074  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8014CB58 00148078  7C 08 03 A6 */	mtlr r0
 /* 8014CB5C 0014807C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014CB60 00148080  4E 80 00 20 */	blr 
+/* 8014CB60 00148080  4E 80 00 20 */	blr
 
 glabel Open__Q34nw4r2ut14NandFileStreamFPC12NANDFileInfoUlb
 /* 8014CB64 00148084  94 21 FE 60 */	stwu r1, -0x1a0(r1)
@@ -248,7 +248,7 @@ glabel Open__Q34nw4r2ut14NandFileStreamFPC12NANDFileInfoUlb
 /* 8014CB94 001480B4  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014CB98 001480B8  81 8C 00 10 */	lwz r12, 0x10(r12)
 /* 8014CB9C 001480BC  7D 89 03 A6 */	mtctr r12
-/* 8014CBA0 001480C0  4E 80 04 21 */	bctrl 
+/* 8014CBA0 001480C0  4E 80 04 21 */	bctrl
 .L_8014CBA4:
 /* 8014CBA4 001480C4  8B 9F 00 1E */	lbz r28, 0x1e(r31)
 /* 8014CBA8 001480C8  55 DB 07 FE */	clrlwi r27, r14, 0x1f
@@ -713,7 +713,7 @@ glabel Open__Q34nw4r2ut14NandFileStreamFPC12NANDFileInfoUlb
 /* 8014D2C8 001487E8  80 01 01 A4 */	lwz r0, 0x1a4(r1)
 /* 8014D2CC 001487EC  7C 08 03 A6 */	mtlr r0
 /* 8014D2D0 001487F0  38 21 01 A0 */	addi r1, r1, 0x1a0
-/* 8014D2D4 001487F4  4E 80 00 20 */	blr 
+/* 8014D2D4 001487F4  4E 80 00 20 */	blr
 
 glabel Close__Q34nw4r2ut14NandFileStreamFv
 /* 8014D2D8 001487F8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -746,7 +746,7 @@ glabel Close__Q34nw4r2ut14NandFileStreamFv
 /* 8014D33C 0014885C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8014D340 00148860  7C 08 03 A6 */	mtlr r0
 /* 8014D344 00148864  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014D348 00148868  4E 80 00 20 */	blr 
+/* 8014D348 00148868  4E 80 00 20 */	blr
 
 glabel Read__Q34nw4r2ut14NandFileStreamFPvUl
 /* 8014D34C 0014886C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -808,7 +808,7 @@ glabel Read__Q34nw4r2ut14NandFileStreamFPvUl
 /* 8014D420 00148940  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014D424 00148944  7C 08 03 A6 */	mtlr r0
 /* 8014D428 00148948  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014D42C 0014894C  4E 80 00 20 */	blr 
+/* 8014D42C 0014894C  4E 80 00 20 */	blr
 
 glabel ReadAsync__Q34nw4r2ut14NandFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
 /* 8014D430 00148950  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -909,7 +909,7 @@ glabel ReadAsync__Q34nw4r2ut14NandFileStreamFPvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
 /* 8014D58C 00148AAC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8014D590 00148AB0  7C 08 03 A6 */	mtlr r0
 /* 8014D594 00148AB4  38 21 00 30 */	addi r1, r1, 0x30
-/* 8014D598 00148AB8  4E 80 00 20 */	blr 
+/* 8014D598 00148AB8  4E 80 00 20 */	blr
 
 glabel Write__Q34nw4r2ut14NandFileStreamFPCvUl
 /* 8014D59C 00148ABC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -969,7 +969,7 @@ glabel Write__Q34nw4r2ut14NandFileStreamFPCvUl
 /* 8014D668 00148B88  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8014D66C 00148B8C  7C 08 03 A6 */	mtlr r0
 /* 8014D670 00148B90  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014D674 00148B94  4E 80 00 20 */	blr 
+/* 8014D674 00148B94  4E 80 00 20 */	blr
 
 glabel WriteAsync__Q34nw4r2ut14NandFileStreamFPCvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
 /* 8014D678 00148B98  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1044,7 +1044,7 @@ glabel WriteAsync__Q34nw4r2ut14NandFileStreamFPCvUlPFlPQ34nw4r2ut8IOStreamPv_vPv
 /* 8014D778 00148C98  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8014D77C 00148C9C  7C 08 03 A6 */	mtlr r0
 /* 8014D780 00148CA0  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014D784 00148CA4  4E 80 00 20 */	blr 
+/* 8014D784 00148CA4  4E 80 00 20 */	blr
 
 glabel Seek__Q34nw4r2ut14NandFileStreamFlUl
 /* 8014D788 00148CA8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1077,22 +1077,22 @@ glabel Seek__Q34nw4r2ut14NandFileStreamFlUl
 /* 8014D7F0 00148D10  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8014D7F4 00148D14  7C 08 03 A6 */	mtlr r0
 /* 8014D7F8 00148D18  38 21 00 20 */	addi r1, r1, 0x20
-/* 8014D7FC 00148D1C  4E 80 00 20 */	blr 
+/* 8014D7FC 00148D1C  4E 80 00 20 */	blr
 
 glabel lbl_8014D800
 /* 8014D800 00148D20  80 63 00 14 */	lwz r3, 0x14(r3)
-/* 8014D804 00148D24  4E 80 00 20 */	blr 
+/* 8014D804 00148D24  4E 80 00 20 */	blr
 
 glabel lbl_8014D808
 /* 8014D808 00148D28  80 63 00 18 */	lwz r3, 0x18(r3)
-/* 8014D80C 00148D2C  4E 80 00 20 */	blr 
+/* 8014D80C 00148D2C  4E 80 00 20 */	blr
 
 glabel lbl_8014D810
 /* 8014D810 00148D30  3C 80 80 24 */	lis r4, lbl_80243B90@ha
 /* 8014D814 00148D34  3C 60 80 24 */	lis r3, lbl_80243BA0@ha
 /* 8014D818 00148D38  38 84 3B 90 */	addi r4, r4, lbl_80243B90@l
 /* 8014D81C 00148D3C  90 83 3B A0 */	stw r4, lbl_80243BA0@l(r3)
-/* 8014D820 00148D40  4E 80 00 20 */	blr 
+/* 8014D820 00148D40  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

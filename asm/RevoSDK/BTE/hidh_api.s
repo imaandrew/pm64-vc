@@ -55,7 +55,7 @@ glabel HID_HostGetSDPRecord
 /* 800F2D04 000EE224  83 81 00 20 */	lwz r28, 0x20(r1)
 /* 800F2D08 000EE228  7C 08 03 A6 */	mtlr r0
 /* 800F2D0C 000EE22C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F2D10 000EE230  4E 80 00 20 */	blr 
+/* 800F2D10 000EE230  4E 80 00 20 */	blr
 
 glabel hidh_search_callback
 /* 800F2D14 000EE234  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -81,7 +81,7 @@ glabel hidh_search_callback
 /* 800F2D64 000EE284  38 80 00 00 */	li r4, 0
 /* 800F2D68 000EE288  38 A0 00 00 */	li r5, 0
 /* 800F2D6C 000EE28C  7D 89 03 A6 */	mtctr r12
-/* 800F2D70 000EE290  4E 80 04 21 */	bctrl 
+/* 800F2D70 000EE290  4E 80 04 21 */	bctrl
 /* 800F2D74 000EE294  48 00 03 D0 */	b .L_800F3144
 .L_800F2D78:
 /* 800F2D78 000EE298  7C 83 23 78 */	mr r3, r4
@@ -96,7 +96,7 @@ glabel hidh_search_callback
 /* 800F2D9C 000EE2BC  38 80 00 00 */	li r4, 0
 /* 800F2DA0 000EE2C0  38 A0 00 00 */	li r5, 0
 /* 800F2DA4 000EE2C4  7D 89 03 A6 */	mtctr r12
-/* 800F2DA8 000EE2C8  4E 80 04 21 */	bctrl 
+/* 800F2DA8 000EE2C8  4E 80 04 21 */	bctrl
 /* 800F2DAC 000EE2CC  48 00 03 98 */	b .L_800F3144
 .L_800F2DB0:
 /* 800F2DB0 000EE2D0  7F C3 F3 78 */	mr r3, r30
@@ -137,7 +137,7 @@ glabel hidh_search_callback
 /* 800F2E38 000EE358  81 85 03 84 */	lwz r12, 0x384(r5)
 /* 800F2E3C 000EE35C  38 A0 00 00 */	li r5, 0
 /* 800F2E40 000EE360  7D 89 03 A6 */	mtctr r12
-/* 800F2E44 000EE364  4E 80 04 21 */	bctrl 
+/* 800F2E44 000EE364  4E 80 04 21 */	bctrl
 /* 800F2E48 000EE368  48 00 02 FC */	b .L_800F3144
 .L_800F2E4C:
 /* 800F2E4C 000EE36C  54 60 05 3F */	clrlwi. r0, r3, 0x14
@@ -350,7 +350,7 @@ glabel hidh_search_callback
 /* 800F3134 000EE654  38 A6 03 8C */	addi r5, r6, 0x38c
 /* 800F3138 000EE658  93 E6 03 FC */	stw r31, 0x3fc(r6)
 /* 800F313C 000EE65C  7D 89 03 A6 */	mtctr r12
-/* 800F3140 000EE660  4E 80 04 21 */	bctrl 
+/* 800F3140 000EE660  4E 80 04 21 */	bctrl
 .L_800F3144:
 /* 800F3144 000EE664  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800F3148 000EE668  83 E1 00 2C */	lwz r31, 0x2c(r1)
@@ -359,7 +359,7 @@ glabel hidh_search_callback
 /* 800F3154 000EE674  83 81 00 20 */	lwz r28, 0x20(r1)
 /* 800F3158 000EE678  7C 08 03 A6 */	mtlr r0
 /* 800F315C 000EE67C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F3160 000EE680  4E 80 00 20 */	blr 
+/* 800F3160 000EE680  4E 80 00 20 */	blr
 
 glabel HID_HostInit
 /* 800F3164 000EE684  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -378,7 +378,7 @@ glabel HID_HostInit
 /* 800F3198 000EE6B8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F319C 000EE6BC  7C 08 03 A6 */	mtlr r0
 /* 800F31A0 000EE6C0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F31A4 000EE6C4  4E 80 00 20 */	blr 
+/* 800F31A4 000EE6C4  4E 80 00 20 */	blr
 
 glabel HID_HostRegister
 /* 800F31A8 000EE6C8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -415,7 +415,7 @@ glabel HID_HostRegister
 /* 800F3214 000EE734  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F3218 000EE738  7C 08 03 A6 */	mtlr r0
 /* 800F321C 000EE73C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F3220 000EE740  4E 80 00 20 */	blr 
+/* 800F3220 000EE740  4E 80 00 20 */	blr
 
 glabel HID_HostDeregister
 /* 800F3224 000EE744  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -479,7 +479,7 @@ glabel HID_HostDeregister
 /* 800F32F8 000EE818  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F32FC 000EE81C  7C 08 03 A6 */	mtlr r0
 /* 800F3300 000EE820  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F3304 000EE824  4E 80 00 20 */	blr 
+/* 800F3304 000EE824  4E 80 00 20 */	blr
 
 glabel HID_HostAddDev
 /* 800F3308 000EE828  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -589,7 +589,7 @@ glabel HID_HostAddDev
 /* 800F3488 000EE9A8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F348C 000EE9AC  7C 08 03 A6 */	mtlr r0
 /* 800F3490 000EE9B0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F3494 000EE9B4  4E 80 00 20 */	blr 
+/* 800F3494 000EE9B4  4E 80 00 20 */	blr
 
 glabel HID_HostRemoveDev
 /* 800F3498 000EE9B8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -646,7 +646,7 @@ glabel HID_HostRemoveDev
 /* 800F3550 000EEA70  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F3554 000EEA74  7C 08 03 A6 */	mtlr r0
 /* 800F3558 000EEA78  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F355C 000EEA7C  4E 80 00 20 */	blr 
+/* 800F355C 000EEA7C  4E 80 00 20 */	blr
 
 glabel HID_HostOpenDev
 /* 800F3560 000EEA80  3C 80 80 22 */	lis r4, lbl_80223218@ha
@@ -655,7 +655,7 @@ glabel HID_HostOpenDev
 /* 800F356C 000EEA8C  2C 00 00 00 */	cmpwi r0, 0
 /* 800F3570 000EEA90  40 82 00 0C */	bne .L_800F357C
 /* 800F3574 000EEA94  38 60 00 01 */	li r3, 1
-/* 800F3578 000EEA98  4E 80 00 20 */	blr 
+/* 800F3578 000EEA98  4E 80 00 20 */	blr
 .L_800F357C:
 /* 800F357C 000EEA9C  28 03 00 10 */	cmplwi r3, 0x10
 /* 800F3580 000EEAA0  41 81 00 14 */	bgt .L_800F3594
@@ -665,19 +665,19 @@ glabel HID_HostOpenDev
 /* 800F3590 000EEAB0  40 82 00 0C */	bne .L_800F359C
 .L_800F3594:
 /* 800F3594 000EEAB4  38 60 00 05 */	li r3, 5
-/* 800F3598 000EEAB8  4E 80 00 20 */	blr 
+/* 800F3598 000EEAB8  4E 80 00 20 */	blr
 .L_800F359C:
 /* 800F359C 000EEABC  7C 84 2A 14 */	add r4, r4, r5
 /* 800F35A0 000EEAC0  88 04 00 0A */	lbz r0, 0xa(r4)
 /* 800F35A4 000EEAC4  2C 00 00 00 */	cmpwi r0, 0
 /* 800F35A8 000EEAC8  41 82 00 0C */	beq .L_800F35B4
 /* 800F35AC 000EEACC  38 60 00 0A */	li r3, 0xa
-/* 800F35B0 000EEAD0  4E 80 00 20 */	blr 
+/* 800F35B0 000EEAD0  4E 80 00 20 */	blr
 .L_800F35B4:
 /* 800F35B4 000EEAD4  38 00 00 01 */	li r0, 1
 /* 800F35B8 000EEAD8  98 04 00 0C */	stb r0, 0xc(r4)
 /* 800F35BC 000EEADC  48 00 23 28 */	b lbl_800F58E4
-/* 800F35C0 000EEAE0  4E 80 00 20 */	blr 
+/* 800F35C0 000EEAE0  4E 80 00 20 */	blr
 
 glabel HID_HostWriteDev
 /* 800F35C4 000EEAE4  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -768,7 +768,7 @@ glabel HID_HostWriteDev
 /* 800F36F4 000EEC14  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800F36F8 000EEC18  7C 08 03 A6 */	mtlr r0
 /* 800F36FC 000EEC1C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F3700 000EEC20  4E 80 00 20 */	blr 
+/* 800F3700 000EEC20  4E 80 00 20 */	blr
 
 glabel HID_HostCloseDev
 /* 800F3704 000EEC24  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -815,7 +815,7 @@ glabel HID_HostCloseDev
 /* 800F3794 000EECB4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F3798 000EECB8  7C 08 03 A6 */	mtlr r0
 /* 800F379C 000EECBC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F37A0 000EECC0  4E 80 00 20 */	blr 
+/* 800F37A0 000EECC0  4E 80 00 20 */	blr
 
 glabel HID_HostSetSecurityLevel
 /* 800F37A4 000EECC4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -968,5 +968,5 @@ glabel HID_HostSetSecurityLevel
 /* 800F39BC 000EEEDC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F39C0 000EEEE0  7C 08 03 A6 */	mtlr r0
 /* 800F39C4 000EEEE4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F39C8 000EEEE8  4E 80 00 20 */	blr 
+/* 800F39C8 000EEEE8  4E 80 00 20 */	blr
 

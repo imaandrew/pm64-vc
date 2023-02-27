@@ -74,7 +74,7 @@ glabel treeCallerCheck
 /* 8003E848 00039D68  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8003E84C 00039D6C  7C 08 03 A6 */	mtlr r0
 /* 8003E850 00039D70  38 21 00 30 */	addi r1, r1, 0x30
-/* 8003E854 00039D74  4E 80 00 20 */	blr 
+/* 8003E854 00039D74  4E 80 00 20 */	blr
 
 glabel treeInit
 /* 8003E858 00039D78  3C 63 00 10 */	addis r3, r3, 0x10
@@ -82,7 +82,7 @@ glabel treeInit
 /* 8003E860 00039D80  2C 06 00 00 */	cmpwi r6, 0
 /* 8003E864 00039D84  40 82 00 0C */	bne .L_8003E870
 /* 8003E868 00039D88  38 60 00 00 */	li r3, 0
-/* 8003E86C 00039D8C  4E 80 00 20 */	blr 
+/* 8003E86C 00039D8C  4E 80 00 20 */	blr
 .L_8003E870:
 /* 8003E870 00039D90  38 A0 00 00 */	li r5, 0
 /* 8003E874 00039D94  3C 60 4E 4D */	lis r3, 0x4E4D5145@ha
@@ -145,7 +145,7 @@ glabel treeInit
 /* 8003E944 00039E64  90 86 00 90 */	stw r4, 0x90(r6)
 /* 8003E948 00039E68  90 86 00 94 */	stw r4, 0x94(r6)
 /* 8003E94C 00039E6C  90 86 00 98 */	stw r4, 0x98(r6)
-/* 8003E950 00039E70  4E 80 00 20 */	blr 
+/* 8003E950 00039E70  4E 80 00 20 */	blr
 
 glabel treeInitNode
 /* 8003E954 00039E74  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -224,7 +224,7 @@ glabel treeInitNode
 /* 8003EA70 00039F90  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8003EA74 00039F94  7C 08 03 A6 */	mtlr r0
 /* 8003EA78 00039F98  38 21 00 20 */	addi r1, r1, 0x20
-/* 8003EA7C 00039F9C  4E 80 00 20 */	blr 
+/* 8003EA7C 00039F9C  4E 80 00 20 */	blr
 
 glabel treeKill
 /* 8003EA80 00039FA0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -370,7 +370,7 @@ glabel treeKill
 /* 8003EC80 0003A1A0  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8003EC84 0003A1A4  7C 08 03 A6 */	mtlr r0
 /* 8003EC88 0003A1A8  38 21 00 30 */	addi r1, r1, 0x30
-/* 8003EC8C 0003A1AC  4E 80 00 20 */	blr 
+/* 8003EC8C 0003A1AC  4E 80 00 20 */	blr
 
 glabel treeKillNodes
 /* 8003EC90 0003A1B0  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -529,7 +529,7 @@ glabel treeKillNodes
 /* 8003EEB0 0003A3D0  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8003EEB4 0003A3D4  7C 08 03 A6 */	mtlr r0
 /* 8003EEB8 0003A3D8  38 21 00 40 */	addi r1, r1, 0x40
-/* 8003EEBC 0003A3DC  4E 80 00 20 */	blr 
+/* 8003EEBC 0003A3DC  4E 80 00 20 */	blr
 
 glabel treeDeleteNode
 /* 8003EEC0 0003A3E0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -762,7 +762,7 @@ glabel treeDeleteNode
 /* 8003F1BC 0003A6DC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8003F1C0 0003A6E0  7C 08 03 A6 */	mtlr r0
 /* 8003F1C4 0003A6E4  38 21 00 20 */	addi r1, r1, 0x20
-/* 8003F1C8 0003A6E8  4E 80 00 20 */	blr 
+/* 8003F1C8 0003A6E8  4E 80 00 20 */	blr
 
 glabel func_8003F1CC
 /* 8003F1CC 0003A6EC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -793,7 +793,7 @@ glabel func_8003F1CC
 /* 8003F228 0003A748  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 8003F22C 0003A74C  7C 08 03 A6 */	mtlr r0
 /* 8003F230 0003A750  38 21 00 20 */	addi r1, r1, 0x20
-/* 8003F234 0003A754  4E 80 00 20 */	blr 
+/* 8003F234 0003A754  4E 80 00 20 */	blr
 
 glabel treeInsert
 /* 8003F238 0003A758  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -872,7 +872,7 @@ glabel treeInsert
 /* 8003F338 0003A858  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8003F33C 0003A85C  7C 08 03 A6 */	mtlr r0
 /* 8003F340 0003A860  38 21 00 20 */	addi r1, r1, 0x20
-/* 8003F344 0003A864  4E 80 00 20 */	blr 
+/* 8003F344 0003A864  4E 80 00 20 */	blr
 
 glabel treeInsertNode
 /* 8003F348 0003A868  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -937,7 +937,7 @@ glabel treeInsertNode
 /* 8003F418 0003A938  83 C1 00 08 */	lwz r30, 8(r1)
 /* 8003F41C 0003A93C  7C 08 03 A6 */	mtlr r0
 /* 8003F420 0003A940  38 21 00 10 */	addi r1, r1, 0x10
-/* 8003F424 0003A944  4E 80 00 20 */	blr 
+/* 8003F424 0003A944  4E 80 00 20 */	blr
 
 glabel treeBalance
 /* 8003F428 0003A948  39 40 00 00 */	li r10, 0
@@ -1060,7 +1060,7 @@ glabel treeBalance
 /* 8003F5A8 0003AAC8  2C 0A 00 02 */	cmpwi r10, 2
 /* 8003F5AC 0003AACC  41 80 FE 84 */	blt .L_8003F430
 /* 8003F5B0 0003AAD0  38 60 00 01 */	li r3, 1
-/* 8003F5B4 0003AAD4  4E 80 00 20 */	blr 
+/* 8003F5B4 0003AAD4  4E 80 00 20 */	blr
 
 glabel treeAdjustRoot
 /* 8003F5B8 0003AAD8  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1192,13 +1192,13 @@ glabel treeAdjustRoot
 /* 8003F78C 0003ACAC  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8003F790 0003ACB0  7C 08 03 A6 */	mtlr r0
 /* 8003F794 0003ACB4  38 21 00 40 */	addi r1, r1, 0x40
-/* 8003F798 0003ACB8  4E 80 00 20 */	blr 
+/* 8003F798 0003ACB8  4E 80 00 20 */	blr
 
 glabel treeSearchNode
 /* 8003F79C 0003ACBC  2C 03 00 00 */	cmpwi r3, 0
 /* 8003F7A0 0003ACC0  40 82 00 0C */	bne .L_8003F7AC
 /* 8003F7A4 0003ACC4  38 60 00 00 */	li r3, 0
-/* 8003F7A8 0003ACC8  4E 80 00 20 */	blr 
+/* 8003F7A8 0003ACC8  4E 80 00 20 */	blr
 .L_8003F7AC:
 /* 8003F7AC 0003ACCC  80 C3 00 10 */	lwz r6, 0x10(r3)
 /* 8003F7B0 0003ACD0  7C 04 30 00 */	cmpw r4, r6
@@ -1208,7 +1208,7 @@ glabel treeSearchNode
 /* 8003F7C0 0003ACE0  40 80 00 10 */	bge .L_8003F7D0
 /* 8003F7C4 0003ACE4  90 65 00 00 */	stw r3, 0(r5)
 /* 8003F7C8 0003ACE8  38 60 00 01 */	li r3, 1
-/* 8003F7CC 0003ACEC  4E 80 00 20 */	blr 
+/* 8003F7CC 0003ACEC  4E 80 00 20 */	blr
 .L_8003F7D0:
 /* 8003F7D0 0003ACF0  7C 04 30 00 */	cmpw r4, r6
 /* 8003F7D4 0003ACF4  40 80 00 0C */	bge .L_8003F7E0
@@ -1224,7 +1224,7 @@ glabel treeSearchNode
 /* 8003F7F0 0003AD10  2C 03 00 00 */	cmpwi r3, 0
 /* 8003F7F4 0003AD14  40 82 FF B8 */	bne .L_8003F7AC
 /* 8003F7F8 0003AD18  38 60 00 00 */	li r3, 0
-/* 8003F7FC 0003AD1C  4E 80 00 20 */	blr 
+/* 8003F7FC 0003AD1C  4E 80 00 20 */	blr
 
 glabel treeKillRange
 /* 8003F800 0003AD20  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1750,7 +1750,7 @@ glabel treeKillRange
 /* 8003FEE4 0003B404  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8003FEE8 0003B408  7C 08 03 A6 */	mtlr r0
 /* 8003FEEC 0003B40C  38 21 00 40 */	addi r1, r1, 0x40
-/* 8003FEF0 0003B410  4E 80 00 20 */	blr 
+/* 8003FEF0 0003B410  4E 80 00 20 */	blr
 
 glabel treeTimerCheck
 /* 8003FEF4 0003B414  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1845,7 +1845,7 @@ glabel treeTimerCheck
 /* 80040040 0003B560  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80040044 0003B564  7C 08 03 A6 */	mtlr r0
 /* 80040048 0003B568  38 21 00 20 */	addi r1, r1, 0x20
-/* 8004004C 0003B56C  4E 80 00 20 */	blr 
+/* 8004004C 0003B56C  4E 80 00 20 */	blr
 
 glabel func_80040050
 /* 80040050 0003B570  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1890,7 +1890,7 @@ glabel func_80040050
 /* 800400D8 0003B5F8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800400DC 0003B5FC  7C 08 03 A6 */	mtlr r0
 /* 800400E0 0003B600  38 21 00 10 */	addi r1, r1, 0x10
-/* 800400E4 0003B604  4E 80 00 20 */	blr 
+/* 800400E4 0003B604  4E 80 00 20 */	blr
 
 glabel treeForceCleanNodes
 /* 800400E8 0003B608  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -2028,7 +2028,7 @@ glabel treeForceCleanNodes
 /* 800402B4 0003B7D4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800402B8 0003B7D8  7C 08 03 A6 */	mtlr r0
 /* 800402BC 0003B7DC  38 21 00 30 */	addi r1, r1, 0x30
-/* 800402C0 0003B7E0  4E 80 00 20 */	blr 
+/* 800402C0 0003B7E0  4E 80 00 20 */	blr
 
 glabel treePrintNode
 /* 800402C4 0003B7E4  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -2151,5 +2151,5 @@ glabel treePrintNode
 /* 80040464 0003B984  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80040468 0003B988  7C 08 03 A6 */	mtlr r0
 /* 8004046C 0003B98C  38 21 00 40 */	addi r1, r1, 0x40
-/* 80040470 0003B990  4E 80 00 20 */	blr 
+/* 80040470 0003B990  4E 80 00 20 */	blr
 

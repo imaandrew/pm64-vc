@@ -36,7 +36,7 @@ glabel SetPlayerTrackNo__Q46nw4hbm3snd6detail8SeqTrackFi
 /* 8013545C 0013097C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80135460 00130980  7C 08 03 A6 */	mtlr r0
 /* 80135464 00130984  38 21 00 10 */	addi r1, r1, 0x10
-/* 80135468 00130988  4E 80 00 20 */	blr 
+/* 80135468 00130988  4E 80 00 20 */	blr
 
 glabel InitParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 8013546C 0013098C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -129,13 +129,13 @@ glabel InitParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 801355C8 00130AE8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 801355CC 00130AEC  7C 08 03 A6 */	mtlr r0
 /* 801355D0 00130AF0  38 21 00 10 */	addi r1, r1, 0x10
-/* 801355D4 00130AF4  4E 80 00 20 */	blr 
+/* 801355D4 00130AF4  4E 80 00 20 */	blr
 
 glabel SetSeqData__Q46nw4hbm3snd6detail8SeqTrackFPCvl
 /* 801355D8 00130AF8  7C 04 2A 14 */	add r0, r4, r5
 /* 801355DC 00130AFC  90 83 00 50 */	stw r4, 0x50(r3)
 /* 801355E0 00130B00  90 03 00 54 */	stw r0, 0x54(r3)
-/* 801355E4 00130B04  4E 80 00 20 */	blr 
+/* 801355E4 00130B04  4E 80 00 20 */	blr
 
 glabel Close__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 801355E8 00130B08  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -168,7 +168,7 @@ glabel Close__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 8013564C 00130B6C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80135650 00130B70  7C 08 03 A6 */	mtlr r0
 /* 80135654 00130B74  38 21 00 20 */	addi r1, r1, 0x20
-/* 80135658 00130B78  4E 80 00 20 */	blr 
+/* 80135658 00130B78  4E 80 00 20 */	blr
 
 glabel UpdateChannelLength__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 8013565C 00130B7C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -202,7 +202,7 @@ glabel UpdateChannelLength__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 801356BC 00130BDC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 801356C0 00130BE0  7C 08 03 A6 */	mtlr r0
 /* 801356C4 00130BE4  38 21 00 10 */	addi r1, r1, 0x10
-/* 801356C8 00130BE8  4E 80 00 20 */	blr 
+/* 801356C8 00130BE8  4E 80 00 20 */	blr
 
 glabel ParseNextTick__Q46nw4hbm3snd6detail8SeqTrackFb
 /* 801356CC 00130BEC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -243,7 +243,7 @@ glabel ParseNextTick__Q46nw4hbm3snd6detail8SeqTrackFb
 /* 80135748 00130C68  7F E4 FB 78 */	mr r4, r31
 /* 8013574C 00130C6C  81 8C 00 0C */	lwz r12, 0xc(r12)
 /* 80135750 00130C70  7D 89 03 A6 */	mtctr r12
-/* 80135754 00130C74  4E 80 04 21 */	bctrl 
+/* 80135754 00130C74  4E 80 04 21 */	bctrl
 /* 80135758 00130C78  2C 03 00 01 */	cmpwi r3, 1
 /* 8013575C 00130C7C  40 82 00 0C */	bne .L_80135768
 /* 80135760 00130C80  38 60 FF FF */	li r3, -1
@@ -263,7 +263,7 @@ glabel ParseNextTick__Q46nw4hbm3snd6detail8SeqTrackFb
 /* 8013578C 00130CAC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80135790 00130CB0  7C 08 03 A6 */	mtlr r0
 /* 80135794 00130CB4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80135798 00130CB8  4E 80 00 20 */	blr 
+/* 80135798 00130CB8  4E 80 00 20 */	blr
 
 glabel ReleaseAllChannel__Q46nw4hbm3snd6detail8SeqTrackFi
 /* 8013579C 00130CBC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -325,7 +325,7 @@ glabel ReleaseAllChannel__Q46nw4hbm3snd6detail8SeqTrackFi
 /* 80135864 00130D84  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80135868 00130D88  7C 08 03 A6 */	mtlr r0
 /* 8013586C 00130D8C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80135870 00130D90  4E 80 00 20 */	blr 
+/* 80135870 00130D90  4E 80 00 20 */	blr
 
 glabel PauseAllChannel__Q46nw4hbm3snd6detail8SeqTrackFb
 /* 80135874 00130D94  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -367,7 +367,7 @@ glabel PauseAllChannel__Q46nw4hbm3snd6detail8SeqTrackFb
 /* 801358F8 00130E18  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 801358FC 00130E1C  7C 08 03 A6 */	mtlr r0
 /* 80135900 00130E20  38 21 00 20 */	addi r1, r1, 0x20
-/* 80135904 00130E24  4E 80 00 20 */	blr 
+/* 80135904 00130E24  4E 80 00 20 */	blr
 
 glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135908 00130E28  94 21 FE B0 */	stwu r1, -0x150(r1)
@@ -438,7 +438,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135A0C 00130F2C  EF 9C 00 72 */	fmuls f28, f28, f1
 /* 80135A10 00130F30  EF 9C 00 32 */	fmuls f28, f28, f0
 /* 80135A14 00130F34  7D 89 03 A6 */	mtctr r12
-/* 80135A18 00130F38  4E 80 04 21 */	bctrl 
+/* 80135A18 00130F38  4E 80 04 21 */	bctrl
 /* 80135A1C 00130F3C  88 7E 00 82 */	lbz r3, 0x82(r30)
 /* 80135A20 00130F40  EF 9C 00 72 */	fmuls f28, f28, f1
 /* 80135A24 00130F44  88 1E 00 83 */	lbz r0, 0x83(r30)
@@ -460,7 +460,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135A64 00130F84  C3 5F 00 00 */	lfs f26, 0(r31)
 /* 80135A68 00130F88  EF 62 00 32 */	fmuls f27, f2, f0
 /* 80135A6C 00130F8C  7D 89 03 A6 */	mtctr r12
-/* 80135A70 00130F90  4E 80 04 21 */	bctrl 
+/* 80135A70 00130F90  4E 80 04 21 */	bctrl
 /* 80135A74 00130F94  88 1E 00 84 */	lbz r0, 0x84(r30)
 /* 80135A78 00130F98  EF 5A 00 72 */	fmuls f26, f26, f1
 /* 80135A7C 00130F9C  C0 3E 00 0C */	lfs f1, 0xc(r30)
@@ -497,7 +497,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135AEC 0013100C  EF 39 00 72 */	fmuls f25, f25, f1
 /* 80135AF0 00131010  EF 39 00 2A */	fadds f25, f25, f0
 /* 80135AF4 00131014  7D 89 03 A6 */	mtctr r12
-/* 80135AF8 00131018  4E 80 04 21 */	bctrl 
+/* 80135AF8 00131018  4E 80 04 21 */	bctrl
 /* 80135AFC 0013101C  88 1E 00 86 */	lbz r0, 0x86(r30)
 /* 80135B00 00131020  EF 39 08 2A */	fadds f25, f25, f1
 /* 80135B04 00131024  C8 5F 00 28 */	lfd f2, 0x28(r31)
@@ -527,21 +527,21 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135B58 00131078  EF 18 00 2A */	fadds f24, f24, f0
 /* 80135B5C 0013107C  81 8C 00 50 */	lwz r12, 0x50(r12)
 /* 80135B60 00131080  7D 89 03 A6 */	mtctr r12
-/* 80135B64 00131084  4E 80 04 21 */	bctrl 
+/* 80135B64 00131084  4E 80 04 21 */	bctrl
 /* 80135B68 00131088  80 7E 00 B4 */	lwz r3, 0xb4(r30)
 /* 80135B6C 0013108C  EF 18 08 2A */	fadds f24, f24, f1
 /* 80135B70 00131090  C2 FF 00 04 */	lfs f23, 4(r31)
 /* 80135B74 00131094  81 83 00 00 */	lwz r12, 0(r3)
 /* 80135B78 00131098  81 8C 00 54 */	lwz r12, 0x54(r12)
 /* 80135B7C 0013109C  7D 89 03 A6 */	mtctr r12
-/* 80135B80 001310A0  4E 80 04 21 */	bctrl 
+/* 80135B80 001310A0  4E 80 04 21 */	bctrl
 /* 80135B84 001310A4  80 7E 00 B4 */	lwz r3, 0xb4(r30)
 /* 80135B88 001310A8  EE F7 08 2A */	fadds f23, f23, f1
 /* 80135B8C 001310AC  C2 DF 00 04 */	lfs f22, 4(r31)
 /* 80135B90 001310B0  81 83 00 00 */	lwz r12, 0(r3)
 /* 80135B94 001310B4  81 8C 00 58 */	lwz r12, 0x58(r12)
 /* 80135B98 001310B8  7D 89 03 A6 */	mtctr r12
-/* 80135B9C 001310BC  4E 80 04 21 */	bctrl 
+/* 80135B9C 001310BC  4E 80 04 21 */	bctrl
 /* 80135BA0 001310C0  88 9E 00 93 */	lbz r4, 0x93(r30)
 /* 80135BA4 001310C4  EE D6 08 2A */	fadds f22, f22, f1
 /* 80135BA8 001310C8  80 7E 00 B4 */	lwz r3, 0xb4(r30)
@@ -560,7 +560,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135BDC 001310FC  EE B5 08 2A */	fadds f21, f21, f1
 /* 80135BE0 00131100  EE B5 00 2A */	fadds f21, f21, f0
 /* 80135BE4 00131104  7D 89 03 A6 */	mtctr r12
-/* 80135BE8 00131108  4E 80 04 21 */	bctrl 
+/* 80135BE8 00131108  4E 80 04 21 */	bctrl
 /* 80135BEC 0013110C  88 1E 00 8F */	lbz r0, 0x8f(r30)
 /* 80135BF0 00131110  EE B5 08 2A */	fadds f21, f21, f1
 /* 80135BF4 00131114  80 7E 00 B4 */	lwz r3, 0xb4(r30)
@@ -579,7 +579,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135C28 00131148  EE 94 08 2A */	fadds f20, f20, f1
 /* 80135C2C 0013114C  EE 94 00 2A */	fadds f20, f20, f0
 /* 80135C30 00131150  7D 89 03 A6 */	mtctr r12
-/* 80135C34 00131154  4E 80 04 21 */	bctrl 
+/* 80135C34 00131154  4E 80 04 21 */	bctrl
 /* 80135C38 00131158  EE 94 08 2A */	fadds f20, f20, f1
 /* 80135C3C 0013115C  C3 BF 00 04 */	lfs f29, 4(r31)
 /* 80135C40 00131160  CB DF 00 20 */	lfd f30, 0x20(r31)
@@ -605,7 +605,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135C8C 001311AC  EC 01 00 2A */	fadds f0, f1, f0
 /* 80135C90 001311B0  D0 14 00 00 */	stfs f0, 0(r20)
 /* 80135C94 001311B4  7D 89 03 A6 */	mtctr r12
-/* 80135C98 001311B8  4E 80 04 21 */	bctrl 
+/* 80135C98 001311B8  4E 80 04 21 */	bctrl
 /* 80135C9C 001311BC  C0 14 00 00 */	lfs f0, 0(r20)
 /* 80135CA0 001311C0  3A D6 00 01 */	addi r22, r22, 1
 /* 80135CA4 001311C4  2C 16 00 03 */	cmpwi r22, 3
@@ -625,7 +625,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135CD8 001311F8  81 83 00 00 */	lwz r12, 0(r3)
 /* 80135CDC 001311FC  81 8C 00 90 */	lwz r12, 0x90(r12)
 /* 80135CE0 00131200  7D 89 03 A6 */	mtctr r12
-/* 80135CE4 00131204  4E 80 04 21 */	bctrl 
+/* 80135CE4 00131204  4E 80 04 21 */	bctrl
 /* 80135CE8 00131208  80 7E 00 B4 */	lwz r3, 0xb4(r30)
 /* 80135CEC 0013120C  7E C4 B3 78 */	mr r4, r22
 /* 80135CF0 00131210  C0 14 00 00 */	lfs f0, 0(r20)
@@ -635,7 +635,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135D00 00131220  81 8C 00 94 */	lwz r12, 0x94(r12)
 /* 80135D04 00131224  D0 14 00 00 */	stfs f0, 0(r20)
 /* 80135D08 00131228  7D 89 03 A6 */	mtctr r12
-/* 80135D0C 0013122C  4E 80 04 21 */	bctrl 
+/* 80135D0C 0013122C  4E 80 04 21 */	bctrl
 /* 80135D10 00131230  C0 15 00 00 */	lfs f0, 0(r21)
 /* 80135D14 00131234  3A D6 00 01 */	addi r22, r22, 1
 /* 80135D18 00131238  2C 16 00 04 */	cmpwi r22, 4
@@ -670,13 +670,13 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135D88 001312A8  81 83 00 00 */	lwz r12, 0(r3)
 /* 80135D8C 001312AC  81 8C 00 7C */	lwz r12, 0x7c(r12)
 /* 80135D90 001312B0  7D 89 03 A6 */	mtctr r12
-/* 80135D94 001312B4  4E 80 04 21 */	bctrl 
+/* 80135D94 001312B4  4E 80 04 21 */	bctrl
 /* 80135D98 001312B8  90 7F 00 5C */	stw r3, 0x5c(r31)
 /* 80135D9C 001312BC  80 7E 00 B4 */	lwz r3, 0xb4(r30)
 /* 80135DA0 001312C0  81 83 00 00 */	lwz r12, 0(r3)
 /* 80135DA4 001312C4  81 8C 00 80 */	lwz r12, 0x80(r12)
 /* 80135DA8 001312C8  7D 89 03 A6 */	mtctr r12
-/* 80135DAC 001312CC  4E 80 04 21 */	bctrl 
+/* 80135DAC 001312CC  4E 80 04 21 */	bctrl
 /* 80135DB0 001312D0  D0 3F 00 60 */	stfs f1, 0x60(r31)
 /* 80135DB4 001312D4  7F F6 FB 78 */	mr r22, r31
 /* 80135DB8 001312D8  3A A1 00 18 */	addi r21, r1, 0x18
@@ -692,7 +692,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135DDC 001312FC  81 83 00 00 */	lwz r12, 0(r3)
 /* 80135DE0 00131300  81 8C 00 8C */	lwz r12, 0x8c(r12)
 /* 80135DE4 00131304  7D 89 03 A6 */	mtctr r12
-/* 80135DE8 00131308  4E 80 04 21 */	bctrl 
+/* 80135DE8 00131308  4E 80 04 21 */	bctrl
 /* 80135DEC 0013130C  FF A0 08 90 */	fmr f29, f1
 /* 80135DF0 00131310  2C 13 00 00 */	cmpwi r19, 0
 /* 80135DF4 00131314  38 00 00 00 */	li r0, 0
@@ -812,7 +812,7 @@ glabel UpdateChannelParam__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135FA0 001314C0  80 01 01 54 */	lwz r0, 0x154(r1)
 /* 80135FA4 001314C4  7C 08 03 A6 */	mtlr r0
 /* 80135FA8 001314C8  38 21 01 50 */	addi r1, r1, 0x150
-/* 80135FAC 001314CC  4E 80 00 20 */	blr 
+/* 80135FAC 001314CC  4E 80 00 20 */	blr
 
 glabel FreeAllChannel__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 80135FB0 001314D0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -843,7 +843,7 @@ glabel FreeAllChannel__Q46nw4hbm3snd6detail8SeqTrackFv
 /* 8013600C 0013152C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80136010 00131530  7C 08 03 A6 */	mtlr r0
 /* 80136014 00131534  38 21 00 20 */	addi r1, r1, 0x20
-/* 80136018 00131538  4E 80 00 20 */	blr 
+/* 80136018 00131538  4E 80 00 20 */	blr
 
 glabel ChannelCallbackFunc__Q46nw4hbm3snd6detail8SeqTrackFPQ46nw4hbm3snd6detail7ChannelQ56nw4hbm3snd6detail7Channel21ChannelCallbackStatusUl
 /* 8013601C 0013153C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -892,7 +892,7 @@ glabel ChannelCallbackFunc__Q46nw4hbm3snd6detail8SeqTrackFPQ46nw4hbm3snd6detail7
 /* 801360B4 001315D4  7F 64 DB 78 */	mr r4, r27
 /* 801360B8 001315D8  81 8C 00 B4 */	lwz r12, 0xb4(r12)
 /* 801360BC 001315DC  7D 89 03 A6 */	mtctr r12
-/* 801360C0 001315E0  4E 80 04 21 */	bctrl 
+/* 801360C0 001315E0  4E 80 04 21 */	bctrl
 .L_801360C4:
 /* 801360C4 001315E4  4B F5 F1 F1 */	bl OSDisableInterrupts
 /* 801360C8 001315E8  83 BC 00 B8 */	lwz r29, 0xb8(r28)
@@ -939,7 +939,7 @@ glabel ChannelCallbackFunc__Q46nw4hbm3snd6detail8SeqTrackFPQ46nw4hbm3snd6detail7
 /* 80136158 00131678  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8013615C 0013167C  7C 08 03 A6 */	mtlr r0
 /* 80136160 00131680  38 21 00 20 */	addi r1, r1, 0x20
-/* 80136164 00131684  4E 80 00 20 */	blr 
+/* 80136164 00131684  4E 80 00 20 */	blr
 
 glabel SetMute__Q46nw4hbm3snd6detail8SeqTrackFQ36nw4hbm3snd7SeqMute
 /* 80136168 00131688  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1024,7 +1024,7 @@ glabel SetMute__Q46nw4hbm3snd6detail8SeqTrackFQ36nw4hbm3snd7SeqMute
 /* 8013627C 0013179C  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80136280 001317A0  7C 08 03 A6 */	mtlr r0
 /* 80136284 001317A4  38 21 00 20 */	addi r1, r1, 0x20
-/* 80136288 001317A8  4E 80 00 20 */	blr 
+/* 80136288 001317A8  4E 80 00 20 */	blr
 
 glabel SetSilence__Q46nw4hbm3snd6detail8SeqTrackFbi
 /* 8013628C 001317AC  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1105,7 +1105,7 @@ glabel SetSilence__Q46nw4hbm3snd6detail8SeqTrackFbi
 /* 801363A0 001318C0  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 801363A4 001318C4  7C 08 03 A6 */	mtlr r0
 /* 801363A8 001318C8  38 21 00 30 */	addi r1, r1, 0x30
-/* 801363AC 001318CC  4E 80 00 20 */	blr 
+/* 801363AC 001318CC  4E 80 00 20 */	blr
 
 glabel SetVolume__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 801363B0 001318D0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1123,7 +1123,7 @@ glabel SetVolume__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 801363E0 00131900  83 E1 00 14 */	lwz r31, 0x14(r1)
 /* 801363E4 00131904  7C 08 03 A6 */	mtlr r0
 /* 801363E8 00131908  38 21 00 20 */	addi r1, r1, 0x20
-/* 801363EC 0013190C  4E 80 00 20 */	blr 
+/* 801363EC 0013190C  4E 80 00 20 */	blr
 
 glabel SetPitch__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 801363F0 00131910  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1156,7 +1156,7 @@ glabel SetPitch__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 80136458 00131978  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8013645C 0013197C  7C 08 03 A6 */	mtlr r0
 /* 80136460 00131980  38 21 00 20 */	addi r1, r1, 0x20
-/* 80136464 00131984  4E 80 00 20 */	blr 
+/* 80136464 00131984  4E 80 00 20 */	blr
 
 glabel SetPan__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 80136468 00131988  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1174,7 +1174,7 @@ glabel SetPan__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 80136498 001319B8  83 E1 00 14 */	lwz r31, 0x14(r1)
 /* 8013649C 001319BC  7C 08 03 A6 */	mtlr r0
 /* 801364A0 001319C0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801364A4 001319C4  4E 80 00 20 */	blr 
+/* 801364A4 001319C4  4E 80 00 20 */	blr
 
 glabel SetSurroundPan__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 801364A8 001319C8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1192,7 +1192,7 @@ glabel SetSurroundPan__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 801364D8 001319F8  83 E1 00 14 */	lwz r31, 0x14(r1)
 /* 801364DC 001319FC  7C 08 03 A6 */	mtlr r0
 /* 801364E0 00131A00  38 21 00 20 */	addi r1, r1, 0x20
-/* 801364E4 00131A04  4E 80 00 20 */	blr 
+/* 801364E4 00131A04  4E 80 00 20 */	blr
 
 glabel SetPanRange__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 801364E8 00131A08  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1210,7 +1210,7 @@ glabel SetPanRange__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 80136518 00131A38  83 E1 00 14 */	lwz r31, 0x14(r1)
 /* 8013651C 00131A3C  7C 08 03 A6 */	mtlr r0
 /* 80136520 00131A40  38 21 00 20 */	addi r1, r1, 0x20
-/* 80136524 00131A44  4E 80 00 20 */	blr 
+/* 80136524 00131A44  4E 80 00 20 */	blr
 
 glabel SetLpfFreq__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 80136528 00131A48  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1228,7 +1228,7 @@ glabel SetLpfFreq__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 80136558 00131A78  83 E1 00 14 */	lwz r31, 0x14(r1)
 /* 8013655C 00131A7C  7C 08 03 A6 */	mtlr r0
 /* 80136560 00131A80  38 21 00 20 */	addi r1, r1, 0x20
-/* 80136564 00131A84  4E 80 00 20 */	blr 
+/* 80136564 00131A84  4E 80 00 20 */	blr
 
 glabel SetModDepth__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 80136568 00131A88  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1246,7 +1246,7 @@ glabel SetModDepth__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 80136598 00131AB8  83 E1 00 14 */	lwz r31, 0x14(r1)
 /* 8013659C 00131ABC  7C 08 03 A6 */	mtlr r0
 /* 801365A0 00131AC0  38 21 00 20 */	addi r1, r1, 0x20
-/* 801365A4 00131AC4  4E 80 00 20 */	blr 
+/* 801365A4 00131AC4  4E 80 00 20 */	blr
 
 glabel SetModSpeed__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 801365A8 00131AC8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1264,7 +1264,7 @@ glabel SetModSpeed__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 801365D8 00131AF8  83 E1 00 14 */	lwz r31, 0x14(r1)
 /* 801365DC 00131AFC  7C 08 03 A6 */	mtlr r0
 /* 801365E0 00131B00  38 21 00 20 */	addi r1, r1, 0x20
-/* 801365E4 00131B04  4E 80 00 20 */	blr 
+/* 801365E4 00131B04  4E 80 00 20 */	blr
 
 glabel SetMainSend__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 801365E8 00131B08  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1282,7 +1282,7 @@ glabel SetMainSend__Q46nw4hbm3snd6detail8SeqTrackFf
 /* 80136618 00131B38  83 E1 00 14 */	lwz r31, 0x14(r1)
 /* 8013661C 00131B3C  7C 08 03 A6 */	mtlr r0
 /* 80136620 00131B40  38 21 00 20 */	addi r1, r1, 0x20
-/* 80136624 00131B44  4E 80 00 20 */	blr 
+/* 80136624 00131B44  4E 80 00 20 */	blr
 
 glabel SetFxSend__Q46nw4hbm3snd6detail8SeqTrackFQ36nw4hbm3snd6AuxBusf
 /* 80136628 00131B48  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1325,7 +1325,7 @@ glabel SetFxSend__Q46nw4hbm3snd6detail8SeqTrackFQ36nw4hbm3snd6AuxBusf
 /* 801366B4 00131BD4  83 C1 00 10 */	lwz r30, 0x10(r1)
 /* 801366B8 00131BD8  7C 08 03 A6 */	mtlr r0
 /* 801366BC 00131BDC  38 21 00 20 */	addi r1, r1, 0x20
-/* 801366C0 00131BE0  4E 80 00 20 */	blr 
+/* 801366C0 00131BE0  4E 80 00 20 */	blr
 
 glabel SetRemoteSend__Q46nw4hbm3snd6detail8SeqTrackFif
 /* 801366C4 00131BE4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1368,7 +1368,7 @@ glabel SetRemoteSend__Q46nw4hbm3snd6detail8SeqTrackFif
 /* 80136750 00131C70  83 C1 00 10 */	lwz r30, 0x10(r1)
 /* 80136754 00131C74  7C 08 03 A6 */	mtlr r0
 /* 80136758 00131C78  38 21 00 20 */	addi r1, r1, 0x20
-/* 8013675C 00131C7C  4E 80 00 20 */	blr 
+/* 8013675C 00131C7C  4E 80 00 20 */	blr
 
 glabel SetRemoteFxSend__Q46nw4hbm3snd6detail8SeqTrackFif
 /* 80136760 00131C80  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1411,7 +1411,7 @@ glabel SetRemoteFxSend__Q46nw4hbm3snd6detail8SeqTrackFif
 /* 801367EC 00131D0C  83 C1 00 10 */	lwz r30, 0x10(r1)
 /* 801367F0 00131D10  7C 08 03 A6 */	mtlr r0
 /* 801367F4 00131D14  38 21 00 20 */	addi r1, r1, 0x20
-/* 801367F8 00131D18  4E 80 00 20 */	blr 
+/* 801367F8 00131D18  4E 80 00 20 */	blr
 
 glabel GetVariablePtr__Q46nw4hbm3snd6detail8SeqTrackFi
 /* 801367FC 00131D1C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1455,7 +1455,7 @@ glabel GetVariablePtr__Q46nw4hbm3snd6detail8SeqTrackFi
 /* 80136884 00131DA4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80136888 00131DA8  7C 08 03 A6 */	mtlr r0
 /* 8013688C 00131DAC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80136890 00131DB0  4E 80 00 20 */	blr 
+/* 80136890 00131DB0  4E 80 00 20 */	blr
 
 glabel NoteOn__Q46nw4hbm3snd6detail8SeqTrackFiilb
 /* 80136894 00131DB4  94 21 FF 90 */	stwu r1, -0x70(r1)
@@ -1714,5 +1714,5 @@ glabel NoteOn__Q46nw4hbm3snd6detail8SeqTrackFiilb
 /* 80136C34 00132154  80 01 00 74 */	lwz r0, 0x74(r1)
 /* 80136C38 00132158  7C 08 03 A6 */	mtlr r0
 /* 80136C3C 0013215C  38 21 00 70 */	addi r1, r1, 0x70
-/* 80136C40 00132160  4E 80 00 20 */	blr 
+/* 80136C40 00132160  4E 80 00 20 */	blr
 

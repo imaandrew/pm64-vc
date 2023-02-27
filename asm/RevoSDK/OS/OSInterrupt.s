@@ -9,14 +9,14 @@ glabel OSDisableInterrupts
 
 glabel __RAS_OSDisableInterrupts_end
 /* 800952C0 000907E0  54 63 8F FE */	rlwinm r3, r3, 0x11, 0x1f, 0x1f
-/* 800952C4 000907E4  4E 80 00 20 */	blr 
+/* 800952C4 000907E4  4E 80 00 20 */	blr
 
 glabel OSEnableInterrupts
 /* 800952C8 000907E8  7C 60 00 A6 */	mfmsr r3
 /* 800952CC 000907EC  60 64 80 00 */	ori r4, r3, 0x8000
 /* 800952D0 000907F0  7C 80 01 24 */	mtmsr r4
 /* 800952D4 000907F4  54 63 8F FE */	rlwinm r3, r3, 0x11, 0x1f, 0x1f
-/* 800952D8 000907F8  4E 80 00 20 */	blr 
+/* 800952D8 000907F8  4E 80 00 20 */	blr
 
 glabel OSRestoreInterrupts
 /* 800952DC 000907FC  2C 03 00 00 */	cmpwi r3, 0
@@ -29,20 +29,20 @@ glabel OSRestoreInterrupts
 .L_800952F4:
 /* 800952F4 00090814  7C A0 01 24 */	mtmsr r5
 /* 800952F8 00090818  54 83 8F FE */	rlwinm r3, r4, 0x11, 0x1f, 0x1f
-/* 800952FC 0009081C  4E 80 00 20 */	blr 
+/* 800952FC 0009081C  4E 80 00 20 */	blr
 
 glabel __OSSetInterruptHandler
 /* 80095300 00090820  80 AD 8C F0 */	lwz r5, lbl_80247170@sda21(r13)
 /* 80095304 00090824  54 60 10 3A */	slwi r0, r3, 2
 /* 80095308 00090828  7C 65 00 2E */	lwzx r3, r5, r0
 /* 8009530C 0009082C  7C 85 01 2E */	stwx r4, r5, r0
-/* 80095310 00090830  4E 80 00 20 */	blr 
+/* 80095310 00090830  4E 80 00 20 */	blr
 
 glabel __OSGetInterruptHandler
 /* 80095314 00090834  80 8D 8C F0 */	lwz r4, lbl_80247170@sda21(r13)
 /* 80095318 00090838  54 60 10 3A */	slwi r0, r3, 2
 /* 8009531C 0009083C  7C 64 00 2E */	lwzx r3, r4, r0
-/* 80095320 00090840  4E 80 00 20 */	blr 
+/* 80095320 00090840  4E 80 00 20 */	blr
 
 glabel __OSInterruptInit
 /* 80095324 00090844  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -95,7 +95,7 @@ glabel __OSInterruptInit
 /* 800953D8 000908F8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800953DC 000908FC  7C 08 03 A6 */	mtlr r0
 /* 800953E0 00090900  38 21 00 20 */	addi r1, r1, 0x20
-/* 800953E4 00090904  4E 80 00 20 */	blr 
+/* 800953E4 00090904  4E 80 00 20 */	blr
 
 glabel SetInterruptMask
 /* 800953E8 00090908  7C 60 00 34 */	cntlzw r0, r3
@@ -108,7 +108,7 @@ glabel SetInterruptMask
 /* 80095404 00090924  40 80 00 80 */	bge .L_80095484
 /* 80095408 00090928  2C 00 00 00 */	cmpwi r0, 0
 /* 8009540C 0009092C  40 80 00 28 */	bge .L_80095434
-/* 80095410 00090930  4E 80 00 20 */	blr 
+/* 80095410 00090930  4E 80 00 20 */	blr
 .L_80095414:
 /* 80095414 00090934  2C 00 00 11 */	cmpwi r0, 0x11
 /* 80095418 00090938  40 80 00 10 */	bge .L_80095428
@@ -117,7 +117,7 @@ glabel SetInterruptMask
 /* 80095424 00090944  48 00 01 10 */	b .L_80095534
 .L_80095428:
 /* 80095428 00090948  2C 00 00 1C */	cmpwi r0, 0x1c
-/* 8009542C 0009094C  4C 80 00 20 */	bgelr 
+/* 8009542C 0009094C  4C 80 00 20 */	bgelr
 /* 80095430 00090950  48 00 01 7C */	b .L_800955AC
 .L_80095434:
 /* 80095434 00090954  54 80 00 01 */	rlwinm. r0, r4, 0, 0, 0
@@ -144,7 +144,7 @@ glabel SetInterruptMask
 /* 80095474 00090994  3C 80 CC 00 */	lis r4, 0xCC00401C@ha
 /* 80095478 00090998  54 63 01 7E */	clrlwi r3, r3, 5
 /* 8009547C 0009099C  B0 A4 40 1C */	sth r5, 0xCC00401C@l(r4)
-/* 80095480 000909A0  4E 80 00 20 */	blr 
+/* 80095480 000909A0  4E 80 00 20 */	blr
 .L_80095484:
 /* 80095484 000909A4  3C A0 CC 00 */	lis r5, 0xCC00500A@ha
 /* 80095488 000909A8  54 80 01 4B */	rlwinm. r0, r4, 0, 5, 5
@@ -164,7 +164,7 @@ glabel SetInterruptMask
 /* 800954B4 000909D4  3C 80 CC 00 */	lis r4, 0xCC00500A@ha
 /* 800954B8 000909D8  54 63 02 08 */	rlwinm r3, r3, 0, 8, 4
 /* 800954BC 000909DC  B0 A4 50 0A */	sth r5, 0xCC00500A@l(r4)
-/* 800954C0 000909E0  4E 80 00 20 */	blr 
+/* 800954C0 000909E0  4E 80 00 20 */	blr
 .L_800954C4:
 /* 800954C4 000909E4  54 80 02 11 */	rlwinm. r0, r4, 0, 8, 8
 /* 800954C8 000909E8  3C 80 CD 00 */	lis r4, 0xCD006C00@ha
@@ -177,7 +177,7 @@ glabel SetInterruptMask
 /* 800954E0 00090A00  3C 80 CD 00 */	lis r4, 0xCD006C00@ha
 /* 800954E4 00090A04  54 63 02 4E */	rlwinm r3, r3, 0, 9, 7
 /* 800954E8 00090A08  90 A4 6C 00 */	stw r5, 0xCD006C00@l(r4)
-/* 800954EC 00090A0C  4E 80 00 20 */	blr 
+/* 800954EC 00090A0C  4E 80 00 20 */	blr
 .L_800954F0:
 /* 800954F0 00090A10  54 80 02 53 */	rlwinm. r0, r4, 0, 9, 9
 /* 800954F4 00090A14  3C A0 CD 00 */	lis r5, 0xCD006800@ha
@@ -198,7 +198,7 @@ glabel SetInterruptMask
 /* 80095524 00090A44  3C 80 CD 00 */	lis r4, 0xCD006800@ha
 /* 80095528 00090A48  54 63 03 10 */	rlwinm r3, r3, 0, 0xc, 8
 /* 8009552C 00090A4C  90 A4 68 00 */	stw r5, 0xCD006800@l(r4)
-/* 80095530 00090A50  4E 80 00 20 */	blr 
+/* 80095530 00090A50  4E 80 00 20 */	blr
 .L_80095534:
 /* 80095534 00090A54  54 80 03 19 */	rlwinm. r0, r4, 0, 0xc, 0xc
 /* 80095538 00090A58  3C A0 CD 00 */	lis r5, 0xCD006814@ha
@@ -219,7 +219,7 @@ glabel SetInterruptMask
 /* 80095568 00090A88  3C 80 CD 00 */	lis r4, 0xCD006814@ha
 /* 8009556C 00090A8C  54 63 03 D6 */	rlwinm r3, r3, 0, 0xf, 0xb
 /* 80095570 00090A90  90 A4 68 14 */	stw r5, 0xCD006814@l(r4)
-/* 80095574 00090A94  4E 80 00 20 */	blr 
+/* 80095574 00090A94  4E 80 00 20 */	blr
 .L_80095578:
 /* 80095578 00090A98  3C A0 CD 00 */	lis r5, 0xCD006828@ha
 /* 8009557C 00090A9C  54 80 03 DF */	rlwinm. r0, r4, 0, 0xf, 0xf
@@ -235,7 +235,7 @@ glabel SetInterruptMask
 /* 8009559C 00090ABC  3C 80 CD 00 */	lis r4, 0xCD006828@ha
 /* 800955A0 00090AC0  54 63 04 5C */	rlwinm r3, r3, 0, 0x11, 0xe
 /* 800955A4 00090AC4  90 A4 68 28 */	stw r5, 0xCD006828@l(r4)
-/* 800955A8 00090AC8  4E 80 00 20 */	blr 
+/* 800955A8 00090AC8  4E 80 00 20 */	blr
 .L_800955AC:
 /* 800955AC 00090ACC  54 80 04 63 */	rlwinm. r0, r4, 0, 0x11, 0x11
 /* 800955B0 00090AD0  38 A0 00 F0 */	li r5, 0xf0
@@ -285,7 +285,7 @@ glabel SetInterruptMask
 /* 80095634 00090B54  3C 80 CC 00 */	lis r4, 0xCC003004@ha
 /* 80095638 00090B58  54 63 07 20 */	rlwinm r3, r3, 0, 0x1c, 0x10
 /* 8009563C 00090B5C  90 A4 30 04 */	stw r5, 0xCC003004@l(r4)
-/* 80095640 00090B60  4E 80 00 20 */	blr 
+/* 80095640 00090B60  4E 80 00 20 */	blr
 
 glabel __OSMaskInterrupts
 /* 80095644 00090B64  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -321,7 +321,7 @@ glabel __OSMaskInterrupts
 /* 800956B4 00090BD4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800956B8 00090BD8  7C 08 03 A6 */	mtlr r0
 /* 800956BC 00090BDC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800956C0 00090BE0  4E 80 00 20 */	blr 
+/* 800956C0 00090BE0  4E 80 00 20 */	blr
 
 glabel __OSUnmaskInterrupts
 /* 800956C4 00090BE4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -357,7 +357,7 @@ glabel __OSUnmaskInterrupts
 /* 80095734 00090C54  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80095738 00090C58  7C 08 03 A6 */	mtlr r0
 /* 8009573C 00090C5C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80095740 00090C60  4E 80 00 20 */	blr 
+/* 80095740 00090C60  4E 80 00 20 */	blr
 
 glabel __OSDispatchInterrupt
 /* 80095744 00090C64  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -549,7 +549,7 @@ glabel __OSDispatchInterrupt
 /* 800959A4 00090EC4  7F A3 EB 78 */	mr r3, r29
 /* 800959A8 00090EC8  7F C4 F3 78 */	mr r4, r30
 /* 800959AC 00090ECC  7D 89 03 A6 */	mtctr r12
-/* 800959B0 00090ED0  4E 80 04 21 */	bctrl 
+/* 800959B0 00090ED0  4E 80 04 21 */	bctrl
 /* 800959B4 00090ED4  48 00 22 41 */	bl OSEnableScheduler
 /* 800959B8 00090ED8  48 00 27 49 */	bl __OSReschedule
 /* 800959BC 00090EDC  7F C3 F3 78 */	mr r3, r30
@@ -563,7 +563,7 @@ glabel __OSDispatchInterrupt
 /* 800959D8 00090EF8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800959DC 00090EFC  7C 08 03 A6 */	mtlr r0
 /* 800959E0 00090F00  38 21 00 20 */	addi r1, r1, 0x20
-/* 800959E4 00090F04  4E 80 00 20 */	blr 
+/* 800959E4 00090F04  4E 80 00 20 */	blr
 
 glabel ExternalInterruptHandler
 /* 800959E8 00090F08  90 04 00 00 */	stw r0, 0(r4)

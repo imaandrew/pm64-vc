@@ -34,7 +34,7 @@ glabel InsertSoundList__Q46nw4hbm3snd6detail19ExternalSoundPlayerFPQ46nw4hbm3snd
 /* 8012FAF8 0012B018  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8012FAFC 0012B01C  7C 08 03 A6 */	mtlr r0
 /* 8012FB00 0012B020  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012FB04 0012B024  4E 80 00 20 */	blr 
+/* 8012FB04 0012B024  4E 80 00 20 */	blr
 
 glabel RemoveSoundList__Q46nw4hbm3snd6detail19ExternalSoundPlayerFPQ46nw4hbm3snd6detail10BasicSound
 /* 8012FB08 0012B028  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -64,7 +64,7 @@ glabel RemoveSoundList__Q46nw4hbm3snd6detail19ExternalSoundPlayerFPQ46nw4hbm3snd
 /* 8012FB64 0012B084  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012FB68 0012B088  7C 08 03 A6 */	mtlr r0
 /* 8012FB6C 0012B08C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012FB70 0012B090  4E 80 00 20 */	blr 
+/* 8012FB70 0012B090  4E 80 00 20 */	blr
 
 glabel GetLowestPrioritySound__Q46nw4hbm3snd6detail19ExternalSoundPlayerFv
 /* 8012FB74 0012B094  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -131,5 +131,5 @@ glabel GetLowestPrioritySound__Q46nw4hbm3snd6detail19ExternalSoundPlayerFv
 /* 8012FC48 0012B168  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8012FC4C 0012B16C  7C 08 03 A6 */	mtlr r0
 /* 8012FC50 0012B170  38 21 00 30 */	addi r1, r1, 0x30
-/* 8012FC54 0012B174  4E 80 00 20 */	blr 
+/* 8012FC54 0012B174  4E 80 00 20 */	blr
 

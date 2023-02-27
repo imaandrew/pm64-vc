@@ -18,7 +18,7 @@ glabel rfc_calc_fcs
 /* 8010180C 000FCD2C  40 82 FF E8 */	bne .L_801017F4
 /* 80101810 000FCD30  20 06 00 FF */	subfic r0, r6, 0xff
 /* 80101814 000FCD34  54 03 06 3E */	clrlwi r3, r0, 0x18
-/* 80101818 000FCD38  4E 80 00 20 */	blr 
+/* 80101818 000FCD38  4E 80 00 20 */	blr
 
 glabel rfc_check_fcs
 /* 8010181C 000FCD3C  3C C0 80 17 */	lis r6, lbl_80175D78@ha
@@ -41,7 +41,7 @@ glabel rfc_check_fcs
 /* 80101858 000FCD78  38 03 FF 31 */	addi r0, r3, -207
 /* 8010185C 000FCD7C  7C 00 00 34 */	cntlzw r0, r0
 /* 80101860 000FCD80  54 03 DE 3E */	rlwinm r3, r0, 0x1b, 0x18, 0x1f
-/* 80101864 000FCD84  4E 80 00 20 */	blr 
+/* 80101864 000FCD84  4E 80 00 20 */	blr
 
 glabel rfc_alloc_multiplexer_channel
 /* 80101868 000FCD88  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -135,7 +135,7 @@ glabel rfc_alloc_multiplexer_channel
 /* 801019B0 000FCED0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 801019B4 000FCED4  7C 08 03 A6 */	mtlr r0
 /* 801019B8 000FCED8  38 21 00 20 */	addi r1, r1, 0x20
-/* 801019BC 000FCEDC  4E 80 00 20 */	blr 
+/* 801019BC 000FCEDC  4E 80 00 20 */	blr
 
 glabel rfc_release_multiplexer_channel
 /* 801019C0 000FCEE0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -174,7 +174,7 @@ glabel rfc_release_multiplexer_channel
 /* 80101A38 000FCF58  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80101A3C 000FCF5C  7C 08 03 A6 */	mtlr r0
 /* 80101A40 000FCF60  38 21 00 10 */	addi r1, r1, 0x10
-/* 80101A44 000FCF64  4E 80 00 20 */	blr 
+/* 80101A44 000FCF64  4E 80 00 20 */	blr
 
 glabel rfc_timer_start
 /* 80101A48 000FCF68  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -206,7 +206,7 @@ glabel rfc_timer_start
 /* 80101AAC 000FCFCC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80101AB0 000FCFD0  7C 08 03 A6 */	mtlr r0
 /* 80101AB4 000FCFD4  38 21 00 10 */	addi r1, r1, 0x10
-/* 80101AB8 000FCFD8  4E 80 00 20 */	blr 
+/* 80101AB8 000FCFD8  4E 80 00 20 */	blr
 
 glabel rfc_timer_stop
 /* 80101ABC 000FCFDC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -231,7 +231,7 @@ glabel rfc_timer_stop
 /* 80101B04 000FD024  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80101B08 000FD028  7C 08 03 A6 */	mtlr r0
 /* 80101B0C 000FD02C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80101B10 000FD030  4E 80 00 20 */	blr 
+/* 80101B10 000FD030  4E 80 00 20 */	blr
 
 glabel rfc_port_timer_start
 /* 80101B14 000FD034  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -266,7 +266,7 @@ glabel rfc_port_timer_start
 /* 80101B84 000FD0A4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80101B88 000FD0A8  7C 08 03 A6 */	mtlr r0
 /* 80101B8C 000FD0AC  38 21 00 20 */	addi r1, r1, 0x20
-/* 80101B90 000FD0B0  4E 80 00 20 */	blr 
+/* 80101B90 000FD0B0  4E 80 00 20 */	blr
 
 glabel rfc_port_timer_stop
 /* 80101B94 000FD0B4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -291,7 +291,7 @@ glabel rfc_port_timer_stop
 /* 80101BDC 000FD0FC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80101BE0 000FD100  7C 08 03 A6 */	mtlr r0
 /* 80101BE4 000FD104  38 21 00 10 */	addi r1, r1, 0x10
-/* 80101BE8 000FD108  4E 80 00 20 */	blr 
+/* 80101BE8 000FD108  4E 80 00 20 */	blr
 
 glabel rfc_check_mcb_active
 /* 80101BEC 000FD10C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -347,15 +347,15 @@ glabel rfc_check_mcb_active
 /* 80101CA0 000FD1C0  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80101CA4 000FD1C4  7C 08 03 A6 */	mtlr r0
 /* 80101CA8 000FD1C8  38 21 00 10 */	addi r1, r1, 0x10
-/* 80101CAC 000FD1CC  4E 80 00 20 */	blr 
+/* 80101CAC 000FD1CC  4E 80 00 20 */	blr
 
 glabel rfcomm_process_timeout
 /* 80101CB0 000FD1D0  A0 03 00 14 */	lhz r0, 0x14(r3)
 /* 80101CB4 000FD1D4  2C 00 00 0C */	cmpwi r0, 0xc
 /* 80101CB8 000FD1D8  41 82 00 20 */	beq .L_80101CD8
-/* 80101CBC 000FD1DC  4C 80 00 20 */	bgelr 
+/* 80101CBC 000FD1DC  4C 80 00 20 */	bgelr
 /* 80101CC0 000FD1E0  2C 00 00 0B */	cmpwi r0, 0xb
-/* 80101CC4 000FD1E4  4D 80 00 20 */	bltlr 
+/* 80101CC4 000FD1E4  4D 80 00 20 */	bltlr
 /* 80101CC8 000FD1E8  80 63 00 10 */	lwz r3, 0x10(r3)
 /* 80101CCC 000FD1EC  38 80 00 05 */	li r4, 5
 /* 80101CD0 000FD1F0  38 A0 00 00 */	li r5, 0
@@ -365,7 +365,7 @@ glabel rfcomm_process_timeout
 /* 80101CDC 000FD1FC  38 80 00 05 */	li r4, 5
 /* 80101CE0 000FD200  38 A0 00 00 */	li r5, 0
 /* 80101CE4 000FD204  4B FF CD EC */	b rfc_port_sm_execute
-/* 80101CE8 000FD208  4E 80 00 20 */	blr 
+/* 80101CE8 000FD208  4E 80 00 20 */	blr
 
 glabel rfc_sec_check_complete
 /* 80101CEC 000FD20C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -390,7 +390,7 @@ glabel rfc_sec_check_complete
 /* 80101D30 000FD250  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80101D34 000FD254  7C 08 03 A6 */	mtlr r0
 /* 80101D38 000FD258  38 21 00 10 */	addi r1, r1, 0x10
-/* 80101D3C 000FD25C  4E 80 00 20 */	blr 
+/* 80101D3C 000FD25C  4E 80 00 20 */	blr
 
 glabel rfc_port_closed
 /* 80101D40 000FD260  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -485,7 +485,7 @@ glabel rfc_port_closed
 /* 80101E88 000FD3A8  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80101E8C 000FD3AC  7C 08 03 A6 */	mtlr r0
 /* 80101E90 000FD3B0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80101E94 000FD3B4  4E 80 00 20 */	blr 
+/* 80101E94 000FD3B4  4E 80 00 20 */	blr
 
 glabel rfc_inc_credit
 /* 80101E98 000FD3B8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -524,13 +524,13 @@ glabel rfc_inc_credit
 /* 80101F14 000FD434  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80101F18 000FD438  7C 08 03 A6 */	mtlr r0
 /* 80101F1C 000FD43C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80101F20 000FD440  4E 80 00 20 */	blr 
+/* 80101F20 000FD440  4E 80 00 20 */	blr
 
 glabel rfc_dec_credit
 /* 80101F24 000FD444  80 83 00 6C */	lwz r4, 0x6c(r3)
 /* 80101F28 000FD448  88 04 00 72 */	lbz r0, 0x72(r4)
 /* 80101F2C 000FD44C  28 00 00 02 */	cmplwi r0, 2
-/* 80101F30 000FD450  4C 82 00 20 */	bnelr 
+/* 80101F30 000FD450  4C 82 00 20 */	bnelr
 /* 80101F34 000FD454  A0 83 00 98 */	lhz r4, 0x98(r3)
 /* 80101F38 000FD458  2C 04 00 00 */	cmpwi r4, 0
 /* 80101F3C 000FD45C  41 82 00 0C */	beq .L_80101F48
@@ -539,10 +539,10 @@ glabel rfc_dec_credit
 .L_80101F48:
 /* 80101F48 000FD468  A0 03 00 98 */	lhz r0, 0x98(r3)
 /* 80101F4C 000FD46C  2C 00 00 00 */	cmpwi r0, 0
-/* 80101F50 000FD470  4C 82 00 20 */	bnelr 
+/* 80101F50 000FD470  4C 82 00 20 */	bnelr
 /* 80101F54 000FD474  38 00 00 01 */	li r0, 1
 /* 80101F58 000FD478  98 03 00 24 */	stb r0, 0x24(r3)
-/* 80101F5C 000FD47C  4E 80 00 20 */	blr 
+/* 80101F5C 000FD47C  4E 80 00 20 */	blr
 
 glabel rfc_check_send_cmd
 /* 80101F60 000FD480  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -572,5 +572,5 @@ glabel rfc_check_send_cmd
 /* 80101FB4 000FD4D4  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80101FB8 000FD4D8  7C 08 03 A6 */	mtlr r0
 /* 80101FBC 000FD4DC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80101FC0 000FD4E0  4E 80 00 20 */	blr 
+/* 80101FC0 000FD4E0  4E 80 00 20 */	blr
 

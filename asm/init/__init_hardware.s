@@ -11,5 +11,5 @@ glabel __init_hardware
 /* 800042F4 000003F4  48 08 A7 F5 */	bl __OSFPRInit
 /* 800042F8 000003F8  48 08 CB F5 */	bl __OSCacheInit
 /* 800042FC 000003FC  7F E8 03 A6 */	mtlr r31
-/* 80004300 00000400  4E 80 00 20 */	blr 
+/* 80004300 00000400  4E 80 00 20 */	blr
 

@@ -51,7 +51,7 @@ glabel __DVDShowFatalMessage
 /* 800AFAB4 000AAFD4  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 800AFAB8 000AAFD8  7C 08 03 A6 */	mtlr r0
 /* 800AFABC 000AAFDC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800AFAC0 000AAFE0  4E 80 00 20 */	blr 
+/* 800AFAC0 000AAFE0  4E 80 00 20 */	blr
 
 glabel DVDSetAutoFatalMessaging
 /* 800AFAC4 000AAFE4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -77,22 +77,22 @@ glabel DVDSetAutoFatalMessaging
 /* 800AFB10 000AB030  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800AFB14 000AB034  7C 08 03 A6 */	mtlr r0
 /* 800AFB18 000AB038  38 21 00 10 */	addi r1, r1, 0x10
-/* 800AFB1C 000AB03C  4E 80 00 20 */	blr 
+/* 800AFB1C 000AB03C  4E 80 00 20 */	blr
 
 glabel __DVDGetAutoFatalMessaging
 /* 800AFB20 000AB040  80 6D 8F A0 */	lwz r3, lbl_80247420@sda21(r13)
 /* 800AFB24 000AB044  7C 03 00 D0 */	neg r0, r3
 /* 800AFB28 000AB048  7C 00 1B 78 */	or r0, r0, r3
 /* 800AFB2C 000AB04C  54 03 0F FE */	srwi r3, r0, 0x1f
-/* 800AFB30 000AB050  4E 80 00 20 */	blr 
+/* 800AFB30 000AB050  4E 80 00 20 */	blr
 
 glabel __DVDPrintFatalMessage
 /* 800AFB34 000AB054  81 8D 8F A0 */	lwz r12, lbl_80247420@sda21(r13)
 /* 800AFB38 000AB058  2C 0C 00 00 */	cmpwi r12, 0
-/* 800AFB3C 000AB05C  4D 82 00 20 */	beqlr 
+/* 800AFB3C 000AB05C  4D 82 00 20 */	beqlr
 /* 800AFB40 000AB060  7D 89 03 A6 */	mtctr r12
-/* 800AFB44 000AB064  4E 80 04 20 */	bctr 
-/* 800AFB48 000AB068  4E 80 00 20 */	blr 
+/* 800AFB44 000AB064  4E 80 04 20 */	bctr
+/* 800AFB48 000AB068  4E 80 00 20 */	blr
 
 .section .sbss, "wa" # 0x80246B60 - 0x80247800
 

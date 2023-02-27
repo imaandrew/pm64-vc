@@ -111,7 +111,7 @@ glabel BTM_SecAddDevice
 /* 800E54C4 000E09E4  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800E54C8 000E09E8  7C 08 03 A6 */	mtlr r0
 /* 800E54CC 000E09EC  38 21 00 30 */	addi r1, r1, 0x30
-/* 800E54D0 000E09F0  4E 80 00 20 */	blr 
+/* 800E54D0 000E09F0  4E 80 00 20 */	blr
 
 glabel BTM_SecDeleteDevice
 /* 800E54D4 000E09F4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -161,7 +161,7 @@ glabel BTM_SecDeleteDevice
 /* 800E5570 000E0A90  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800E5574 000E0A94  7C 08 03 A6 */	mtlr r0
 /* 800E5578 000E0A98  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E557C 000E0A9C  4E 80 00 20 */	blr 
+/* 800E557C 000E0A9C  4E 80 00 20 */	blr
 
 glabel BTM_SecReadDevName
 /* 800E5580 000E0AA0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -207,7 +207,7 @@ glabel BTM_SecReadDevName
 /* 800E5610 000E0B30  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800E5614 000E0B34  7C 08 03 A6 */	mtlr r0
 /* 800E5618 000E0B38  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E561C 000E0B3C  4E 80 00 20 */	blr 
+/* 800E561C 000E0B3C  4E 80 00 20 */	blr
 
 glabel btm_sec_alloc_dev
 /* 800E5620 000E0B40  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -287,7 +287,7 @@ glabel btm_sec_alloc_dev
 /* 800E5730 000E0C50  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800E5734 000E0C54  7C 08 03 A6 */	mtlr r0
 /* 800E5738 000E0C58  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E573C 000E0C5C  4E 80 00 20 */	blr 
+/* 800E573C 000E0C5C  4E 80 00 20 */	blr
 
 glabel btm_find_dev_by_handle
 /* 800E5740 000E0C60  3C 80 80 22 */	lis r4, lbl_80220558@ha
@@ -304,7 +304,7 @@ glabel btm_find_dev_by_handle
 /* 800E5768 000E0C88  7C 00 18 40 */	cmplw r0, r3
 /* 800E576C 000E0C8C  40 82 00 0C */	bne .L_800E5778
 /* 800E5770 000E0C90  7C 83 23 78 */	mr r3, r4
-/* 800E5774 000E0C94  4E 80 00 20 */	blr 
+/* 800E5774 000E0C94  4E 80 00 20 */	blr
 .L_800E5778:
 /* 800E5778 000E0C98  88 04 00 FE */	lbz r0, 0xfe(r4)
 /* 800E577C 000E0C9C  38 84 00 88 */	addi r4, r4, 0x88
@@ -314,7 +314,7 @@ glabel btm_find_dev_by_handle
 /* 800E578C 000E0CAC  7C 00 18 40 */	cmplw r0, r3
 /* 800E5790 000E0CB0  40 82 00 0C */	bne .L_800E579C
 /* 800E5794 000E0CB4  7C 83 23 78 */	mr r3, r4
-/* 800E5798 000E0CB8  4E 80 00 20 */	blr 
+/* 800E5798 000E0CB8  4E 80 00 20 */	blr
 .L_800E579C:
 /* 800E579C 000E0CBC  88 04 00 FE */	lbz r0, 0xfe(r4)
 /* 800E57A0 000E0CC0  38 84 00 88 */	addi r4, r4, 0x88
@@ -324,7 +324,7 @@ glabel btm_find_dev_by_handle
 /* 800E57B0 000E0CD0  7C 00 18 40 */	cmplw r0, r3
 /* 800E57B4 000E0CD4  40 82 00 0C */	bne .L_800E57C0
 /* 800E57B8 000E0CD8  7C 83 23 78 */	mr r3, r4
-/* 800E57BC 000E0CDC  4E 80 00 20 */	blr 
+/* 800E57BC 000E0CDC  4E 80 00 20 */	blr
 .L_800E57C0:
 /* 800E57C0 000E0CE0  88 04 00 FE */	lbz r0, 0xfe(r4)
 /* 800E57C4 000E0CE4  38 84 00 88 */	addi r4, r4, 0x88
@@ -334,13 +334,13 @@ glabel btm_find_dev_by_handle
 /* 800E57D4 000E0CF4  7C 00 18 40 */	cmplw r0, r3
 /* 800E57D8 000E0CF8  40 82 00 0C */	bne .L_800E57E4
 /* 800E57DC 000E0CFC  7C 83 23 78 */	mr r3, r4
-/* 800E57E0 000E0D00  4E 80 00 20 */	blr 
+/* 800E57E0 000E0D00  4E 80 00 20 */	blr
 .L_800E57E4:
 /* 800E57E4 000E0D04  38 A5 00 03 */	addi r5, r5, 3
 /* 800E57E8 000E0D08  38 84 00 88 */	addi r4, r4, 0x88
 /* 800E57EC 000E0D0C  42 00 FF 6C */	bdnz .L_800E5758
 /* 800E57F0 000E0D10  38 60 00 00 */	li r3, 0
-/* 800E57F4 000E0D14  4E 80 00 20 */	blr 
+/* 800E57F4 000E0D14  4E 80 00 20 */	blr
 
 glabel btm_find_dev
 /* 800E57F8 000E0D18  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -379,7 +379,7 @@ glabel btm_find_dev
 /* 800E5870 000E0D90  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800E5874 000E0D94  7C 08 03 A6 */	mtlr r0
 /* 800E5878 000E0D98  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E587C 000E0D9C  4E 80 00 20 */	blr 
+/* 800E587C 000E0D9C  4E 80 00 20 */	blr
 
 glabel btm_find_oldest_dev
 /* 800E5880 000E0DA0  3C 60 80 22 */	lis r3, lbl_80220558@ha
@@ -443,7 +443,7 @@ glabel btm_find_oldest_dev
 /* 800E5954 000E0E74  42 00 FF 4C */	bdnz .L_800E58A0
 /* 800E5958 000E0E78  3C 06 00 01 */	addis r0, r6, 1
 /* 800E595C 000E0E7C  28 00 FF FF */	cmplwi r0, 0xffff
-/* 800E5960 000E0E80  4C 82 00 20 */	bnelr 
+/* 800E5960 000E0E80  4C 82 00 20 */	bnelr
 /* 800E5964 000E0E84  3C 80 80 22 */	lis r4, lbl_80220558@ha
 /* 800E5968 000E0E88  38 00 00 04 */	li r0, 4
 /* 800E596C 000E0E8C  38 84 05 58 */	addi r4, r4, lbl_80220558@l
@@ -493,5 +493,5 @@ glabel btm_find_oldest_dev
 /* 800E5A08 000E0F28  38 A5 00 03 */	addi r5, r5, 3
 /* 800E5A0C 000E0F2C  38 84 00 88 */	addi r4, r4, 0x88
 /* 800E5A10 000E0F30  42 00 FF 6C */	bdnz .L_800E597C
-/* 800E5A14 000E0F34  4E 80 00 20 */	blr 
+/* 800E5A14 000E0F34  4E 80 00 20 */	blr
 

@@ -30,7 +30,7 @@ glabel gap_conn_init
 /* 800EEECC 000EA3EC  90 09 00 A0 */	stw r0, 0xa0(r9)
 /* 800EEED0 000EA3F0  90 89 00 A4 */	stw r4, 0xa4(r9)
 /* 800EEED4 000EA3F4  90 69 00 A8 */	stw r3, 0xa8(r9)
-/* 800EEED8 000EA3F8  4E 80 00 20 */	blr 
+/* 800EEED8 000EA3F8  4E 80 00 20 */	blr
 
 glabel gap_connect_ind
 /* 800EEEDC 000EA3FC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -140,7 +140,7 @@ glabel gap_connect_ind
 /* 800EF058 000EA578  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800EF05C 000EA57C  7C 08 03 A6 */	mtlr r0
 /* 800EF060 000EA580  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EF064 000EA584  4E 80 00 20 */	blr 
+/* 800EF064 000EA584  4E 80 00 20 */	blr
 
 glabel gap_connect_cfm
 /* 800EF068 000EA588  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -214,7 +214,7 @@ glabel gap_connect_cfm
 /* 800EF15C 000EA67C  A0 7F 00 04 */	lhz r3, 4(r31)
 /* 800EF160 000EA680  38 80 01 01 */	li r4, 0x101
 /* 800EF164 000EA684  7D 89 03 A6 */	mtctr r12
-/* 800EF168 000EA688  4E 80 04 21 */	bctrl 
+/* 800EF168 000EA688  4E 80 04 21 */	bctrl
 .L_800EF16C:
 /* 800EF16C 000EA68C  A3 DF 00 10 */	lhz r30, 0x10(r31)
 /* 800EF170 000EA690  48 00 00 10 */	b .L_800EF180
@@ -277,7 +277,7 @@ glabel gap_connect_cfm
 /* 800EF234 000EA754  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800EF238 000EA758  7C 08 03 A6 */	mtlr r0
 /* 800EF23C 000EA75C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800EF240 000EA760  4E 80 00 20 */	blr 
+/* 800EF240 000EA760  4E 80 00 20 */	blr
 
 glabel gap_config_ind
 /* 800EF244 000EA764  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -362,13 +362,13 @@ glabel gap_config_ind
 /* 800EF35C 000EA87C  81 9F 00 20 */	lwz r12, 0x20(r31)
 /* 800EF360 000EA880  A0 7F 00 04 */	lhz r3, 4(r31)
 /* 800EF364 000EA884  7D 89 03 A6 */	mtctr r12
-/* 800EF368 000EA888  4E 80 04 21 */	bctrl 
+/* 800EF368 000EA888  4E 80 04 21 */	bctrl
 .L_800EF36C:
 /* 800EF36C 000EA88C  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800EF370 000EA890  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800EF374 000EA894  7C 08 03 A6 */	mtlr r0
 /* 800EF378 000EA898  38 21 00 10 */	addi r1, r1, 0x10
-/* 800EF37C 000EA89C  4E 80 00 20 */	blr 
+/* 800EF37C 000EA89C  4E 80 00 20 */	blr
 
 glabel gap_config_cfm
 /* 800EF380 000EA8A0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -439,14 +439,14 @@ glabel gap_config_cfm
 /* 800EF46C 000EA98C  81 9F 00 20 */	lwz r12, 0x20(r31)
 /* 800EF470 000EA990  A0 7F 00 04 */	lhz r3, 4(r31)
 /* 800EF474 000EA994  7D 89 03 A6 */	mtctr r12
-/* 800EF478 000EA998  4E 80 04 21 */	bctrl 
+/* 800EF478 000EA998  4E 80 04 21 */	bctrl
 /* 800EF47C 000EA99C  48 00 00 D8 */	b .L_800EF554
 .L_800EF480:
 /* 800EF480 000EA9A0  81 9F 00 20 */	lwz r12, 0x20(r31)
 /* 800EF484 000EA9A4  38 80 01 01 */	li r4, 0x101
 /* 800EF488 000EA9A8  A0 7F 00 04 */	lhz r3, 4(r31)
 /* 800EF48C 000EA9AC  7D 89 03 A6 */	mtctr r12
-/* 800EF490 000EA9B0  4E 80 04 21 */	bctrl 
+/* 800EF490 000EA9B0  4E 80 04 21 */	bctrl
 /* 800EF494 000EA9B4  A3 DF 00 10 */	lhz r30, 0x10(r31)
 /* 800EF498 000EA9B8  48 00 00 10 */	b .L_800EF4A8
 .L_800EF49C:
@@ -508,7 +508,7 @@ glabel gap_config_cfm
 /* 800EF55C 000EAA7C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800EF560 000EAA80  7C 08 03 A6 */	mtlr r0
 /* 800EF564 000EAA84  38 21 00 10 */	addi r1, r1, 0x10
-/* 800EF568 000EAA88  4E 80 00 20 */	blr 
+/* 800EF568 000EAA88  4E 80 00 20 */	blr
 
 glabel gap_disconnect_ind
 /* 800EF56C 000EAA8C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -589,7 +589,7 @@ glabel gap_disconnect_ind
 /* 800EF678 000EAB98  38 80 01 01 */	li r4, 0x101
 /* 800EF67C 000EAB9C  A0 7F 00 04 */	lhz r3, 4(r31)
 /* 800EF680 000EABA0  7D 89 03 A6 */	mtctr r12
-/* 800EF684 000EABA4  4E 80 04 21 */	bctrl 
+/* 800EF684 000EABA4  4E 80 04 21 */	bctrl
 /* 800EF688 000EABA8  A3 DF 00 10 */	lhz r30, 0x10(r31)
 /* 800EF68C 000EABAC  48 00 00 10 */	b .L_800EF69C
 .L_800EF690:
@@ -652,7 +652,7 @@ glabel gap_disconnect_ind
 /* 800EF754 000EAC74  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800EF758 000EAC78  7C 08 03 A6 */	mtlr r0
 /* 800EF75C 000EAC7C  38 21 00 20 */	addi r1, r1, 0x20
-/* 800EF760 000EAC80  4E 80 00 20 */	blr 
+/* 800EF760 000EAC80  4E 80 00 20 */	blr
 
 glabel gap_data_ind
 /* 800EF764 000EAC84  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -721,7 +721,7 @@ glabel gap_data_ind
 /* 800EF844 000EAD64  38 80 01 02 */	li r4, 0x102
 /* 800EF848 000EAD68  A0 7F 00 04 */	lhz r3, 4(r31)
 /* 800EF84C 000EAD6C  7D 89 03 A6 */	mtctr r12
-/* 800EF850 000EAD70  4E 80 04 21 */	bctrl 
+/* 800EF850 000EAD70  4E 80 04 21 */	bctrl
 /* 800EF854 000EAD74  48 00 00 0C */	b .L_800EF860
 .L_800EF858:
 /* 800EF858 000EAD78  7C 83 23 78 */	mr r3, r4
@@ -731,7 +731,7 @@ glabel gap_data_ind
 /* 800EF864 000EAD84  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800EF868 000EAD88  7C 08 03 A6 */	mtlr r0
 /* 800EF86C 000EAD8C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800EF870 000EAD90  4E 80 00 20 */	blr 
+/* 800EF870 000EAD90  4E 80 00 20 */	blr
 
 glabel gap_congestion_ind
 /* 800EF874 000EAD94  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -811,14 +811,14 @@ glabel gap_congestion_ind
 /* 800EF980 000EAEA0  38 04 01 04 */	addi r0, r4, 0x104
 /* 800EF984 000EAEA4  54 04 04 3E */	clrlwi r4, r0, 0x10
 /* 800EF988 000EAEA8  7D 89 03 A6 */	mtctr r12
-/* 800EF98C 000EAEAC  4E 80 04 21 */	bctrl 
+/* 800EF98C 000EAEAC  4E 80 04 21 */	bctrl
 .L_800EF990:
 /* 800EF990 000EAEB0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800EF994 000EAEB4  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800EF998 000EAEB8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800EF99C 000EAEBC  7C 08 03 A6 */	mtlr r0
 /* 800EF9A0 000EAEC0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800EF9A4 000EAEC4  4E 80 00 20 */	blr 
+/* 800EF9A4 000EAEC4  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

@@ -31,7 +31,7 @@ glabel OSRegisterShutdownFunction
 /* 80096774 00091C94  38 8D 8D 08 */	addi r4, r13, lbl_80247188@sda21
 /* 80096778 00091C98  90 03 00 08 */	stw r0, 8(r3)
 /* 8009677C 00091C9C  90 64 00 04 */	stw r3, 4(r4)
-/* 80096780 00091CA0  4E 80 00 20 */	blr 
+/* 80096780 00091CA0  4E 80 00 20 */	blr
 .L_80096784:
 /* 80096784 00091CA4  90 A3 00 08 */	stw r5, 8(r3)
 /* 80096788 00091CA8  80 85 00 0C */	lwz r4, 0xc(r5)
@@ -40,10 +40,10 @@ glabel OSRegisterShutdownFunction
 /* 80096794 00091CB4  90 83 00 0C */	stw r4, 0xc(r3)
 /* 80096798 00091CB8  40 82 00 0C */	bne .L_800967A4
 /* 8009679C 00091CBC  90 6D 8D 08 */	stw r3, lbl_80247188@sda21(r13)
-/* 800967A0 00091CC0  4E 80 00 20 */	blr 
+/* 800967A0 00091CC0  4E 80 00 20 */	blr
 .L_800967A4:
 /* 800967A4 00091CC4  90 64 00 08 */	stw r3, 8(r4)
-/* 800967A8 00091CC8  4E 80 00 20 */	blr 
+/* 800967A8 00091CC8  4E 80 00 20 */	blr
 
 glabel __OSCallShutdownFunctions
 /* 800967AC 00091CCC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -70,7 +70,7 @@ glabel __OSCallShutdownFunctions
 /* 800967F8 00091D18  7F 83 E3 78 */	mr r3, r28
 /* 800967FC 00091D1C  7F A4 EB 78 */	mr r4, r29
 /* 80096800 00091D20  7D 89 03 A6 */	mtctr r12
-/* 80096804 00091D24  4E 80 04 21 */	bctrl 
+/* 80096804 00091D24  4E 80 04 21 */	bctrl
 /* 80096808 00091D28  7C 60 00 34 */	cntlzw r0, r3
 /* 8009680C 00091D2C  80 7F 00 04 */	lwz r3, 4(r31)
 /* 80096810 00091D30  54 00 D9 7E */	srwi r0, r0, 5
@@ -93,7 +93,7 @@ glabel __OSCallShutdownFunctions
 /* 8009684C 00091D6C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80096850 00091D70  7C 08 03 A6 */	mtlr r0
 /* 80096854 00091D74  38 21 00 20 */	addi r1, r1, 0x20
-/* 80096858 00091D78  4E 80 00 20 */	blr 
+/* 80096858 00091D78  4E 80 00 20 */	blr
 
 glabel __OSShutdownDevices
 /* 8009685C 00091D7C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -138,7 +138,7 @@ glabel __OSShutdownDevices
 /* 800968DC 00091DFC  7F 64 DB 78 */	mr r4, r27
 /* 800968E0 00091E00  38 60 00 00 */	li r3, 0
 /* 800968E4 00091E04  7D 89 03 A6 */	mtctr r12
-/* 800968E8 00091E08  4E 80 04 21 */	bctrl 
+/* 800968E8 00091E08  4E 80 04 21 */	bctrl
 /* 800968EC 00091E0C  7C 60 00 34 */	cntlzw r0, r3
 /* 800968F0 00091E10  80 7E 00 04 */	lwz r3, 4(r30)
 /* 800968F4 00091E14  54 00 D9 7E */	srwi r0, r0, 5
@@ -173,7 +173,7 @@ glabel __OSShutdownDevices
 /* 80096954 00091E74  7F 64 DB 78 */	mr r4, r27
 /* 80096958 00091E78  38 60 00 01 */	li r3, 1
 /* 8009695C 00091E7C  7D 89 03 A6 */	mtctr r12
-/* 80096960 00091E80  4E 80 04 21 */	bctrl 
+/* 80096960 00091E80  4E 80 04 21 */	bctrl
 /* 80096964 00091E84  7C 60 00 34 */	cntlzw r0, r3
 /* 80096968 00091E88  80 7F 00 04 */	lwz r3, 4(r31)
 /* 8009696C 00091E8C  54 00 D9 7E */	srwi r0, r0, 5
@@ -214,7 +214,7 @@ glabel __OSShutdownDevices
 /* 800969DC 00091EFC  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800969E0 00091F00  7C 08 03 A6 */	mtlr r0
 /* 800969E4 00091F04  38 21 00 20 */	addi r1, r1, 0x20
-/* 800969E8 00091F08  4E 80 00 20 */	blr 
+/* 800969E8 00091F08  4E 80 00 20 */	blr
 
 glabel OSShutdownSystem
 /* 800969EC 00091F0C  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -294,7 +294,7 @@ glabel OSShutdownSystem
 /* 80096AF0 00092010  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 80096AF4 00092014  7C 08 03 A6 */	mtlr r0
 /* 80096AF8 00092018  38 21 00 40 */	addi r1, r1, 0x40
-/* 80096AFC 0009201C  4E 80 00 20 */	blr 
+/* 80096AFC 0009201C  4E 80 00 20 */	blr
 
 glabel __OSRebootForNANDAPP
 /* 80096B00 00092020  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -341,7 +341,7 @@ glabel __OSRebootForNANDAPP
 /* 80096BA0 000920C0  83 C1 00 28 */	lwz r30, 0x28(r1)
 /* 80096BA4 000920C4  7C 08 03 A6 */	mtlr r0
 /* 80096BA8 000920C8  38 21 00 30 */	addi r1, r1, 0x30
-/* 80096BAC 000920CC  4E 80 00 20 */	blr 
+/* 80096BAC 000920CC  4E 80 00 20 */	blr
 
 glabel OSRestart
 /* 80096BB0 000920D0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -380,7 +380,7 @@ glabel OSRestart
 /* 80096C2C 0009214C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80096C30 00092150  7C 08 03 A6 */	mtlr r0
 /* 80096C34 00092154  38 21 00 10 */	addi r1, r1, 0x10
-/* 80096C38 00092158  4E 80 00 20 */	blr 
+/* 80096C38 00092158  4E 80 00 20 */	blr
 
 glabel OSReturnToMenu
 /* 80096C3C 0009215C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -439,7 +439,7 @@ glabel OSReturnToMenu
 /* 80096D00 00092220  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80096D04 00092224  7C 08 03 A6 */	mtlr r0
 /* 80096D08 00092228  38 21 00 30 */	addi r1, r1, 0x30
-/* 80096D0C 0009222C  4E 80 00 20 */	blr 
+/* 80096D0C 0009222C  4E 80 00 20 */	blr
 
 glabel __OSReturnToMenuForError
 /* 80096D10 00092230  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -468,7 +468,7 @@ glabel __OSReturnToMenuForError
 /* 80096D6C 0009228C  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 80096D70 00092290  7C 08 03 A6 */	mtlr r0
 /* 80096D74 00092294  38 21 00 30 */	addi r1, r1, 0x30
-/* 80096D78 00092298  4E 80 00 20 */	blr 
+/* 80096D78 00092298  4E 80 00 20 */	blr
 
 glabel OSGetResetCode
 /* 80096D7C 0009229C  3C 60 80 1B */	lis r3, lbl_801B3DE0@ha
@@ -478,12 +478,12 @@ glabel OSGetResetCode
 /* 80096D8C 000922AC  38 63 3D E0 */	addi r3, r3, 0x3de0
 /* 80096D90 000922B0  80 03 00 04 */	lwz r0, 4(r3)
 /* 80096D94 000922B4  64 03 80 00 */	oris r3, r0, 0x8000
-/* 80096D98 000922B8  4E 80 00 20 */	blr 
+/* 80096D98 000922B8  4E 80 00 20 */	blr
 .L_80096D9C:
 /* 80096D9C 000922BC  3C 60 CC 00 */	lis r3, 0xCC003024@ha
 /* 80096DA0 000922C0  80 03 30 24 */	lwz r0, 0xCC003024@l(r3)
 /* 80096DA4 000922C4  54 03 E8 FE */	srwi r3, r0, 3
-/* 80096DA8 000922C8  4E 80 00 20 */	blr 
+/* 80096DA8 000922C8  4E 80 00 20 */	blr
 
 glabel OSResetSystem
 /* 80096DAC 000922CC  3C 60 80 18 */	lis r3, lbl_801840C0@ha

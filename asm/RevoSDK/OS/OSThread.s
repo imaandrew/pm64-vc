@@ -3,7 +3,7 @@
 .section .text, "ax"
 
 glabel DefaultSwitchThreadCallback
-/* 800978D4 00092DF4  4E 80 00 20 */	blr 
+/* 800978D4 00092DF4  4E 80 00 20 */	blr
 
 glabel __OSThreadInit
 /* 800978D8 00092DF8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -50,7 +50,7 @@ glabel __OSThreadInit
 /* 8009797C 00092E9C  81 8D 82 70 */	lwz r12, lbl_802466F0@sda21(r13)
 /* 80097980 00092EA0  80 7D 00 E4 */	lwz r3, 0xe4(r29)
 /* 80097984 00092EA4  7D 89 03 A6 */	mtctr r12
-/* 80097988 00092EA8  4E 80 04 21 */	bctrl 
+/* 80097988 00092EA8  4E 80 04 21 */	bctrl
 /* 8009798C 00092EAC  93 DD 00 E4 */	stw r30, 0xe4(r29)
 /* 80097990 00092EB0  4B FF 9A A9 */	bl OSGetStackPointer
 /* 80097994 00092EB4  80 9D 00 E4 */	lwz r4, 0xe4(r29)
@@ -174,25 +174,25 @@ glabel __OSThreadInit
 /* 80097B4C 0009306C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80097B50 00093070  7C 08 03 A6 */	mtlr r0
 /* 80097B54 00093074  38 21 00 20 */	addi r1, r1, 0x20
-/* 80097B58 00093078  4E 80 00 20 */	blr 
+/* 80097B58 00093078  4E 80 00 20 */	blr
 
 glabel OSInitThreadQueue
 /* 80097B5C 0009307C  38 00 00 00 */	li r0, 0
 /* 80097B60 00093080  90 03 00 04 */	stw r0, 4(r3)
 /* 80097B64 00093084  90 03 00 00 */	stw r0, 0(r3)
-/* 80097B68 00093088  4E 80 00 20 */	blr 
+/* 80097B68 00093088  4E 80 00 20 */	blr
 
 glabel OSGetCurrentThread
 /* 80097B6C 0009308C  3C 60 80 00 */	lis r3, 0x800000E4@ha
 /* 80097B70 00093090  80 63 00 E4 */	lwz r3, 0x800000E4@l(r3)
-/* 80097B74 00093094  4E 80 00 20 */	blr 
+/* 80097B74 00093094  4E 80 00 20 */	blr
 
 glabel OSIsThreadSuspended
 /* 80097B78 00093098  80 63 02 CC */	lwz r3, 0x2cc(r3)
 /* 80097B7C 0009309C  7C 03 00 D0 */	neg r0, r3
 /* 80097B80 000930A0  7C 00 18 78 */	andc r0, r0, r3
 /* 80097B84 000930A4  54 03 0F FE */	srwi r3, r0, 0x1f
-/* 80097B88 000930A8  4E 80 00 20 */	blr 
+/* 80097B88 000930A8  4E 80 00 20 */	blr
 
 glabel OSIsThreadTerminated
 /* 80097B8C 000930AC  A0 03 02 C8 */	lhz r0, 0x2c8(r3)
@@ -206,7 +206,7 @@ glabel OSIsThreadTerminated
 /* 80097BA8 000930C8  7C 03 00 D0 */	neg r0, r3
 /* 80097BAC 000930CC  7C 00 1B 78 */	or r0, r0, r3
 /* 80097BB0 000930D0  54 03 0F FE */	srwi r3, r0, 0x1f
-/* 80097BB4 000930D4  4E 80 00 20 */	blr 
+/* 80097BB4 000930D4  4E 80 00 20 */	blr
 
 glabel OSDisableScheduler
 /* 80097BB8 000930D8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -223,7 +223,7 @@ glabel OSDisableScheduler
 /* 80097BE4 00093104  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80097BE8 00093108  7C 08 03 A6 */	mtlr r0
 /* 80097BEC 0009310C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80097BF0 00093110  4E 80 00 20 */	blr 
+/* 80097BF0 00093110  4E 80 00 20 */	blr
 
 glabel OSEnableScheduler
 /* 80097BF4 00093114  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -240,7 +240,7 @@ glabel OSEnableScheduler
 /* 80097C20 00093140  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80097C24 00093144  7C 08 03 A6 */	mtlr r0
 /* 80097C28 00093148  38 21 00 10 */	addi r1, r1, 0x10
-/* 80097C2C 0009314C  4E 80 00 20 */	blr 
+/* 80097C2C 0009314C  4E 80 00 20 */	blr
 
 glabel UnsetRun
 /* 80097C30 00093150  80 A3 02 E0 */	lwz r5, 0x2e0(r3)
@@ -273,7 +273,7 @@ glabel UnsetRun
 .L_80097C8C:
 /* 80097C8C 000931AC  38 00 00 00 */	li r0, 0
 /* 80097C90 000931B0  90 03 02 DC */	stw r0, 0x2dc(r3)
-/* 80097C94 000931B4  4E 80 00 20 */	blr 
+/* 80097C94 000931B4  4E 80 00 20 */	blr
 
 glabel __OSGetEffectivePriority
 /* 80097C98 000931B8  80 83 02 D4 */	lwz r4, 0x2d4(r3)
@@ -293,7 +293,7 @@ glabel __OSGetEffectivePriority
 /* 80097CC4 000931E4  2C 03 00 00 */	cmpwi r3, 0
 /* 80097CC8 000931E8  40 82 FF DC */	bne .L_80097CA4
 /* 80097CCC 000931EC  7C 83 23 78 */	mr r3, r4
-/* 80097CD0 000931F0  4E 80 00 20 */	blr 
+/* 80097CD0 000931F0  4E 80 00 20 */	blr
 
 glabel SetEffectivePriority
 /* 80097CD4 000931F4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -424,7 +424,7 @@ glabel SetEffectivePriority
 /* 80097E78 00093398  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80097E7C 0009339C  7C 08 03 A6 */	mtlr r0
 /* 80097E80 000933A0  38 21 00 10 */	addi r1, r1, 0x10
-/* 80097E84 000933A4  4E 80 00 20 */	blr 
+/* 80097E84 000933A4  4E 80 00 20 */	blr
 
 glabel __OSPromoteThread
 /* 80097E88 000933A8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -448,7 +448,7 @@ glabel __OSPromoteThread
 /* 80097EC8 000933E8  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80097ECC 000933EC  7C 08 03 A6 */	mtlr r0
 /* 80097ED0 000933F0  38 21 00 10 */	addi r1, r1, 0x10
-/* 80097ED4 000933F4  4E 80 00 20 */	blr 
+/* 80097ED4 000933F4  4E 80 00 20 */	blr
 
 glabel SelectThread
 /* 80097ED8 000933F8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -534,7 +534,7 @@ glabel SelectThread
 /* 80097FFC 0009351C  80 7F 00 E4 */	lwz r3, 0x800000E4@l(r31)
 /* 80098000 00093520  38 80 00 00 */	li r4, 0
 /* 80098004 00093524  7D 89 03 A6 */	mtctr r12
-/* 80098008 00093528  4E 80 04 21 */	bctrl 
+/* 80098008 00093528  4E 80 04 21 */	bctrl
 /* 8009800C 0009352C  38 00 00 00 */	li r0, 0
 /* 80098010 00093530  3C 60 80 1C */	lis r3, lbl_801C4D70@ha
 /* 80098014 00093534  90 1F 00 E4 */	stw r0, 0xe4(r31)
@@ -589,7 +589,7 @@ glabel SelectThread
 /* 800980C0 000935E0  81 8D 82 70 */	lwz r12, lbl_802466F0@sda21(r13)
 /* 800980C4 000935E4  80 7F 00 E4 */	lwz r3, 0x800000E4@l(r31)
 /* 800980C8 000935E8  7D 89 03 A6 */	mtctr r12
-/* 800980CC 000935EC  4E 80 04 21 */	bctrl 
+/* 800980CC 000935EC  4E 80 04 21 */	bctrl
 /* 800980D0 000935F0  93 DF 00 E4 */	stw r30, 0xe4(r31)
 /* 800980D4 000935F4  7F C3 F3 78 */	mr r3, r30
 /* 800980D8 000935F8  4B FF 91 A1 */	bl OSSetCurrentContext
@@ -602,15 +602,15 @@ glabel SelectThread
 /* 800980F0 00093610  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800980F4 00093614  7C 08 03 A6 */	mtlr r0
 /* 800980F8 00093618  38 21 00 10 */	addi r1, r1, 0x10
-/* 800980FC 0009361C  4E 80 00 20 */	blr 
+/* 800980FC 0009361C  4E 80 00 20 */	blr
 
 glabel __OSReschedule
 /* 80098100 00093620  80 0D 8D 14 */	lwz r0, lbl_80247194@sda21(r13)
 /* 80098104 00093624  2C 00 00 00 */	cmpwi r0, 0
-/* 80098108 00093628  4D 82 00 20 */	beqlr 
+/* 80098108 00093628  4D 82 00 20 */	beqlr
 /* 8009810C 0009362C  38 60 00 00 */	li r3, 0
 /* 80098110 00093630  4B FF FD C8 */	b SelectThread
-/* 80098114 00093634  4E 80 00 20 */	blr 
+/* 80098114 00093634  4E 80 00 20 */	blr
 
 glabel OSYieldThread
 /* 80098118 00093638  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -627,7 +627,7 @@ glabel OSYieldThread
 /* 80098144 00093664  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80098148 00093668  7C 08 03 A6 */	mtlr r0
 /* 8009814C 0009366C  38 21 00 10 */	addi r1, r1, 0x10
-/* 80098150 00093670  4E 80 00 20 */	blr 
+/* 80098150 00093670  4E 80 00 20 */	blr
 
 glabel OSCreateThread
 /* 80098154 00093674  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -791,7 +791,7 @@ glabel OSCreateThread
 /* 800983B0 000938D0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800983B4 000938D4  7C 08 03 A6 */	mtlr r0
 /* 800983B8 000938D8  38 21 00 20 */	addi r1, r1, 0x20
-/* 800983BC 000938DC  4E 80 00 20 */	blr 
+/* 800983BC 000938DC  4E 80 00 20 */	blr
 
 glabel OSExitThread
 /* 800983C0 000938E0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -857,7 +857,7 @@ glabel OSExitThread
 /* 80098494 000939B4  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80098498 000939B8  7C 08 03 A6 */	mtlr r0
 /* 8009849C 000939BC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800984A0 000939C0  4E 80 00 20 */	blr 
+/* 800984A0 000939C0  4E 80 00 20 */	blr
 
 glabel OSCancelThread
 /* 800984A4 000939C4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -999,7 +999,7 @@ glabel OSCancelThread
 /* 8009866C 00093B8C  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80098670 00093B90  7C 08 03 A6 */	mtlr r0
 /* 80098674 00093B94  38 21 00 10 */	addi r1, r1, 0x10
-/* 80098678 00093B98  4E 80 00 20 */	blr 
+/* 80098678 00093B98  4E 80 00 20 */	blr
 
 glabel OSJoinThread
 /* 8009867C 00093B9C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1094,7 +1094,7 @@ glabel OSJoinThread
 /* 800987AC 00093CCC  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800987B0 00093CD0  7C 08 03 A6 */	mtlr r0
 /* 800987B4 00093CD4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800987B8 00093CD8  4E 80 00 20 */	blr 
+/* 800987B8 00093CD8  4E 80 00 20 */	blr
 
 glabel OSResumeThread
 /* 800987BC 00093CDC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1293,7 +1293,7 @@ glabel lbl_800987E8
 /* 80098A44 00093F64  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80098A48 00093F68  7C 08 03 A6 */	mtlr r0
 /* 80098A4C 00093F6C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80098A50 00093F70  4E 80 00 20 */	blr 
+/* 80098A50 00093F70  4E 80 00 20 */	blr
 
 glabel OSSuspendThread
 /* 80098A54 00093F74  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1412,7 +1412,7 @@ glabel OSSuspendThread
 /* 80098BD8 000940F8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80098BDC 000940FC  7C 08 03 A6 */	mtlr r0
 /* 80098BE0 00094100  38 21 00 20 */	addi r1, r1, 0x20
-/* 80098BE4 00094104  4E 80 00 20 */	blr 
+/* 80098BE4 00094104  4E 80 00 20 */	blr
 
 glabel OSSleepThread
 /* 80098BE8 00094108  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1482,7 +1482,7 @@ glabel OSSleepThread
 /* 80098CC4 000941E4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80098CC8 000941E8  7C 08 03 A6 */	mtlr r0
 /* 80098CCC 000941EC  38 21 00 10 */	addi r1, r1, 0x10
-/* 80098CD0 000941F0  4E 80 00 20 */	blr 
+/* 80098CD0 000941F0  4E 80 00 20 */	blr
 
 glabel OSWakeupThread
 /* 80098CD4 000941F4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1552,7 +1552,7 @@ glabel OSWakeupThread
 /* 80098DB8 000942D8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 80098DBC 000942DC  7C 08 03 A6 */	mtlr r0
 /* 80098DC0 000942E0  38 21 00 10 */	addi r1, r1, 0x10
-/* 80098DC4 000942E4  4E 80 00 20 */	blr 
+/* 80098DC4 000942E4  4E 80 00 20 */	blr
 
 .section .bss, "wa"  # 0x801ADFC0 - 0x80246480
 

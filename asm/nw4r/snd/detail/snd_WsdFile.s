@@ -114,5 +114,5 @@ glabel __ct__Q46nw4hbm3snd6detail13WsdFileReaderFPCv
 /* 80144694 0013FBB4  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 80144698 0013FBB8  7C 08 03 A6 */	mtlr r0
 /* 8014469C 0013FBBC  38 21 00 20 */	addi r1, r1, 0x20
-/* 801446A0 0013FBC0  4E 80 00 20 */	blr 
+/* 801446A0 0013FBC0  4E 80 00 20 */	blr
 

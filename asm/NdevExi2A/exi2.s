@@ -200,7 +200,7 @@ glabel __EXI2Imm
 /* 80087A04 00082F24  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80087A08 00082F28  7C 08 03 A6 */	mtlr r0
 /* 80087A0C 00082F2C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80087A10 00082F30  4E 80 00 20 */	blr 
+/* 80087A10 00082F30  4E 80 00 20 */	blr
 
 glabel __DBEXIInit
 /* 80087A14 00082F34  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -252,7 +252,7 @@ glabel __DBEXIInit
 /* 80087AC0 00082FE0  83 E1 00 1C */	lwz r31, 0x1c(r1)
 /* 80087AC4 00082FE4  7C 08 03 A6 */	mtlr r0
 /* 80087AC8 00082FE8  38 21 00 20 */	addi r1, r1, 0x20
-/* 80087ACC 00082FEC  4E 80 00 20 */	blr 
+/* 80087ACC 00082FEC  4E 80 00 20 */	blr
 
 glabel __DBEXIReadReg
 /* 80087AD0 00082FF0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -333,7 +333,7 @@ glabel __DBEXIReadReg
 /* 80087BE4 00083104  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80087BE8 00083108  7C 08 03 A6 */	mtlr r0
 /* 80087BEC 0008310C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80087BF0 00083110  4E 80 00 20 */	blr 
+/* 80087BF0 00083110  4E 80 00 20 */	blr
 
 glabel __DBEXIWriteReg
 /* 80087BF4 00083114  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -406,7 +406,7 @@ glabel __DBEXIWriteReg
 /* 80087CE8 00083208  83 C1 00 18 */	lwz r30, 0x18(r1)
 /* 80087CEC 0008320C  7C 08 03 A6 */	mtlr r0
 /* 80087CF0 00083210  38 21 00 20 */	addi r1, r1, 0x20
-/* 80087CF4 00083214  4E 80 00 20 */	blr 
+/* 80087CF4 00083214  4E 80 00 20 */	blr
 
 glabel __DBEXIReadRam
 /* 80087CF8 00083218  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -468,7 +468,7 @@ glabel __DBEXIReadRam
 /* 80087DC8 000832E8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80087DCC 000832EC  7C 08 03 A6 */	mtlr r0
 /* 80087DD0 000832F0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80087DD4 000832F4  4E 80 00 20 */	blr 
+/* 80087DD4 000832F4  4E 80 00 20 */	blr
 
 glabel __DBEXIWriteRam
 /* 80087DD8 000832F8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -530,5 +530,5 @@ glabel __DBEXIWriteRam
 /* 80087EA8 000833C8  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80087EAC 000833CC  7C 08 03 A6 */	mtlr r0
 /* 80087EB0 000833D0  38 21 00 20 */	addi r1, r1, 0x20
-/* 80087EB4 000833D4  4E 80 00 20 */	blr 
+/* 80087EB4 000833D4  4E 80 00 20 */	blr
 

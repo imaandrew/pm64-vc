@@ -165,5 +165,5 @@ glabel IsValidBinaryFile__Q26nw4hbm2utFPCQ36nw4hbm2ut16BinaryFileHeaderUlUsUs
 /* 80146938 00141E58  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 8014693C 00141E5C  7C 08 03 A6 */	mtlr r0
 /* 80146940 00141E60  38 21 00 30 */	addi r1, r1, 0x30
-/* 80146944 00141E64  4E 80 00 20 */	blr 
+/* 80146944 00141E64  4E 80 00 20 */	blr
 

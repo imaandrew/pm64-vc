@@ -9,7 +9,7 @@ glabel Read__Q36nw4hbm2ut8IOStreamFPvUl
 /* 8014BCD4 001471F4  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014BCD8 001471F8  81 8C 00 2C */	lwz r12, 0x2c(r12)
 /* 8014BCDC 001471FC  7D 89 03 A6 */	mtctr r12
-/* 8014BCE0 00147200  4E 80 04 21 */	bctrl 
+/* 8014BCE0 00147200  4E 80 04 21 */	bctrl
 /* 8014BCE4 00147204  2C 03 00 00 */	cmpwi r3, 0
 /* 8014BCE8 00147208  40 82 00 20 */	bne .L_8014BD08
 /* 8014BCEC 0014720C  3C 60 80 1B */	lis r3, lbl_801ABC20@ha
@@ -24,7 +24,7 @@ glabel Read__Q36nw4hbm2ut8IOStreamFPvUl
 /* 8014BD0C 0014722C  38 60 00 00 */	li r3, 0
 /* 8014BD10 00147230  7C 08 03 A6 */	mtlr r0
 /* 8014BD14 00147234  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014BD18 00147238  4E 80 00 20 */	blr 
+/* 8014BD18 00147238  4E 80 00 20 */	blr
 
 glabel ReadAsync__Q36nw4hbm2ut8IOStreamFPvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014BD1C 0014723C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -38,7 +38,7 @@ glabel ReadAsync__Q36nw4hbm2ut8IOStreamFPvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014BD3C 0014725C  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014BD40 00147260  81 8C 00 2C */	lwz r12, 0x2c(r12)
 /* 8014BD44 00147264  7D 89 03 A6 */	mtctr r12
-/* 8014BD48 00147268  4E 80 04 21 */	bctrl 
+/* 8014BD48 00147268  4E 80 04 21 */	bctrl
 /* 8014BD4C 0014726C  2C 03 00 00 */	cmpwi r3, 0
 /* 8014BD50 00147270  40 82 00 18 */	bne .L_8014BD68
 /* 8014BD54 00147274  38 7F 00 00 */	addi r3, r31, 0
@@ -51,7 +51,7 @@ glabel ReadAsync__Q36nw4hbm2ut8IOStreamFPvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014BD6C 0014728C  7F C3 F3 78 */	mr r3, r30
 /* 8014BD70 00147290  81 8C 00 28 */	lwz r12, 0x28(r12)
 /* 8014BD74 00147294  7D 89 03 A6 */	mtctr r12
-/* 8014BD78 00147298  4E 80 04 21 */	bctrl 
+/* 8014BD78 00147298  4E 80 04 21 */	bctrl
 /* 8014BD7C 0014729C  2C 03 00 00 */	cmpwi r3, 0
 /* 8014BD80 001472A0  40 82 00 18 */	bne .L_8014BD98
 /* 8014BD84 001472A4  38 7F 00 00 */	addi r3, r31, 0
@@ -66,7 +66,7 @@ glabel ReadAsync__Q36nw4hbm2ut8IOStreamFPvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014BDA4 001472C4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014BDA8 001472C8  7C 08 03 A6 */	mtlr r0
 /* 8014BDAC 001472CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014BDB0 001472D0  4E 80 00 20 */	blr 
+/* 8014BDB0 001472D0  4E 80 00 20 */	blr
 
 glabel Write__Q36nw4hbm2ut8IOStreamFPCvUl
 /* 8014BDB4 001472D4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -75,7 +75,7 @@ glabel Write__Q36nw4hbm2ut8IOStreamFPCvUl
 /* 8014BDC0 001472E0  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014BDC4 001472E4  81 8C 00 30 */	lwz r12, 0x30(r12)
 /* 8014BDC8 001472E8  7D 89 03 A6 */	mtctr r12
-/* 8014BDCC 001472EC  4E 80 04 21 */	bctrl 
+/* 8014BDCC 001472EC  4E 80 04 21 */	bctrl
 /* 8014BDD0 001472F0  2C 03 00 00 */	cmpwi r3, 0
 /* 8014BDD4 001472F4  40 82 00 20 */	bne .L_8014BDF4
 /* 8014BDD8 001472F8  3C 60 80 1B */	lis r3, lbl_801ABC20@ha
@@ -89,7 +89,7 @@ glabel Write__Q36nw4hbm2ut8IOStreamFPCvUl
 /* 8014BDF4 00147314  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014BDF8 00147318  7C 08 03 A6 */	mtlr r0
 /* 8014BDFC 0014731C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014BE00 00147320  4E 80 00 20 */	blr 
+/* 8014BE00 00147320  4E 80 00 20 */	blr
 
 glabel WriteAsync__Q36nw4hbm2ut8IOStreamFPCvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014BE04 00147324  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -103,7 +103,7 @@ glabel WriteAsync__Q36nw4hbm2ut8IOStreamFPCvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014BE24 00147344  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014BE28 00147348  81 8C 00 30 */	lwz r12, 0x30(r12)
 /* 8014BE2C 0014734C  7D 89 03 A6 */	mtctr r12
-/* 8014BE30 00147350  4E 80 04 21 */	bctrl 
+/* 8014BE30 00147350  4E 80 04 21 */	bctrl
 /* 8014BE34 00147354  2C 03 00 00 */	cmpwi r3, 0
 /* 8014BE38 00147358  40 82 00 18 */	bne .L_8014BE50
 /* 8014BE3C 0014735C  38 7F 00 00 */	addi r3, r31, 0
@@ -116,7 +116,7 @@ glabel WriteAsync__Q36nw4hbm2ut8IOStreamFPCvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014BE54 00147374  7F C3 F3 78 */	mr r3, r30
 /* 8014BE58 00147378  81 8C 00 28 */	lwz r12, 0x28(r12)
 /* 8014BE5C 0014737C  7D 89 03 A6 */	mtctr r12
-/* 8014BE60 00147380  4E 80 04 21 */	bctrl 
+/* 8014BE60 00147380  4E 80 04 21 */	bctrl
 /* 8014BE64 00147384  2C 03 00 00 */	cmpwi r3, 0
 /* 8014BE68 00147388  40 82 00 18 */	bne .L_8014BE80
 /* 8014BE6C 0014738C  38 7F 00 00 */	addi r3, r31, 0
@@ -131,7 +131,7 @@ glabel WriteAsync__Q36nw4hbm2ut8IOStreamFPCvUlPFlPQ36nw4hbm2ut8IOStreamPv_vPv
 /* 8014BE8C 001473AC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8014BE90 001473B0  7C 08 03 A6 */	mtlr r0
 /* 8014BE94 001473B4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014BE98 001473B8  4E 80 00 20 */	blr 
+/* 8014BE98 001473B8  4E 80 00 20 */	blr
 
 glabel IsBusy__Q36nw4hbm2ut8IOStreamCFv
 /* 8014BE9C 001473BC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -140,7 +140,7 @@ glabel IsBusy__Q36nw4hbm2ut8IOStreamCFv
 /* 8014BEA8 001473C8  81 83 00 00 */	lwz r12, 0(r3)
 /* 8014BEAC 001473CC  81 8C 00 28 */	lwz r12, 0x28(r12)
 /* 8014BEB0 001473D0  7D 89 03 A6 */	mtctr r12
-/* 8014BEB4 001473D4  4E 80 04 21 */	bctrl 
+/* 8014BEB4 001473D4  4E 80 04 21 */	bctrl
 /* 8014BEB8 001473D8  2C 03 00 00 */	cmpwi r3, 0
 /* 8014BEBC 001473DC  40 82 00 20 */	bne .L_8014BEDC
 /* 8014BEC0 001473E0  3C 60 80 1B */	lis r3, lbl_801ABC20@ha
@@ -155,16 +155,16 @@ glabel IsBusy__Q36nw4hbm2ut8IOStreamCFv
 /* 8014BEE0 00147400  38 60 00 00 */	li r3, 0
 /* 8014BEE4 00147404  7C 08 03 A6 */	mtlr r0
 /* 8014BEE8 00147408  38 21 00 10 */	addi r1, r1, 0x10
-/* 8014BEEC 0014740C  4E 80 00 20 */	blr 
+/* 8014BEEC 0014740C  4E 80 00 20 */	blr
 
 glabel GetRuntimeTypeInfo__Q36nw4hbm2ut8IOStreamCFv
 /* 8014BEF0 00147410  3C 60 80 24 */	lis r3, lbl_80243B98@ha
 /* 8014BEF4 00147414  38 63 3B 98 */	addi r3, r3, lbl_80243B98@l
-/* 8014BEF8 00147418  4E 80 00 20 */	blr 
+/* 8014BEF8 00147418  4E 80 00 20 */	blr
 
 glabel __sinit_ut_IOStream_cpp
 /* 8014BEFC 0014741C  38 00 00 00 */	li r0, 0
 /* 8014BF00 00147420  3C 60 80 24 */	lis r3, lbl_80243B98@ha
 /* 8014BF04 00147424  90 03 3B 98 */	stw r0, lbl_80243B98@l(r3)
-/* 8014BF08 00147428  4E 80 00 20 */	blr 
+/* 8014BF08 00147428  4E 80 00 20 */	blr
 

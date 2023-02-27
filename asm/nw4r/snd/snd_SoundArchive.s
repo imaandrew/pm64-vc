@@ -11,7 +11,7 @@ glabel __ct__Q36nw4hbm3snd12SoundArchiveFv
 /* 80136C58 00132178  90 83 00 04 */	stw r4, 4(r3)
 /* 80136C5C 0013217C  98 03 00 08 */	stb r0, 8(r3)
 /* 80136C60 00132180  98 83 00 09 */	stb r4, 9(r3)
-/* 80136C64 00132184  4E 80 00 20 */	blr 
+/* 80136C64 00132184  4E 80 00 20 */	blr
 
 glabel __dt__Q36nw4hbm3snd12SoundArchiveFv
 /* 80136C68 00132188  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -30,14 +30,14 @@ glabel __dt__Q36nw4hbm3snd12SoundArchiveFv
 /* 80136C98 001321B8  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80136C9C 001321BC  7C 08 03 A6 */	mtlr r0
 /* 80136CA0 001321C0  38 21 00 10 */	addi r1, r1, 0x10
-/* 80136CA4 001321C4  4E 80 00 20 */	blr 
+/* 80136CA4 001321C4  4E 80 00 20 */	blr
 
 glabel IsAvailable__Q36nw4hbm3snd12SoundArchiveCFv
 /* 80136CA8 001321C8  80 63 00 04 */	lwz r3, 4(r3)
 /* 80136CAC 001321CC  7C 03 00 D0 */	neg r0, r3
 /* 80136CB0 001321D0  7C 00 1B 78 */	or r0, r0, r3
 /* 80136CB4 001321D4  54 03 0F FE */	srwi r3, r0, 0x1f
-/* 80136CB8 001321D8  4E 80 00 20 */	blr 
+/* 80136CB8 001321D8  4E 80 00 20 */	blr
 
 glabel Setup__Q36nw4hbm3snd12SoundArchiveFPQ46nw4hbm3snd6detail22SoundArchiveFileReader
 /* 80136CBC 001321DC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -63,7 +63,7 @@ glabel Setup__Q36nw4hbm3snd12SoundArchiveFPQ46nw4hbm3snd6detail22SoundArchiveFil
 /* 80136D08 00132228  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 80136D0C 0013222C  7C 08 03 A6 */	mtlr r0
 /* 80136D10 00132230  38 21 00 10 */	addi r1, r1, 0x10
-/* 80136D14 00132234  4E 80 00 20 */	blr 
+/* 80136D14 00132234  4E 80 00 20 */	blr
 
 glabel Shutdown__Q36nw4hbm3snd12SoundArchiveFv
 /* 80136D18 00132238  38 80 00 00 */	li r4, 0
@@ -71,7 +71,7 @@ glabel Shutdown__Q36nw4hbm3snd12SoundArchiveFv
 /* 80136D20 00132240  90 83 00 04 */	stw r4, 4(r3)
 /* 80136D24 00132244  98 03 00 08 */	stb r0, 8(r3)
 /* 80136D28 00132248  98 83 00 09 */	stb r4, 9(r3)
-/* 80136D2C 0013224C  4E 80 00 20 */	blr 
+/* 80136D2C 0013224C  4E 80 00 20 */	blr
 
 glabel GetPlayerCount__Q36nw4hbm3snd12SoundArchiveCFv
 /* 80136D30 00132250  80 63 00 04 */	lwz r3, 4(r3)
@@ -201,7 +201,7 @@ glabel detail_OpenFileStream__Q36nw4hbm3snd12SoundArchiveCFUlPvi
 /* 80136E98 001323B8  38 E0 00 00 */	li r7, 0
 /* 80136E9C 001323BC  39 00 00 00 */	li r8, 0
 /* 80136EA0 001323C0  7D 89 03 A6 */	mtctr r12
-/* 80136EA4 001323C4  4E 80 04 21 */	bctrl 
+/* 80136EA4 001323C4  4E 80 04 21 */	bctrl
 /* 80136EA8 001323C8  48 00 01 5C */	b .L_80137004
 .L_80136EAC:
 /* 80136EAC 001323CC  80 7D 00 04 */	lwz r3, 4(r29)
@@ -285,7 +285,7 @@ glabel detail_OpenFileStream__Q36nw4hbm3snd12SoundArchiveCFUlPvi
 /* 80136FCC 001324EC  7F 47 D3 78 */	mr r7, r26
 /* 80136FD0 001324F0  7F 28 CB 78 */	mr r8, r25
 /* 80136FD4 001324F4  7D 89 03 A6 */	mtctr r12
-/* 80136FD8 001324F8  4E 80 04 21 */	bctrl 
+/* 80136FD8 001324F8  4E 80 04 21 */	bctrl
 /* 80136FDC 001324FC  48 00 00 28 */	b .L_80137004
 .L_80136FE0:
 /* 80136FE0 00132500  81 9D 00 00 */	lwz r12, 0(r29)
@@ -296,14 +296,14 @@ glabel detail_OpenFileStream__Q36nw4hbm3snd12SoundArchiveCFUlPvi
 /* 80136FF4 00132514  7F 46 D3 78 */	mr r6, r26
 /* 80136FF8 00132518  7F 27 CB 78 */	mr r7, r25
 /* 80136FFC 0013251C  7D 89 03 A6 */	mtctr r12
-/* 80137000 00132520  4E 80 04 21 */	bctrl 
+/* 80137000 00132520  4E 80 04 21 */	bctrl
 .L_80137004:
 /* 80137004 00132524  39 61 02 70 */	addi r11, r1, 0x270
 /* 80137008 00132528  48 02 59 81 */	bl _restgpr_25
 /* 8013700C 0013252C  80 01 02 74 */	lwz r0, 0x274(r1)
 /* 80137010 00132530  7C 08 03 A6 */	mtlr r0
 /* 80137014 00132534  38 21 02 70 */	addi r1, r1, 0x270
-/* 80137018 00132538  4E 80 00 20 */	blr 
+/* 80137018 00132538  4E 80 00 20 */	blr
 
 glabel detail_OpenGroupStream__Q36nw4hbm3snd12SoundArchiveCFUlPvi
 /* 8013701C 0013253C  94 21 FE C0 */	stwu r1, -0x140(r1)
@@ -372,7 +372,7 @@ glabel detail_OpenGroupStream__Q36nw4hbm3snd12SoundArchiveCFUlPvi
 /* 80137108 00132628  7F C7 F3 78 */	mr r7, r30
 /* 8013710C 0013262C  7F A8 EB 78 */	mr r8, r29
 /* 80137110 00132630  7D 89 03 A6 */	mtctr r12
-/* 80137114 00132634  4E 80 04 21 */	bctrl 
+/* 80137114 00132634  4E 80 04 21 */	bctrl
 /* 80137118 00132638  48 00 00 28 */	b .L_80137140
 .L_8013711C:
 /* 8013711C 0013263C  81 99 00 00 */	lwz r12, 0(r25)
@@ -383,14 +383,14 @@ glabel detail_OpenGroupStream__Q36nw4hbm3snd12SoundArchiveCFUlPvi
 /* 80137130 00132650  80 C1 00 10 */	lwz r6, 0x10(r1)
 /* 80137134 00132654  80 E1 00 14 */	lwz r7, 0x14(r1)
 /* 80137138 00132658  7D 89 03 A6 */	mtctr r12
-/* 8013713C 0013265C  4E 80 04 21 */	bctrl 
+/* 8013713C 0013265C  4E 80 04 21 */	bctrl
 .L_80137140:
 /* 80137140 00132660  39 61 01 40 */	addi r11, r1, 0x140
 /* 80137144 00132664  48 02 58 45 */	bl _restgpr_25
 /* 80137148 00132668  80 01 01 44 */	lwz r0, 0x144(r1)
 /* 8013714C 0013266C  7C 08 03 A6 */	mtlr r0
 /* 80137150 00132670  38 21 01 40 */	addi r1, r1, 0x140
-/* 80137154 00132674  4E 80 00 20 */	blr 
+/* 80137154 00132674  4E 80 00 20 */	blr
 
 glabel detail_OpenGroupWaveDataStream__Q36nw4hbm3snd12SoundArchiveCFUlPvi
 /* 80137158 00132678  94 21 FE C0 */	stwu r1, -0x140(r1)
@@ -459,7 +459,7 @@ glabel detail_OpenGroupWaveDataStream__Q36nw4hbm3snd12SoundArchiveCFUlPvi
 /* 80137244 00132764  7F C7 F3 78 */	mr r7, r30
 /* 80137248 00132768  7F A8 EB 78 */	mr r8, r29
 /* 8013724C 0013276C  7D 89 03 A6 */	mtctr r12
-/* 80137250 00132770  4E 80 04 21 */	bctrl 
+/* 80137250 00132770  4E 80 04 21 */	bctrl
 /* 80137254 00132774  48 00 00 28 */	b .L_8013727C
 .L_80137258:
 /* 80137258 00132778  81 99 00 00 */	lwz r12, 0(r25)
@@ -470,14 +470,14 @@ glabel detail_OpenGroupWaveDataStream__Q36nw4hbm3snd12SoundArchiveCFUlPvi
 /* 8013726C 0013278C  80 C1 00 18 */	lwz r6, 0x18(r1)
 /* 80137270 00132790  80 E1 00 1C */	lwz r7, 0x1c(r1)
 /* 80137274 00132794  7D 89 03 A6 */	mtctr r12
-/* 80137278 00132798  4E 80 04 21 */	bctrl 
+/* 80137278 00132798  4E 80 04 21 */	bctrl
 .L_8013727C:
 /* 8013727C 0013279C  39 61 01 40 */	addi r11, r1, 0x140
 /* 80137280 001327A0  48 02 57 09 */	bl _restgpr_25
 /* 80137284 001327A4  80 01 01 44 */	lwz r0, 0x144(r1)
 /* 80137288 001327A8  7C 08 03 A6 */	mtlr r0
 /* 8013728C 001327AC  38 21 01 40 */	addi r1, r1, 0x140
-/* 80137290 001327B0  4E 80 00 20 */	blr 
+/* 80137290 001327B0  4E 80 00 20 */	blr
 
 glabel SetExternalFileRoot__Q34nw4r3snd12SoundArchiveFPCc
 /* 80137294 001327B4  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -526,5 +526,5 @@ glabel SetExternalFileRoot__Q34nw4r3snd12SoundArchiveFPCc
 /* 80137338 00132858  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8013733C 0013285C  7C 08 03 A6 */	mtlr r0
 /* 80137340 00132860  38 21 00 20 */	addi r1, r1, 0x20
-/* 80137344 00132864  4E 80 00 20 */	blr 
+/* 80137344 00132864  4E 80 00 20 */	blr
 

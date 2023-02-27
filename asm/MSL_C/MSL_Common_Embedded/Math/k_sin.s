@@ -53,5 +53,5 @@ glabel __kernel_sin
 /* 8016DCD8 001691F8  FC 21 00 28 */	fsub f1, f1, f0
 .L_8016DCDC:
 /* 8016DCDC 001691FC  38 21 00 20 */	addi r1, r1, 0x20
-/* 8016DCE0 00169200  4E 80 00 20 */	blr 
+/* 8016DCE0 00169200  4E 80 00 20 */	blr
 

@@ -90,7 +90,7 @@ glabel bta_hh_find_cb
 /* 800E3388 000DE8A8  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800E338C 000DE8AC  7C 08 03 A6 */	mtlr r0
 /* 800E3390 000DE8B0  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E3394 000DE8B4  4E 80 00 20 */	blr 
+/* 800E3394 000DE8B4  4E 80 00 20 */	blr
 
 glabel bta_hh_clean_up_kdev
 /* 800E3398 000DE8B8  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -125,7 +125,7 @@ glabel bta_hh_clean_up_kdev
 /* 800E3408 000DE928  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800E340C 000DE92C  7C 08 03 A6 */	mtlr r0
 /* 800E3410 000DE930  38 21 00 10 */	addi r1, r1, 0x10
-/* 800E3414 000DE934  4E 80 00 20 */	blr 
+/* 800E3414 000DE934  4E 80 00 20 */	blr
 
 glabel bta_hh_add_device_to_list
 /* 800E3418 000DE938  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -176,7 +176,7 @@ glabel bta_hh_add_device_to_list
 /* 800E34C4 000DE9E4  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800E34C8 000DE9E8  7C 08 03 A6 */	mtlr r0
 /* 800E34CC 000DE9EC  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E34D0 000DE9F0  4E 80 00 20 */	blr 
+/* 800E34D0 000DE9F0  4E 80 00 20 */	blr
 
 glabel bta_hh_tod_spt
 /* 800E34D4 000DE9F4  80 ED 86 08 */	lwz r7, lbl_80246A88@sda21(r13)
@@ -194,7 +194,7 @@ glabel bta_hh_tod_spt
 /* 800E3500 000DEA20  88 04 00 01 */	lbz r0, 1(r4)
 /* 800E3504 000DEA24  98 03 00 15 */	stb r0, 0x15(r3)
 /* 800E3508 000DEA28  38 60 00 01 */	li r3, 1
-/* 800E350C 000DEA2C  4E 80 00 20 */	blr 
+/* 800E350C 000DEA2C  4E 80 00 20 */	blr
 .L_800E3510:
 /* 800E3510 000DEA30  39 08 00 01 */	addi r8, r8, 1
 .L_800E3514:
@@ -202,7 +202,7 @@ glabel bta_hh_tod_spt
 /* 800E3518 000DEA38  7C 00 28 40 */	cmplw r0, r5
 /* 800E351C 000DEA3C  41 80 FF CC */	blt .L_800E34E8
 /* 800E3520 000DEA40  38 60 00 00 */	li r3, 0
-/* 800E3524 000DEA44  4E 80 00 20 */	blr 
+/* 800E3524 000DEA44  4E 80 00 20 */	blr
 
 glabel bta_hh_trace_dev_db
 /* 800E3528 000DEA48  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -265,7 +265,7 @@ glabel bta_hh_trace_dev_db
 /* 800E35F8 000DEB18  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800E35FC 000DEB1C  7C 08 03 A6 */	mtlr r0
 /* 800E3600 000DEB20  38 21 00 20 */	addi r1, r1, 0x20
-/* 800E3604 000DEB24  4E 80 00 20 */	blr 
+/* 800E3604 000DEB24  4E 80 00 20 */	blr
 
 .section .sbss2, "", @nobits # 0x802486C0 - 0x802486D0
 

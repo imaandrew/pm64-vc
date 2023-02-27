@@ -90,7 +90,7 @@ glabel __ct__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012DDE0 00129300  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8012DDE4 00129304  7C 08 03 A6 */	mtlr r0
 /* 8012DDE8 00129308  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012DDEC 0012930C  4E 80 00 20 */	blr 
+/* 8012DDEC 0012930C  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail14ChannelManagerFv
 /* 8012DDF0 00129310  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -125,7 +125,7 @@ glabel __dt__Q46nw4hbm3snd6detail14ChannelManagerFv
 /* 8012DE58 00129378  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012DE5C 0012937C  7C 08 03 A6 */	mtlr r0
 /* 8012DE60 00129380  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012DE64 00129384  4E 80 00 20 */	blr 
+/* 8012DE64 00129384  4E 80 00 20 */	blr
 
 glabel __dt__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012DE68 00129388  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -202,7 +202,7 @@ glabel __dt__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012DF74 00129494  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 8012DF78 00129498  7C 08 03 A6 */	mtlr r0
 /* 8012DF7C 0012949C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012DF80 001294A0  4E 80 00 20 */	blr 
+/* 8012DF80 001294A0  4E 80 00 20 */	blr
 
 glabel InitParam__Q46nw4hbm3snd6detail7ChannelFPFPQ46nw4hbm3snd6detail7ChannelQ56nw4hbm3snd6detail7Channel21ChannelCallbackStatusUl_vUl
 /* 8012DF84 001294A4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -274,7 +274,7 @@ glabel InitParam__Q46nw4hbm3snd6detail7ChannelFPFPQ46nw4hbm3snd6detail7ChannelQ5
 /* 8012E08C 001295AC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012E090 001295B0  7C 08 03 A6 */	mtlr r0
 /* 8012E094 001295B4  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012E098 001295B8  4E 80 00 20 */	blr 
+/* 8012E098 001295B8  4E 80 00 20 */	blr
 
 glabel Update__Q46nw4hbm3snd6detail7ChannelFb
 /* 8012E09C 001295BC  94 21 FE B0 */	stwu r1, -0x150(r1)
@@ -673,7 +673,7 @@ glabel Update__Q46nw4hbm3snd6detail7ChannelFb
 /* 8012E674 00129B94  80 01 01 54 */	lwz r0, 0x154(r1)
 /* 8012E678 00129B98  7C 08 03 A6 */	mtlr r0
 /* 8012E67C 00129B9C  38 21 01 50 */	addi r1, r1, 0x150
-/* 8012E680 00129BA0  4E 80 00 20 */	blr 
+/* 8012E680 00129BA0  4E 80 00 20 */	blr
 
 glabel Start__Q46nw4hbm3snd6detail7ChannelFRCQ46nw4hbm3snd6detail8WaveDatal
 /* 8012E684 00129BA4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -702,7 +702,7 @@ glabel Start__Q46nw4hbm3snd6detail7ChannelFRCQ46nw4hbm3snd6detail8WaveDatal
 /* 8012E6E0 00129C00  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012E6E4 00129C04  7C 08 03 A6 */	mtlr r0
 /* 8012E6E8 00129C08  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012E6EC 00129C0C  4E 80 00 20 */	blr 
+/* 8012E6EC 00129C0C  4E 80 00 20 */	blr
 
 glabel Release__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012E6F0 00129C10  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -728,7 +728,7 @@ glabel Release__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012E738 00129C58  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012E73C 00129C5C  7C 08 03 A6 */	mtlr r0
 /* 8012E740 00129C60  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012E744 00129C64  4E 80 00 20 */	blr 
+/* 8012E744 00129C64  4E 80 00 20 */	blr
 
 glabel Stop__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012E748 00129C68  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -837,7 +837,7 @@ glabel Stop__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012E8CC 00129DEC  80 BC 00 DC */	lwz r5, 0xdc(r28)
 /* 8012E8D0 00129DF0  38 80 00 00 */	li r4, 0
 /* 8012E8D4 00129DF4  7D 89 03 A6 */	mtctr r12
-/* 8012E8D8 00129DF8  4E 80 04 21 */	bctrl 
+/* 8012E8D8 00129DF8  4E 80 04 21 */	bctrl
 .L_8012E8DC:
 /* 8012E8DC 00129DFC  7F E3 FB 78 */	mr r3, r31
 /* 8012E8E0 00129E00  4B F6 69 FD */	bl OSRestoreInterrupts
@@ -849,7 +849,7 @@ glabel Stop__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012E8F4 00129E14  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 8012E8F8 00129E18  7C 08 03 A6 */	mtlr r0
 /* 8012E8FC 00129E1C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012E900 00129E20  4E 80 00 20 */	blr 
+/* 8012E900 00129E20  4E 80 00 20 */	blr
 
 glabel UpdateSweep__Q46nw4hbm3snd6detail7ChannelFi
 /* 8012E904 00129E24  80 03 00 AC */	lwz r0, 0xac(r3)
@@ -857,9 +857,9 @@ glabel UpdateSweep__Q46nw4hbm3snd6detail7ChannelFi
 /* 8012E90C 00129E2C  7C 00 22 14 */	add r0, r0, r4
 /* 8012E910 00129E30  7C 00 28 00 */	cmpw r0, r5
 /* 8012E914 00129E34  90 03 00 AC */	stw r0, 0xac(r3)
-/* 8012E918 00129E38  4C 81 00 20 */	blelr 
+/* 8012E918 00129E38  4C 81 00 20 */	blelr
 /* 8012E91C 00129E3C  90 A3 00 AC */	stw r5, 0xac(r3)
-/* 8012E920 00129E40  4E 80 00 20 */	blr 
+/* 8012E920 00129E40  4E 80 00 20 */	blr
 
 glabel SetSweepParam__Q46nw4hbm3snd6detail7ChannelFfib
 /* 8012E924 00129E44  38 00 00 00 */	li r0, 0
@@ -867,7 +867,7 @@ glabel SetSweepParam__Q46nw4hbm3snd6detail7ChannelFfib
 /* 8012E92C 00129E4C  90 83 00 B0 */	stw r4, 0xb0(r3)
 /* 8012E930 00129E50  98 A3 00 3C */	stb r5, 0x3c(r3)
 /* 8012E934 00129E54  90 03 00 AC */	stw r0, 0xac(r3)
-/* 8012E938 00129E58  4E 80 00 20 */	blr 
+/* 8012E938 00129E58  4E 80 00 20 */	blr
 
 glabel VoiceCallback__Q46nw4hbm3snd6detail7ChannelFPQ46nw4hbm3snd6detail7AxVoiceQ56nw4hbm3snd6detail7AxVoice14CallbackStatusPv
 /* 8012E93C 00129E5C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -919,7 +919,7 @@ glabel VoiceCallback__Q46nw4hbm3snd6detail7ChannelFPQ46nw4hbm3snd6detail7AxVoice
 /* 8012E9DC 00129EFC  7F C4 F3 78 */	mr r4, r30
 /* 8012E9E0 00129F00  80 BD 00 DC */	lwz r5, 0xdc(r29)
 /* 8012E9E4 00129F04  7D 89 03 A6 */	mtctr r12
-/* 8012E9E8 00129F08  4E 80 04 21 */	bctrl 
+/* 8012E9E8 00129F08  4E 80 04 21 */	bctrl
 .L_8012E9EC:
 /* 8012E9EC 00129F0C  38 E0 00 00 */	li r7, 0
 /* 8012E9F0 00129F10  3F E0 80 24 */	lis r31, lbl_80238D88@ha
@@ -1003,7 +1003,7 @@ glabel VoiceCallback__Q46nw4hbm3snd6detail7ChannelFPQ46nw4hbm3snd6detail7AxVoice
 /* 8012EB14 0012A034  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 8012EB18 0012A038  7C 08 03 A6 */	mtlr r0
 /* 8012EB1C 0012A03C  38 21 00 20 */	addi r1, r1, 0x20
-/* 8012EB20 0012A040  4E 80 00 20 */	blr 
+/* 8012EB20 0012A040  4E 80 00 20 */	blr
 
 glabel AllocChannel__Q46nw4hbm3snd6detail7ChannelFiiiPFPQ46nw4hbm3snd6detail7ChannelQ56nw4hbm3snd6detail7Channel21ChannelCallbackStatusUl_vUl
 /* 8012EB24 0012A044  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1172,15 +1172,15 @@ glabel AllocChannel__Q46nw4hbm3snd6detail7ChannelFiiiPFPQ46nw4hbm3snd6detail7Cha
 /* 8012ED7C 0012A29C  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8012ED80 0012A2A0  7C 08 03 A6 */	mtlr r0
 /* 8012ED84 0012A2A4  38 21 00 40 */	addi r1, r1, 0x40
-/* 8012ED88 0012A2A8  4E 80 00 20 */	blr 
+/* 8012ED88 0012A2A8  4E 80 00 20 */	blr
 
 glabel FreeChannel__Q46nw4hbm3snd6detail7ChannelFPQ46nw4hbm3snd6detail7Channel
 /* 8012ED8C 0012A2AC  2C 03 00 00 */	cmpwi r3, 0
-/* 8012ED90 0012A2B0  4D 82 00 20 */	beqlr 
+/* 8012ED90 0012A2B0  4D 82 00 20 */	beqlr
 /* 8012ED94 0012A2B4  38 00 00 00 */	li r0, 0
 /* 8012ED98 0012A2B8  90 03 00 D8 */	stw r0, 0xd8(r3)
 /* 8012ED9C 0012A2BC  90 03 00 DC */	stw r0, 0xdc(r3)
-/* 8012EDA0 0012A2C0  4E 80 00 20 */	blr 
+/* 8012EDA0 0012A2C0  4E 80 00 20 */	blr
 
 glabel UpdateAllChannel__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012EDA4 0012A2C4  94 21 FF C0 */	stwu r1, -0x40(r1)
@@ -1269,7 +1269,7 @@ glabel UpdateAllChannel__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012EEDC 0012A3FC  80 01 00 44 */	lwz r0, 0x44(r1)
 /* 8012EEE0 0012A400  7C 08 03 A6 */	mtlr r0
 /* 8012EEE4 0012A404  38 21 00 40 */	addi r1, r1, 0x40
-/* 8012EEE8 0012A408  4E 80 00 20 */	blr 
+/* 8012EEE8 0012A408  4E 80 00 20 */	blr
 
 glabel __sinit_snd_Channel_cpp
 /* 8012EEEC 0012A40C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1293,7 +1293,7 @@ glabel __sinit_snd_Channel_cpp
 /* 8012EF34 0012A454  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8012EF38 0012A458  7C 08 03 A6 */	mtlr r0
 /* 8012EF3C 0012A45C  38 21 00 10 */	addi r1, r1, 0x10
-/* 8012EF40 0012A460  4E 80 00 20 */	blr 
+/* 8012EF40 0012A460  4E 80 00 20 */	blr
 
 glabel __arraydtor$1945
 /* 8012EF44 0012A464  3C 60 80 23 */	lis r3, lbl_802335A0@ha

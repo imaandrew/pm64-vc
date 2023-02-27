@@ -26,7 +26,7 @@ glabel OSInitMessageQueue
 /* 80095AA0 00090FC0  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 80095AA4 00090FC4  7C 08 03 A6 */	mtlr r0
 /* 80095AA8 00090FC8  38 21 00 20 */	addi r1, r1, 0x20
-/* 80095AAC 00090FCC  4E 80 00 20 */	blr 
+/* 80095AAC 00090FCC  4E 80 00 20 */	blr
 
 glabel OSSendMessage
 /* 80095AB0 00090FD0  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -82,7 +82,7 @@ glabel OSSendMessage
 /* 80095B68 00091088  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80095B6C 0009108C  7C 08 03 A6 */	mtlr r0
 /* 80095B70 00091090  38 21 00 20 */	addi r1, r1, 0x20
-/* 80095B74 00091094  4E 80 00 20 */	blr 
+/* 80095B74 00091094  4E 80 00 20 */	blr
 
 glabel OSReceiveMessage
 /* 80095B78 00091098  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -144,5 +144,5 @@ glabel OSReceiveMessage
 /* 80095C44 00091164  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 80095C48 00091168  7C 08 03 A6 */	mtlr r0
 /* 80095C4C 0009116C  38 21 00 20 */	addi r1, r1, 0x20
-/* 80095C50 00091170  4E 80 00 20 */	blr 
+/* 80095C50 00091170  4E 80 00 20 */	blr
 

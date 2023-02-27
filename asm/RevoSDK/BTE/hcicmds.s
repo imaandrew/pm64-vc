@@ -46,7 +46,7 @@ glabel btsnd_hcic_inquiry
 /* 800F005C 000EB57C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F0060 000EB580  7C 08 03 A6 */	mtlr r0
 /* 800F0064 000EB584  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F0068 000EB588  4E 80 00 20 */	blr 
+/* 800F0068 000EB588  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_inq_cancel
 /* 800F006C 000EB58C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -74,7 +74,7 @@ glabel btsnd_hcic_inq_cancel
 /* 800F00BC 000EB5DC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F00C0 000EB5E0  7C 08 03 A6 */	mtlr r0
 /* 800F00C4 000EB5E4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F00C8 000EB5E8  4E 80 00 20 */	blr 
+/* 800F00C8 000EB5E8  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_per_inq_mode
 /* 800F00CC 000EB5EC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -126,7 +126,7 @@ glabel btsnd_hcic_per_inq_mode
 /* 800F017C 000EB69C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F0180 000EB6A0  7C 08 03 A6 */	mtlr r0
 /* 800F0184 000EB6A4  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F0188 000EB6A8  4E 80 00 20 */	blr 
+/* 800F0188 000EB6A8  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_create_conn
 /* 800F018C 000EB6AC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -186,7 +186,7 @@ glabel btsnd_hcic_create_conn
 /* 800F025C 000EB77C  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F0260 000EB780  7C 08 03 A6 */	mtlr r0
 /* 800F0264 000EB784  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F0268 000EB788  4E 80 00 20 */	blr 
+/* 800F0268 000EB788  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_disconnect
 /* 800F026C 000EB78C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -224,7 +224,7 @@ glabel btsnd_hcic_disconnect
 /* 800F02E4 000EB804  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F02E8 000EB808  7C 08 03 A6 */	mtlr r0
 /* 800F02EC 000EB80C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F02F0 000EB810  4E 80 00 20 */	blr 
+/* 800F02F0 000EB810  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_add_SCO_conn
 /* 800F02F4 000EB814  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -263,7 +263,7 @@ glabel btsnd_hcic_add_SCO_conn
 /* 800F0370 000EB890  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F0374 000EB894  7C 08 03 A6 */	mtlr r0
 /* 800F0378 000EB898  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F037C 000EB89C  4E 80 00 20 */	blr 
+/* 800F037C 000EB89C  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_accept_conn
 /* 800F0380 000EB8A0  39 20 00 0A */	li r9, 0xa
@@ -422,7 +422,7 @@ glabel btsnd_hcic_link_key_req_reply
 /* 800F05CC 000EBAEC  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800F05D0 000EBAF0  7C 08 03 A6 */	mtlr r0
 /* 800F05D4 000EBAF4  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F05D8 000EBAF8  4E 80 00 20 */	blr 
+/* 800F05D8 000EBAF8  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_link_key_neg_reply
 /* 800F05DC 000EBAFC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -466,7 +466,7 @@ glabel btsnd_hcic_link_key_neg_reply
 /* 800F066C 000EBB8C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F0670 000EBB90  7C 08 03 A6 */	mtlr r0
 /* 800F0674 000EBB94  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F0678 000EBB98  4E 80 00 20 */	blr 
+/* 800F0678 000EBB98  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_pin_code_req_reply
 /* 800F067C 000EBB9C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -600,7 +600,7 @@ glabel btsnd_hcic_pin_code_req_reply
 /* 800F0850 000EBD70  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F0854 000EBD74  7C 08 03 A6 */	mtlr r0
 /* 800F0858 000EBD78  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F085C 000EBD7C  4E 80 00 20 */	blr 
+/* 800F085C 000EBD7C  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_pin_code_neg_reply
 /* 800F0860 000EBD80  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -644,7 +644,7 @@ glabel btsnd_hcic_pin_code_neg_reply
 /* 800F08F0 000EBE10  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F08F4 000EBE14  7C 08 03 A6 */	mtlr r0
 /* 800F08F8 000EBE18  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F08FC 000EBE1C  4E 80 00 20 */	blr 
+/* 800F08FC 000EBE1C  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_change_conn_type
 /* 800F0900 000EBE20  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -684,7 +684,7 @@ glabel btsnd_hcic_change_conn_type
 /* 800F0980 000EBEA0  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F0984 000EBEA4  7C 08 03 A6 */	mtlr r0
 /* 800F0988 000EBEA8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F098C 000EBEAC  4E 80 00 20 */	blr 
+/* 800F098C 000EBEAC  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_auth_request
 /* 800F0990 000EBEB0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -719,7 +719,7 @@ glabel btsnd_hcic_auth_request
 /* 800F09FC 000EBF1C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F0A00 000EBF20  7C 08 03 A6 */	mtlr r0
 /* 800F0A04 000EBF24  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F0A08 000EBF28  4E 80 00 20 */	blr 
+/* 800F0A08 000EBF28  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_set_conn_encrypt
 /* 800F0A0C 000EBF2C  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -758,7 +758,7 @@ glabel btsnd_hcic_set_conn_encrypt
 /* 800F0A88 000EBFA8  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F0A8C 000EBFAC  7C 08 03 A6 */	mtlr r0
 /* 800F0A90 000EBFB0  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F0A94 000EBFB4  4E 80 00 20 */	blr 
+/* 800F0A94 000EBFB4  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_rmt_name_req
 /* 800F0A98 000EBFB8  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -816,7 +816,7 @@ glabel btsnd_hcic_rmt_name_req
 /* 800F0B60 000EC080  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800F0B64 000EC084  7C 08 03 A6 */	mtlr r0
 /* 800F0B68 000EC088  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F0B6C 000EC08C  4E 80 00 20 */	blr 
+/* 800F0B6C 000EC08C  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_rmt_name_req_cancel
 /* 800F0B70 000EC090  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -860,7 +860,7 @@ glabel btsnd_hcic_rmt_name_req_cancel
 /* 800F0C00 000EC120  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F0C04 000EC124  7C 08 03 A6 */	mtlr r0
 /* 800F0C08 000EC128  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F0C0C 000EC12C  4E 80 00 20 */	blr 
+/* 800F0C0C 000EC12C  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_rmt_features_req
 /* 800F0C10 000EC130  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -895,7 +895,7 @@ glabel btsnd_hcic_rmt_features_req
 /* 800F0C7C 000EC19C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F0C80 000EC1A0  7C 08 03 A6 */	mtlr r0
 /* 800F0C84 000EC1A4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F0C88 000EC1A8  4E 80 00 20 */	blr 
+/* 800F0C88 000EC1A8  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_rmt_ver_req
 /* 800F0C8C 000EC1AC  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -930,7 +930,7 @@ glabel btsnd_hcic_rmt_ver_req
 /* 800F0CF8 000EC218  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F0CFC 000EC21C  7C 08 03 A6 */	mtlr r0
 /* 800F0D00 000EC220  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F0D04 000EC224  4E 80 00 20 */	blr 
+/* 800F0D04 000EC224  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_read_rmt_clk_offset
 /* 800F0D08 000EC228  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -965,7 +965,7 @@ glabel btsnd_hcic_read_rmt_clk_offset
 /* 800F0D74 000EC294  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F0D78 000EC298  7C 08 03 A6 */	mtlr r0
 /* 800F0D7C 000EC29C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F0D80 000EC2A0  4E 80 00 20 */	blr 
+/* 800F0D80 000EC2A0  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_setup_esco_conn
 /* 800F0D84 000EC2A4  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1032,7 +1032,7 @@ glabel btsnd_hcic_setup_esco_conn
 /* 800F0E70 000EC390  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800F0E74 000EC394  7C 08 03 A6 */	mtlr r0
 /* 800F0E78 000EC398  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F0E7C 000EC39C  4E 80 00 20 */	blr 
+/* 800F0E7C 000EC39C  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_accept_esco_conn
 /* 800F0E80 000EC3A0  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -1092,7 +1092,7 @@ glabel btsnd_hcic_accept_esco_conn
 /* 800F0F58 000EC478  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800F0F5C 000EC47C  7C 08 03 A6 */	mtlr r0
 /* 800F0F60 000EC480  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F0F64 000EC484  4E 80 00 20 */	blr 
+/* 800F0F64 000EC484  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_reject_esco_conn
 /* 800F0F68 000EC488  39 20 00 0A */	li r9, 0xa
@@ -1167,7 +1167,7 @@ glabel btsnd_hcic_hold_mode
 /* 800F106C 000EC58C  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F1070 000EC590  7C 08 03 A6 */	mtlr r0
 /* 800F1074 000EC594  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F1078 000EC598  4E 80 00 20 */	blr 
+/* 800F1078 000EC598  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_sniff_mode
 /* 800F107C 000EC59C  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1222,7 +1222,7 @@ glabel btsnd_hcic_sniff_mode
 /* 800F1138 000EC658  80 01 00 24 */	lwz r0, 0x24(r1)
 /* 800F113C 000EC65C  7C 08 03 A6 */	mtlr r0
 /* 800F1140 000EC660  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F1144 000EC664  4E 80 00 20 */	blr 
+/* 800F1144 000EC664  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_exit_sniff_mode
 /* 800F1148 000EC668  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1259,7 +1259,7 @@ glabel btsnd_hcic_exit_sniff_mode
 /* 800F11BC 000EC6DC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F11C0 000EC6E0  7C 08 03 A6 */	mtlr r0
 /* 800F11C4 000EC6E4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F11C8 000EC6E8  4E 80 00 20 */	blr 
+/* 800F11C8 000EC6E8  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_park_mode
 /* 800F11CC 000EC6EC  94 21 FF E0 */	stwu r1, -0x20(r1)
@@ -1308,7 +1308,7 @@ glabel btsnd_hcic_park_mode
 /* 800F1270 000EC790  83 A1 00 14 */	lwz r29, 0x14(r1)
 /* 800F1274 000EC794  7C 08 03 A6 */	mtlr r0
 /* 800F1278 000EC798  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F127C 000EC79C  4E 80 00 20 */	blr 
+/* 800F127C 000EC79C  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_exit_park_mode
 /* 800F1280 000EC7A0  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1345,7 +1345,7 @@ glabel btsnd_hcic_exit_park_mode
 /* 800F12F4 000EC814  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F12F8 000EC818  7C 08 03 A6 */	mtlr r0
 /* 800F12FC 000EC81C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F1300 000EC820  4E 80 00 20 */	blr 
+/* 800F1300 000EC820  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_switch_role
 /* 800F1304 000EC824  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1393,7 +1393,7 @@ glabel btsnd_hcic_switch_role
 /* 800F13A4 000EC8C4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F13A8 000EC8C8  7C 08 03 A6 */	mtlr r0
 /* 800F13AC 000EC8CC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F13B0 000EC8D0  4E 80 00 20 */	blr 
+/* 800F13B0 000EC8D0  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_write_policy_set
 /* 800F13B4 000EC8D4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1434,7 +1434,7 @@ glabel btsnd_hcic_write_policy_set
 /* 800F1438 000EC958  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F143C 000EC95C  7C 08 03 A6 */	mtlr r0
 /* 800F1440 000EC960  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F1444 000EC964  4E 80 00 20 */	blr 
+/* 800F1444 000EC964  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_reset
 /* 800F1448 000EC968  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1461,7 +1461,7 @@ glabel btsnd_hcic_reset
 /* 800F1494 000EC9B4  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F1498 000EC9B8  7C 08 03 A6 */	mtlr r0
 /* 800F149C 000EC9BC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F14A0 000EC9C0  4E 80 00 20 */	blr 
+/* 800F14A0 000EC9C0  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_set_event_filter
 /* 800F14A4 000EC9C4  38 00 00 00 */	li r0, 0
@@ -1615,7 +1615,7 @@ glabel btsnd_hcic_write_pin_type
 /* 800F16C4 000ECBE4  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F16C8 000ECBE8  7C 08 03 A6 */	mtlr r0
 /* 800F16CC 000ECBEC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F16D0 000ECBF0  4E 80 00 20 */	blr 
+/* 800F16D0 000ECBF0  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_read_stored_key
 /* 800F16D4 000ECBF4  39 20 00 0A */	li r9, 0xa
@@ -1758,7 +1758,7 @@ glabel btsnd_hcic_write_stored_key
 /* 800F18E4 000ECE04  80 01 00 34 */	lwz r0, 0x34(r1)
 /* 800F18E8 000ECE08  7C 08 03 A6 */	mtlr r0
 /* 800F18EC 000ECE0C  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F18F0 000ECE10  4E 80 00 20 */	blr 
+/* 800F18F0 000ECE10  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_delete_stored_key
 /* 800F18F4 000ECE14  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1806,7 +1806,7 @@ glabel btsnd_hcic_delete_stored_key
 /* 800F1994 000ECEB4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F1998 000ECEB8  7C 08 03 A6 */	mtlr r0
 /* 800F199C 000ECEBC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F19A0 000ECEC0  4E 80 00 20 */	blr 
+/* 800F19A0 000ECEC0  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_change_name
 /* 800F19A4 000ECEC4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -1893,7 +1893,7 @@ glabel btsnd_hcic_change_name
 /* 800F1AD4 000ECFF4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F1AD8 000ECFF8  7C 08 03 A6 */	mtlr r0
 /* 800F1ADC 000ECFFC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F1AE0 000ED000  4E 80 00 20 */	blr 
+/* 800F1AE0 000ED000  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_write_page_tout
 /* 800F1AE4 000ED004  54 80 C6 3E */	rlwinm r0, r4, 0x18, 0x18, 0x1f
@@ -1994,7 +1994,7 @@ glabel btsnd_hcic_write_auth_enable
 /* 800F1C38 000ED158  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F1C3C 000ED15C  7C 08 03 A6 */	mtlr r0
 /* 800F1C40 000ED160  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F1C44 000ED164  4E 80 00 20 */	blr 
+/* 800F1C44 000ED164  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_write_encr_mode
 /* 800F1C48 000ED168  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2027,7 +2027,7 @@ glabel btsnd_hcic_write_encr_mode
 /* 800F1CAC 000ED1CC  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F1CB0 000ED1D0  7C 08 03 A6 */	mtlr r0
 /* 800F1CB4 000ED1D4  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F1CB8 000ED1D8  4E 80 00 20 */	blr 
+/* 800F1CB8 000ED1D8  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_write_dev_class
 /* 800F1CBC 000ED1DC  39 00 00 06 */	li r8, 6
@@ -2116,7 +2116,7 @@ glabel btsnd_hcic_set_host_buf_size
 /* 800F1DF0 000ED310  83 81 00 10 */	lwz r28, 0x10(r1)
 /* 800F1DF4 000ED314  7C 08 03 A6 */	mtlr r0
 /* 800F1DF8 000ED318  38 21 00 20 */	addi r1, r1, 0x20
-/* 800F1DFC 000ED31C  4E 80 00 20 */	blr 
+/* 800F1DFC 000ED31C  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_write_link_super_tout
 /* 800F1E00 000ED320  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2157,7 +2157,7 @@ glabel btsnd_hcic_write_link_super_tout
 /* 800F1E84 000ED3A4  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800F1E88 000ED3A8  7C 08 03 A6 */	mtlr r0
 /* 800F1E8C 000ED3AC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F1E90 000ED3B0  4E 80 00 20 */	blr 
+/* 800F1E90 000ED3B0  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_write_cur_iac_lap
 /* 800F1E94 000ED3B4  54 80 15 BA */	rlwinm r0, r4, 2, 0x16, 0x1d
@@ -2217,7 +2217,7 @@ glabel btsnd_hcic_read_local_ver
 /* 800F1F54 000ED474  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F1F58 000ED478  7C 08 03 A6 */	mtlr r0
 /* 800F1F5C 000ED47C  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F1F60 000ED480  4E 80 00 20 */	blr 
+/* 800F1F60 000ED480  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_read_local_features
 /* 800F1F64 000ED484  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2244,7 +2244,7 @@ glabel btsnd_hcic_read_local_features
 /* 800F1FB0 000ED4D0  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F1FB4 000ED4D4  7C 08 03 A6 */	mtlr r0
 /* 800F1FB8 000ED4D8  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F1FBC 000ED4DC  4E 80 00 20 */	blr 
+/* 800F1FBC 000ED4DC  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_read_buffer_size
 /* 800F1FC0 000ED4E0  38 A0 00 00 */	li r5, 0
@@ -2284,7 +2284,7 @@ glabel btsnd_hcic_read_bd_addr
 /* 800F2038 000ED558  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 800F203C 000ED55C  7C 08 03 A6 */	mtlr r0
 /* 800F2040 000ED560  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F2044 000ED564  4E 80 00 20 */	blr 
+/* 800F2044 000ED564  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_get_link_quality
 /* 800F2048 000ED568  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2319,7 +2319,7 @@ glabel btsnd_hcic_get_link_quality
 /* 800F20B4 000ED5D4  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F20B8 000ED5D8  7C 08 03 A6 */	mtlr r0
 /* 800F20BC 000ED5DC  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F20C0 000ED5E0  4E 80 00 20 */	blr 
+/* 800F20C0 000ED5E0  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_read_rssi
 /* 800F20C4 000ED5E4  94 21 FF F0 */	stwu r1, -0x10(r1)
@@ -2353,7 +2353,7 @@ glabel btsnd_hcic_read_rssi
 /* 800F212C 000ED64C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 800F2130 000ED650  7C 08 03 A6 */	mtlr r0
 /* 800F2134 000ED654  38 21 00 10 */	addi r1, r1, 0x10
-/* 800F2138 000ED658  4E 80 00 20 */	blr 
+/* 800F2138 000ED658  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_set_afh_channela
 /* 800F213C 000ED65C  94 21 FF D0 */	stwu r1, -0x30(r1)
@@ -2632,7 +2632,7 @@ glabel btsnd_hcic_set_afh_channela
 /* 800F254C 000EDA6C  83 A1 00 24 */	lwz r29, 0x24(r1)
 /* 800F2550 000EDA70  7C 08 03 A6 */	mtlr r0
 /* 800F2554 000EDA74  38 21 00 30 */	addi r1, r1, 0x30
-/* 800F2558 000EDA78  4E 80 00 20 */	blr 
+/* 800F2558 000EDA78  4E 80 00 20 */	blr
 
 glabel btsnd_hcic_write_inqscan_type
 /* 800F255C 000EDA7C  39 00 00 04 */	li r8, 4

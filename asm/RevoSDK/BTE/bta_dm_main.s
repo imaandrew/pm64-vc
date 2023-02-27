@@ -97,4 +97,3 @@ glabel bta_dm_search_sm_execute
 /* 800E07C8 000DBCE8  7C 08 03 A6 */	mtlr r0
 /* 800E07CC 000DBCEC  38 21 00 20 */	addi r1, r1, 0x20
 /* 800E07D0 000DBCF0  4E 80 00 20 */	blr
-

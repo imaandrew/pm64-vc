@@ -269,4 +269,3 @@ glabel List_GetNth__Q26nw4hbm2utFPCQ36nw4hbm2ut4ListUs
 /* 8014C814 00147D34  7C 08 03 A6 */	mtlr r0
 /* 8014C818 00147D38  38 21 00 20 */	addi r1, r1, 0x20
 /* 8014C81C 00147D3C  4E 80 00 20 */	blr
-

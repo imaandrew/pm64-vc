@@ -43,4 +43,3 @@ glabel usr_puts_serial
 /* 8016F9EC 0016AF0C  7C 08 03 A6 */	mtlr r0
 /* 8016F9F0 0016AF10  38 21 00 20 */	addi r1, r1, 0x20
 /* 8016F9F4 0016AF14  4E 80 00 20 */	blr
-

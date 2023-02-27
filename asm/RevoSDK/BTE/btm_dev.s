@@ -494,4 +494,3 @@ glabel btm_find_oldest_dev
 /* 800E5A0C 000E0F2C  38 84 00 88 */	addi r4, r4, 0x88
 /* 800E5A10 000E0F30  42 00 FF 6C */	bdnz .L_800E597C
 /* 800E5A14 000E0F34  4E 80 00 20 */	blr
-

@@ -573,4 +573,3 @@ glabel rfc_check_send_cmd
 /* 80101FB8 000FD4D8  7C 08 03 A6 */	mtlr r0
 /* 80101FBC 000FD4DC  38 21 00 10 */	addi r1, r1, 0x10
 /* 80101FC0 000FD4E0  4E 80 00 20 */	blr
-

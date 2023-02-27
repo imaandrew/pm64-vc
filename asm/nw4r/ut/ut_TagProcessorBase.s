@@ -1275,4 +1275,3 @@ glabel CalcRect__Q36nw4hbm2ut19TagProcessorBase_w_FPQ36nw4hbm2ut4RectUsPQ36nw4hb
 /* 80153228 0014E748  7C 08 03 A6 */	mtlr r0
 /* 8015322C 0014E74C  38 21 00 60 */	addi r1, r1, 0x60
 /* 80153230 0014E750  4E 80 00 20 */	blr
-

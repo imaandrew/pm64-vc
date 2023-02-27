@@ -7,4 +7,3 @@ glabel lbl_80174260
 	.4byte __destroy_global_chain_tmp
 	.4byte __fini_cpp_exceptions_tmp
 	.4byte 0
-

@@ -630,4 +630,3 @@ glabel __DSP_remove_task
 /* 800B909C 000B45BC  80 63 00 38 */	lwz r3, 0x38(r3)
 /* 800B90A0 000B45C0  90 03 00 3C */	stw r0, 0x3c(r3)
 /* 800B90A4 000B45C4  4E 80 00 20 */	blr
-

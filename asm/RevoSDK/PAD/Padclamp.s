@@ -156,4 +156,3 @@ glabel PADClamp
 /* 800C22BC 000BD7DC  7C 08 03 A6 */	mtlr r0
 /* 800C22C0 000BD7E0  38 21 00 20 */	addi r1, r1, 0x20
 /* 800C22C4 000BD7E4  4E 80 00 20 */	blr
-

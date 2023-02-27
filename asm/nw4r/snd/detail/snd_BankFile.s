@@ -466,4 +466,3 @@ glabel ReadWaveParam__Q46nw4hbm3snd6detail14BankFileReaderCFPQ46nw4hbm3snd6detai
 /* 8012C8F8 00127E18  7C 08 03 A6 */	mtlr r0
 /* 8012C8FC 00127E1C  38 21 00 20 */	addi r1, r1, 0x20
 /* 8012C900 00127E20  4E 80 00 20 */	blr
-

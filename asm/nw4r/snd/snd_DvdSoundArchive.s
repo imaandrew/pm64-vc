@@ -19,4 +19,3 @@ glabel Close__Q36nw4hbm3snd15DvdSoundArchiveFv
 /* 8012F428 0012A948  7C 08 03 A6 */	mtlr r0
 /* 8012F42C 0012A94C  38 21 00 10 */	addi r1, r1, 0x10
 /* 8012F430 0012A950  4E 80 00 20 */	blr
-

@@ -368,4 +368,3 @@ glabel __GXSetMatrixIndex
 /* 800A9BA8 000A50C8  38 00 00 01 */	li r0, 1
 /* 800A9BAC 000A50CC  B0 06 00 02 */	sth r0, 2(r6)
 /* 800A9BB0 000A50D0  4E 80 00 20 */	blr
-

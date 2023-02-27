@@ -602,5 +602,3 @@ glabel lbl_800069C0
 glabel lbl_800069C8
 	.4byte 0x08080000
 	.4byte 0
-
-

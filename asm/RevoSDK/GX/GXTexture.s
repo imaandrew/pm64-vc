@@ -1005,4 +1005,3 @@ glabel __GXSetTmemConfig
 /* 800A85CC 000A3AEC  83 C1 00 08 */	lwz r30, 8(r1)
 /* 800A85D0 000A3AF0  38 21 00 10 */	addi r1, r1, 0x10
 /* 800A85D4 000A3AF4  4E 80 00 20 */	blr
-

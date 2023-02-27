@@ -753,4 +753,3 @@ glabel GetFreeSize__Q46nw4hbm3snd6detail9FrameHeapCFv
 /* 801306A4 0012BBC4  7C 08 03 A6 */	mtlr r0
 /* 801306A8 0012BBC8  38 21 00 10 */	addi r1, r1, 0x10
 /* 801306AC 0012BBCC  4E 80 00 20 */	blr
-

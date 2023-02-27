@@ -391,4 +391,3 @@ glabel Erase__Q46nw4hbm2ut6detail12LinkListImplFPQ36nw4hbm2ut12LinkListNode
 /* 8014C46C 0014798C  7C 08 03 A6 */	mtlr r0
 /* 8014C470 00147990  38 21 00 20 */	addi r1, r1, 0x20
 /* 8014C474 00147994  4E 80 00 20 */	blr
-

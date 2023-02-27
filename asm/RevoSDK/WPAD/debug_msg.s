@@ -24,4 +24,3 @@ glabel DEBUGPrint
 /* 800D0BF0 000CC110  91 41 00 24 */	stw r10, 0x24(r1)
 /* 800D0BF4 000CC114  38 21 00 70 */	addi r1, r1, 0x70
 /* 800D0BF8 000CC118  4E 80 00 20 */	blr
-

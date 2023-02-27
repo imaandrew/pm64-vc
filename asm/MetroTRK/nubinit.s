@@ -114,4 +114,3 @@ glabel TRKInitializeNub
 /* 8016EF4C 0016A46C  7C 08 03 A6 */	mtlr r0
 /* 8016EF50 0016A470  38 21 00 20 */	addi r1, r1, 0x20
 /* 8016EF54 0016A474  4E 80 00 20 */	blr
-

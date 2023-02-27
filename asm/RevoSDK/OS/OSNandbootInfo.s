@@ -202,4 +202,3 @@ glabel __OSReadNandbootInfo
 /* 8009AEF4 00096414  7C 08 03 A6 */	mtlr r0
 /* 8009AEF8 00096418  38 21 00 A0 */	addi r1, r1, 0xa0
 /* 8009AEFC 0009641C  4E 80 00 20 */	blr
-

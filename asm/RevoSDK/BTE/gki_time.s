@@ -396,4 +396,3 @@ glabel GKI_remove_from_timer_list
 /* 800DB138 000D6658  90 04 00 0C */	stw r0, 0xc(r4)
 /* 800DB13C 000D665C  98 64 00 16 */	stb r3, 0x16(r4)
 /* 800DB140 000D6660  4E 80 00 20 */	blr
-

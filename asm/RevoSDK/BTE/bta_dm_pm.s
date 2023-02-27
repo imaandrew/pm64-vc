@@ -727,4 +727,3 @@ glabel bta_dm_pm_timer
 
 glabel lbl_802486C0
 	.skip 0x8
-

@@ -289,4 +289,3 @@ glabel GetDataRefAddressImpl__Q46nw4hbm3snd6detail4UtilFQ56nw4hbm3snd6detail4Uti
 /* 80143244 0013E764  7C 08 03 A6 */	mtlr r0
 /* 80143248 0013E768  38 21 00 10 */	addi r1, r1, 0x10
 /* 8014324C 0013E76C  4E 80 00 20 */	blr
-

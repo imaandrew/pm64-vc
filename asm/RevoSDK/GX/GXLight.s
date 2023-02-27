@@ -185,4 +185,3 @@ glabel GXSetChanCtrl
 /* 800A7808 000A2D28  60 00 A0 00 */	ori r0, r0, 0xa000
 /* 800A780C 000A2D2C  90 05 05 FC */	stw r0, 0x5fc(r5)
 /* 800A7810 000A2D30  4E 80 00 20 */	blr
-

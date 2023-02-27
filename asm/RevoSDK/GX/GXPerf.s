@@ -660,4 +660,3 @@ glabel GXClearGPMetric
 /* 800AA3E4 000A5904  38 00 00 04 */	li r0, 4
 /* 800AA3E8 000A5908  B0 03 00 04 */	sth r0, 4(r3)
 /* 800AA3EC 000A590C  4E 80 00 20 */	blr
-

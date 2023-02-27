@@ -918,4 +918,3 @@ glabel process_service_search_attr_req
 /* 801065E0 00101B00  7C 08 03 A6 */	mtlr r0
 /* 801065E4 00101B04  38 21 01 F0 */	addi r1, r1, 0x1f0
 /* 801065E8 00101B08  4E 80 00 20 */	blr
-

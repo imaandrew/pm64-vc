@@ -2177,4 +2177,3 @@ glabel l2cu_lcb_disconnecting
 /* 800FBB28 000F7048  38 A5 00 B8 */	addi r5, r5, 0xb8
 /* 800FBB2C 000F704C  42 00 FF 3C */	bdnz .L_800FBA68
 /* 800FBB30 000F7050  4E 80 00 20 */	blr
-

@@ -865,4 +865,3 @@ glabel __InitParams
 /* 800B6CCC 000B21EC  7C 08 03 A6 */	mtlr r0
 /* 800B6CD0 000B21F0  38 21 00 60 */	addi r1, r1, 0x60
 /* 800B6CD4 000B21F4  4E 80 00 20 */	blr
-

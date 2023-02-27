@@ -167,4 +167,3 @@ glabel __sinit_ut_IOStream_cpp
 /* 8014BF00 00147420  3C 60 80 24 */	lis r3, lbl_80243B98@ha
 /* 8014BF04 00147424  90 03 3B 98 */	stw r0, lbl_80243B98@l(r3)
 /* 8014BF08 00147428  4E 80 00 20 */	blr
-

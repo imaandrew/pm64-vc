@@ -271,4 +271,3 @@ glabel bta_hh_trace_dev_db
 
 glabel lbl_802486C8
 	.skip 0x8
-

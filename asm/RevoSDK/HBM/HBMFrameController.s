@@ -123,4 +123,3 @@ glabel calc__Q210homebutton15FrameControllerFv
 /* 80113060 0010E580  D0 03 00 0C */	stfs f0, 0xc(r3)
 /* 80113064 0010E584  98 03 00 1C */	stb r0, 0x1c(r3)
 /* 80113068 0010E588  4E 80 00 20 */	blr
-

@@ -504,4 +504,3 @@ glabel lbl_802471C0
 
 glabel lbl_802471C4
 	.skip 0x4
-

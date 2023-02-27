@@ -230,4 +230,3 @@ glabel TRKRestoreExtended1Block
 /* 80173234 0016E754  7F D2 FB A6 */	mtspr 0x3f2, r30
 /* 80173238 0016E758  7F FA 43 A6 */	mtspr 0x11a, r31
 /* 8017323C 0016E75C  4E 80 00 20 */	blr
-

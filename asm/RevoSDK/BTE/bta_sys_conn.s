@@ -172,4 +172,3 @@ glabel bta_sys_busy
 /* 800DDA58 000D8F78  7D 89 03 A6 */	mtctr r12
 /* 800DDA5C 000D8F7C  4E 80 04 20 */	bctr
 /* 800DDA60 000D8F80  4E 80 00 20 */	blr
-

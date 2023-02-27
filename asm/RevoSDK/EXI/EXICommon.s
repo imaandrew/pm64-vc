@@ -109,4 +109,3 @@ glabel EXIWriteReg
 /* 8009CCFC 0009821C  7C 08 03 A6 */	mtlr r0
 /* 8009CD00 00098220  38 21 00 20 */	addi r1, r1, 0x20
 /* 8009CD04 00098224  4E 80 00 20 */	blr
-

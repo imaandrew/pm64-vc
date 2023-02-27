@@ -694,4 +694,3 @@ glabel Cancel__Q46nw4hbm3snd6detail18SoundArchiveLoaderFv
 /* 801390FC 0013461C  7C 08 03 A6 */	mtlr r0
 /* 80139100 00134620  38 21 00 10 */	addi r1, r1, 0x10
 /* 80139104 00134624  4E 80 00 20 */	blr
-

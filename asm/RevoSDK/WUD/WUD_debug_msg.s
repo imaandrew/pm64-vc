@@ -24,4 +24,3 @@ glabel WUD_DEBUGPrint
 /* 800D979C 000D4CBC  91 41 00 24 */	stw r10, 0x24(r1)
 /* 800D97A0 000D4CC0  38 21 00 70 */	addi r1, r1, 0x70
 /* 800D97A4 000D4CC4  4E 80 00 20 */	blr
-

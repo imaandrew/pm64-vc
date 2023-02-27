@@ -425,4 +425,3 @@ glabel GXSetFieldMode
 /* 800A969C 000A4BBC  7C 08 03 A6 */	mtlr r0
 /* 800A96A0 000A4BC0  38 21 00 20 */	addi r1, r1, 0x20
 /* 800A96A4 000A4BC4  4E 80 00 20 */	blr
-

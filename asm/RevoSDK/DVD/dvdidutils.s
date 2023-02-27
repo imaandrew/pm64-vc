@@ -69,4 +69,3 @@ glabel DVDCompareDiskID
 /* 800AFA04 000AAF24  7C 08 03 A6 */	mtlr r0
 /* 800AFA08 000AAF28  38 21 00 10 */	addi r1, r1, 0x10
 /* 800AFA0C 000AAF2C  4E 80 00 20 */	blr
-

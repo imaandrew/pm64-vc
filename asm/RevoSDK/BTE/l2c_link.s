@@ -1270,4 +1270,3 @@ glabel l2c_pin_code_request
 /* 800F8C34 000F4154  7C 08 03 A6 */	mtlr r0
 /* 800F8C38 000F4158  38 21 00 10 */	addi r1, r1, 0x10
 /* 800F8C3C 000F415C  4E 80 00 20 */	blr
-

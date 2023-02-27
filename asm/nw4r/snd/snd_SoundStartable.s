@@ -33,4 +33,3 @@ glabel detail_StartSound__Q36nw4hbm3snd14SoundStartableFPQ36nw4hbm3snd11SoundHan
 /* 8013E7AC 00139CCC  7C 08 03 A6 */	mtlr r0
 /* 8013E7B0 00139CD0  38 21 00 10 */	addi r1, r1, 0x10
 /* 8013E7B4 00139CD4  4E 80 00 20 */	blr
-

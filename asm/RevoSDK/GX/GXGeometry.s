@@ -351,4 +351,3 @@ glabel GXSetCoPlanar
 /* 800A698C 000A1EAC  80 07 02 54 */	lwz r0, 0x254(r7)
 /* 800A6990 000A1EB0  90 04 80 00 */	stw r0, -0x8000(r4)
 /* 800A6994 000A1EB4  4E 80 00 20 */	blr
-

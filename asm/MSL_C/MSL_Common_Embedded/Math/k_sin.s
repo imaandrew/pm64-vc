@@ -54,4 +54,3 @@ glabel __kernel_sin
 .L_8016DCDC:
 /* 8016DCDC 001691FC  38 21 00 20 */	addi r1, r1, 0x20
 /* 8016DCE0 00169200  4E 80 00 20 */	blr
-

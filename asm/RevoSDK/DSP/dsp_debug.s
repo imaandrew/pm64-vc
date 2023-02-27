@@ -24,4 +24,3 @@ glabel __DSP_debug_printf
 /* 800B8808 000B3D28  91 41 00 24 */	stw r10, 0x24(r1)
 /* 800B880C 000B3D2C  38 21 00 70 */	addi r1, r1, 0x70
 /* 800B8810 000B3D30  4E 80 00 20 */	blr
-

@@ -173,4 +173,3 @@ glabel CircleBufferInitialize
 glabel CBGetBytesAvailableForRead
 /* 80174190 0016F6B0  80 63 00 10 */	lwz r3, 0x10(r3)
 /* 80174194 0016F6B4  4E 80 00 20 */	blr
-

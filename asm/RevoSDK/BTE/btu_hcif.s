@@ -1308,4 +1308,3 @@ glabel btu_hcif_link_key_notification_evt
 /* 800EECA8 000EA1C8  7C 08 03 A6 */	mtlr r0
 /* 800EECAC 000EA1CC  38 21 00 20 */	addi r1, r1, 0x20
 /* 800EECB0 000EA1D0  4E 80 00 20 */	blr
-

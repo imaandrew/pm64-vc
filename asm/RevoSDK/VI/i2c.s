@@ -698,4 +698,3 @@ glabel __VISendI2CData
 /* 800A1788 0009CCA8  7C 08 03 A6 */	mtlr r0
 /* 800A178C 0009CCAC  38 21 00 40 */	addi r1, r1, 0x40
 /* 800A1790 0009CCB0  4E 80 00 20 */	blr
-

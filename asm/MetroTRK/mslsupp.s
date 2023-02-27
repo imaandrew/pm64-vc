@@ -113,4 +113,3 @@ glabel __read_console
 /* 801733AC 0016E8CC  7C 08 03 A6 */	mtlr r0
 /* 801733B0 0016E8D0  38 21 00 20 */	addi r1, r1, 0x20
 /* 801733B4 0016E8D4  4E 80 00 20 */	blr
-

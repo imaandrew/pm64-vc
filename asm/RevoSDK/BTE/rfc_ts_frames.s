@@ -1573,4 +1573,3 @@ glabel rfc_process_mx_message
 /* 801017D8 000FCCF8  7C 08 03 A6 */	mtlr r0
 /* 801017DC 000FCCFC  38 21 00 20 */	addi r1, r1, 0x20
 /* 801017E0 000FCD00  4E 80 00 20 */	blr
-

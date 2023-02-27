@@ -482,4 +482,3 @@ glabel LoadFileHeader__Q46nw4hbm3snd6detail14StrmFileLoaderFPvUl
 /* 8013F830 0013AD50  7C 08 03 A6 */	mtlr r0
 /* 8013F834 0013AD54  38 21 00 80 */	addi r1, r1, 0x80
 /* 8013F838 0013AD58  4E 80 00 20 */	blr
-

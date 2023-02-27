@@ -527,4 +527,3 @@ glabel SetExternalFileRoot__Q34nw4r3snd12SoundArchiveFPCc
 /* 8013733C 0013285C  7C 08 03 A6 */	mtlr r0
 /* 80137340 00132860  38 21 00 20 */	addi r1, r1, 0x20
 /* 80137344 00132864  4E 80 00 20 */	blr
-

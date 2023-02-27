@@ -1815,4 +1815,3 @@ glabel btm_report_device_status
 /* 800E7394 000E28B4  7D 89 03 A6 */	mtctr r12
 /* 800E7398 000E28B8  4E 80 04 20 */	bctr
 /* 800E739C 000E28BC  4E 80 00 20 */	blr
-

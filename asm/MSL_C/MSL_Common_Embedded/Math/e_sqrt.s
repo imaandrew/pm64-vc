@@ -173,4 +173,3 @@ glabel __ieee754_sqrt
 .L_8016EAA4:
 /* 8016EAA4 00169FC4  38 21 00 20 */	addi r1, r1, 0x20
 /* 8016EAA8 00169FC8  4E 80 00 20 */	blr
-

@@ -85,4 +85,3 @@ glabel btm_discovery_db_reset
 
 glabel btm_discovery_timeout
 /* 800E74D0 000E29F0  4E 80 00 20 */	blr
-

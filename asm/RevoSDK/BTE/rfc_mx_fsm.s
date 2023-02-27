@@ -928,4 +928,3 @@ glabel rfc_mx_conf_ind
 /* 800FEAC4 000F9FE4  7C 08 03 A6 */	mtlr r0
 /* 800FEAC8 000F9FE8  38 21 00 10 */	addi r1, r1, 0x10
 /* 800FEACC 000F9FEC  4E 80 00 20 */	blr
-

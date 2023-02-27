@@ -860,4 +860,3 @@ glabel L2CA_SetTraceLevel
 
 glabel L2CA_RegisterCompression
 /* 800F65D4 000F1AF4  4E 80 00 20 */	blr
-

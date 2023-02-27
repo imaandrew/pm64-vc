@@ -57,4 +57,3 @@ glabel hidd_proc_repage_timeout
 /* 800F28C4 000EDDE4  7C 08 03 A6 */	mtlr r0
 /* 800F28C8 000EDDE8  38 21 00 10 */	addi r1, r1, 0x10
 /* 800F28CC 000EDDEC  4E 80 00 20 */	blr
-

@@ -1250,5 +1250,3 @@ glabel __double_huge
 	# ROM: 0x1AA790
 	.4byte 0x7FF00000
 	.4byte 0
-
-

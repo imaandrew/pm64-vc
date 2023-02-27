@@ -20,4 +20,3 @@ glabel __dt__Q36nw4hbm2ut5ColorFv
 /* 80116994 00111EB4  7C 08 03 A6 */	mtlr r0
 /* 80116998 00111EB8  38 21 00 10 */	addi r1, r1, 0x10
 /* 8011699C 00111EBC  4E 80 00 20 */	blr
-

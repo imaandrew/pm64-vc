@@ -969,4 +969,3 @@ glabel HID_HostSetSecurityLevel
 /* 800F39C0 000EEEE0  7C 08 03 A6 */	mtlr r0
 /* 800F39C4 000EEEE4  38 21 00 20 */	addi r1, r1, 0x20
 /* 800F39C8 000EEEE8  4E 80 00 20 */	blr
-

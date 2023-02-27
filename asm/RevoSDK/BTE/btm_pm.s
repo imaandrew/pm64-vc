@@ -908,4 +908,3 @@ glabel btm_pm_proc_mode_change
 /* 800E9C50 000E5170  7C 08 03 A6 */	mtlr r0
 /* 800E9C54 000E5174  38 21 00 30 */	addi r1, r1, 0x30
 /* 800E9C58 000E5178  4E 80 00 20 */	blr
-

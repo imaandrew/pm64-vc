@@ -3391,4 +3391,3 @@ glabel btm_read_trusted_mark
 /* 800EDA4C 000E8F6C  7C 08 03 A6 */	mtlr r0
 /* 800EDA50 000E8F70  38 21 00 10 */	addi r1, r1, 0x10
 /* 800EDA54 000E8F74  4E 80 00 20 */	blr
-

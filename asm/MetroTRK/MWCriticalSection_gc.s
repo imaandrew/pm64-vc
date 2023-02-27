@@ -29,4 +29,3 @@ glabel MWEnterCriticalSection
 
 glabel MWInitializeCriticalSection
 /* 801741EC 0016F70C  4E 80 00 20 */	blr
-

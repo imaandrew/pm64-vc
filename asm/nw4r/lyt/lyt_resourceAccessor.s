@@ -30,4 +30,3 @@ glabel __ct__Q36nw4hbm3lyt16ResourceAccessorFv
 glabel GetFont__Q36nw4hbm3lyt16ResourceAccessorFPCc
 /* 80120B50 0011C070  38 60 00 00 */	li r3, 0
 /* 80120B54 0011C074  4E 80 00 20 */	blr
-

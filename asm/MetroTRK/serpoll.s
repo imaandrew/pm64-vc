@@ -132,4 +132,3 @@ glabel lbl_80244CFC
 
 glabel lbl_802459A0
 	.skip 0x18
-

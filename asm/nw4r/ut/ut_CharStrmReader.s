@@ -676,4 +676,3 @@ glabel ReadNextCharSJIS__Q36nw4hbm2ut14CharStrmReaderFv
 /* 8014729C 001427BC  7C 08 03 A6 */	mtlr r0
 /* 801472A0 001427C0  38 21 00 10 */	addi r1, r1, 0x10
 /* 801472A4 001427C4  4E 80 00 20 */	blr
-

@@ -218,4 +218,3 @@ glabel MEMGetAllocatableSizeForFrmHeapEx
 /* 800B7BC8 000B30E8  7C 08 03 A6 */	mtlr r0
 /* 800B7BCC 000B30EC  38 21 00 10 */	addi r1, r1, 0x10
 /* 800B7BD0 000B30F0  4E 80 00 20 */	blr
-

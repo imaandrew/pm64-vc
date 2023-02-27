@@ -207,4 +207,3 @@ glabel lbl_800DB3D4
 /* 800DB3EC 000D690C  7C 83 07 74 */	extsb r3, r4
 /* 800DB3F0 000D6910  48 00 1E CC */	b bta_usb_close_evt
 /* 800DB3F4 000D6914  4E 80 00 20 */	blr
-

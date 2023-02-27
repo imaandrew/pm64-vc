@@ -319,4 +319,3 @@ glabel SCGetWpadSpeakerVolume
 glabel SCSetWpadSpeakerVolume
 /* 800BDF7C 000B949C  38 80 00 1E */	li r4, 0x1e
 /* 800BDF80 000B94A0  4B FF F6 60 */	b lbl_800BD5E0
-

@@ -145,4 +145,3 @@ glabel OSReceiveMessage
 /* 80095C48 00091168  7C 08 03 A6 */	mtlr r0
 /* 80095C4C 0009116C  38 21 00 20 */	addi r1, r1, 0x20
 /* 80095C50 00091170  4E 80 00 20 */	blr
-

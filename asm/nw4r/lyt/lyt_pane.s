@@ -1419,4 +1419,3 @@ glabel __sinit_lyt_pane_cpp
 /* 801203BC 0011B8DC  3C 60 80 23 */	lis r3, lbl_80229140@ha
 /* 801203C0 0011B8E0  90 03 91 40 */	stw r0, lbl_80229140@l(r3)
 /* 801203C4 0011B8E4  4E 80 00 20 */	blr
-

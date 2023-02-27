@@ -1430,4 +1430,3 @@ glabel port_rfc_closed
 /* 800FCF74 000F8494  7C 08 03 A6 */	mtlr r0
 /* 800FCF78 000F8498  38 21 00 20 */	addi r1, r1, 0x20
 /* 800FCF7C 000F849C  4E 80 00 20 */	blr
-

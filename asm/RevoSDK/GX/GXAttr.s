@@ -894,4 +894,3 @@ glabel GXSetNumTexGens
 /* 800A5B98 000A10B8  60 00 00 04 */	ori r0, r0, 4
 /* 800A5B9C 000A10BC  90 04 05 FC */	stw r0, 0x5fc(r4)
 /* 800A5BA0 000A10C0  4E 80 00 20 */	blr
-

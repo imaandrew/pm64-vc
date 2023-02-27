@@ -132,4 +132,3 @@ glabel GetLowestPrioritySound__Q46nw4hbm3snd6detail19ExternalSoundPlayerFv
 /* 8012FC4C 0012B16C  7C 08 03 A6 */	mtlr r0
 /* 8012FC50 0012B170  38 21 00 30 */	addi r1, r1, 0x30
 /* 8012FC54 0012B174  4E 80 00 20 */	blr
-

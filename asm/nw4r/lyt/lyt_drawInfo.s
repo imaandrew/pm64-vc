@@ -53,4 +53,3 @@ glabel __dt__Q36nw4hbm3lyt8DrawInfoFv
 /* 8011A3DC 001158FC  7C 08 03 A6 */	mtlr r0
 /* 8011A3E0 00115900  38 21 00 10 */	addi r1, r1, 0x10
 /* 8011A3E4 00115904  4E 80 00 20 */	blr
-

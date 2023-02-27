@@ -531,4 +531,3 @@ glabel __DBEXIWriteRam
 /* 80087EAC 000833CC  7C 08 03 A6 */	mtlr r0
 /* 80087EB0 000833D0  38 21 00 20 */	addi r1, r1, 0x20
 /* 80087EB4 000833D4  4E 80 00 20 */	blr
-

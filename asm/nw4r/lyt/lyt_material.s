@@ -3904,4 +3904,3 @@ glabel GetTextureSize__Q36nw4hbm3lyt6detailFPQ36nw4hbm3lyt8MaterialUc
 /* 8011F024 0011A544  7C 08 03 A6 */	mtlr r0
 /* 8011F028 0011A548  38 21 00 60 */	addi r1, r1, 0x60
 /* 8011F02C 0011A54C  4E 80 00 20 */	blr
-

@@ -23,4 +23,3 @@ glabel AXFXGetHooks
 /* 800B6D04 000B2224  80 0D 83 94 */	lwz r0, lbl_80246814@sda21(r13)
 /* 800B6D08 000B2228  90 04 00 00 */	stw r0, 0(r4)
 /* 800B6D0C 000B222C  4E 80 00 20 */	blr
-

@@ -523,4 +523,3 @@ glabel lbl_800EFFB4
 glabel lbl_800EFFBC
 /* 800EFFBC 000EB4DC  38 60 01 14 */	li r3, 0x114
 /* 800EFFC0 000EB4E0  4E 80 00 20 */	blr
-

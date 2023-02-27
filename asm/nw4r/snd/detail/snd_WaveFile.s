@@ -152,4 +152,3 @@ glabel ReadWaveParam__Q46nw4hbm3snd6detail14WaveFileReaderCFPQ46nw4hbm3snd6detai
 /* 80143474 0013E994  7C 08 03 A6 */	mtlr r0
 /* 80143478 0013E998  38 21 00 20 */	addi r1, r1, 0x20
 /* 8014347C 0013E99C  4E 80 00 20 */	blr
-

@@ -131,4 +131,3 @@ glabel NANDCheck
 /* 800BC1FC 000B771C  7C 08 03 A6 */	mtlr r0
 /* 800BC200 000B7720  38 21 00 30 */	addi r1, r1, 0x30
 /* 800BC204 000B7724  4E 80 00 20 */	blr
-

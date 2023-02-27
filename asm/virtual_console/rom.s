@@ -926,4 +926,3 @@ glabel romEvent
 /* 800438A4 0003EDC4  7C 08 03 A6 */	mtlr r0
 /* 800438A8 0003EDC8  38 21 00 10 */	addi r1, r1, 0x10
 /* 800438AC 0003EDCC  4E 80 00 20 */	blr
-

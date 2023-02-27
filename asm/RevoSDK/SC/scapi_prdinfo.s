@@ -146,4 +146,3 @@ glabel SCGetProductArea
 /* 800BE168 000B9688  7C 08 03 A6 */	mtlr r0
 /* 800BE16C 000B968C  38 21 00 20 */	addi r1, r1, 0x20
 /* 800BE170 000B9690  4E 80 00 20 */	blr
-

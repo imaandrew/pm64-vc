@@ -737,4 +737,3 @@ glabel ARCReadDir
 glabel ARCCloseDir
 /* 800BEDE4 000BA304  38 60 00 01 */	li r3, 1
 /* 800BEDE8 000BA308  4E 80 00 20 */	blr
-

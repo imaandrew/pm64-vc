@@ -425,4 +425,3 @@ glabel port_flow_control_peer
 /* 800FD54C 000F8A6C  7C 08 03 A6 */	mtlr r0
 /* 800FD550 000F8A70  38 21 00 10 */	addi r1, r1, 0x10
 /* 800FD554 000F8A74  4E 80 00 20 */	blr
-

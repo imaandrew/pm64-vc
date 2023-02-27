@@ -849,4 +849,3 @@ glabel GXClearBoundingBox
 /* 800A7590 000A2AB0  90 85 80 00 */	stw r4, -0x8000(r5)
 /* 800A7594 000A2AB4  B0 03 00 02 */	sth r0, 2(r3)
 /* 800A7598 000A2AB8  4E 80 00 20 */	blr
-

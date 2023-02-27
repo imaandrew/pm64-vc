@@ -1136,4 +1136,3 @@ glabel l2c_process_held_packets
 /* 800F9C64 000F5184  7C 08 03 A6 */	mtlr r0
 /* 800F9C68 000F5188  38 21 00 20 */	addi r1, r1, 0x20
 /* 800F9C6C 000F518C  4E 80 00 20 */	blr
-

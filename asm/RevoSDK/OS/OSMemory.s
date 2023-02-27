@@ -563,4 +563,3 @@ glabel __OSInitMemoryProtection
 /* 8009645C 0009197C  7C 08 03 A6 */	mtlr r0
 /* 80096460 00091980  38 21 00 10 */	addi r1, r1, 0x10
 /* 80096464 00091984  4E 80 00 20 */	blr
-

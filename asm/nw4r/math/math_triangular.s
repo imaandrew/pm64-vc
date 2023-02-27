@@ -184,4 +184,3 @@ glabel Atan2FIdx__Q26nw4hbm4mathFff
 .L_801265D0:
 /* 801265D0 00121AF0  38 21 00 20 */	addi r1, r1, 0x20
 /* 801265D4 00121AF4  4E 80 00 20 */	blr
-

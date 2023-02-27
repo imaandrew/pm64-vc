@@ -139,4 +139,3 @@ glabel PPCMthid4
 /* 8008EADC 00089FFC  7C 08 03 A6 */	mtlr r0
 /* 8008EAE0 0008A000  38 21 00 10 */	addi r1, r1, 0x10
 /* 8008EAE4 0008A004  4E 80 00 20 */	blr
-

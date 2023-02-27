@@ -400,4 +400,3 @@ glabel bta_hh_co_close
 glabel bta_dm_co_get_compress_memory
 /* 800D9750 000D4C70  38 60 00 00 */	li r3, 0
 /* 800D9754 000D4C74  4E 80 00 20 */	blr
-

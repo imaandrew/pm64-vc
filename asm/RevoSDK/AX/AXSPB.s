@@ -353,4 +353,3 @@ glabel lbl_802475A8
 
 glabel lbl_802475AC
 	.skip 0x4
-

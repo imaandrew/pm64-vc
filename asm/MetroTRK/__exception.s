@@ -400,4 +400,3 @@ glabel gTRKInterruptVectorTable
 /* 800063E8 000024E8  7C 7A 03 A6 */	mtspr 0x1a, r3
 /* 800063EC 000024EC  38 60 1F 00 */	li r3, 0x1f00
 /* 800063F0 000024F0  4C 00 00 64 */	rfi
-

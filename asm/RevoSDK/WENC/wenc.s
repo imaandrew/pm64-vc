@@ -199,4 +199,3 @@ glabel WENCGetEncodeData
 /* 800BE440 000B9960  7C 08 03 A6 */	mtlr r0
 /* 800BE444 000B9964  38 21 00 90 */	addi r1, r1, 0x90
 /* 800BE448 000B9968  4E 80 00 20 */	blr
-

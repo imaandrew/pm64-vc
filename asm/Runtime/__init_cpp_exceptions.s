@@ -35,4 +35,3 @@ glabel __fini_cpp_exceptions_tmp
 /* 8015D168 00158688  7C 08 03 A6 */	mtlr r0
 /* 8015D16C 0015868C  38 21 00 10 */	addi r1, r1, 0x10
 /* 8015D170 00158690  4E 80 00 20 */	blr
-

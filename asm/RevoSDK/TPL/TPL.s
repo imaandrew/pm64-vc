@@ -145,4 +145,3 @@ glabel TPLGetGXTexObjFromPalette
 /* 80109140 00104660  7C 08 03 A6 */	mtlr r0
 /* 80109144 00104664  38 21 00 30 */	addi r1, r1, 0x30
 /* 80109148 00104668  4E 80 00 20 */	blr
-

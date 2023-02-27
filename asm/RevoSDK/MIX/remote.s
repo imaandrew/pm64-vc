@@ -25,4 +25,3 @@ glabel __MIXRmtResetChannel
 /* 800B853C 000B3A5C  B0 64 00 28 */	sth r3, 0x28(r4)
 /* 800B8540 000B3A60  B0 64 00 24 */	sth r3, 0x24(r4)
 /* 800B8544 000B3A64  4E 80 00 20 */	blr
-

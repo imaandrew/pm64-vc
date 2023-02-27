@@ -2113,4 +2113,3 @@ glabel detail_FreePlayerHeap__Q36nw4hbm3snd11SoundPlayerFPQ46nw4hbm3snd6detail10
 /* 8013E740 00139C60  7C 08 03 A6 */	mtlr r0
 /* 8013E744 00139C64  38 21 00 20 */	addi r1, r1, 0x20
 /* 8013E748 00139C68  4E 80 00 20 */	blr
-

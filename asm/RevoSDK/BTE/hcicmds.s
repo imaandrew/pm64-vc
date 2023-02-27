@@ -2743,4 +2743,3 @@ glabel btsnd_hcic_vendor_spec_cmd
 /* 800F26D8 000EDBF8  42 00 FF F0 */	bdnz .L_800F26C8
 .L_800F26DC:
 /* 800F26DC 000EDBFC  4B FF B9 34 */	b btu_hcif_send_cmd
-

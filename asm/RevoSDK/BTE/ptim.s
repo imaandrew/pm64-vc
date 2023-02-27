@@ -136,4 +136,3 @@ glabel prim_stop_timer
 /* 800DDE7C 000D939C  7C 08 03 A6 */	mtlr r0
 /* 800DDE80 000D93A0  38 21 00 10 */	addi r1, r1, 0x10
 /* 800DDE84 000D93A4  4E 80 00 20 */	blr
-

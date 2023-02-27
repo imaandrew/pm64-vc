@@ -923,4 +923,3 @@ glabel SDP_DeleteAttribute
 /* 80103AEC 000FF00C  7C 08 03 A6 */	mtlr r0
 /* 80103AF0 000FF010  38 21 00 30 */	addi r1, r1, 0x30
 /* 80103AF4 000FF014  4E 80 00 20 */	blr
-

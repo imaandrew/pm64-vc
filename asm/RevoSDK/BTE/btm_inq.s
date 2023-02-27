@@ -1937,4 +1937,3 @@ glabel btm_inq_rmt_name_failed
 /* 800E8F60 000E4480  7C 08 03 A6 */	mtlr r0
 /* 800E8F64 000E4484  38 21 00 10 */	addi r1, r1, 0x10
 /* 800E8F68 000E4488  4E 80 00 20 */	blr
-

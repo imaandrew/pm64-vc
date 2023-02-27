@@ -1154,4 +1154,3 @@ glabel Rebuild__Q36nw4hbm2ut7ResFontFPQ36nw4hbm2ut16BinaryFileHeader
 /* 8014E830 00149D50  7C 08 03 A6 */	mtlr r0
 /* 8014E834 00149D54  38 21 00 40 */	addi r1, r1, 0x40
 /* 8014E838 00149D58  4E 80 00 20 */	blr
-

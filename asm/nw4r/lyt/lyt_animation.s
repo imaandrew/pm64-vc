@@ -1127,4 +1127,3 @@ glabel FindAnimationLink__Q36nw4hbm3lyt6detailFPQ36nw4hbm2ut40LinkList__Q36nw4hb
 /* 80118C6C 0011418C  7C 08 03 A6 */	mtlr r0
 /* 80118C70 00114190  38 21 00 20 */	addi r1, r1, 0x20
 /* 80118C74 00114194  4E 80 00 20 */	blr
-

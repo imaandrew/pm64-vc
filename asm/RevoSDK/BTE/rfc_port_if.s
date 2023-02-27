@@ -376,4 +376,3 @@ glabel RFCOMM_DataReq
 /* 80100190 000FB6B0  7C 08 03 A6 */	mtlr r0
 /* 80100194 000FB6B4  38 21 00 10 */	addi r1, r1, 0x10
 /* 80100198 000FB6B8  4E 80 00 20 */	blr
-

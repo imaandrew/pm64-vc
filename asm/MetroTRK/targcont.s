@@ -16,4 +16,3 @@ glabel TRKTargetContinue
 /* 80173C00 0016F120  7C 08 03 A6 */	mtlr r0
 /* 80173C04 0016F124  38 21 00 10 */	addi r1, r1, 0x10
 /* 80173C08 0016F128  4E 80 00 20 */	blr
-

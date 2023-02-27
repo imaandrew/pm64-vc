@@ -270,4 +270,3 @@ glabel BTA_HhGetAclQueueInfo
 /* 800E2CFC 000DE21C  7C 08 03 A6 */	mtlr r0
 /* 800E2D00 000DE220  38 21 00 10 */	addi r1, r1, 0x10
 /* 800E2D04 000DE224  4E 80 00 20 */	blr
-

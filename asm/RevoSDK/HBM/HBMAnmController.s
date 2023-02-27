@@ -85,4 +85,3 @@ glabel do_calc__Q210homebutton18GroupAnmControllerFv
 /* 80112EB8 0010E3D8  7C 08 03 A6 */	mtlr r0
 /* 80112EBC 0010E3DC  38 21 00 20 */	addi r1, r1, 0x20
 /* 80112EC0 0010E3E0  4E 80 00 20 */	blr
-

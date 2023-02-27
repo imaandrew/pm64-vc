@@ -1061,4 +1061,3 @@ glabel NANDSetUserData
 glabel NANDGetUserData
 /* 800B9F2C 000B544C  80 63 00 00 */	lwz r3, 0(r3)
 /* 800B9F30 000B5450  4E 80 00 20 */	blr
-

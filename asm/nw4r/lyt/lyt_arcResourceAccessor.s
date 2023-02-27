@@ -504,4 +504,3 @@ glabel GetFont__Q36nw4hbm3lyt24MultiArcResourceAccessorFPCc
 /* 80119360 00114880  7C 08 03 A6 */	mtlr r0
 /* 80119364 00114884  38 21 00 20 */	addi r1, r1, 0x20
 /* 80119368 00114888  4E 80 00 20 */	blr
-

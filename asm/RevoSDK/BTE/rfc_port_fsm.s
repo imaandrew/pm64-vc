@@ -1339,4 +1339,3 @@ glabel rfc_set_port_state
 /* 800FFC64 000FB184  88 04 00 11 */	lbz r0, 0x11(r4)
 /* 800FFC68 000FB188  98 03 00 08 */	stb r0, 8(r3)
 /* 800FFC6C 000FB18C  4E 80 00 20 */	blr
-

@@ -339,4 +339,3 @@ glabel FindGroupByName__Q36nw4hbm3lyt14GroupContainerFPCc
 /* 8011A890 00115DB0  7C 08 03 A6 */	mtlr r0
 /* 8011A894 00115DB4  38 21 00 20 */	addi r1, r1, 0x20
 /* 8011A898 00115DB8  4E 80 00 20 */	blr
-

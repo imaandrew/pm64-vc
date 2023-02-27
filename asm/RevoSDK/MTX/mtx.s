@@ -277,4 +277,3 @@ glabel PSMTXScale
 /* 800A3244 0009E764  D0 63 00 28 */	stfs f3, 0x28(r3)
 /* 800A3248 0009E768  D0 03 00 2C */	stfs f0, 0x2c(r3)
 /* 800A324C 0009E76C  4E 80 00 20 */	blr
-

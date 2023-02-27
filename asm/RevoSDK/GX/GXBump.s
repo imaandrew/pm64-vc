@@ -314,4 +314,3 @@ glabel __GXFlushTextureState
 /* 800A8A18 000A3F38  90 64 80 00 */	stw r3, -0x8000(r4)
 /* 800A8A1C 000A3F3C  B0 05 00 02 */	sth r0, 2(r5)
 /* 800A8A20 000A3F40  4E 80 00 20 */	blr
-

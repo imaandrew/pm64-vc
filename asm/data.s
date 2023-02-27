@@ -5287,6 +5287,9 @@ glabel lbl_8017E940
 	.4byte lbl_8004B404
 	.4byte lbl_8004B32C
 	.4byte 0
+	
+glabel lbl_8017EA38
+	# ROM: 0x17AB38
 	.4byte 0x0003F800
 	.4byte 0
 	.4byte 0x0003F000
@@ -5366,6 +5369,9 @@ glabel lbl_8017EB08
 	.4byte lbl_800575CC
 	.4byte lbl_800575CC
 	.4byte lbl_800575CC
+	
+glabel lbl_8017EB30
+	# ROM: 0x17AC30
 	.4byte lbl_8005A6A8
 	.4byte lbl_8005A26C
 	.4byte lbl_8005A2B4
@@ -6959,6 +6965,8 @@ glabel lbl_8018036C
 glabel lbl_80180430
 	# ROM: 0x17C530
 	.asciz "homeBtnIcon.tpl"
+
+glabel lbl_80180440
 	.4byte lbl_800614A8
 	.4byte lbl_80061770
 	.4byte lbl_800614B0
@@ -7496,6 +7504,9 @@ glabel lbl_80180BF8
 	.4byte lbl_8006547C
 	.4byte lbl_8006547C
 	.4byte lbl_800654C8
+
+glabel lbl_80180C38
+	# ROM: 0x17CD38
 	.4byte lbl_800657DC
 	.4byte lbl_800657EC
 	.4byte lbl_800657EC
@@ -7558,6 +7569,9 @@ glabel lbl_80180CE8
 	.4byte 0x00000007
 	.4byte 0x00000007
 	.4byte 0x00000007
+	
+glabel lbl_80180D08
+	# ROM: 0x17CE08
 	.4byte lbl_8006B9A8
 	.4byte lbl_8006B5FC
 	.4byte lbl_8006B608
@@ -7574,6 +7588,9 @@ glabel lbl_80180CE8
 	.4byte lbl_8006B8C0
 	.4byte lbl_8006B994
 	.4byte lbl_8006B954
+
+glabel lbl_80180D48
+	# ROM: 0x17CE48
 	.4byte lbl_8006F394
 	.4byte lbl_8006EC2C
 	.4byte lbl_8006EC54
@@ -7598,6 +7615,9 @@ glabel lbl_80180CE8
 	.4byte lbl_8006F2FC
 	.4byte lbl_8006F348
 	.4byte lbl_8006F37C
+	
+glabel lbl_80180DA8
+	# ROM: 0x17CEA8
 	.4byte lbl_80070D68
 	.4byte lbl_80070784
 	.4byte lbl_80070794
@@ -7621,8 +7641,14 @@ glabel lbl_80180CE8
 	.4byte lbl_800707CC
 	.4byte lbl_80070838
 	.4byte lbl_80070D50
+	
+glabel lbl_80180E04
+	# ROM: 0x17CF04
 	.asciz "unknown command!"
 	.balign 4
+	
+glabel lbl_80180E18
+	# ROM: 0x17CF18
 	.4byte lbl_80072950
 	.4byte lbl_800721FC
 	.4byte lbl_8007220C
@@ -7658,6 +7684,9 @@ glabel lbl_80180E88
 	.4byte 0x60008000
 	.4byte 0xA000C000
 	.4byte 0xE000FFFF
+	
+glabel lbl_80180E98
+	# ROM: 0x17CF98
 	.4byte lbl_80073E40
 	.4byte lbl_8007392C
 	.4byte lbl_80073954
@@ -7798,6 +7827,9 @@ glabel lbl_80181040
 	.4byte lbl_80080778
 	.4byte lbl_8007F4B0
 	.4byte lbl_8007F1B8
+	
+glabel lbl_80181074
+	# ROM: 0x17D174
 	.4byte lbl_80080970
 	.4byte lbl_80080970
 	.4byte lbl_80080970
@@ -23470,6 +23502,9 @@ glabel lbl_80191138
 	.4byte lbl_800A5694
 	.4byte lbl_800A5694
 	.4byte lbl_800A556C
+	
+glabel lbl_8019117C
+	# ROM: 0x18D27C
 	.4byte lbl_800A5708
 	.4byte lbl_800A5720
 	.4byte lbl_800A575C
@@ -23807,6 +23842,9 @@ glabel lbl_80191584
 	.4byte lbl_800A9E20
 	.4byte lbl_800AA0E0
 	.4byte 0
+
+glabel lbl_80191618
+	# ROM: 0x18D718
 	.asciz "DVDConvertEntrynumToPath(possibly DVDOpen or DVDChangeDir or DVDOpenDir): specified directory or file (%s) doesn't match standard 8.3 format. This is a temporary restriction and will be removed soon\n"
 
 glabel lbl_801916E0
@@ -30522,6 +30560,9 @@ glabel lbl_8019A358
 	# ROM: 0x196458
 	.asciz "Deleting bad pool"
 	.balign 8
+
+glabel lbl_8019A370
+	# ROM: 0x196470
 	.asciz "HCIS: Unable to allocate buffer for incoming HCI message."
 	.balign 4
 
@@ -31124,8 +31165,14 @@ glabel lbl_8019C688
 	.balign 4
 	.asciz "TCS accept SCO: Packet Types 0x%04x"
 	.asciz "BTM_CreateSco -> (e)SCO Link for ACL handle 0x%04x, Desired Type %d"
+
+glabel lbl_8019C714
+	# ROM: 0x198814
 	.asciz "      txbw 0x%x, rxbw 0x%x, lat 0x%x, voice 0x%x, retrans 0x%02x, pkt 0x%04x"
 	.balign 4
+
+glabel lbl_8019C764
+	# ROM: 0x198864
 	.asciz "btm_sco_chk_pend_unpark -> (e)SCO Link for ACL handle 0x%04x, Desired Type %d"
 	.balign 4
 
@@ -31996,6 +32043,9 @@ glabel lbl_8019EC68
 	.4byte lbl_800F78F8
 	.4byte lbl_800F78F0
 	.4byte lbl_800F7874
+
+glabel lbl_8019ECD8
+	# ROM: 0x19ADD8
 	.asciz "L2CAP - cannot send buffer, offset: %d"
 	.balign 4
 
@@ -32033,6 +32083,9 @@ glabel lbl_8019EDCC
 	.asciz "!!! L2CAP - buffer dropped"
 	.balign 8
 	.asciz "L2CAP - Calling CongestionStatus_Cb(), CID: 0x%04x, Uncongested"
+
+glabel lbl_8019EEB0
+	# ROM: 0x19AFB0
 	.asciz "LCB %d Priority:%d XmitWindow:%d Congestion Start:%d End:%d Discard:%d"
 	.balign 4
 
@@ -32079,6 +32132,9 @@ glabel lbl_8019EF70
 	.balign 4
 	.asciz "L2CAP - bad cmd code: %d"
 	.balign 4
+
+glabel lbl_8019F214
+	# ROM: 0x19B314
 	.4byte lbl_800F9AA0
 	.4byte lbl_800F9150
 	.4byte lbl_800F9224
@@ -32120,6 +32176,9 @@ glabel lbl_8019F2CC
 	# ROM: 0x19B3CC
 	.asciz "L2CAP - no buffer for echo_req"
 	.balign 4
+
+glabel lbl_8019F2EC
+	# ROM: 0x19B3EC
 	.asciz "l2cu_create_conn - btm_is_sco_active_by_bdaddr() is_sco_active = %s"
 
 glabel lbl_8019F330
@@ -32137,6 +32196,9 @@ glabel lbl_8019F358
 glabel lbl_8019F390
 	# ROM: 0x19B490
 	.asciz "PORT_StartCnf result:%d"
+
+glabel lbl_8019F3A8
+	# ROM: 0x19B4A8
 	.asciz "PORT_StartCnf failed result:%d"
 	.balign 4
 
@@ -32224,6 +32286,9 @@ glabel lbl_8019F600
 	# ROM: 0x19B700
 	.asciz "PORT_FlowInd fc:%d"
 	.balign 4
+
+glabel lbl_8019F614
+	# ROM: 0x19B714
 	.asciz "Sending RFCOMM_DataReq"
 	.balign 4
 
@@ -32622,6 +32687,9 @@ glabel lbl_801A00E4
 	# ROM: 0x19C1E4
 	.asciz "SDP_AddUuidSequence - too long, add %d uuids of %d"
 	.balign 4
+
+glabel lbl_801A0118
+	# ROM: 0x19C218
 	.asciz "Deleting attr_id 0x%04x for handle 0x%x"
 
 glabel lbl_801A0140
@@ -32771,6 +32839,9 @@ glabel lbl_801A06BC
 	# ROM: 0x19C7BC
 	.asciz "SDP - no buf for err msg"
 	.balign 4
+
+glabel lbl_801A06D8
+	# ROM: 0x19C7D8
 	.4byte lbl_80106D14
 	.4byte lbl_80106CA4
 	.4byte lbl_80106CAC
@@ -32975,6 +33046,9 @@ glabel lbl_801A09E8
 	.asciz "Warrning! .dtors section[%d]! size=%x\n"
 	.balign 4
 	.asciz "Warrning! unknown section[%d]! size=%x\n"
+	
+glabel lbl_801A0A60
+	# ROM: 0x19CB60
 	.4byte lbl_80108450
 	.4byte lbl_801083B0
 	.4byte lbl_801083B8
@@ -33042,6 +33116,8 @@ glabel lbl_801A0C10
 
 glabel lbl_801A0C30
 	.asciz "N_Trans"
+
+glabel lbl_801A0C38
 	.4byte lbl_801A0C30
 
 glabel lbl_801A0C3C
@@ -33856,7 +33932,13 @@ glabel lbl_801A1B00
 	.4byte draw__Q310homebutton3gui9InterfaceFRA3_A4_f
 	.4byte draw__Q310homebutton3gui9InterfaceFv
 	.4byte __dt__Q310homebutton3gui9InterfaceFv
+
+glabel lbl_801A1B40
+	# ROM: 0x19DC40
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+	
+glabel lbl_801A1B64
+	# ROM: 0x19DC64
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -33973,11 +34055,23 @@ glabel lbl_801A1CA8
 	.4byte setManager__Q310homebutton3gui9ComponentFPQ310homebutton3gui7Manager
 	.4byte isVisible__Q310homebutton3gui9ComponentFv
 	.4byte 0
+
+glabel lbl_801A1D08
+	# ROM: 0x19DE08
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+	
+glabel lbl_801A1D2C
+	# ROM: 0x19DE2C
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A1D38
+	# ROM: 0x19DE38
 	.asciz "NW4HBM:Pointer must not be NULL (list)"
 	.balign 4
+
+glabel lbl_801A1D60
+	# ROM: 0x19DE60
 	.asciz "list.h"
 	.balign 4
 
@@ -34044,6 +34138,9 @@ glabel lbl_801A1F6C
 	# ROM: 0x19E06C
 	.asciz "NW4HBM:Failed assertion sFrameBufferInfo.frameMemory != NULL"
 	.balign 4
+
+glabel lbl_801A1FAC
+	# ROM: 0x19E0AC
 	.asciz "NW4HBM:Pointer must not be NULL (str)"
 	.balign 4
 	.asciz "NW4HBM:Failed assertion width > 0"
@@ -34151,16 +34248,34 @@ glabel lbl_801A25BC
 	# ROM: 0x19E6BC
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A25C8
+	# ROM: 0x19E6C8
 	.asciz "NW4HBM:Failed assertion idx < ANIMTARGET_PANE_MAX"
 	.balign 4
+
+glabel lbl_801A25FC
+	# ROM: 0x19E6FC
 	.asciz "pane.h"
 	.balign 4
+
+glabel lbl_801A2604
+	# ROM: 0x19E704
 	.asciz "NW4HBM:Failed assertion texSRTIdx < mGXMemNum.texSRT"
 	.balign 4
+
+glabel lbl_801A263C
+	# ROM: 0x19E73C
 	.asciz "material.h"
 	.balign 4
+
+glabel lbl_801A2648
+	# ROM: 0x19E748
 	.asciz "NW4HBM:Failed assertion texSRTIdx < mGXMemNum.indSRT"
 	.balign 4
+
+glabel lbl_801A2680
+	# ROM: 0x19E780
 	.asciz "material.h"
 	.balign 8
 
@@ -34201,7 +34316,13 @@ glabel lbl_801A280C
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A2850
+	# ROM: 0x19E950
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A2874
+	# ROM: 0x19E974
 	.asciz "LinkList.h"
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
@@ -34303,10 +34424,22 @@ glabel lbl_801A2A88
 	# ROM: 0x19EB88
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A2A94
+	# ROM: 0x19EB94
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+	
+glabel lbl_801A2AB8
+	# ROM: 0x19EBB8
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A2AC4
+	# ROM: 0x19EBC4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A2AE8
+	# ROM: 0x19EBE8
 	.asciz "LinkList.h"
 	.balign 8
 
@@ -34345,13 +34478,31 @@ glabel lbl_801A2C38
 	.4byte lbl_8011B358
 	.4byte lbl_8011B378
 	.4byte SetTagProcessor__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm2ut19TagProcessorBase
+
+glabel lbl_801A2C6C
+	# ROM: 0x19ED6C
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A2C90
+	# ROM: 0x19ED90
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A2C9C
+	# ROM: 0x19ED9C
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A2CC0
+	# ROM: 0x19EDC0
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A2CCC
+	# ROM: 0x19EDCC
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A2CF0
+	# ROM: 0x19EDF0
 	.asciz "LinkList.h"
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
@@ -36017,10 +36168,22 @@ glabel lbl_801A53A8
 glabel lbl_801A53C8
 	# ROM: 0x1A14C8
 	.asciz "NW4HBM:Pointer must not be NULL (voice)"
+
+glabel lbl_801A53F0
+	# ROM: 0x1A14F0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A5414
+	# ROM: 0x1A1514
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A5420
+	# ROM: 0x1A1520
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A5444
+	# ROM: 0x1A1544
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -36090,6 +36253,9 @@ glabel lbl_801A5588
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (vpb)"
 	.balign 4
+
+glabel lbl_801A5680
+	# ROM: 0x1A1780
 	.asciz "NW4HBM:Pointer must not be NULL (waveParam.channelParam[channelIndex].dataAddr)"
 
 glabel lbl_801A56D0
@@ -36131,7 +36297,13 @@ glabel lbl_801A5878
 	.4byte __dt__Q46nw4hbm3snd6detail15DisposeCallbackFv
 	.4byte 0
 	.4byte 0
+
+glabel lbl_801A58A0
+	# ROM: 0x1A19A0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A58C4
+	# ROM: 0x1A19C4
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -36201,6 +36373,9 @@ glabel lbl_801A5B90
 	# ROM: 0x1A1C90
 	.asciz "snd_BasicSound.cpp"
 	.balign 4
+
+glabel lbl_801A5BA4
+	# ROM: 0x1A1CA4
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
 
@@ -36332,7 +36507,13 @@ glabel lbl_801A5F0C
 	# ROM: 0x1A200C
 	.asciz "InstanceManager.h"
 	.balign 4
+
+glabel lbl_801A5F20
+	# ROM: 0x1A2020
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A5F44
+	# ROM: 0x1A2044
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -36367,7 +36548,13 @@ glabel lbl_801A6050
 glabel lbl_801A6090
 	# ROM: 0x1A2190
 	.asciz "sustain is out of bounds(%d)\n%d <= sustain <= %d not satisfied."
+
+glabel lbl_801A60D0
+	# ROM: 0x1A21D0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A60F4
+	# ROM: 0x1A21F4
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -36379,7 +36566,13 @@ glabel lbl_801A6124
 	# ROM: 0x1A2224
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A6130
+	# ROM: 0x1A2230
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A6154
+	# ROM: 0x1A2254
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -36411,7 +36604,13 @@ glabel lbl_801A61A4
 	.balign 4
 	.asciz "FrameHeap::LoadState(): NewSection is Failed"
 	.balign 4
+
+glabel lbl_801A6338
+	# ROM: 0x1A2438
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A635C
+	# ROM: 0x1A245C
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -36813,6 +37012,9 @@ glabel lbl_801A7078
 	# ROM: 0x1A3178
 	.asciz "snd_SeqPlayer.cpp"
 	.balign 4
+
+glabel lbl_801A708C
+	# ROM: 0x1A318C
 	.asciz "trackNo is out of bounds(%d)\n%d <= trackNo < %d not satisfied."
 	.balign 4
 	.asciz "Not enough SeqTrack."
@@ -36997,7 +37199,13 @@ glabel lbl_801A73E8
 	.4byte 0
 	.4byte 0
 	.4byte 0
+
+glabel lbl_801A7550
+	# ROM: 0x1A3650
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A7574
+	# ROM: 0x1A3674
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -37108,6 +37316,9 @@ glabel lbl_801A78E0
 glabel lbl_801A78F4
 	# ROM: 0x1A39F4
 	.asciz "playerTrackNo is out of bounds(%d)\n%d <= playerTrackNo <= %d not satisfied."
+
+glabel lbl_801A7940
+	# ROM: 0x1A3A40
 	.asciz "release is out of bounds(%d)\n%d <= release <= %d not satisfied."
 	.asciz "NW4HBM:Pointer must not be NULL (dropChannel)"
 	.balign 4
@@ -37143,19 +37354,43 @@ glabel lbl_801A7B08
 	.balign 4
 	.asciz "portatime zero is invalid."
 	.balign 4
+
+glabel lbl_801A7BE0
+	# ROM: 0x1A3CE0
 	.asciz "fadeTimes is out of bounds(%d)\n%d <= fadeTimes <= %d not satisfied."
+
+glabel lbl_801A7C24
+	# ROM: 0x1A3D24
 	.asciz "Channel.h"
 	.balign 4
+
+glabel lbl_801A7C30
+	# ROM: 0x1A3D30
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
+
+glabel lbl_801A7C78
+	# ROM: 0x1A3D78
 	.asciz "Channel.h"
 	.balign 4
+
+glabel lbl_801A7C84
+	# ROM: 0x1A3D84
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
+
+glabel lbl_801A7CCC
+	# ROM: 0x1A3DCC
 	.asciz "Channel.h"
 	.balign 4
+
+glabel lbl_801A7CD8
+	# ROM: 0x1A3DD8
 	.asciz "remoteIndex is out of bounds(%d)\n%d <= remoteIndex < %d not satisfied."
 	.balign 4
+
+glabel lbl_801A7D20
+	# ROM: 0x1A3E20
 	.asciz "Channel.h"
 	.balign 8
 
@@ -37443,8 +37678,14 @@ glabel lbl_801A8730
 	# ROM: 0x1A4830
 	.asciz "Setup is not completed."
 	.asciz "NW4HBM:Pointer must not be NULL (mSoundArchive)"
+
+glabel lbl_801A8778
+	# ROM: 0x1A4878
 	.asciz "Failed to SoundArchivePlayer::GetGroupAddress because group table is not allocated.\n"
 	.balign 4
+
+glabel lbl_801A87D0
+# ROM: 0x1A48D0
 	.asciz "Failed to SoundArchivePlayer::GetGroupWaveDataAddress because group table is not allocated.\n"
 	.balign 4
 	.asciz "Failed to SoundArchivePlayer::SetGroupAddress because group table is not allocated.\n"
@@ -37973,20 +38214,44 @@ glabel lbl_801A98E0
 	# ROM: 0x1A59E0
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A98EC
+	# ROM: 0x1A59EC
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A9910
+	# ROM: 0x1A5A10
 	.asciz "LinkList.h"
 	.balign 4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A994C
+	# ROM: 0x1A5A4C
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+	
+glabel lbl_801A9970
+	# ROM: 0x1A5A90
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A997C
+	# ROM: 0x1A5A7C
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A99A0
+	# ROM: 0x1A5AA0
 	.asciz "LinkList.h"
 	.balign 4
+
+glabel lbl_801A99AC
+	# ROM: 0x1A5AAC
 	.asciz "NW4HBM:Failed assertion !IsEmpty()"
 	.balign 4
+
+glabel lbl_801A99D0
+	# ROM: 0x1A5AD0
 	.asciz "LinkList.h"
 	.balign 8
 
@@ -38014,7 +38279,13 @@ glabel lbl_801A9A8C
 glabel lbl_801A9AB0
 	# ROM: 0x1A5BB0
 	.asciz "NW4HBM:Failed assertion result != 0"
+
+glabel lbl_801A9AD4
+	# ROM: 0x1A5BD4
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801A9AF8
+	# ROM: 0x1A5BF8
 	.asciz "LinkList.h"
 	.balign 8
 
@@ -38228,7 +38499,13 @@ glabel lbl_801AA108
 	.4byte 0
 	.4byte 0
 	.4byte 0
+
+glabel lbl_801AA1B0
+	# ROM: 0x1A62B0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801AA1D4
+	# ROM: 0x1A62D4
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -38456,7 +38733,13 @@ glabel lbl_801AA97C
 	.4byte 0
 	.4byte 0
 	.4byte __dt__Q46nw4hbm3snd10WavePlayer10WavePacketFv
+
+glabel lbl_801AA994
+	# ROM: 0x1A6A94
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801AA9B8
+	# ROM: 0x1A6AB8
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -38771,7 +39054,13 @@ glabel lbl_801AB15C
 	.4byte 0
 	.4byte 0
 	.4byte 0
+
+glabel lbl_801AB2C0
+	# ROM: 0x1A73C0
 	.asciz "NW4HBM:Pointer must not be NULL (p)"
+
+glabel lbl_801AB2E4
+	# ROM: 0x1A73E4
 	.asciz "LinkList.h"
 	.balign 4
 
@@ -38793,6 +39082,9 @@ glabel lbl_801AB334
 	# ROM: 0x1A7434
 	.asciz "NW4HBM:Pointer must not be NULL (mWsdPlayer)"
 	.balign 8
+
+glabel lbl_801AB368
+	# ROM: 0x1A7468
 	.asciz "release is out of bounds(%d)\n%d <= release <= %d not satisfied."
 	.asciz "NW4HBM:Pointer must not be NULL (dropChannel)"
 	.balign 4
@@ -39379,6 +39671,9 @@ glabel lbl_801AD378
 	.4byte lbl_8015D78C
 	.4byte lbl_8015D774
 	.4byte lbl_8015D75C
+	
+glabel lbl_801AD3BC
+	# ROM: 0x1A94BC
 	.4byte lbl_8015E230
 	.4byte lbl_8015DDE8
 	.4byte lbl_8015DDFC
@@ -39396,6 +39691,9 @@ glabel lbl_801AD378
 	.4byte lbl_8015E230
 	.4byte lbl_8015E210
 	.4byte lbl_8015E1B0
+
+glabel lbl_801AD400
+	# ROM: 0x1A9500
 	.4byte lbl_8015E808
 	.4byte lbl_8015E800
 	.4byte lbl_8015E808
@@ -39810,6 +40108,9 @@ glabel lbl_801AD918
 	.4byte lbl_80162DE0
 	.4byte lbl_80162DE0
 	.4byte lbl_80162BE8
+	
+glabel lbl_801AD9F8
+	# ROM: 0x1A9AF8
 	.4byte lbl_801628E4
 	.4byte lbl_80162914
 	.4byte lbl_80162914
@@ -39899,6 +40200,9 @@ glabel lbl_801ADAC0
 	.4byte lbl_8016314C
 	.4byte lbl_8016314C
 	.4byte lbl_80163140
+	
+glabel lbl_801ADB44
+	# ROM: 0x1A9C44
 	.4byte lbl_801645F0
 	.4byte lbl_801647E8
 	.4byte lbl_801645F8
@@ -39989,6 +40293,9 @@ glabel lbl_801ADC68
 	.4byte lbl_80165A88
 	.4byte lbl_80165A90
 	.4byte lbl_80165A98
+	
+glabel lbl_801ADC88
+	# ROM: 0x1A9D88
 	.4byte lbl_801682A0
 	.4byte lbl_80167FA8
 	.4byte lbl_80168070
@@ -40006,6 +40313,9 @@ glabel lbl_801ADC68
 	.4byte lbl_801682A0
 	.4byte lbl_801682A0
 	.4byte lbl_80168108
+	
+glabel lbl_801ADCCC
+	# ROM: 0x1A9DCC
 	.4byte lbl_80168750
 	.4byte lbl_801683F4
 	.4byte lbl_801684BC
@@ -40023,6 +40333,9 @@ glabel lbl_801ADC68
 	.4byte lbl_80168750
 	.4byte lbl_80168750
 	.4byte lbl_80168554
+
+glabel lbl_801ADD10
+	# ROM: 0x1A9E10
 	.4byte lbl_8016A370
 	.4byte lbl_8016A390
 	.4byte lbl_8016A390

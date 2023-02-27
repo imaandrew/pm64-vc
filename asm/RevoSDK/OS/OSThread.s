@@ -37,11 +37,11 @@ glabel __OSThreadInit
 /* 80097948 00092E68  4B FF 9B 59 */	bl OSClearContext
 /* 8009794C 00092E6C  7F C3 F3 78 */	mr r3, r30
 /* 80097950 00092E70  4B FF 99 29 */	bl OSSetCurrentContext
-/* 80097954 00092E74  3C 80 80 26 */	lis r4, 0x802586D0@ha
-/* 80097958 00092E78  3C A0 80 25 */	lis r5, 0x802486D0@ha
-/* 8009795C 00092E7C  38 84 86 D0 */	addi r4, r4, 0x802586D0@l
+/* 80097954 00092E74  3C 80 80 26 */	lis r4, _stack_addr@ha
+/* 80097958 00092E78  3C A0 80 25 */	lis r5, _stack_end@ha
+/* 8009795C 00092E7C  38 84 86 D0 */	addi r4, r4, _stack_addr@l
 /* 80097960 00092E80  3C 60 DE AE */	lis r3, 0xDEADBABE@ha
-/* 80097964 00092E84  38 A5 86 D0 */	addi r5, r5, 0x802486D0@l
+/* 80097964 00092E84  38 A5 86 D0 */	addi r5, r5, _stack_end@l
 /* 80097968 00092E88  90 9E 03 04 */	stw r4, 0x304(r30)
 /* 8009796C 00092E8C  38 03 BA BE */	addi r0, r3, 0xDEADBABE@l
 /* 80097970 00092E90  7F C4 F3 78 */	mr r4, r30

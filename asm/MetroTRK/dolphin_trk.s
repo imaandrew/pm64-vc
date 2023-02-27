@@ -29,8 +29,8 @@ glabel InitMetroTRK
 /* 80173414 0016E934  38 00 00 00 */	li r0, 0
 /* 80173418 0016E938  7C 12 FB A6 */	mtspr 0x3f2, r0
 /* 8017341C 0016E93C  7C 15 FB A6 */	mtspr 0x3f5, r0
-/* 80173420 0016E940  3C 20 80 25 */	lis r1, 0x8025A6D0@h
-/* 80173424 0016E944  60 21 A6 D0 */	ori r1, r1, 0x8025A6D0@l
+/* 80173420 0016E940  3C 20 80 25 */	lis r1, _db_stack_addr@h
+/* 80173424 0016E944  60 21 A6 D0 */	ori r1, r1, _db_stack_addr@l
 /* 80173428 0016E948  7C A3 2B 78 */	mr r3, r5
 /* 8017342C 0016E94C  48 00 05 A1 */	bl InitMetroTRKCommTable
 /* 80173430 0016E950  2C 03 00 01 */	cmpwi r3, 1
@@ -69,8 +69,8 @@ glabel IntroMetroTRK_BBA
 /* 801734A8 0016E9C8  38 00 00 00 */	li r0, 0
 /* 801734AC 0016E9CC  7C 12 FB A6 */	mtspr 0x3f2, r0
 /* 801734B0 0016E9D0  7C 15 FB A6 */	mtspr 0x3f5, r0
-/* 801734B4 0016E9D4  3C 20 80 25 */	lis r1, 0x8025A6D0@h
-/* 801734B8 0016E9D8  60 21 A6 D0 */	ori r1, r1, 0x8025A6D0@l
+/* 801734B4 0016E9D4  3C 20 80 25 */	lis r1, _db_stack_addr@h
+/* 801734B8 0016E9D8  60 21 A6 D0 */	ori r1, r1, _db_stack_addr@l
 /* 801734BC 0016E9DC  38 60 00 02 */	li r3, 2
 /* 801734C0 0016E9E0  48 00 05 0D */	bl InitMetroTRKCommTable
 /* 801734C4 0016E9E4  2C 03 00 01 */	cmpwi r3, 1

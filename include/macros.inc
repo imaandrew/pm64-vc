@@ -18,9 +18,6 @@ BSS sections:
 Entry Point: 0x8000403C
 */
 
-.set _SDA_BASE_, 0x8024E480
-.set _SDA2_BASE_, 0x8024F800
-
 # glabel
 .macro glabel label
     .global \label

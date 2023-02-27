@@ -5176,6 +5176,9 @@ glabel lbl_801793D8
 	.4byte 0x00000003
 	.4byte 0x00000004
 	.4byte 0x00000006
+	
+glabel lbl_801793E8
+	# ROM: 0x1754E8
 	.4byte 0x3FF921FB
 	.4byte 0x40000000
 	.4byte 0x3E74442D

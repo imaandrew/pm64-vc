@@ -1372,7 +1372,7 @@ glabel lbl_80175BD0
 	.4byte bta_dm_search_cancel_transac_cmpl
 	.4byte bta_dm_disc_rmt_name
 	.4byte bta_dm_cancel_rmt_name
-lbl_80175C18:
+.L_80175C18:
 	.4byte 0x0012010E
 	.4byte 0x12000212
 	.4byte 0x03121200
@@ -1380,7 +1380,7 @@ lbl_80175C18:
 	.4byte 0x12000712
 	.4byte 0x00121200
 	.4byte 0x12120000
-lbl_80175C34:
+.L_80175C34:
 	.4byte 0x12120101
 	.4byte 0x12021212
 	.4byte 0x01031201
@@ -1388,7 +1388,7 @@ lbl_80175C34:
 	.4byte 0x12010512
 	.4byte 0x01061200
 	.4byte 0x09120100
-lbl_80175C50:
+.L_80175C50:
 	.4byte 0x0A12020C
 	.4byte 0x0E020B12
 	.4byte 0x020D1200
@@ -1396,7 +1396,7 @@ lbl_80175C50:
 	.4byte 0x12020F0D
 	.4byte 0x000D1200
 	.4byte 0x0D120000
-lbl_80175C6C:
+.L_80175C6C:
 	.4byte 0x1212030E
 	.4byte 0x12031212
 	.4byte 0x03121203
@@ -1407,10 +1407,10 @@ lbl_80175C6C:
 
 glabel lbl_80175C88
 	# ROM: 0x171D88
-	.4byte lbl_80175C18
-	.4byte lbl_80175C34
-	.4byte lbl_80175C50
-	.4byte lbl_80175C6C
+	.4byte .L_80175C18
+	.4byte .L_80175C34
+	.4byte .L_80175C50
+	.4byte .L_80175C6C
 
 glabel lbl_80175C98
 	# ROM: 0x171D98
@@ -1426,21 +1426,21 @@ glabel lbl_80175C98
 	.4byte bta_hh_get_dscp_act
 	.4byte bta_hh_maint_dev_act
 	.4byte bta_hh_open_cmpl_act
-lbl_80175CC8:
+.L_80175CC8:
 	.4byte 0x06020C01
 	.4byte 0x01020201
 	.4byte 0x0C010C01
 	.4byte 0x0C010C01
 	.4byte 0x0C010C01
 	.4byte 0x0A010C01
-lbl_80175CE0:
+.L_80175CE0:
 	.4byte 0x0C020C01
 	.4byte 0x01020201
 	.4byte 0x0C020C02
 	.4byte 0x0C020702
 	.4byte 0x0C020C02
 	.4byte 0x0A010B03
-lbl_80175CF8:
+.L_80175CF8:
 	.4byte 0x0C030003
 	.4byte 0x01030201
 	.4byte 0x03030403
@@ -1450,9 +1450,9 @@ lbl_80175CF8:
 
 glabel lbl_80175D10
 	# ROM: 0x171E10
-	.4byte lbl_80175CC8
-	.4byte lbl_80175CE0
-	.4byte lbl_80175CF8
+	.4byte .L_80175CC8
+	.4byte .L_80175CE0
+	.4byte .L_80175CF8
 	.4byte 0
 
 glabel lbl_80175D20
@@ -5351,3 +5351,4 @@ glabel lbl_8017962C
 	.asciz "MetroTRK : Invalid hardware ID passed from OS\n"
 	.balign 4
 	.asciz "MetroTRK : Defaulting to GDEV Hardware\n"
+

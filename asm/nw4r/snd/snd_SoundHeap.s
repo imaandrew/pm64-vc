@@ -31,7 +31,7 @@ glabel __dt__Q36nw4hbm3snd9SoundHeapFv
 /* 8013C918 00137E38  7C 9F 23 78 */	mr r31, r4
 /* 8013C91C 00137E3C  93 C1 00 08 */	stw r30, 8(r1)
 /* 8013C920 00137E40  7C 7E 1B 78 */	mr r30, r3
-/* 8013C924 00137E44  41 82 00 34 */	beq lbl_8013C958
+/* 8013C924 00137E44  41 82 00 34 */	beq .L_8013C958
 /* 8013C928 00137E48  3C 80 80 1B */	lis r4, lbl_801A9268@ha
 /* 8013C92C 00137E4C  38 84 92 68 */	addi r4, r4, lbl_801A9268@l
 /* 8013C930 00137E50  90 83 00 00 */	stw r4, 0(r3)
@@ -41,10 +41,10 @@ glabel __dt__Q36nw4hbm3snd9SoundHeapFv
 /* 8013C940 00137E60  38 80 FF FF */	li r4, -1
 /* 8013C944 00137E64  4B FF 33 39 */	bl __dt__Q46nw4hbm3snd6detail9FrameHeapFv
 /* 8013C948 00137E68  2C 1F 00 00 */	cmpwi r31, 0
-/* 8013C94C 00137E6C  40 81 00 0C */	ble lbl_8013C958
+/* 8013C94C 00137E6C  40 81 00 0C */	ble .L_8013C958
 /* 8013C950 00137E70  7F C3 F3 78 */	mr r3, r30
 /* 8013C954 00137E74  48 01 F8 BD */	bl operator_delete
-lbl_8013C958:
+.L_8013C958:
 /* 8013C958 00137E78  7F C3 F3 78 */	mr r3, r30
 /* 8013C95C 00137E7C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 8013C960 00137E80  83 C1 00 08 */	lwz r30, 8(r1)
@@ -113,3 +113,4 @@ glabel DisposeCallbackFunc__Q36nw4hbm3snd9SoundHeapFPvUlPv
 /* 8013CA3C 00137F5C  7C 08 03 A6 */	mtlr r0
 /* 8013CA40 00137F60  38 21 00 20 */	addi r1, r1, 0x20
 /* 8013CA44 00137F64  4E 80 00 20 */	blr 
+

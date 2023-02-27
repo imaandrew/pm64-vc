@@ -27,3 +27,4 @@ glabel GAP_Init
 /* 800EEE60 000EA380  7C 08 03 A6 */	mtlr r0
 /* 800EEE64 000EA384  38 21 00 10 */	addi r1, r1, 0x10
 /* 800EEE68 000EA388  4E 80 00 20 */	blr 
+

@@ -24,3 +24,4 @@ glabel PSQUATNormalize
 /* 800A3520 0009EA40  11 A5 61 FA */	ps_madd f13, f5, f7, f12
 /* 800A3524 0009EA44  F1 A5 80 08 */	psq_st f13, 8(r5), 1, qr0
 /* 800A3528 0009EA48  4E 80 00 20 */	blr 
+

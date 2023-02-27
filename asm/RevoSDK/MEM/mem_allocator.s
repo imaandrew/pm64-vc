@@ -31,3 +31,4 @@ glabel MEMInitAllocatorForFrmHeap
 /* 800B7F24 000B3444  90 A3 00 08 */	stw r5, 8(r3)
 /* 800B7F28 000B3448  90 03 00 0C */	stw r0, 0xc(r3)
 /* 800B7F2C 000B344C  4E 80 00 20 */	blr 
+

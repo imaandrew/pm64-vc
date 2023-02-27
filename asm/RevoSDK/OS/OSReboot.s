@@ -34,3 +34,4 @@ glabel OSGetSaveRegion
 /* 80096718 00091C38  80 0D 8C FC */	lwz r0, lbl_8024717C@sda21(r13)
 /* 8009671C 00091C3C  90 04 00 00 */	stw r0, 0(r4)
 /* 80096720 00091C40  4E 80 00 20 */	blr 
+

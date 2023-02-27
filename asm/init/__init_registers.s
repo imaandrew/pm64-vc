@@ -39,3 +39,4 @@ glabel __init_registers
 /* 8000422C 0000032C  3D A0 80 24 */	lis r13, _SDA_BASE_@h
 /* 80004230 00000330  61 AD E4 80 */	ori r13, r13, _SDA_BASE_@l
 /* 80004234 00000334  4E 80 00 20 */	blr 
+

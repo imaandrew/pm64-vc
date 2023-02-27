@@ -23,3 +23,4 @@ glabel RFCOMM_Init
 /* 800FBB78 000F7098  7C 08 03 A6 */	mtlr r0
 /* 800FBB7C 000F709C  38 21 00 10 */	addi r1, r1, 0x10
 /* 800FBB80 000F70A0  4E 80 00 20 */	blr 
+

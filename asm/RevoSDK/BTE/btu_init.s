@@ -35,3 +35,4 @@ glabel BTE_Init
 /* 800EED20 000EA240  7C 08 03 A6 */	mtlr r0
 /* 800EED24 000EA244  38 21 00 10 */	addi r1, r1, 0x10
 /* 800EED28 000EA248  4E 80 00 20 */	blr 
+

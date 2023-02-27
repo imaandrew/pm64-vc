@@ -9,11 +9,11 @@ glabel __dt__Q36nw4hbm3lyt16ResourceAccessorFv
 /* 80120B0C 0011C02C  90 01 00 14 */	stw r0, 0x14(r1)
 /* 80120B10 0011C030  93 E1 00 0C */	stw r31, 0xc(r1)
 /* 80120B14 0011C034  7C 7F 1B 78 */	mr r31, r3
-/* 80120B18 0011C038  41 82 00 10 */	beq lbl_80120B28
+/* 80120B18 0011C038  41 82 00 10 */	beq .L_80120B28
 /* 80120B1C 0011C03C  2C 04 00 00 */	cmpwi r4, 0
-/* 80120B20 0011C040  40 81 00 08 */	ble lbl_80120B28
+/* 80120B20 0011C040  40 81 00 08 */	ble .L_80120B28
 /* 80120B24 0011C044  48 03 B6 ED */	bl operator_delete
-lbl_80120B28:
+.L_80120B28:
 /* 80120B28 0011C048  7F E3 FB 78 */	mr r3, r31
 /* 80120B2C 0011C04C  83 E1 00 0C */	lwz r31, 0xc(r1)
 /* 80120B30 0011C050  80 01 00 14 */	lwz r0, 0x14(r1)
@@ -30,3 +30,4 @@ glabel __ct__Q36nw4hbm3lyt16ResourceAccessorFv
 glabel GetFont__Q36nw4hbm3lyt16ResourceAccessorFPCc
 /* 80120B50 0011C070  38 60 00 00 */	li r3, 0
 /* 80120B54 0011C074  4E 80 00 20 */	blr 
+

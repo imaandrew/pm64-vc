@@ -155,7 +155,7 @@ glabel Console_DrawDirect__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHead
 /* 801162A4 001117C4  38 80 00 00 */	li r4, 0
 /* 801162A8 001117C8  4B FF FD E1 */	bl DoDrawConsole___Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPQ36nw4hbm2ut17TextWriterBase_c_
 /* 801162AC 001117CC  48 00 08 AD */	bl DirectPrint_StoreCache__Q26nw4hbm2dbFv
-/* 801162B0 001117D0  38 7F 8A 80 */	addi r3, r31, -30080
+/* 801162B0 001117D0  38 7F 8A 80 */	addi r3, r31, lbl_80228A80@l
 /* 801162B4 001117D4  4B F8 02 C9 */	bl OSUnlockMutex
 .L_801162B8:
 /* 801162B8 001117D8  80 01 00 14 */	lwz r0, 0x14(r1)
@@ -563,7 +563,7 @@ glabel Console_Printf__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPCce
 /* 80116860 00111D80  4C C6 31 82 */	crclr 6
 /* 80116864 00111D84  4B F7 B0 49 */	bl OSReport
 /* 80116868 00111D88  7F A3 EB 78 */	mr r3, r29
-/* 8011686C 00111D8C  38 9F 8A 98 */	addi r4, r31, -30056
+/* 8011686C 00111D8C  38 9F 8A 98 */	addi r4, r31, lbl_80228A98@l
 /* 80116870 00111D90  4B FF FA 61 */	bl PrintToBuffer___Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPCUc
 /* 80116874 00111D94  3C 60 80 23 */	lis r3, lbl_80228A80@ha
 /* 80116878 00111D98  38 63 8A 80 */	addi r3, r3, lbl_80228A80@l

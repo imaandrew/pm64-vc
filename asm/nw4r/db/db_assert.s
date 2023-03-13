@@ -171,16 +171,16 @@ glabel VPanic__Q24nw4r2dbFPCciPCcP16__va_list_structb
 /* 80115CB4 001111D4  38 9E 00 68 */	addi r4, r30, 0x68
 /* 80115CB8 001111D8  4C C6 31 82 */	crclr 6
 /* 80115CBC 001111DC  48 00 0A B9 */	bl Console_Printf__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPCce
-/* 80115CC0 001111E0  80 9F 8A 78 */	lwz r4, -0x7588(r31)
+/* 80115CC0 001111E0  80 9F 8A 78 */	lwz r4, lbl_80228A78@l(r31)
 /* 80115CC4 001111E4  7F 65 DB 78 */	mr r5, r27
 /* 80115CC8 001111E8  7F 86 E3 78 */	mr r6, r28
 /* 80115CCC 001111EC  38 60 00 03 */	li r3, 3
 /* 80115CD0 001111F0  48 00 09 C5 */	bl Console_VFPrintf__Q26nw4hbm2dbFQ36nw4hbm2db17ConsoleOutputTypePQ46nw4hbm2db6detail11ConsoleHeadPCcP16__va_list_struct
-/* 80115CD4 001111F4  80 7F 8A 78 */	lwz r3, -0x7588(r31)
+/* 80115CD4 001111F4  80 7F 8A 78 */	lwz r3, lbl_80228A78@l(r31)
 /* 80115CD8 001111F8  38 9E 00 64 */	addi r4, r30, 0x64
 /* 80115CDC 001111FC  4C C6 31 82 */	crclr 6
 /* 80115CE0 00111200  48 00 0A 95 */	bl Console_Printf__Q26nw4hbm2dbFPQ46nw4hbm2db6detail11ConsoleHeadPCce
-/* 80115CE4 00111204  83 BF 8A 78 */	lwz r29, -0x7588(r31)
+/* 80115CE4 00111204  83 BF 8A 78 */	lwz r29, lbl_80228A78@l(r31)
 /* 80115CE8 00111208  2C 1D 00 00 */	cmpwi r29, 0
 /* 80115CEC 0011120C  40 82 00 18 */	bne .L_80115D04
 /* 80115CF0 00111210  38 7E 00 78 */	addi r3, r30, 0x78

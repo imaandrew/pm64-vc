@@ -18,7 +18,7 @@ glabel InitSoundSystem__Q36nw4hbm3snd11SoundSystemFll
 /* 8013E7E8 00139D08  2C 00 00 00 */	cmpwi r0, 0
 /* 8013E7EC 00139D0C  40 82 01 00 */	bne .L_8013E8EC
 /* 8013E7F0 00139D10  38 00 00 01 */	li r0, 1
-/* 8013E7F4 00139D14  98 05 93 00 */	stb r0, -0x6d00(r5)
+/* 8013E7F4 00139D14  98 05 93 00 */	stb r0, lbl_80239300@l(r5)
 /* 8013E7F8 00139D18  4B FE 83 A5 */	bl GetInstance__Q46nw4hbm3snd6detail9AxManagerFv
 /* 8013E7FC 00139D1C  4B FE 84 B5 */	bl Init__Q46nw4hbm3snd6detail9AxManagerFv
 /* 8013E800 00139D20  4B F7 DA 09 */	bl SCInit

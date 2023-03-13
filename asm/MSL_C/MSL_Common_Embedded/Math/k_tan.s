@@ -67,7 +67,7 @@ glabel __kernel_tan
 /* 8016DDC4 001692E4  C9 45 00 48 */	lfd f10, 0x48(r5)
 /* 8016DDC8 001692E8  FC 80 00 72 */	fmul f4, f0, f1
 /* 8016DDCC 001692EC  FC E3 01 72 */	fmul f7, f3, f5
-/* 8016DDD0 001692F0  C8 A6 94 28 */	lfd f5, -0x6bd8(r6)
+/* 8016DDD0 001692F0  C8 A6 94 28 */	lfd f5, lbl_80179428@l(r6)
 /* 8016DDD4 001692F4  C9 25 00 40 */	lfd f9, 0x40(r5)
 /* 8016DDD8 001692F8  FD 63 02 32 */	fmul f11, f3, f8
 /* 8016DDDC 001692FC  CB E5 00 38 */	lfd f31, 0x38(r5)

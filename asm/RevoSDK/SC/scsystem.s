@@ -371,7 +371,7 @@ glabel FinishFromReload
 /* 800BC728 000B7C48  93 E1 00 1C */	stw r31, 0x1c(r1)
 /* 800BC72C 000B7C4C  3B E0 00 00 */	li r31, 0
 /* 800BC730 000B7C50  93 C1 00 18 */	stw r30, 0x18(r1)
-/* 800BC734 000B7C54  3F C0 80 0C */	lis r30, 0x800c
+/* 800BC734 000B7C54  3F C0 80 0C */	lis r30, OpenCallbackFromReload@ha
 /* 800BC738 000B7C58  93 A1 00 14 */	stw r29, 0x14(r1)
 /* 800BC73C 000B7C5C  3F A0 80 1E */	lis r29, lbl_801E4EA0@ha
 /* 800BC740 000B7C60  3B BD 4E A0 */	addi r29, r29, lbl_801E4EA0@l
@@ -388,7 +388,7 @@ glabel FinishFromReload
 /* 800BC768 000B7C88  7C 7D 02 14 */	add r3, r29, r0
 /* 800BC76C 000B7C8C  38 9D 00 08 */	addi r4, r29, 8
 /* 800BC770 000B7C90  80 63 01 60 */	lwz r3, 0x160(r3)
-/* 800BC774 000B7C94  38 DE C4 D8 */	addi r6, r30, -15144
+/* 800BC774 000B7C94  38 DE C4 D8 */	addi r6, r30, OpenCallbackFromReload@l
 /* 800BC778 000B7C98  38 FD 00 94 */	addi r7, r29, 0x94
 /* 800BC77C 000B7C9C  38 A0 00 01 */	li r5, 1
 /* 800BC780 000B7CA0  4B FF DA 59 */	bl NANDPrivateOpenAsync

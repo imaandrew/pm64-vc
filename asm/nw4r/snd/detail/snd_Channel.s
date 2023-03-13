@@ -36,7 +36,7 @@ glabel __ct__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012DD14 00129234  3C C0 80 24 */	lis r6, lbl_80238D90@ha
 /* 8012DD18 00129238  3C 80 80 13 */	lis r4, __dt__Q46nw4hbm3snd6detail14ChannelManagerFv@ha
 /* 8012DD1C 0012923C  38 66 8D 90 */	addi r3, r6, lbl_80238D90@l
-/* 8012DD20 00129240  93 C6 8D 90 */	stw r30, -0x7270(r6)
+/* 8012DD20 00129240  93 C6 8D 90 */	stw r30, lbl_80238D90@l(r6)
 /* 8012DD24 00129244  3C A0 80 23 */	lis r5, lbl_80233588@ha
 /* 8012DD28 00129248  38 84 DD F0 */	addi r4, r4, __dt__Q46nw4hbm3snd6detail14ChannelManagerFv@l
 /* 8012DD2C 0012924C  93 C3 00 04 */	stw r30, 4(r3)
@@ -53,7 +53,7 @@ glabel __ct__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012DD58 00129278  90 C3 00 14 */	stw r6, 0x14(r3)
 /* 8012DD5C 0012927C  48 02 E3 6D */	bl __register_global_object_tmp
 /* 8012DD60 00129280  38 00 00 01 */	li r0, 1
-/* 8012DD64 00129284  98 1F 8D 88 */	stb r0, -0x7278(r31)
+/* 8012DD64 00129284  98 1F 8D 88 */	stb r0, lbl_80238D88@l(r31)
 .L_8012DD68:
 /* 8012DD68 00129288  2C 1D 00 00 */	cmpwi r29, 0
 /* 8012DD6C 0012928C  3F C0 80 24 */	lis r30, lbl_80238D90@ha
@@ -155,7 +155,7 @@ glabel __dt__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012DEC8 001293E8  38 A5 35 88 */	addi r5, r5, lbl_80233588@l
 /* 8012DECC 001293EC  90 03 00 10 */	stw r0, 0x10(r3)
 /* 8012DED0 001293F0  90 03 00 14 */	stw r0, 0x14(r3)
-/* 8012DED4 001293F4  90 06 8D 90 */	stw r0, -0x7270(r6)
+/* 8012DED4 001293F4  90 06 8D 90 */	stw r0, lbl_80238D90@l(r6)
 /* 8012DED8 001293F8  91 03 00 04 */	stw r8, 4(r3)
 /* 8012DEDC 001293FC  91 03 00 08 */	stw r8, 8(r3)
 /* 8012DEE0 00129400  90 03 00 0C */	stw r0, 0xc(r3)
@@ -163,7 +163,7 @@ glabel __dt__Q46nw4hbm3snd6detail7ChannelFv
 /* 8012DEE8 00129408  90 E3 00 14 */	stw r7, 0x14(r3)
 /* 8012DEEC 0012940C  48 02 E1 DD */	bl __register_global_object_tmp
 /* 8012DEF0 00129410  38 00 00 01 */	li r0, 1
-/* 8012DEF4 00129414  98 1F 8D 88 */	stb r0, -0x7278(r31)
+/* 8012DEF4 00129414  98 1F 8D 88 */	stb r0, lbl_80238D88@l(r31)
 .L_8012DEF8:
 /* 8012DEF8 00129418  2C 1D 00 00 */	cmpwi r29, 0
 /* 8012DEFC 0012941C  3F E0 80 24 */	lis r31, lbl_80238D90@ha
@@ -1067,7 +1067,7 @@ glabel AllocChannel__Q46nw4hbm3snd6detail7ChannelFiiiPFPQ46nw4hbm3snd6detail7Cha
 .L_8012EC04:
 /* 8012EC04 0012A124  3C 60 80 24 */	lis r3, lbl_80238D90@ha
 /* 8012EC08 0012A128  80 03 8D 90 */	lwz r0, lbl_80238D90@l(r3)
-/* 8012EC0C 0012A12C  3A E3 8D 90 */	addi r23, r3, -29296
+/* 8012EC0C 0012A12C  3A E3 8D 90 */	addi r23, r3, lbl_80238D90@l
 /* 8012EC10 0012A130  2C 00 00 00 */	cmpwi r0, 0
 /* 8012EC14 0012A134  40 82 00 0C */	bne .L_8012EC20
 /* 8012EC18 0012A138  3A C0 00 00 */	li r22, 0

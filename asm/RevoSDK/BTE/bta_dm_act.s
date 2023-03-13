@@ -1162,7 +1162,7 @@ glabel bta_dm_find_services
 /* 800DEF10 000DA430  3B E0 00 01 */	li r31, 1
 /* 800DEF14 000DA434  3A E0 00 01 */	li r23, 1
 /* 800DEF18 000DA438  3B 00 00 02 */	li r24, 2
-/* 800DEF1C 000DA43C  3F 60 80 0E */	lis r27, 0x800e
+/* 800DEF1C 000DA43C  3F 60 80 0E */	lis r27, bta_dm_sdp_callback@ha
 /* 800DEF20 000DA440  3B 80 00 00 */	li r28, 0
 /* 800DEF24 000DA444  3B A0 00 17 */	li r29, 0x17
 /* 800DEF28 000DA448  48 00 00 BC */	b .L_800DEFE4
@@ -1198,7 +1198,7 @@ glabel bta_dm_find_services
 /* 800DEF98 000DA4B8  48 02 30 2D */	bl SDP_InitDiscoveryDb
 /* 800DEF9C 000DA4BC  80 9A 00 14 */	lwz r4, 0x14(r26)
 /* 800DEFA0 000DA4C0  7F C3 F3 78 */	mr r3, r30
-/* 800DEFA4 000DA4C4  38 BB F1 58 */	addi r5, r27, -3752
+/* 800DEFA4 000DA4C4  38 BB F1 58 */	addi r5, r27, bta_dm_sdp_callback@l
 /* 800DEFA8 000DA4C8  48 02 33 F1 */	bl SDP_ServiceSearchAttributeRequest
 /* 800DEFAC 000DA4CC  54 60 06 3F */	clrlwi. r0, r3, 0x18
 /* 800DEFB0 000DA4D0  40 82 00 18 */	bne .L_800DEFC8
@@ -1814,11 +1814,11 @@ glabel bta_dm_signal_strength_cback
 /* 800DF83C 000DAD5C  54 00 07 FF */	clrlwi. r0, r0, 0x1f
 /* 800DF840 000DAD60  41 82 00 38 */	beq .L_800DF878
 /* 800DF844 000DAD64  3B A0 00 00 */	li r29, 0
-/* 800DF848 000DAD68  3F C0 80 0E */	lis r30, 0x800e
+/* 800DF848 000DAD68  3F C0 80 0E */	lis r30, bta_dm_rssi_cback@ha
 /* 800DF84C 000DAD6C  48 00 00 1C */	b .L_800DF868
 .L_800DF850:
 /* 800DF850 000DAD70  57 A0 06 3E */	clrlwi r0, r29, 0x18
-/* 800DF854 000DAD74  38 9E FC 18 */	addi r4, r30, -1000
+/* 800DF854 000DAD74  38 9E FC 18 */	addi r4, r30, bta_dm_rssi_cback@l
 /* 800DF858 000DAD78  1C 00 00 0B */	mulli r0, r0, 0xb
 /* 800DF85C 000DAD7C  7C 7F 02 14 */	add r3, r31, r0
 /* 800DF860 000DAD80  48 00 53 65 */	bl BTM_ReadRSSI
@@ -1835,11 +1835,11 @@ glabel bta_dm_signal_strength_cback
 /* 800DF884 000DADA4  54 00 07 BD */	rlwinm. r0, r0, 0, 0x1e, 0x1e
 /* 800DF888 000DADA8  41 82 00 38 */	beq .L_800DF8C0
 /* 800DF88C 000DADAC  3B A0 00 00 */	li r29, 0
-/* 800DF890 000DADB0  3F E0 80 0E */	lis r31, 0x800e
+/* 800DF890 000DADB0  3F E0 80 0E */	lis r31, bta_dm_link_quality_cback@ha
 /* 800DF894 000DADB4  48 00 00 1C */	b .L_800DF8B0
 .L_800DF898:
 /* 800DF898 000DADB8  57 A0 06 3E */	clrlwi r0, r29, 0x18
-/* 800DF89C 000DADBC  38 9F FC 84 */	addi r4, r31, -892
+/* 800DF89C 000DADBC  38 9F FC 84 */	addi r4, r31, bta_dm_link_quality_cback@l
 /* 800DF8A0 000DADC0  1C 00 00 0B */	mulli r0, r0, 0xb
 /* 800DF8A4 000DADC4  7C 7E 02 14 */	add r3, r30, r0
 /* 800DF8A8 000DADC8  48 00 54 59 */	bl BTM_ReadLinkQuality

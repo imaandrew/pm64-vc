@@ -130,7 +130,7 @@ glabel DirectPrint_EraseXfb__Q26nw4hbm2dbFiiii
 glabel DirectPrint_StoreCache__Q26nw4hbm2dbFv
 /* 80116B58 00112078  3C 60 80 23 */	lis r3, lbl_80228E98@ha
 /* 80116B5C 0011207C  38 83 8E 98 */	addi r4, r3, lbl_80228E98@l
-/* 80116B60 00112080  80 63 8E 98 */	lwz r3, -0x7168(r3)
+/* 80116B60 00112080  80 63 8E 98 */	lwz r3, lbl_80228E98@l(r3)
 /* 80116B64 00112084  80 84 00 04 */	lwz r4, 4(r4)
 /* 80116B68 00112088  4B F7 A1 34 */	b DCStoreRange
 
@@ -441,7 +441,7 @@ glabel DrawCharToXfb___Q26nw4hbm2dbFiii
 /* 80116FA8 001124C8  7C C6 E0 10 */	subfc r6, r6, r28
 /* 80116FAC 001124CC  A1 05 00 0C */	lhz r8, 0xc(r5)
 /* 80116FB0 001124D0  7D 66 31 10 */	subfe r11, r6, r6
-/* 80116FB4 001124D4  81 8C 8E 98 */	lwz r12, -0x7168(r12)
+/* 80116FB4 001124D4  81 8C 8E 98 */	lwz r12, lbl_80228E98@l(r12)
 /* 80116FB8 001124D8  7C 00 38 10 */	subfc r0, r0, r7
 /* 80116FBC 001124DC  7C C0 01 10 */	subfe r6, r0, r0
 /* 80116FC0 001124E0  38 C6 00 02 */	addi r6, r6, 2

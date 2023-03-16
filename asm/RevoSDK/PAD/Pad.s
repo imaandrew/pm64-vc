@@ -798,7 +798,7 @@ glabel PADInit
 /* 800C2E50 000BE370  64 05 4D 40 */	oris r5, r0, 0x4d40
 /* 800C2E54 000BE374  64 03 4D 80 */	oris r3, r0, 0x4d80
 /* 800C2E58 000BE378  64 00 4D C0 */	oris r0, r0, 0x4dc0
-/* 800C2E5C 000BE37C  90 E6 D2 50 */	stw r7, -0x2db0(r6)
+/* 800C2E5C 000BE37C  90 E6 D2 50 */	stw r7, lbl_801ED250@l(r6)
 /* 800C2E60 000BE380  90 A4 00 04 */	stw r5, 4(r4)
 /* 800C2E64 000BE384  90 64 00 08 */	stw r3, 8(r4)
 /* 800C2E68 000BE388  90 04 00 0C */	stw r0, 0xc(r4)

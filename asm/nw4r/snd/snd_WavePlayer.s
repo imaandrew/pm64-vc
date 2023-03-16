@@ -815,7 +815,7 @@ glabel __sinit_snd_WavePlayer_cpp
 /* 80143FD4 0013F4F4  38 84 3F F0 */	addi r4, r4, __dt__Q36nw4hbm2ut39LinkList__Q36nw4hbm3snd10WavePlayer48__Fv@l
 /* 80143FD8 0013F4F8  90 03 00 08 */	stw r0, 8(r3)
 /* 80143FDC 0013F4FC  38 A5 3B 28 */	addi r5, r5, lbl_80243B28@l
-/* 80143FE0 0013F500  90 06 3B 34 */	stw r0, 0x3b34(r6)
+/* 80143FE0 0013F500  90 06 3B 34 */	stw r0, lbl_80243B34@l(r6)
 /* 80143FE4 0013F504  90 E3 00 04 */	stw r7, 4(r3)
 /* 80143FE8 0013F508  90 E3 00 08 */	stw r7, 8(r3)
 /* 80143FEC 0013F50C  48 01 80 DC */	b __register_global_object_tmp

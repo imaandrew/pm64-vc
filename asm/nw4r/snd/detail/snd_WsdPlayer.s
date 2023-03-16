@@ -1304,7 +1304,7 @@ glabel UpdateAllPlayers__Q46nw4hbm3snd6detail9WsdPlayerFv
 /* 801458FC 00140E1C  4C C6 31 82 */	crclr 6
 /* 80145900 00140E20  4B FD 04 C1 */	bl Panic__Q36nw4hbm2db6detailFPCciPCce
 .L_80145904:
-/* 80145904 00140E24  38 7D 3B 54 */	addi r3, r29, 0x3b54
+/* 80145904 00140E24  38 7D 3B 54 */	addi r3, r29, lbl_80243B54@l
 /* 80145908 00140E28  38 9B 00 14 */	addi r4, r27, 0x14
 /* 8014590C 00140E2C  48 00 6A 71 */	bl Erase__Q46nw4hbm2ut6detail12LinkListImplFPQ36nw4hbm2ut12LinkListNode
 .L_80145910:
@@ -1459,7 +1459,7 @@ glabel __sinit_snd_WsdPlayer_cpp
 /* 80145AD0 00140FF0  38 84 5A EC */	addi r4, r4, __dt__Q36nw4hbm2ut43LinkList__Q46nw4hbm3snd6detail9WsdPlayer0__Fv@l
 /* 80145AD4 00140FF4  90 03 00 08 */	stw r0, 8(r3)
 /* 80145AD8 00140FF8  38 A5 3B 48 */	addi r5, r5, lbl_80243B48@l
-/* 80145ADC 00140FFC  90 06 3B 54 */	stw r0, 0x3b54(r6)
+/* 80145ADC 00140FFC  90 06 3B 54 */	stw r0, lbl_80243B54@l(r6)
 /* 80145AE0 00141000  90 E3 00 04 */	stw r7, 4(r3)
 /* 80145AE4 00141004  90 E3 00 08 */	stw r7, 8(r3)
 /* 80145AE8 00141008  48 01 65 E0 */	b __register_global_object_tmp

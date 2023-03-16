@@ -13,7 +13,7 @@ glabel HID_DevInit
 /* 800F26FC 000EDC1C  38 7F 30 D0 */	addi r3, r31, lbl_802230D0@l
 /* 800F2700 000EDC20  4B F1 1D 3D */	bl memset
 /* 800F2704 000EDC24  3C 60 80 0F */	lis r3, hidd_proc_repage_timeout@ha
-/* 800F2708 000EDC28  38 BF 30 D0 */	addi r5, r31, 0x30d0
+/* 800F2708 000EDC28  38 BF 30 D0 */	addi r5, r31, lbl_802230D0@l
 /* 800F270C 000EDC2C  38 C0 00 01 */	li r6, 1
 /* 800F2710 000EDC30  38 80 00 40 */	li r4, 0x40
 /* 800F2714 000EDC34  38 63 28 08 */	addi r3, r3, hidd_proc_repage_timeout@l

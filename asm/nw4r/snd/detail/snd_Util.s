@@ -258,7 +258,7 @@ glabel CalcRandom__Q46nw4hbm3snd6detail4UtilFv
 /* 801431DC 0013E6FC  7C 64 01 D6 */	mullw r3, r4, r0
 /* 801431E0 0013E700  3C 63 3C 6F */	addis r3, r3, 0x3c6f
 /* 801431E4 0013E704  38 03 F3 5F */	addi r0, r3, -3233
-/* 801431E8 0013E708  90 05 A6 58 */	stw r0, -0x59a8(r5)
+/* 801431E8 0013E708  90 05 A6 58 */	stw r0, lbl_801AA658@l(r5)
 /* 801431EC 0013E70C  54 03 84 3E */	srwi r3, r0, 0x10
 /* 801431F0 0013E710  4E 80 00 20 */	blr
 

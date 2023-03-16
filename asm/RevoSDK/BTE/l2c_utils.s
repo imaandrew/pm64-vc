@@ -1961,7 +1961,7 @@ glabel l2cu_create_conn
 /* 800FB830 000F6D50  40 82 00 8C */	bne .L_800FB8BC
 /* 800FB834 000F6D54  38 78 00 2A */	addi r3, r24, 0x2a
 /* 800FB838 000F6D58  4B FE F1 D5 */	bl btm_is_sco_active_by_bdaddr
-/* 800FB83C 000F6D5C  88 1A 36 20 */	lbz r0, 0x3620(r26)
+/* 800FB83C 000F6D5C  88 1A 36 20 */	lbz r0, lbl_80223620@l(r26)
 /* 800FB840 000F6D60  7C 7B 1B 78 */	mr r27, r3
 /* 800FB844 000F6D64  28 00 00 03 */	cmplwi r0, 3
 /* 800FB848 000F6D68  41 80 00 24 */	blt .L_800FB86C

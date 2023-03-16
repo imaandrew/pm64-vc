@@ -1483,7 +1483,7 @@ glabel CalcLineRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17T
 /* 801220AC 0011D5CC  D0 0F 00 00 */	stfs f0, 0(r15)
 /* 801220B0 0011D5D0  D0 0F 00 08 */	stfs f0, 8(r15)
 /* 801220B4 0011D5D4  48 03 54 0D */	bl GetLineHeight__Q36nw4hbm2ut17TextWriterBase_w_CFv
-/* 801220B8 0011D5D8  C0 16 65 60 */	lfs f0, 0x6560(r22)
+/* 801220B8 0011D5D8  C0 16 65 60 */	lfs f0, lbl_80176560@l(r22)
 /* 801220BC 0011D5DC  FC 00 08 40 */	fcmpo cr0, f0, f1
 /* 801220C0 0011D5E0  40 81 00 08 */	ble .L_801220C8
 /* 801220C4 0011D5E4  48 00 00 08 */	b .L_801220CC
@@ -3187,7 +3187,7 @@ glabel CalcStringRectImpl_w___25lyt_textBox_cppFPQ36nw4hbm2ut4RectPQ36nw4hbm2ut1
 /* 801238C8 0011EDE8  D0 3B 00 04 */	stfs f1, 4(r27)
 /* 801238CC 0011EDEC  D0 3B 00 0C */	stfs f1, 0xc(r27)
 /* 801238D0 0011EDF0  48 02 6E 61 */	bl SetCursor__Q36nw4hbm2ut10CharWriterFff
-/* 801238D4 0011EDF4  C3 FA 65 60 */	lfs f31, 0x6560(r26)
+/* 801238D4 0011EDF4  C3 FA 65 60 */	lfs f31, lbl_80176560@l(r26)
 .L_801238D8:
 /* 801238D8 0011EDF8  FC 20 F0 90 */	fmr f1, f30
 /* 801238DC 0011EDFC  D3 E1 00 10 */	stfs f31, 0x10(r1)

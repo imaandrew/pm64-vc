@@ -1383,7 +1383,7 @@ glabel impl_GetSoundInfoOffset__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUl
 /* 80138660 00133B80  40 82 00 18 */	bne .L_80138678
 /* 80138664 00133B84  3C 60 80 24 */	lis r3, lbl_802390D8@ha
 /* 80138668 00133B88  38 83 90 D8 */	addi r4, r3, lbl_802390D8@l
-/* 8013866C 00133B8C  80 63 90 D8 */	lwz r3, -0x6f28(r3)
+/* 8013866C 00133B8C  80 63 90 D8 */	lwz r3, lbl_802390D8@l(r3)
 /* 80138670 00133B90  80 84 00 04 */	lwz r4, 4(r4)
 /* 80138674 00133B94  48 00 00 CC */	b .L_80138740
 .L_80138678:
@@ -1392,7 +1392,7 @@ glabel impl_GetSoundInfoOffset__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUl
 /* 80138680 00133BA0  41 80 00 18 */	blt .L_80138698
 /* 80138684 00133BA4  3C 60 80 24 */	lis r3, lbl_802390D8@ha
 /* 80138688 00133BA8  38 83 90 D8 */	addi r4, r3, lbl_802390D8@l
-/* 8013868C 00133BAC  80 63 90 D8 */	lwz r3, -0x6f28(r3)
+/* 8013868C 00133BAC  80 63 90 D8 */	lwz r3, lbl_802390D8@l(r3)
 /* 80138690 00133BB0  80 84 00 04 */	lwz r4, 4(r4)
 /* 80138694 00133BB4  48 00 00 AC */	b .L_80138740
 .L_80138698:
@@ -1423,7 +1423,7 @@ glabel impl_GetSoundInfoOffset__Q46nw4hbm3snd6detail22SoundArchiveFileReaderCFUl
 /* 801386F4 00133C14  40 82 00 18 */	bne .L_8013870C
 /* 801386F8 00133C18  3C 60 80 24 */	lis r3, lbl_802390D8@ha
 /* 801386FC 00133C1C  38 83 90 D8 */	addi r4, r3, lbl_802390D8@l
-/* 80138700 00133C20  80 63 90 D8 */	lwz r3, -0x6f28(r3)
+/* 80138700 00133C20  80 63 90 D8 */	lwz r3, lbl_802390D8@l(r3)
 /* 80138704 00133C24  80 84 00 04 */	lwz r4, 4(r4)
 /* 80138708 00133C28  48 00 00 38 */	b .L_80138740
 .L_8013870C:

@@ -56,7 +56,7 @@ glabel hidd_pm_set_now
 /* 800F2988 000EDEA8  38 9F 30 D0 */	addi r4, r31, lbl_802230D0@l
 /* 800F298C 000EDEAC  38 60 00 80 */	li r3, 0x80
 /* 800F2990 000EDEB0  4B FF 66 F5 */	bl BTM_SetPowerMode
-/* 800F2994 000EDEB4  38 9F 30 D0 */	addi r4, r31, 0x30d0
+/* 800F2994 000EDEB4  38 9F 30 D0 */	addi r4, r31, lbl_802230D0@l
 /* 800F2998 000EDEB8  38 00 00 01 */	li r0, 1
 /* 800F299C 000EDEBC  98 61 00 08 */	stb r3, 8(r1)
 /* 800F29A0 000EDEC0  98 04 00 6E */	stb r0, 0x6e(r4)
@@ -69,7 +69,7 @@ glabel hidd_pm_set_now
 /* 800F29B8 000EDED8  38 9F 30 D0 */	addi r4, r31, lbl_802230D0@l
 /* 800F29BC 000EDEDC  38 60 00 80 */	li r3, 0x80
 /* 800F29C0 000EDEE0  4B FF 66 C5 */	bl BTM_SetPowerMode
-/* 800F29C4 000EDEE4  38 9F 30 D0 */	addi r4, r31, 0x30d0
+/* 800F29C4 000EDEE4  38 9F 30 D0 */	addi r4, r31, lbl_802230D0@l
 /* 800F29C8 000EDEE8  38 00 00 01 */	li r0, 1
 /* 800F29CC 000EDEEC  98 61 00 08 */	stb r3, 8(r1)
 /* 800F29D0 000EDEF0  98 04 00 6E */	stb r0, 0x6e(r4)
@@ -86,7 +86,7 @@ glabel hidd_pm_set_now
 /* 800F29F4 000EDF14  38 9F 30 D0 */	addi r4, r31, lbl_802230D0@l
 /* 800F29F8 000EDF18  38 60 00 80 */	li r3, 0x80
 /* 800F29FC 000EDF1C  4B FF 66 89 */	bl BTM_SetPowerMode
-/* 800F2A00 000EDF20  38 9F 30 D0 */	addi r4, r31, 0x30d0
+/* 800F2A00 000EDF20  38 9F 30 D0 */	addi r4, r31, lbl_802230D0@l
 /* 800F2A04 000EDF24  38 00 00 01 */	li r0, 1
 /* 800F2A08 000EDF28  98 61 00 08 */	stb r3, 8(r1)
 /* 800F2A0C 000EDF2C  98 04 00 6E */	stb r0, 0x6e(r4)
@@ -103,7 +103,7 @@ glabel hidd_pm_set_now
 /* 800F2A30 000EDF50  38 9F 30 D0 */	addi r4, r31, lbl_802230D0@l
 /* 800F2A34 000EDF54  38 60 00 80 */	li r3, 0x80
 /* 800F2A38 000EDF58  4B FF 66 4D */	bl BTM_SetPowerMode
-/* 800F2A3C 000EDF5C  38 9F 30 D0 */	addi r4, r31, 0x30d0
+/* 800F2A3C 000EDF5C  38 9F 30 D0 */	addi r4, r31, lbl_802230D0@l
 /* 800F2A40 000EDF60  38 00 00 01 */	li r0, 1
 /* 800F2A44 000EDF64  98 61 00 08 */	stb r3, 8(r1)
 /* 800F2A48 000EDF68  98 04 00 6E */	stb r0, 0x6e(r4)

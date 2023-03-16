@@ -2094,7 +2094,7 @@ glabel CalcStringRectImpl__Q36nw4hbm2ut17TextWriterBase_c_FPQ36nw4hbm2ut4RectPCc
 /* 80154FCC 001504EC  D0 3C 00 04 */	stfs f1, 4(r28)
 /* 80154FD0 001504F0  D0 3C 00 0C */	stfs f1, 0xc(r28)
 /* 80154FD4 001504F4  4B FF 57 5D */	bl SetCursor__Q36nw4hbm2ut10CharWriterFff
-/* 80154FD8 001504F8  C3 FF 82 F0 */	lfs f31, -0x7d10(r31)
+/* 80154FD8 001504F8  C3 FF 82 F0 */	lfs f31, lbl_801782F0@l(r31)
 .L_80154FDC:
 /* 80154FDC 001504FC  D3 E1 00 08 */	stfs f31, 8(r1)
 /* 80154FE0 00150500  7F 63 DB 78 */	mr r3, r27
@@ -7348,7 +7348,7 @@ glabel CalcStringRectImpl__Q36nw4hbm2ut17TextWriterBase_w_FPQ36nw4hbm2ut4RectPCw
 /* 80159AF8 00155018  D0 3C 00 04 */	stfs f1, 4(r28)
 /* 80159AFC 0015501C  D0 3C 00 0C */	stfs f1, 0xc(r28)
 /* 80159B00 00155020  4B FF 0C 31 */	bl SetCursor__Q36nw4hbm2ut10CharWriterFff
-/* 80159B04 00155024  C3 FF 82 F0 */	lfs f31, -0x7d10(r31)
+/* 80159B04 00155024  C3 FF 82 F0 */	lfs f31, lbl_801782F0@l(r31)
 .L_80159B08:
 /* 80159B08 00155028  D3 E1 00 08 */	stfs f31, 8(r1)
 /* 80159B0C 0015502C  7F 63 DB 78 */	mr r3, r27
@@ -9869,12 +9869,12 @@ glabel __sinit_ut_TextWriterBase_cpp
 /* 8015BF6C 0015748C  4B FF 60 B1 */	bl __ct__Q36nw4hbm2ut19TagProcessorBase_c_Fv
 /* 8015BF70 00157490  3C 80 80 15 */	lis r4, __dt__Q36nw4hbm2ut19TagProcessorBase_c_Fv@ha
 /* 8015BF74 00157494  3C A0 80 24 */	lis r5, lbl_80243BA8@ha
-/* 8015BF78 00157498  38 7E 3B C4 */	addi r3, r30, 0x3bc4
+/* 8015BF78 00157498  38 7E 3B C4 */	addi r3, r30, lbl_80243BC4@l
 /* 8015BF7C 0015749C  38 84 20 2C */	addi r4, r4, __dt__Q36nw4hbm2ut19TagProcessorBase_c_Fv@l
 /* 8015BF80 001574A0  38 A5 3B A8 */	addi r5, r5, lbl_80243BA8@l
 /* 8015BF84 001574A4  48 00 01 45 */	bl __register_global_object_tmp
 /* 8015BF88 001574A8  38 00 00 01 */	li r0, 1
-/* 8015BF8C 001574AC  98 1F 3B CC */	stb r0, 0x3bcc(r31)
+/* 8015BF8C 001574AC  98 1F 3B CC */	stb r0, lbl_80243BCC@l(r31)
 .L_8015BF90:
 /* 8015BF90 001574B0  3F C0 80 24 */	lis r30, lbl_80243BCD@ha
 /* 8015BF94 001574B4  88 1E 3B CD */	lbz r0, lbl_80243BCD@l(r30)
@@ -9885,12 +9885,12 @@ glabel __sinit_ut_TextWriterBase_cpp
 /* 8015BFA8 001574C8  4B FF 69 81 */	bl __ct__Q36nw4hbm2ut19TagProcessorBase_w_Fv
 /* 8015BFAC 001574CC  3C 80 80 15 */	lis r4, __dt__Q36nw4hbm2ut19TagProcessorBase_w@ha
 /* 8015BFB0 001574D0  3C A0 80 24 */	lis r5, lbl_80243BB4@ha
-/* 8015BFB4 001574D4  38 7F 3B C8 */	addi r3, r31, 0x3bc8
+/* 8015BFB4 001574D4  38 7F 3B C8 */	addi r3, r31, lbl_80243BC8@l
 /* 8015BFB8 001574D8  38 84 29 38 */	addi r4, r4, __dt__Q36nw4hbm2ut19TagProcessorBase_w@l
 /* 8015BFBC 001574DC  38 A5 3B B4 */	addi r5, r5, lbl_80243BB4@l
 /* 8015BFC0 001574E0  48 00 01 09 */	bl __register_global_object_tmp
 /* 8015BFC4 001574E4  38 00 00 01 */	li r0, 1
-/* 8015BFC8 001574E8  98 1E 3B CD */	stb r0, 0x3bcd(r30)
+/* 8015BFC8 001574E8  98 1E 3B CD */	stb r0, lbl_80243BCD@l(r30)
 .L_8015BFCC:
 /* 8015BFCC 001574EC  80 01 00 14 */	lwz r0, 0x14(r1)
 /* 8015BFD0 001574F0  83 E1 00 0C */	lwz r31, 0xc(r1)

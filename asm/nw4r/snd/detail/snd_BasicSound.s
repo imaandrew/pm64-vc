@@ -804,7 +804,7 @@ glabel Update__Q46nw4hbm3snd6detail10BasicSoundFv
 /* 8012D484 001289A4  EF DE 00 72 */	fmuls f30, f30, f1
 /* 8012D488 001289A8  C0 3D 00 30 */	lfs f1, 0x30(r29)
 /* 8012D48C 001289AC  FF 20 D0 90 */	fmr f25, f26
-/* 8012D490 001289B0  C3 04 66 94 */	lfs f24, 0x6694(r4)
+/* 8012D490 001289B0  C3 04 66 94 */	lfs f24, lbl_80176694@l(r4)
 /* 8012D494 001289B4  EF 9C 00 2A */	fadds f28, f28, f0
 /* 8012D498 001289B8  C0 1D 00 34 */	lfs f0, 0x34(r29)
 /* 8012D49C 001289BC  EF 5A 08 2A */	fadds f26, f26, f1

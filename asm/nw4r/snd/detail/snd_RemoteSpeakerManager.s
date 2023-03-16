@@ -16,7 +16,7 @@ glabel GetInstance__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFv
 /* 80132F40 0012E460  3C 60 80 24 */	lis r3, lbl_80238DE0@ha
 /* 80132F44 0012E464  38 00 00 00 */	li r0, 0
 /* 80132F48 0012E468  3B C3 8D E0 */	addi r30, r3, lbl_80238DE0@l
-/* 80132F4C 0012E46C  98 03 8D E0 */	stb r0, -0x7220(r3)
+/* 80132F4C 0012E46C  98 03 8D E0 */	stb r0, lbl_80238DE0@l(r3)
 /* 80132F50 0012E470  3B BE 00 38 */	addi r29, r30, 0x38
 /* 80132F54 0012E474  3B FE 02 B8 */	addi r31, r30, 0x2b8
 .L_80132F58:
@@ -137,7 +137,7 @@ glabel RemoteSpeakerAlarmProc__Q46nw4hbm3snd6detail20RemoteSpeakerManagerFP7OSAl
 /* 801330F8 0012E618  3C 60 80 24 */	lis r3, lbl_80238DE0@ha
 /* 801330FC 0012E61C  38 00 00 00 */	li r0, 0
 /* 80133100 0012E620  3B C3 8D E0 */	addi r30, r3, lbl_80238DE0@l
-/* 80133104 0012E624  98 03 8D E0 */	stb r0, -0x7220(r3)
+/* 80133104 0012E624  98 03 8D E0 */	stb r0, lbl_80238DE0@l(r3)
 /* 80133108 0012E628  3B 9E 00 38 */	addi r28, r30, 0x38
 /* 8013310C 0012E62C  3B FE 02 B8 */	addi r31, r30, 0x2b8
 .L_80133110:

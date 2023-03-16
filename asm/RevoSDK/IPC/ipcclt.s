@@ -247,7 +247,7 @@ glabel IPCInterruptHandler
 .L_800BF1C8:
 /* 800BF1C8 000BA6E8  3C 80 80 1F */	lis r4, lbl_801ED040@ha
 /* 800BF1CC 000BA6EC  38 64 D0 40 */	addi r3, r4, lbl_801ED040@l
-/* 800BF1D0 000BA6F0  80 84 D0 40 */	lwz r4, -0x2fc0(r4)
+/* 800BF1D0 000BA6F0  80 84 D0 40 */	lwz r4, lbl_801ED040@l(r4)
 /* 800BF1D4 000BA6F4  80 03 00 04 */	lwz r0, 4(r3)
 /* 800BF1D8 000BA6F8  7C 00 20 40 */	cmplw r0, r4
 /* 800BF1DC 000BA6FC  40 80 00 0C */	bge .L_800BF1E8
@@ -284,7 +284,7 @@ glabel IPCInterruptHandler
 /* 800BF24C 000BA76C  3C E0 80 1F */	lis r7, lbl_801ED040@ha
 /* 800BF250 000BA770  80 6D 84 F8 */	lwz r3, lbl_80246978@sda21(r13)
 /* 800BF254 000BA774  38 C7 D0 40 */	addi r6, r7, lbl_801ED040@l
-/* 800BF258 000BA778  80 87 D0 40 */	lwz r4, -0x2fc0(r7)
+/* 800BF258 000BA778  80 87 D0 40 */	lwz r4, lbl_801ED040@l(r7)
 /* 800BF25C 000BA77C  80 A6 00 08 */	lwz r5, 8(r6)
 /* 800BF260 000BA780  38 03 FF FF */	addi r0, r3, -1
 /* 800BF264 000BA784  90 0D 84 F8 */	stw r0, lbl_80246978@sda21(r13)
@@ -292,7 +292,7 @@ glabel IPCInterruptHandler
 /* 800BF26C 000BA78C  38 05 00 01 */	addi r0, r5, 1
 /* 800BF270 000BA790  38 60 00 01 */	li r3, 1
 /* 800BF274 000BA794  54 00 07 3E */	clrlwi r0, r0, 0x1c
-/* 800BF278 000BA798  90 87 D0 40 */	stw r4, -0x2fc0(r7)
+/* 800BF278 000BA798  90 87 D0 40 */	stw r4, lbl_801ED040@l(r7)
 /* 800BF27C 000BA79C  90 06 00 08 */	stw r0, 8(r6)
 /* 800BF280 000BA7A0  4B FF FB B9 */	bl IPCReadReg
 /* 800BF284 000BA7A4  54 60 06 B6 */	rlwinm r0, r3, 0, 0x1a, 0x1b
@@ -383,7 +383,7 @@ glabel __ipc_sendreq
 /* 800BF3B4 000BA8D4  3C 80 80 1F */	lis r4, lbl_801ED040@ha
 /* 800BF3B8 000BA8D8  7C 7E 1B 78 */	mr r30, r3
 /* 800BF3BC 000BA8DC  38 64 D0 40 */	addi r3, r4, lbl_801ED040@l
-/* 800BF3C0 000BA8E0  80 84 D0 40 */	lwz r4, -0x2fc0(r4)
+/* 800BF3C0 000BA8E0  80 84 D0 40 */	lwz r4, lbl_801ED040@l(r4)
 /* 800BF3C4 000BA8E4  80 03 00 04 */	lwz r0, 4(r3)
 /* 800BF3C8 000BA8E8  3B E0 00 00 */	li r31, 0
 /* 800BF3CC 000BA8EC  7C 00 20 40 */	cmplw r0, r4
@@ -437,7 +437,7 @@ glabel __ipc_sendreq
 /* 800BF478 000BA998  40 81 00 D0 */	ble .L_800BF548
 /* 800BF47C 000BA99C  3C 80 80 1F */	lis r4, lbl_801ED040@ha
 /* 800BF480 000BA9A0  38 64 D0 40 */	addi r3, r4, lbl_801ED040@l
-/* 800BF484 000BA9A4  80 84 D0 40 */	lwz r4, -0x2fc0(r4)
+/* 800BF484 000BA9A4  80 84 D0 40 */	lwz r4, lbl_801ED040@l(r4)
 /* 800BF488 000BA9A8  80 03 00 04 */	lwz r0, 4(r3)
 /* 800BF48C 000BA9AC  7C 00 20 40 */	cmplw r0, r4
 /* 800BF490 000BA9B0  40 80 00 0C */	bge .L_800BF49C
@@ -474,7 +474,7 @@ glabel __ipc_sendreq
 /* 800BF500 000BAA20  3C E0 80 1F */	lis r7, lbl_801ED040@ha
 /* 800BF504 000BAA24  80 6D 84 F8 */	lwz r3, lbl_80246978@sda21(r13)
 /* 800BF508 000BAA28  38 C7 D0 40 */	addi r6, r7, lbl_801ED040@l
-/* 800BF50C 000BAA2C  80 87 D0 40 */	lwz r4, -0x2fc0(r7)
+/* 800BF50C 000BAA2C  80 87 D0 40 */	lwz r4, lbl_801ED040@l(r7)
 /* 800BF510 000BAA30  80 A6 00 08 */	lwz r5, 8(r6)
 /* 800BF514 000BAA34  38 03 FF FF */	addi r0, r3, -1
 /* 800BF518 000BAA38  90 0D 84 F8 */	stw r0, lbl_80246978@sda21(r13)
@@ -482,7 +482,7 @@ glabel __ipc_sendreq
 /* 800BF520 000BAA40  38 05 00 01 */	addi r0, r5, 1
 /* 800BF524 000BAA44  38 60 00 01 */	li r3, 1
 /* 800BF528 000BAA48  54 00 07 3E */	clrlwi r0, r0, 0x1c
-/* 800BF52C 000BAA4C  90 87 D0 40 */	stw r4, -0x2fc0(r7)
+/* 800BF52C 000BAA4C  90 87 D0 40 */	stw r4, lbl_801ED040@l(r7)
 /* 800BF530 000BAA50  90 06 00 08 */	stw r0, 8(r6)
 /* 800BF534 000BAA54  4B FF F9 05 */	bl IPCReadReg
 /* 800BF538 000BAA58  54 60 06 B6 */	rlwinm r0, r3, 0, 0x1a, 0x1b

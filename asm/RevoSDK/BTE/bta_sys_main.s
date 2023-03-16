@@ -13,7 +13,7 @@ glabel bta_sys_init
 /* 800DDA80 000D8FA0  38 7F 00 B8 */	addi r3, r31, lbl_802200B8@l
 /* 800DDA84 000D8FA4  4B F2 69 B9 */	bl memset
 /* 800DDA88 000D8FA8  80 AD 86 10 */	lwz r5, lbl_80246A90@sda21(r13)
-/* 800DDA8C 000D8FAC  3B FF 00 B8 */	addi r31, r31, 0xb8
+/* 800DDA8C 000D8FAC  3B FF 00 B8 */	addi r31, r31, lbl_802200B8@l
 /* 800DDA90 000D8FB0  38 7F 00 68 */	addi r3, r31, 0x68
 /* 800DDA94 000D8FB4  38 80 03 E8 */	li r4, 0x3e8
 /* 800DDA98 000D8FB8  88 A5 00 03 */	lbz r5, 3(r5)

@@ -1823,7 +1823,7 @@ glabel __sinit_snd_SeqPlayer_cpp
 /* 80134CB4 001301D4  38 84 4C D0 */	addi r4, r4, __dt__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail9SeqPlayer56__Fv@l
 /* 80134CB8 001301D8  90 03 00 08 */	stw r0, 8(r3)
 /* 80134CBC 001301DC  38 A5 90 98 */	addi r5, r5, lbl_80239098@l
-/* 80134CC0 001301E0  90 06 90 A4 */	stw r0, -0x6f5c(r6)
+/* 80134CC0 001301E0  90 06 90 A4 */	stw r0, lbl_802390A4@l(r6)
 /* 80134CC4 001301E4  90 E3 00 04 */	stw r7, 4(r3)
 /* 80134CC8 001301E8  90 E3 00 08 */	stw r7, 8(r3)
 /* 80134CCC 001301EC  48 02 73 FC */	b __register_global_object_tmp

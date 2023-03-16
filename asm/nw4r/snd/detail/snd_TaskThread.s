@@ -12,7 +12,7 @@ glabel GetInstance__Q46nw4hbm3snd6detail10TaskThreadFv
 /* 80142C68 0013E188  38 63 17 C0 */	addi r3, r3, lbl_802417C0@l
 /* 80142C6C 0013E18C  38 80 00 00 */	li r4, 0
 /* 80142C70 0013E190  98 83 23 60 */	stb r4, 0x2360(r3)
-/* 80142C74 0013E194  98 05 17 B8 */	stb r0, 0x17b8(r5)
+/* 80142C74 0013E194  98 05 17 B8 */	stb r0, lbl_802417B8@l(r5)
 .L_80142C78:
 /* 80142C78 0013E198  3C 60 80 24 */	lis r3, lbl_802417C0@ha
 /* 80142C7C 0013E19C  38 63 17 C0 */	addi r3, r3, lbl_802417C0@l

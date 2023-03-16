@@ -60,7 +60,7 @@ glabel NWC24iPrepareShutdown
 /* 8009A73C 00095C5C  38 64 56 40 */	addi r3, r4, lbl_801C5640@l
 /* 8009A740 00095C60  93 E1 00 0C */	stw r31, 0xc(r1)
 /* 8009A744 00095C64  3B E0 00 00 */	li r31, 0
-/* 8009A748 00095C68  90 A4 56 40 */	stw r5, 0x5640(r4)
+/* 8009A748 00095C68  90 A4 56 40 */	stw r5, lbl_801C5640@l(r4)
 /* 8009A74C 00095C6C  90 03 00 04 */	stw r0, 4(r3)
 /* 8009A750 00095C70  4B FF BF D5 */	bl OSRegisterShutdownFunction
 /* 8009A754 00095C74  80 0D 82 88 */	lwz r0, lbl_80246708@sda21(r13)
@@ -256,7 +256,7 @@ glabel NWC24iRequestShutdown
 /* 8009A9D4 00095EF4  7C 8A 23 78 */	mr r10, r4
 /* 8009A9D8 00095EF8  38 E7 56 A0 */	addi r7, r7, lbl_801C56A0@l
 /* 8009A9DC 00095EFC  90 65 56 80 */	stw r3, lbl_801C5680@l(r5)
-/* 8009A9E0 00095F00  38 A5 56 80 */	addi r5, r5, 0x5680
+/* 8009A9E0 00095F00  38 A5 56 80 */	addi r5, r5, lbl_801C5680@l
 /* 8009A9E4 00095F04  80 6D 82 88 */	lwz r3, lbl_80246708@sda21(r13)
 /* 8009A9E8 00095F08  39 29 AB F4 */	addi r9, r9, CallbackAsyncIpc@l
 /* 8009A9EC 00095F0C  38 80 00 28 */	li r4, 0x28
@@ -374,7 +374,7 @@ glabel NWC24iSetRtcCounter_
 /* 8009AB60 00096080  3C 80 80 1C */	lis r4, lbl_801C56C0@ha
 /* 8009AB64 00096084  3C E0 80 1C */	lis r7, lbl_801C56E0@ha
 /* 8009AB68 00096088  93 A4 56 C0 */	stw r29, lbl_801C56C0@l(r4)
-/* 8009AB6C 0009608C  38 A4 56 C0 */	addi r5, r4, 0x56c0
+/* 8009AB6C 0009608C  38 A4 56 C0 */	addi r5, r4, lbl_801C56C0@l
 /* 8009AB70 00096090  7F C3 F3 78 */	mr r3, r30
 /* 8009AB74 00096094  38 E7 56 E0 */	addi r7, r7, lbl_801C56E0@l
 /* 8009AB78 00096098  38 80 00 17 */	li r4, 0x17

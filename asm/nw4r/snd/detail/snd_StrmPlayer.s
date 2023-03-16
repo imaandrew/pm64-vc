@@ -625,18 +625,18 @@ glabel Update__Q46nw4hbm3snd6detail10StrmPlayerFv
 /* 801400EC 0013B60C  C1 3B 04 48 */	lfs f9, 0x448(r27)
 /* 801400F0 0013B610  D1 01 00 30 */	stfs f8, 0x30(r1)
 /* 801400F4 0013B614  EF 9C 48 2A */	fadds f28, f28, f9
-/* 801400F8 0013B618  C3 E5 6A F0 */	lfs f31, 0x6af0(r5)
+/* 801400F8 0013B618  C3 E5 6A F0 */	lfs f31, lbl_80176AF0@l(r5)
 /* 801400FC 0013B61C  D1 01 00 18 */	stfs f8, 0x18(r1)
 /* 80140100 0013B620  C1 5B 04 50 */	lfs f10, 0x450(r27)
 /* 80140104 0013B624  D1 01 00 1C */	stfs f8, 0x1c(r1)
-/* 80140108 0013B628  C3 45 6A F0 */	lfs f26, 0x6af0(r5)
+/* 80140108 0013B628  C3 45 6A F0 */	lfs f26, lbl_80176AF0@l(r5)
 /* 8014010C 0013B62C  EF FF 02 B2 */	fmuls f31, f31, f10
 /* 80140110 0013B630  D1 01 00 20 */	stfs f8, 0x20(r1)
 /* 80140114 0013B634  C1 3B 04 54 */	lfs f9, 0x454(r27)
 /* 80140118 0013B638  D1 01 00 24 */	stfs f8, 0x24(r1)
 /* 8014011C 0013B63C  C1 1B 04 4C */	lfs f8, 0x44c(r27)
 /* 80140120 0013B640  EF 5A 48 2A */	fadds f26, f26, f9
-/* 80140124 0013B644  C3 24 6A F4 */	lfs f25, 0x6af4(r4)
+/* 80140124 0013B644  C3 24 6A F4 */	lfs f25, lbl_80176AF4@l(r4)
 /* 80140128 0013B648  EF 7B 40 2A */	fadds f27, f27, f8
 /* 8014012C 0013B64C  C1 1B 04 60 */	lfs f8, 0x460(r27)
 /* 80140130 0013B650  D0 E1 00 28 */	stfs f7, 0x28(r1)
@@ -2835,7 +2835,7 @@ glabel __sinit_snd_StrmPlayer_cpp
 /* 80141FA8 0013D4C8  38 84 1F C4 */	addi r4, r4, __dt__Q36nw4hbm2ut44LinkList__Q46nw4hbm3snd6detail10StrmPlayer__Fv@l
 /* 80141FAC 0013D4CC  90 03 00 08 */	stw r0, 8(r3)
 /* 80141FB0 0013D4D0  38 A5 B6 C0 */	addi r5, r5, lbl_8023B6C0@l
-/* 80141FB4 0013D4D4  90 06 B6 CC */	stw r0, -0x4934(r6)
+/* 80141FB4 0013D4D4  90 06 B6 CC */	stw r0, lbl_8023B6CC@l(r6)
 /* 80141FB8 0013D4D8  90 E3 00 04 */	stw r7, 4(r3)
 /* 80141FBC 0013D4DC  90 E3 00 08 */	stw r7, 8(r3)
 /* 80141FC0 0013D4E0  48 01 A1 08 */	b __register_global_object_tmp

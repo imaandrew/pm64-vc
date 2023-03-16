@@ -33,7 +33,7 @@ glabel bta_dm_enable
 /* 800DDF38 000D9458  90 04 00 50 */	stw r0, 0x50(r4)
 /* 800DDF3C 000D945C  38 63 5B 58 */	addi r3, r3, lbl_80175B58@l
 /* 800DDF40 000D9460  48 00 CB 55 */	bl BTM_SecRegister
-/* 800DDF44 000D9464  3B FF 5A 28 */	addi r31, r31, 0x5a28
+/* 800DDF44 000D9464  3B FF 5A 28 */	addi r31, r31, lbl_80175A28@l
 /* 800DDF48 000D9468  A0 7F 00 08 */	lhz r3, 8(r31)
 /* 800DDF4C 000D946C  48 00 64 E1 */	bl BTM_SetDefaultLinkSuperTout
 /* 800DDF50 000D9470  A0 7F 00 06 */	lhz r3, 6(r31)
